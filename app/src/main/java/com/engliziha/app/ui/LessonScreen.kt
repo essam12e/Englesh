@@ -1,5 +1,6 @@
 package com.engliziha.app.ui
 
+import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.ConnectivityManager
 import android.net.Network
@@ -30,6 +31,7 @@ import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Slider
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -87,7 +89,7 @@ fun LessonScreen(
     Column(Modifier.fillMaxSize()) {
         TopBar("الدرس ${lesson.label} · ${lesson.level}", onBack)
         val online = rememberOnline()
-        if (online) LessonPlayer(lesson, store, onEnded = { finished = true }) else OfflinePanel()
+        if (online) LessonPlayer(lesson, store, onEnded = { finished = true }) else OfflinePanel(lesson.id)
         Column(
             Modifier.weight(1f).verticalScroll(rememberScrollState()).navigationBarsPadding()
                 .padding(start = 20.dp, end = 20.dp, top = 16.dp, bottom = 32.dp),
@@ -205,7 +207,8 @@ private fun rememberOnline(): Boolean {
 }
 
 @Composable
-private fun OfflinePanel() {
+private fun OfflinePanel(videoId: String) {
+    val context = LocalContext.current
     Surface(color = MaterialTheme.colorScheme.surfaceContainerHigh, modifier = Modifier.fillMaxWidth()) {
         Column(Modifier.padding(horizontal = 20.dp, vertical = 18.dp)) {
             Text("📴 أنت الآن بدون إنترنت", style = MaterialTheme.typography.titleMedium)
@@ -213,6 +216,15 @@ private fun OfflinePanel() {
                 "الفيديو يُشغَّل من يوتيوب ويحتاج اتصالاً. يمكنك الآن دراسة ملخص الدرس وكلماته وحل الاختبار، وسيظهر الفيديو تلقائياً عند عودة الاتصال.",
                 style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
+            Spacer(Modifier.height(8.dp))
+            // A video saved with the YouTube app's own Download button plays there without internet.
+            OutlinedButton(onClick = {
+                try {
+                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId")))
+                } catch (e: ActivityNotFoundException) {
+                    context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=$videoId")))
+                }
+            }) { Text("▶ شاهده من تنزيلاتك في تطبيق يوتيوب") }
         }
     }
 }
