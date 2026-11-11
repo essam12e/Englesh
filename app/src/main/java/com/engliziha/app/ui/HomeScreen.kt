@@ -1,0 +1,263 @@
+package com.engliziha.app.ui
+
+import android.widget.Toast
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.navigationBarsPadding
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Lock
+import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.engliziha.app.data.Course
+import com.engliziha.app.data.Lesson
+import com.engliziha.app.data.Level
+import com.engliziha.app.data.ProgressState
+import com.engliziha.app.data.currentLesson
+import com.engliziha.app.data.isUnlocked
+
+@Composable
+fun HomeScreen(
+    course: Course,
+    state: ProgressState,
+    onLevel: (String) -> Unit,
+    onLesson: (String) -> Unit,
+    onRecords: () -> Unit,
+) {
+    val extra = LocalExtra.current
+    val passed = course.all.count { state.lessons[it.n]?.passed == true }
+    // Resume the lesson last opened if it is still unfinished, otherwise the next one in the path.
+    val resume = state.last?.let(course::lesson)?.takeIf { state.lessons[it.n]?.passed != true }
+        ?: course.currentLesson(state)
+
+    LazyColumn(
+        Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding(),
+        contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 20.dp, bottom = 32.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        item {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Column(Modifier.weight(1f)) {
+                    Text("تعلّم الإنجليزية في 365 يوماً", style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Text("إنجليزيها", style = MaterialTheme.typography.displaySmall, color = MaterialTheme.colorScheme.primary)
+                }
+                TextButton(onClick = onRecords) { Text("السجلات") }
+            }
+        }
+        if (resume != null) item {
+            ResumeCard(resume, state, passed, course.all.size) { onLesson(resume.n) }
+            Spacer(Modifier.height(12.dp))
+            Text("المستويات", style = MaterialTheme.typography.titleLarge)
+        }
+        items(course.levels, key = { it.code }) { level ->
+            val context = LocalContext.current
+            val open = level.lessons.firstOrNull()?.let { course.isUnlocked(it.n, state) } ?: false
+            LevelRow(level, state, open, extra.level(level.code)) {
+                if (open) onLevel(level.code)
+                else Toast.makeText(context, "أكمل المستوى السابق أولاً لفتح هذا المستوى", Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+}
+
+@Composable
+private fun ResumeCard(lesson: Lesson, state: ProgressState, passed: Int, total: Int, onClick: () -> Unit) {
+    val progress = state.lessons[lesson.n]
+    val started = (progress?.pos ?: 0f) > 5f
+    Surface(
+        onClick = onClick,
+        shape = MaterialTheme.shapes.large,
+        color = MaterialTheme.colorScheme.primary,
+        contentColor = MaterialTheme.colorScheme.onPrimary,
+        modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
+    ) {
+        Column(Modifier.padding(20.dp)) {
+            Text(
+                if (started) "تابع من حيث توقفت" else "درسك التالي",
+                style = MaterialTheme.typography.labelMedium,
+                color = MaterialTheme.colorScheme.onPrimary.copy(alpha = 0.75f),
+            )
+            Spacer(Modifier.height(6.dp))
+            Text("الدرس ${lesson.label} · ${lesson.level}", style = MaterialTheme.typography.titleSmall)
+            Text(lesson.title_ar, style = MaterialTheme.typography.headlineMedium, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            Spacer(Modifier.height(16.dp))
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Box(
+                    Modifier.size(48.dp).clip(CircleShape).background(MaterialTheme.colorScheme.onPrimary),
+                    contentAlignment = Alignment.Center,
+                ) {
+                    Icon(Icons.Filled.PlayArrow, null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(28.dp))
+                }
+                Spacer(Modifier.width(12.dp))
+                Column(Modifier.weight(1f)) {
+                    Text(
+                        if (started) "من الدقيقة ${formatTime(progress?.pos ?: 0f)}" else "ابدأ المشاهدة",
+                        style = MaterialTheme.typography.titleMedium,
+                    )
+                    Text("أنجزت $passed من $total درساً", style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onPrimary.copy(alpha = 0.75f))
+                }
+            }
+            Spacer(Modifier.height(14.dp))
+            ProgressLine(
+                if (total == 0) 0f else passed.toFloat() / total,
+                MaterialTheme.colorScheme.onPrimary, Modifier.fillMaxWidth(), height = 5.dp,
+            )
+        }
+    }
+}
+
+@Composable
+private fun LevelRow(level: Level, state: ProgressState, open: Boolean, color: androidx.compose.ui.graphics.Color, onClick: () -> Unit) {
+    val done = level.lessons.count { state.lessons[it.n]?.passed == true }
+    val total = level.lessons.size
+    val complete = total > 0 && done == total
+    Surface(
+        onClick = onClick,
+        shape = MaterialTheme.shapes.medium,
+        color = MaterialTheme.colorScheme.surface,
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
+            Box(
+                Modifier.size(56.dp).clip(RoundedCornerShape(topStart = 18.dp, bottomEnd = 18.dp, topEnd = 6.dp, bottomStart = 6.dp))
+                    .background(if (open) color else MaterialTheme.colorScheme.surfaceContainerHigh),
+                contentAlignment = Alignment.Center,
+            ) {
+                Text(
+                    level.code, style = Numeric, fontSize = 20.sp,
+                    color = if (open) MaterialTheme.colorScheme.surface else MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            Spacer(Modifier.width(14.dp))
+            Column(Modifier.weight(1f)) {
+                Text("المستوى ${level.name}", style = MaterialTheme.typography.titleMedium)
+                Text(level.blurb, style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                Spacer(Modifier.height(8.dp))
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    ProgressLine(if (total == 0) 0f else done.toFloat() / total, color, Modifier.weight(1f))
+                    Spacer(Modifier.width(10.dp))
+                    Text("$done / $total", style = Numeric, fontSize = 12.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
+            }
+            Spacer(Modifier.width(8.dp))
+            when {
+                !open -> Icon(Icons.Filled.Lock, "مقفل", tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(20.dp))
+                complete -> Icon(Icons.Filled.Check, "مكتمل", tint = LocalExtra.current.success, modifier = Modifier.size(22.dp))
+            }
+        }
+    }
+}
+
+@Composable
+fun LevelScreen(course: Course, code: String, state: ProgressState, onBack: () -> Unit, onLesson: (String) -> Unit) {
+    val level = course.level(code) ?: return
+    val color = LocalExtra.current.level(code)
+    val context = LocalContext.current
+    Column(Modifier.fillMaxSize()) {
+        TopBar("${level.code} · المستوى ${level.name}", onBack)
+        LazyColumn(
+            Modifier.fillMaxSize().navigationBarsPadding(),
+            contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 4.dp, bottom = 32.dp),
+        ) {
+            item {
+                Text(level.blurb, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Spacer(Modifier.height(16.dp))
+            }
+            items(level.lessons, key = { it.n }) { lesson ->
+                val open = course.isUnlocked(lesson.n, state)
+                val p = state.lessons[lesson.n]
+                val isCurrent = open && p?.passed != true
+                Row(
+                    Modifier.fillMaxWidth().clip(MaterialTheme.shapes.medium)
+                        .background(if (isCurrent) MaterialTheme.colorScheme.surface else androidx.compose.ui.graphics.Color.Transparent)
+                        .clickable {
+                            if (open) onLesson(lesson.n)
+                            else Toast.makeText(context, "انجح في اختبار الدرس السابق لفتح هذا الدرس", Toast.LENGTH_SHORT).show()
+                        }
+                        .padding(horizontal = 12.dp, vertical = 12.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Box(
+                        Modifier.size(44.dp).clip(CircleShape).background(
+                            when {
+                                p?.passed == true -> color
+                                isCurrent -> color.copy(alpha = 0.16f)
+                                else -> MaterialTheme.colorScheme.surfaceContainer
+                            }
+                        ),
+                        contentAlignment = Alignment.Center,
+                    ) {
+                        when {
+                            p?.passed == true -> Icon(Icons.Filled.Check, "ناجح", tint = MaterialTheme.colorScheme.surface, modifier = Modifier.size(22.dp))
+                            !open -> Icon(Icons.Filled.Lock, "مقفل", tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(18.dp))
+                            else -> Text(lesson.n.filter { it.isDigit() }, style = Numeric, fontSize = 15.sp, color = color)
+                        }
+                    }
+                    Spacer(Modifier.width(14.dp))
+                    Column(Modifier.weight(1f)) {
+                        Text(
+                            lesson.title_ar, style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis,
+                            color = if (open) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                        Text(
+                            "الدرس ${lesson.label} · ${formatTime(lesson.sec.toFloat())} · ${typeName(lesson.type)}",
+                            style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                        if (isCurrent && (p?.watched ?: 0f) > 0.02f) {
+                            Spacer(Modifier.height(6.dp))
+                            ProgressLine(p?.watched ?: 0f, color, Modifier.fillMaxWidth(0.6f), height = 4.dp)
+                        }
+                    }
+                    if ((p?.best ?: -1) >= 0) {
+                        Text("${p?.best}%", style = Numeric, fontSize = 14.sp, fontWeight = FontWeight.ExtraBold,
+                            color = if (p?.passed == true) LocalExtra.current.success else MaterialTheme.colorScheme.error)
+                    }
+                }
+            }
+        }
+    }
+}
+
+fun typeName(type: String): String = when (type) {
+    "grammar" -> "قواعد"
+    "vocab" -> "مفردات"
+    "conversation" -> "محادثة"
+    "skills" -> "مهارات"
+    "test" -> "اختبار مستوى"
+    else -> "درس"
+}

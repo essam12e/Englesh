@@ -1,0 +1,409 @@
+[
+{
+ "n": "114",
+ "type": "conversation",
+ "title_ar": "التحدث عن خطط الأسبوع القادم",
+ "title_en": "Talking about next week's plans",
+ "summary": "في هذا الدرس تتعلم كيف تتحدث عن خططك للأسبوع القادم باستخدام be going to والمضارع المستمر و will. التمييز بين هذه الصيغ يجعل كلامك عن المستقبل طبيعياً ودقيقاً.",
+ "notes": [
+  {"h": "be going to للنية والخطة", "t": "نستخدم be going to عندما نكون قد قررنا شيئاً من قبل.\nالصيغة: Subject + am/is/are + going to + verb\nمثال: I'm going to visit my parents next week = سأزور والديّ الأسبوع القادم.\nالنفي: I'm not going to work on Friday.\nالسؤال: Are you going to travel?"},
+  {"h": "المضارع المستمر للمواعيد المؤكدة", "t": "نستخدم Present Continuous لترتيبات محددة بوقت ومكان (موعد، حجز، اتفاق مع شخص).\nمثال: I'm meeting my manager on Monday at ten = سأقابل مديري يوم الاثنين الساعة العاشرة.\nمثال: We're flying to Dubai next Thursday."},
+  {"h": "will للقرار اللحظي", "t": "نستخدم will عندما نقرر الآن أثناء الكلام.\nمثال: A: Are you free on Tuesday? B: I think so. I'll call you tomorrow.\nلا نستخدم will غالباً للخطط التي رتبناها مسبقاً."},
+  {"h": "تعبيرات الوقت والسؤال عن الخطط", "t": "next week, next Monday, on Friday, at the weekend, the day after tomorrow, in two days.\nللسؤال: What are you doing next week? / Do you have any plans for the weekend? / What are you up to on Saturday?\nللرد بلا خطة: I haven't decided yet. / Nothing special."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تقل: I will meet the doctor tomorrow at 5 إذا كان الموعد محجوزاً. الأفضل: I'm seeing the doctor tomorrow at 5."},
+  {"k": "grammar", "t": "لا نضع حرف جر قبل next: نقول next week وليس in the next week أو on next Monday."},
+  {"k": "pron", "t": "going to تُنطق في الكلام السريع غير الرسمي: gonna (غَنَا)، لكن لا تكتبها في الكتابة الرسمية."}
+ ],
+ "vocab": [
+  {"en": "plan", "ar": "خطة", "emoji": "📝"},
+  {"en": "schedule", "ar": "جدول مواعيد", "emoji": "🗓️"},
+  {"en": "appointment", "ar": "موعد", "emoji": "📅"},
+  {"en": "arrange", "ar": "يرتّب", "emoji": "🗂️"},
+  {"en": "deadline", "ar": "الموعد النهائي", "emoji": "⏰"},
+  {"en": "busy", "ar": "مشغول", "emoji": "😓"},
+  {"en": "free", "ar": "متفرغ", "emoji": "😌"},
+  {"en": "weekend", "ar": "عطلة نهاية الأسبوع", "emoji": "🏖️"},
+  {"en": "cancel", "ar": "يلغي", "emoji": "❌"},
+  {"en": "postpone", "ar": "يؤجل", "emoji": "⏳"}
+ ],
+ "phrases": [
+  {"en": "What are you doing next week?", "ar": "ماذا ستفعل الأسبوع القادم؟"},
+  {"en": "I'm going to start a new course.", "ar": "سأبدأ دورة جديدة."},
+  {"en": "We're having dinner with friends on Friday.", "ar": "سنتناول العشاء مع الأصدقاء يوم الجمعة."},
+  {"en": "I haven't decided yet.", "ar": "لم أقرر بعد."},
+  {"en": "Do you have any plans for the weekend?", "ar": "هل لديك أي خطط لعطلة نهاية الأسبوع؟"}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: I ___ the dentist on Monday at 9. I booked it yesterday.", "o": ["will see", "see", "am seeing", "saw"], "a": 2, "why": "الموعد محجوز ومؤكد، فنستخدم المضارع المستمر."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["She is going to travel next week.", "She going to travel next week.", "She is going travel next week.", "She is going to travels next week."], "a": 0, "why": "الصيغة: is + going to + الفعل المجرد."},
+  {"q": "A: The phone is ringing. B: ___", "o": ["I'm answering it tomorrow.", "I'll answer it.", "I answered it.", "I'm going to answering it."], "a": 1, "why": "قرار لحظي أثناء الكلام، فنستخدم will."},
+  {"q": "أي تعبير صحيح؟", "o": ["in next week", "on next week", "at next week", "next week"], "a": 3, "why": "لا نستخدم حرف جر قبل next."},
+  {"q": "ما معنى postpone؟", "o": ["يلغي", "يؤجل", "يحجز", "يؤكد"], "a": 1, "why": "postpone تعني تأجيل الشيء إلى وقت لاحق."},
+  {"q": "اختر الصحيح: ___ you going to work on Saturday?", "o": ["Do", "Will", "Are", "Is"], "a": 2, "why": "السؤال مع be going to يبدأ بفعل be المناسب، ومع you نستخدم Are."}
+ ]
+},
+{
+ "n": "115",
+ "type": "grammar",
+ "title_ar": "التحدث عن التوقعات",
+ "title_en": "Talking about predictions",
+ "summary": "تتعلم في هذا الدرس كيف تعبّر عن توقعاتك للمستقبل باستخدام will و be going to و might، وكيف تبيّن درجة تأكدك. هذه مهارة أساسية في الحديث عن الطقس والأخبار والمستقبل عموماً.",
+ "notes": [
+  {"h": "will للتوقع المبني على الرأي", "t": "نستخدم will عندما نتوقع شيئاً بناءً على رأينا أو خبرتنا.\nالصيغة: Subject + will + verb\nمثال: I think it will rain tomorrow.\nالنفي: won't = will not. مثال: She won't be late.\nكثيراً ما تأتي مع: I think, I believe, I'm sure, probably."},
+  {"h": "be going to للتوقع المبني على دليل", "t": "نستخدم be going to عندما نرى الآن دليلاً على ما سيحدث.\nمثال: Look at those clouds. It's going to rain = انظر إلى الغيوم، ستمطر.\nمثال: He's driving too fast. He's going to have an accident."},
+  {"h": "may / might / could للاحتمال", "t": "عندما لا نكون متأكدين نستخدم may أو might أو could + الفعل المجرد.\nمثال: It might snow tonight = ربما يتساقط الثلج الليلة.\nالنفي: might not. مثال: They might not come."},
+  {"h": "درجات التأكد", "t": "definitely (بالتأكيد) > probably (على الأرجح) > maybe / perhaps (ربما).\nالترتيب: will + probably / definitely: He will probably win.\nفي النفي: probably + won't: He probably won't win.\nI doubt it = أشك في ذلك. I expect = أتوقع."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "بعد will و might يأتي الفعل المجرد دائماً بدون to وبدون s: She will come وليس She will comes أو She will to come."},
+  {"k": "mistake", "t": "للنفي نقول غالباً: I don't think it will rain، وليس I think it won't rain."},
+  {"k": "pron", "t": "won't تُنطق (وُونت) بصوت o طويل، وتختلف عن want (وُنت). انتبه للفرق."}
+ ],
+ "vocab": [
+  {"en": "predict", "ar": "يتوقع / يتنبأ", "emoji": "🔮"},
+  {"en": "prediction", "ar": "توقع", "emoji": "📈"},
+  {"en": "probably", "ar": "على الأرجح", "emoji": "👍"},
+  {"en": "definitely", "ar": "بالتأكيد", "emoji": "💯"},
+  {"en": "perhaps", "ar": "ربما", "emoji": "🤔"},
+  {"en": "likely", "ar": "مُرجَّح", "emoji": "🎯"},
+  {"en": "unlikely", "ar": "غير مُرجَّح", "emoji": "👎"},
+  {"en": "expect", "ar": "يتوقع", "emoji": "👀"},
+  {"en": "doubt", "ar": "يشك", "emoji": "🤨"},
+  {"en": "forecast", "ar": "نشرة التوقعات", "emoji": "🌦️"}
+ ],
+ "phrases": [
+  {"en": "I think it will rain tomorrow.", "ar": "أعتقد أنها ستمطر غداً."},
+  {"en": "Look at the sky. It's going to snow.", "ar": "انظر إلى السماء. سيتساقط الثلج."},
+  {"en": "She might be late tonight.", "ar": "ربما تتأخر الليلة."},
+  {"en": "He will probably pass the exam.", "ar": "سينجح في الامتحان على الأرجح."},
+  {"en": "I don't think they will win.", "ar": "لا أعتقد أنهم سيفوزون."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: Look! The glass is on the edge. It ___ fall.", "o": ["is going to", "will to", "might to", "going to"], "a": 0, "why": "يوجد دليل نراه الآن، فنستخدم be going to."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["She will probably comes.", "She probably will to come.", "She will probably come.", "She will come probably not."], "a": 2, "why": "will + probably + الفعل المجرد."},
+  {"q": "ما معنى: It might rain؟", "o": ["ستمطر بالتأكيد", "ربما تمطر", "لن تمطر", "أمطرت"], "a": 1, "why": "might تدل على الاحتمال وعدم التأكد."},
+  {"q": "اختر الصحيح: He ___ won't come.", "o": ["will", "is", "does", "probably"], "a": 3, "why": "في النفي تأتي probably قبل won't."},
+  {"q": "أي كلمة تدل على أعلى درجة تأكد؟", "o": ["maybe", "perhaps", "probably", "definitely"], "a": 3, "why": "definitely تعني بالتأكيد."},
+  {"q": "أين الخطأ؟ I think she will passes the test.", "o": ["think", "she", "passes", "test"], "a": 2, "why": "بعد will الفعل مجرد: will pass."}
+ ]
+},
+{
+ "n": "116",
+ "type": "conversation",
+ "title_ar": "التحدث عن الأحلام والأهداف",
+ "title_en": "Talking about dreams and goals",
+ "summary": "تتعلم كيف تتحدث عن أحلامك وأهدافك وطموحاتك في الدراسة والعمل والحياة. ستستخدم تراكيب مثل I want to و I'd like to و My goal is to، وتتعلم كيف تشرح خطواتك لتحقيق الهدف.",
+ "notes": [
+  {"h": "التعبير عن الحلم والرغبة", "t": "I want to + verb: I want to become a doctor.\nI'd like to + verb (ألطف): I'd like to travel around the world.\nI dream of + verb-ing: I dream of opening my own restaurant.\nMy dream is to + verb: My dream is to study abroad."},
+  {"h": "التعبير عن الهدف", "t": "My goal is to + verb: My goal is to speak English fluently.\nI'm planning to + verb: I'm planning to start a business.\nI'm determined to + verb = أنا مصمم على: I'm determined to succeed.\nI hope to + verb: I hope to get a better job."},
+  {"h": "الحديث عن طريق الوصول للهدف", "t": "set a goal = يحدد هدفاً، achieve / reach a goal = يحقق هدفاً، work hard = يعمل بجد، give up = يستسلم، make progress = يحرز تقدماً.\nمثال: To achieve my goal, I study for an hour every day.\nمثال: I will never give up."},
+  {"h": "أسئلة مفيدة", "t": "What do you want to be in the future?\nWhat are your goals for this year?\nWhere do you see yourself in five years?\nالإجابة: In five years, I see myself working as an engineer."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "بعد dream of يأتي الفعل بصيغة ing: I dream of becoming a pilot، وليس I dream to become."},
+  {"k": "mistake", "t": "نقول achieve a goal أو reach a goal، ولا نقول do a goal أو make a goal."},
+  {"k": "pron", "t": "achieve تُنطق (أَتْشِيف) بصوت i طويل، و goal تُنطق (غُول) وليست (جُول)."}
+ ],
+ "vocab": [
+  {"en": "dream", "ar": "حلم", "emoji": "💭"},
+  {"en": "goal", "ar": "هدف", "emoji": "🎯"},
+  {"en": "ambition", "ar": "طموح", "emoji": "🚀"},
+  {"en": "achieve", "ar": "يحقق", "emoji": "🏆"},
+  {"en": "succeed", "ar": "ينجح", "emoji": "🥇"},
+  {"en": "career", "ar": "مسيرة مهنية", "emoji": "💼"},
+  {"en": "give up", "ar": "يستسلم", "emoji": "🏳️"},
+  {"en": "progress", "ar": "تقدّم", "emoji": "📈"},
+  {"en": "effort", "ar": "جهد", "emoji": "💪"},
+  {"en": "determined", "ar": "مصمم", "emoji": "😤"}
+ ],
+ "phrases": [
+  {"en": "My goal is to speak English fluently.", "ar": "هدفي أن أتحدث الإنجليزية بطلاقة."},
+  {"en": "I dream of opening my own business.", "ar": "أحلم بافتتاح مشروعي الخاص."},
+  {"en": "I'd like to study abroad one day.", "ar": "أود أن أدرس في الخارج يوماً ما."},
+  {"en": "I will never give up.", "ar": "لن أستسلم أبداً."},
+  {"en": "Where do you see yourself in five years?", "ar": "أين ترى نفسك بعد خمس سنوات؟"}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: I dream of ___ a famous writer.", "o": ["become", "to become", "becoming", "became"], "a": 2, "why": "بعد dream of نستخدم الفعل مع ing."},
+  {"q": "اختر الصحيح: She worked hard to ___ her goal.", "o": ["do", "achieve", "make", "win"], "a": 1, "why": "التلازم اللفظي الصحيح هو achieve a goal."},
+  {"q": "ما معنى give up؟", "o": ["يستسلم", "يعطي", "ينهض", "ينجح"], "a": 0, "why": "give up فعل مركب معناه يتوقف عن المحاولة."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["My goal is learn English.", "My goal is to learning English.", "My goal to learn English.", "My goal is to learn English."], "a": 3, "why": "الصيغة: My goal is to + الفعل المجرد."},
+  {"q": "اختر الصحيح: I'd like ___ around the world.", "o": ["travel", "to travel", "travelling", "travelled"], "a": 1, "why": "بعد would like يأتي to + الفعل المجرد."}
+ ]
+},
+{
+ "n": "117",
+ "type": "grammar",
+ "title_ar": "التحدث عن الآمال",
+ "title_en": "Talking about hopes",
+ "summary": "تتعلم في هذا الدرس كيف تعبّر عن آمالك لنفسك وللآخرين باستخدام hope و wish وتعبيرات أخرى. ستعرف الفرق المهم بين hope و wish الذي يخطئ فيه كثير من المتعلمين.",
+ "notes": [
+  {"h": "hope + to + verb", "t": "عندما يكون الفاعل واحداً: I hope to + verb.\nمثال: I hope to see you soon = آمل أن أراك قريباً.\nمثال: She hopes to get the job."},
+  {"h": "hope + جملة", "t": "I hope (that) + subject + verb.\nللمستقبل نستخدم المضارع البسيط أو will: I hope you pass the exam = I hope you will pass the exam.\nللحاضر: I hope you are well.\nللماضي: I hope you enjoyed the party."},
+  {"h": "الفرق بين hope و wish", "t": "hope لشيء ممكن الحدوث: I hope it doesn't rain tomorrow.\nwish لشيء غير حقيقي الآن أو صعب، ويأتي بعدها الماضي: I wish I had a car = أتمنى لو كان عندي سيارة (ليس عندي).\nwish أيضاً للتهنئة: I wish you good luck."},
+  {"h": "تعبيرات أخرى وردود قصيرة", "t": "I'm hoping to... / Hopefully, ... / I'm looking forward to + verb-ing / Fingers crossed! (أتمنى التوفيق)\nالردود: A: Will he come? B: I hope so (آمل ذلك) / I hope not (آمل ألا يحدث)."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تقل I wish you pass the exam. الصحيح: I hope you pass the exam."},
+  {"k": "grammar", "t": "الرد السلبي هو I hope not وليس I don't hope so."},
+  {"k": "grammar", "t": "بعد look forward to يأتي الفعل مع ing: I'm looking forward to meeting you."}
+ ],
+ "vocab": [
+  {"en": "hope", "ar": "أمل / يأمل", "emoji": "🙏"},
+  {"en": "wish", "ar": "يتمنى", "emoji": "🌠"},
+  {"en": "hopefully", "ar": "إن شاء الله / على أمل", "emoji": "🤞"},
+  {"en": "hopeful", "ar": "متفائل", "emoji": "😊"},
+  {"en": "optimistic", "ar": "متفائل", "emoji": "🌞"},
+  {"en": "luck", "ar": "حظ", "emoji": "🍀"},
+  {"en": "future", "ar": "مستقبل", "emoji": "🔭"},
+  {"en": "look forward to", "ar": "يتطلع إلى", "emoji": "🤩"},
+  {"en": "come true", "ar": "يتحقق", "emoji": "✨"}
+ ],
+ "phrases": [
+  {"en": "I hope to see you soon.", "ar": "آمل أن أراك قريباً."},
+  {"en": "I hope you feel better tomorrow.", "ar": "آمل أن تشعر بتحسن غداً."},
+  {"en": "Hopefully, the weather will be nice.", "ar": "نأمل أن يكون الطقس جميلاً."},
+  {"en": "I hope so.", "ar": "آمل ذلك."},
+  {"en": "I'm looking forward to meeting you.", "ar": "أتطلع إلى لقائك."},
+  {"en": "I hope your dreams come true.", "ar": "آمل أن تتحقق أحلامك."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: I ___ you have a great trip.", "o": ["wish", "hope", "want", "like"], "a": 1, "why": "للأمل في شيء ممكن مستقبلاً نستخدم hope + جملة."},
+  {"q": "A: Is it going to rain on our picnic? B: ___", "o": ["I don't hope so.", "I hope no.", "I hope not.", "I not hope."], "a": 2, "why": "الرد السلبي الصحيح هو I hope not."},
+  {"q": "اختر الصحيح: She hopes ___ a doctor.", "o": ["to become", "becoming", "become", "becomes"], "a": 0, "why": "hope + to + الفعل المجرد."},
+  {"q": "اختر الصحيح: I'm looking forward to ___ you.", "o": ["see", "saw", "seen", "seeing"], "a": 3, "why": "بعد look forward to يأتي الفعل مع ing."},
+  {"q": "أي جملة تعني أن المتكلم ليس عنده سيارة الآن؟", "o": ["I hope to buy a car.", "I wish I had a car.", "I have a car.", "I hope I have a car."], "a": 1, "why": "wish + الماضي تعبّر عن أمنية غير متحققة في الحاضر."}
+ ]
+},
+{
+ "n": "118",
+ "type": "conversation",
+ "title_ar": "التحدث عن المخاوف",
+ "title_en": "Talking about fears",
+ "summary": "تتعلم كيف تتحدث عن الأشياء التي تخيفك أو تقلقك، وكيف تسأل الآخرين عن مخاوفهم وتطمئنهم. ستتعلم حروف الجر الصحيحة مع صفات الخوف والفرق بين scared و scary.",
+ "notes": [
+  {"h": "صفات الخوف مع of", "t": "be afraid of / be scared of / be frightened of / be terrified of (خوف شديد) + اسم أو verb-ing.\nمثال: I'm afraid of spiders = أخاف من العناكب.\nمثال: She's scared of flying = تخاف من الطيران.\nمثال: He's terrified of heights."},
+  {"h": "القلق والتوتر", "t": "be worried about + اسم / verb-ing: I'm worried about my exam.\nbe nervous about: He's nervous about the interview.\nI have a fear of... / I have a phobia of...: I have a fear of the dark.\n... makes me nervous: Speaking in public makes me nervous."},
+  {"h": "scared أم scary؟", "t": "الصفات المنتهية بـ ed تصف شعور الشخص: I am scared / frightened.\nالصفات المنتهية بـ ing أو y تصف الشيء المخيف: The film is scary / frightening.\nخطأ: I am scary (معناها أنا مخيف للآخرين!)."},
+  {"h": "السؤال والطمأنة", "t": "What are you afraid of? / Does anything scare you?\nللطمأنة: Don't worry. / There's nothing to be afraid of. / Calm down. / It'll be fine. / Everyone feels that way.\nتعبير: face your fears = واجه مخاوفك، overcome a fear = يتغلب على خوف."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "حرف الجر الصحيح هو of وليس from: I'm afraid of dogs، وليس I'm afraid from dogs."},
+  {"k": "grammar", "t": "I'm afraid تُستخدم أيضاً للاعتذار بأدب: I'm afraid I can't come = آسف، لا أستطيع الحضور."},
+  {"k": "pron", "t": "fear تُنطق (فِيَر)، و height تُنطق (هايت) وليست (هِيت)."}
+ ],
+ "vocab": [
+  {"en": "fear", "ar": "خوف", "emoji": "😨"},
+  {"en": "afraid", "ar": "خائف", "emoji": "😰"},
+  {"en": "scary", "ar": "مخيف", "emoji": "👻"},
+  {"en": "terrified", "ar": "مرعوب", "emoji": "😱"},
+  {"en": "worried", "ar": "قلِق", "emoji": "😟"},
+  {"en": "nervous", "ar": "متوتر", "emoji": "😬"},
+  {"en": "heights", "ar": "المرتفعات", "emoji": "🏔️"},
+  {"en": "spider", "ar": "عنكبوت", "emoji": "🕷️"},
+  {"en": "darkness", "ar": "الظلام", "emoji": "🌑"},
+  {"en": "brave", "ar": "شجاع", "emoji": "🦁"},
+  {"en": "calm down", "ar": "يهدأ", "emoji": "😌"}
+ ],
+ "phrases": [
+  {"en": "I'm afraid of spiders.", "ar": "أخاف من العناكب."},
+  {"en": "What are you afraid of?", "ar": "مِمّ تخاف؟"},
+  {"en": "She is scared of flying.", "ar": "هي تخاف من الطيران."},
+  {"en": "I'm worried about my exam.", "ar": "أنا قلق بشأن امتحاني."},
+  {"en": "There's nothing to be afraid of.", "ar": "لا يوجد ما يدعو للخوف."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: He is afraid ___ dogs.", "o": ["from", "about", "of", "with"], "a": 2, "why": "afraid يتبعها حرف الجر of."},
+  {"q": "اختر الصحيح: That horror film was really ___.", "o": ["scared", "scary", "afraid", "terrified"], "a": 1, "why": "scary تصف الشيء المخيف، أما scared فتصف شعور الشخص."},
+  {"q": "اختر الصحيح: I'm worried ___ my job.", "o": ["about", "of", "from", "at"], "a": 0, "why": "worried يتبعها about."},
+  {"q": "اختر الصحيح: She is scared of ___ alone at night.", "o": ["walk", "to walk", "walks", "walking"], "a": 3, "why": "بعد حرف الجر of يأتي الفعل مع ing."},
+  {"q": "ما معنى: I'm afraid I can't help you؟", "o": ["أخاف أن أساعدك", "آسف، لا أستطيع مساعدتك", "لا أخاف منك", "أنا خائف جداً"], "a": 1, "why": "I'm afraid هنا للاعتذار بأدب."},
+  {"q": "أي كلمة تدل على أشد درجات الخوف؟", "o": ["nervous", "worried", "terrified", "calm"], "a": 2, "why": "terrified تعني مرعوب."}
+ ]
+},
+{
+ "n": "119",
+ "type": "conversation",
+ "title_ar": "التحدث عن تكنولوجيا المستقبل",
+ "title_en": "Talking about future technology",
+ "summary": "تتعلم مفردات التكنولوجيا الحديثة مثل الذكاء الاصطناعي والروبوتات، وكيف تعبّر عن توقعاتك لمستقبل التكنولوجيا باستخدام will و might و will be able to. موضوع شائع في النقاشات والامتحانات.",
+ "notes": [
+  {"h": "مفردات أساسية", "t": "artificial intelligence (AI) = الذكاء الاصطناعي، robot = روبوت، driverless car / self-driving car = سيارة ذاتية القيادة، virtual reality = الواقع الافتراضي، device = جهاز، invention = اختراع، smart home = منزل ذكي."},
+  {"h": "التوقع بـ will و won't", "t": "In the future, robots will do most housework.\nPeople won't need to drive.\nمع in + مدة: In twenty years, cars will fly.\nللسؤال: Will robots replace teachers?"},
+  {"h": "will be able to للقدرة في المستقبل", "t": "لا نقول will can. نقول will be able to + verb.\nمثال: We will be able to travel to Mars = سنتمكن من السفر إلى المريخ.\nالنفي: won't be able to."},
+  {"h": "إبداء الرأي والاحتمال", "t": "might / could للاحتمال: AI might take some jobs.\nI think... / I don't think... / I'm sure that... / It's possible that...\nالحديث عن الإيجابيات والسلبيات: Technology makes life easier, but it can also be dangerous.\nadvantage = ميزة، disadvantage = عيب."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "خطأ: Robots will can cook. الصحيح: Robots will be able to cook."},
+  {"k": "grammar", "t": "technology غير معدود في المعنى العام: Technology is changing fast، وليس Technologies are أو The technology is عند الحديث العام."},
+  {"k": "pron", "t": "technology النبر على المقطع الثاني: tek-NO-lo-ji. و artificial تُنطق (آرتِفِشَل)."}
+ ],
+ "vocab": [
+  {"en": "technology", "ar": "تكنولوجيا", "emoji": "💻"},
+  {"en": "robot", "ar": "روبوت", "emoji": "🤖"},
+  {"en": "artificial intelligence", "ar": "ذكاء اصطناعي", "emoji": "🧠"},
+  {"en": "invention", "ar": "اختراع", "emoji": "💡"},
+  {"en": "device", "ar": "جهاز", "emoji": "📱"},
+  {"en": "driverless car", "ar": "سيارة بلا سائق", "emoji": "🚗"},
+  {"en": "space", "ar": "الفضاء", "emoji": "🚀"},
+  {"en": "replace", "ar": "يستبدل / يحل محل", "emoji": "🔄"},
+  {"en": "develop", "ar": "يطوّر", "emoji": "🛠️"},
+  {"en": "advantage", "ar": "ميزة", "emoji": "➕"}
+ ],
+ "phrases": [
+  {"en": "Robots will do most of the housework.", "ar": "ستقوم الروبوتات بمعظم الأعمال المنزلية."},
+  {"en": "We will be able to travel to Mars.", "ar": "سنتمكن من السفر إلى المريخ."},
+  {"en": "AI might take some jobs.", "ar": "قد يأخذ الذكاء الاصطناعي بعض الوظائف."},
+  {"en": "Technology makes our lives easier.", "ar": "التكنولوجيا تجعل حياتنا أسهل."},
+  {"en": "Will robots replace teachers in the future?", "ar": "هل ستحل الروبوتات محل المعلمين في المستقبل؟"}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: In the future, people ___ live on the moon.", "o": ["will can", "will be able to", "will able to", "can will"], "a": 1, "why": "للقدرة في المستقبل نستخدم will be able to."},
+  {"q": "ما معنى invention؟", "o": ["اختراع", "استثمار", "دعوة", "جهاز"], "a": 0, "why": "invention تعني شيئاً جديداً تم اختراعه."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["Cars will flying in 2080.", "Cars will to fly in 2080.", "Cars will flies in 2080.", "Cars will fly in 2080."], "a": 3, "why": "will + الفعل المجرد."},
+  {"q": "أي جملة تدل على احتمال غير مؤكد؟", "o": ["Robots will teach children.", "Robots teach children.", "Robots might teach children.", "Robots taught children."], "a": 2, "why": "might تدل على الاحتمال."},
+  {"q": "عكس advantage هو:", "o": ["benefit", "disadvantage", "invention", "device"], "a": 1, "why": "disadvantage تعني عيب أو سلبية."}
+ ]
+},
+{
+ "n": "120",
+ "type": "vocab",
+ "title_ar": "التحدث عن البيئة",
+ "title_en": "Talking about the environment",
+ "summary": "تتعلم أهم مفردات البيئة ومشكلاتها مثل التلوث وتغيّر المناخ، وكيف تقترح حلولاً باستخدام should والجملة الشرطية الأولى. موضوع مهم في الحياة اليومية والامتحانات.",
+ "notes": [
+  {"h": "مشكلات البيئة", "t": "pollution = التلوث (air pollution, water pollution)، climate change = تغيّر المناخ، global warming = الاحتباس الحراري، waste / rubbish = النفايات، deforestation = إزالة الغابات.\nمثال: Air pollution is a serious problem in big cities."},
+  {"h": "أفعال الحلول", "t": "recycle = يعيد التدوير، save = يوفّر (save water / energy)، protect = يحمي، reduce = يقلل، reuse = يعيد الاستخدام، waste = يهدر، plant trees = يزرع أشجاراً، throw away = يرمي.\nمثال: We should recycle paper and plastic."},
+  {"h": "النصيحة والواجب", "t": "should / shouldn't + verb: We shouldn't waste water.\nmust / need to + verb: We must protect the planet.\nIt's important to + verb: It's important to save energy."},
+  {"h": "الشرطية الأولى للنتائج", "t": "If + present simple, will + verb.\nمثال: If we cut down more trees, the air will get worse.\nمثال: If everyone recycles, there will be less rubbish.\nلاحظ: لا نضع will بعد if."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "pollution و rubbish غير معدودين: نقول a lot of pollution ولا نقول pollutions أو a rubbish."},
+  {"k": "mistake", "t": "خطأ: If we will recycle, ... الصحيح: If we recycle, we will help the planet."},
+  {"k": "pron", "t": "environment: حرف n الأول يكاد لا يُسمع، وتُنطق تقريباً (إنفايرَمِنت) والنبر على vai."}
+ ],
+ "vocab": [
+  {"en": "environment", "ar": "البيئة", "emoji": "🌍"},
+  {"en": "pollution", "ar": "تلوث", "emoji": "🏭"},
+  {"en": "recycle", "ar": "يعيد التدوير", "emoji": "♻️"},
+  {"en": "rubbish", "ar": "قمامة", "emoji": "🗑️"},
+  {"en": "climate", "ar": "مناخ", "emoji": "🌡️"},
+  {"en": "energy", "ar": "طاقة", "emoji": "⚡"},
+  {"en": "plastic", "ar": "بلاستيك", "emoji": "🧴"},
+  {"en": "forest", "ar": "غابة", "emoji": "🌳"},
+  {"en": "protect", "ar": "يحمي", "emoji": "🛡️"},
+  {"en": "planet", "ar": "كوكب", "emoji": "🪐"},
+  {"en": "reduce", "ar": "يقلل", "emoji": "📉"}
+ ],
+ "phrases": [
+  {"en": "We should recycle paper and plastic.", "ar": "يجب أن نعيد تدوير الورق والبلاستيك."},
+  {"en": "Air pollution is a serious problem.", "ar": "تلوث الهواء مشكلة خطيرة."},
+  {"en": "We must protect our planet.", "ar": "يجب أن نحمي كوكبنا."},
+  {"en": "Don't waste water.", "ar": "لا تهدر الماء."},
+  {"en": "If we plant trees, the air will improve.", "ar": "إذا زرعنا الأشجار سيتحسن الهواء."}
+ ],
+ "quiz": [
+  {"q": "ما معنى recycle؟", "o": ["يرمي", "يعيد التدوير", "يلوّث", "يهدر"], "a": 1, "why": "recycle تعني معالجة المواد لاستخدامها من جديد."},
+  {"q": "اختر الصحيح: If we ___ less plastic, the oceans will be cleaner.", "o": ["will use", "used", "use", "using"], "a": 2, "why": "بعد if في الشرطية الأولى نستخدم المضارع البسيط."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["There is a lot of pollution here.", "There are many pollutions here.", "There is a pollution here.", "There are a lot of pollutions here."], "a": 0, "why": "pollution اسم غير معدود."},
+  {"q": "اختر الصحيح: We ___ waste energy.", "o": ["should", "must", "need to", "shouldn't"], "a": 3, "why": "إهدار الطاقة أمر سيئ، فنستخدم shouldn't."},
+  {"q": "أي كلمة تعني يقلل؟", "o": ["protect", "reuse", "reduce", "plant"], "a": 2, "why": "reduce تعني يجعل الشيء أقل."},
+  {"q": "global warming تعني:", "o": ["الاحتباس الحراري", "إعادة التدوير", "إزالة الغابات", "تلوث الماء"], "a": 0, "why": "global warming هو ارتفاع حرارة الأرض."}
+ ]
+},
+{
+ "n": "121",
+ "type": "vocab",
+ "title_ar": "نمط الحياة الصحي",
+ "title_en": "Healthy lifestyle",
+ "summary": "تتعلم كيف تتحدث عن العادات الصحية: الطعام المتوازن والرياضة والنوم، وكيف تعطي نصائح صحية وتصف عاداتك باستخدام ظروف التكرار. مفردات تحتاجها عند الطبيب وفي الحديث اليومي.",
+ "notes": [
+  {"h": "عادات صحية", "t": "eat a balanced diet = يتبع نظاماً غذائياً متوازناً، do exercise / work out = يمارس الرياضة، get enough sleep = ينام كفاية، drink plenty of water = يشرب ماءً كثيراً، stay in shape / keep fit = يحافظ على لياقته."},
+  {"h": "عادات غير صحية", "t": "junk food / fast food = طعام غير صحي، smoke = يدخّن، stay up late = يسهر، skip breakfast = يترك الفطور، too much sugar = سكر زائد، stress = ضغط نفسي.\nمثال: Eating too much junk food is bad for you."},
+  {"h": "إعطاء النصيحة", "t": "You should + verb: You should eat more vegetables.\nYou shouldn't + verb: You shouldn't skip breakfast.\nTry to + verb: Try to sleep eight hours.\ncut down on = يقلل من: You should cut down on sugar.\ngive up = يقلع عن: He gave up smoking."},
+  {"h": "وصف عاداتك", "t": "ظروف التكرار: always, usually, often, sometimes, rarely, never.\nمثال: I go to the gym three times a week.\nمثال: I rarely eat fast food.\nالسؤال: How often do you exercise?"}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "نقول do exercise أو do sport، ولا نقول make exercise أو play exercise."},
+  {"k": "grammar", "t": "healthy صفة و health اسم: Fruit is healthy / Fruit is good for your health."},
+  {"k": "pron", "t": "diet تُنطق (دايَت) بمقطعين، و healthy فيها صوت th الخفيف (هِلثي) وليس (هِلسي)."}
+ ],
+ "vocab": [
+  {"en": "healthy", "ar": "صحي", "emoji": "🥗"},
+  {"en": "diet", "ar": "نظام غذائي", "emoji": "🍽️"},
+  {"en": "exercise", "ar": "تمرين / رياضة", "emoji": "🏃"},
+  {"en": "sleep", "ar": "نوم", "emoji": "😴"},
+  {"en": "junk food", "ar": "طعام غير صحي", "emoji": "🍔"},
+  {"en": "vegetables", "ar": "خضروات", "emoji": "🥦"},
+  {"en": "gym", "ar": "صالة رياضية", "emoji": "🏋️"},
+  {"en": "stress", "ar": "ضغط نفسي", "emoji": "😫"},
+  {"en": "weight", "ar": "وزن", "emoji": "⚖️"},
+  {"en": "habit", "ar": "عادة", "emoji": "🔁"},
+  {"en": "fit", "ar": "لائق بدنياً", "emoji": "💪"}
+ ],
+ "phrases": [
+  {"en": "You should eat more vegetables.", "ar": "يجب أن تأكل خضروات أكثر."},
+  {"en": "I go to the gym twice a week.", "ar": "أذهب إلى الصالة الرياضية مرتين في الأسبوع."},
+  {"en": "Try to get enough sleep.", "ar": "حاول أن تنام وقتاً كافياً."},
+  {"en": "How often do you exercise?", "ar": "كم مرة تمارس الرياضة؟"},
+  {"en": "You should cut down on sugar.", "ar": "يجب أن تقلل من السكر."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: I ___ exercise every morning.", "o": ["make", "play", "do", "go"], "a": 2, "why": "التلازم اللفظي الصحيح: do exercise."},
+  {"q": "ما معنى cut down on؟", "o": ["يقلل من", "يقطع", "يزيد من", "يتوقف تماماً"], "a": 0, "why": "cut down on تعني يقلل الكمية."},
+  {"q": "اختر الصحيح: Smoking is bad for your ___.", "o": ["healthy", "healthily", "unhealthy", "health"], "a": 3, "why": "بعد your نحتاج اسماً: health."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["You should to sleep early.", "You should sleep early.", "You should sleeping early.", "You should sleeps early."], "a": 1, "why": "should + الفعل المجرد بدون to."},
+  {"q": "اختر الصحيح: ___ do you go to the gym? - Three times a week.", "o": ["How long", "How much", "How often", "How many"], "a": 2, "why": "How often للسؤال عن عدد المرات."},
+  {"q": "أي من التالي عادة غير صحية؟", "o": ["drinking water", "skipping breakfast", "working out", "keeping fit"], "a": 1, "why": "skip breakfast تعني ترك وجبة الفطور."}
+ ]
+},
+{
+ "n": "122",
+ "type": "conversation",
+ "title_ar": "التحدث عن فريقك المفضل",
+ "title_en": "Talking about your favorite team",
+ "summary": "تتعلم كيف تتحدث عن فريقك الرياضي المفضل: نتائج المباريات واللاعبين والبطولات. ستتعلم مفردات المباريات والفرق بين win و beat الذي يخطئ فيه كثيرون.",
+ "notes": [
+  {"h": "التعبير عن التشجيع", "t": "I support... = أشجع: I support Al Ahly.\nI'm a big fan of... : I'm a big fan of Liverpool.\nMy favourite team is...\nI've supported them since I was a child = أشجعهم منذ طفولتي (Present Perfect + since)."},
+  {"h": "مفردات المباراة", "t": "match / game = مباراة، player = لاعب، coach / manager = مدرب، goal = هدف، score a goal = يسجل هدفاً، stadium = ملعب، league = دوري، cup = كأس، champion = بطل، referee = حكم، draw = تعادل."},
+  {"h": "win أم beat؟", "t": "win + المباراة أو البطولة: They won the match / the league.\nbeat + الخصم: They beat Barcelona 2-1.\nlose + المباراة أو lose to + الخصم: We lost the final / We lost to Brazil.\nالتعادل: The match ended in a draw / They drew 1-1."},
+  {"h": "الحديث عن النتائج والآراء", "t": "What was the score? - Two-nil (2-0) / Three-one (3-1).\nThey played really well / badly.\nHe is the best player in the team.\nI think they will win the league this season.\nI never miss a match = لا أفوّت أي مباراة."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "خطأ: We won Brazil. الصحيح: We beat Brazil. الفعل win يأتي مع المباراة أو الكأس لا مع الخصم."},
+  {"k": "grammar", "t": "تصريفات غير منتظمة: win - won - won، beat - beat - beaten، lose - lost - lost، draw - drew - drawn."},
+  {"k": "pron", "t": "won تُنطق مثل الرقم one (وَن). و league تُنطق (لِيغ) والحرفان ue صامتان."}
+ ],
+ "vocab": [
+  {"en": "team", "ar": "فريق", "emoji": "👥"},
+  {"en": "fan", "ar": "مشجع", "emoji": "📣"},
+  {"en": "match", "ar": "مباراة", "emoji": "⚽"},
+  {"en": "player", "ar": "لاعب", "emoji": "🏃"},
+  {"en": "coach", "ar": "مدرب", "emoji": "🧢"},
+  {"en": "stadium", "ar": "ملعب", "emoji": "🏟️"},
+  {"en": "score", "ar": "يسجل / النتيجة", "emoji": "🥅"},
+  {"en": "champion", "ar": "بطل", "emoji": "🏆"},
+  {"en": "referee", "ar": "حكم", "emoji": "🟨"},
+  {"en": "support", "ar": "يشجع", "emoji": "🙌"},
+  {"en": "league", "ar": "دوري", "emoji": "📊"}
+ ],
+ "phrases": [
+  {"en": "Which team do you support?", "ar": "أي فريق تشجع؟"},
+  {"en": "I'm a big fan of this team.", "ar": "أنا مشجع كبير لهذا الفريق."},
+  {"en": "They won the match last night.", "ar": "فازوا بالمباراة الليلة الماضية."},
+  {"en": "He scored two goals.", "ar": "سجل هدفين."},
+  {"en": "What was the score?", "ar": "ماذا كانت النتيجة؟"},
+  {"en": "I never miss a match.", "ar": "لا أفوّت أي مباراة."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: Our team ___ Italy 3-0 yesterday.", "o": ["won", "beat", "scored", "lost"], "a": 1, "why": "beat تأتي مع الخصم، أما win فمع المباراة."},
+  {"q": "اختر الصحيح: They ___ the cup last year.", "o": ["won", "beat", "win", "winned"], "a": 0, "why": "win تأتي مع البطولة، وماضيها won."},
+  {"q": "ما معنى draw في الرياضة؟", "o": ["فوز", "خسارة", "تعادل", "هدف"], "a": 2, "why": "draw تعني انتهاء المباراة بلا فائز."},
+  {"q": "اختر الصحيح: I ___ this team since 2010.", "o": ["support", "am supporting", "supported", "have supported"], "a": 3, "why": "مع since نستخدم المضارع التام."},
+  {"q": "من الذي يدير المباراة داخل الملعب؟", "o": ["coach", "fan", "referee", "champion"], "a": 2, "why": "referee هو الحكم."},
+  {"q": "أين الخطأ؟ He scored a goal and we won Spain.", "o": ["scored", "won Spain", "a goal", "and"], "a": 1, "why": "الصحيح: we beat Spain."}
+ ]
+}
+]

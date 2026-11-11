@@ -1,0 +1,1772 @@
+[
+ {
+  "n": "158",
+  "type": "vocab",
+  "title_ar": "حماية الحياة البرية",
+  "title_en": "Wildlife conservation",
+  "summary": "تتعلم مفردات الحيوانات المهددة بالانقراض وأسباب الخطر وطرق الحماية. ستتمكن من مناقشة قضايا الحفاظ على الطبيعة وكتابة فقرة رأي عنها.",
+  "notes": [
+   {
+    "h": "مفردات أساسية",
+    "t": "wildlife = الحياة البرية، a species = نوع (المفرد والجمع بنفس الشكل)، a habitat = موطن طبيعي، an ecosystem = نظام بيئي، biodiversity = التنوع الحيوي، a predator = مفترس، prey = فريسة.\nمثال: Many species are losing their natural habitats."
+   },
+   {
+    "h": "درجات الخطر",
+    "t": "endangered = مهدد بالانقراض، at risk of extinction / on the verge of extinction = على وشك الانقراض، extinct = منقرض، die out = ينقرض، rare = نادر.\nمثال: Dinosaurs died out millions of years ago. / The tiger is an endangered species."
+   },
+   {
+    "h": "أسباب التهديد",
+    "t": "habitat loss = فقدان الموطن، poaching = الصيد غير المشروع، illegal hunting = الصيد المخالف للقانون، the illegal wildlife trade = الاتجار غير المشروع بالحيوانات، overfishing = الصيد الجائر للأسماك، pollution and climate change.\nمثال: Elephants are threatened by poaching."
+   },
+   {
+    "h": "طرق الحماية",
+    "t": "conservation = الحفاظ على الطبيعة، protect = يحمي، a wildlife sanctuary = ملاذ للحيوانات، a breeding programme = برنامج إكثار، ban hunting = يحظر الصيد، raise awareness = ينشر الوعي، release into the wild = يُطلق في البرية.\nمثال: The animals were bred in captivity and released into the wild."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "grammar",
+    "t": "species مفرد وجمع بالشكل نفسه: one species / two species. خطأ: a specie. و wildlife غير معدودة ولا تُجمع."
+   },
+   {
+    "k": "mistake",
+    "t": "extinct صفة وليست فعلاً: Dinosaurs became extinct أو are extinct، وليس Dinosaurs extincted. والاسم extinction."
+   },
+   {
+    "k": "pron",
+    "t": "species تُنطق: سْبِيشِيز. و endangered النبر على dan: إنْدَيْنْجَرْد. و poaching تُنطق: بُوتْشِنغ بحرف p مهموس."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "wildlife",
+    "ar": "الحياة البرية",
+    "emoji": "🦁"
+   },
+   {
+    "en": "species",
+    "ar": "نوع / أنواع",
+    "emoji": "🐼"
+   },
+   {
+    "en": "habitat",
+    "ar": "موطن طبيعي",
+    "emoji": "🌳"
+   },
+   {
+    "en": "endangered",
+    "ar": "مهدد بالانقراض",
+    "emoji": "🐅"
+   },
+   {
+    "en": "extinct",
+    "ar": "منقرض",
+    "emoji": "🦖"
+   },
+   {
+    "en": "poaching",
+    "ar": "صيد غير مشروع",
+    "emoji": "🚫"
+   },
+   {
+    "en": "conservation",
+    "ar": "الحفاظ على الطبيعة",
+    "emoji": "🛡️"
+   },
+   {
+    "en": "sanctuary",
+    "ar": "ملاذ / محمية",
+    "emoji": "🏞️"
+   },
+   {
+    "en": "predator",
+    "ar": "مفترس",
+    "emoji": "🦈"
+   },
+   {
+    "en": "captivity",
+    "ar": "الأَسر",
+    "emoji": "🔒"
+   },
+   {
+    "en": "protect",
+    "ar": "يحمي",
+    "emoji": "🤲"
+   },
+   {
+    "en": "biodiversity",
+    "ar": "التنوع الحيوي",
+    "emoji": "🦋"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "The tiger is an endangered species.",
+    "ar": "النمر نوع مهدد بالانقراض."
+   },
+   {
+    "en": "Many animals are losing their habitats.",
+    "ar": "حيوانات كثيرة تفقد مواطنها."
+   },
+   {
+    "en": "Elephants are threatened by poaching.",
+    "ar": "الفيلة مهددة بالصيد غير المشروع."
+   },
+   {
+    "en": "We must raise awareness about conservation.",
+    "ar": "يجب أن ننشر الوعي بالحفاظ على الطبيعة."
+   },
+   {
+    "en": "Dinosaurs became extinct millions of years ago.",
+    "ar": "انقرضت الديناصورات قبل ملايين السنين."
+   },
+   {
+    "en": "The animals were released into the wild.",
+    "ar": "أُطلقت الحيوانات في البرية."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "The panda is an endangered ___.",
+    "o": [
+     "specie",
+     "species",
+     "spece",
+     "speciess"
+    ],
+    "a": 1,
+    "why": "species تُكتب بالشكل نفسه مفرداً وجمعاً."
+   },
+   {
+    "q": "اختر الصحيح:",
+    "o": [
+     "The dodo became extinct long ago.",
+     "The dodo extincted long ago.",
+     "The dodo was extincting.",
+     "The dodo has extinct long ago."
+    ],
+    "a": 0,
+    "why": "extinct صفة تأتي بعد become أو be."
+   },
+   {
+    "q": "ما معنى poaching؟",
+    "o": [
+     "تربية الحيوانات",
+     "إطلاق الحيوانات في البرية",
+     "صيد الحيوانات بشكل غير قانوني",
+     "حماية الغابات"
+    ],
+    "a": 2,
+    "why": "poaching = الصيد غير المشروع."
+   },
+   {
+    "q": "Many species have ___ out because of hunting.",
+    "o": [
+     "gone",
+     "run",
+     "put",
+     "died"
+    ],
+    "a": 3,
+    "why": "die out = ينقرض."
+   },
+   {
+    "q": "المكان الطبيعي الذي يعيش فيه الحيوان يسمى:",
+    "o": [
+     "habitat",
+     "captivity",
+     "prey",
+     "poacher"
+    ],
+    "a": 0,
+    "why": "habitat = الموطن الطبيعي."
+   },
+   {
+    "q": "Charities try to raise ___ of the problem.",
+    "o": [
+     "conservation",
+     "awareness",
+     "wildlife",
+     "extinction"
+    ],
+    "a": 1,
+    "why": "raise awareness = ينشر الوعي."
+   }
+  ]
+ },
+ {
+  "n": "159",
+  "type": "skills",
+  "title_ar": "بناء الحُجّة والنقاش",
+  "title_en": "Arguments",
+  "summary": "تتعلم كيف تعرض رأيك وتدعمه بالأسباب والأمثلة، وكيف توافق أو تعترض بأدب وترد على الرأي المخالف. هذه المهارة أساس المقال الجدلي والمناظرة عند مستوى B2.",
+  "notes": [
+   {
+    "h": "عرض الرأي",
+    "t": "In my opinion / In my view / As far as I'm concerned = في رأيي.\nI strongly believe that... = أؤمن بشدة أنّ\nIt seems to me that... = يبدو لي أنّ\nI'm convinced that... = أنا مقتنع بأنّ\nمثال: In my view, remote work increases productivity."
+   },
+   {
+    "h": "دعم الحجة",
+    "t": "السبب: because, since, as, due to + اسم.\nالإضافة: moreover, furthermore, in addition, what is more.\nالمثال: for instance, for example, such as.\nالدليل: According to research... / Studies show that...\nالترتيب: Firstly, Secondly, Finally.\nمثال: Furthermore, employees save time on commuting."
+   },
+   {
+    "h": "الموافقة والاعتراض",
+    "t": "موافقة: I completely agree. / That's a good point. / Exactly. / I couldn't agree more.\nموافقة جزئية: I agree up to a point, but... / I see what you mean, but...\nاعتراض مهذب: I'm afraid I disagree. / I'm not sure about that. / I see it differently.\nتجنب: You are wrong."
+   },
+   {
+    "h": "عرض الرأي الآخر والرد عليه",
+    "t": "On the one hand..., on the other hand... = من جهة... ومن جهة أخرى.\nSome people argue that... However,... = يرى البعض أنّ... لكنّ\nWhile it is true that..., ... = مع أنه صحيح أنّ\nNevertheless / Even so = ومع ذلك.\nمثال: While it is true that cars are convenient, they pollute the air."
+   },
+   {
+    "h": "الخلاصة",
+    "t": "To sum up / In conclusion / All in all / On balance.\nمثال: On balance, I believe the advantages outweigh the disadvantages."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "خطأ شائع جداً: I am agree / I am not agree. agree فعل وليس صفة. الصحيح: I agree / I don't agree / I disagree. ونقول agree with someone."
+   },
+   {
+    "k": "grammar",
+    "t": "argument تعني حُجّة وتعني أيضاً شجاراً كلامياً: a strong argument = حجة قوية، have an argument with = يتشاجر مع. وتُكتب بلا e بعد u."
+   },
+   {
+    "k": "tip",
+    "t": "according to تُستخدم لآراء الآخرين فقط. لا تقل According to me، بل In my opinion."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "argument",
+    "ar": "حُجّة / جدال",
+    "emoji": "🗯️"
+   },
+   {
+    "en": "opinion",
+    "ar": "رأي",
+    "emoji": "💭"
+   },
+   {
+    "en": "agree",
+    "ar": "يوافق",
+    "emoji": "👍"
+   },
+   {
+    "en": "disagree",
+    "ar": "يعترض",
+    "emoji": "👎"
+   },
+   {
+    "en": "convinced",
+    "ar": "مقتنع",
+    "emoji": "🧠"
+   },
+   {
+    "en": "furthermore",
+    "ar": "علاوة على ذلك",
+    "emoji": "➕"
+   },
+   {
+    "en": "however",
+    "ar": "لكن / مع ذلك",
+    "emoji": "↔️"
+   },
+   {
+    "en": "nevertheless",
+    "ar": "ومع ذلك",
+    "emoji": "🔁"
+   },
+   {
+    "en": "evidence",
+    "ar": "دليل",
+    "emoji": "🔎"
+   },
+   {
+    "en": "outweigh",
+    "ar": "يفوق / يرجح على",
+    "emoji": "⚖️"
+   },
+   {
+    "en": "debate",
+    "ar": "مناظرة / نقاش",
+    "emoji": "🎙️"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "I see what you mean, but I disagree.",
+    "ar": "أفهم قصدك لكني لا أوافق."
+   },
+   {
+    "en": "I couldn't agree with you more.",
+    "ar": "أوافقك تمام الموافقة."
+   },
+   {
+    "en": "In my view, the plan is too risky.",
+    "ar": "في رأيي الخطة شديدة المخاطرة."
+   },
+   {
+    "en": "That's a good point, actually.",
+    "ar": "هذه نقطة جيدة في الحقيقة."
+   },
+   {
+    "en": "The advantages outweigh the disadvantages.",
+    "ar": "الإيجابيات تفوق السلبيات."
+   },
+   {
+    "en": "I agree with you up to a point.",
+    "ar": "أوافقك إلى حد ما."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "اختر الصحيح:",
+    "o": [
+     "I am agree with you.",
+     "I agree with you.",
+     "I am agreeing to you.",
+     "I agree you."
+    ],
+    "a": 1,
+    "why": "agree فعل: I agree with you."
+   },
+   {
+    "q": "ما معنى I couldn't agree more؟",
+    "o": [
+     "لا أستطيع أن أوافق",
+     "أوافق قليلاً",
+     "أوافق تماماً",
+     "أرفض بشدة"
+    ],
+    "a": 2,
+    "why": "التعبير يعني الموافقة التامة."
+   },
+   {
+    "q": "أي عبارة تُستخدم لإضافة حجة جديدة؟",
+    "o": [
+     "Furthermore",
+     "However",
+     "Nevertheless",
+     "On the other hand"
+    ],
+    "a": 0,
+    "why": "furthermore = علاوة على ذلك."
+   },
+   {
+    "q": "أي عبارة هي اعتراض مهذب؟",
+    "o": [
+     "You are wrong.",
+     "That's nonsense.",
+     "No way.",
+     "I'm afraid I disagree."
+    ],
+    "a": 3,
+    "why": "I'm afraid تلطّف الاعتراض."
+   },
+   {
+    "q": "___ it is true that cars are useful, they cause pollution.",
+    "o": [
+     "However",
+     "While",
+     "Moreover",
+     "Therefore"
+    ],
+    "a": 1,
+    "why": "While it is true that... لعرض الرأي الآخر قبل الرد عليه."
+   },
+   {
+    "q": "أين الخطأ؟ According to me, the film was boring.",
+    "o": [
+     "According to me",
+     "the film",
+     "was boring",
+     "لا يوجد خطأ"
+    ],
+    "a": 0,
+    "why": "الصحيح: In my opinion، فـ according to لآراء الآخرين."
+   }
+  ]
+ },
+ {
+  "n": "160",
+  "type": "grammar",
+  "title_ar": "اسم الفعل (صيغة ing)",
+  "title_en": "Gerunds",
+  "summary": "تتعلم استخدام الفعل المنتهي بـ ing كاسم: فاعلاً ومفعولاً وبعد حروف الجر، ومتى تختار gerund ومتى infinitive. إتقان هذه القاعدة يزيل كثيراً من أخطاء المتعلمين المتوسطين.",
+  "notes": [
+   {
+    "h": "ما هو الـ gerund؟",
+    "t": "هو الفعل + ing عندما يعمل عمل الاسم.\nفاعل: Swimming is good for you. (والفعل بعده مفرد)\nمفعول: I enjoy reading.\nالنفي بوضع not قبله: I regret not studying harder."
+   },
+   {
+    "h": "بعد حروف الجر",
+    "t": "بعد أي حرف جر نستخدم ing دائماً:\nShe is good at drawing. / I'm interested in learning Spanish. / He left without saying goodbye. / Thank you for helping me.\nوانتبه لـ to عندما تكون حرف جر: I look forward to seeing you. / I'm used to working at night. / He objected to paying."
+   },
+   {
+    "h": "أفعال يتبعها gerund",
+    "t": "enjoy, avoid, finish, mind, suggest, keep, consider, deny, admit, practise, miss, risk, imagine, give up, can't stand, can't help, feel like.\nمثال: Would you mind opening the window? / I can't help laughing."
+   },
+   {
+    "h": "أفعال يتبعها to + المصدر",
+    "t": "want, decide, hope, plan, agree, refuse, promise, offer, manage, afford, expect, learn, seem, pretend.\nمثال: We decided to stay. / I can't afford to buy it."
+   },
+   {
+    "h": "أفعال يتغير معناها",
+    "t": "stop doing = يتوقف عن الفعل: He stopped smoking. / stop to do = يتوقف ليفعل: He stopped to smoke.\nremember doing = يتذكر ما حدث / remember to do = يتذكر أن يفعل.\ntry doing = يجرّب كحل / try to do = يحاول بجهد.\nregret doing = يندم على ما فعل / regret to say = يأسف لقول.\nأما like, love, hate, start, begin فيجوز بعدها الصيغتان بلا فرق يُذكر."
+   },
+   {
+    "h": "تعابير ثابتة مع ing",
+    "t": "It's no use crying. / It's worth visiting. / There's no point in waiting. / have difficulty finding / spend time doing / be busy doing / go shopping."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "خطأ شائع: I look forward to see you. هنا to حرف جر فيتبعه ing: I look forward to seeing you."
+   },
+   {
+    "k": "mistake",
+    "t": "خطأ: I enjoy to read / I suggest to go / I finished to work. الصحيح: I enjoy reading / I suggest going / I finished working."
+   },
+   {
+    "k": "grammar",
+    "t": "الـ gerund كفاعل يأخذ فعلاً مفرداً: Learning languages takes time، وليس take time."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "gerund",
+    "ar": "اسم الفعل",
+    "emoji": "🔤"
+   },
+   {
+    "en": "avoid",
+    "ar": "يتجنب",
+    "emoji": "🚷"
+   },
+   {
+    "en": "enjoy",
+    "ar": "يستمتع بـ",
+    "emoji": "😊"
+   },
+   {
+    "en": "consider",
+    "ar": "يفكر في",
+    "emoji": "🤔"
+   },
+   {
+    "en": "deny",
+    "ar": "ينكر",
+    "emoji": "🙅"
+   },
+   {
+    "en": "risk",
+    "ar": "يخاطر بـ",
+    "emoji": "🎲"
+   },
+   {
+    "en": "keep",
+    "ar": "يستمر في",
+    "emoji": "🔁"
+   },
+   {
+    "en": "can't stand",
+    "ar": "لا يطيق",
+    "emoji": "😖"
+   },
+   {
+    "en": "give up",
+    "ar": "يقلع عن",
+    "emoji": "🚭"
+   },
+   {
+    "en": "look forward to",
+    "ar": "يتطلع إلى",
+    "emoji": "👀"
+   },
+   {
+    "en": "worth",
+    "ar": "يستحق",
+    "emoji": "💎"
+   },
+   {
+    "en": "mind",
+    "ar": "يمانع",
+    "emoji": "🙂"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "I look forward to seeing you.",
+    "ar": "أتطلع إلى رؤيتك."
+   },
+   {
+    "en": "Would you mind opening the window?",
+    "ar": "هل تمانع أن تفتح النافذة؟"
+   },
+   {
+    "en": "She is good at solving problems.",
+    "ar": "هي بارعة في حل المشكلات."
+   },
+   {
+    "en": "He gave up smoking last year.",
+    "ar": "أقلع عن التدخين العام الماضي."
+   },
+   {
+    "en": "It's worth visiting the old city.",
+    "ar": "المدينة القديمة تستحق الزيارة."
+   },
+   {
+    "en": "I can't help laughing at his jokes.",
+    "ar": "لا أستطيع إلا أن أضحك على نكاته."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "I look forward to ___ from you.",
+    "o": [
+     "hear",
+     "hearing",
+     "heard",
+     "be heard"
+    ],
+    "a": 1,
+    "why": "to هنا حرف جر فيتبعه ing."
+   },
+   {
+    "q": "She avoided ___ about the problem.",
+    "o": [
+     "to talk",
+     "talk",
+     "talked",
+     "talking"
+    ],
+    "a": 3,
+    "why": "avoid يتبعه gerund."
+   },
+   {
+    "q": "We decided ___ at home.",
+    "o": [
+     "to stay",
+     "staying",
+     "stay",
+     "stayed"
+    ],
+    "a": 0,
+    "why": "decide يتبعه to + المصدر."
+   },
+   {
+    "q": "He was tired, so he stopped ___ a rest.",
+    "o": [
+     "having",
+     "have",
+     "to have",
+     "had"
+    ],
+    "a": 2,
+    "why": "stop to do = توقف لكي يفعل شيئاً آخر."
+   },
+   {
+    "q": "اختر الصحيح:",
+    "o": [
+     "Learning languages take time.",
+     "Learn languages takes time.",
+     "Learning languages takes time.",
+     "To learning languages takes time."
+    ],
+    "a": 2,
+    "why": "الـ gerund فاعل مفرد فيأخذ takes."
+   },
+   {
+    "q": "He left without ___ goodbye.",
+    "o": [
+     "saying",
+     "to say",
+     "say",
+     "said"
+    ],
+    "a": 0,
+    "why": "بعد حرف الجر without نستخدم ing."
+   }
+  ]
+ },
+ {
+  "n": "161",
+  "type": "vocab",
+  "title_ar": "صناعة المحتوى",
+  "title_en": "Content creation",
+  "summary": "تتعلم مفردات صناعة المحتوى الرقمي: النشر والتصوير والمتابعين والتفاعل. ستتمكن من الحديث عن منصات التواصل وعمل صنّاع المحتوى ومتابعة النصائح باللغة الإنجليزية.",
+  "notes": [
+   {
+    "h": "صنّاع المحتوى وأنواعه",
+    "t": "a content creator = صانع محتوى، an influencer = مؤثر، a vlogger / blogger = مدوّن مرئي / كاتب مدونة، a podcast = بودكاست، a tutorial = شرح تعليمي، a live stream = بث مباشر، a short / reel = مقطع قصير.\nمثال: She makes cooking tutorials for beginners."
+   },
+   {
+    "h": "أفعال النشر والإنتاج",
+    "t": "post / upload = ينشر / يرفع، film / shoot = يصوّر، edit = يُمنتج، go live = يبدأ بثاً مباشراً، share = يشارك، subscribe to a channel = يشترك في قناة، follow = يتابع، go viral = ينتشر انتشاراً واسعاً.\nمثال: Her first video went viral overnight."
+   },
+   {
+    "h": "الجمهور والتفاعل",
+    "t": "followers / subscribers = متابعون / مشتركون، views = مشاهدات، likes and comments، engagement = التفاعل، the algorithm = الخوارزمية، a hashtag = وسم، a thumbnail = الصورة المصغّرة، trending = رائج.\nمثال: Engagement matters more than the number of followers."
+   },
+   {
+    "h": "الجانب المهني",
+    "t": "monetise a channel = يحقق دخلاً من القناة، a sponsorship = رعاية، a brand deal = عقد مع علامة تجارية، a niche = مجال تخصص، build an audience = يبني جمهوراً، be consistent = يواظب.\nمثال: You need to post consistently to build an audience."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "grammar",
+    "t": "content بمعنى المحتوى غير معدودة: create content / a piece of content، وليس contents أو a content."
+   },
+   {
+    "k": "pron",
+    "t": "content كاسم النبر على المقطع الأول: كُونْتِنت. و niche تُنطق: نِيش. و audience تُنطق: أُودْيِنس. و algorithm: أَلْغَرِذِم."
+   },
+   {
+    "k": "mistake",
+    "t": "نقول subscribe to a channel وليس subscribe in أو subscribe a channel. ونقول on YouTube / on Instagram وليس in YouTube."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "content",
+    "ar": "محتوى",
+    "emoji": "🎬"
+   },
+   {
+    "en": "creator",
+    "ar": "صانع",
+    "emoji": "🧑‍💻"
+   },
+   {
+    "en": "influencer",
+    "ar": "مؤثر",
+    "emoji": "🤳"
+   },
+   {
+    "en": "upload",
+    "ar": "يرفع",
+    "emoji": "⬆️"
+   },
+   {
+    "en": "edit",
+    "ar": "يُمنتج / يحرر",
+    "emoji": "✂️"
+   },
+   {
+    "en": "subscribe",
+    "ar": "يشترك",
+    "emoji": "🔔"
+   },
+   {
+    "en": "follower",
+    "ar": "متابع",
+    "emoji": "👥"
+   },
+   {
+    "en": "go viral",
+    "ar": "ينتشر بسرعة",
+    "emoji": "🔥"
+   },
+   {
+    "en": "live stream",
+    "ar": "بث مباشر",
+    "emoji": "📡"
+   },
+   {
+    "en": "audience",
+    "ar": "جمهور",
+    "emoji": "👀"
+   },
+   {
+    "en": "hashtag",
+    "ar": "وسم",
+    "emoji": "#️⃣"
+   },
+   {
+    "en": "podcast",
+    "ar": "بودكاست",
+    "emoji": "🎧"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "She uploads a new video every week.",
+    "ar": "ترفع فيديو جديداً كل أسبوع."
+   },
+   {
+    "en": "Her first video went viral overnight.",
+    "ar": "انتشر فيديوها الأول بين ليلة وضحاها."
+   },
+   {
+    "en": "Don't forget to subscribe to my channel.",
+    "ar": "لا تنسَ الاشتراك في قناتي."
+   },
+   {
+    "en": "It takes hours to edit one video.",
+    "ar": "يستغرق مونتاج فيديو واحد ساعات."
+   },
+   {
+    "en": "He has over a million followers.",
+    "ar": "لديه أكثر من مليون متابع."
+   },
+   {
+    "en": "You need to post consistently.",
+    "ar": "عليك أن تنشر بانتظام."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Please subscribe ___ my channel.",
+    "o": [
+     "in",
+     "to",
+     "on",
+     "at"
+    ],
+    "a": 1,
+    "why": "subscribe to."
+   },
+   {
+    "q": "ما معنى go viral؟",
+    "o": [
+     "يُحذف من المنصة",
+     "يصاب بفيروس",
+     "ينتشر انتشاراً واسعاً وسريعاً",
+     "يبدأ بثاً مباشراً"
+    ],
+    "a": 2,
+    "why": "go viral = ينتشر بسرعة كبيرة على الإنترنت."
+   },
+   {
+    "q": "She creates ___ about healthy food.",
+    "o": [
+     "content",
+     "contents",
+     "a content",
+     "the contents of"
+    ],
+    "a": 0,
+    "why": "content بمعنى المحتوى غير معدود."
+   },
+   {
+    "q": "I watched it ___ YouTube.",
+    "o": [
+     "in",
+     "at",
+     "by",
+     "on"
+    ],
+    "a": 3,
+    "why": "نقول on YouTube."
+   },
+   {
+    "q": "كلمة niche تعني:",
+    "o": [
+     "الخوارزمية",
+     "مجال تخصص محدد",
+     "الصورة المصغّرة",
+     "الرعاية"
+    ],
+    "a": 1,
+    "why": "niche = مجال محدد يتخصص فيه صانع المحتوى."
+   },
+   {
+    "q": "After filming, you need to ___ the video before posting it.",
+    "o": [
+     "subscribe",
+     "follow",
+     "edit",
+     "trend"
+    ],
+    "a": 2,
+    "why": "edit = يُمنتج الفيديو قبل نشره."
+   }
+  ]
+ },
+ {
+  "n": "162",
+  "type": "vocab",
+  "title_ar": "الصحة البدنية",
+  "title_en": "Physical health",
+  "summary": "تتعلم مفردات اللياقة والتغذية والنوم والأعراض الصحية، وكيف تقدّم النصيحة الصحية وتتحدث عن عاداتك. موضوع عملي يفيدك عند الطبيب وفي الحديث اليومي.",
+  "notes": [
+   {
+    "h": "اللياقة والتمارين",
+    "t": "keep fit / stay in shape = يحافظ على لياقته، work out = يتمرن، do exercise = يمارس الرياضة، a workout = حصة تمرين، stamina = قدرة التحمل، strength = القوة، flexibility = المرونة، warm up = يسخّن، stretch = يتمدد.\nمثال: I work out three times a week."
+   },
+   {
+    "h": "التغذية",
+    "t": "a balanced diet = نظام غذائي متوازن، nutrients = عناصر غذائية، protein, carbohydrates, fat, fibre, vitamins، processed food = طعام مصنّع، cut down on = يقلل من، go on a diet = يتبع حمية، stay hydrated = يحافظ على ترطيب جسمه.\nمثال: You should cut down on sugar."
+   },
+   {
+    "h": "نمط الحياة",
+    "t": "a sedentary lifestyle = نمط حياة خامل، get enough sleep = ينال قسطاً كافياً من النوم، put on weight = يزداد وزنه، lose weight = ينقص وزنه، obesity = السمنة، blood pressure = ضغط الدم، the immune system = جهاز المناعة.\nمثال: A sedentary lifestyle increases the risk of heart disease."
+   },
+   {
+    "h": "الأعراض والنصيحة",
+    "t": "I feel run-down = أشعر بالإنهاك. / I've pulled a muscle = أصبت بشد عضلي. / I have a sore throat.\nللنصيحة: You should / ought to + المصدر. You'd better see a doctor. If I were you, I'd rest. It's a good idea to + المصدر."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "خطأ شائع: do sport لا بأس بها، لكن make sport خطأ. ونقول do exercise، go running، play tennis. ونقول lose weight وليس lose my weight."
+   },
+   {
+    "k": "grammar",
+    "t": "had better يتبعها المصدر بدون to: You'd better see a doctor، والنفي: You'd better not skip breakfast."
+   },
+   {
+    "k": "pron",
+    "t": "muscle فيها c صامتة: مَسِل. و diet تُنطق: دايِت. و stomach تنتهي بصوت k: سْتَمَك. و weight تُنطق: وَيْت."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "fitness",
+    "ar": "لياقة",
+    "emoji": "🏋️"
+   },
+   {
+    "en": "work out",
+    "ar": "يتمرن",
+    "emoji": "💪"
+   },
+   {
+    "en": "diet",
+    "ar": "نظام غذائي / حمية",
+    "emoji": "🥗"
+   },
+   {
+    "en": "nutrient",
+    "ar": "عنصر غذائي",
+    "emoji": "🥦"
+   },
+   {
+    "en": "muscle",
+    "ar": "عضلة",
+    "emoji": "🦵"
+   },
+   {
+    "en": "stamina",
+    "ar": "قدرة التحمل",
+    "emoji": "🏃"
+   },
+   {
+    "en": "weight",
+    "ar": "وزن",
+    "emoji": "⚖️"
+   },
+   {
+    "en": "obesity",
+    "ar": "السمنة",
+    "emoji": "🍔"
+   },
+   {
+    "en": "blood pressure",
+    "ar": "ضغط الدم",
+    "emoji": "🩺"
+   },
+   {
+    "en": "stretch",
+    "ar": "يتمدد",
+    "emoji": "🤸"
+   },
+   {
+    "en": "hydrated",
+    "ar": "مرتوٍ",
+    "emoji": "💧"
+   },
+   {
+    "en": "injury",
+    "ar": "إصابة",
+    "emoji": "🩹"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "I work out three times a week.",
+    "ar": "أتمرن ثلاث مرات في الأسبوع."
+   },
+   {
+    "en": "You should cut down on sugar.",
+    "ar": "عليك أن تقلل من السكر."
+   },
+   {
+    "en": "I'm trying to lose some weight.",
+    "ar": "أحاول أن أنقص بعضاً من وزني."
+   },
+   {
+    "en": "You'd better see a doctor.",
+    "ar": "من الأفضل أن تراجع طبيباً."
+   },
+   {
+    "en": "It's important to eat a balanced diet.",
+    "ar": "من المهم تناول غذاء متوازن."
+   },
+   {
+    "en": "Always warm up before you exercise.",
+    "ar": "سخّن دائماً قبل أن تتمرن."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "You'd better ___ to bed early tonight.",
+    "o": [
+     "to go",
+     "go",
+     "going",
+     "went"
+    ],
+    "a": 1,
+    "why": "had better + المصدر بدون to."
+   },
+   {
+    "q": "You should cut ___ on fast food.",
+    "o": [
+     "down",
+     "off",
+     "out of",
+     "away"
+    ],
+    "a": 0,
+    "why": "cut down on = يقلل من."
+   },
+   {
+    "q": "ما معنى a sedentary lifestyle؟",
+    "o": [
+     "نمط حياة نشيط",
+     "نمط حياة صحي",
+     "نمط حياة مكلف",
+     "نمط حياة قليل الحركة"
+    ],
+    "a": 3,
+    "why": "sedentary = كثير الجلوس وقليل الحركة."
+   },
+   {
+    "q": "He has ___ a lot of weight since he stopped exercising.",
+    "o": [
+     "put up",
+     "lost on",
+     "put on",
+     "taken on"
+    ],
+    "a": 2,
+    "why": "put on weight = يزداد وزنه."
+   },
+   {
+    "q": "كيف تُنطق muscle؟",
+    "o": [
+     "مَسْكِل",
+     "مَسِل",
+     "مُوسْكْلي",
+     "مَسْتْشِل"
+    ],
+    "a": 1,
+    "why": "حرف c صامت في muscle."
+   },
+   {
+    "q": "If I ___ you, I'd see a doctor.",
+    "o": [
+     "am",
+     "was being",
+     "were",
+     "be"
+    ],
+    "a": 2,
+    "why": "صيغة النصيحة: If I were you, I'd..."
+   }
+  ]
+ },
+ {
+  "n": "163",
+  "type": "vocab",
+  "title_ar": "الفن والإبداع",
+  "title_en": "Art and creativity",
+  "summary": "تتعلم مفردات الفنون التشكيلية والمعارض، وكيف تصف عملاً فنياً وتعبّر عن رأيك فيه. ستتمكن من الحديث عن الإبداع والهوايات الفنية بثقة.",
+  "notes": [
+   {
+    "h": "أنواع الفنون والفنانين",
+    "t": "painting = الرسم بالألوان / لوحة، drawing = الرسم بالقلم، sculpture = النحت / منحوتة، photography = التصوير، pottery = الفخار، calligraphy = الخط، graphic design = التصميم الجرافيكي.\nالفنانون: a painter, a sculptor, a photographer, a designer."
+   },
+   {
+    "h": "في المعرض",
+    "t": "an art gallery = معرض فني، an exhibition = عرض مؤقت، a masterpiece = تحفة فنية، a portrait = لوحة شخصية، a landscape = لوحة منظر طبيعي، a still life = طبيعة صامتة، abstract art = الفن التجريدي، on display = معروض.\nمثال: The painting is on display at the national gallery."
+   },
+   {
+    "h": "وصف العمل الفني",
+    "t": "In the foreground / background = في المقدمة / الخلفية.\nThe artist uses bright / dark colours.\nIt shows / depicts... = يصوّر.\nIt conveys a feeling of calm = ينقل إحساساً بالهدوء.\nصفات: striking = لافت، vivid = زاهٍ، original = مبتكر، thought-provoking = مثير للتفكير، moving = مؤثر."
+   },
+   {
+    "h": "الإبداع",
+    "t": "creative = مبدع، creativity = الإبداع، imagination = الخيال، inspiration = الإلهام، be inspired by = يستلهم من، talent / gifted = موهبة / موهوب، express yourself = تعبّر عن نفسك، come up with an idea = يبتكر فكرة.\nمثال: Her work is inspired by nature."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "draw = يرسم بالقلم أو الرصاص، paint = يرسم بالألوان والفرشاة. لا تقل I drew it with oil colours، بل I painted it in oils."
+   },
+   {
+    "k": "pron",
+    "t": "sculpture تُنطق: سْكَلْبْتْشَر. و exhibition حرف h فيها صامت: إكْسِبِشِن. و gallery: غالَري."
+   },
+   {
+    "k": "grammar",
+    "t": "نقول be inspired by و good at painting و a painting by Picasso (وليس of Picasso إلا إذا كانت اللوحة تصوّره)."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "painting",
+    "ar": "لوحة / الرسم بالألوان",
+    "emoji": "🖼️"
+   },
+   {
+    "en": "sculpture",
+    "ar": "منحوتة / النحت",
+    "emoji": "🗿"
+   },
+   {
+    "en": "gallery",
+    "ar": "معرض فني",
+    "emoji": "🏛️"
+   },
+   {
+    "en": "exhibition",
+    "ar": "عرض فني",
+    "emoji": "🎟️"
+   },
+   {
+    "en": "masterpiece",
+    "ar": "تحفة فنية",
+    "emoji": "🌟"
+   },
+   {
+    "en": "portrait",
+    "ar": "لوحة شخصية",
+    "emoji": "👩‍🎨"
+   },
+   {
+    "en": "creative",
+    "ar": "مبدع",
+    "emoji": "🎨"
+   },
+   {
+    "en": "imagination",
+    "ar": "الخيال",
+    "emoji": "💭"
+   },
+   {
+    "en": "inspiration",
+    "ar": "الإلهام",
+    "emoji": "💡"
+   },
+   {
+    "en": "talent",
+    "ar": "موهبة",
+    "emoji": "✨"
+   },
+   {
+    "en": "sketch",
+    "ar": "رسم تخطيطي",
+    "emoji": "✏️"
+   },
+   {
+    "en": "pottery",
+    "ar": "الفخار",
+    "emoji": "🏺"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "The exhibition opens next week.",
+    "ar": "يُفتتح المعرض الأسبوع القادم."
+   },
+   {
+    "en": "Her work is inspired by nature.",
+    "ar": "أعمالها مستلهمة من الطبيعة."
+   },
+   {
+    "en": "This painting is a real masterpiece.",
+    "ar": "هذه اللوحة تحفة فنية حقيقية."
+   },
+   {
+    "en": "The artist uses very vivid colours.",
+    "ar": "يستخدم الفنان ألواناً زاهية جداً."
+   },
+   {
+    "en": "Art helps you express yourself.",
+    "ar": "الفن يساعدك على التعبير عن نفسك."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Her paintings are inspired ___ the sea.",
+    "o": [
+     "from",
+     "by",
+     "of",
+     "with"
+    ],
+    "a": 1,
+    "why": "be inspired by."
+   },
+   {
+    "q": "لوحة تصوّر وجه شخص تسمى:",
+    "o": [
+     "a landscape",
+     "a still life",
+     "a portrait",
+     "a sculpture"
+    ],
+    "a": 2,
+    "why": "portrait = لوحة شخصية."
+   },
+   {
+    "q": "ما معنى masterpiece؟",
+    "o": [
+     "تحفة فنية",
+     "رسم تخطيطي",
+     "معرض",
+     "خيال"
+    ],
+    "a": 0,
+    "why": "masterpiece = عمل فني بالغ الإتقان."
+   },
+   {
+    "q": "He ___ the wall blue with a big brush.",
+    "o": [
+     "drew",
+     "sketched",
+     "designed",
+     "painted"
+    ],
+    "a": 3,
+    "why": "paint = يطلي أو يرسم بالألوان والفرشاة."
+   },
+   {
+    "q": "The statue is ___ display in the museum.",
+    "o": [
+     "in",
+     "on",
+     "at",
+     "by"
+    ],
+    "a": 1,
+    "why": "on display = معروض."
+   },
+   {
+    "q": "عمل فني thought-provoking هو عمل:",
+    "o": [
+     "رخيص الثمن",
+     "قديم جداً",
+     "يدفعك إلى التفكير",
+     "صعب الصنع"
+    ],
+    "a": 2,
+    "why": "thought-provoking = مثير للتفكير."
+   }
+  ]
+ },
+ {
+  "n": "164",
+  "type": "vocab",
+  "title_ar": "الكتب والأدب",
+  "title_en": "Books and literature",
+  "summary": "تتعلم مفردات أنواع الكتب وعناصر الرواية، وكيف تتحدث عن كتاب قرأته وتوصي به. هذه اللغة مفيدة في نوادي القراءة وفي كتابة المراجعات.",
+  "notes": [
+   {
+    "h": "أنواع الكتب",
+    "t": "fiction = الأدب الخيالي، non-fiction = الكتب الواقعية، a novel = رواية، a short story = قصة قصيرة، poetry = الشعر، a biography = سيرة، an autobiography = سيرة ذاتية، a thriller = رواية تشويق، science fiction = خيال علمي، a classic = من عيون الأدب.\nمثال: I mostly read non-fiction."
+   },
+   {
+    "h": "عناصر العمل الأدبي",
+    "t": "the plot = الحبكة، the setting = الزمان والمكان، a character = شخصية، the main character / protagonist = البطل، the narrator = الراوي، a theme = موضوع رئيسي، a chapter = فصل، the ending = النهاية، a twist = منعطف مفاجئ.\nمثال: The novel is set in Cairo in the 1940s."
+   },
+   {
+    "h": "الحديث عن كتاب",
+    "t": "It's about... / It tells the story of...\nIt is set in... = تدور أحداثه في.\nIt was written by...\nIt deals with themes such as love and loss.\nThe plot is gripping = الحبكة مشوّقة.\nI couldn't put it down = لم أستطع تركه.\nIt's a real page-turner = كتاب يشدّك حتى آخره."
+   },
+   {
+    "h": "الرأي والتوصية",
+    "t": "صفات إيجابية: gripping, moving, well-written, thought-provoking, entertaining.\nصفات سلبية: predictable = متوقَّع، slow-paced = بطيء الإيقاع، hard to follow = صعب المتابعة.\nI'd recommend it to anyone who likes history.\nIt's worth reading."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "novel تعني رواية طويلة فقط. القصة القصيرة short story، والكتاب عموماً book. و library مكتبة للاستعارة، أما bookshop فمتجر لبيع الكتب."
+   },
+   {
+    "k": "pron",
+    "t": "biography تُنطق: بايُوغْرَفي والنبر على og. و literature تُنطق: لِتْرَتْشَر. و chapter: تْشابْتَر."
+   },
+   {
+    "k": "grammar",
+    "t": "نقول a book by an author و a book about a topic. ونقول be set in: The story is set in London."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "novel",
+    "ar": "رواية",
+    "emoji": "📖"
+   },
+   {
+    "en": "fiction",
+    "ar": "أدب خيالي",
+    "emoji": "🐉"
+   },
+   {
+    "en": "poetry",
+    "ar": "الشعر",
+    "emoji": "🪶"
+   },
+   {
+    "en": "biography",
+    "ar": "سيرة",
+    "emoji": "👤"
+   },
+   {
+    "en": "plot",
+    "ar": "الحبكة",
+    "emoji": "🧩"
+   },
+   {
+    "en": "character",
+    "ar": "شخصية",
+    "emoji": "🎭"
+   },
+   {
+    "en": "author",
+    "ar": "مؤلف",
+    "emoji": "✍️"
+   },
+   {
+    "en": "chapter",
+    "ar": "فصل",
+    "emoji": "📑"
+   },
+   {
+    "en": "narrator",
+    "ar": "الراوي",
+    "emoji": "🗣️"
+   },
+   {
+    "en": "gripping",
+    "ar": "مشوّق",
+    "emoji": "😮"
+   },
+   {
+    "en": "bestseller",
+    "ar": "الأكثر مبيعاً",
+    "emoji": "🏆"
+   },
+   {
+    "en": "publish",
+    "ar": "ينشر",
+    "emoji": "🖨️"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "The novel is set in Cairo.",
+    "ar": "تدور أحداث الرواية في القاهرة."
+   },
+   {
+    "en": "It tells the story of a young doctor.",
+    "ar": "يروي قصة طبيب شاب."
+   },
+   {
+    "en": "I couldn't put the book down.",
+    "ar": "لم أستطع ترك الكتاب."
+   },
+   {
+    "en": "The plot has an unexpected twist.",
+    "ar": "في الحبكة منعطف غير متوقع."
+   },
+   {
+    "en": "I'd recommend it to anyone.",
+    "ar": "أنصح به أي شخص."
+   },
+   {
+    "en": "The ending was quite predictable.",
+    "ar": "كانت النهاية متوقعة إلى حد كبير."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "The story is set ___ nineteenth-century Russia.",
+    "o": [
+     "on",
+     "in",
+     "at",
+     "by"
+    ],
+    "a": 1,
+    "why": "be set in."
+   },
+   {
+    "q": "كتاب يكتبه شخص عن حياته هو:",
+    "o": [
+     "a biography",
+     "a thriller",
+     "a novel",
+     "an autobiography"
+    ],
+    "a": 3,
+    "why": "autobiography = سيرة ذاتية يكتبها صاحبها."
+   },
+   {
+    "q": "ما معنى I couldn't put it down؟",
+    "o": [
+     "كان مشوّقاً فلم أستطع التوقف عن قراءته",
+     "كان ثقيلاً جداً",
+     "لم أستطع فهمه",
+     "لم أجد مكاناً لوضعه"
+    ],
+    "a": 0,
+    "why": "تعبير عن كتاب شديد التشويق."
+   },
+   {
+    "q": "أين تشتري كتاباً جديداً؟",
+    "o": [
+     "a library",
+     "a chapter",
+     "a bookshop",
+     "a plot"
+    ],
+    "a": 2,
+    "why": "bookshop متجر الكتب، أما library فللاستعارة."
+   },
+   {
+    "q": "It's a novel ___ Naguib Mahfouz.",
+    "o": [
+     "of",
+     "by",
+     "from",
+     "with"
+    ],
+    "a": 1,
+    "why": "نقول a novel by + اسم المؤلف."
+   },
+   {
+    "q": "كلمة plot تعني:",
+    "o": [
+     "الراوي",
+     "النهاية",
+     "الحبكة",
+     "الفصل"
+    ],
+    "a": 2,
+    "why": "plot = تسلسل أحداث القصة."
+   }
+  ]
+ },
+ {
+  "n": "165",
+  "type": "skills",
+  "title_ar": "كتابة مراجعة",
+  "title_en": "Writing a review",
+  "summary": "تتعلم كتابة مراجعة منظمة لفيلم أو كتاب أو مطعم أو منتج: مقدمة، وصف، تقييم، ثم توصية. المراجعة من أنواع الكتابة المطلوبة في اختبارات B2 ومفيدة على مواقع التقييم.",
+  "notes": [
+   {
+    "h": "بنية المراجعة",
+    "t": "1) العنوان والمقدمة: ما الذي تراجعه؟ نوعه ومعلومات أساسية.\n2) الوصف: ملخص قصير دون كشف النهاية، أو وصف المكان والخدمة.\n3) التقييم: نقاط القوة والضعف مع أمثلة.\n4) التوصية: لمن تنصح به؟ وما تقييمك العام؟"
+   },
+   {
+    "h": "لغة المقدمة والوصف",
+    "t": "I recently watched / read / visited...\nIt is directed by / written by / located in...\nThe film stars... = بطولة.\nIt tells the story of...\nنستخدم المضارع البسيط لتلخيص القصة: The hero leaves his village and travels to the city.\nلا تكشف النهاية: without giving away the ending."
+   },
+   {
+    "h": "لغة التقييم",
+    "t": "إيجابي: The acting is outstanding. / What I liked most was... / The highlight is... / The staff were friendly and attentive.\nسلبي بلباقة: The only drawback is... / It was a bit disappointing. / The service could have been faster. / I found the plot rather slow.\nظروف التدرج: absolutely, extremely, rather, fairly, slightly, a bit."
+   },
+   {
+    "h": "لغة التوصية",
+    "t": "I would highly recommend it to anyone who enjoys...\nIt's well worth seeing / reading / visiting.\nI wouldn't recommend it unless you are a fan of...\nOverall, I'd give it four out of five.\nAll in all, it is a must-see."
+   },
+   {
+    "h": "الأسلوب",
+    "t": "المراجعة شخصية وحيوية: استخدم I وصفات متنوعة وتجنب تكرار good و nice. اجعل الفقرات قصيرة، ووازن بين الإيجابيات والسلبيات، وادعم رأيك بسبب أو مثال."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "grammar",
+    "t": "نقول recommend it to someone، و worth + ing: It's worth watching. خطأ: It's worth to watch."
+   },
+   {
+    "k": "mistake",
+    "t": "الصفات: The film was boring / disappointing وأنا: I was bored / disappointed. خطأ: The film was bored."
+   },
+   {
+    "k": "tip",
+    "t": "لخّص القصة بالمضارع البسيط لا بالماضي، ولا تتجاوز في الملخص ثلث المراجعة، فالقارئ يريد رأيك أكثر من الأحداث."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "review",
+    "ar": "مراجعة",
+    "emoji": "📝"
+   },
+   {
+    "en": "recommend",
+    "ar": "يوصي بـ",
+    "emoji": "👍"
+   },
+   {
+    "en": "rating",
+    "ar": "تقييم",
+    "emoji": "⭐"
+   },
+   {
+    "en": "outstanding",
+    "ar": "ممتاز جداً",
+    "emoji": "🏅"
+   },
+   {
+    "en": "disappointing",
+    "ar": "مخيّب للآمال",
+    "emoji": "😞"
+   },
+   {
+    "en": "drawback",
+    "ar": "عيب / نقطة ضعف",
+    "emoji": "➖"
+   },
+   {
+    "en": "highlight",
+    "ar": "أبرز ما فيه",
+    "emoji": "✨"
+   },
+   {
+    "en": "overall",
+    "ar": "إجمالاً",
+    "emoji": "📊"
+   },
+   {
+    "en": "acting",
+    "ar": "التمثيل",
+    "emoji": "🎭"
+   },
+   {
+    "en": "service",
+    "ar": "الخدمة",
+    "emoji": "🛎️"
+   },
+   {
+    "en": "atmosphere",
+    "ar": "الأجواء",
+    "emoji": "🕯️"
+   },
+   {
+    "en": "worth",
+    "ar": "يستحق",
+    "emoji": "💎"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "I would highly recommend this film.",
+    "ar": "أوصي بهذا الفيلم بشدة."
+   },
+   {
+    "en": "The acting is absolutely outstanding.",
+    "ar": "التمثيل رائع للغاية."
+   },
+   {
+    "en": "The only drawback is the price.",
+    "ar": "العيب الوحيد هو السعر."
+   },
+   {
+    "en": "It's well worth reading.",
+    "ar": "يستحق القراءة حقاً."
+   },
+   {
+    "en": "Overall, I'd give it four out of five.",
+    "ar": "إجمالاً أعطيه أربعة من خمسة."
+   },
+   {
+    "en": "The service could have been faster.",
+    "ar": "كان يمكن أن تكون الخدمة أسرع."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "It's definitely worth ___.",
+    "o": [
+     "to see",
+     "see",
+     "seeing",
+     "seen"
+    ],
+    "a": 2,
+    "why": "worth + ing."
+   },
+   {
+    "q": "ما الترتيب الصحيح لأقسام المراجعة؟",
+    "o": [
+     "توصية، وصف، مقدمة، تقييم",
+     "مقدمة، وصف، تقييم، توصية",
+     "تقييم، مقدمة، توصية، وصف",
+     "وصف، توصية، مقدمة، تقييم"
+    ],
+    "a": 1,
+    "why": "نبدأ بالمقدمة ثم الوصف ثم التقييم وننتهي بالتوصية."
+   },
+   {
+    "q": "The film was really ___. I nearly fell asleep.",
+    "o": [
+     "boring",
+     "bored",
+     "bore",
+     "boredom"
+    ],
+    "a": 0,
+    "why": "صفة ing تصف الشيء: boring."
+   },
+   {
+    "q": "أي زمن نستخدمه عادةً لتلخيص قصة فيلم في المراجعة؟",
+    "o": [
+     "Past perfect",
+     "Future simple",
+     "Past continuous",
+     "Present simple"
+    ],
+    "a": 3,
+    "why": "نلخّص الحبكة بالمضارع البسيط."
+   },
+   {
+    "q": "ما معنى The only drawback is the location؟",
+    "o": [
+     "الموقع أفضل ما فيه",
+     "العيب الوحيد هو الموقع",
+     "الموقع مجهول",
+     "لا عيب في الموقع"
+    ],
+    "a": 1,
+    "why": "drawback = عيب أو نقطة ضعف."
+   },
+   {
+    "q": "I'd recommend this book ___ anyone who likes history.",
+    "o": [
+     "for",
+     "at",
+     "to",
+     "with"
+    ],
+    "a": 2,
+    "why": "recommend something to someone."
+   }
+  ]
+ },
+ {
+  "n": "166",
+  "type": "skills",
+  "title_ar": "كتابة خطاب التقديم للوظيفة",
+  "title_en": "Writing a cover letter",
+  "summary": "تتعلم كتابة خطاب تقديم رسمي يرافق سيرتك الذاتية: بنيته وعباراته الثابتة وأسلوبه الرسمي. خطاب جيد يزيد فرصتك في الحصول على مقابلة عمل.",
+  "notes": [
+   {
+    "h": "ما هو خطاب التقديم وبنيته؟",
+    "t": "رسالة رسمية قصيرة (صفحة واحدة) تشرح لماذا أنت مناسب للوظيفة.\n1) التحية.\n2) الفقرة الأولى: الوظيفة التي تتقدم لها وأين رأيت الإعلان.\n3) الفقرة الثانية: مؤهلاتك وخبرتك المرتبطة بالوظيفة.\n4) الفقرة الثالثة: لماذا هذه الشركة وما الذي ستضيفه.\n5) الخاتمة: استعدادك للمقابلة ثم التوقيع."
+   },
+   {
+    "h": "التحية والخاتمة",
+    "t": "إذا عرفت الاسم: Dear Mr Hassan, / Dear Ms Smith, والخاتمة: Yours sincerely,\nإذا لم تعرف الاسم: Dear Sir or Madam, / Dear Hiring Manager, والخاتمة: Yours faithfully,\nلا نستخدم Hi أو Hello ولا الاسم الأول."
+   },
+   {
+    "h": "عبارات الافتتاح",
+    "t": "I am writing to apply for the position of sales assistant, as advertised on your website.\nI would like to apply for the post of...\nPlease find attached my CV. / I have attached my CV for your consideration."
+   },
+   {
+    "h": "عرض المؤهلات والخبرة",
+    "t": "I have a degree in... / I graduated from... with a degree in...\nI have three years' experience in customer service.\nI am currently working as...\nIn my previous role, I was responsible for + ing.\nI am fluent in Arabic and English.\nI consider myself reliable, hard-working and well organised.\nI believe I would be a valuable addition to your team."
+   },
+   {
+    "h": "عبارات الختام",
+    "t": "I would welcome the opportunity to discuss my application in person.\nI am available for interview at any time.\nI look forward to hearing from you.\nThank you for considering my application."
+   },
+   {
+    "h": "الأسلوب الرسمي",
+    "t": "لا اختصارات: I am وليس I'm، I would وليس I'd.\nلا عامية ولا علامات تعجب.\nاستخدم أفعال إنجاز قوية: managed, organised, developed, improved, led.\nخصّص الرسالة لكل وظيفة وراجع الإملاء جيداً."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "خطأ شائع: I look forward to hear from you. الصحيح: I look forward to hearing from you. وخطأ: I have experience of three years، والأفضل: I have three years' experience."
+   },
+   {
+    "k": "grammar",
+    "t": "Dear + اسم يُختم بـ Yours sincerely، و Dear Sir or Madam يُختم بـ Yours faithfully في الإنجليزية البريطانية. وفي الأمريكية يشيع Sincerely في الحالتين."
+   },
+   {
+    "k": "tip",
+    "t": "بعد Mr و Ms نكتب اسم العائلة لا الاسم الأول: Dear Mr Hassan وليس Dear Mr Ahmed إذا كان Ahmed الاسم الأول. واستخدم Ms للمرأة إن لم تعرف حالتها الاجتماعية."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "cover letter",
+    "ar": "خطاب تقديم",
+    "emoji": "✉️"
+   },
+   {
+    "en": "apply for",
+    "ar": "يتقدم لـ",
+    "emoji": "📨"
+   },
+   {
+    "en": "position",
+    "ar": "منصب / وظيفة",
+    "emoji": "💼"
+   },
+   {
+    "en": "experience",
+    "ar": "خبرة",
+    "emoji": "🧰"
+   },
+   {
+    "en": "qualification",
+    "ar": "مؤهل",
+    "emoji": "🎓"
+   },
+   {
+    "en": "skills",
+    "ar": "مهارات",
+    "emoji": "🛠️"
+   },
+   {
+    "en": "attached",
+    "ar": "مرفق",
+    "emoji": "📎"
+   },
+   {
+    "en": "interview",
+    "ar": "مقابلة",
+    "emoji": "🤝"
+   },
+   {
+    "en": "responsible for",
+    "ar": "مسؤول عن",
+    "emoji": "📋"
+   },
+   {
+    "en": "fluent",
+    "ar": "طليق",
+    "emoji": "🗣️"
+   },
+   {
+    "en": "opportunity",
+    "ar": "فرصة",
+    "emoji": "🚪"
+   },
+   {
+    "en": "sincerely",
+    "ar": "بإخلاص",
+    "emoji": "🖊️"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "I am writing to apply for the position.",
+    "ar": "أكتب إليكم للتقدم إلى الوظيفة."
+   },
+   {
+    "en": "Please find attached my CV.",
+    "ar": "تجدون سيرتي الذاتية مرفقة."
+   },
+   {
+    "en": "I have three years' experience in sales.",
+    "ar": "لدي خبرة ثلاث سنوات في المبيعات."
+   },
+   {
+    "en": "I was responsible for training new staff.",
+    "ar": "كنت مسؤولاً عن تدريب الموظفين الجدد."
+   },
+   {
+    "en": "I am available for interview at any time.",
+    "ar": "أنا متاح للمقابلة في أي وقت."
+   },
+   {
+    "en": "I look forward to hearing from you.",
+    "ar": "أتطلع إلى تلقي ردكم."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "I am writing to apply ___ the position of accountant.",
+    "o": [
+     "to",
+     "for",
+     "on",
+     "at"
+    ],
+    "a": 1,
+    "why": "apply for a position."
+   },
+   {
+    "q": "رسالة تبدأ بـ Dear Sir or Madam تُختم في البريطانية بـ:",
+    "o": [
+     "Yours faithfully,",
+     "Yours sincerely,",
+     "Best wishes,",
+     "See you soon,"
+    ],
+    "a": 0,
+    "why": "عند عدم معرفة الاسم نختم بـ Yours faithfully."
+   },
+   {
+    "q": "I look forward to ___ from you.",
+    "o": [
+     "hear",
+     "heard",
+     "be hearing",
+     "hearing"
+    ],
+    "a": 3,
+    "why": "look forward to + ing."
+   },
+   {
+    "q": "أي جملة تناسب خطاباً رسمياً؟",
+    "o": [
+     "I'm super excited about this job!",
+     "Hi, I want the job.",
+     "I would welcome the opportunity to discuss my application.",
+     "Call me whenever, thanks."
+    ],
+    "a": 2,
+    "why": "الأسلوب الرسمي بلا اختصارات ولا عامية."
+   },
+   {
+    "q": "In my previous role, I was responsible for ___ a team of five.",
+    "o": [
+     "manage",
+     "managing",
+     "to manage",
+     "managed"
+    ],
+    "a": 1,
+    "why": "responsible for + ing."
+   },
+   {
+    "q": "ماذا نكتب في الفقرة الأولى من خطاب التقديم؟",
+    "o": [
+     "الراتب المطلوب",
+     "هواياتك",
+     "الوظيفة التي تتقدم لها وأين رأيت الإعلان",
+     "عنوان منزلك"
+    ],
+    "a": 2,
+    "why": "الفقرة الأولى تحدد الوظيفة ومصدر الإعلان."
+   }
+  ]
+ }
+]

@@ -1,0 +1,1723 @@
+[
+ {
+  "n": "140",
+  "type": "grammar",
+  "title_ar": "الكلام المنقول — الجمل الخبرية",
+  "title_en": "Reported speech (statements)",
+  "summary": "تتعلم في هذا الدرس كيف تنقل كلام شخص آخر دون تكرار كلماته حرفياً. هذه المهارة أساسية في رواية الأخبار والاجتماعات والقصص، وتعتمد على إرجاع الزمن خطوة إلى الماضي وتغيير الضمائر وظروف الزمان.",
+  "notes": [
+   {
+    "h": "الكلام المباشر والكلام المنقول",
+    "t": "الكلام المباشر ينقل الكلمات كما قيلت بين علامتي تنصيص: She said, 'I am tired.'\nالكلام المنقول ينقل المعنى دون تنصيص: She said (that) she was tired.\nكلمة that اختيارية ويمكن حذفها."
+   },
+   {
+    "h": "إرجاع الزمن خطوة إلى الوراء",
+    "t": "إذا كان فعل النقل في الماضي (said, told) يتراجع الزمن:\nPresent simple ← Past simple: 'I work here' ← He said he worked there.\nPresent continuous ← Past continuous: 'I am reading' ← She said she was reading.\nPast simple / Present perfect ← Past perfect: 'I have finished' ← He said he had finished.\nwill ← would، can ← could، may ← might، must ← had to."
+   },
+   {
+    "h": "تغيير الضمائر وظروف الزمان والمكان",
+    "t": "I ← he/she، my ← his/her، we ← they.\nnow ← then، today ← that day، yesterday ← the day before، tomorrow ← the next day / the following day، last week ← the week before، here ← there، this ← that.\nمثال: 'I will call you tomorrow' ← She said she would call me the next day."
+   },
+   {
+    "h": "say أم tell؟",
+    "t": "say لا يأخذ مفعولاً شخصياً مباشراً: He said (that) he was busy. ويمكن: He said to me that...\ntell يحتاج دائماً إلى شخص بعده: He told me (that) he was busy."
+   },
+   {
+    "h": "متى لا نغيّر الزمن؟",
+    "t": "إذا كان الكلام حقيقة ثابتة أو ما زال صحيحاً يجوز إبقاء الزمن: The teacher said that water boils at 100 degrees.\nوإذا كان فعل النقل في المضارع لا يتغير الزمن: She says she is tired.\nالأفعال would, could, should, might والماضي التام لا تتغير."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "خطأ شائع: He said me that... أو He told that... والصحيح: He told me that... / He said that..."
+   },
+   {
+    "k": "grammar",
+    "t": "لا تنسَ تغيير الضمير حسب المعنى: 'I love my job' ← She said she loved her job، وليس she loved my job."
+   },
+   {
+    "k": "pron",
+    "t": "said تُنطق: سِد (بحرف e قصير) وليست سَيْد، و says تُنطق: سِز."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "reported speech",
+    "ar": "الكلام المنقول",
+    "emoji": "🗣️"
+   },
+   {
+    "en": "direct speech",
+    "ar": "الكلام المباشر",
+    "emoji": "💬"
+   },
+   {
+    "en": "claim",
+    "ar": "يزعم / يدّعي",
+    "emoji": "📢"
+   },
+   {
+    "en": "mention",
+    "ar": "يذكر",
+    "emoji": "📝"
+   },
+   {
+    "en": "admit",
+    "ar": "يعترف",
+    "emoji": "🙋"
+   },
+   {
+    "en": "deny",
+    "ar": "ينكر",
+    "emoji": "🙅"
+   },
+   {
+    "en": "explain",
+    "ar": "يشرح",
+    "emoji": "👨‍🏫"
+   },
+   {
+    "en": "announce",
+    "ar": "يعلن",
+    "emoji": "📣"
+   },
+   {
+    "en": "the day before",
+    "ar": "اليوم السابق",
+    "emoji": "📅"
+   },
+   {
+    "en": "the following day",
+    "ar": "اليوم التالي",
+    "emoji": "🗓️"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "She said she was tired.",
+    "ar": "قالت إنها متعبة."
+   },
+   {
+    "en": "He told me he had finished the report.",
+    "ar": "أخبرني أنه أنهى التقرير."
+   },
+   {
+    "en": "They said they would arrive the next day.",
+    "ar": "قالوا إنهم سيصلون في اليوم التالي."
+   },
+   {
+    "en": "She explained that she couldn't attend the meeting.",
+    "ar": "أوضحت أنها لا تستطيع حضور الاجتماع."
+   },
+   {
+    "en": "He admitted that he had made a mistake.",
+    "ar": "اعترف بأنه ارتكب خطأ."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "حوّل إلى كلام منقول: 'I am busy.' ← He said he ___ busy.",
+    "o": [
+     "is",
+     "was",
+     "has been",
+     "will be"
+    ],
+    "a": 1,
+    "why": "المضارع البسيط يتحول إلى الماضي البسيط بعد said."
+   },
+   {
+    "q": "اختر الصحيح:",
+    "o": [
+     "She told that she was late.",
+     "She said me that she was late.",
+     "She told me that she was late.",
+     "She said me she is late."
+    ],
+    "a": 2,
+    "why": "tell يحتاج إلى شخص بعده، و say لا يأخذ شخصاً مباشرة."
+   },
+   {
+    "q": "'I will help you tomorrow.' ← He said he ___ help me the next day.",
+    "o": [
+     "would",
+     "will",
+     "can",
+     "had"
+    ],
+    "a": 0,
+    "why": "will تتحول إلى would في الكلام المنقول."
+   },
+   {
+    "q": "كلمة yesterday تتحول في الكلام المنقول إلى:",
+    "o": [
+     "the next day",
+     "that day",
+     "then",
+     "the day before"
+    ],
+    "a": 3,
+    "why": "yesterday ← the day before."
+   },
+   {
+    "q": "'I have lost my keys.' ← She said she ___ her keys.",
+    "o": [
+     "has lost",
+     "lost my",
+     "had lost",
+     "was losing"
+    ],
+    "a": 2,
+    "why": "المضارع التام يتحول إلى الماضي التام، و my تصبح her."
+   },
+   {
+    "q": "أي جملة يجوز فيها إبقاء الزمن دون تغيير؟",
+    "o": [
+     "He said he is hungry yesterday.",
+     "The teacher said the Earth goes round the Sun.",
+     "She said she will come last week.",
+     "They said they are here then."
+    ],
+    "a": 1,
+    "why": "الحقائق الثابتة يجوز إبقاء زمنها كما هو."
+   }
+  ]
+ },
+ {
+  "n": "141",
+  "type": "grammar",
+  "title_ar": "الكلام المنقول — الأسئلة والأوامر",
+  "title_en": "Reported speech (questions and commands)",
+  "summary": "في الجزء الثاني تتعلم نقل الأسئلة والأوامر والطلبات، واستخدام أفعال نقل أدق من say و tell مثل advise و promise و suggest. هذه الأفعال تجعل لغتك أكثر دقة واحترافية.",
+  "notes": [
+   {
+    "h": "نقل أسئلة Yes/No",
+    "t": "نستخدم if أو whether، ويصبح ترتيب الجملة خبرياً (الفاعل قبل الفعل) دون do/does/did ودون علامة استفهام:\n'Do you like coffee?' ← He asked (me) if I liked coffee.\n'Are you coming?' ← She asked whether I was coming."
+   },
+   {
+    "h": "نقل أسئلة Wh",
+    "t": "نُبقي أداة الاستفهام ثم ترتيب خبري:\n'Where do you live?' ← She asked me where I lived.\n'What time is it?' ← He asked what time it was.\n'Why did you leave?' ← They asked why I had left."
+   },
+   {
+    "h": "نقل الأوامر والطلبات",
+    "t": "الصيغة: tell / ask + شخص + (not) to + مصدر الفعل.\n'Close the door.' ← He told me to close the door.\n'Please wait.' ← She asked us to wait.\n'Don't touch it!' ← He warned me not to touch it."
+   },
+   {
+    "h": "أفعال النقل وأنماطها",
+    "t": "فعل + شخص + to: advise, remind, warn, encourage, invite, order.\nمثال: The doctor advised me to rest.\nفعل + to: promise, offer, refuse, agree, threaten.\nمثال: She promised to call.\nفعل + ing: suggest, admit, deny, recommend.\nمثال: He suggested going by train.\nفعل + حرف جر + ing: apologise for, accuse someone of, insist on.\nمثال: She apologised for being late."
+   },
+   {
+    "h": "ملاحظة عن suggest",
+    "t": "لا نقول suggested me to go. الصحيح:\nHe suggested going. أو He suggested (that) we (should) go."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "خطأ شائع: She asked me where did I live. الصحيح: She asked me where I lived. لا نستخدم ترتيب السؤال ولا did في السؤال المنقول."
+   },
+   {
+    "k": "grammar",
+    "t": "في نفي الأمر المنقول نضع not قبل to: He told me not to worry، وليس to not worry أو don't worry."
+   },
+   {
+    "k": "pron",
+    "t": "whether تُنطق مثل weather تماماً: وِذَر. و advise (فعل) تنتهي بصوت z، أما advice (اسم) فتنتهي بصوت s."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "whether",
+    "ar": "ما إذا",
+    "emoji": "❓"
+   },
+   {
+    "en": "advise",
+    "ar": "ينصح",
+    "emoji": "💡"
+   },
+   {
+    "en": "warn",
+    "ar": "يحذّر",
+    "emoji": "⚠️"
+   },
+   {
+    "en": "remind",
+    "ar": "يذكّر",
+    "emoji": "⏰"
+   },
+   {
+    "en": "promise",
+    "ar": "يعد",
+    "emoji": "🤝"
+   },
+   {
+    "en": "refuse",
+    "ar": "يرفض",
+    "emoji": "🙅"
+   },
+   {
+    "en": "suggest",
+    "ar": "يقترح",
+    "emoji": "💭"
+   },
+   {
+    "en": "apologise",
+    "ar": "يعتذر",
+    "emoji": "🙏"
+   },
+   {
+    "en": "accuse",
+    "ar": "يتّهم",
+    "emoji": "👉"
+   },
+   {
+    "en": "insist",
+    "ar": "يصرّ",
+    "emoji": "✊"
+   },
+   {
+    "en": "encourage",
+    "ar": "يشجّع",
+    "emoji": "👏"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "She asked me where I lived.",
+    "ar": "سألتني أين أسكن."
+   },
+   {
+    "en": "He asked if I had seen the film.",
+    "ar": "سأل ما إذا كنت قد شاهدت الفيلم."
+   },
+   {
+    "en": "The doctor advised me to rest.",
+    "ar": "نصحني الطبيب بأن أرتاح."
+   },
+   {
+    "en": "She warned us not to be late.",
+    "ar": "حذّرتنا من التأخر."
+   },
+   {
+    "en": "He apologised for missing the meeting.",
+    "ar": "اعتذر عن تغيّبه عن الاجتماع."
+   },
+   {
+    "en": "They suggested going by train.",
+    "ar": "اقترحوا الذهاب بالقطار."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "'Do you speak French?' ← She asked me ___ French.",
+    "o": [
+     "do I speak",
+     "if I spoke",
+     "if did I speak",
+     "that I spoke"
+    ],
+    "a": 1,
+    "why": "سؤال Yes/No يُنقل بـ if مع ترتيب خبري وإرجاع الزمن."
+   },
+   {
+    "q": "اختر الصحيح:",
+    "o": [
+     "He asked where was the station.",
+     "He asked where is the station.",
+     "He asked where the station was.",
+     "He asked where did the station be."
+    ],
+    "a": 2,
+    "why": "في السؤال المنقول يأتي الفاعل قبل الفعل."
+   },
+   {
+    "q": "'Don't open the window.' ← She told me ___ the window.",
+    "o": [
+     "not to open",
+     "to not opening",
+     "don't open",
+     "not open"
+    ],
+    "a": 0,
+    "why": "الأمر المنفي: told + شخص + not to + المصدر."
+   },
+   {
+    "q": "He suggested ___ a taxi.",
+    "o": [
+     "to take",
+     "us to take",
+     "take us",
+     "taking"
+    ],
+    "a": 3,
+    "why": "بعد suggest نستخدم صيغة ing."
+   },
+   {
+    "q": "'I'll send it today.' ← She promised ___ it that day.",
+    "o": [
+     "sending",
+     "to send",
+     "me to send",
+     "that send"
+    ],
+    "a": 1,
+    "why": "promise يتبعه to + المصدر مباشرة."
+   },
+   {
+    "q": "She apologised ___ late.",
+    "o": [
+     "to be",
+     "for being",
+     "of being",
+     "that being"
+    ],
+    "a": 1,
+    "why": "apologise for + ing."
+   }
+  ]
+ },
+ {
+  "n": "142",
+  "type": "grammar",
+  "title_ar": "المبني للمجهول",
+  "title_en": "Passive voice",
+  "summary": "تراجع في هذا الدرس المبني للمجهول في جميع الأزمنة ومع الأفعال الناقصة، وتتعلم تراكيب متقدمة مثل It is said that و have something done. يكثر استخدامه في الأخبار والتقارير والكتابة الرسمية.",
+  "notes": [
+   {
+    "h": "القاعدة الأساسية",
+    "t": "Object + be (في الزمن المناسب) + Past participle (+ by + الفاعل).\nنستخدمه عندما يكون الفاعل مجهولاً أو غير مهم أو عندما نريد التركيز على الحدث.\nمعلوم: Someone stole my car.\nمجهول: My car was stolen."
+   },
+   {
+    "h": "المجهول في الأزمنة المختلفة",
+    "t": "Present simple: The office is cleaned every day.\nPresent continuous: The road is being repaired.\nPast simple: The bridge was built in 1990.\nPast continuous: The room was being painted.\nPresent perfect: The email has been sent.\nPast perfect: The decision had been made.\nFuture: The results will be announced tomorrow."
+   },
+   {
+    "h": "مع الأفعال الناقصة",
+    "t": "modal + be + Past participle:\nThe form must be signed. / This problem can be solved. / The report should be finished by Friday.\nوللماضي: modal + have been + Past participle: The window might have been broken by the wind."
+   },
+   {
+    "h": "تراكيب متقدمة",
+    "t": "1) المجهول غير الشخصي في الأخبار: It is said that he is very rich. = He is said to be very rich. ويُستخدم مع believe, think, report, expect, know.\n2) have / get something done عندما يقوم شخص آخر بالعمل لك: I had my car repaired. / She is getting her hair cut.\n3) الأفعال ذات المفعولين: They gave me a prize ← I was given a prize."
+   },
+   {
+    "h": "متى نذكر by؟",
+    "t": "نذكر الفاعل بـ by فقط إذا كان مهماً أو يضيف معلومة: The novel was written by Naguib Mahfouz.\nولا نذكره إذا كان واضحاً أو مجهولاً: He was arrested (by the police)."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "خطأ شائع: نسيان فعل be أو استخدام التصريف الثاني: The letter written yesterday / was wrote. الصحيح: The letter was written yesterday."
+   },
+   {
+    "k": "grammar",
+    "t": "الأفعال اللازمة التي لا مفعول لها لا تُبنى للمجهول: لا نقول was happened أو was died، بل The accident happened / He died."
+   },
+   {
+    "k": "tip",
+    "t": "في العربية نفضّل المبني للمعلوم، لكن الإنجليزية الرسمية والعلمية تستخدم المجهول كثيراً، فتدرّب على قراءته في الأخبار."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "passive voice",
+    "ar": "المبني للمجهول",
+    "emoji": "🔄"
+   },
+   {
+    "en": "be arrested",
+    "ar": "يُعتقل",
+    "emoji": "🚓"
+   },
+   {
+    "en": "be built",
+    "ar": "يُبنى",
+    "emoji": "🏗️"
+   },
+   {
+    "en": "be published",
+    "ar": "يُنشر",
+    "emoji": "📰"
+   },
+   {
+    "en": "be invented",
+    "ar": "يُخترع",
+    "emoji": "💡"
+   },
+   {
+    "en": "be delivered",
+    "ar": "يُسلَّم",
+    "emoji": "📦"
+   },
+   {
+    "en": "be repaired",
+    "ar": "يُصلَّح",
+    "emoji": "🔧"
+   },
+   {
+    "en": "be announced",
+    "ar": "يُعلَن",
+    "emoji": "📣"
+   },
+   {
+    "en": "be damaged",
+    "ar": "يتضرر",
+    "emoji": "💥"
+   },
+   {
+    "en": "be cancelled",
+    "ar": "يُلغى",
+    "emoji": "❌"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "The bridge was built in 1990.",
+    "ar": "بُني الجسر عام 1990."
+   },
+   {
+    "en": "The road is being repaired.",
+    "ar": "يجري إصلاح الطريق الآن."
+   },
+   {
+    "en": "The results will be announced tomorrow.",
+    "ar": "ستُعلن النتائج غداً."
+   },
+   {
+    "en": "This form must be signed by a manager.",
+    "ar": "يجب أن يوقّع مدير على هذا النموذج."
+   },
+   {
+    "en": "I had my car repaired last week.",
+    "ar": "أصلحتُ سيارتي الأسبوع الماضي عند مختص."
+   },
+   {
+    "en": "He is said to be very rich.",
+    "ar": "يقال إنه غني جداً."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "The new hospital ___ next year.",
+    "o": [
+     "will open by",
+     "will be opened",
+     "will opened",
+     "is opening by"
+    ],
+    "a": 1,
+    "why": "المستقبل المجهول: will be + التصريف الثالث."
+   },
+   {
+    "q": "اختر الجملة الصحيحة:",
+    "o": [
+     "The email has been sent.",
+     "The email has sent.",
+     "The email has been send.",
+     "The email was been sent."
+    ],
+    "a": 0,
+    "why": "المضارع التام المجهول: has been + التصريف الثالث."
+   },
+   {
+    "q": "The road ___ at the moment.",
+    "o": [
+     "is repaired",
+     "is repairing",
+     "repairs",
+     "is being repaired"
+    ],
+    "a": 3,
+    "why": "المضارع المستمر المجهول: is being + التصريف الثالث."
+   },
+   {
+    "q": "ما معنى: I had my hair cut؟",
+    "o": [
+     "قصصتُ شعري بنفسي",
+     "قصّ لي شخص آخر شعري",
+     "يجب أن أقص شعري",
+     "كنت أقص شعري"
+    ],
+    "a": 1,
+    "why": "have something done تعني أن شخصاً آخر قام بالعمل لك."
+   },
+   {
+    "q": "أين الخطأ؟ The accident was happened last night.",
+    "o": [
+     "was happened",
+     "The accident",
+     "last night",
+     "لا يوجد خطأ"
+    ],
+    "a": 0,
+    "why": "happen فعل لازم لا يُبنى للمجهول، والصحيح: happened."
+   },
+   {
+    "q": "This problem ___ easily.",
+    "o": [
+     "can solve",
+     "can solved",
+     "can be solved",
+     "can be solve"
+    ],
+    "a": 2,
+    "why": "مع الأفعال الناقصة: modal + be + التصريف الثالث."
+   }
+  ]
+ },
+ {
+  "n": "143",
+  "type": "vocab",
+  "title_ar": "الأنظمة السياسية",
+  "title_en": "Political systems",
+  "summary": "تتعلم مفردات الحديث عن أنظمة الحكم والانتخابات ومؤسسات الدولة. ستساعدك على فهم نشرات الأخبار والمشاركة في نقاش سياسي عام بلغة محايدة ودقيقة.",
+  "notes": [
+   {
+    "h": "أنواع أنظمة الحكم",
+    "t": "democracy = الديمقراطية: الشعب يختار ممثليه بالانتخاب.\nmonarchy = الملكية: يرأس الدولة ملك أو ملكة. ومنها constitutional monarchy أي الملكية الدستورية.\nrepublic = الجمهورية: يرأس الدولة رئيس منتخب.\ndictatorship = الدكتاتورية: سلطة مطلقة لشخص أو مجموعة.\nمثال: The country became a republic in 1953."
+   },
+   {
+    "h": "السلطات الثلاث",
+    "t": "the legislature / parliament = السلطة التشريعية، تسنّ القوانين (pass laws).\nthe executive / the government = السلطة التنفيذية، تطبّق القوانين.\nthe judiciary = السلطة القضائية، تفصل في النزاعات.\nالفصل بين السلطات = the separation of powers."
+   },
+   {
+    "h": "الانتخابات",
+    "t": "hold an election = يُجري انتخابات، run for office = يترشح لمنصب، vote for a candidate = يصوّت لمرشح، win by a majority = يفوز بالأغلبية، the ruling party = الحزب الحاكم، the opposition = المعارضة، a coalition = ائتلاف.\nمثال: The opposition won the election by a narrow majority."
+   },
+   {
+    "h": "التعبير عن الرأي السياسي بلباقة",
+    "t": "In my view, the government should invest more in education.\nI am in favour of this policy. / I am against raising taxes.\nSupporters argue that... while critics claim that...\nهذه التراكيب تجعل كلامك متوازناً."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "pron",
+    "t": "انتبه لتغيّر موضع النبر: DEmocrat، deMOcracy، demoCRAtic. و politics النبر على المقطع الأول: بُولِتِكس، أما political فعلى الثاني: بُلِتِكَل."
+   },
+   {
+    "k": "mistake",
+    "t": "policy تعني سياسة أو خطة عمل محددة، و politics تعني السياسة كمجال، و police تعني الشرطة. لا تخلط بينها."
+   },
+   {
+    "k": "grammar",
+    "t": "the government يمكن أن يأخذ فعلاً مفرداً أو جمعاً في الإنجليزية البريطانية: The government is / are planning new laws."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "democracy",
+    "ar": "الديمقراطية",
+    "emoji": "🗳️"
+   },
+   {
+    "en": "monarchy",
+    "ar": "الملكية",
+    "emoji": "👑"
+   },
+   {
+    "en": "republic",
+    "ar": "الجمهورية",
+    "emoji": "🏛️"
+   },
+   {
+    "en": "parliament",
+    "ar": "البرلمان",
+    "emoji": "🏢"
+   },
+   {
+    "en": "election",
+    "ar": "انتخابات",
+    "emoji": "📮"
+   },
+   {
+    "en": "candidate",
+    "ar": "مرشّح",
+    "emoji": "🙋"
+   },
+   {
+    "en": "majority",
+    "ar": "الأغلبية",
+    "emoji": "📊"
+   },
+   {
+    "en": "opposition",
+    "ar": "المعارضة",
+    "emoji": "⚖️"
+   },
+   {
+    "en": "policy",
+    "ar": "سياسة / خطة",
+    "emoji": "📋"
+   },
+   {
+    "en": "constitution",
+    "ar": "الدستور",
+    "emoji": "📜"
+   },
+   {
+    "en": "citizen",
+    "ar": "مواطن",
+    "emoji": "🧑"
+   },
+   {
+    "en": "campaign",
+    "ar": "حملة",
+    "emoji": "📣"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "The election will be held next month.",
+    "ar": "ستُجرى الانتخابات الشهر القادم."
+   },
+   {
+    "en": "She decided to run for parliament.",
+    "ar": "قررت أن تترشح للبرلمان."
+   },
+   {
+    "en": "The ruling party lost its majority.",
+    "ar": "خسر الحزب الحاكم أغلبيته."
+   },
+   {
+    "en": "Parliament passed a new law yesterday.",
+    "ar": "أقرّ البرلمان قانوناً جديداً أمس."
+   },
+   {
+    "en": "I am in favour of this policy.",
+    "ar": "أنا أؤيد هذه السياسة."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "ما معنى the opposition؟",
+    "o": [
+     "الحكومة",
+     "المعارضة",
+     "الدستور",
+     "الأغلبية"
+    ],
+    "a": 1,
+    "why": "the opposition هي الأحزاب المعارضة للحكومة."
+   },
+   {
+    "q": "The country will ___ an election in May.",
+    "o": [
+     "hold",
+     "make",
+     "do",
+     "take"
+    ],
+    "a": 0,
+    "why": "التعبير الصحيح: hold an election."
+   },
+   {
+    "q": "أي سلطة تسنّ القوانين؟",
+    "o": [
+     "the judiciary",
+     "the executive",
+     "the monarchy",
+     "the legislature"
+    ],
+    "a": 3,
+    "why": "السلطة التشريعية (the legislature) هي التي تسنّ القوانين."
+   },
+   {
+    "q": "He wants to run ___ president.",
+    "o": [
+     "to",
+     "at",
+     "for",
+     "on"
+    ],
+    "a": 2,
+    "why": "نقول run for president أي يترشح للرئاسة."
+   },
+   {
+    "q": "ما الفرق؟ كلمة policy تعني:",
+    "o": [
+     "الشرطة",
+     "سياسة أو خطة عمل",
+     "السياسة كمجال عام",
+     "سياسي"
+    ],
+    "a": 1,
+    "why": "policy = خطة أو سياسة محددة، أما politics فالسياسة كمجال."
+   },
+   {
+    "q": "نظام يرأسه ملك أو ملكة يسمى:",
+    "o": [
+     "a republic",
+     "a coalition",
+     "a monarchy",
+     "a campaign"
+    ],
+    "a": 2,
+    "why": "monarchy = الملكية."
+   }
+  ]
+ },
+ {
+  "n": "144",
+  "type": "vocab",
+  "title_ar": "القضايا الاقتصادية",
+  "title_en": "Economic issues",
+  "summary": "تتعلم المصطلحات الأساسية لوصف حالة الاقتصاد: التضخم والبطالة والنمو والركود. بهذه المفردات تستطيع متابعة الأخبار الاقتصادية ووصف الاتجاهات صعوداً وهبوطاً.",
+  "notes": [
+   {
+    "h": "مؤشرات الاقتصاد",
+    "t": "inflation = التضخم (ارتفاع الأسعار)، unemployment = البطالة، economic growth = النمو الاقتصادي، GDP = الناتج المحلي الإجمالي، interest rates = أسعار الفائدة، the cost of living = تكلفة المعيشة.\nمثال: Inflation has risen to five percent."
+   },
+   {
+    "h": "الأزمات والتعافي",
+    "t": "a recession = ركود، an economic crisis = أزمة اقتصادية، debt = دَين، a budget deficit = عجز الموازنة، recovery = تعافٍ.\nمثال: The economy is slowly recovering from the recession."
+   },
+   {
+    "h": "وصف الاتجاهات",
+    "t": "للصعود: rise, increase, go up, grow, soar (يرتفع بحدة).\nللهبوط: fall, decrease, drop, decline, plummet (ينهار).\nللثبات: remain stable, level off.\nالظروف: sharply = بحدة، steadily = بثبات، slightly = قليلاً، gradually = تدريجياً.\nمثال: Prices rose sharply last year. / There was a sharp rise in prices."
+   },
+   {
+    "h": "التجارة والضرائب",
+    "t": "import = يستورد، export = يصدّر، trade = التجارة، tax = ضريبة، raise / cut taxes = يرفع / يخفض الضرائب، subsidy = دعم حكومي.\nمثال: The government plans to cut taxes on small businesses."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "rise فعل لازم (شيء يرتفع بنفسه): Prices rose. أما raise فمتعدٍّ (شخص يرفع شيئاً): The company raised prices. خطأ: The company rose prices."
+   },
+   {
+    "k": "pron",
+    "t": "debt فيها حرف b صامت وتُنطق: دِت. و economy النبر على المقطع الثاني: إِكُونُمي، أما economic فعلى الثالث: إيكُنُومِك."
+   },
+   {
+    "k": "grammar",
+    "t": "economic تعني اقتصادي (متعلق بالاقتصاد): economic growth. و economical تعني موفّر: an economical car."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "inflation",
+    "ar": "التضخم",
+    "emoji": "📈"
+   },
+   {
+    "en": "unemployment",
+    "ar": "البطالة",
+    "emoji": "🧍"
+   },
+   {
+    "en": "recession",
+    "ar": "ركود",
+    "emoji": "📉"
+   },
+   {
+    "en": "debt",
+    "ar": "دَين",
+    "emoji": "💳"
+   },
+   {
+    "en": "tax",
+    "ar": "ضريبة",
+    "emoji": "🧾"
+   },
+   {
+    "en": "budget",
+    "ar": "ميزانية",
+    "emoji": "💰"
+   },
+   {
+    "en": "export",
+    "ar": "يصدّر / صادرات",
+    "emoji": "🚢"
+   },
+   {
+    "en": "import",
+    "ar": "يستورد / واردات",
+    "emoji": "📦"
+   },
+   {
+    "en": "growth",
+    "ar": "نمو",
+    "emoji": "🌱"
+   },
+   {
+    "en": "interest rate",
+    "ar": "سعر الفائدة",
+    "emoji": "🏦"
+   },
+   {
+    "en": "currency",
+    "ar": "عملة",
+    "emoji": "💱"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "Inflation has risen sharply this year.",
+    "ar": "ارتفع التضخم بحدة هذا العام."
+   },
+   {
+    "en": "The cost of living is going up.",
+    "ar": "تكلفة المعيشة ترتفع."
+   },
+   {
+    "en": "The government plans to cut taxes.",
+    "ar": "تخطط الحكومة لخفض الضرائب."
+   },
+   {
+    "en": "Unemployment fell slightly last month.",
+    "ar": "انخفضت البطالة قليلاً الشهر الماضي."
+   },
+   {
+    "en": "The economy is recovering from the recession.",
+    "ar": "الاقتصاد يتعافى من الركود."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "The company ___ its prices last month.",
+    "o": [
+     "rose",
+     "raised",
+     "risen",
+     "rise"
+    ],
+    "a": 1,
+    "why": "raise فعل متعدٍّ يأخذ مفعولاً، وماضيه raised."
+   },
+   {
+    "q": "ما معنى recession؟",
+    "o": [
+     "تضخم",
+     "نمو",
+     "ركود",
+     "دعم حكومي"
+    ],
+    "a": 2,
+    "why": "recession = ركود اقتصادي."
+   },
+   {
+    "q": "أي فعل يعني ارتفع بحدة شديدة؟",
+    "o": [
+     "soar",
+     "decline",
+     "level off",
+     "drop"
+    ],
+    "a": 0,
+    "why": "soar = يرتفع ارتفاعاً حاداً."
+   },
+   {
+    "q": "A small car is more ___ than a big one.",
+    "o": [
+     "economy",
+     "economic",
+     "economics",
+     "economical"
+    ],
+    "a": 3,
+    "why": "economical = موفّر في الاستهلاك."
+   },
+   {
+    "q": "كيف تُنطق كلمة debt؟",
+    "o": [
+     "دِبت",
+     "دِت",
+     "دَيبت",
+     "دِبِت"
+    ],
+    "a": 1,
+    "why": "حرف b صامت في debt."
+   },
+   {
+    "q": "Prices remained ___ throughout the year.",
+    "o": [
+     "sharply",
+     "steadily",
+     "stable",
+     "slightly"
+    ],
+    "a": 2,
+    "why": "بعد remain تأتي صفة: remain stable."
+   }
+  ]
+ },
+ {
+  "n": "145",
+  "type": "vocab",
+  "title_ar": "الشؤون المالية الشخصية",
+  "title_en": "Personal finance",
+  "summary": "تتعلم كيف تتحدث عن دخلك ومصروفاتك وحسابك البنكي وديونك. هذه المفردات ضرورية للتعامل مع البنوك والفواتير ووضع ميزانية شخصية.",
+  "notes": [
+   {
+    "h": "الدخل والمصروفات",
+    "t": "income = الدخل، salary = راتب شهري، wages = أجر (بالساعة أو الأسبوع)، expenses = مصروفات، bills = فواتير، rent = إيجار.\nمثال: My monthly expenses are higher than my income."
+   },
+   {
+    "h": "أفعال المال",
+    "t": "earn = يكسب، spend money on = ينفق على، afford = يقدر على ثمن، owe = يدين بـ، borrow from = يقترض من، lend to = يُقرض، pay off a debt = يسدد ديناً كاملاً، waste = يبدّد.\nمثال: I can't afford a new car right now."
+   },
+   {
+    "h": "البنك",
+    "t": "a current account = حساب جارٍ، a savings account = حساب توفير، withdraw = يسحب، deposit = يودع، transfer = يحوّل، a loan = قرض، a mortgage = قرض عقاري، an overdraft = سحب على المكشوف.\nمثال: I'd like to transfer money to another account."
+   },
+   {
+    "h": "الميزانية والتعابير",
+    "t": "set a budget = يضع ميزانية، stick to a budget = يلتزم بالميزانية، be on a tight budget = ميزانيته محدودة، make ends meet = يتدبر أموره بالكاد، be in debt = عليه ديون، be broke = مفلس (غير رسمي).\nمثال: Many families struggle to make ends meet."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "borrow = تأخذ، lend = تعطي. خطأ: Can you borrow me some money? الصحيح: Can you lend me some money? أو Can I borrow some money from you?"
+   },
+   {
+    "k": "pron",
+    "t": "mortgage فيها حرف t صامت وتُنطق: مُورْغِج. و receipt فيها p صامت: رِسِيت."
+   },
+   {
+    "k": "grammar",
+    "t": "نقول spend money on something وليس spend money for. مثال: She spends a lot on clothes."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "income",
+    "ar": "الدخل",
+    "emoji": "💵"
+   },
+   {
+    "en": "salary",
+    "ar": "راتب",
+    "emoji": "💼"
+   },
+   {
+    "en": "expenses",
+    "ar": "مصروفات",
+    "emoji": "🧾"
+   },
+   {
+    "en": "afford",
+    "ar": "يقدر على ثمن",
+    "emoji": "👛"
+   },
+   {
+    "en": "owe",
+    "ar": "يدين بـ",
+    "emoji": "🤲"
+   },
+   {
+    "en": "borrow",
+    "ar": "يقترض",
+    "emoji": "🤝"
+   },
+   {
+    "en": "lend",
+    "ar": "يُقرض",
+    "emoji": "💸"
+   },
+   {
+    "en": "loan",
+    "ar": "قرض",
+    "emoji": "🏦"
+   },
+   {
+    "en": "mortgage",
+    "ar": "قرض عقاري",
+    "emoji": "🏠"
+   },
+   {
+    "en": "withdraw",
+    "ar": "يسحب",
+    "emoji": "🏧"
+   },
+   {
+    "en": "budget",
+    "ar": "ميزانية",
+    "emoji": "📊"
+   },
+   {
+    "en": "bill",
+    "ar": "فاتورة",
+    "emoji": "📄"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "I can't afford a new car.",
+    "ar": "لا أستطيع تحمل ثمن سيارة جديدة."
+   },
+   {
+    "en": "Could you lend me some money?",
+    "ar": "هل يمكنك أن تقرضني بعض المال؟"
+   },
+   {
+    "en": "I need to stick to my budget.",
+    "ar": "عليّ أن ألتزم بميزانيتي."
+   },
+   {
+    "en": "She finally paid off her student loan.",
+    "ar": "سدّدت أخيراً قرضها الدراسي."
+   },
+   {
+    "en": "We struggle to make ends meet.",
+    "ar": "نتدبر أمورنا بصعوبة."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Can I ___ your pen for a minute?",
+    "o": [
+     "lend",
+     "borrow",
+     "owe",
+     "afford"
+    ],
+    "a": 1,
+    "why": "borrow = يأخذ شيئاً ليعيده لاحقاً."
+   },
+   {
+    "q": "ما معنى make ends meet؟",
+    "o": [
+     "يدّخر مالاً كثيراً",
+     "يلتقي بالأصدقاء",
+     "يتدبر مصروفاته بالكاد",
+     "يفتح حساباً"
+    ],
+    "a": 2,
+    "why": "التعبير يعني أن الدخل يكفي بالكاد."
+   },
+   {
+    "q": "He spends too much money ___ gadgets.",
+    "o": [
+     "on",
+     "for",
+     "in",
+     "at"
+    ],
+    "a": 0,
+    "why": "spend money on."
+   },
+   {
+    "q": "قرض لشراء بيت يسمى:",
+    "o": [
+     "an overdraft",
+     "a deposit",
+     "a salary",
+     "a mortgage"
+    ],
+    "a": 3,
+    "why": "mortgage = قرض عقاري."
+   },
+   {
+    "q": "I ___ my brother fifty dollars. I must pay him back.",
+    "o": [
+     "lend",
+     "earn",
+     "owe",
+     "waste"
+    ],
+    "a": 2,
+    "why": "owe = يدين لشخص بمال."
+   },
+   {
+    "q": "I'd like to ___ two hundred dollars from my account.",
+    "o": [
+     "withdraw",
+     "borrow",
+     "spend",
+     "owe"
+    ],
+    "a": 0,
+    "why": "withdraw = يسحب مالاً من الحساب."
+   }
+  ]
+ },
+ {
+  "n": "146",
+  "type": "vocab",
+  "title_ar": "الادخار والاستثمار",
+  "title_en": "Saving and investing",
+  "summary": "تتعلم مفردات الادخار والاستثمار: الأسهم والعوائد والمخاطر. ستتمكن من مناقشة خططك المالية طويلة الأمد وفهم نصائح الخبراء الماليين.",
+  "notes": [
+   {
+    "h": "الادخار",
+    "t": "save up for = يدّخر من أجل، put money aside = يضع مالاً جانباً، savings = مدخرات، an emergency fund = صندوق طوارئ، earn interest = يكسب فائدة، a rainy day = وقت الحاجة.\nمثال: I'm saving up for a house. / It's wise to save for a rainy day."
+   },
+   {
+    "h": "أنواع الاستثمار",
+    "t": "shares / stocks = أسهم، the stock market = سوق الأسهم، bonds = سندات، property / real estate = عقارات، gold = ذهب، a pension fund = صندوق تقاعد، a start-up = شركة ناشئة.\nنقول: invest in something. مثال: She invested in property."
+   },
+   {
+    "h": "العائد والمخاطرة",
+    "t": "profit = ربح، loss = خسارة، return = عائد، risk = مخاطرة، high-risk / low-risk = عالي / منخفض المخاطر، dividend = أرباح موزعة، portfolio = محفظة استثمارية.\nمثال: Higher returns usually involve higher risk."
+   },
+   {
+    "h": "نصائح بلغة إنجليزية طبيعية",
+    "t": "Diversify your portfolio = نوّع استثماراتك.\nDon't put all your eggs in one basket = لا تضع كل البيض في سلة واحدة.\nThink long-term = فكّر على المدى الطويل.\nIt pays off in the long run = يؤتي ثماره على المدى البعيد.\nThe value can go up or down = القيمة قد ترتفع أو تنخفض."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "grammar",
+    "t": "نقول invest in وليس invest on أو invest at: He invested in the stock market. ونقول save up for something."
+   },
+   {
+    "k": "mistake",
+    "t": "لا تخلط بين win و earn و gain: نكسب راتباً = earn a salary، نربح جائزة = win a prize، ونحقق ربحاً = make a profit وليس win a profit."
+   },
+   {
+    "k": "pron",
+    "t": "profit تُنطق: بْرُوفِت بحرف p مهموس لا b. و invest النبر على المقطع الثاني: إنفِست، مع نطق v لا f."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "savings",
+    "ar": "مدخرات",
+    "emoji": "🐖"
+   },
+   {
+    "en": "invest",
+    "ar": "يستثمر",
+    "emoji": "📈"
+   },
+   {
+    "en": "shares",
+    "ar": "أسهم",
+    "emoji": "📊"
+   },
+   {
+    "en": "stock market",
+    "ar": "سوق الأسهم",
+    "emoji": "💹"
+   },
+   {
+    "en": "profit",
+    "ar": "ربح",
+    "emoji": "💰"
+   },
+   {
+    "en": "loss",
+    "ar": "خسارة",
+    "emoji": "📉"
+   },
+   {
+    "en": "risk",
+    "ar": "مخاطرة",
+    "emoji": "🎲"
+   },
+   {
+    "en": "return",
+    "ar": "عائد",
+    "emoji": "💵"
+   },
+   {
+    "en": "property",
+    "ar": "عقار",
+    "emoji": "🏘️"
+   },
+   {
+    "en": "pension",
+    "ar": "معاش تقاعدي",
+    "emoji": "👴"
+   },
+   {
+    "en": "diversify",
+    "ar": "ينوّع",
+    "emoji": "🧺"
+   },
+   {
+    "en": "interest",
+    "ar": "فائدة",
+    "emoji": "🏦"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "I'm saving up for a house.",
+    "ar": "أدّخر لشراء منزل."
+   },
+   {
+    "en": "She invested in the stock market.",
+    "ar": "استثمرت في سوق الأسهم."
+   },
+   {
+    "en": "The company made a huge profit.",
+    "ar": "حققت الشركة ربحاً ضخماً."
+   },
+   {
+    "en": "Higher returns usually involve higher risk.",
+    "ar": "العوائد الأعلى تتضمن عادةً مخاطر أعلى."
+   },
+   {
+    "en": "It will pay off in the long run.",
+    "ar": "سيؤتي ثماره على المدى البعيد."
+   },
+   {
+    "en": "I put some money aside every month.",
+    "ar": "أضع بعض المال جانباً كل شهر."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "He invested all his money ___ property.",
+    "o": [
+     "on",
+     "at",
+     "in",
+     "for"
+    ],
+    "a": 2,
+    "why": "الصحيح: invest in."
+   },
+   {
+    "q": "ما معنى Don't put all your eggs in one basket؟",
+    "o": [
+     "لا تنفق مالك كله",
+     "نوّع استثماراتك ولا تعتمد على شيء واحد",
+     "لا تقترض من البنك",
+     "ادّخر لوقت الحاجة"
+    ],
+    "a": 1,
+    "why": "المثل يدعو إلى التنويع وتوزيع المخاطر."
+   },
+   {
+    "q": "The business ___ a profit of two million dollars.",
+    "o": [
+     "won",
+     "earned on",
+     "did",
+     "made"
+    ],
+    "a": 3,
+    "why": "التعبير الصحيح: make a profit."
+   },
+   {
+    "q": "save for a rainy day تعني:",
+    "o": [
+     "يدّخر لوقت الحاجة",
+     "يدّخر لشراء مظلة",
+     "ينفق في الشتاء",
+     "يستثمر في الزراعة"
+    ],
+    "a": 0,
+    "why": "a rainy day تعبير عن وقت الشدة والحاجة."
+   },
+   {
+    "q": "عكس profit هو:",
+    "o": [
+     "return",
+     "loss",
+     "share",
+     "interest"
+    ],
+    "a": 1,
+    "why": "loss = خسارة."
+   },
+   {
+    "q": "I'm saving ___ a new laptop.",
+    "o": [
+     "up for",
+     "on to",
+     "in for",
+     "at"
+    ],
+    "a": 0,
+    "why": "save up for something = يدّخر من أجل شيء."
+   }
+  ]
+ },
+ {
+  "n": "147",
+  "type": "conversation",
+  "title_ar": "التسوق عبر الإنترنت",
+  "title_en": "Online shopping",
+  "summary": "تتعلم لغة التسوق الإلكتروني: من البحث عن المنتج وإضافته إلى السلة حتى التتبع والإرجاع والشكوى. هذه العبارات تفيدك عند الشراء من المواقع العالمية والتواصل مع خدمة العملاء.",
+  "notes": [
+   {
+    "h": "خطوات الشراء",
+    "t": "browse = يتصفح، add to basket / cart = يضيف إلى السلة، proceed to checkout = ينتقل إلى الدفع، place an order = يُتمّ طلباً، enter your delivery address = أدخل عنوان التوصيل، a discount code = رمز خصم.\nمثال: I placed an order two days ago."
+   },
+   {
+    "h": "التوصيل والتتبع",
+    "t": "delivery / shipping = التوصيل / الشحن، free delivery = توصيل مجاني، track an order = يتتبع الطلب، out of stock = غير متوفر، in stock = متوفر، estimated delivery date = تاريخ التوصيل المتوقع.\nمثال: The item is out of stock at the moment."
+   },
+   {
+    "h": "الإرجاع والاسترداد",
+    "t": "return an item = يُرجع منتجاً، get a refund = يسترد المبلغ، exchange = يستبدل، faulty / damaged = معيب / تالف، a returns policy = سياسة الإرجاع، a warranty = ضمان.\nمثال: I'd like to return this item and get a refund."
+   },
+   {
+    "h": "التواصل مع خدمة العملاء",
+    "t": "My order hasn't arrived yet.\nThe item I received is damaged.\nI was charged twice for the same order.\nCould you tell me when it will be delivered?\nI'd like a replacement, please.\nاستخدم Could you و I'd like لتكون مهذباً حتى عند الشكوى."
+   },
+   {
+    "h": "قراءة المراجعات والأمان",
+    "t": "customer reviews = مراجعات العملاء، rating = تقييم، a secure payment = دفع آمن، a scam = عملية احتيال، a reliable seller = بائع موثوق.\nمثال: Always read the reviews before you buy."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "خطأ شائع: I want my money back now! أسلوب حاد. الأفضل: I'd like a refund, please. وخطأ آخر: I made an order، والأشيع: I placed an order."
+   },
+   {
+    "k": "pron",
+    "t": "receipt تُنطق: رِسِيت (p صامت). و purchase تُنطق: بِرْتْشِس والنبر على المقطع الأول."
+   },
+   {
+    "k": "grammar",
+    "t": "مع الطلب الذي لم يصل بعد استخدم المضارع التام: My order hasn't arrived yet، وليس didn't arrive yet."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "basket",
+    "ar": "سلة التسوق",
+    "emoji": "🧺"
+   },
+   {
+    "en": "checkout",
+    "ar": "صفحة الدفع",
+    "emoji": "💳"
+   },
+   {
+    "en": "delivery",
+    "ar": "توصيل",
+    "emoji": "🚚"
+   },
+   {
+    "en": "refund",
+    "ar": "استرداد المبلغ",
+    "emoji": "💵"
+   },
+   {
+    "en": "discount",
+    "ar": "خصم",
+    "emoji": "🏷️"
+   },
+   {
+    "en": "review",
+    "ar": "مراجعة",
+    "emoji": "⭐"
+   },
+   {
+    "en": "warranty",
+    "ar": "ضمان",
+    "emoji": "🛡️"
+   },
+   {
+    "en": "track",
+    "ar": "يتتبع",
+    "emoji": "📍"
+   },
+   {
+    "en": "faulty",
+    "ar": "معيب",
+    "emoji": "⚠️"
+   },
+   {
+    "en": "out of stock",
+    "ar": "غير متوفر",
+    "emoji": "🚫"
+   },
+   {
+    "en": "purchase",
+    "ar": "يشتري / عملية شراء",
+    "emoji": "🛍️"
+   },
+   {
+    "en": "scam",
+    "ar": "احتيال",
+    "emoji": "🎭"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "I placed an order two days ago.",
+    "ar": "قدّمت طلباً قبل يومين."
+   },
+   {
+    "en": "My order hasn't arrived yet.",
+    "ar": "طلبي لم يصل بعد."
+   },
+   {
+    "en": "I'd like to return this item.",
+    "ar": "أودّ إرجاع هذا المنتج."
+   },
+   {
+    "en": "Can I get a refund, please?",
+    "ar": "هل يمكنني استرداد المبلغ من فضلك؟"
+   },
+   {
+    "en": "The item I received is damaged.",
+    "ar": "المنتج الذي استلمته تالف."
+   },
+   {
+    "en": "How can I track my order?",
+    "ar": "كيف أتتبع طلبي؟"
+   }
+  ],
+  "quiz": [
+   {
+    "q": "I ___ an order online yesterday.",
+    "o": [
+     "placed",
+     "did",
+     "put on",
+     "took"
+    ],
+    "a": 0,
+    "why": "التعبير الأشيع: place an order."
+   },
+   {
+    "q": "ما معنى out of stock؟",
+    "o": [
+     "معروض بخصم",
+     "غير متوفر حالياً",
+     "خارج المتجر",
+     "تم شحنه"
+    ],
+    "a": 1,
+    "why": "out of stock = نفدت الكمية."
+   },
+   {
+    "q": "My parcel ___ yet.",
+    "o": [
+     "didn't arrived",
+     "isn't arrive",
+     "hasn't arrived",
+     "hasn't arrive"
+    ],
+    "a": 2,
+    "why": "مع yet نستخدم المضارع التام: hasn't arrived."
+   },
+   {
+    "q": "أي عبارة هي الأكثر تهذيباً؟",
+    "o": [
+     "Give me my money back.",
+     "I want money now.",
+     "You must pay me.",
+     "I'd like a refund, please."
+    ],
+    "a": 3,
+    "why": "I'd like ... please صيغة مهذبة للطلب."
+   },
+   {
+    "q": "The phone was ___, so I sent it back.",
+    "o": [
+     "reliable",
+     "secure",
+     "faulty",
+     "free"
+    ],
+    "a": 2,
+    "why": "faulty = معيب، وهو سبب للإرجاع."
+   },
+   {
+    "q": "كلمة warranty تعني:",
+    "o": [
+     "ضمان",
+     "تحذير",
+     "خصم",
+     "فاتورة"
+    ],
+    "a": 0,
+    "why": "warranty = ضمان المنتج."
+   }
+  ]
+ },
+ {
+  "n": "148",
+  "type": "vocab",
+  "title_ar": "العلامات التجارية العالمية",
+  "title_en": "Global brands",
+  "summary": "تتعلم كيف تتحدث عن العلامات التجارية والتسويق وولاء العملاء. الموضوع مفيد في نقاشات الأعمال وفي التعبير عن رأيك في المنتجات والإعلانات.",
+  "notes": [
+   {
+    "h": "مفردات العلامة التجارية",
+    "t": "a brand = علامة تجارية، a logo = شعار مرسوم، a slogan = شعار لفظي، brand image = صورة العلامة، brand awareness = الوعي بالعلامة، brand loyalty = الولاء للعلامة، reputation = سمعة.\nمثال: The company has built a strong reputation for quality."
+   },
+   {
+    "h": "التسويق والإعلان",
+    "t": "advertise = يعلن، an advertising campaign = حملة إعلانية، launch a product = يطرح منتجاً، target market = السوق المستهدفة، a competitor = منافس، market share = الحصة السوقية، sponsor = يرعى.\nمثال: They launched a new product last spring."
+   },
+   {
+    "h": "العولمة والتوسع",
+    "t": "a multinational company = شركة متعددة الجنسيات، expand into new markets = يتوسع في أسواق جديدة، a branch = فرع، a franchise = امتياز تجاري، go global = يصبح عالمياً، headquarters = المقر الرئيسي.\nمثال: The chain has branches in over fifty countries."
+   },
+   {
+    "h": "التعبير عن الرأي في العلامات",
+    "t": "I tend to buy well-known brands because they are reliable.\nIt's overpriced = سعره مبالغ فيه.\nIt's good value for money = قيمته جيدة مقابل سعره.\nYou are paying for the name = أنت تدفع ثمن الاسم.\nI'm loyal to this brand = أنا وفيّ لهذه العلامة."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "pron",
+    "t": "logo تُنطق: لُوغُو بصوت g الجافة. و campaign فيها g صامت: كامْبِين. و franchise تُنطق: فْرانْتْشايز."
+   },
+   {
+    "k": "mistake",
+    "t": "advertisement اسم معدود (إعلان واحد)، أما advertising فغير معدود (مجال الإعلان). خطأ: I saw an advertising. الصحيح: I saw an advertisement / an advert / an ad."
+   },
+   {
+    "k": "grammar",
+    "t": "headquarters تنتهي بـ s دائماً ويمكن أن تأخذ فعلاً مفرداً أو جمعاً: The headquarters is / are in Tokyo."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "brand",
+    "ar": "علامة تجارية",
+    "emoji": "🏷️"
+   },
+   {
+    "en": "logo",
+    "ar": "شعار مرسوم",
+    "emoji": "🔰"
+   },
+   {
+    "en": "slogan",
+    "ar": "شعار لفظي",
+    "emoji": "💬"
+   },
+   {
+    "en": "reputation",
+    "ar": "سمعة",
+    "emoji": "🌟"
+   },
+   {
+    "en": "competitor",
+    "ar": "منافس",
+    "emoji": "🥊"
+   },
+   {
+    "en": "launch",
+    "ar": "يطرح / يُطلق",
+    "emoji": "🚀"
+   },
+   {
+    "en": "advertise",
+    "ar": "يعلن",
+    "emoji": "📺"
+   },
+   {
+    "en": "loyal",
+    "ar": "وفيّ",
+    "emoji": "❤️"
+   },
+   {
+    "en": "franchise",
+    "ar": "امتياز تجاري",
+    "emoji": "🍔"
+   },
+   {
+    "en": "headquarters",
+    "ar": "المقر الرئيسي",
+    "emoji": "🏢"
+   },
+   {
+    "en": "overpriced",
+    "ar": "سعره مبالغ فيه",
+    "emoji": "💸"
+   },
+   {
+    "en": "consumer",
+    "ar": "مستهلك",
+    "emoji": "🛒"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "The company launched a new product.",
+    "ar": "طرحت الشركة منتجاً جديداً."
+   },
+   {
+    "en": "This brand has a strong reputation.",
+    "ar": "لهذه العلامة سمعة قوية."
+   },
+   {
+    "en": "It's good value for money.",
+    "ar": "قيمته جيدة مقابل سعره."
+   },
+   {
+    "en": "I'm loyal to this brand.",
+    "ar": "أنا وفيّ لهذه العلامة."
+   },
+   {
+    "en": "They plan to expand into new markets.",
+    "ar": "يخططون للتوسع في أسواق جديدة."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "ما معنى slogan؟",
+    "o": [
+     "شعار مرسوم",
+     "عبارة قصيرة ترتبط بالعلامة",
+     "فرع الشركة",
+     "حصة سوقية"
+    ],
+    "a": 1,
+    "why": "slogan عبارة دعائية قصيرة، أما logo فهو الرسم."
+   },
+   {
+    "q": "The company plans to ___ a new phone next month.",
+    "o": [
+     "launch",
+     "loyal",
+     "sponsor to",
+     "advertise for"
+    ],
+    "a": 0,
+    "why": "launch a product = يطرح منتجاً."
+   },
+   {
+    "q": "أين الخطأ؟ I saw an advertising on TV.",
+    "o": [
+     "I saw",
+     "on TV",
+     "an advertising",
+     "لا يوجد خطأ"
+    ],
+    "a": 2,
+    "why": "advertising غير معدود، والصحيح: an advertisement."
+   },
+   {
+    "q": "It's ___. You are just paying for the name.",
+    "o": [
+     "good value",
+     "reliable",
+     "loyal",
+     "overpriced"
+    ],
+    "a": 3,
+    "why": "overpriced = سعره أعلى مما يستحق."
+   },
+   {
+    "q": "كيف تُنطق campaign؟",
+    "o": [
+     "كامْبِين",
+     "كامْبايْغِن",
+     "كامْباغْن",
+     "كامْبِيغْن"
+    ],
+    "a": 0,
+    "why": "حرف g صامت في campaign."
+   },
+   {
+    "q": "شركة تعمل في دول كثيرة تسمى:",
+    "o": [
+     "a competitor",
+     "a multinational",
+     "a slogan",
+     "a consumer"
+    ],
+    "a": 1,
+    "why": "multinational = شركة متعددة الجنسيات."
+   }
+  ]
+ }
+]

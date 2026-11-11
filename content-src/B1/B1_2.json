@@ -1,0 +1,424 @@
+[
+{
+ "n": "97",
+ "type": "grammar",
+ "title_ar": "المضارع المستمر — النفي",
+ "title_en": "Present continuous (negative)",
+ "summary": "تتعلم كيف تنفي المضارع المستمر لتقول إن شيئًا لا يحدث الآن أو في هذه الفترة. القاعدة سهلة: نضيف not بعد فعل be، لكن الاختصارات تحتاج إلى انتباه.",
+ "notes": [
+  {"h": "القاعدة", "t": "الفاعل + am / is / are + not + الفعل + ing\nI am not working = أنا لا أعمل الآن.\nHe is not working.\nThey are not working.\nلا نستخدم don't أو doesn't مع المضارع المستمر أبدًا."},
+  {"h": "الاختصارات", "t": "I am not = I'm not (لا يوجد amn't).\nis not = isn't أو 's not: He isn't listening / He's not listening.\nare not = aren't أو 're not: They aren't coming / They're not coming.\nالشكلان صحيحان ومعناهما واحد."},
+  {"h": "متى نستخدمه؟", "t": "شيء لا يحدث الآن: I'm not watching TV. You can turn it off.\nشيء لا يحدث في هذه الفترة: She isn't working this week. She's on holiday.\nتصحيح معلومة: It isn't raining. It's snowing!"},
+  {"h": "أمثلة", "t": "I'm not feeling well today = لا أشعر أنني بخير اليوم.\nThe printer isn't working = الطابعة لا تعمل.\nWe aren't going out tonight = لن نخرج الليلة.\nYou aren't listening to me! = أنت لا تصغي إليّ!"}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تقل I don't working أو He doesn't reading. النفي هنا بـ not بعد be فقط: I'm not working / He isn't reading."},
+  {"k": "grammar", "t": "مع I لا يوجد إلا اختصار واحد: I'm not. الصيغتان I amn't و I aren't خطأ في الجملة الخبرية."},
+  {"k": "pron", "t": "isn't تُنطق: إِزِنْت، و aren't تُنطق مقطعًا واحدًا: آرْنْت."}
+ ],
+ "vocab": [
+  {"en": "isn't", "ar": "ليس (للمفرد)", "emoji": "🚫"},
+  {"en": "aren't", "ar": "ليسوا (للجمع)", "emoji": "❌"},
+  {"en": "working", "ar": "يعمل", "emoji": "💼"},
+  {"en": "listening", "ar": "يصغي", "emoji": "👂"},
+  {"en": "feeling", "ar": "يشعر", "emoji": "🤒"},
+  {"en": "printer", "ar": "طابعة", "emoji": "🖨️"},
+  {"en": "holiday", "ar": "إجازة", "emoji": "🏖️"},
+  {"en": "tonight", "ar": "الليلة", "emoji": "🌃"},
+  {"en": "snowing", "ar": "تثلج", "emoji": "🌨️"}
+ ],
+ "phrases": [
+  {"en": "I'm not feeling well today.", "ar": "لا أشعر أنني بخير اليوم."},
+  {"en": "The printer isn't working.", "ar": "الطابعة لا تعمل."},
+  {"en": "We aren't going out tonight.", "ar": "لن نخرج الليلة."},
+  {"en": "She isn't working this week.", "ar": "هي لا تعمل هذا الأسبوع."},
+  {"en": "You aren't listening to me.", "ar": "أنت لا تصغي إليّ."}
+ ],
+ "quiz": [
+  {"q": "أكمل: He ___ watching TV. He's studying.", "o": ["don't", "doesn't", "isn't", "aren't"], "a": 2, "why": "النفي في المضارع المستمر يكون بـ be + not، ومع he نستخدم isn't."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I'm not working today.", "I amn't working today.", "I don't working today.", "I not working today."], "a": 0, "why": "مع I الاختصار الوحيد الصحيح هو I'm not."},
+  {"q": "أكمل: They ___ coming to the party.", "o": ["isn't", "aren't", "doesn't", "am not"], "a": 1, "why": "مع they نستخدم aren't."},
+  {"q": "أيّ جملة تساوي He isn't listening؟", "o": ["He not listening.", "He doesn't listening.", "He isn't listen.", "He's not listening."], "a": 3, "why": "is not تُختصر إلى isn't أو 's not."},
+  {"q": "أين الخطأ؟ We doesn't going out tonight.", "o": ["We", "doesn't", "going", "tonight"], "a": 1, "why": "الصحيح: We aren't going out tonight."},
+  {"q": "أكمل: It ___ raining now. We can go out.", "o": ["aren't", "don't", "isn't", "not"], "a": 2, "why": "مع it نستخدم isn't."}
+ ]
+},
+{
+ "n": "98",
+ "type": "grammar",
+ "title_ar": "المضارع المستمر — السؤال",
+ "title_en": "Present continuous (questions)",
+ "summary": "تتعلم تكوين الأسئلة في المضارع المستمر: أسئلة نعم/لا والأسئلة بأدوات الاستفهام، مع الإجابات القصيرة. السر كله في تقديم فعل be على الفاعل.",
+ "notes": [
+  {"h": "سؤال نعم / لا", "t": "Am / Is / Are + الفاعل + الفعل + ing ؟\nAre you working? = هل تعمل الآن؟\nIs she sleeping? = هل هي نائمة؟\nAm I speaking too fast? = هل أتكلم بسرعة زائدة؟\nلا نستخدم do أو does في هذا الزمن."},
+  {"h": "الإجابات القصيرة", "t": "Yes, I am. / No, I'm not.\nYes, he is. / No, he isn't.\nYes, they are. / No, they aren't.\nفي الإجابة المثبتة القصيرة لا نختصر: Yes, I am (وليس Yes, I'm)."},
+  {"h": "السؤال بأدوات الاستفهام", "t": "أداة الاستفهام + am / is / are + الفاعل + الفعل + ing ؟\nWhat are you doing? = ماذا تفعل؟\nWhere is he going? = إلى أين هو ذاهب؟\nWhy are you laughing? = لماذا تضحك؟\nWho are you talking to? = مع من تتحدث؟\nWhat is she wearing? = ماذا ترتدي؟"},
+  {"h": "السؤال عن الفاعل", "t": "عندما نسأل عن الفاعل نفسه بـ Who أو What لا نغيّر الترتيب:\nWho is singing? = من يغني؟\nWhat is happening? = ماذا يحدث؟\nيأتي الفعل بعد who في صيغة المفرد is."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تقل Do you working? أو What you are doing? الصحيح: Are you working? / What are you doing? فعل be يسبق الفاعل."},
+  {"k": "grammar", "t": "لا تختصر في الإجابة القصيرة المثبتة: Yes, she is. أما Yes, she's فخطأ."},
+  {"k": "pron", "t": "في الكلام السريع What are you doing? تُسمع قريبة من: وَتَ يُو دُوِنْ. تدرّب على سماعها."}
+ ],
+ "vocab": [
+  {"en": "what", "ar": "ماذا", "emoji": "❓"},
+  {"en": "where", "ar": "أين", "emoji": "📍"},
+  {"en": "why", "ar": "لماذا", "emoji": "🤔"},
+  {"en": "who", "ar": "مَن", "emoji": "🧑"},
+  {"en": "doing", "ar": "يفعل", "emoji": "🛠️"},
+  {"en": "going", "ar": "ذاهب", "emoji": "🚶"},
+  {"en": "laughing", "ar": "يضحك", "emoji": "😂"},
+  {"en": "crying", "ar": "يبكي", "emoji": "😢"},
+  {"en": "waiting", "ar": "ينتظر", "emoji": "⏳"},
+  {"en": "happening", "ar": "يحدث", "emoji": "💥"}
+ ],
+ "phrases": [
+  {"en": "What are you doing?", "ar": "ماذا تفعل؟"},
+  {"en": "Where is he going?", "ar": "إلى أين هو ذاهب؟"},
+  {"en": "Are you waiting for the bus?", "ar": "هل تنتظر الحافلة؟"},
+  {"en": "Why are you laughing?", "ar": "لماذا تضحك؟"},
+  {"en": "Who are you talking to?", "ar": "مع من تتحدث؟"},
+  {"en": "Is it raining outside?", "ar": "هل تمطر في الخارج؟"}
+ ],
+ "quiz": [
+  {"q": "أكمل: ___ she working today?", "o": ["Does", "Is", "Are", "Do"], "a": 1, "why": "السؤال في المضارع المستمر يبدأ بـ be، ومع she نستخدم Is."},
+  {"q": "اختر السؤال الصحيح:", "o": ["What you are doing?", "What do you doing?", "What are you do?", "What are you doing?"], "a": 3, "why": "أداة الاستفهام + are + الفاعل + الفعل بـ ing."},
+  {"q": "Are they playing football? الإجابة القصيرة الصحيحة:", "o": ["Yes, they are.", "Yes, they do.", "Yes, they're.", "Yes, they playing."], "a": 0, "why": "نجيب بفعل be نفسه دون اختصار في الإثبات."},
+  {"q": "أكمل: Where ___ you going?", "o": ["is", "do", "are", "am"], "a": 2, "why": "مع you نستخدم are."},
+  {"q": "أكمل: Who ___ singing in the kitchen?", "o": ["are", "is", "do", "does"], "a": 1, "why": "عند السؤال عن الفاعل بـ who يأتي الفعل مفردًا: is."},
+  {"q": "Is he sleeping? الإجابة المنفية القصيرة:", "o": ["No, he doesn't.", "No, he not.", "No, he isn't.", "No, he aren't."], "a": 2, "why": "الإجابة القصيرة المنفية مع he هي No, he isn't."}
+ ]
+},
+{
+ "n": "99",
+ "type": "grammar",
+ "title_ar": "المضارع البسيط أم المستمر؟",
+ "title_en": "Present simple vs present continuous",
+ "summary": "في هذا الدرس تقارن بين المضارع البسيط والمضارع المستمر وتعرف متى تختار كل واحد منهما. ستتعلم أيضًا أفعال الحالة التي لا تأتي في صيغة الاستمرار مثل know و want.",
+ "notes": [
+  {"h": "الفرق الأساسي", "t": "المضارع البسيط: عادات، حقائق، أشياء دائمة.\nI work in a bank = أعمل في بنك (وظيفتي الدائمة).\nWater boils at 100 degrees.\nالمضارع المستمر: شيء يحدث الآن أو مؤقتًا.\nI'm working from home this week = أعمل من البيت هذا الأسبوع (مؤقت)."},
+  {"h": "الكلمات الدالة", "t": "مع البسيط: always, usually, often, sometimes, never, every day, on Mondays, twice a week.\nمع المستمر: now, right now, at the moment, today, this week, these days, Look!, Listen!\nقارن: He usually drinks tea, but today he's drinking coffee."},
+  {"h": "أفعال الحالة", "t": "بعض الأفعال تصف حالة لا حركة، ولا تأتي عادةً في المستمر:\nالمشاعر: like, love, hate, want, need, prefer.\nالتفكير: know, understand, believe, remember, mean.\nالحواس: see, hear, smell, taste.\nالملكية: have (بمعنى يملك), own, belong.\nI know the answer (وليس I'm knowing). I want a coffee (وليس I'm wanting)."},
+  {"h": "أفعال لها معنيان", "t": "have بمعنى يملك: I have a car (بسيط فقط).\nhave بمعنى يتناول أو يقضي: I'm having lunch / We're having a great time (يجوز المستمر).\nthink بمعنى يعتقد: I think it's a good idea.\nthink بمعنى يفكر في: I'm thinking about my holiday."},
+  {"h": "مقارنة الأسئلة والنفي", "t": "بسيط: Do you work here? / I don't work here. / Does she work here?\nمستمر: Are you working now? / I'm not working now. / Is she working now?\nWhat do you do? = ما مهنتك؟\nWhat are you doing? = ماذا تفعل الآن؟"}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "في العربية نستخدم الفعل المضارع نفسه للحالتين (أنا أعمل)، لذلك يخلط المتعلم العربي بين I work و I'm working. اسأل نفسك: هل هو عادة أم شيء يحدث الآن؟"},
+  {"k": "grammar", "t": "أفعال الحالة مثل know, want, need, like, understand لا تأخذ ing: I understand now (وليس I'm understanding)."},
+  {"k": "tip", "t": "What do you do? سؤال عن المهنة، و What are you doing? سؤال عما تفعله هذه اللحظة. الخلط بينهما يغيّر المعنى تمامًا."}
+ ],
+ "vocab": [
+  {"en": "usually", "ar": "عادةً", "emoji": "🔁"},
+  {"en": "right now", "ar": "الآن تمامًا", "emoji": "⏱️"},
+  {"en": "these days", "ar": "هذه الأيام", "emoji": "📆"},
+  {"en": "know", "ar": "يعرف", "emoji": "💡"},
+  {"en": "understand", "ar": "يفهم", "emoji": "🧠"},
+  {"en": "want", "ar": "يريد", "emoji": "🙏"},
+  {"en": "need", "ar": "يحتاج", "emoji": "🆘"},
+  {"en": "believe", "ar": "يصدّق / يؤمن", "emoji": "🙌"},
+  {"en": "belong", "ar": "ينتمي / يخصّ", "emoji": "🔑"},
+  {"en": "prefer", "ar": "يفضّل", "emoji": "👍"},
+  {"en": "remember", "ar": "يتذكر", "emoji": "💭"}
+ ],
+ "phrases": [
+  {"en": "I work in a bank.", "ar": "أعمل في بنك."},
+  {"en": "I'm working from home this week.", "ar": "أعمل من البيت هذا الأسبوع."},
+  {"en": "He usually drinks tea in the morning.", "ar": "هو عادةً يشرب الشاي في الصباح."},
+  {"en": "I don't understand this word.", "ar": "لا أفهم هذه الكلمة."},
+  {"en": "What are you doing right now?", "ar": "ماذا تفعل الآن؟"},
+  {"en": "We're having a great time.", "ar": "نحن نقضي وقتًا رائعًا."}
+ ],
+ "quiz": [
+  {"q": "أكمل: She usually ___ to work, but today she ___ the bus.", "o": ["walks / is taking", "is walking / takes", "walks / takes", "walk / taking"], "a": 0, "why": "العادة بالبسيط، وما يحدث اليوم استثناءً بالمستمر."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I'm knowing the answer.", "I knowing the answer.", "I know the answer.", "I am know the answer."], "a": 2, "why": "know فعل حالة لا يأتي في المستمر."},
+  {"q": "أكمل: Be quiet, please. I ___ to concentrate.", "o": ["try", "am trying", "tries", "trying"], "a": 1, "why": "الحدث يجري الآن فنستخدم المضارع المستمر."},
+  {"q": "ما معنى What do you do؟", "o": ["ماذا تفعل الآن؟", "إلى أين تذهب؟", "ماذا ستفعل؟", "ما مهنتك؟"], "a": 3, "why": "المضارع البسيط هنا يسأل عن العمل الدائم أي المهنة."},
+  {"q": "أكمل: I ___ a coffee right now. Can I call you later?", "o": ["have", "has", "am having", "having"], "a": 2, "why": "have بمعنى يتناول يجوز في المستمر، والحدث يجري الآن."},
+  {"q": "أكمل: This bag ___ to my sister.", "o": ["belongs", "is belonging", "belong", "are belonging"], "a": 0, "why": "belong فعل حالة يأتي في البسيط، ومع المفرد نضيف s."}
+ ]
+},
+{
+ "n": "100",
+ "type": "conversation",
+ "title_ar": "الحديث عمّا يحدث الآن",
+ "title_en": "Talking about now",
+ "summary": "تطبّق في هذا الدرس المضارع المستمر في مواقف حقيقية: مكالمة هاتفية، وصف صورة، أو إخبار شخص بما تفعله في هذه اللحظة. ستتعلم العبارات الطبيعية التي يستخدمها المتحدثون يوميًا.",
+ "notes": [
+  {"h": "ماذا تفعل الآن؟", "t": "What are you doing? = ماذا تفعل؟\nWhat are you up to? = ماذا تفعل؟ (غير رسمية وشائعة جدًا)\nالإجابة: I'm cooking dinner. / I'm just watching TV. / Nothing much. I'm just relaxing.\nكلمة just هنا تعني فقط وتجعل الجملة أخف."},
+  {"h": "على الهاتف", "t": "Are you busy? = هل أنت مشغول؟\nIs this a good time? = هل الوقت مناسب؟\nSorry, I'm driving. I'll call you back = آسف، أنا أقود. سأعاود الاتصال.\nI'm on my way = أنا في الطريق.\nI'm in the middle of something = أنا منشغل بشيء حاليًا.\nWhere are you? - I'm waiting for you outside."},
+  {"h": "وصف صورة أو مشهد", "t": "In this picture, a man is sitting on a bench = في هذه الصورة رجل يجلس على مقعد.\nTwo children are playing with a ball.\nA woman is standing next to the door.\nIt's raining, and people are carrying umbrellas.\nنستخدم المضارع المستمر دائمًا لوصف ما نراه في الصور."},
+  {"h": "عبارات الوقت الحاضر", "t": "now / right now = الآن.\nat the moment = في هذه اللحظة.\ncurrently = حاليًا (رسمية أكثر).\nstill = ما زال: He's still sleeping = ما زال نائمًا.\nstill تأتي بعد be وقبل الفعل."},
+  {"h": "التغيرات الجارية", "t": "نستخدم المستمر مع get و become للتعبير عن تغيّر تدريجي:\nIt's getting dark = بدأ الظلام يحلّ.\nPrices are going up = الأسعار ترتفع.\nMy English is getting better = إنجليزيتي تتحسن.\nThe days are getting shorter."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "عند وصف صورة لا تقل A man sits on a bench؛ قل A man is sitting on a bench. والملابس نصفها بـ is wearing: She is wearing a hat."},
+  {"k": "tip", "t": "What are you up to? لا علاقة لها بالاتجاه إلى أعلى؛ هي ببساطة طريقة ودية لقول What are you doing?"},
+  {"k": "pron", "t": "currently تُنطق: كَرَنْتْلي والنبرة على المقطع الأول."}
+ ],
+ "vocab": [
+  {"en": "busy", "ar": "مشغول", "emoji": "📵"},
+  {"en": "driving", "ar": "يقود السيارة", "emoji": "🚗"},
+  {"en": "sitting", "ar": "جالس", "emoji": "🪑"},
+  {"en": "standing", "ar": "واقف", "emoji": "🧍"},
+  {"en": "carrying", "ar": "يحمل", "emoji": "🎒"},
+  {"en": "still", "ar": "ما زال", "emoji": "⏳"},
+  {"en": "currently", "ar": "حاليًا", "emoji": "📍"},
+  {"en": "picture", "ar": "صورة", "emoji": "🖼️"},
+  {"en": "umbrella", "ar": "مظلة", "emoji": "☂️"},
+  {"en": "outside", "ar": "في الخارج", "emoji": "🌳"}
+ ],
+ "phrases": [
+  {"en": "What are you up to?", "ar": "ماذا تفعل؟"},
+  {"en": "I'm just watching TV.", "ar": "أشاهد التلفاز فقط."},
+  {"en": "Sorry, I'm driving. I'll call you back.", "ar": "آسف، أنا أقود. سأعاود الاتصال بك."},
+  {"en": "I'm on my way.", "ar": "أنا في الطريق."},
+  {"en": "A man is sitting on a bench.", "ar": "رجل يجلس على مقعد."},
+  {"en": "My English is getting better.", "ar": "إنجليزيتي تتحسن."}
+ ],
+ "quiz": [
+  {"q": "ما معنى What are you up to؟", "o": ["إلى أين تصعد؟", "ماذا تفعل؟", "كم عمرك؟", "متى تستيقظ؟"], "a": 1, "why": "عبارة غير رسمية تعني What are you doing?"},
+  {"q": "تصف صورة. أيّ جملة هي الأنسب؟", "o": ["A woman stands near the door.", "A woman standing near the door.", "A woman stood near the door.", "A woman is standing near the door."], "a": 3, "why": "نصف الصور بالمضارع المستمر كاملًا: is + ing."},
+  {"q": "أكمل: He's ___ sleeping. Don't wake him up.", "o": ["still", "yet", "ever", "already not"], "a": 0, "why": "still تعني ما زال وتأتي بعد be."},
+  {"q": "أكمل: It ___ dark. Let's go home.", "o": ["gets", "get", "is getting", "getting"], "a": 2, "why": "التغيّر التدريجي الجاري يُعبَّر عنه بالمضارع المستمر."},
+  {"q": "ما معنى I'm on my way؟", "o": ["أنا تائه", "أنا في البيت", "أنا في الطريق", "أنا مشغول"], "a": 2, "why": "on my way تعني أنني قادم وفي الطريق."},
+  {"q": "أكمل: She ___ a blue hat in the photo.", "o": ["wears", "is wearing", "wear", "is wear"], "a": 1, "why": "نصف الملابس في الصور بـ is wearing."}
+ ]
+},
+{
+ "n": "101",
+ "type": "conversation",
+ "title_ar": "الحديث عن الأفعال المؤقتة",
+ "title_en": "Talking about temporary actions",
+ "summary": "تتعلم استخدام المضارع المستمر للحديث عن أوضاع مؤقتة تستمر فترة محدودة ثم تنتهي، مثل السكن المؤقت أو مشروع حالي. هذا الاستخدام يميّز المتعلم المتوسط عن المبتدئ.",
+ "notes": [
+  {"h": "دائم أم مؤقت؟", "t": "الدائم بالمضارع البسيط: I live in Cairo = أعيش في القاهرة (بيتي هناك).\nالمؤقت بالمضارع المستمر: I'm living with my brother until I find a flat = أسكن مع أخي إلى أن أجد شقة.\nShe works in London (وظيفتها الدائمة).\nShe's working in Paris this month (مؤقتًا)."},
+  {"h": "عبارات الزمن المؤقت", "t": "this week / this month / this year = هذا الأسبوع / الشهر / العام.\nthese days = هذه الأيام.\nat the moment = حاليًا.\nfor now / for the time being = في الوقت الحالي، مؤقتًا.\nfor a few weeks = لبضعة أسابيع.\nuntil + حدث: until the end of June."},
+  {"h": "ليس بالضرورة هذه اللحظة", "t": "الحدث المؤقت قد لا يجري وقت الكلام نفسه:\nI'm reading a great novel = أقرأ رواية رائعة (هذه الأيام، وليس الآن بالضرورة).\nHe's taking driving lessons = يأخذ دروسًا في القيادة.\nWe're staying at a hotel while our house is being painted."},
+  {"h": "مواقف شائعة", "t": "I'm doing a course in web design = ألتحق بدورة في تصميم المواقع.\nI'm looking for a new job = أبحث عن عمل جديد.\nI'm saving money for a car = أدّخر لشراء سيارة.\nShe's covering for a colleague this week = تنوب عن زميل هذا الأسبوع.\nI'm trying to eat less sugar = أحاول تقليل السكر."},
+  {"h": "always مع المستمر للتذمر", "t": "استخدام خاص: always + المضارع المستمر يعبّر عن الانزعاج من عادة متكررة.\nHe's always losing his keys! = هو دائمًا يضيّع مفاتيحه!\nYou're always complaining = أنت دائم الشكوى."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "I live here = إقامتي دائمة. I'm living here = إقامتي مؤقتة. اختيار الزمن يغيّر المعنى حتى لو كانت الجملة العربية واحدة."},
+  {"k": "mistake", "t": "لا تقل I'm work here this month ولا I working here this month. لا بد من be والفعل بـ ing معًا: I'm working here this month."},
+  {"k": "pron", "t": "temporary تُنطق: تِمْبْرَري، وكثيرًا ما تُختصر في الكلام إلى ثلاثة مقاطع: تِمْبْرِي."}
+ ],
+ "vocab": [
+  {"en": "temporary", "ar": "مؤقت", "emoji": "⏳"},
+  {"en": "permanent", "ar": "دائم", "emoji": "♾️"},
+  {"en": "for now", "ar": "في الوقت الحالي", "emoji": "🕒"},
+  {"en": "until", "ar": "حتى / إلى أن", "emoji": "➡️"},
+  {"en": "staying", "ar": "يقيم (مؤقتًا)", "emoji": "🏨"},
+  {"en": "course", "ar": "دورة دراسية", "emoji": "📚"},
+  {"en": "saving", "ar": "يدّخر", "emoji": "🐷"},
+  {"en": "looking for", "ar": "يبحث عن", "emoji": "🔍"},
+  {"en": "flat", "ar": "شقة", "emoji": "🏢"},
+  {"en": "novel", "ar": "رواية", "emoji": "📖"}
+ ],
+ "phrases": [
+  {"en": "I'm living with my brother for now.", "ar": "أسكن مع أخي في الوقت الحالي."},
+  {"en": "She's working in Paris this month.", "ar": "هي تعمل في باريس هذا الشهر."},
+  {"en": "I'm looking for a new job.", "ar": "أبحث عن عمل جديد."},
+  {"en": "We're staying at a hotel this week.", "ar": "نقيم في فندق هذا الأسبوع."},
+  {"en": "I'm saving money for a car.", "ar": "أدّخر المال لشراء سيارة."},
+  {"en": "He's always losing his keys.", "ar": "هو دائمًا يضيّع مفاتيحه."}
+ ],
+ "quiz": [
+  {"q": "أيّ جملة تدل على وضع مؤقت؟", "o": ["I live in Jeddah.", "I lived in Jeddah.", "I'm living in Jeddah at the moment.", "I have a house in Jeddah."], "a": 2, "why": "المضارع المستمر مع at the moment يدل على وضع مؤقت."},
+  {"q": "أكمل: My car is at the garage, so I ___ the bus this week.", "o": ["take", "am taking", "takes", "took"], "a": 1, "why": "وضع مؤقت هذا الأسبوع فنستخدم المضارع المستمر."},
+  {"q": "ما معنى for the time being؟", "o": ["مؤقتًا، في الوقت الحالي", "إلى الأبد", "منذ زمن طويل", "في الوقت المحدد"], "a": 0, "why": "for the time being تعني الآن وبصورة مؤقتة."},
+  {"q": "أكمل: He ___ in a bank. It's his permanent job.", "o": ["is working", "working", "work", "works"], "a": 3, "why": "الوظيفة الدائمة تُعبَّر بالمضارع البسيط."},
+  {"q": "ما الذي تعبّر عنه جملة You're always complaining؟", "o": ["حدث يجري الآن فقط", "انزعاج من عادة متكررة", "خطة مستقبلية", "حقيقة علمية"], "a": 1, "why": "always مع المضارع المستمر تعبّر عن التذمر من عادة."},
+  {"q": "أكمل: I'm staying with friends ___ I find a flat.", "o": ["during", "since", "for", "until"], "a": 3, "why": "until + جملة تعني إلى أن يحدث شيء."}
+ ]
+},
+{
+ "n": "102",
+ "type": "conversation",
+ "title_ar": "الحديث عن الترتيبات والمواعيد",
+ "title_en": "Talking about arrangements",
+ "summary": "تتعلم استخدام المضارع المستمر للحديث عن ترتيبات مستقبلية مؤكدة تم الاتفاق عليها، مثل المواعيد واللقاءات والسفر. ستتعلم أيضًا كيف تدعو شخصًا وتقبل الدعوة أو تعتذر عنها.",
+ "notes": [
+  {"h": "المضارع المستمر للمستقبل", "t": "نستخدم المضارع المستمر مع زمن مستقبلي للحديث عن شيء رُتِّب وتأكد (الوقت والمكان معروفان أو تم الاتفاق مع الآخرين).\nI'm meeting Sara at six tomorrow = سألتقي سارة غدًا في السادسة.\nWe're flying to Dubai on Friday = سنسافر إلى دبي يوم الجمعة.\nلا بد من ذكر الزمن المستقبلي أو أن يكون مفهومًا من السياق."},
+  {"h": "الفرق عن going to و will", "t": "going to = نية أو خطة شخصية: I'm going to learn Spanish (قررت ذلك لكن لم أرتّب شيئًا بعد).\nالمضارع المستمر = ترتيب مؤكد: I'm starting a Spanish course on Monday (سجّلت فعلًا).\nwill = قرار لحظي أو توقع: I'll call you later."},
+  {"h": "السؤال عن الخطط", "t": "What are you doing tonight? = ماذا ستفعل الليلة؟\nAre you doing anything on Saturday? = هل لديك شيء يوم السبت؟\nAre you free tomorrow evening? = هل أنت متفرغ مساء الغد؟\nWhen are you leaving? = متى ستغادر؟"},
+  {"h": "الدعوة والرد", "t": "Would you like to come? = هل تود أن تأتي؟\nDo you fancy going for a coffee? = ما رأيك أن نذهب لشرب قهوة؟\nالقبول: I'd love to. / That sounds great.\nالاعتذار: I'm afraid I can't. I'm working that day. / Sorry, I'm busy then. Maybe another time."},
+  {"h": "مفردات المواعيد", "t": "an appointment = موعد رسمي (طبيب، حلاق): I have a doctor's appointment at ten.\na meeting = اجتماع عمل.\na date = موعد غرامي.\nmake / cancel / postpone an appointment = يحدد / يلغي / يؤجل موعدًا.\nI'm seeing the dentist on Tuesday."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "الزمن واحد والمعنى مختلف بحسب عبارة الوقت: I'm working now (الآن) / I'm working tomorrow (ترتيب مستقبلي)."},
+  {"k": "mistake", "t": "لا تستخدم will للترتيبات المؤكدة. الأفضل: I'm seeing the doctor tomorrow وليس I will see the doctor tomorrow."},
+  {"k": "pron", "t": "appointment تُنطق: أَبُويْنْتْمِنْت والنبرة على المقطع الثاني. و postpone تُنطق: بَسْبُون (حرف t يكاد لا يُسمع)."}
+ ],
+ "vocab": [
+  {"en": "arrangement", "ar": "ترتيب", "emoji": "🗓️"},
+  {"en": "appointment", "ar": "موعد (رسمي)", "emoji": "📅"},
+  {"en": "meeting", "ar": "اجتماع", "emoji": "🤝"},
+  {"en": "free", "ar": "متفرغ", "emoji": "🆓"},
+  {"en": "cancel", "ar": "يلغي", "emoji": "❌"},
+  {"en": "postpone", "ar": "يؤجل", "emoji": "⏭️"},
+  {"en": "invite", "ar": "يدعو", "emoji": "💌"},
+  {"en": "dentist", "ar": "طبيب أسنان", "emoji": "🦷"},
+  {"en": "tomorrow", "ar": "غدًا", "emoji": "🌅"},
+  {"en": "tonight", "ar": "الليلة", "emoji": "🌙"}
+ ],
+ "phrases": [
+  {"en": "I'm meeting Sara at six tomorrow.", "ar": "سألتقي سارة غدًا في السادسة."},
+  {"en": "What are you doing tonight?", "ar": "ماذا ستفعل الليلة؟"},
+  {"en": "We're flying to Dubai on Friday.", "ar": "سنسافر إلى دبي يوم الجمعة."},
+  {"en": "Are you free tomorrow evening?", "ar": "هل أنت متفرغ مساء الغد؟"},
+  {"en": "I'm afraid I can't. I'm working.", "ar": "للأسف لا أستطيع، سأكون في العمل."},
+  {"en": "I'm seeing the dentist on Tuesday.", "ar": "لدي موعد مع طبيب الأسنان يوم الثلاثاء."}
+ ],
+ "quiz": [
+  {"q": "أيّ جملة تتحدث عن ترتيب مستقبلي؟", "o": ["I'm having dinner now.", "I'm having dinner with Ali on Friday.", "I have dinner at eight every day.", "I had dinner with Ali."], "a": 1, "why": "المضارع المستمر مع زمن مستقبلي (on Friday) يدل على ترتيب مؤكد."},
+  {"q": "أكمل: We ___ to Paris next Monday. We have the tickets.", "o": ["fly", "flew", "flying", "are flying"], "a": 3, "why": "ترتيب مؤكد (التذاكر جاهزة) فنستخدم المضارع المستمر."},
+  {"q": "الرد المهذب للاعتذار عن دعوة:", "o": ["I'm afraid I can't.", "No, I don't want.", "I'd love to.", "Yes, I am."], "a": 0, "why": "I'm afraid I can't صيغة مهذبة للاعتذار."},
+  {"q": "ما الكلمة المناسبة لموعد عند الطبيب؟", "o": ["a date", "a meeting", "an appointment", "a party"], "a": 2, "why": "appointment تُستخدم للمواعيد الرسمية مثل الطبيب."},
+  {"q": "ما معنى postpone؟", "o": ["يلغي", "يؤجل", "يؤكد", "يحضر"], "a": 1, "why": "postpone تعني نقل الموعد إلى وقت لاحق."},
+  {"q": "أكمل: ___ you doing anything on Saturday?", "o": ["Do", "Will", "Are", "Is"], "a": 2, "why": "السؤال في المضارع المستمر مع you يبدأ بـ Are."}
+ ]
+},
+{
+ "n": "103",
+ "type": "conversation",
+ "title_ar": "الحديث عن الإجازة الماضية",
+ "title_en": "Talking about your last holiday",
+ "summary": "تتعلم كيف تحكي عن إجازتك الأخيرة مستخدمًا الماضي البسيط: أين ذهبت، مع من، أين أقمت، ماذا فعلت وكيف كان الطقس والطعام. ستراجع الأفعال الشاذة الأكثر استخدامًا في هذا الموضوع.",
+ "notes": [
+  {"h": "الماضي البسيط", "t": "الأفعال المنتظمة تأخذ ed: visit - visited, stay - stayed, travel - travelled, enjoy - enjoyed.\nأفعال شاذة مهمة: go - went, fly - flew, take - took, see - saw, eat - ate, buy - bought, swim - swam, spend - spent, have - had.\nالنفي: didn't + الفعل الأصلي: We didn't go abroad.\nالسؤال: Did + الفاعل + الفعل الأصلي؟"},
+  {"h": "أسئلة عن الإجازة", "t": "Where did you go on holiday? = أين ذهبت في الإجازة؟\nWho did you go with? = مع من ذهبت؟\nHow did you get there? = كيف وصلت إلى هناك؟\nWhere did you stay? = أين أقمت؟\nHow long did you stay? = كم مكثت؟\nWhat was the weather like? = كيف كان الطقس؟\nDid you have a good time? = هل استمتعت؟"},
+  {"h": "وصف الإجازة", "t": "was / were للوصف:\nThe weather was lovely = كان الطقس جميلًا.\nThe people were very friendly = كان الناس ودودين جدًا.\nThe food was delicious = كان الطعام لذيذًا.\nThe hotel was a bit expensive.\nIt was the best holiday of my life."},
+  {"h": "أنشطة الإجازة", "t": "go sightseeing = يزور المعالم السياحية.\ntake photos = يلتقط صورًا.\nbuy souvenirs = يشتري تذكارات.\nsunbathe on the beach = يتشمس على الشاطئ.\nrent a car = يستأجر سيارة.\ntry the local food = يجرّب الأكل المحلي.\ngo on a boat trip = يذهب في رحلة بالقارب."},
+  {"h": "عبارات الزمن الماضي", "t": "last summer / last year = الصيف الماضي / العام الماضي.\ntwo years ago = قبل سنتين.\nin 2022 / in August.\nfor two weeks = لمدة أسبوعين.\nكلمة ago تأتي بعد المدة: three months ago."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "بعد did و didn't يعود الفعل إلى أصله: Did you go? (وليس Did you went?) / I didn't see (وليس I didn't saw)."},
+  {"k": "pron", "t": "نهاية ed تُنطق بثلاث طرق: /t/ في walked و watched، /d/ في stayed و enjoyed، /id/ فقط بعد t أو d: visited = فِزِتِد، wanted = وُنْتِد."},
+  {"k": "mistake", "t": "What was the weather like? سؤال عن الوصف وليس عن الحب، فالجواب: It was sunny، وليس I liked it."}
+ ],
+ "vocab": [
+  {"en": "holiday", "ar": "إجازة", "emoji": "🏖️"},
+  {"en": "went", "ar": "ذهب", "emoji": "➡️"},
+  {"en": "stayed", "ar": "أقام", "emoji": "🏨"},
+  {"en": "flew", "ar": "سافر جوًّا", "emoji": "✈️"},
+  {"en": "sightseeing", "ar": "زيارة المعالم", "emoji": "🗽"},
+  {"en": "souvenir", "ar": "تذكار", "emoji": "🎁"},
+  {"en": "beach", "ar": "شاطئ", "emoji": "🏝️"},
+  {"en": "sunbathe", "ar": "يتشمس", "emoji": "🌞"},
+  {"en": "delicious", "ar": "لذيذ", "emoji": "😋"},
+  {"en": "friendly", "ar": "ودود", "emoji": "😊"},
+  {"en": "ago", "ar": "قبل / منذ", "emoji": "⏪"}
+ ],
+ "phrases": [
+  {"en": "Where did you go on holiday?", "ar": "أين ذهبت في الإجازة؟"},
+  {"en": "We went to Spain last summer.", "ar": "ذهبنا إلى إسبانيا الصيف الماضي."},
+  {"en": "We stayed in a small hotel.", "ar": "أقمنا في فندق صغير."},
+  {"en": "What was the weather like?", "ar": "كيف كان الطقس؟"},
+  {"en": "The food was delicious.", "ar": "كان الطعام لذيذًا."},
+  {"en": "We had a wonderful time.", "ar": "قضينا وقتًا رائعًا."}
+ ],
+ "quiz": [
+  {"q": "أكمل: Where ___ you go last summer?", "o": ["do", "was", "did", "were"], "a": 2, "why": "السؤال في الماضي البسيط يكون بـ did."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["We didn't went abroad.", "We didn't go abroad.", "We not went abroad.", "We don't went abroad."], "a": 1, "why": "بعد didn't يأتي الفعل في صيغته الأصلية."},
+  {"q": "ما ماضي الفعل fly؟", "o": ["flew", "flied", "flown", "flyed"], "a": 0, "why": "fly فعل شاذ وماضيه flew."},
+  {"q": "What was the weather like? الإجابة المناسبة:", "o": ["Yes, I liked it.", "I like sunny weather.", "It likes rain.", "It was hot and sunny."], "a": 3, "why": "السؤال يطلب وصف الطقس."},
+  {"q": "أكمل: We went to Turkey three years ___.", "o": ["last", "before", "ago", "since"], "a": 2, "why": "ago تأتي بعد المدة للدلالة على الماضي."},
+  {"q": "في أيّ كلمة تُنطق النهاية ed مقطعًا مستقلًا /id/؟", "o": ["stayed", "visited", "walked", "enjoyed"], "a": 1, "why": "تُنطق /id/ بعد t أو d فقط كما في visited."}
+ ]
+},
+{
+ "n": "104",
+ "type": "skills",
+ "title_ar": "رواية قصة في الماضي",
+ "title_en": "Telling a story in the past",
+ "summary": "تتعلم كيف تحكي قصة أو موقفًا حدث لك بطريقة مشوّقة ومنظمة. ستجمع بين الماضي البسيط للأحداث والماضي المستمر للخلفية، وتستخدم أدوات الربط التي ترتب القصة.",
+ "notes": [
+  {"h": "الماضي البسيط والماضي المستمر", "t": "الماضي المستمر (was / were + ing) يرسم خلفية المشهد أو حدثًا كان جاريًا:\nIt was raining and people were hurrying home.\nالماضي البسيط يذكر الأحداث الرئيسية المتتالية:\nI opened the door, went in and sat down.\nمعًا: I was walking home when I saw an old friend = كنت أمشي إلى البيت حين رأيت صديقًا قديمًا."},
+  {"h": "when و while", "t": "while + الماضي المستمر (الحدث الطويل): While I was cooking, the phone rang.\nwhen + الماضي البسيط (الحدث القصير الذي قاطعه): I was cooking when the phone rang.\nحدثان متتاليان بالماضي البسيط: When I got home, I had dinner."},
+  {"h": "ترتيب القصة", "t": "البداية: One day... / Last year... / A few years ago... / It all started when...\nالتتابع: first, then, next, after that, later.\nالمفاجأة: suddenly = فجأة / all of a sudden / to my surprise = لدهشتي.\nالنهاية: in the end = في النهاية / finally / eventually = في آخر الأمر."},
+  {"h": "جعل القصة حية", "t": "أضف المشاعر: I was terrified = كنت مرعوبًا / I was so embarrassed = كنت محرجًا جدًا / I couldn't believe it = لم أصدق.\nأضف التعليق: luckily = لحسن الحظ / unfortunately = للأسف.\nاختم بتعليق: It was the funniest day of my life."},
+  {"h": "رد فعل المستمع", "t": "Really? = حقًا؟\nOh no! = يا إلهي!\nWhat happened next? = ماذا حدث بعد ذلك؟\nYou're joking! = أنت تمزح!\nThat's amazing! / How awful! = يا للروعة! / يا للفظاعة!"}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "لا تروِ القصة كلها بالماضي المستمر. الأحداث المتتالية تكون بالماضي البسيط، والمستمر للخلفية أو للحدث الذي قوطع فقط."},
+  {"k": "mistake", "t": "in the end = في خاتمة الأحداث. at the end = في نهاية شيء محدد: at the end of the film. لا تخلط بينهما."},
+  {"k": "pron", "t": "suddenly تُنطق: سَدِنْلي. و eventually تُنطق: إِفِنْتْشُوَلي ومعناها في نهاية المطاف وليس احتمالًا."}
+ ],
+ "vocab": [
+  {"en": "suddenly", "ar": "فجأة", "emoji": "⚡"},
+  {"en": "while", "ar": "بينما", "emoji": "🔀"},
+  {"en": "then", "ar": "ثم", "emoji": "➡️"},
+  {"en": "luckily", "ar": "لحسن الحظ", "emoji": "🍀"},
+  {"en": "unfortunately", "ar": "للأسف", "emoji": "😞"},
+  {"en": "in the end", "ar": "في النهاية", "emoji": "🏁"},
+  {"en": "eventually", "ar": "في آخر الأمر", "emoji": "⌛"},
+  {"en": "terrified", "ar": "مرعوب", "emoji": "😱"},
+  {"en": "embarrassed", "ar": "محرج", "emoji": "😳"},
+  {"en": "happened", "ar": "حدث", "emoji": "💥"},
+  {"en": "story", "ar": "قصة", "emoji": "📖"}
+ ],
+ "phrases": [
+  {"en": "I was walking home when it started to rain.", "ar": "كنت أمشي إلى البيت حين بدأ المطر."},
+  {"en": "Suddenly, I heard a loud noise.", "ar": "فجأة سمعت صوتًا عاليًا."},
+  {"en": "While I was cooking, the phone rang.", "ar": "بينما كنت أطبخ رنّ الهاتف."},
+  {"en": "Luckily, nobody was hurt.", "ar": "لحسن الحظ لم يُصب أحد."},
+  {"en": "In the end, we found the keys.", "ar": "في النهاية وجدنا المفاتيح."},
+  {"en": "What happened next?", "ar": "ماذا حدث بعد ذلك؟"}
+ ],
+ "quiz": [
+  {"q": "أكمل: I ___ TV when the lights went out.", "o": ["watched", "was watching", "am watching", "watch"], "a": 1, "why": "الحدث الطويل الذي قوطع يكون بالماضي المستمر."},
+  {"q": "أكمل: While she was driving, she ___ an accident.", "o": ["was seeing", "sees", "see", "saw"], "a": 3, "why": "الحدث القصير المفاجئ يكون بالماضي البسيط."},
+  {"q": "ما معنى suddenly؟", "o": ["فجأة", "ببطء", "أخيرًا", "لحسن الحظ"], "a": 0, "why": "suddenly تعني فجأة وتُستخدم للأحداث المفاجئة في القصة."},
+  {"q": "أكمل: We waited for hours, but ___ the end the bus came.", "o": ["at", "on", "in", "by"], "a": 2, "why": "in the end تعني في خاتمة الأحداث."},
+  {"q": "أيّ جملة صحيحة لسرد أحداث متتالية؟", "o": ["I was opening the door, was going in and was sitting down.", "I opened the door, went in and sat down.", "I open the door, went in and sitting down.", "I opened the door, going in and sit down."], "a": 1, "why": "الأحداث المتتالية كلها بالماضي البسيط."},
+  {"q": "ما معنى eventually؟", "o": ["احتمالًا", "فورًا", "أحيانًا", "في آخر الأمر"], "a": 3, "why": "eventually تعني في نهاية المطاف بعد وقت طويل."}
+ ]
+},
+{
+ "n": "105",
+ "type": "conversation",
+ "title_ar": "الحديث عن التجارب",
+ "title_en": "Talking about experiences",
+ "summary": "تتعرف في هذا الدرس على المضارع التام واستخدامه للحديث عن تجارب حياتك دون تحديد متى حدثت. ستتعلم تكوينه والفرق بين been و gone وكيف تنتقل إلى الماضي البسيط عند ذكر التفاصيل.",
+ "notes": [
+  {"h": "تكوين المضارع التام", "t": "الفاعل + have / has + التصريف الثالث للفعل.\nI / You / We / They have visited = I've visited.\nHe / She / It has visited = He's visited.\nالنفي: haven't / hasn't + التصريف الثالث: I haven't tried sushi.\nالسؤال: Have you tried...? / Has she tried...?"},
+  {"h": "التصريف الثالث", "t": "الأفعال المنتظمة: مثل الماضي بإضافة ed: visited, tried, travelled.\nأفعال شاذة شائعة: be - been, go - gone, see - seen, eat - eaten, do - done, meet - met, ride - ridden, fly - flown, write - written, break - broken, lose - lost."},
+  {"h": "الحديث عن التجربة", "t": "نستخدم المضارع التام للتجارب التي حدثت في وقت ما من حياتنا دون ذكر متى:\nI've been to Japan = زرت اليابان (في حياتي).\nShe's ridden a camel = سبق أن ركبت جملًا.\nI've seen that film three times = شاهدت ذلك الفيلم ثلاث مرات.\nعبارات شائعة: once (مرة), twice (مرتين), many times, before (من قبل)."},
+  {"h": "been أم gone؟", "t": "been to = ذهب وعاد (تجربة): He's been to Paris = زار باريس من قبل وهو الآن هنا.\ngone to = ذهب ولم يعد بعد: He's gone to Paris = سافر إلى باريس وهو هناك الآن."},
+  {"h": "من التجربة إلى التفاصيل", "t": "نبدأ بالمضارع التام ثم ننتقل إلى الماضي البسيط للتفاصيل:\nA: Have you ever been to Egypt?\nB: Yes, I have. I went there in 2019.\nA: Did you see the Pyramids?\nB: Yes, I did. They were amazing."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تذكر زمنًا ماضيًا محددًا مع المضارع التام: لا تقل I've been to Paris last year؛ قل I went to Paris last year."},
+  {"k": "grammar", "t": "He's قد تعني He is أو He has. إذا تلاها تصريف ثالث فهي has: He's finished = He has finished."},
+  {"k": "pron", "t": "been تُنطق: بِين أو بِن (قصيرة في الكلام السريع). و I've تُنطق: آيْف بصوت v وليس f قوية."}
+ ],
+ "vocab": [
+  {"en": "experience", "ar": "تجربة / خبرة", "emoji": "🌟"},
+  {"en": "been", "ar": "كان / زار", "emoji": "📍"},
+  {"en": "gone", "ar": "ذهب", "emoji": "🚶"},
+  {"en": "seen", "ar": "رأى", "emoji": "👀"},
+  {"en": "eaten", "ar": "أكل", "emoji": "🍽️"},
+  {"en": "ridden", "ar": "ركب", "emoji": "🐫"},
+  {"en": "flown", "ar": "طار / سافر جوًّا", "emoji": "✈️"},
+  {"en": "met", "ar": "قابل", "emoji": "🤝"},
+  {"en": "once", "ar": "مرة واحدة", "emoji": "1️⃣"},
+  {"en": "twice", "ar": "مرتين", "emoji": "2️⃣"},
+  {"en": "before", "ar": "من قبل", "emoji": "⏪"}
+ ],
+ "phrases": [
+  {"en": "I've been to Japan twice.", "ar": "زرت اليابان مرتين."},
+  {"en": "She's ridden a camel before.", "ar": "سبق أن ركبت جملًا."},
+  {"en": "I haven't tried sushi.", "ar": "لم أجرّب السوشي."},
+  {"en": "Have you seen this film?", "ar": "هل شاهدت هذا الفيلم؟"},
+  {"en": "I went there in 2019.", "ar": "ذهبت إلى هناك عام 2019."}
+ ],
+ "quiz": [
+  {"q": "أكمل: She ___ visited London three times.", "o": ["have", "has", "is", "did"], "a": 1, "why": "مع she نستخدم has في المضارع التام."},
+  {"q": "ما التصريف الثالث للفعل see؟", "o": ["saw", "seed", "seen", "seeing"], "a": 2, "why": "see - saw - seen."},
+  {"q": "Ali has gone to the bank. أين علي الآن؟", "o": ["عاد من البنك", "لم يذهب بعد", "لا يحب البنك", "في البنك أو في الطريق إليه"], "a": 3, "why": "gone to تعني أنه ذهب ولم يعد بعد."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I went to Rome last year.", "I've been to Rome last year.", "I have went to Rome.", "I've go to Rome."], "a": 0, "why": "مع زمن محدد مثل last year نستخدم الماضي البسيط."},
+  {"q": "أكمل: I ___ eaten Indian food. What is it like?", "o": ["didn't", "haven't", "hasn't", "don't"], "a": 1, "why": "النفي مع I في المضارع التام هو haven't."},
+  {"q": "في جملة He's finished his work، ما معنى 's؟", "o": ["is", "was", "has", "does"], "a": 2, "why": "بعدها تصريف ثالث فهي اختصار has."}
+ ]
+}
+]

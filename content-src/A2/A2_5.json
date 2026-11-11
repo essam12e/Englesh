@@ -1,0 +1,330 @@
+[
+{
+"n": "80",
+"type": "vocab",
+"title_ar": "الصحة والمرض",
+"title_en": "Health and illness",
+"summary": "تتعلم كيف تصف حالتك الصحية وتشرح ما يؤلمك عند الطبيب: صداع، حمّى، سعال، زكام. كلمات ضرورية في السفر وفي أي موقف طارئ.",
+"notes": [
+{"h": "السؤال عن الحالة", "t": "What's the matter? = ما المشكلة؟\nWhat's wrong? = ما الخطب؟\nHow do you feel? = كيف تشعر؟\nI don't feel well = لا أشعر أنني بخير.\nI feel sick = أشعر بالمرض."},
+{"h": "I have + اسم المرض", "t": "I have a headache = عندي صداع.\nI have a cold = عندي زكام.\nI have a cough = عندي سعال.\nI have a fever = عندي حمّى.\nI have a sore throat = عندي التهاب في الحلق.\nI have the flu = عندي إنفلونزا."},
+{"h": "الآلام: ache و hurt", "t": "اسم العضو + ache = ألم:\nheadache = صداع\nstomachache = ألم في المعدة\ntoothache = ألم في الأسنان\nbackache = ألم في الظهر\nأو: My + العضو + hurts:\nMy leg hurts = ساقي تؤلمني.\nMy eyes hurt = عيناي تؤلمانني."},
+{"h": "عند الطبيب", "t": "I need to see a doctor = أحتاج أن أراجع طبيباً.\nmake an appointment = يحجز موعداً\nYou should rest = ينبغي أن ترتاح.\nTake this medicine = خذ هذا الدواء.\nGet well soon = أتمنى لك الشفاء العاجل."}
+],
+"alerts": [
+{"k": "grammar", "t": "أغلب الأمراض تأخذ a: a headache, a cold, a cough, a fever. لكن نقول the flu."},
+{"k": "pron", "t": "ache تُنطق: إيك (ch هنا بصوت k)، فكلمة headache تُنطق: هِد-إيك. و stomach تُنطق: ستَمَك. و cough تُنطق: كوف."},
+{"k": "mistake", "t": "لا تقل My head is paining أو I have pain in head. الصحيح: I have a headache أو My head hurts."}
+],
+"vocab": [
+{"en": "headache", "ar": "صداع", "emoji": "🤕"},
+{"en": "cold", "ar": "زكام", "emoji": "🤧"},
+{"en": "cough", "ar": "سعال", "emoji": "😷"},
+{"en": "fever", "ar": "حمّى", "emoji": "🤒"},
+{"en": "sore throat", "ar": "التهاب الحلق", "emoji": "🗣️"},
+{"en": "stomachache", "ar": "ألم المعدة", "emoji": "🤢"},
+{"en": "toothache", "ar": "ألم الأسنان", "emoji": "🦷"},
+{"en": "hurt", "ar": "يؤلم", "emoji": "💥"},
+{"en": "doctor", "ar": "طبيب", "emoji": "👨‍⚕️"},
+{"en": "medicine", "ar": "دواء", "emoji": "💊"},
+{"en": "hospital", "ar": "مستشفى", "emoji": "🏥"},
+{"en": "rest", "ar": "يرتاح / راحة", "emoji": "🛌"}
+],
+"phrases": [
+{"en": "What's the matter?", "ar": "ما المشكلة؟"},
+{"en": "I have a headache.", "ar": "عندي صداع."},
+{"en": "My back hurts.", "ar": "ظهري يؤلمني."},
+{"en": "I don't feel well.", "ar": "لا أشعر أنني بخير."},
+{"en": "I need to see a doctor.", "ar": "أحتاج أن أراجع طبيباً."},
+{"en": "Get well soon.", "ar": "أتمنى لك الشفاء العاجل."}
+],
+"quiz": [
+{"q": "اختر الصحيح: I have ___ headache.", "o": ["the", "an", "a", "some"], "a": 2, "why": "نقول a headache."},
+{"q": "ما معنى: I have a sore throat؟", "o": ["عندي التهاب في الحلق", "عندي ألم في الأسنان", "عندي سعال", "عندي حمّى"], "a": 0, "why": "throat الحلق و sore ملتهب ومؤلم."},
+{"q": "اختر الصحيح: My legs ___.", "o": ["hurts", "hurt", "hurting", "are hurt me"], "a": 1, "why": "legs جمع، فالفعل بدون s."},
+{"q": "كيف تُنطق ch في كلمة headache؟", "o": ["مثل ش", "مثل تش", "صامتة", "مثل ك"], "a": 3, "why": "ache تُنطق إيك."},
+{"q": "ماذا تقول لشخص مريض؟", "o": ["Congratulations.", "Get well soon.", "Good luck.", "You're welcome."], "a": 1, "why": "Get well soon تعني أتمنى لك الشفاء العاجل."},
+{"q": "ألم في الأسنان هو:", "o": ["a backache", "a stomachache", "a toothache", "a headache"], "a": 2, "why": "tooth تعني سنّ، و toothache ألم الأسنان."}
+]
+},
+{
+"n": "81",
+"type": "conversation",
+"title_ar": "في الصيدلية",
+"title_en": "At the pharmacy",
+"summary": "تتعلم كيف تطلب دواءً من الصيدلي، وتشرح حالتك، وتفهم تعليمات الاستعمال: كم مرة، ومتى، وقبل الأكل أم بعده. محادثة عملية تحتاجها في السفر.",
+"notes": [
+{"h": "طلب الدواء", "t": "Can I help you? = هل أستطيع مساعدتك؟\nI need something for a headache = أحتاج شيئاً للصداع.\nDo you have anything for a cough? = هل لديك شيء للسعال؟\nCan I have some painkillers, please? = هل يمكنني الحصول على مسكّنات من فضلك؟"},
+{"h": "أنواع الأدوية", "t": "tablets / pills = أقراص / حبوب\nsyrup = شراب\ncream = كريم / مرهم\ndrops = قطرات\npainkillers = مسكّنات\nplasters = لصقات جروح\nantibiotics = مضادات حيوية"},
+{"h": "تعليمات الاستعمال", "t": "Take one tablet twice a day = خذ قرصاً واحداً مرتين في اليوم.\nonce a day = مرة في اليوم\nthree times a day = ثلاث مرات في اليوم\nbefore meals = قبل الوجبات\nafter meals = بعد الوجبات\nevery six hours = كل ست ساعات"},
+{"h": "أسئلة مهمة", "t": "How often should I take it? = كم مرة يجب أن آخذه؟\nDo I need a prescription? = هل أحتاج وصفة طبية؟\nAre you allergic to anything? = هل لديك حساسية من أي شيء؟\nHow much is it? = كم سعره؟"}
+],
+"alerts": [
+{"k": "mistake", "t": "مع الدواء نستخدم الفعل take وليس eat أو drink: take medicine / take a tablet."},
+{"k": "grammar", "t": "once = مرة، twice = مرتين، ثم three times, four times. لا نقول one time أو two times في الغالب."},
+{"k": "pron", "t": "pharmacy تبدأ بصوت f (ph = ف): فارمَسي. و prescription تُنطق: برِسكرِبشن بحرف p."}
+],
+"vocab": [
+{"en": "pharmacy", "ar": "صيدلية", "emoji": "⚕️"},
+{"en": "pharmacist", "ar": "صيدلي", "emoji": "🥼"},
+{"en": "tablets", "ar": "أقراص", "emoji": "💊"},
+{"en": "syrup", "ar": "شراب", "emoji": "🧴"},
+{"en": "cream", "ar": "كريم / مرهم", "emoji": "🧼"},
+{"en": "drops", "ar": "قطرات", "emoji": "💧"},
+{"en": "painkillers", "ar": "مسكّنات", "emoji": "🩹"},
+{"en": "prescription", "ar": "وصفة طبية", "emoji": "📄"},
+{"en": "once", "ar": "مرة واحدة", "emoji": "☝️"},
+{"en": "twice", "ar": "مرتين", "emoji": "✌️"},
+{"en": "allergic", "ar": "لديه حساسية", "emoji": "🤧"},
+{"en": "meals", "ar": "وجبات", "emoji": "🍽️"}
+],
+"phrases": [
+{"en": "I need something for a headache.", "ar": "أحتاج شيئاً للصداع."},
+{"en": "Do you have anything for a cough?", "ar": "هل لديك شيء للسعال؟"},
+{"en": "Take one tablet twice a day.", "ar": "خذ قرصاً واحداً مرتين في اليوم."},
+{"en": "How often should I take it?", "ar": "كم مرة يجب أن آخذه؟"},
+{"en": "Do I need a prescription?", "ar": "هل أحتاج وصفة طبية؟"}
+],
+"quiz": [
+{"q": "اختر الصحيح: You should ___ this medicine after meals.", "o": ["eat", "take", "drink", "make"], "a": 1, "why": "مع الدواء نستخدم الفعل take."},
+{"q": "ما معنى: twice a day؟", "o": ["مرة في اليوم", "ثلاث مرات في اليوم", "مرتين في اليوم", "كل يومين"], "a": 2, "why": "twice تعني مرتين."},
+{"q": "ما معنى: prescription؟", "o": ["وصفة طبية", "مسكّن", "حساسية", "صيدلي"], "a": 0, "why": "prescription هي الوصفة التي يكتبها الطبيب."},
+{"q": "كيف تسأل: كم مرة آخذه؟", "o": ["How much should I take it?", "How long is it?", "How many is it?", "How often should I take it?"], "a": 3, "why": "How often للسؤال عن عدد المرات."},
+{"q": "اختر الصحيح: I need something ___ a sore throat.", "o": ["to", "for", "at", "of"], "a": 1, "why": "نقول something for + المرض."},
+{"q": "ما معنى: before meals؟", "o": ["بعد الوجبات", "مع الوجبات", "قبل الوجبات", "بدون وجبات"], "a": 2, "why": "before تعني قبل."}
+]
+},
+{
+"n": "82",
+"type": "grammar",
+"title_ar": "تقديم النصيحة — should",
+"title_en": "Giving advice (should)",
+"summary": "تتعلم كيف تقدّم نصيحة وتطلبها باستخدام should و shouldn't. ستستخدمها مع الأصدقاء والعائلة في مواضيع الصحة والدراسة والعمل.",
+"notes": [
+{"h": "القاعدة", "t": "الصيغة: Subject + should + الفعل الأصلي\nshould لا تتغير مع أي فاعل.\nYou should drink more water = ينبغي أن تشرب ماءً أكثر.\nHe should study harder = ينبغي أن يدرس بجدّ أكثر."},
+{"h": "النفي", "t": "should not = shouldn't\nYou shouldn't stay up late = لا ينبغي أن تسهر.\nShe shouldn't eat so much sugar = لا ينبغي أن تأكل سكراً كثيراً."},
+{"h": "طلب النصيحة", "t": "Should + subject + الفعل?\nShould I call him? = هل ينبغي أن أتصل به؟\nYes, you should. / No, you shouldn't.\nWhat should I do? = ماذا ينبغي أن أفعل؟"},
+{"h": "تلطيف النصيحة", "t": "I think you should rest = أظن أنه ينبغي أن ترتاح.\nI don't think you should go = لا أظن أنه ينبغي أن تذهب.\nMaybe you should talk to her = ربما ينبغي أن تتحدث معها.\nوتعابير أخرى: Why don't you see a doctor? = لماذا لا تراجع طبيباً؟"},
+{"h": "الفرق بين should و must", "t": "should = نصيحة (الأفضل أن تفعل).\nmust = وجوب قوي (لا بد أن تفعل).\nYou should sleep early = الأفضل أن تنام مبكراً.\nYou must stop at a red light = يجب أن تتوقف عند الإشارة الحمراء."}
+],
+"alerts": [
+{"k": "pron", "t": "حرف l صامت في should: تُنطق شُد، و shouldn't تُنطق: شُدِنت."},
+{"k": "mistake", "t": "لا نضع to بعد should. الخطأ: You should to rest. الصحيح: You should rest."},
+{"k": "grammar", "t": "لا نضيف s مع he / she، ولا نستخدم do في السؤال: Should he go? وليس Does he should go?"}
+],
+"vocab": [
+{"en": "advice", "ar": "نصيحة", "emoji": "💡"},
+{"en": "should", "ar": "ينبغي", "emoji": "👍"},
+{"en": "shouldn't", "ar": "لا ينبغي", "emoji": "👎"},
+{"en": "rest", "ar": "يرتاح", "emoji": "🛌"},
+{"en": "exercise", "ar": "تمرين / يتمرن", "emoji": "🏋️"},
+{"en": "healthy", "ar": "صحي", "emoji": "🥗"},
+{"en": "sugar", "ar": "سكر", "emoji": "🍬"},
+{"en": "water", "ar": "ماء", "emoji": "💧"},
+{"en": "early", "ar": "مبكراً", "emoji": "🌄"},
+{"en": "stay up late", "ar": "يسهر", "emoji": "🌙"}
+],
+"phrases": [
+{"en": "You should drink more water.", "ar": "ينبغي أن تشرب ماءً أكثر."},
+{"en": "You shouldn't stay up late.", "ar": "لا ينبغي أن تسهر."},
+{"en": "What should I do?", "ar": "ماذا ينبغي أن أفعل؟"},
+{"en": "I think you should rest.", "ar": "أظن أنه ينبغي أن ترتاح."},
+{"en": "Should I call the doctor?", "ar": "هل ينبغي أن أتصل بالطبيب؟"}
+],
+"quiz": [
+{"q": "أي جملة صحيحة؟", "o": ["You should to sleep early.", "You should sleeping early.", "You should sleep early.", "You should sleeps early."], "a": 2, "why": "should + الفعل الأصلي بدون to."},
+{"q": "صديقك متعب جداً. ماذا تنصحه؟", "o": ["You should rest.", "You shouldn't rest.", "You should work more.", "You shouldn't sleep."], "a": 0, "why": "النصيحة المناسبة للمتعب هي الراحة."},
+{"q": "اختر الصحيح: ___ I take an umbrella?", "o": ["Do should", "Am", "Does", "Should"], "a": 3, "why": "السؤال يبدأ بـ Should مباشرة."},
+{"q": "اختر الصحيح: You ___ eat so much sugar. It's bad for you.", "o": ["should", "shouldn't", "can", "must"], "a": 1, "why": "السكر الكثير مضر، فالنصيحة بالنفي shouldn't."},
+{"q": "أي حرف صامت في should؟", "o": ["s", "d", "l", "h"], "a": 2, "why": "حرف l لا يُنطق: شُد."},
+{"q": "اختر الصحيح: He ___ see a dentist.", "o": ["shoulds", "should", "should to", "is should"], "a": 1, "why": "should لا تتغير مع he ولا تأخذ to."}
+]
+},
+{
+"n": "83",
+"type": "grammar",
+"title_ar": "القدرة في الماضي — could",
+"title_en": "Ability in the past (could)",
+"summary": "could هي الماضي من can. تتعلم كيف تتحدث عما كنت تستطيع فعله في الماضي وما لم تكن تستطيعه، وكيف تستخدم could أيضاً للطلب المهذب.",
+"notes": [
+{"h": "القاعدة", "t": "الصيغة: Subject + could + الفعل الأصلي\ncould لا تتغير مع أي فاعل.\nI could swim when I was five = كنتُ أستطيع السباحة عندما كان عمري خمس سنوات.\nShe could read at the age of four = كانت تستطيع القراءة في سن الرابعة."},
+{"h": "النفي", "t": "could not = couldn't\nI couldn't sleep last night = لم أستطع النوم الليلة الماضية.\nHe couldn't find his keys = لم يستطع إيجاد مفاتيحه."},
+{"h": "السؤال", "t": "Could + subject + الفعل الأصلي?\nCould you ride a bike when you were a child? = هل كنتَ تستطيع ركوب الدراجة وأنت طفل؟\nYes, I could. / No, I couldn't."},
+{"h": "المقارنة بين can و could", "t": "can = الآن، could = في الماضي.\nI can speak English now = أستطيع التحدث بالإنجليزية الآن.\nI couldn't speak English last year = لم أكن أستطيع التحدث بالإنجليزية العام الماضي."},
+{"h": "could للطلب المهذب", "t": "Could you help me, please? = هل يمكنك مساعدتي من فضلك؟\nCould I have the bill, please? = هل يمكنني الحصول على الفاتورة من فضلك؟\nهنا could ليست للماضي بل أكثر تهذيباً من can."}
+],
+"alerts": [
+{"k": "pron", "t": "حرف l صامت في could: تُنطق كُد، و couldn't تُنطق: كُدِنت."},
+{"k": "mistake", "t": "لا تقل didn't can أو I could to. الصحيح: I couldn't swim / I could swim."},
+{"k": "grammar", "t": "مع could نستخدم غالباً when للإشارة إلى زمن الماضي: when I was young = عندما كنتُ صغيراً."}
+],
+"vocab": [
+{"en": "could", "ar": "كان يستطيع", "emoji": "💪"},
+{"en": "couldn't", "ar": "لم يستطع", "emoji": "🚫"},
+{"en": "child", "ar": "طفل", "emoji": "🧒"},
+{"en": "young", "ar": "صغير السن", "emoji": "👦"},
+{"en": "swim", "ar": "يسبح", "emoji": "🏊"},
+{"en": "ride", "ar": "يركب", "emoji": "🚲"},
+{"en": "climb", "ar": "يتسلق", "emoji": "🧗"},
+{"en": "run fast", "ar": "يجري بسرعة", "emoji": "🏃"},
+{"en": "remember", "ar": "يتذكر", "emoji": "🧠"},
+{"en": "keys", "ar": "مفاتيح", "emoji": "🔑"}
+],
+"phrases": [
+{"en": "I could swim when I was five.", "ar": "كنتُ أستطيع السباحة عندما كان عمري خمس سنوات."},
+{"en": "I couldn't sleep last night.", "ar": "لم أستطع النوم الليلة الماضية."},
+{"en": "Could you read when you were four?", "ar": "هل كنتَ تستطيع القراءة وعمرك أربع سنوات؟"},
+{"en": "He couldn't find his keys.", "ar": "لم يستطع إيجاد مفاتيحه."},
+{"en": "Could you help me, please?", "ar": "هل يمكنك مساعدتي من فضلك؟"}
+],
+"quiz": [
+{"q": "اختر الصحيح: I ___ ride a bike when I was six.", "o": ["can", "could", "am able", "could to"], "a": 1, "why": "للقدرة في الماضي نستخدم could."},
+{"q": "أي جملة صحيحة؟", "o": ["She couldn't come yesterday.", "She didn't can come yesterday.", "She couldn't to come yesterday.", "She couldn't came yesterday."], "a": 0, "why": "couldn't + الفعل الأصلي."},
+{"q": "اختر الصحيح: I ___ speak English last year, but now I can.", "o": ["can't", "could", "don't", "couldn't"], "a": 3, "why": "في الماضي لم أستطع: couldn't."},
+{"q": "أكمل: Could you swim as a child? - Yes, I ___.", "o": ["can", "did", "could", "was"], "a": 2, "why": "الإجابة القصيرة تكرر could."},
+{"q": "أي جملة هي طلب مهذب؟", "o": ["I could run fast.", "Could you open the door, please?", "He couldn't see.", "We could swim there."], "a": 1, "why": "Could you ...? مع please للطلب المهذب."},
+{"q": "أي حرف صامت في could؟", "o": ["c", "d", "l", "u"], "a": 2, "why": "حرف l لا يُنطق: كُد."}
+]
+},
+{
+"n": "84",
+"type": "grammar",
+"title_ar": "التحدث عن الاحتمالات — might",
+"title_en": "Possibilities (might)",
+"summary": "تتعلم كيف تتحدث عن شيء محتمل لكنه غير مؤكد باستخدام might و may، بمعنى ربما أو قد. مفيد جداً عندما لا تكون متأكداً من خطتك أو مما سيحدث.",
+"notes": [
+{"h": "القاعدة", "t": "الصيغة: Subject + might + الفعل الأصلي\nmight لا تتغير مع أي فاعل.\nIt might rain tomorrow = قد تمطر غداً.\nI might go to the party = ربما أذهب إلى الحفلة.\nيمكن استخدام may بنفس المعنى: It may rain."},
+{"h": "النفي", "t": "might not + الفعل الأصلي\nShe might not come = قد لا تأتي.\nI might not have time = قد لا يكون لدي وقت.\nلا نختصر might not في العادة."},
+{"h": "درجات التأكد", "t": "will = متأكد: It will rain = ستمطر.\nwill probably = مرجّح: It will probably rain = ستمطر على الأرجح.\nmight / may = ممكن: It might rain = قد تمطر.\nwon't = متأكد من النفي: It won't rain = لن تمطر."},
+{"h": "might و maybe", "t": "maybe كلمة واحدة تأتي في أول الجملة، وبعدها جملة كاملة:\nMaybe I will go = ربما سأذهب.\nوهي تساوي: I might go.\nلا تجمع بينهما في نفس الجملة."}
+],
+"alerts": [
+{"k": "pron", "t": "might تُنطق: مايت (gh صامتة)، مثل night و right."},
+{"k": "mistake", "t": "لا نضع to بعد might ولا نضيف s. الخطأ: He mights come / He might to come. الصحيح: He might come."},
+{"k": "mistake", "t": "لا تقل Maybe I might go ولا I maybe go. قل: Maybe I will go أو I might go."}
+],
+"vocab": [
+{"en": "might", "ar": "قد / ربما", "emoji": "🤔"},
+{"en": "may", "ar": "قد", "emoji": "🎲"},
+{"en": "maybe", "ar": "ربما", "emoji": "🤷"},
+{"en": "possible", "ar": "ممكن", "emoji": "✅"},
+{"en": "perhaps", "ar": "لعلّ / ربما", "emoji": "💭"},
+{"en": "not sure", "ar": "غير متأكد", "emoji": "❓"},
+{"en": "late", "ar": "متأخر", "emoji": "⏰"},
+{"en": "snow", "ar": "ثلج", "emoji": "❄️"},
+{"en": "stay", "ar": "يبقى", "emoji": "🏠"},
+{"en": "miss", "ar": "يفوّت", "emoji": "🚌"}
+],
+"phrases": [
+{"en": "It might rain tomorrow.", "ar": "قد تمطر غداً."},
+{"en": "I might go to the party.", "ar": "ربما أذهب إلى الحفلة."},
+{"en": "She might not come.", "ar": "قد لا تأتي."},
+{"en": "We might be late.", "ar": "قد نتأخر."},
+{"en": "I'm not sure. I might stay home.", "ar": "لستُ متأكداً. قد أبقى في البيت."}
+],
+"quiz": [
+{"q": "أي جملة صحيحة؟", "o": ["He might to come.", "He mights come.", "He might comes.", "He might come."], "a": 3, "why": "might + الفعل الأصلي بدون to أو s."},
+{"q": "ما معنى: It might snow؟", "o": ["قد يتساقط الثلج", "سيتساقط الثلج بالتأكيد", "لن يتساقط الثلج", "تساقط الثلج أمس"], "a": 0, "why": "might تدل على احتمال غير مؤكد."},
+{"q": "أنت غير متأكد من حضورك. ماذا تقول؟", "o": ["I will come.", "I might come.", "I won't come.", "I came."], "a": 1, "why": "عند عدم التأكد نستخدم might."},
+{"q": "ما نفي: She might come؟", "o": ["She doesn't might come.", "She might doesn't come.", "She might not come.", "She not might come."], "a": 2, "why": "نضيف not بعد might مباشرة."},
+{"q": "أي جملة تساوي: Maybe I will travel؟", "o": ["I will travel.", "I might travel.", "I must travel.", "I should travel."], "a": 1, "why": "Maybe + will تساوي might."},
+{"q": "كيف تُنطق might؟", "o": ["مِغت", "مِيت", "مايت", "مايغت"], "a": 2, "why": "gh صامتة، فتُنطق مايت."}
+]
+},
+{
+"n": "85",
+"type": "grammar",
+"title_ar": "المستقبل بالمضارع المستمر",
+"title_en": "Present continuous for the future",
+"summary": "المضارع المستمر لا يُستخدم للآن فقط، بل أيضاً للمواعيد والترتيبات المؤكدة في المستقبل القريب. تتعلم هنا كيف تتحدث عن مواعيدك المحددة بالوقت والمكان.",
+"notes": [
+{"h": "القاعدة", "t": "الصيغة: Subject + am/is/are + فعل ing + وقت في المستقبل\nI am meeting Ali tomorrow = سأقابل علياً غداً.\nShe is flying to Dubai on Monday = ستسافر بالطائرة إلى دبي يوم الاثنين.\nWe are having dinner with friends tonight = سنتعشى مع أصدقاء الليلة."},
+{"h": "متى نستخدمه؟", "t": "للترتيبات المؤكدة: موعد محدد، تذكرة محجوزة، اتفاق مع شخص.\nI am seeing the dentist at five = لدي موعد مع طبيب الأسنان الساعة الخامسة.\nيجب ذكر وقت مستقبلي أو أن يكون مفهوماً من السياق، وإلا فُهمت الجملة أنها عن الآن."},
+{"h": "النفي والسؤال", "t": "النفي: I'm not working tomorrow = لن أعمل غداً.\nالسؤال: Are you coming tonight? = هل ستأتي الليلة؟\nWhat are you doing this weekend? = ماذا ستفعل في نهاية هذا الأسبوع؟\nWhen is he leaving? = متى سيغادر؟"},
+{"h": "الفرق عن going to و will", "t": "المضارع المستمر: ترتيب مؤكد بموعد: I'm meeting him at six = سأقابله الساعة السادسة.\ngoing to: نية أو خطة: I'm going to learn French = أنوي تعلّم الفرنسية.\nwill: قرار لحظي أو توقع: I think it will rain = أظن أنها ستمطر."},
+{"h": "تعابير الوقت", "t": "tonight = الليلة\ntomorrow morning = صباح الغد\nthis weekend = نهاية هذا الأسبوع\nnext Friday = الجمعة القادمة\non Monday = يوم الاثنين\nat six o'clock = الساعة السادسة"}
+],
+"alerts": [
+{"k": "grammar", "t": "لا نستخدم المضارع المستمر للتوقعات. الخطأ: It is raining tomorrow. الصحيح: It will rain tomorrow / It's going to rain tomorrow."},
+{"k": "mistake", "t": "لا تنسَ فعل be. الخطأ: I meeting him tomorrow. الصحيح: I am meeting him tomorrow."},
+{"k": "tip", "t": "السؤال الشائع What are you doing tonight? يسأل عن خطتك لهذه الليلة وليس عما تفعله الآن."}
+],
+"vocab": [
+{"en": "meeting", "ar": "يقابل / اجتماع", "emoji": "🤝"},
+{"en": "leaving", "ar": "يغادر", "emoji": "🚪"},
+{"en": "arriving", "ar": "يصل", "emoji": "🛬"},
+{"en": "flying", "ar": "يسافر بالطائرة", "emoji": "✈️"},
+{"en": "tonight", "ar": "الليلة", "emoji": "🌃"},
+{"en": "this weekend", "ar": "نهاية هذا الأسبوع", "emoji": "📅"},
+{"en": "appointment", "ar": "موعد", "emoji": "🗓️"},
+{"en": "dentist", "ar": "طبيب أسنان", "emoji": "🦷"},
+{"en": "ticket", "ar": "تذكرة", "emoji": "🎫"},
+{"en": "airport", "ar": "مطار", "emoji": "🛫"}
+],
+"phrases": [
+{"en": "I am meeting Ali tomorrow.", "ar": "سأقابل علياً غداً."},
+{"en": "She is flying to Dubai on Monday.", "ar": "ستسافر بالطائرة إلى دبي يوم الاثنين."},
+{"en": "What are you doing this weekend?", "ar": "ماذا ستفعل في نهاية هذا الأسبوع؟"},
+{"en": "I'm not working tomorrow.", "ar": "لن أعمل غداً."},
+{"en": "We are having dinner with friends tonight.", "ar": "سنتعشى مع أصدقاء الليلة."}
+],
+"quiz": [
+{"q": "اختر الصحيح: I ___ the dentist at five tomorrow.", "o": ["seeing", "am seeing", "sees", "am see"], "a": 1, "why": "be + فعل ing لموعد مؤكد في المستقبل."},
+{"q": "أي جملة تتحدث عن المستقبل؟", "o": ["I am reading now.", "She is cooking at the moment.", "We are leaving on Friday.", "He is sleeping right now."], "a": 2, "why": "on Friday وقت مستقبلي، فالجملة عن ترتيب قادم."},
+{"q": "اختر الصحيح: ___ you coming to the party tonight?", "o": ["Are", "Do", "Is", "Will"], "a": 0, "why": "مع you نستخدم Are في سؤال المضارع المستمر."},
+{"q": "أي جملة خاطئة؟", "o": ["I'm meeting him at six.", "It will rain tomorrow.", "She is flying on Monday.", "It is raining tomorrow."], "a": 3, "why": "لا نستخدم المضارع المستمر للتوقعات مثل الطقس."},
+{"q": "ما معنى: What are you doing tonight؟", "o": ["ماذا تفعل الآن؟", "ماذا ستفعل الليلة؟", "ماذا فعلتَ الليلة الماضية؟", "ماذا تفعل كل ليلة؟"], "a": 1, "why": "tonight تجعل السؤال عن خطة الليلة."},
+{"q": "اختر الصحيح: He ___ working tomorrow. It's his day off.", "o": ["aren't", "don't", "isn't", "not"], "a": 2, "why": "مع he في النفي نستخدم isn't."}
+]
+},
+{
+"n": "86",
+"type": "test",
+"title_ar": "اختبار المستوى الثاني A2",
+"title_en": "Level test A2",
+"summary": "هذا الدرس مراجعة شاملة لأهم ما تعلمته في المستوى A2: الماضي البسيط، المستقبل، المقارنة والتفضيل، والأفعال الناقصة. راجع النقاط ثم اختبر نفسك قبل الانتقال إلى المستوى B1.",
+"notes": [
+{"h": "الماضي: was / were", "t": "I / he / she / it + was، و you / we / they + were.\nالنفي: wasn't / weren't. السؤال: Was he...? / Were you...?\nI was at home = كنتُ في البيت.\nWere you tired? = هل كنتَ متعباً؟"},
+{"h": "الماضي البسيط", "t": "المنتظم: الفعل + ed: worked, played, studied.\nغير المنتظم يُحفظ: go - went، eat - ate، buy - bought، see - saw.\nالنفي: didn't + الفعل الأصلي: I didn't go = لم أذهب.\nالسؤال: Did + الفاعل + الفعل الأصلي: Did you see him? = هل رأيتَه؟"},
+{"h": "المستقبل", "t": "will + الفعل الأصلي: قرار لحظي، وعد، توقع: I'll help you = سأساعدك.\nbe going to + الفعل: خطة أو توقع بدليل: I'm going to travel = سأسافر.\nالمضارع المستمر: موعد مؤكد: I'm meeting Ali at six = سأقابل علياً الساعة السادسة."},
+{"h": "المقارنة والتفضيل", "t": "صفة قصيرة: taller than / the tallest.\nصفة طويلة: more expensive than / the most expensive.\nشاذة: good - better - the best، bad - worse - the worst.\nAli is taller than Omar = علي أطول من عمر."},
+{"h": "الأفعال الناقصة", "t": "can = يستطيع، could = كان يستطيع.\nshould = ينبغي (نصيحة)، must = يجب، mustn't = ممنوع.\nmight = قد / ربما.\nبعدها دائماً فعل أصلي بدون to: You should rest = ينبغي أن ترتاح."},
+{"h": "الوصف", "t": "المظهر: He is tall. She has long hair = هو طويل. لديها شعر طويل.\nالشخصية: What is he like? - He is kind = كيف هو؟ - هو لطيف.\nالطقس: It is sunny = الجو مشمس.\nالمشاعر: I am bored (أشعر بالملل) / The film is boring (الفيلم ممل)."}
+],
+"alerts": [
+{"k": "mistake", "t": "أشهر خطأ في هذا المستوى: استخدام الماضي بعد didn't أو Did. تذكّر: I didn't go وليس I didn't went."},
+{"k": "grammar", "t": "بعد will / can / could / should / must / might يأتي الفعل الأصلي دائماً بدون to وبدون s."},
+{"k": "tip", "t": "إذا أخطأت في سؤال، ارجع إلى درسه وراجعه ثم أعد الاختبار. المراجعة المتكررة أهم من السرعة."}
+],
+"vocab": [
+{"en": "yesterday", "ar": "أمس", "emoji": "📆"},
+{"en": "tomorrow", "ar": "غداً", "emoji": "🌅"},
+{"en": "went", "ar": "ذهب", "emoji": "🚶"},
+{"en": "bought", "ar": "اشترى", "emoji": "🛍️"},
+{"en": "better", "ar": "أفضل", "emoji": "👍"},
+{"en": "the best", "ar": "الأفضل", "emoji": "🥇"},
+{"en": "should", "ar": "ينبغي", "emoji": "💡"},
+{"en": "might", "ar": "قد / ربما", "emoji": "🤔"},
+{"en": "could", "ar": "كان يستطيع", "emoji": "💪"},
+{"en": "weather", "ar": "الطقس", "emoji": "🌤️"},
+{"en": "headache", "ar": "صداع", "emoji": "🤕"},
+{"en": "review", "ar": "مراجعة", "emoji": "🔁"}
+],
+"phrases": [
+{"en": "I went to the market yesterday.", "ar": "ذهبتُ إلى السوق أمس."},
+{"en": "I am going to travel next month.", "ar": "سأسافر الشهر القادم."},
+{"en": "This phone is better than mine.", "ar": "هذا الهاتف أفضل من هاتفي."},
+{"en": "You should see a doctor.", "ar": "ينبغي أن تراجع طبيباً."},
+{"en": "It might rain tomorrow.", "ar": "قد تمطر غداً."},
+{"en": "Where were you last night?", "ar": "أين كنتَ الليلة الماضية؟"}
+],
+"quiz": [
+{"q": "اختر الصحيح: They ___ at home last night.", "o": ["was", "were", "are", "did"], "a": 1, "why": "مع they في الماضي نستخدم were."},
+{"q": "أي جملة صحيحة؟", "o": ["I didn't went to school.", "I didn't goed to school.", "I didn't go to school.", "I wasn't go to school."], "a": 2, "why": "بعد didn't يأتي الفعل الأصلي."},
+{"q": "اختر الصحيح: This is ___ restaurant in the city.", "o": ["the best", "the better", "the most good", "best than"], "a": 0, "why": "صيغة التفضيل من good هي the best."},
+{"q": "اختر الصحيح: My car is ___ than yours.", "o": ["more fast", "fastest", "the faster", "faster"], "a": 3, "why": "صفة قصيرة + er + than."},
+{"q": "اختر الصحيح: Look at those clouds. It ___ rain.", "o": ["is going to", "going to", "is going", "goes to"], "a": 0, "why": "توقع بدليل: be going to + الفعل الأصلي."},
+{"q": "اختر الصحيح: You have a fever. You ___ see a doctor.", "o": ["shouldn't", "should", "couldn't", "might not"], "a": 1, "why": "should لتقديم النصيحة."}
+]
+}
+]

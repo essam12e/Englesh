@@ -1,0 +1,322 @@
+[
+{
+"n": "66",
+"type": "conversation",
+"title_ar": "الدعوات — الجزء الأول",
+"title_en": "Invitations (part one)",
+"summary": "تتعلم كيف تدعو شخصاً إلى مناسبة أو نشاط بطريقة مهذبة، وكيف تقبل الدعوة بلطف. عبارات الدعوة من أهم ما تحتاجه لتكوين علاقات وصداقات بالإنجليزية.",
+"notes": [
+{"h": "الدعوة المهذبة", "t": "Would you like to + الفعل الأصلي?\nWould you like to come to my party? = هل تودّ أن تأتي إلى حفلتي؟\nWould you like to have dinner with us? = هل تودّ أن تتعشى معنا؟"},
+{"h": "الدعوة غير الرسمية", "t": "Do you want to + الفعل?\nDo you want to go out tonight? = هل تريد أن نخرج الليلة؟\nAre you free on Friday? = هل أنت متفرغ يوم الجمعة؟\nCome and join us = تعال وانضم إلينا."},
+{"h": "قبول الدعوة", "t": "Yes, I'd love to = نعم، يسعدني ذلك.\nThat sounds great = يبدو ذلك رائعاً.\nSure, why not? = بالتأكيد، لمَ لا؟\nThanks for inviting me = شكراً على دعوتي."},
+{"h": "تفاصيل الموعد", "t": "What time? = في أي ساعة؟\nWhere shall we meet? = أين نلتقي؟\nLet's meet at seven = لنلتقِ الساعة السابعة.\nSee you then = أراك حينها."}
+],
+"alerts": [
+{"k": "mistake", "t": "لا تخلط بين Would you like...? (دعوة: هل تودّ؟) و Do you like...? (سؤال عام: هل تحب؟). للدعوة نستخدم Would you like to."},
+{"k": "grammar", "t": "في القبول نقول I'd love to ونتوقف عند to، ولا نقول I'd love فقط."},
+{"k": "pron", "t": "Would you تُنطق متصلة: وُدجو. وحرف l في would صامت: وُد."}
+],
+"vocab": [
+{"en": "invite", "ar": "يدعو", "emoji": "💌"},
+{"en": "invitation", "ar": "دعوة", "emoji": "✉️"},
+{"en": "party", "ar": "حفلة", "emoji": "🎉"},
+{"en": "dinner", "ar": "عشاء", "emoji": "🍽️"},
+{"en": "free", "ar": "متفرغ", "emoji": "🆓"},
+{"en": "join", "ar": "ينضم", "emoji": "🙋"},
+{"en": "tonight", "ar": "الليلة", "emoji": "🌃"},
+{"en": "wedding", "ar": "حفل زفاف", "emoji": "💍"},
+{"en": "birthday", "ar": "عيد ميلاد", "emoji": "🎂"},
+{"en": "meet", "ar": "يلتقي", "emoji": "🤝"}
+],
+"phrases": [
+{"en": "Would you like to come to my party?", "ar": "هل تودّ أن تأتي إلى حفلتي؟"},
+{"en": "Are you free on Friday?", "ar": "هل أنت متفرغ يوم الجمعة؟"},
+{"en": "Yes, I'd love to.", "ar": "نعم، يسعدني ذلك."},
+{"en": "That sounds great.", "ar": "يبدو ذلك رائعاً."},
+{"en": "Let's meet at seven.", "ar": "لنلتقِ الساعة السابعة."}
+],
+"quiz": [
+{"q": "اختر الصحيح: Would you like ___ to the cinema?", "o": ["go", "going", "to go", "went"], "a": 2, "why": "الصيغة: Would you like + to + الفعل الأصلي."},
+{"q": "أي جملة تُستخدم للدعوة؟", "o": ["Would you like to have lunch with me?", "Do you like lunch?", "Did you have lunch?", "What is for lunch?"], "a": 0, "why": "Would you like to...? هي صيغة الدعوة المهذبة."},
+{"q": "كيف تقبل الدعوة؟", "o": ["I'm afraid I can't.", "I'd love to.", "No, thanks.", "I'm busy."], "a": 1, "why": "I'd love to تعني يسعدني ذلك وهي للقبول."},
+{"q": "ما معنى: Are you free tonight؟", "o": ["هل أنت مجاني الليلة؟", "هل أنت حرّ في رأيك؟", "هل أنت متعب الليلة؟", "هل أنت متفرغ الليلة؟"], "a": 3, "why": "free هنا تعني متفرغ وغير مشغول."},
+{"q": "أكمل: Thanks for ___ me.", "o": ["invite", "inviting", "invited", "to invite"], "a": 1, "why": "بعد حرف الجر for يأتي الفعل بـ ing."}
+]
+},
+{
+"n": "67",
+"type": "conversation",
+"title_ar": "الدعوات — الجزء الثاني",
+"title_en": "Invitations (part two)",
+"summary": "في الجزء الثاني تتعلم كيف تقترح نشاطاً بطرق مختلفة، وكيف ترفض الدعوة بأدب مع تقديم عذر واقتراح موعد آخر. الرفض المهذب مهارة مهمة حتى لا تبدو فظاً.",
+"notes": [
+{"h": "الاقتراح", "t": "Let's + الفعل الأصلي: Let's go for a walk = هيا نتمشى.\nHow about + فعل ing: How about going to the beach? = ما رأيك أن نذهب إلى الشاطئ؟\nWhy don't we + الفعل: Why don't we watch a film? = لماذا لا نشاهد فيلماً؟\nShall we + الفعل: Shall we order pizza? = هل نطلب بيتزا؟"},
+{"h": "الرفض المهذب", "t": "I'd love to, but I can't = أودّ ذلك، لكن لا أستطيع.\nI'm sorry, I'm busy = آسف، أنا مشغول.\nI'm afraid I can't = أخشى أنني لا أستطيع.\nThanks, but I have other plans = شكراً، لكن لدي خطط أخرى."},
+{"h": "تقديم العذر", "t": "I have to work = عليّ أن أعمل.\nI have to study for an exam = عليّ أن أدرس للامتحان.\nI have an appointment = لدي موعد.\nI'm not feeling well = لا أشعر أنني بخير."},
+{"h": "اقتراح موعد آخر", "t": "Maybe another time = ربما في وقت آخر.\nHow about tomorrow? = ما رأيك في الغد؟\nCan we do it next week? = هل يمكن أن نفعل ذلك الأسبوع القادم؟"}
+],
+"alerts": [
+{"k": "grammar", "t": "انتبه لصيغة الفعل: Let's go (فعل أصلي)، How about going (فعل ing)، Why don't we go (فعل أصلي)."},
+{"k": "tip", "t": "قول No فقط يُعتبر فظاً. ابدأ بالشكر أو الأسف ثم اذكر السبب: I'm sorry, I can't. I have to work."},
+{"k": "mistake", "t": "I'm afraid هنا لا تعني أنا خائف، بل هي طريقة مهذبة لقول خبر غير سارّ: I'm afraid I can't = للأسف لا أستطيع."}
+],
+"vocab": [
+{"en": "let's", "ar": "هيا / لنفعل", "emoji": "👉"},
+{"en": "how about", "ar": "ما رأيك في", "emoji": "💡"},
+{"en": "sorry", "ar": "آسف", "emoji": "🙏"},
+{"en": "busy", "ar": "مشغول", "emoji": "📋"},
+{"en": "plans", "ar": "خطط", "emoji": "🗓️"},
+{"en": "appointment", "ar": "موعد", "emoji": "📅"},
+{"en": "maybe", "ar": "ربما", "emoji": "🤷"},
+{"en": "another time", "ar": "وقت آخر", "emoji": "🔄"},
+{"en": "accept", "ar": "يقبل", "emoji": "✅"},
+{"en": "refuse", "ar": "يرفض", "emoji": "✋"}
+],
+"phrases": [
+{"en": "How about going to the beach?", "ar": "ما رأيك أن نذهب إلى الشاطئ؟"},
+{"en": "Why don't we watch a film?", "ar": "لماذا لا نشاهد فيلماً؟"},
+{"en": "I'd love to, but I can't.", "ar": "أودّ ذلك، لكن لا أستطيع."},
+{"en": "I'm sorry, I have to work.", "ar": "آسف، عليّ أن أعمل."},
+{"en": "Maybe another time.", "ar": "ربما في وقت آخر."}
+],
+"quiz": [
+{"q": "اختر الصحيح: How about ___ a pizza?", "o": ["order", "to order", "ordered", "ordering"], "a": 3, "why": "بعد How about يأتي الفعل بـ ing."},
+{"q": "اختر الصحيح: Let's ___ for a walk.", "o": ["go", "going", "to go", "goes"], "a": 0, "why": "بعد Let's يأتي الفعل الأصلي."},
+{"q": "أي ردّ هو رفض مهذب؟", "o": ["No.", "I'd love to, but I can't.", "That sounds great.", "Sure, why not?"], "a": 1, "why": "نبدأ بتعبير لطيف ثم نعتذر."},
+{"q": "ما معنى: I'm afraid I can't؟", "o": ["أنا خائف جداً", "لا أريد أبداً", "للأسف لا أستطيع", "لا أخاف شيئاً"], "a": 2, "why": "I'm afraid هنا للاعتذار المهذب."},
+{"q": "اختر الصحيح: Why don't we ___ football?", "o": ["playing", "play", "to play", "played"], "a": 1, "why": "بعد Why don't we يأتي الفعل الأصلي."},
+{"q": "ما معنى: I have other plans؟", "o": ["لدي أفكار أخرى", "لدي أصدقاء آخرون", "لدي خطط أخرى", "لدي وقت آخر"], "a": 2, "why": "plans تعني خطط، وهو عذر شائع."}
+]
+},
+{
+"n": "68",
+"type": "grammar",
+"title_ar": "زمن المستقبل — will",
+"title_en": "Future with will",
+"summary": "تتعلم الطريقة الأولى للتحدث عن المستقبل باستخدام will. نستخدمها للقرارات اللحظية والوعود والعروض والتوقعات، وهي سهلة لأنها لا تتغير مع أي ضمير.",
+"notes": [
+{"h": "القاعدة", "t": "الصيغة: Subject + will + الفعل الأصلي\nwill لا تتغير مع أي فاعل.\nI will call you = سأتصل بك.\nShe will come tomorrow = ستأتي غداً.\nالاختصار: I'll, you'll, he'll, she'll, we'll, they'll"},
+{"h": "النفي", "t": "will not = won't\nI won't be late = لن أتأخر.\nHe won't come = لن يأتي."},
+{"h": "السؤال", "t": "Will + subject + الفعل الأصلي?\nWill you help me? = هل ستساعدني؟\nYes, I will. / No, I won't.\nWhen will they arrive? = متى سيصلون؟"},
+{"h": "متى نستخدم will؟", "t": "1) قرار في لحظة الكلام: I'm thirsty. I'll get some water = أنا عطشان. سأحضر بعض الماء.\n2) وعد: I'll call you tonight = سأتصل بك الليلة.\n3) عرض مساعدة: I'll help you = سأساعدك.\n4) توقع ورأي: I think it will rain = أظن أنها ستمطر."},
+{"h": "كلمات المستقبل", "t": "tomorrow = غداً\nnext week = الأسبوع القادم\nnext year = السنة القادمة\nsoon = قريباً\nlater = لاحقاً\nin two days = بعد يومين"}
+],
+"alerts": [
+{"k": "mistake", "t": "بعد will يأتي الفعل الأصلي بدون to وبدون s. الخطأ: I will to go / She will goes. الصحيح: I will go / She will go."},
+{"k": "pron", "t": "won't تُنطق: وُونت (بصوت o طويل)، ولا تخلطها مع want (وُنت) التي تعني يريد. و I'll تُنطق: آيل."},
+{"k": "grammar", "t": "في المستقبل in two days تعني بعد يومين وليس خلال يومين."}
+],
+"vocab": [
+{"en": "will", "ar": "سوف", "emoji": "🔮"},
+{"en": "won't", "ar": "لن", "emoji": "🚫"},
+{"en": "tomorrow", "ar": "غداً", "emoji": "🌅"},
+{"en": "next week", "ar": "الأسبوع القادم", "emoji": "📅"},
+{"en": "soon", "ar": "قريباً", "emoji": "⏱️"},
+{"en": "later", "ar": "لاحقاً", "emoji": "⏭️"},
+{"en": "promise", "ar": "يعد / وعد", "emoji": "🤞"},
+{"en": "help", "ar": "يساعد", "emoji": "🆘"},
+{"en": "call", "ar": "يتصل", "emoji": "📞"},
+{"en": "arrive", "ar": "يصل", "emoji": "🛬"},
+{"en": "think", "ar": "يظن / يعتقد", "emoji": "💭"}
+],
+"phrases": [
+{"en": "I will call you tomorrow.", "ar": "سأتصل بك غداً."},
+{"en": "I won't be late.", "ar": "لن أتأخر."},
+{"en": "Will you help me?", "ar": "هل ستساعدني؟"},
+{"en": "I think it will rain.", "ar": "أظن أنها ستمطر."},
+{"en": "She will arrive next week.", "ar": "ستصل الأسبوع القادم."}
+],
+"quiz": [
+{"q": "اختر الصحيح: She will ___ tomorrow.", "o": ["comes", "come", "to come", "coming"], "a": 1, "why": "بعد will يأتي الفعل الأصلي."},
+{"q": "ما اختصار will not؟", "o": ["willn't", "wan't", "won't", "wouldn't"], "a": 2, "why": "will not تُختصر إلى won't."},
+{"q": "الهاتف يرنّ الآن. ماذا تقول؟", "o": ["I'll answer it.", "I answered it.", "I answer it yesterday.", "I was answer it."], "a": 0, "why": "قرار في لحظة الكلام، فنستخدم will."},
+{"q": "أي جملة صحيحة؟", "o": ["He will to help us.", "He wills help us.", "He will helps us.", "He will help us."], "a": 3, "why": "will + الفعل الأصلي بدون to أو s."},
+{"q": "أكمل: Will they come? - No, they ___.", "o": ["don't", "won't", "aren't", "weren't"], "a": 1, "why": "الإجابة القصيرة المنفية مع will هي won't."},
+{"q": "ما معنى: soon؟", "o": ["لاحقاً", "أمس", "قريباً", "دائماً"], "a": 2, "why": "soon تعني قريباً."}
+]
+},
+{
+"n": "69",
+"type": "grammar",
+"title_ar": "زمن المستقبل — going to",
+"title_en": "Future with going to",
+"summary": "تتعلم الطريقة الثانية للمستقبل: be going to. نستخدمها للخطط والنوايا التي قررناها من قبل، وللتوقعات المبنية على دليل نراه الآن.",
+"notes": [
+{"h": "القاعدة", "t": "الصيغة: Subject + am/is/are + going to + الفعل الأصلي\nI am going to study = سأدرس (أنوي الدراسة).\nShe is going to travel = ستسافر.\nThey are going to buy a car = سيشترون سيارة."},
+{"h": "النفي", "t": "نضيف not بعد am / is / are.\nI'm not going to come = لن آتي.\nHe isn't going to work tomorrow = لن يعمل غداً.\nWe aren't going to wait = لن ننتظر."},
+{"h": "السؤال", "t": "Am/Is/Are + subject + going to + الفعل?\nAre you going to cook? = هل ستطبخ؟\nYes, I am. / No, I'm not.\nWhat are you going to do? = ماذا ستفعل؟"},
+{"h": "متى نستخدم going to؟", "t": "1) خطة أو نية قررتها من قبل:\nI'm going to visit my uncle on Friday = سأزور عمي يوم الجمعة.\n2) توقع مع دليل واضح الآن:\nLook at the clouds. It's going to rain = انظر إلى الغيوم. ستمطر."}
+],
+"alerts": [
+{"k": "mistake", "t": "لا تنسَ فعل be قبل going to. الخطأ: I going to study. الصحيح: I am going to study."},
+{"k": "pron", "t": "في الكلام السريع تُنطق going to مثل gonna: غَنا. يمكنك سماعها وفهمها، لكن لا تكتبها في الكتابة الرسمية."},
+{"k": "grammar", "t": "بعد going to يأتي الفعل الأصلي دائماً: She is going to buy وليس going to buys."}
+],
+"vocab": [
+{"en": "going to", "ar": "سوف / ينوي أن", "emoji": "➡️"},
+{"en": "plan", "ar": "خطة / يخطط", "emoji": "📝"},
+{"en": "travel", "ar": "يسافر", "emoji": "✈️"},
+{"en": "visit", "ar": "يزور", "emoji": "🏠"},
+{"en": "buy", "ar": "يشتري", "emoji": "🛒"},
+{"en": "clouds", "ar": "غيوم", "emoji": "☁️"},
+{"en": "rain", "ar": "مطر / تمطر", "emoji": "🌧️"},
+{"en": "next month", "ar": "الشهر القادم", "emoji": "🗓️"},
+{"en": "this evening", "ar": "هذا المساء", "emoji": "🌆"},
+{"en": "wait", "ar": "ينتظر", "emoji": "⏳"}
+],
+"phrases": [
+{"en": "I am going to study tonight.", "ar": "سأدرس الليلة."},
+{"en": "She is going to buy a car.", "ar": "ستشتري سيارة."},
+{"en": "What are you going to do?", "ar": "ماذا ستفعل؟"},
+{"en": "It is going to rain.", "ar": "ستمطر."},
+{"en": "We aren't going to travel.", "ar": "لن نسافر."}
+],
+"quiz": [
+{"q": "اختر الصحيح: I ___ going to visit my uncle.", "o": ["is", "are", "am", "will"], "a": 2, "why": "مع I نستخدم am."},
+{"q": "أي جملة صحيحة؟", "o": ["She is going to cook dinner.", "She going to cook dinner.", "She is going cook dinner.", "She is going to cooks dinner."], "a": 0, "why": "be + going to + الفعل الأصلي."},
+{"q": "اختر الصحيح: ___ they going to come?", "o": ["Is", "Do", "Will", "Are"], "a": 3, "why": "مع they نستخدم Are في السؤال."},
+{"q": "السماء مليئة بالغيوم السوداء. ماذا تقول؟", "o": ["It rained.", "It's going to rain.", "It rains every day.", "It wasn't rain."], "a": 1, "why": "توقع مبني على دليل نراه الآن، فنستخدم going to."},
+{"q": "اختر الصحيح: He ___ going to work tomorrow.", "o": ["aren't", "don't", "isn't", "won't"], "a": 2, "why": "مع he في النفي نستخدم isn't."},
+{"q": "أكمل: Are you going to study? - Yes, I ___.", "o": ["do", "am", "will", "going"], "a": 1, "why": "الإجابة القصيرة تستخدم فعل be: Yes, I am."}
+]
+},
+{
+"n": "70",
+"type": "grammar",
+"title_ar": "الخطط والتنبؤات",
+"title_en": "Plans and predictions",
+"summary": "هذا الدرس يجمع will و going to ويوضح الفرق بينهما: متى نتحدث عن خطة جاهزة، ومتى نتحدث عن قرار لحظي أو توقع. ستتعلم أيضاً تعابير الرأي مثل I think و probably.",
+"notes": [
+{"h": "الخطط = going to", "t": "إذا قررتَ الشيء قبل لحظة الكلام استخدم going to.\nI'm going to start a new job next month = سأبدأ عملاً جديداً الشهر القادم.\nWe're going to move to a new house = سننتقل إلى بيت جديد."},
+{"h": "القرار اللحظي = will", "t": "إذا قررتَ الآن وأنت تتكلم استخدم will.\nA: There is no milk = لا يوجد حليب.\nB: OK, I'll buy some = حسناً، سأشتري بعضه."},
+{"h": "التنبؤ برأي شخصي = will", "t": "مع I think / I hope / I'm sure / probably نستخدم will غالباً.\nI think she will pass the exam = أظن أنها ستنجح في الامتحان.\nHe will probably be late = سيتأخر على الأرجح.\nI hope you will enjoy it = أتمنى أن تستمتع بها."},
+{"h": "التنبؤ بدليل = going to", "t": "إذا رأيتَ دليلاً الآن استخدم going to.\nBe careful. You're going to fall = انتبه. ستسقط.\nShe is going to have a baby = ستلد طفلاً."},
+{"h": "النفي مع I think", "t": "ننفي think وليس will:\nI don't think it will rain = لا أظن أنها ستمطر.\n(أفضل من: I think it won't rain)"}
+],
+"alerts": [
+{"k": "grammar", "t": "probably تأتي بعد will وقبل won't: He will probably come / He probably won't come."},
+{"k": "mistake", "t": "للخطة المقررة لا تستخدم will. إذا سألك أحد عن خطتك للعطلة قل: I'm going to visit Paris، وليس I will visit Paris."},
+{"k": "tip", "t": "سؤال سريع يساعدك: هل قررتُ قبل الآن؟ نعم = going to. قررتُ الآن؟ = will."}
+],
+"vocab": [
+{"en": "prediction", "ar": "تنبؤ / توقع", "emoji": "🔮"},
+{"en": "probably", "ar": "على الأرجح", "emoji": "🤔"},
+{"en": "hope", "ar": "يتمنى / يأمل", "emoji": "🌟"},
+{"en": "sure", "ar": "متأكد", "emoji": "💯"},
+{"en": "pass", "ar": "ينجح", "emoji": "🎓"},
+{"en": "move", "ar": "ينتقل", "emoji": "🚚"},
+{"en": "future", "ar": "المستقبل", "emoji": "🚀"},
+{"en": "careful", "ar": "حذر", "emoji": "⚠️"},
+{"en": "fall", "ar": "يسقط", "emoji": "🍂"},
+{"en": "decide", "ar": "يقرر", "emoji": "⚖️"}
+],
+"phrases": [
+{"en": "I think she will pass the exam.", "ar": "أظن أنها ستنجح في الامتحان."},
+{"en": "He will probably be late.", "ar": "سيتأخر على الأرجح."},
+{"en": "I'm going to start a new job.", "ar": "سأبدأ عملاً جديداً."},
+{"en": "I don't think it will rain.", "ar": "لا أظن أنها ستمطر."},
+{"en": "What are your plans for tomorrow?", "ar": "ما خططك للغد؟"}
+],
+"quiz": [
+{"q": "A: I'm cold. B: OK, I ___ close the window.", "o": ["am going to", "will", "was", "am"], "a": 1, "why": "قرار في لحظة الكلام، فنستخدم will."},
+{"q": "اشتريتَ التذاكر الأسبوع الماضي. ماذا تقول؟", "o": ["I'm going to fly to Dubai on Monday.", "I think I fly to Dubai.", "I flew to Dubai on Monday.", "I will probably flew to Dubai."], "a": 0, "why": "خطة مقررة مسبقاً، فنستخدم going to."},
+{"q": "أين نضع probably؟ اختر الصحيح:", "o": ["He will probable be late.","Probably he will late.", "He will be late probably be.", "He will probably be late."], "a": 3, "why": "probably تأتي بعد will."},
+{"q": "أي جملة أفضل؟", "o": ["I think it won't to rain.", "I don't think it rain.", "I don't think it will rain.", "I not think it will rain."], "a": 2, "why": "ننفي think ثم نستخدم will + الفعل الأصلي."},
+{"q": "ما معنى: I hope؟", "o": ["أنا متأكد", "أتمنى", "أظن", "أخطط"], "a": 1, "why": "hope تعني يتمنى أو يأمل."},
+{"q": "طفل يركض على أرض مبللة. ماذا تقول؟", "o": ["He fell.", "He falls every day.", "He's going to fall.", "He didn't fall."], "a": 2, "why": "توقع مبني على دليل نراه الآن."}
+]
+},
+{
+"n": "71",
+"type": "grammar",
+"title_ar": "صفات المقارنة",
+"title_en": "Comparatives",
+"summary": "تتعلم كيف تقارن بين شيئين أو شخصين: أطول من، أغلى من، أفضل من. القاعدة تعتمد على طول الصفة، مع بعض الصفات الشاذة التي يجب حفظها.",
+"notes": [
+{"h": "الصفات القصيرة: + er", "t": "صفة من مقطع واحد: نضيف er ثم than.\ntall - taller = أطول\ncheap - cheaper = أرخص\nAli is taller than Omar = علي أطول من عمر."},
+{"h": "قواعد الكتابة", "t": "تنتهي بـ e: نضيف r فقط: nice - nicer، large - larger\nمتحرك واحد + ساكن: نضاعف الساكن: big - bigger، hot - hotter\nتنتهي بـ y: نحوّل y إلى ier: happy - happier، easy - easier"},
+{"h": "الصفات الطويلة: more", "t": "صفة من مقطعين أو أكثر (لا تنتهي بـ y): more + الصفة + than\nexpensive - more expensive = أغلى\nbeautiful - more beautiful = أجمل\nThis phone is more expensive than that one = هذا الهاتف أغلى من ذاك."},
+{"h": "الصفات الشاذة", "t": "good - better = أفضل\nbad - worse = أسوأ\nfar - farther / further = أبعد\nmuch / many - more = أكثر\nlittle - less = أقل"},
+{"h": "صيغ أخرى للمقارنة", "t": "less + صفة + than = أقل ... من: less expensive than = أقل غلاءً من\nas + صفة + as = مثل: He is as tall as his father = هو بطول أبيه.\nnot as ... as = ليس مثل: I'm not as tall as you = لستُ بطولك."}
+],
+"alerts": [
+{"k": "mistake", "t": "لا تجمع more و er معاً. الخطأ: more taller / more better. الصحيح: taller / better."},
+{"k": "mistake", "t": "نستخدم than للمقارنة وليس from أو that: bigger than وليس bigger from."},
+{"k": "pron", "t": "than تُنطق: ذان (th مثل الذال) وتختلف عن then (ذِن) التي تعني ثم. و worse تُنطق: وِرس."}
+],
+"vocab": [
+{"en": "taller", "ar": "أطول", "emoji": "🦒"},
+{"en": "bigger", "ar": "أكبر", "emoji": "🐘"},
+{"en": "smaller", "ar": "أصغر", "emoji": "🐜"},
+{"en": "cheaper", "ar": "أرخص", "emoji": "🏷️"},
+{"en": "more expensive", "ar": "أغلى", "emoji": "💎"},
+{"en": "better", "ar": "أفضل", "emoji": "👍"},
+{"en": "worse", "ar": "أسوأ", "emoji": "👎"},
+{"en": "faster", "ar": "أسرع", "emoji": "🐆"},
+{"en": "happier", "ar": "أسعد", "emoji": "😄"},
+{"en": "hotter", "ar": "أحرّ", "emoji": "🥵"},
+{"en": "than", "ar": "مِن (للمقارنة)", "emoji": "⚖️"}
+],
+"phrases": [
+{"en": "Ali is taller than Omar.", "ar": "علي أطول من عمر."},
+{"en": "This car is more expensive.", "ar": "هذه السيارة أغلى."},
+{"en": "My English is better now.", "ar": "لغتي الإنجليزية أفضل الآن."},
+{"en": "Today is hotter than yesterday.", "ar": "اليوم أحرّ من أمس."},
+{"en": "He is as tall as his father.", "ar": "هو بطول أبيه."}
+],
+"quiz": [
+{"q": "ما صيغة المقارنة من big؟", "o": ["biger", "more big", "bigger", "bigest"], "a": 2, "why": "متحرك واحد + ساكن: نضاعف الحرف الأخير ونضيف er."},
+{"q": "اختر الصحيح: This book is ___ than that one.", "o": ["more interesting", "interestinger", "more interestinger", "interesting"], "a": 0, "why": "الصفة الطويلة تأخذ more."},
+{"q": "ما صيغة المقارنة من good؟", "o": ["gooder", "more good", "well", "better"], "a": 3, "why": "good صفة شاذة ومقارنتها better."},
+{"q": "أي جملة صحيحة؟", "o": ["She is more taller than me.", "She is taller than me.", "She is taller from me.", "She is tall than me."], "a": 1, "why": "صفة قصيرة + er + than، بدون more."},
+{"q": "ما صيغة المقارنة من happy؟", "o": ["happyer", "more happy", "happier", "happiest"], "a": 2, "why": "الصفة المنتهية بـ y: نحوّلها إلى ier."},
+{"q": "ما معنى: He is as tall as me؟", "o": ["هو أطول مني", "هو بنفس طولي", "هو أقصر مني", "هو ليس طويلاً"], "a": 1, "why": "as ... as تدل على التساوي."}
+]
+},
+{
+"n": "72",
+"type": "grammar",
+"title_ar": "صيغ التفضيل",
+"title_en": "Superlatives",
+"summary": "تتعلم كيف تقول الأطول، الأغلى، الأفضل عند مقارنة شيء بمجموعة كاملة. القاعدة قريبة من قاعدة المقارنة، لكن مع the و est أو most.",
+"notes": [
+{"h": "الصفات القصيرة: the + est", "t": "tall - the tallest = الأطول\ncheap - the cheapest = الأرخص\nold - the oldest = الأكبر سناً\nAli is the tallest boy in the class = علي أطول ولد في الصف."},
+{"h": "قواعد الكتابة", "t": "تنتهي بـ e: نضيف st: nice - the nicest\nمتحرك واحد + ساكن: نضاعف: big - the biggest، hot - the hottest\nتنتهي بـ y: نحوّلها إلى iest: happy - the happiest، easy - the easiest"},
+{"h": "الصفات الطويلة: the most", "t": "expensive - the most expensive = الأغلى\nbeautiful - the most beautiful = الأجمل\nIt is the most expensive car in the shop = إنها أغلى سيارة في المحل."},
+{"h": "الصفات الشاذة", "t": "good - better - the best = الأفضل\nbad - worse - the worst = الأسوأ\nfar - farther - the farthest = الأبعد\nShe is the best student = هي أفضل طالبة."},
+{"h": "ما بعد صيغة التفضيل", "t": "in + مكان أو مجموعة: the biggest city in the world = أكبر مدينة في العالم\nof + فترة أو عدد: the best day of my life = أفضل يوم في حياتي\none of the + تفضيل + جمع: one of the best players = أحد أفضل اللاعبين"}
+],
+"alerts": [
+{"k": "grammar", "t": "لا تنسَ the قبل صيغة التفضيل: the biggest وليس biggest فقط."},
+{"k": "mistake", "t": "لا تجمع most و est معاً. الخطأ: the most tallest / the most best. الصحيح: the tallest / the best."},
+{"k": "mistake", "t": "مع الأماكن نستخدم in وليس of: the tallest building in the world وليس of the world."}
+],
+"vocab": [
+{"en": "the tallest", "ar": "الأطول", "emoji": "🏙️"},
+{"en": "the biggest", "ar": "الأكبر", "emoji": "🐋"},
+{"en": "the smallest", "ar": "الأصغر", "emoji": "🐭"},
+{"en": "the cheapest", "ar": "الأرخص", "emoji": "🏷️"},
+{"en": "the best", "ar": "الأفضل", "emoji": "🥇"},
+{"en": "the worst", "ar": "الأسوأ", "emoji": "👎"},
+{"en": "the most", "ar": "الأكثر", "emoji": "🔝"},
+{"en": "the oldest", "ar": "الأقدم / الأكبر سناً", "emoji": "👴"},
+{"en": "the fastest", "ar": "الأسرع", "emoji": "🚀"},
+{"en": "world", "ar": "العالم", "emoji": "🌍"}
+],
+"phrases": [
+{"en": "He is the tallest boy in the class.", "ar": "هو أطول ولد في الصف."},
+{"en": "This is the best restaurant in town.", "ar": "هذا أفضل مطعم في المدينة."},
+{"en": "It was the worst day of my life.", "ar": "كان أسوأ يوم في حياتي."},
+{"en": "What is the biggest city in the world?", "ar": "ما أكبر مدينة في العالم؟"},
+{"en": "She is the most beautiful girl.", "ar": "هي أجمل فتاة."}
+],
+"quiz": [
+{"q": "ما صيغة التفضيل من good؟", "o": ["the goodest", "the best", "the better", "the most good"], "a": 1, "why": "good - better - the best."},
+{"q": "اختر الصحيح: It is ___ film of the year.", "o": ["the most interesting", "the interestingest", "most interesting", "the more interesting"], "a": 0, "why": "الصفة الطويلة تأخذ the most."},
+{"q": "أي جملة صحيحة؟", "o": ["He is tallest in the class.", "He is the most tallest in the class.", "He is the taller in the class.", "He is the tallest in the class."], "a": 3, "why": "the + الصفة + est بدون most."},
+{"q": "اختر الصحيح: It is the biggest city ___ the world.", "o": ["of", "from", "in", "on"], "a": 2, "why": "مع الأماكن نستخدم in بعد صيغة التفضيل."},
+{"q": "ما صيغة التفضيل من hot؟", "o": ["the hotest", "the hottest", "the most hot", "the hotter"], "a": 1, "why": "متحرك واحد + ساكن: نضاعف الحرف الأخير."},
+{"q": "ما صيغة التفضيل من bad؟", "o": ["the baddest", "the worse", "the worst", "the most bad"], "a": 2, "why": "bad - worse - the worst."}
+]
+}
+]

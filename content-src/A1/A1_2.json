@@ -1,0 +1,425 @@
+[
+ {
+  "n": "9b",
+  "type": "vocab",
+  "title_ar": "الطعام (2): الوجبات والمشروبات والطلب في المطعم",
+  "title_en": "Food (2): meals, drinks and ordering",
+  "summary": "تتعلم في هذا الدرس أسماء الوجبات والمشروبات وبعض الأطباق الشائعة، وكيف تعبّر عن الجوع والعطش وتطلب طعامك بأدب في المطعم.",
+  "notes": [
+   {"h": "الوجبات (meals)", "t": "breakfast = الفطور\nlunch = الغداء\ndinner = العشاء\nنستعمل الفعل have مع الوجبات:\nI have breakfast at seven. = أتناول الفطور في السابعة.\nولا نضع a أو the قبل اسم الوجبة."},
+   {"h": "المشروبات (drinks)", "t": "water = ماء\nmilk = حليب\ntea = شاي\ncoffee = قهوة\njuice = عصير\nالفعل: drink = يشرب\nI drink tea in the morning. = أشرب الشاي في الصباح."},
+   {"h": "أطباق وكلمات شائعة", "t": "salad = سلطة\nsoup = حساء\npizza = بيتزا\nsandwich = شطيرة\ncake = كعكة\nsugar = سكر\nsalt = ملح"},
+   {"h": "الجوع والعطش", "t": "I am hungry. = أنا جائع.\nI am thirsty. = أنا عطشان.\nنستعمل am / is / are مع hungry و thirsty.\nThe food is delicious. = الطعام لذيذ."},
+   {"h": "الطلب بأدب", "t": "I would like + الطلب (واختصارها I'd like):\nI would like a coffee, please. = أريد قهوة من فضلك.\nCan I have some water, please? = هل يمكنني الحصول على ماء من فضلك؟\nHere you are. = تفضل.\nThank you. = شكراً."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "لا تقل I have hungry ترجمةً لـ «عندي جوع». الصحيح: I am hungry. وكذلك I am thirsty."},
+   {"k": "tip", "t": "عند الطلب قل I would like بدل I want لأنها أكثر أدباً، وأضف please في آخر الجملة."},
+   {"k": "pron", "t": "breakfast تُنطق «بْرِكفَست»، و juice تُنطق «جوس» فحرف i لا يُنطق، و water تُنطق «ووتر»."}
+  ],
+  "vocab": [
+   {"en": "breakfast", "ar": "فطور", "emoji": "🍳"},
+   {"en": "lunch", "ar": "غداء", "emoji": "🍱"},
+   {"en": "dinner", "ar": "عشاء", "emoji": "🍽️"},
+   {"en": "water", "ar": "ماء", "emoji": "💧"},
+   {"en": "milk", "ar": "حليب", "emoji": "🥛"},
+   {"en": "tea", "ar": "شاي", "emoji": "🍵"},
+   {"en": "coffee", "ar": "قهوة", "emoji": "☕"},
+   {"en": "juice", "ar": "عصير", "emoji": "🧃"},
+   {"en": "salad", "ar": "سلطة", "emoji": "🥗"},
+   {"en": "soup", "ar": "حساء", "emoji": "🍲"},
+   {"en": "pizza", "ar": "بيتزا", "emoji": "🍕"},
+   {"en": "cake", "ar": "كعكة", "emoji": "🍰"}
+  ],
+  "phrases": [
+   {"en": "I am hungry.", "ar": "أنا جائع."},
+   {"en": "I have breakfast at seven.", "ar": "أتناول الفطور في السابعة."},
+   {"en": "I would like a coffee, please.", "ar": "أريد قهوة من فضلك."},
+   {"en": "Can I have some water, please?", "ar": "هل يمكنني الحصول على ماء من فضلك؟"},
+   {"en": "The food is delicious.", "ar": "الطعام لذيذ."}
+  ],
+  "quiz": [
+   {"q": "الوجبة التي نأكلها في الصباح هي:", "o": ["dinner", "lunch", "breakfast", "salad"], "a": 2, "why": "breakfast = الفطور، وجبة الصباح."},
+   {"q": "اختر الصحيح: «أنا جائع»", "o": ["I am hungry.", "I have hungry.", "I hungry.", "I am thirsty."], "a": 0, "why": "نستعمل am مع hungry، و thirsty تعني عطشان."},
+   {"q": "أكمل: I ___ tea in the morning.", "o": ["eat", "drink", "am", "eats"], "a": 1, "why": "الشاي مشروب فنستعمل drink (يشرب)."},
+   {"q": "أيّ عبارة هي الأكثر أدباً للطلب؟", "o": ["Give me coffee.", "I want coffee.", "Coffee now.", "I would like a coffee, please."], "a": 3, "why": "I would like ... please هي الصيغة المهذبة."},
+   {"q": "ما معنى juice؟", "o": ["حليب", "ماء", "عصير", "حساء"], "a": 2, "why": "juice = عصير."},
+   {"q": "ما معنى I am thirsty؟", "o": ["أنا جائع", "أنا عطشان", "أنا متعب", "أنا سعيد"], "a": 1, "why": "thirsty = عطشان."}
+  ]
+ },
+ {
+  "n": "10",
+  "type": "vocab",
+  "title_ar": "الدول والجنسيات",
+  "title_en": "Countries and nationalities",
+  "summary": "تتعلم في هذا الدرس أسماء بعض الدول وجنسياتها بالإنجليزية، وكيف تسأل شخصاً عن بلده وتقول من أين أنت. هذا من أهم أسئلة التعارف.",
+  "notes": [
+   {"h": "السؤال عن البلد", "t": "Where are you from? = من أين أنت؟\nI am from Egypt. = أنا من مصر.\nWhere is he from? = من أين هو؟\nHe is from Morocco. = هو من المغرب.\nالصيغة: Subject + am / is / are + from + اسم الدولة"},
+   {"h": "الدولة والجنسية", "t": "Egypt ← Egyptian = مصري\nSaudi Arabia ← Saudi = سعودي\nMorocco ← Moroccan = مغربي\nAmerica ← American = أمريكي\nBritain ← British = بريطاني\nFrance ← French = فرنسي\nChina ← Chinese = صيني\nJapan ← Japanese = ياباني"},
+   {"h": "الفرق في الاستعمال", "t": "مع الدولة نستعمل from:\nI am from Egypt. = أنا من مصر.\nمع الجنسية لا نستعمل from:\nI am Egyptian. = أنا مصري.\nShe is French. = هي فرنسية."},
+   {"h": "اللغة والعيش", "t": "اسم اللغة غالباً هو نفسه كلمة الجنسية:\nI speak Arabic. = أتكلم العربية.\nThey speak French. = يتكلمون الفرنسية.\nI live in Cairo. = أعيش في القاهرة.\nنستعمل in قبل المدن والدول: in Egypt."}
+  ],
+  "alerts": [
+   {"k": "grammar", "t": "أسماء الدول والجنسيات واللغات تبدأ بحرف كبير دائماً: Egypt, Egyptian, Arabic, English."},
+   {"k": "mistake", "t": "لا تقل I am from Egyptian ولا I am Egypt. الصحيح: I am from Egypt (الدولة) أو I am Egyptian (الجنسية)."},
+   {"k": "pron", "t": "Egypt تُنطق «إيجِبت» وحرف p فيها مهموس، و Japan النبرة على آخرها «جَبان»، و country تُنطق «كَنتري»."}
+  ],
+  "vocab": [
+   {"en": "Egypt", "ar": "مصر", "emoji": "🇪🇬"},
+   {"en": "Saudi Arabia", "ar": "السعودية", "emoji": "🇸🇦"},
+   {"en": "Morocco", "ar": "المغرب", "emoji": "🇲🇦"},
+   {"en": "America", "ar": "أمريكا", "emoji": "🇺🇸"},
+   {"en": "Britain", "ar": "بريطانيا", "emoji": "🇬🇧"},
+   {"en": "France", "ar": "فرنسا", "emoji": "🇫🇷"},
+   {"en": "Germany", "ar": "ألمانيا", "emoji": "🇩🇪"},
+   {"en": "Spain", "ar": "إسبانيا", "emoji": "🇪🇸"},
+   {"en": "China", "ar": "الصين", "emoji": "🇨🇳"},
+   {"en": "Japan", "ar": "اليابان", "emoji": "🇯🇵"},
+   {"en": "Turkey", "ar": "تركيا", "emoji": "🇹🇷"},
+   {"en": "country", "ar": "دولة", "emoji": "🌍"}
+  ],
+  "phrases": [
+   {"en": "Where are you from?", "ar": "من أين أنت؟"},
+   {"en": "I am from Egypt.", "ar": "أنا من مصر."},
+   {"en": "She is from France.", "ar": "هي من فرنسا."},
+   {"en": "I speak Arabic and English.", "ar": "أتكلم العربية والإنجليزية."},
+   {"en": "I live in Cairo.", "ar": "أعيش في القاهرة."}
+  ],
+  "quiz": [
+   {"q": "أكمل: Where are you ___?", "o": ["in", "from", "at", "to"], "a": 1, "why": "نسأل عن البلد بـ Where are you from?"},
+   {"q": "شخص من France جنسيته:", "o": ["French", "France", "Francish", "Franch"], "a": 0, "why": "جنسية فرنسا: French."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I am from Egyptian.", "I am Egypt.", "I from Egypt.", "I am from Egypt."], "a": 3, "why": "Subject + am + from + اسم الدولة."},
+   {"q": "ما معنى Germany؟", "o": ["إسبانيا", "اليابان", "ألمانيا", "تركيا"], "a": 2, "why": "Germany = ألمانيا."},
+   {"q": "أكمل: He is from Japan. He is ___.", "o": ["Japan", "Japanish", "Japanese", "Japanian"], "a": 2, "why": "جنسية اليابان: Japanese."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I speak arabic.", "I speak Arabic.", "I am speak Arabic.", "I speak from Arabic."], "a": 1, "why": "اسم اللغة بحرف كبير، ولا نضع am قبل speak."}
+  ]
+ },
+ {
+  "n": "11",
+  "type": "vocab",
+  "title_ar": "الملابس",
+  "title_en": "Clothes",
+  "summary": "تتعلم في هذا الدرس أسماء الملابس الشائعة وكيف تصف ما تلبسه باستعمال الفعل wear. تفيدك هذه الكلمات عند التسوق ووصف الأشخاص.",
+  "notes": [
+   {"h": "ملابس أساسية", "t": "shirt = قميص\nT-shirt = قميص قصير الأكمام\ndress = فستان\nskirt = تنورة\njacket = سترة\ncoat = معطف\nhat = قبعة\nscarf = وشاح"},
+   {"h": "ملابس تُستعمل بصيغة الجمع", "t": "بعض الملابس جمع دائماً لأنها من جزأين:\ntrousers = بنطال (في أمريكا: pants)\njeans = بنطال جينز\nshoes = حذاء\nsocks = جوارب\nglasses = نظارة\nنقول: My shoes are black. = حذائي أسود."},
+   {"h": "الفعل wear", "t": "wear = يلبس، يرتدي\nI wear a jacket in winter. = ألبس سترة في الشتاء.\nلما تلبسه الآن نقول:\nI am wearing a white shirt. = أنا ألبس قميصاً أبيض.\nShe is wearing a red dress. = هي تلبس فستاناً أحمر."},
+   {"h": "وصف الملابس", "t": "الصفة قبل الاسم: اللون أو الحجم ثم قطعة الملابس.\na blue shirt = قميص أزرق\nblack shoes = حذاء أسود\nbig = كبير، small = صغير، new = جديد، old = قديم\nI like your new jacket. = تعجبني سترتك الجديدة."}
+  ],
+  "alerts": [
+   {"k": "grammar", "t": "trousers و jeans و shoes و glasses جمع دائماً: نستعمل معها are وليس is، ولا نضع قبلها a. نقول: These jeans are new."},
+   {"k": "pron", "t": "clothes تُنطق مقطعاً واحداً قريباً من «كْلوز»، وليست «كلو-ثِز». و shirt تُنطق «شيرت»، أما skirt فتُنطق «سكيرت»."},
+   {"k": "mistake", "t": "لا تقل a shirt blue. الصفة قبل الاسم: a blue shirt."}
+  ],
+  "vocab": [
+   {"en": "shirt", "ar": "قميص", "emoji": "👔"},
+   {"en": "T-shirt", "ar": "تي شيرت", "emoji": "👕"},
+   {"en": "dress", "ar": "فستان", "emoji": "👗"},
+   {"en": "jeans", "ar": "بنطال جينز", "emoji": "👖"},
+   {"en": "jacket", "ar": "سترة", "emoji": "🥼"},
+   {"en": "coat", "ar": "معطف", "emoji": "🧥"},
+   {"en": "shoes", "ar": "حذاء", "emoji": "👟"},
+   {"en": "socks", "ar": "جوارب", "emoji": "🧦"},
+   {"en": "hat", "ar": "قبعة", "emoji": "👒"},
+   {"en": "scarf", "ar": "وشاح", "emoji": "🧣"},
+   {"en": "glasses", "ar": "نظارة", "emoji": "👓"},
+   {"en": "bag", "ar": "حقيبة", "emoji": "👜"}
+  ],
+  "phrases": [
+   {"en": "I am wearing a white shirt.", "ar": "أنا ألبس قميصاً أبيض."},
+   {"en": "She is wearing a red dress.", "ar": "هي تلبس فستاناً أحمر."},
+   {"en": "My shoes are black.", "ar": "حذائي أسود."},
+   {"en": "I wear a coat in winter.", "ar": "ألبس معطفاً في الشتاء."},
+   {"en": "I like your new jacket.", "ar": "تعجبني سترتك الجديدة."}
+  ],
+  "quiz": [
+   {"q": "ما معنى dress؟", "o": ["قميص", "حذاء", "قبعة", "فستان"], "a": 3, "why": "dress = فستان."},
+   {"q": "أكمل: My shoes ___ black.", "o": ["is", "are", "am", "be"], "a": 1, "why": "shoes جمع فنستعمل are."},
+   {"q": "اختر الصحيح: «قميص أزرق»", "o": ["a blue shirt", "a shirt blue", "blue a shirt", "a blues shirt"], "a": 0, "why": "الصفة تأتي قبل الاسم."},
+   {"q": "ماذا نلبس في القدمين؟", "o": ["hat", "scarf", "socks", "glasses"], "a": 2, "why": "socks = جوارب، وتُلبس في القدمين."},
+   {"q": "أكمل: She is ___ a red dress.", "o": ["wear", "wears", "wearing", "to wear"], "a": 2, "why": "بعد is نستعمل الفعل مع ing: is wearing."},
+   {"q": "أيّ كلمة تُلبس على الرأس؟", "o": ["shoes", "hat", "jeans", "socks"], "a": 1, "why": "hat = قبعة، تُلبس على الرأس."}
+  ]
+ },
+ {
+  "n": "12",
+  "type": "vocab",
+  "title_ar": "الطقس",
+  "title_en": "Weather",
+  "summary": "تتعلم في هذا الدرس كيف تسأل عن الطقس وتصفه بالإنجليزية: مشمس، ممطر، حار، بارد وغيرها. الحديث عن الطقس من أشهر طرق بدء المحادثة.",
+  "notes": [
+   {"h": "السؤال عن الطقس", "t": "What's the weather like? = كيف الطقس؟\nHow is the weather today? = كيف الطقس اليوم؟\nنبدأ الجواب دائماً بـ It is أو It's:\nIt's sunny. = الجو مشمس."},
+   {"h": "حالة الجو", "t": "sunny = مشمس\ncloudy = غائم\nrainy = ممطر\nwindy = عاصف\nsnowy = مثلج\nfoggy = ضبابي\nهذه صفات مأخوذة من أسماء بإضافة y:\nsun ← sunny، rain ← rainy، cloud ← cloudy، wind ← windy"},
+   {"h": "درجة الحرارة", "t": "hot = حار\nwarm = دافئ\ncool = معتدل البرودة\ncold = بارد\nIt's hot today. = الجو حار اليوم.\nIt's very cold in winter. = الجو بارد جداً في الشتاء."},
+   {"h": "أفعال الطقس", "t": "It is raining. = إنها تمطر الآن.\nIt is snowing. = إنها تثلج الآن.\nIt rains a lot in winter. = تمطر كثيراً في الشتاء.\nالفاعل دائماً it ولا نقول The weather is raining."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "في العربية نقول «حارّ اليوم» بلا فاعل، أما في الإنجليزية فلا بد من الفاعل it: لا تقل Is hot today، بل It is hot today. ولا تقل The sky is raining، بل It is raining."},
+   {"k": "grammar", "t": "sunny و rainy و cloudy صفات تأتي بعد It is. أما sun و rain و cloud فأسماء. نقول It's sunny وليس It's sun."},
+   {"k": "pron", "t": "weather تُنطق «وِذر» بصوت «ذ»، و warm تُنطق «وورم»، و cloudy تُنطق «كْلاودي»."}
+  ],
+  "vocab": [
+   {"en": "weather", "ar": "طقس", "emoji": "🌦️"},
+   {"en": "sunny", "ar": "مشمس", "emoji": "☀️"},
+   {"en": "cloudy", "ar": "غائم", "emoji": "☁️"},
+   {"en": "rainy", "ar": "ممطر", "emoji": "🌧️"},
+   {"en": "windy", "ar": "عاصف", "emoji": "💨"},
+   {"en": "snowy", "ar": "مثلج", "emoji": "❄️"},
+   {"en": "foggy", "ar": "ضبابي", "emoji": "🌫️"},
+   {"en": "hot", "ar": "حار", "emoji": "🥵"},
+   {"en": "cold", "ar": "بارد", "emoji": "🥶"},
+   {"en": "storm", "ar": "عاصفة", "emoji": "⛈️"},
+   {"en": "umbrella", "ar": "مظلة", "emoji": "☂️"}
+  ],
+  "phrases": [
+   {"en": "What's the weather like?", "ar": "كيف الطقس؟"},
+   {"en": "It's sunny today.", "ar": "الجو مشمس اليوم."},
+   {"en": "It is raining now.", "ar": "إنها تمطر الآن."},
+   {"en": "It's very cold in winter.", "ar": "الجو بارد جداً في الشتاء."},
+   {"en": "Take your umbrella.", "ar": "خذ مظلتك."}
+  ],
+  "quiz": [
+   {"q": "ما معنى cloudy؟", "o": ["مشمس", "ممطر", "غائم", "عاصف"], "a": 2, "why": "cloudy = غائم."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["Is hot today.", "It's hot today.", "It hot today.", "The hot today."], "a": 1, "why": "لا بد من فاعل: It's hot today."},
+   {"q": "أكمل: It's ___ today. Take your umbrella.", "o": ["rainy", "sunny", "hot", "warm"], "a": 0, "why": "نأخذ المظلة عندما يكون الجو ممطراً: rainy."},
+   {"q": "ما عكس hot؟", "o": ["warm", "sunny", "windy", "cold"], "a": 3, "why": "عكس حار هو بارد: cold."},
+   {"q": "اختر الصحيح: «الجو مشمس»", "o": ["It's sun.", "It's sunny.", "It's a sun.", "It sunny."], "a": 1, "why": "نستعمل الصفة sunny بعد It's."},
+   {"q": "كيف تسأل عن الطقس؟", "o": ["What time is it?", "Where are you from?", "What's the weather like?", "What color is it?"], "a": 2, "why": "What's the weather like? = كيف الطقس؟"}
+  ]
+ },
+ {
+  "n": "13",
+  "type": "vocab",
+  "title_ar": "الوظائف والمهن",
+  "title_en": "Jobs",
+  "summary": "تتعلم في هذا الدرس أسماء أشهر المهن بالإنجليزية، وكيف تسأل شخصاً عن عمله وتخبره بمهنتك ومكان عملك.",
+  "notes": [
+   {"h": "السؤال عن المهنة", "t": "What do you do? = ماذا تعمل؟\nWhat is your job? = ما وظيفتك؟\nI am a teacher. = أنا معلم.\nWhat does he do? = ماذا يعمل؟\nHe is a doctor. = هو طبيب."},
+   {"h": "أسماء المهن", "t": "teacher = معلم\ndoctor = طبيب\nnurse = ممرض\nengineer = مهندس\ndriver = سائق\nfarmer = مزارع\ncook = طباخ\npolice officer = شرطي\nstudent = طالب"},
+   {"h": "a / an قبل المهنة", "t": "نضع a أو an قبل اسم المهنة المفردة دائماً:\nI am a doctor. = أنا طبيب.\nShe is an engineer. = هي مهندسة.\nوفي الجمع لا نضع شيئاً:\nThey are teachers. = هم معلمون.\nاسم المهنة لا يتغير بين المذكر والمؤنث."},
+   {"h": "مكان العمل", "t": "I work in a hospital. = أعمل في مستشفى.\nHe works in a school. = يعمل في مدرسة.\nShe works in a bank. = تعمل في بنك.\nمع he / she نضيف s للفعل: works."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "أشهر خطأ: I am teacher. في الإنجليزية لا بد من a أو an قبل المهنة: I am a teacher."},
+   {"k": "grammar", "t": "نقول an engineer لأن الكلمة تبدأ بصوت متحرك، ونقول a doctor و a nurse."},
+   {"k": "pron", "t": "engineer النبرة على آخرها: «إنجِنير». و doctor تُنطق «دُكتر» وليس «دكتور». و nurse تُنطق «نيرس»."}
+  ],
+  "vocab": [
+   {"en": "teacher", "ar": "معلم", "emoji": "🧑‍🏫"},
+   {"en": "doctor", "ar": "طبيب", "emoji": "🧑‍⚕️"},
+   {"en": "nurse", "ar": "ممرض", "emoji": "💉"},
+   {"en": "engineer", "ar": "مهندس", "emoji": "👷"},
+   {"en": "driver", "ar": "سائق", "emoji": "🚕"},
+   {"en": "farmer", "ar": "مزارع", "emoji": "🧑‍🌾"},
+   {"en": "cook", "ar": "طباخ", "emoji": "🧑‍🍳"},
+   {"en": "police officer", "ar": "شرطي", "emoji": "👮"},
+   {"en": "student", "ar": "طالب", "emoji": "🧑‍🎓"},
+   {"en": "pilot", "ar": "طيار", "emoji": "🧑‍✈️"},
+   {"en": "job", "ar": "وظيفة", "emoji": "💼"}
+  ],
+  "phrases": [
+   {"en": "What do you do?", "ar": "ماذا تعمل؟"},
+   {"en": "I am a teacher.", "ar": "أنا معلم."},
+   {"en": "She is an engineer.", "ar": "هي مهندسة."},
+   {"en": "He works in a hospital.", "ar": "هو يعمل في مستشفى."},
+   {"en": "I like my job.", "ar": "أحب وظيفتي."}
+  ],
+  "quiz": [
+   {"q": "اختر الجملة الصحيحة:", "o": ["I am a teacher.", "I am teacher.", "I a teacher.", "I am an teacher."], "a": 0, "why": "نضع a قبل اسم المهنة المفردة."},
+   {"q": "أكمل: She is ___ engineer.", "o": ["a", "two", "an", "some"], "a": 2, "why": "engineer تبدأ بصوت متحرك فنستعمل an."},
+   {"q": "من يعمل في المستشفى ويعالج المرضى؟", "o": ["driver", "farmer", "cook", "doctor"], "a": 3, "why": "doctor = طبيب."},
+   {"q": "ما معنى: What do you do؟", "o": ["كيف حالك؟", "ماذا تعمل؟", "ماذا تفعل الآن؟", "أين تعيش؟"], "a": 1, "why": "What do you do? سؤال عن المهنة."},
+   {"q": "ما معنى farmer؟", "o": ["طباخ", "سائق", "مزارع", "طيار"], "a": 2, "why": "farmer = مزارع."},
+   {"q": "أكمل: He ___ in a school.", "o": ["work", "works", "working", "is work"], "a": 1, "why": "مع he نضيف s للفعل: works."}
+  ]
+ },
+ {
+  "n": "14",
+  "type": "vocab",
+  "title_ar": "الروتين اليومي",
+  "title_en": "Daily routine",
+  "summary": "تتعلم في هذا الدرس الأفعال التي تصف يومك من الاستيقاظ حتى النوم، وكيف تقول متى تفعل كل شيء. بهذه الأفعال تستطيع أن تحكي عن يومك بجمل بسيطة.",
+  "notes": [
+   {"h": "في الصباح", "t": "wake up = يستيقظ\nget up = ينهض من السرير\nwash my face = أغسل وجهي\nbrush my teeth = أنظف أسناني\nget dressed = يلبس ملابسه\nhave breakfast = يتناول الفطور\nI wake up at six o'clock. = أستيقظ في الساعة السادسة."},
+   {"h": "خلال اليوم", "t": "go to work = يذهب إلى العمل\ngo to school = يذهب إلى المدرسة\nhave lunch = يتناول الغداء\ngo home = يعود إلى البيت\ncook dinner = يطبخ العشاء\nI go to work at eight. = أذهب إلى العمل في الثامنة."},
+   {"h": "في المساء", "t": "watch TV = يشاهد التلفاز\nread a book = يقرأ كتاباً\ntake a shower = يستحم\ngo to bed = يذهب إلى السرير\nsleep = ينام\nI go to bed at eleven. = أذهب إلى السرير في الحادية عشرة."},
+   {"h": "تكوين الجملة", "t": "Subject + verb + ... + at + الوقت\nI have lunch at two o'clock. = أتناول الغداء في الثانية.\nمع he / she نضيف s للفعل:\nHe wakes up at seven. = هو يستيقظ في السابعة.\nكلمات التكرار: every day = كل يوم، always = دائماً، usually = عادةً."},
+   {"h": "الترتيب", "t": "first = أولاً\nthen = ثم\nafter that = بعد ذلك\nFirst I have breakfast, then I go to work. = أولاً أتناول الفطور ثم أذهب إلى العمل."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "نقول go home بدون to: I go home at five. ولا نقول I go to home. لكن نقول go to work و go to school و go to bed."},
+   {"k": "grammar", "t": "مع الوجبات نستعمل have: have breakfast / have lunch / have dinner، ولا نضع a أو the قبل الوجبة."},
+   {"k": "pron", "t": "teeth تنتهي بصوت «ث»: تيث. و breakfast تُنطق «بْرِكفَست». و watch تُنطق «ووتش»."}
+  ],
+  "vocab": [
+   {"en": "wake up", "ar": "يستيقظ", "emoji": "⏰"},
+   {"en": "get dressed", "ar": "يلبس ملابسه", "emoji": "👕"},
+   {"en": "brush", "ar": "ينظف بالفرشاة", "emoji": "🪥"},
+   {"en": "wash", "ar": "يغسل", "emoji": "🧼"},
+   {"en": "eat", "ar": "يأكل", "emoji": "🍽️"},
+   {"en": "work", "ar": "يعمل", "emoji": "💼"},
+   {"en": "study", "ar": "يدرس", "emoji": "📚"},
+   {"en": "cook", "ar": "يطبخ", "emoji": "🍳"},
+   {"en": "watch TV", "ar": "يشاهد التلفاز", "emoji": "📺"},
+   {"en": "shower", "ar": "استحمام", "emoji": "🚿"},
+   {"en": "sleep", "ar": "ينام", "emoji": "😴"},
+   {"en": "bed", "ar": "سرير", "emoji": "🛏️"}
+  ],
+  "phrases": [
+   {"en": "I wake up at six o'clock.", "ar": "أستيقظ في الساعة السادسة."},
+   {"en": "I brush my teeth every morning.", "ar": "أنظف أسناني كل صباح."},
+   {"en": "I go to work at eight.", "ar": "أذهب إلى العمل في الثامنة."},
+   {"en": "I go home at five.", "ar": "أعود إلى البيت في الخامسة."},
+   {"en": "I go to bed at eleven.", "ar": "أذهب إلى السرير في الحادية عشرة."}
+  ],
+  "quiz": [
+   {"q": "ما معنى wake up؟", "o": ["ينام", "يستيقظ", "يستحم", "يأكل"], "a": 1, "why": "wake up = يستيقظ."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I go to home at five.", "I go at home five.", "I go home at five.", "I go home in five."], "a": 2, "why": "نقول go home بدون to، ونستعمل at مع الساعة."},
+   {"q": "أكمل: I ___ breakfast at seven.", "o": ["have", "do", "go", "am"], "a": 0, "why": "نستعمل have مع الوجبات."},
+   {"q": "أكمل: I brush my ___.", "o": ["face", "bed", "book", "teeth"], "a": 3, "why": "brush my teeth = أنظف أسناني."},
+   {"q": "أكمل: He ___ up at seven.", "o": ["wake", "waking", "wakes", "is wake"], "a": 2, "why": "مع he نضيف s للفعل: wakes."},
+   {"q": "ما آخر شيء نفعله في اليوم؟", "o": ["have breakfast", "go to bed", "go to work", "get dressed"], "a": 1, "why": "go to bed = الذهاب إلى السرير، في آخر اليوم."}
+  ]
+ },
+ {
+  "n": "15",
+  "type": "vocab",
+  "title_ar": "المنزل",
+  "title_en": "The house",
+  "summary": "تتعلم في هذا الدرس أسماء غرف المنزل وأهم قطع الأثاث، وكيف تصف بيتك باستعمال There is و There are وحروف المكان.",
+  "notes": [
+   {"h": "غرف المنزل", "t": "living room = غرفة المعيشة\nbedroom = غرفة النوم\nkitchen = المطبخ\nbathroom = الحمام\ndining room = غرفة الطعام\ngarden = الحديقة\nالفرق: house = بيت مستقل، flat أو apartment = شقة."},
+   {"h": "الأثاث والأشياء", "t": "door = باب\nwindow = نافذة\nbed = سرير\ntable = طاولة\nchair = كرسي\nsofa = أريكة\nfridge = ثلاجة\nlamp = مصباح"},
+   {"h": "There is / There are", "t": "للمفرد: There is + a / an + اسم مفرد\nThere is a sofa in the living room. = توجد أريكة في غرفة المعيشة.\nللجمع: There are + اسم جمع\nThere are three bedrooms. = توجد ثلاث غرف نوم."},
+   {"h": "حروف المكان", "t": "in = في، داخل: The bed is in the bedroom. = السرير في غرفة النوم.\non = على: The book is on the table. = الكتاب على الطاولة.\nunder = تحت: The cat is under the chair. = القطة تحت الكرسي.\nnext to = بجانب: The lamp is next to the bed. = المصباح بجانب السرير."}
+  ],
+  "alerts": [
+   {"k": "grammar", "t": "There is للمفرد و There are للجمع. نقول There are two chairs وليس There is two chairs."},
+   {"k": "pron", "t": "kitchen تُنطق «كِتشِن»، أما chicken فتُنطق «تشِكِن». لا تخلط بينهما! و bathroom فيها صوت «ث»: باثروم."},
+   {"k": "mistake", "t": "لا تبدأ الجملة بـ In the room a bed ترجمةً حرفية لـ «في الغرفة سرير». الصحيح: There is a bed in the room."}
+  ],
+  "vocab": [
+   {"en": "house", "ar": "بيت", "emoji": "🏠"},
+   {"en": "kitchen", "ar": "مطبخ", "emoji": "🍳"},
+   {"en": "bedroom", "ar": "غرفة نوم", "emoji": "🛌"},
+   {"en": "bathroom", "ar": "حمام", "emoji": "🛁"},
+   {"en": "garden", "ar": "حديقة", "emoji": "🌷"},
+   {"en": "door", "ar": "باب", "emoji": "🚪"},
+   {"en": "window", "ar": "نافذة", "emoji": "🪟"},
+   {"en": "bed", "ar": "سرير", "emoji": "🛏️"},
+   {"en": "chair", "ar": "كرسي", "emoji": "🪑"},
+   {"en": "sofa", "ar": "أريكة", "emoji": "🛋️"},
+   {"en": "lamp", "ar": "مصباح", "emoji": "💡"},
+   {"en": "key", "ar": "مفتاح", "emoji": "🔑"}
+  ],
+  "phrases": [
+   {"en": "I live in a big house.", "ar": "أعيش في بيت كبير."},
+   {"en": "There are three bedrooms.", "ar": "توجد ثلاث غرف نوم."},
+   {"en": "There is a sofa in the living room.", "ar": "توجد أريكة في غرفة المعيشة."},
+   {"en": "The book is on the table.", "ar": "الكتاب على الطاولة."},
+   {"en": "Please open the window.", "ar": "افتح النافذة من فضلك."}
+  ],
+  "quiz": [
+   {"q": "أين نطبخ الطعام؟", "o": ["bedroom", "bathroom", "garden", "kitchen"], "a": 3, "why": "kitchen = المطبخ."},
+   {"q": "أكمل: There ___ two chairs in the room.", "o": ["is", "are", "am", "be"], "a": 1, "why": "two chairs جمع فنستعمل There are."},
+   {"q": "ما معنى window؟", "o": ["نافذة", "باب", "كرسي", "مصباح"], "a": 0, "why": "window = نافذة."},
+   {"q": "أكمل: The book is ___ the table. (على)", "o": ["in", "under", "on", "next"], "a": 2, "why": "on = على."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["There are a bed in the room.", "There is a bed in the room.", "There a bed in the room.", "There is beds in the room."], "a": 1, "why": "a bed مفرد فنستعمل There is."},
+   {"q": "ما معنى under؟", "o": ["على", "بجانب", "تحت", "داخل"], "a": 2, "why": "under = تحت."}
+  ]
+ },
+ {
+  "n": "16",
+  "type": "vocab",
+  "title_ar": "أعضاء الجسم",
+  "title_en": "Body parts",
+  "summary": "تتعلم في هذا الدرس أسماء أعضاء الجسم والوجه بالإنجليزية، وكيف تصف شكل شخص وتقول أين تشعر بالألم. تفيدك هذه الكلمات خصوصاً عند زيارة الطبيب.",
+  "notes": [
+   {"h": "الرأس والوجه", "t": "head = رأس\nhair = شعر\nface = وجه\neye = عين\near = أذن\nnose = أنف\nmouth = فم\ntooth = سن\nneck = رقبة"},
+   {"h": "بقية الجسم", "t": "shoulder = كتف\narm = ذراع\nhand = يد\nfinger = إصبع\nback = ظهر\nstomach = معدة، بطن\nleg = ساق\nknee = ركبة\nfoot = قدم"},
+   {"h": "جموع شاذة", "t": "معظم الأسماء تُجمع بإضافة s: eye ← eyes، hand ← hands.\nلكن بعضها شاذ:\nfoot ← feet = أقدام\ntooth ← teeth = أسنان\nI have two feet. = عندي قدمان."},
+   {"h": "الوصف والألم", "t": "للوصف نستعمل have / has:\nI have brown eyes. = عيناي بنيتان.\nShe has long hair. = شعرها طويل.\nللألم:\nMy head hurts. = رأسي يؤلمني.\nI have a headache. = عندي صداع.\nI have a stomachache. = عندي ألم في المعدة."}
+  ],
+  "alerts": [
+   {"k": "pron", "t": "knee تُنطق «ني» فحرف k لا يُنطق. و stomach تُنطق «ستَمَك» فالحرفان ch هنا مثل «ك». و mouth و tooth تنتهيان بصوت «ث»."},
+   {"k": "grammar", "t": "جمع foot هو feet وجمع tooth هو teeth. لا تقل foots أو tooths."},
+   {"k": "mistake", "t": "hair بمعنى شعر الرأس لا تُجمع: She has long hair وليس long hairs."}
+  ],
+  "vocab": [
+   {"en": "head", "ar": "رأس", "emoji": "🗣️"},
+   {"en": "hair", "ar": "شعر", "emoji": "💇"},
+   {"en": "eye", "ar": "عين", "emoji": "👁️"},
+   {"en": "ear", "ar": "أذن", "emoji": "👂"},
+   {"en": "nose", "ar": "أنف", "emoji": "👃"},
+   {"en": "mouth", "ar": "فم", "emoji": "👄"},
+   {"en": "tooth", "ar": "سن", "emoji": "🦷"},
+   {"en": "hand", "ar": "يد", "emoji": "✋"},
+   {"en": "arm", "ar": "ذراع", "emoji": "💪"},
+   {"en": "leg", "ar": "ساق", "emoji": "🦵"},
+   {"en": "foot", "ar": "قدم", "emoji": "🦶"},
+   {"en": "heart", "ar": "قلب", "emoji": "❤️"}
+  ],
+  "phrases": [
+   {"en": "I have brown eyes.", "ar": "عيناي بنيتان."},
+   {"en": "She has long hair.", "ar": "شعرها طويل."},
+   {"en": "My head hurts.", "ar": "رأسي يؤلمني."},
+   {"en": "Wash your hands, please.", "ar": "اغسل يديك من فضلك."},
+   {"en": "I have a headache.", "ar": "عندي صداع."}
+  ],
+  "quiz": [
+   {"q": "ما جمع foot؟", "o": ["foots", "feets", "feet", "footes"], "a": 2, "why": "foot جمعها شاذ: feet."},
+   {"q": "بماذا نرى؟ We see with our ___.", "o": ["eyes", "ears", "hands", "legs"], "a": 0, "why": "نرى بالعينين: eyes."},
+   {"q": "ما معنى mouth؟", "o": ["أنف", "فم", "أذن", "وجه"], "a": 1, "why": "mouth = فم."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["She has long hairs.", "She have long hair.", "She is long hair.", "She has long hair."], "a": 3, "why": "مع she نستعمل has، و hair لا تُجمع."},
+   {"q": "كيف تُنطق كلمة knee؟", "o": ["كْني", "ني", "كِني", "نَي"], "a": 1, "why": "حرف k في knee لا يُنطق."},
+   {"q": "ما معنى: I have a headache؟", "o": ["عندي ألم في المعدة", "رأسي كبير", "عندي صداع", "أنا متعب"], "a": 2, "why": "headache = صداع."}
+  ]
+ },
+ {
+  "n": "17",
+  "type": "vocab",
+  "title_ar": "الهوايات",
+  "title_en": "Hobbies",
+  "summary": "تتعلم في هذا الدرس أسماء الهوايات والأنشطة التي نقوم بها في وقت الفراغ، وكيف تسأل عن هوايات الآخرين وتتحدث عن هواياتك باستعمال like + الفعل مع ing.",
+  "notes": [
+   {"h": "السؤال عن الهوايات", "t": "What are your hobbies? = ما هواياتك؟\nWhat do you do in your free time? = ماذا تفعل في وقت فراغك؟\nMy hobby is reading. = هوايتي القراءة.\nfree time = وقت الفراغ."},
+   {"h": "هوايات شائعة", "t": "reading = القراءة\nswimming = السباحة\ncooking = الطبخ\ndrawing = الرسم\nsinging = الغناء\ndancing = الرقص\ntraveling = السفر\nfishing = صيد السمك"},
+   {"h": "like + verb-ing", "t": "بعد like نضع الفعل مع ing:\nI like reading. = أحب القراءة.\nI like swimming. = أحب السباحة.\nShe likes cooking. = هي تحب الطبخ.\nI don't like running. = لا أحب الجري."},
+   {"h": "play / go / do", "t": "play مع الألعاب والآلات الموسيقية:\nplay football = يلعب كرة القدم، play the guitar = يعزف على الغيتار\ngo مع الأنشطة المنتهية بـ ing:\ngo swimming = يذهب للسباحة، go shopping = يذهب للتسوق\nوأفعال أخرى: listen to music = يستمع إلى الموسيقى، watch films = يشاهد الأفلام."}
+  ],
+  "alerts": [
+   {"k": "grammar", "t": "بعد like نستعمل الفعل مع ing عند الحديث عن الهوايات: I like reading. وليس I like read."},
+   {"k": "mistake", "t": "نقول play football بدون the، لكن مع الآلات الموسيقية نضع the: play the guitar. ونقول listen to music ولا نحذف to."},
+   {"k": "pron", "t": "في نهاية ing لا ننطق «غ» واضحة: reading تُنطق «ريدِنـ» بصوت أنفي خفيف. وبعض الأفعال تُضاعف الحرف الأخير كتابةً: swim ← swimming، run ← running."}
+  ],
+  "vocab": [
+   {"en": "reading", "ar": "القراءة", "emoji": "📖"},
+   {"en": "swimming", "ar": "السباحة", "emoji": "🏊"},
+   {"en": "cooking", "ar": "الطبخ", "emoji": "🍳"},
+   {"en": "drawing", "ar": "الرسم", "emoji": "🎨"},
+   {"en": "singing", "ar": "الغناء", "emoji": "🎤"},
+   {"en": "dancing", "ar": "الرقص", "emoji": "💃"},
+   {"en": "football", "ar": "كرة القدم", "emoji": "⚽"},
+   {"en": "music", "ar": "موسيقى", "emoji": "🎵"},
+   {"en": "guitar", "ar": "غيتار", "emoji": "🎸"},
+   {"en": "fishing", "ar": "صيد السمك", "emoji": "🎣"},
+   {"en": "running", "ar": "الجري", "emoji": "🏃"},
+   {"en": "camera", "ar": "آلة تصوير", "emoji": "📷"}
+  ],
+  "phrases": [
+   {"en": "What are your hobbies?", "ar": "ما هواياتك؟"},
+   {"en": "I like reading books.", "ar": "أحب قراءة الكتب."},
+   {"en": "I play football on Friday.", "ar": "ألعب كرة القدم يوم الجمعة."},
+   {"en": "She likes listening to music.", "ar": "هي تحب الاستماع إلى الموسيقى."},
+   {"en": "We go swimming in summer.", "ar": "نذهب للسباحة في الصيف."}
+  ],
+  "quiz": [
+   {"q": "أكمل: I like ___.", "o": ["swim", "swimming", "swims", "to swimming"], "a": 1, "why": "بعد like نستعمل الفعل مع ing."},
+   {"q": "أكمل: I ___ football.", "o": ["play", "go", "make", "am"], "a": 0, "why": "نستعمل play مع الألعاب الرياضية."},
+   {"q": "ما معنى drawing؟", "o": ["الغناء", "الرقص", "الطبخ", "الرسم"], "a": 3, "why": "drawing = الرسم."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I listen music.", "I listen at music.", "I listen to music.", "I listening to music."], "a": 2, "why": "الفعل listen يأتي بعده to."},
+   {"q": "ما معنى free time؟", "o": ["وقت العمل", "وقت الفراغ", "وقت النوم", "وقت مجاني للأكل"], "a": 1, "why": "free time = وقت الفراغ."},
+   {"q": "أكمل: He plays ___ guitar.", "o": ["on", "in", "the", "at"], "a": 2, "why": "مع الآلات الموسيقية نقول play the + الآلة."}
+  ]
+ }
+]

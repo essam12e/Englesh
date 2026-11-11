@@ -1,0 +1,363 @@
+[
+{
+ "n": "185",
+ "type": "vocab",
+ "title_ar": "الأهداف",
+ "title_en": "Goals",
+ "summary": "تتعلم كيف تتحدث عن أهدافك وطموحاتك وخططك لتحقيقها، مع التلازمات اللفظية الصحيحة لكلمة goal. ستتعرف أيضاً على طريقة SMART لصياغة هدف واضح.",
+ "notes": [
+  {"h": "الأفعال مع goal", "t": "set a goal = يحدّد هدفاً.\nwork towards a goal = يعمل نحو هدف.\nachieve / reach / accomplish a goal = يحقق هدفاً.\npursue a goal = يسعى وراء هدف.\ngive up on a goal = يتخلى عن هدف.\nshort-term / long-term goals = أهداف قصيرة / طويلة المدى."},
+  {"h": "أهداف SMART", "t": "Specific = محدد.\nMeasurable = قابل للقياس.\nAchievable = قابل للتحقيق.\nRelevant = ذو صلة.\nTime-bound = محدد بزمن.\nمثال لهدف جيد: I will learn 20 new words a week for three months.\nمثال لهدف غامض: I want to be better at English."},
+  {"h": "التعبير عن الطموح", "t": "My goal is to + فعل: My goal is to run a marathon.\nI aim to + فعل: I aim to finish by June.\nI am determined to + فعل = أنا مصمّم على.\nI hope to / I intend to / I plan to + فعل.\nI dream of + ing: I dream of starting my own business.\nI am looking forward to + ing."},
+  {"h": "الخطوات والنتائج", "t": "break it down into small steps = قسّمه إلى خطوات صغيرة.\nmilestone = محطة مهمة في الطريق.\nstay on track = يبقى على المسار.\nsetback = انتكاسة.\nfulfil an ambition = يحقق طموحاً.\nIt was worth the effort = كان يستحق الجهد."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تقل reach to a goal أو arrive my goal. الصحيح: reach a goal أو achieve a goal بدون حرف جر."},
+  {"k": "grammar", "t": "to في look forward to حرف جر وليست علامة مصدر، فيأتي بعدها ing: I look forward to meeting you. وكذلك dream of + ing."},
+  {"k": "pron", "t": "goal تُنطق: غول بصوت طويل. و achieve تُنطق: أتشيڤ بصوت v في آخرها. و ambition تُنطق: أمبِشن."}
+ ],
+ "vocab": [
+  {"en": "goal", "ar": "هدف", "emoji": "🥅"},
+  {"en": "ambition", "ar": "طموح", "emoji": "🚀"},
+  {"en": "achieve", "ar": "يحقق", "emoji": "🏆"},
+  {"en": "target", "ar": "هدف محدد", "emoji": "🎯"},
+  {"en": "milestone", "ar": "محطة مهمة", "emoji": "🚩"},
+  {"en": "setback", "ar": "انتكاسة", "emoji": "↩️"},
+  {"en": "long-term", "ar": "طويل المدى", "emoji": "🗓️"},
+  {"en": "determined", "ar": "مصمّم", "emoji": "😤"},
+  {"en": "measurable", "ar": "قابل للقياس", "emoji": "📏"},
+  {"en": "pursue", "ar": "يسعى وراء", "emoji": "🏃"}
+ ],
+ "phrases": [
+  {"en": "My goal is to run a marathon.", "ar": "هدفي أن أركض ماراثوناً."},
+  {"en": "Set a clear goal and work towards it.", "ar": "حدّد هدفاً واضحاً واعمل نحوه."},
+  {"en": "I am determined to achieve my goals.", "ar": "أنا مصمّم على تحقيق أهدافي."},
+  {"en": "Break it down into small steps.", "ar": "قسّمه إلى خطوات صغيرة."},
+  {"en": "I dream of starting my own business.", "ar": "أحلم ببدء مشروعي الخاص."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: She finally ___ her goal of becoming a doctor.", "o": ["reached to", "achieved", "arrived", "succeeded"], "a": 1, "why": "achieve a goal بدون حرف جر."},
+  {"q": "اختر الصحيح: I dream of ___ around the world.", "o": ["travel", "to travel", "travelling", "travelled"], "a": 2, "why": "بعد حرف الجر of يأتي الفعل مع ing."},
+  {"q": "أي هدف من الأهداف التالية SMART؟", "o": ["I will read one English book a month this year.", "I want to be successful.", "I hope to be better.", "I would like to learn things."], "a": 0, "why": "الهدف محدد وقابل للقياس ومرتبط بزمن."},
+  {"q": "ما معنى setback؟", "o": ["إنجاز كبير", "موعد نهائي", "خطة بديلة", "انتكاسة تؤخّر التقدم"], "a": 3, "why": "setback مشكلة تعيق التقدّم مؤقتاً."},
+  {"q": "اختر الصحيح: I am looking forward to ___ you.", "o": ["see", "seeing", "saw", "be seen"], "a": 1, "why": "to هنا حرف جر فيأتي بعدها ing."},
+  {"q": "حرف M في SMART يعني:", "o": ["Modern", "Many", "Measurable", "Motivated"], "a": 2, "why": "Measurable = قابل للقياس."}
+ ]
+},
+{
+ "n": "186",
+ "type": "vocab",
+ "title_ar": "اتخاذ القرارات",
+ "title_en": "Decision making",
+ "summary": "تتعلم التعابير المستخدمة عند التفكير في الخيارات واتخاذ القرار أو التردد فيه. ستعرف كيف توازن بين الإيجابيات والسلبيات وتعبّر عن قرارك بوضوح.",
+ "notes": [
+  {"h": "الأفعال مع decision", "t": "make a decision (بريطاني وأمريكي) / take a decision (بريطاني) = يتخذ قراراً.\nreach / come to a decision = يتوصل إلى قرار.\nmake up your mind = يحسم أمره.\nchange your mind = يغيّر رأيه.\ndecide to + فعل: I decided to stay.\ndecide on + اسم: We decided on the blue one."},
+  {"h": "التفكير في الخيارات", "t": "weigh up the pros and cons = يوازن بين الإيجابيات والسلبيات.\nconsider all the options = يدرس كل الخيارات.\nthink it over = يفكر فيه ملياً.\nsleep on it = يؤجل القرار إلى الغد ليفكر.\ntake something into account = يأخذ في الحسبان.\nOn the one hand... On the other hand... = من ناحية... ومن ناحية أخرى..."},
+  {"h": "التردد", "t": "be in two minds about = متردد بين أمرين.\nbe torn between A and B = حائر بين.\nhesitate = يتردد.\nindecisive = متردد بطبعه.\nhave second thoughts = يعيد النظر في قراره.\nمثال: I am in two minds about accepting the job."},
+  {"h": "بعد القرار", "t": "stick to your decision = يتمسك بقراره.\nregret a decision = يندم على قرار.\na tough / wise / hasty decision = قرار صعب / حكيم / متسرّع.\nIn the end, I went for the cheaper one = في النهاية اخترتُ الأرخص.\nIt is up to you = القرار لك."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تقل do a decision. الصحيح: make a decision. ولا تقل decide to not going، قل decide not to go."},
+  {"k": "grammar", "t": "regret + ing للندم على شيء حدث: I regret leaving my job. أما regret to + فعل فتُستخدم لإبلاغ خبر سيئ رسمياً: We regret to inform you..."},
+  {"k": "pron", "t": "decision تُنطق: دِسِجَن (حرف s فيها مثل صوت ج الشامية). و decide تُنطق: دِسايد. و choice تُنطق: تشويس."}
+ ],
+ "vocab": [
+  {"en": "decision", "ar": "قرار", "emoji": "⚖️"},
+  {"en": "option", "ar": "خيار", "emoji": "🔀"},
+  {"en": "choice", "ar": "اختيار", "emoji": "☑️"},
+  {"en": "pros and cons", "ar": "الإيجابيات والسلبيات", "emoji": "👍"},
+  {"en": "hesitate", "ar": "يتردد", "emoji": "🤔"},
+  {"en": "regret", "ar": "يندم", "emoji": "😔"},
+  {"en": "consider", "ar": "يدرس / يفكر في", "emoji": "💭"},
+  {"en": "indecisive", "ar": "متردد", "emoji": "🤷"},
+  {"en": "consequence", "ar": "عاقبة / نتيجة", "emoji": "➡️"},
+  {"en": "wise", "ar": "حكيم", "emoji": "🦉"}
+ ],
+ "phrases": [
+  {"en": "I need to make a decision soon.", "ar": "أحتاج إلى اتخاذ قرار قريباً."},
+  {"en": "I can't make up my mind.", "ar": "لا أستطيع أن أحسم أمري."},
+  {"en": "Let me sleep on it.", "ar": "دعني أفكّر في الأمر حتى الغد."},
+  {"en": "We weighed up the pros and cons.", "ar": "وازنّا بين الإيجابيات والسلبيات."},
+  {"en": "In the end, I decided to stay.", "ar": "في النهاية قررتُ البقاء."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: You have to ___ a decision today.", "o": ["do", "make", "have", "put"], "a": 1, "why": "التلازم الصحيح: make a decision."},
+  {"q": "ما معنى sleep on it؟", "o": ["ينام فوقه", "ينسى الأمر", "يؤجل القرار ليفكر حتى الغد", "يرفض العرض"], "a": 2, "why": "تعبير اصطلاحي يعني التريّث قبل القرار."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I decided not to go.", "I decided to not going.", "I decided don't go.", "I decided not going."], "a": 0, "why": "النفي: decide not to + فعل."},
+  {"q": "ما معنى I am in two minds about it؟", "o": ["أنا متأكد تماماً", "غيّرتُ رأيي", "نسيتُ الموضوع", "أنا متردد"], "a": 3, "why": "be in two minds = حائر بين خيارين."},
+  {"q": "اختر الصحيح: I regret ___ him the truth. (ندمتُ على ما حدث)", "o": ["to tell", "tell", "telling", "told"], "a": 2, "why": "regret + ing للندم على فعل ماضٍ."},
+  {"q": "ما معنى It is up to you؟", "o": ["القرار لك", "الأمر صعب عليك", "قف من فضلك", "لقد تأخرت"], "a": 0, "why": "up to you = أنت من يقرر."}
+ ]
+},
+{
+ "n": "187",
+ "type": "vocab",
+ "title_ar": "حلّ المشكلات",
+ "title_en": "Problem solving",
+ "summary": "تتعلم المفردات والأفعال المركّبة المستخدمة لوصف المشكلات وتحليلها واقتراح الحلول. هذه اللغة أساسية في الاجتماعات والعمل الجماعي والحياة اليومية.",
+ "notes": [
+  {"h": "وصف المشكلة", "t": "face / encounter a problem = يواجه مشكلة.\nrun into difficulties = يصطدم بصعوبات.\nan issue = مسألة / مشكلة.\na minor / major / serious problem = مشكلة بسيطة / كبيرة / خطيرة.\nThe problem is that... = المشكلة أنّ...\nSomething has gone wrong = حدث خطأ ما."},
+  {"h": "التحليل", "t": "identify the cause = يحدد السبب.\nthe root cause = السبب الجذري.\nanalyse the situation = يحلل الوضع.\nfigure out / work out = يكتشف / يتوصل إلى: I can't figure out why it stopped.\nlook into = يبحث في: We will look into the matter."},
+  {"h": "الحلول", "t": "solve / resolve a problem = يحل مشكلة.\ndeal with / handle / tackle = يتعامل مع / يعالج.\ncome up with a solution = يبتكر حلاً.\nbrainstorm ideas = يولّد أفكاراً بالعصف الذهني.\nsort out = يسوّي: I will sort it out.\na solution to a problem = حل لمشكلة."},
+  {"h": "اقتراح الحلول", "t": "Why don't we + فعل...? = لمَ لا...؟\nHow about + ing...? = ما رأيك في...؟\nWe could try + ing = يمكننا تجربة.\nOne option would be to + فعل.\nIf we did that, we would save time.\nThat might work = قد ينجح ذلك."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "نقول a solution to a problem بحرف to (وليس solution of أو for the problem في أغلب السياقات). ونقول solve a problem لا solve a solution."},
+  {"k": "grammar", "t": "بعد How about و try (بمعنى يجرّب) يأتي الفعل مع ing: How about asking an expert? / Try restarting it."},
+  {"k": "pron", "t": "solve تُنطق: سولڤ بصوت v في آخرها. و issue تُنطق: إشّو. و analyse تُنطق: آنَلايز."}
+ ],
+ "vocab": [
+  {"en": "solution", "ar": "حلّ", "emoji": "💡"},
+  {"en": "solve", "ar": "يحلّ", "emoji": "🧩"},
+  {"en": "issue", "ar": "مسألة / مشكلة", "emoji": "⚠️"},
+  {"en": "cause", "ar": "سبب", "emoji": "🌱"},
+  {"en": "figure out", "ar": "يكتشف / يفهم", "emoji": "🔍"},
+  {"en": "brainstorm", "ar": "عصف ذهني", "emoji": "🌩️"},
+  {"en": "tackle", "ar": "يعالج", "emoji": "🛠️"},
+  {"en": "deal with", "ar": "يتعامل مع", "emoji": "🤝"},
+  {"en": "analyse", "ar": "يحلل", "emoji": "📊"},
+  {"en": "obstacle", "ar": "عقبة", "emoji": "🚧"}
+ ],
+ "phrases": [
+  {"en": "We need to find a solution.", "ar": "نحتاج إلى إيجاد حل."},
+  {"en": "She came up with a brilliant idea.", "ar": "ابتكرت فكرة رائعة."},
+  {"en": "I can't figure out what went wrong.", "ar": "لا أستطيع أن أكتشف ما الخطأ الذي حدث."},
+  {"en": "Why don't we ask an expert?", "ar": "لمَ لا نسأل خبيراً؟"},
+  {"en": "Don't worry, I will sort it out.", "ar": "لا تقلق، سأسوّي الأمر."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: We must find a solution ___ this problem.", "o": ["of", "to", "with", "at"], "a": 1, "why": "نقول a solution to a problem."},
+  {"q": "ما معنى come up with؟", "o": ["يبتكر / يقترح", "يصعد إلى", "يلحق بـ", "يتخلى عن"], "a": 0, "why": "come up with an idea = يأتي بفكرة."},
+  {"q": "اختر الصحيح: How about ___ the meeting to Monday?", "o": ["move", "to move", "moved", "moving"], "a": 3, "why": "بعد How about يأتي الفعل مع ing."},
+  {"q": "ما معنى the root cause؟", "o": ["النتيجة النهائية", "الحل المؤقت", "السبب الجذري", "جذر النبات"], "a": 2, "why": "root = جذر، أي السبب الأساسي للمشكلة."},
+  {"q": "ما معنى We will look into it؟", "o": ["سننظر داخله", "سنبحث في الأمر", "سنتجاهله", "سنشتريه"], "a": 1, "why": "look into = يتحرّى ويبحث."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["Why don't we to try again?", "Why we don't try again?", "Why don't we try again?", "Why don't we trying again?"], "a": 2, "why": "Why don't we + الفعل المجرد."}
+ ]
+},
+{
+ "n": "188",
+ "type": "conversation",
+ "title_ar": "رحلات الأحلام",
+ "title_en": "Dream travels",
+ "summary": "تتعلم كيف تتحدث عن الأماكن التي تحلم بزيارتها وتصفها وصفاً جذاباً، باستخدام تراكيب التمني والحالة الشرطية الثانية. موضوع ممتع لتدريب الخيال واللغة معاً.",
+ "notes": [
+  {"h": "الحديث عن حلم السفر", "t": "I have always wanted to + فعل: I have always wanted to visit Japan.\nI would love to + فعل: I would love to see the Northern Lights.\nIt is on my bucket list = إنه في قائمة أمنياتي.\nmy dream destination = وجهة أحلامي.\nIf I could go anywhere, I would go to... = لو استطعت الذهاب إلى أي مكان لذهبت إلى..."},
+  {"h": "الحالة الشرطية الثانية", "t": "للمواقف الخيالية: If + ماضٍ بسيط, would + فعل مجرد.\nIf I had enough money, I would travel the world = لو كان معي مال كافٍ لسافرتُ حول العالم.\nIf I were you, I would book early.\nالتمني: I wish I could travel more = ليتني أستطيع السفر أكثر."},
+  {"h": "صفات الأماكن", "t": "breathtaking = يخطف الأنفاس.\nstunning = مذهل.\npicturesque = خلّاب كاللوحة.\nexotic = غريب وجذّاب.\nunspoilt = لم تفسده السياحة.\nremote = ناءٍ.\nlively / bustling = نابض بالحياة.\nمثال: The views were absolutely breathtaking."},
+  {"h": "مفردات الرحلة", "t": "once-in-a-lifetime trip = رحلة العمر.\noff the beaten track = بعيد عن المسارات السياحية المعتادة.\ngo sightseeing = يتجوّل لمشاهدة المعالم.\nexplore = يستكشف.\nitinerary = برنامج الرحلة.\nlandmark = مَعلَم.\nscenery = مناظر طبيعية."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "trip اسم معدود لرحلة قصيرة، و travel غالباً فعل أو اسم عام غير معدود. قل I went on a trip (وليس I went on a travel)."},
+  {"k": "grammar", "t": "مع الصفات القوية مثل breathtaking و stunning نستخدم absolutely لا very: absolutely stunning. وفي الشرطية الثانية لا نضع would بعد if."},
+  {"k": "pron", "t": "breathtaking تُنطق: برِث تيكِنغ بصوت ث. و itinerary تُنطق: آيتِنَرَري. و scenery تُنطق: سينَري (حرف c صامت)."}
+ ],
+ "vocab": [
+  {"en": "destination", "ar": "وجهة", "emoji": "📍"},
+  {"en": "bucket list", "ar": "قائمة الأمنيات", "emoji": "📝"},
+  {"en": "breathtaking", "ar": "يخطف الأنفاس", "emoji": "😍"},
+  {"en": "explore", "ar": "يستكشف", "emoji": "🧭"},
+  {"en": "scenery", "ar": "مناظر طبيعية", "emoji": "🏞️"},
+  {"en": "landmark", "ar": "مَعلَم", "emoji": "🗼"},
+  {"en": "itinerary", "ar": "برنامج الرحلة", "emoji": "🗺️"},
+  {"en": "remote", "ar": "ناءٍ", "emoji": "🏝️"},
+  {"en": "adventure", "ar": "مغامرة", "emoji": "🧗"},
+  {"en": "cruise", "ar": "رحلة بحرية", "emoji": "🚢"}
+ ],
+ "phrases": [
+  {"en": "I have always wanted to visit Japan.", "ar": "لطالما أردتُ زيارة اليابان."},
+  {"en": "It is on my bucket list.", "ar": "إنه في قائمة أمنياتي."},
+  {"en": "If I had money, I would travel more.", "ar": "لو كان معي مال لسافرتُ أكثر."},
+  {"en": "The views were absolutely breathtaking.", "ar": "كانت المناظر تخطف الأنفاس حقاً."},
+  {"en": "I wish I could travel the world.", "ar": "ليتني أستطيع السفر حول العالم."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: If I ___ rich, I would buy a boat.", "o": ["am", "would be", "were", "will be"], "a": 2, "why": "في الشرطية الثانية نستخدم الماضي بعد if، ومع be نقول were."},
+  {"q": "اختر الصحيح: We went on a ___ to Paris last year.", "o": ["trip", "travel", "voyage of", "travelling"], "a": 0, "why": "نقول go on a trip، و travel لا تُستخدم اسماً معدوداً هنا."},
+  {"q": "ما معنى off the beaten track؟", "o": ["على الطريق السريع", "بعيد عن الأماكن السياحية المعتادة", "خارج الخدمة", "قريب من المطار"], "a": 1, "why": "أي مكان لا يقصده كثير من السياح."},
+  {"q": "اختر الصحيح: The beach was ___ stunning.", "o": ["very", "a bit", "fairly", "absolutely"], "a": 3, "why": "مع الصفات القوية نستخدم absolutely."},
+  {"q": "اختر الصحيح: I wish I ___ speak Italian.", "o": ["can", "could", "will", "am able"], "a": 1, "why": "بعد wish نستخدم الماضي للتمني في الحاضر: could."},
+  {"q": "ما معنى bucket list؟", "o": ["قائمة أمتعة السفر", "قائمة المشتريات", "قائمة أشياء تتمنى فعلها في حياتك", "قائمة الفنادق"], "a": 2, "why": "هي قائمة التجارب التي يريد الشخص خوضها قبل نهاية عمره."}
+ ]
+},
+{
+ "n": "189",
+ "type": "conversation",
+ "title_ar": "العيش في الخارج",
+ "title_en": "Living abroad",
+ "summary": "تتعلم مفردات الهجرة والاغتراب والتأقلم مع بلد جديد، والفرق المهم بين used to و be used to و get used to. مفيد جداً لكل من يفكر في العمل أو الإقامة خارج بلده.",
+ "notes": [
+  {"h": "الانتقال إلى بلد آخر", "t": "move abroad / emigrate = يهاجر من بلده.\nimmigrate to = يهاجر إلى بلد.\nexpat (expatriate) = مغترب.\nresidence permit = تصريح إقامة.\nwork permit = تصريح عمل.\nrelocate = ينتقل للعمل في مكان آخر.\nsettle down = يستقر."},
+  {"h": "used to / be used to / get used to", "t": "used to + فعل مجرد = عادة في الماضي انتهت: I used to live in Cairo.\nbe used to + اسم / ing = معتاد على: I am used to driving on the left.\nget used to + اسم / ing = يعتاد تدريجياً: I am getting used to the cold weather.\nالنفي: I am not used to eating so early."},
+  {"h": "التأقلم", "t": "adapt to / adjust to = يتكيّف مع.\nfit in = ينسجم مع المجتمع.\nintegrate into society = يندمج في المجتمع.\nlanguage barrier = حاجز اللغة.\nculture shock = صدمة ثقافية.\nmiss your family = يشتاق إلى أهله.\nfeel at home = يشعر كأنه في بيته."},
+  {"h": "أمور عملية", "t": "rent a flat = يستأجر شقة.\nopen a bank account = يفتح حساباً مصرفياً.\ncost of living = تكلفة المعيشة.\nstandard of living = مستوى المعيشة.\nlocals = السكان المحليون.\nmake friends with = يكوّن صداقات مع."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "بعد be used to و get used to يأتي ing لأن to حرف جر: I am used to working at night (وليس used to work، فهذه تعني كنتُ أعمل في الماضي)."},
+  {"k": "mistake", "t": "emigrate from = يغادر بلده، immigrate to = يدخل بلداً جديداً. ولا تقل live in abroad، قل live abroad."},
+  {"k": "pron", "t": "used to تُنطق: يوستو بصوت s لا z، وحرف d لا يكاد يُسمع. و abroad تُنطق: أبرود."}
+ ],
+ "vocab": [
+  {"en": "expat", "ar": "مغترب", "emoji": "🧳"},
+  {"en": "emigrate", "ar": "يهاجر من بلده", "emoji": "🛫"},
+  {"en": "residence permit", "ar": "تصريح إقامة", "emoji": "🪪"},
+  {"en": "adapt", "ar": "يتكيّف", "emoji": "🦎"},
+  {"en": "fit in", "ar": "ينسجم", "emoji": "🧩"},
+  {"en": "settle down", "ar": "يستقر", "emoji": "🏡"},
+  {"en": "locals", "ar": "السكان المحليون", "emoji": "👨‍👩‍👧‍👦"},
+  {"en": "cost of living", "ar": "تكلفة المعيشة", "emoji": "💸"},
+  {"en": "rent", "ar": "يستأجر / إيجار", "emoji": "🔑"},
+  {"en": "language barrier", "ar": "حاجز اللغة", "emoji": "🚧"}
+ ],
+ "phrases": [
+  {"en": "I used to live in Cairo.", "ar": "كنتُ أعيش في القاهرة."},
+  {"en": "I am used to driving on the left.", "ar": "أنا معتاد على القيادة على اليسار."},
+  {"en": "I am getting used to the weather.", "ar": "بدأتُ أعتاد على الطقس."},
+  {"en": "It was hard to fit in at first.", "ar": "كان الانسجام صعباً في البداية."},
+  {"en": "The cost of living is very high.", "ar": "تكلفة المعيشة مرتفعة جداً."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: I am used to ___ up early now.", "o": ["get", "getting", "got", "gets"], "a": 1, "why": "be used to + ing."},
+  {"q": "أي جملة تعني: عادة في الماضي لم تعد موجودة؟", "o": ["I am used to smoking.", "I am getting used to smoking.", "I used to smoke.", "I get used to smoke."], "a": 2, "why": "used to + فعل مجرد للعادة الماضية المنتهية."},
+  {"q": "ما معنى fit in؟", "o": ["ينسجم مع المجموعة", "يمارس الرياضة", "يقيس الملابس", "يدخل البيت"], "a": 0, "why": "fit in = يشعر بالانتماء والقبول."},
+  {"q": "اختر الصحيح: It took me a year to ___ the food.", "o": ["used to", "be use to", "getting used to", "get used to"], "a": 3, "why": "بعد to المصدرية نستخدم get used to."},
+  {"q": "اختر الصحيح: They emigrated ___ Syria in 2015.", "o": ["from", "to in", "at", "of"], "a": 0, "why": "emigrate from = يهاجر من بلده."},
+  {"q": "ما معنى cost of living؟", "o": ["ثمن البيت", "مستوى التعليم", "تكلفة المعيشة", "راتب الموظف"], "a": 2, "why": "هي ما تحتاجه من مال للعيش في مكان ما."}
+ ]
+},
+{
+ "n": "190",
+ "type": "conversation",
+ "title_ar": "التعرّف على الثقافات",
+ "title_en": "Learning about cultures",
+ "summary": "تتعلم مفردات العادات والتقاليد وآداب السلوك، وكيف تقارن بين الثقافات باحترام وتسأل عن عادات الآخرين. فهم الثقافة جزء لا ينفصل عن إتقان اللغة.",
+ "notes": [
+  {"h": "مفردات الثقافة", "t": "custom = عادة اجتماعية.\ntradition = تقليد متوارث.\netiquette = آداب السلوك.\nvalues = قيم.\nheritage = تراث.\ncuisine = مطبخ / أكلات شعبية.\ncultural diversity = التنوع الثقافي.\nmulticultural = متعدد الثقافات."},
+  {"h": "اللائق وغير اللائق", "t": "It is customary to + فعل = من المعتاد أن: It is customary to take off your shoes.\nIt is considered rude to + فعل = يُعدّ وقاحة أن: It is considered rude to point at people.\nIt is polite to... = من الأدب أن...\nbe supposed to = يُفترض أن: You are supposed to tip the waiter.\ntaboo = محظور اجتماعياً."},
+  {"h": "المواقف من الثقافات الأخرى", "t": "open-minded = منفتح الذهن.\nrespect = يحترم.\ntolerant = متسامح.\nstereotype = صورة نمطية.\nprejudice = حكم مسبق.\ncultural awareness = الوعي الثقافي.\nمثال: Travelling makes you more open-minded."},
+  {"h": "المقارنة والسؤال", "t": "In my country, we usually... = في بلدي نحن عادة...\nUnlike in Egypt, people here... = على عكس مصر، الناس هنا...\nwhereas / while = بينما: We eat late, whereas they eat early.\nIs it OK to...? = هل من المقبول أن...؟\nWhat is the custom here? = ما العادة هنا؟"}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "custom = عادة مجتمع، habit = عادة شخصية، costume = زيّ تنكّري أو تقليدي، customer = زبون. لا تخلط بينها."},
+  {"k": "grammar", "t": "نقول different from (وليس different than في الإنجليزية البريطانية الرسمية ولا different of): Their culture is different from ours."},
+  {"k": "pron", "t": "etiquette تُنطق: إتِكِت. و cuisine تُنطق: كويزين. و culture تُنطق: كَلتشَر."}
+ ],
+ "vocab": [
+  {"en": "custom", "ar": "عادة اجتماعية", "emoji": "🙏"},
+  {"en": "tradition", "ar": "تقليد", "emoji": "🎎"},
+  {"en": "etiquette", "ar": "آداب السلوك", "emoji": "🍴"},
+  {"en": "heritage", "ar": "تراث", "emoji": "🏛️"},
+  {"en": "cuisine", "ar": "مطبخ / أكلات", "emoji": "🍲"},
+  {"en": "stereotype", "ar": "صورة نمطية", "emoji": "🏷️"},
+  {"en": "open-minded", "ar": "منفتح الذهن", "emoji": "🧠"},
+  {"en": "rude", "ar": "وقح / غير مهذب", "emoji": "😠"},
+  {"en": "respect", "ar": "يحترم / احترام", "emoji": "🤝"},
+  {"en": "diversity", "ar": "تنوّع", "emoji": "🌈"}
+ ],
+ "phrases": [
+  {"en": "It is customary to take off your shoes.", "ar": "من المعتاد أن تخلع حذاءك."},
+  {"en": "It is considered rude to point at people.", "ar": "يُعدّ من الوقاحة الإشارة إلى الناس."},
+  {"en": "Their culture is different from ours.", "ar": "ثقافتهم مختلفة عن ثقافتنا."},
+  {"en": "Travelling makes you more open-minded.", "ar": "السفر يجعلك أكثر انفتاحاً."},
+  {"en": "We should respect other cultures.", "ar": "علينا أن نحترم الثقافات الأخرى."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: Shaking hands is a common ___ in many countries.", "o": ["costume", "customer", "custom", "habit of"], "a": 2, "why": "custom = عادة اجتماعية. costume = زيّ، customer = زبون."},
+  {"q": "اختر الصحيح: British food is different ___ Italian food.", "o": ["from", "of", "with", "as"], "a": 0, "why": "نقول different from."},
+  {"q": "ما معنى stereotype؟", "o": ["نوع من الموسيقى", "صورة نمطية معمّمة عن فئة من الناس", "تقليد قديم", "آداب المائدة"], "a": 1, "why": "stereotype فكرة مبسّطة ومعمّمة عن مجموعة."},
+  {"q": "اختر الصحيح: You are supposed ___ the waiter in the USA.", "o": ["tip", "tipping", "tipped", "to tip"], "a": 3, "why": "be supposed to + فعل مجرد."},
+  {"q": "ما معنى It is considered rude؟", "o": ["يُعدّ مهذباً", "يُعدّ غير لائق", "يُعدّ إلزامياً", "يُعدّ مضحكاً"], "a": 1, "why": "rude = غير مهذب."},
+  {"q": "اختر الرابط المناسب: We eat dinner late, ___ they eat at six.", "o": ["because", "so", "whereas", "unless"], "a": 2, "why": "whereas تفيد المقابلة بين حالتين مختلفتين."}
+ ]
+},
+{
+ "n": "191",
+ "type": "skills",
+ "title_ar": "التحدّث أمام الجمهور",
+ "title_en": "Public speaking",
+ "summary": "تتعلم بنية العرض التقديمي والعبارات الجاهزة لافتتاحه والانتقال بين أجزائه وختامه، مع نصائح للتغلب على رهبة المسرح. مهارة ثمينة في الجامعة والعمل.",
+ "notes": [
+  {"h": "الافتتاح", "t": "Good morning, everyone. Thank you for coming.\nToday I am going to talk about... = سأتحدث اليوم عن...\nThe purpose of my talk is to... = الغرض من حديثي هو...\nI have divided my talk into three parts = قسّمتُ حديثي إلى ثلاثة أجزاء.\nFeel free to ask questions at the end."},
+  {"h": "عبارات الانتقال", "t": "First of all, ... / To begin with, ... = أولاً...\nLet's move on to... = لننتقل إلى...\nThis brings me to my next point = هذا يقودني إلى نقطتي التالية.\nAs you can see from this chart, ... = كما ترون في هذا الرسم...\nFor example, ... / In other words, ..."},
+  {"h": "الختام والأسئلة", "t": "To sum up, ... / In conclusion, ... = خلاصة القول...\nLet me recap the main points = دعوني ألخّص النقاط الرئيسية.\nThank you for listening.\nAre there any questions?\nThat is a good question.\nCould you repeat that, please?"},
+  {"h": "الأداء والثقة", "t": "stage fright = رهبة المسرح.\nmake eye contact = يتواصل بالعين.\nbody language = لغة الجسد.\nspeak clearly and slowly = تكلّم بوضوح وببطء.\npause = يتوقف قليلاً.\nrehearse = يتدرّب مسبقاً.\nengage the audience = يشدّ انتباه الجمهور."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "نقول give a presentation أو make a speech، ولا نقول do a speech أو say a presentation. ونقول talk about (وليس talk on about أو discuss about)."},
+  {"k": "tip", "t": "لا تحفظ النص كلمة كلمة ولا تقرأ من الشرائح. احفظ عبارات الانتقال فقط واستخدم نقاطاً قصيرة تذكّرك بالأفكار."},
+  {"k": "pron", "t": "audience تُنطق: أودِيَنس. و rehearse تُنطق: رِهيرس. والاسم presentation النبر فيه على المقطع الثالث: پرِزِنتيشن."}
+ ],
+ "vocab": [
+  {"en": "audience", "ar": "جمهور", "emoji": "👥"},
+  {"en": "speech", "ar": "خطاب", "emoji": "🎤"},
+  {"en": "presentation", "ar": "عرض تقديمي", "emoji": "📊"},
+  {"en": "stage fright", "ar": "رهبة المسرح", "emoji": "😨"},
+  {"en": "eye contact", "ar": "تواصل بالعين", "emoji": "👀"},
+  {"en": "body language", "ar": "لغة الجسد", "emoji": "🙆"},
+  {"en": "rehearse", "ar": "يتدرّب مسبقاً", "emoji": "🔁"},
+  {"en": "slide", "ar": "شريحة عرض", "emoji": "🖼️"},
+  {"en": "pause", "ar": "يتوقف قليلاً", "emoji": "⏸️"},
+  {"en": "sum up", "ar": "يلخّص", "emoji": "📌"}
+ ],
+ "phrases": [
+  {"en": "Today I am going to talk about leadership.", "ar": "سأتحدث اليوم عن القيادة."},
+  {"en": "Let's move on to the next point.", "ar": "لننتقل إلى النقطة التالية."},
+  {"en": "As you can see from this chart.", "ar": "كما ترون في هذا الرسم البياني."},
+  {"en": "To sum up, practice makes perfect.", "ar": "خلاصة القول، التدريب يصنع الإتقان."},
+  {"en": "Thank you for listening. Any questions?", "ar": "شكراً لاستماعكم. هل من أسئلة؟"}
+ ],
+ "quiz": [
+  {"q": "أي عبارة تُستخدم للانتقال إلى نقطة جديدة؟", "o": ["To sum up, ...", "Thank you for coming.", "Let's move on to...", "Are there any questions?"], "a": 2, "why": "Let's move on to تعني لننتقل إلى."},
+  {"q": "اختر الصحيح: She is going to ___ a presentation tomorrow.", "o": ["give", "say", "tell", "speak"], "a": 0, "why": "التلازم الصحيح: give a presentation."},
+  {"q": "ما معنى stage fright؟", "o": ["إضاءة المسرح", "رهبة الوقوف أمام الجمهور", "معركة على المسرح", "تصفيق الجمهور"], "a": 1, "why": "fright = خوف، أي الخوف من التحدث أمام الناس."},
+  {"q": "أي عبارة تناسب ختام العرض؟", "o": ["First of all, ...", "To begin with, ...", "Let me start by...", "In conclusion, ..."], "a": 3, "why": "In conclusion تُستخدم للخاتمة."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I will discuss about the results.", "I will talk about the results.", "I will talk the results.", "I will say about the results."], "a": 1, "why": "talk about صحيحة، أما discuss فلا يتبعها about."},
+  {"q": "ما معنى rehearse؟", "o": ["يتدرّب على العرض مسبقاً", "يعيد السماع", "يرتجل الكلام", "يقرأ من الورقة"], "a": 0, "why": "rehearse = يجري تمريناً قبل الأداء الفعلي."}
+ ]
+},
+{
+ "n": "192",
+ "type": "skills",
+ "title_ar": "امتحانا IELTS و TOEFL",
+ "title_en": "IELTS and TOEFL",
+ "summary": "تتعرف على أشهر امتحانين دوليين في اللغة الإنجليزية: أقسامهما وطريقة احتساب الدرجات والفرق بينهما، مع مفردات واستراتيجيات عامة للاستعداد. معلومات مهمة لمن يخطط للدراسة أو الهجرة.",
+ "notes": [
+  {"h": "ما هما؟", "t": "IELTS = International English Language Testing System، وله نوعان: Academic للدراسة الجامعية و General Training للهجرة والعمل.\nTOEFL = Test of English as a Foreign Language، وأشهر صيغه TOEFL iBT الذي يُؤدّى على الحاسوب، وهو أكاديمي الطابع.\nكلاهما يقيس أربع مهارات: Listening, Reading, Writing, Speaking."},
+  {"h": "الدرجات", "t": "IELTS: الدرجة من 0 إلى 9 وتسمى band score، مع أنصاف درجات مثل 6.5. الدرجة الكلية هي متوسط المهارات الأربع.\nTOEFL iBT: الصيغة المعروفة تعطي كل قسم من 0 إلى 30 والمجموع من 0 إلى 120، وقد أُعلن عن مقياس جديد من 1 إلى 6 يُعمل به منذ 2026 إلى جانب الدرجة التقليدية.\nكل جامعة تحدد الحد الأدنى المطلوب، ونتيجة الامتحانين صالحة عادة لمدة سنتين.\nراجع الموقع الرسمي دائماً لأن التفاصيل قد تتغير."},
+  {"h": "أبرز الفروق", "t": "التحدّث في IELTS مقابلة مع ممتحِن (وجهاً لوجه أو عبر الفيديو)، أما في TOEFL iBT فتتحدث إلى الميكروفون ويُسجَّل صوتك.\nIELTS فيه لهجات متنوعة (بريطانية، أسترالية...)، و TOEFL يغلب عليه اللهجة الأمريكية.\nفي كتابة IELTS Academic المهمة الأولى وصف رسم بياني، والثانية مقال رأي."},
+  {"h": "استراتيجيات عامة", "t": "skim = يقرأ سريعاً للفكرة العامة.\nscan = يبحث عن معلومة محددة.\nparaphrase = يعيد الصياغة بكلمات أخرى.\nmanage your time = وزّع وقتك.\nاقرأ الأسئلة قبل الاستماع.\nأجب عن كل الأسئلة فلا توجد درجات سالبة.\nتدرّب على اختبارات كاملة بتوقيت حقيقي (timed practice tests)."}
+ ],
+ "alerts": [
+  {"k": "tip", "t": "لا يوجد نجاح ورسوب في الامتحانين، بل درجة تعكس مستواك. اعرف الدرجة التي تطلبها جهتك أولاً ثم ضع خطة للوصول إليها."},
+  {"k": "mistake", "t": "في الكتابة لا تنسخ نص السؤال حرفياً، بل أعد صياغته (paraphrase). والتزم بعدد الكلمات المطلوب: في IELTS لا يقل عن 150 كلمة للمهمة الأولى و 250 للثانية."},
+  {"k": "pron", "t": "IELTS تُنطق كلمة واحدة: آيِلتس. و TOEFL تُنطق: توفِل. و paraphrase تُنطق: پارَفريز."}
+ ],
+ "vocab": [
+  {"en": "band score", "ar": "درجة IELTS", "emoji": "🎚️"},
+  {"en": "skim", "ar": "يقرأ سريعاً للفكرة العامة", "emoji": "👀"},
+  {"en": "scan", "ar": "يبحث عن معلومة محددة", "emoji": "🔍"},
+  {"en": "paraphrase", "ar": "يعيد الصياغة", "emoji": "🔄"},
+  {"en": "essay", "ar": "مقال", "emoji": "📝"},
+  {"en": "examiner", "ar": "الممتحِن", "emoji": "🧑‍🏫"},
+  {"en": "candidate", "ar": "الممتحَن / المرشّح", "emoji": "🙋"},
+  {"en": "practice test", "ar": "اختبار تدريبي", "emoji": "📋"},
+  {"en": "academic", "ar": "أكاديمي", "emoji": "🎓"},
+  {"en": "requirement", "ar": "شرط / متطلّب", "emoji": "📌"},
+  {"en": "fluency", "ar": "طلاقة", "emoji": "🗣️"}
+ ],
+ "phrases": [
+  {"en": "I am preparing for the IELTS exam.", "ar": "أستعدّ لامتحان الآيلتس."},
+  {"en": "I need a band score of seven.", "ar": "أحتاج إلى درجة سبعة."},
+  {"en": "The test has four sections.", "ar": "يتكوّن الاختبار من أربعة أقسام."},
+  {"en": "Read the questions before you listen.", "ar": "اقرأ الأسئلة قبل أن تستمع."},
+  {"en": "My results are valid for two years.", "ar": "نتيجتي صالحة لمدة سنتين."}
+ ],
+ "quiz": [
+  {"q": "ما أعلى درجة في امتحان IELTS؟", "o": ["9", "10", "100", "120"], "a": 0, "why": "درجات IELTS من 0 إلى 9."},
+  {"q": "كم مهارة يقيس كل من الامتحانين؟", "o": ["اثنتين", "ثلاثاً", "أربعاً", "خمساً"], "a": 2, "why": "الاستماع والقراءة والكتابة والتحدّث."},
+  {"q": "ما معنى scan في القراءة؟", "o": ["يقرأ كل كلمة ببطء", "يبحث بسرعة عن معلومة محددة", "يترجم النص", "يلخّص النص"], "a": 1, "why": "scan = مسح النص بحثاً عن اسم أو رقم أو كلمة معينة."},
+  {"q": "أي نوع من IELTS يناسب القبول الجامعي؟", "o": ["General Training", "Life Skills", "Business", "Academic"], "a": 3, "why": "IELTS Academic مخصص للدراسة الجامعية."},
+  {"q": "ما معنى paraphrase؟", "o": ["ينسخ حرفياً", "يحذف الجملة", "يعيد الصياغة بكلمات أخرى", "يحفظ عن ظهر قلب"], "a": 2, "why": "paraphrase = التعبير عن المعنى نفسه بألفاظ مختلفة."},
+  {"q": "كيف يُجرى قسم التحدّث في IELTS؟", "o": ["كتابةً على الورق", "مقابلة مع ممتحِن", "اختيار من متعدد", "لا يوجد قسم تحدّث"], "a": 1, "why": "التحدّث في IELTS مقابلة مباشرة مع ممتحِن."}
+ ]
+}
+]

@@ -1,0 +1,413 @@
+[
+{
+ "n": "123",
+ "type": "vocab",
+ "title_ar": "الصداقة",
+ "title_en": "Friendship",
+ "summary": "تتعلم كيف تتحدث عن أصدقائك: كيف تعرفتم، وما صفات الصديق الجيد، وما تفعلونه معاً. ستتعلم أفعالاً مركبة مهمة مثل get on with و keep in touch.",
+ "notes": [
+  {"h": "أنواع الأصدقاء", "t": "best friend = أعز صديق، close friend = صديق مقرب، old friend = صديق قديم، classmate = زميل دراسة، colleague = زميل عمل، acquaintance = أحد المعارف.\nمثال: Omar is my closest friend."},
+  {"h": "صفات الصديق الجيد", "t": "loyal = وفيّ، honest = صادق، reliable = يُعتمد عليه، supportive = داعم، kind = لطيف، funny = مرِح، trustworthy = جدير بالثقة.\nمثال: A good friend is someone who listens to you.\nمثال: I can always rely on her."},
+  {"h": "أفعال وتعبيرات الصداقة", "t": "make friends (with) = يكوّن صداقات، get on (well) with = ينسجم مع، keep in touch = يبقى على تواصل، hang out = يقضي الوقت مع، fall out (with) = يتخاصم مع، make up = يتصالح، have a lot in common = بينهما أشياء مشتركة كثيرة."},
+  {"h": "الحديث عن مدة الصداقة", "t": "How long have you known him?\nWe've known each other for ten years / since school.\nWe met at university.\nلاحظ: know فعل حالة لا يأتي في المستمر، فلا نقول have been knowing."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "خطأ: I know him since 2015. الصحيح: I have known him since 2015."},
+  {"k": "grammar", "t": "نقول make friends بالجمع: I made friends with Ali، ولا نقول I made friend with Ali."},
+  {"k": "pron", "t": "friend: حرف i صامت وتُنطق (فرِند). و honest: حرف h صامت وتُنطق (أُونِست)."}
+ ],
+ "vocab": [
+  {"en": "friendship", "ar": "صداقة", "emoji": "🤝"},
+  {"en": "best friend", "ar": "أعز صديق", "emoji": "👬"},
+  {"en": "loyal", "ar": "وفيّ", "emoji": "🐕"},
+  {"en": "honest", "ar": "صادق", "emoji": "😇"},
+  {"en": "trust", "ar": "ثقة / يثق", "emoji": "🫱"},
+  {"en": "reliable", "ar": "يُعتمد عليه", "emoji": "⚓"},
+  {"en": "hang out", "ar": "يقضي الوقت مع", "emoji": "🛋️"},
+  {"en": "keep in touch", "ar": "يبقى على تواصل", "emoji": "📞"},
+  {"en": "share", "ar": "يشارك", "emoji": "🍕"},
+  {"en": "secret", "ar": "سر", "emoji": "🤫"}
+ ],
+ "phrases": [
+  {"en": "We have known each other for years.", "ar": "نعرف بعضنا منذ سنوات."},
+  {"en": "I get on well with my classmates.", "ar": "أنسجم جيداً مع زملائي في الصف."},
+  {"en": "A good friend is always honest.", "ar": "الصديق الجيد صادق دائماً."},
+  {"en": "We have a lot in common.", "ar": "بيننا أشياء مشتركة كثيرة."},
+  {"en": "Let's keep in touch.", "ar": "لنبقَ على تواصل."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: I ___ Sara since primary school.", "o": ["know", "have known", "am knowing", "have been knowing"], "a": 1, "why": "مع since نستخدم المضارع التام، و know لا يأتي في المستمر."},
+  {"q": "ما معنى get on well with؟", "o": ["ينسجم مع", "يتخاصم مع", "يركب مع", "يبتعد عن"], "a": 0, "why": "get on well with تعني أن العلاقة جيدة."},
+  {"q": "اختر الصحيح: It's easy to ___ friends at university.", "o": ["do", "get", "take", "make"], "a": 3, "why": "التلازم اللفظي: make friends."},
+  {"q": "صديق reliable هو صديق:", "o": ["مرِح", "خجول", "يُعتمد عليه", "غني"], "a": 2, "why": "reliable من الفعل rely on أي يعتمد على."},
+  {"q": "ما معنى fall out with someone؟", "o": ["يسقط معه", "يتخاصم معه", "يتصالح معه", "يخرج معه"], "a": 1, "why": "fall out with تعني يتشاجر ويقطع العلاقة مؤقتاً."},
+  {"q": "اختر الصحيح: We have a lot ___ common.", "o": ["on", "at", "in", "of"], "a": 2, "why": "التعبير الثابت: have a lot in common."}
+ ]
+},
+{
+ "n": "124",
+ "type": "conversation",
+ "title_ar": "تقاليد العائلة",
+ "title_en": "Family traditions",
+ "summary": "تتعلم كيف تصف عادات عائلتك وتقاليدها في الأعياد والمناسبات، في الحاضر والماضي. ستستخدم المضارع البسيط للعادات الحالية و used to للعادات القديمة.",
+ "notes": [
+  {"h": "وصف التقاليد الحالية", "t": "نستخدم المضارع البسيط مع ظروف التكرار.\nمثال: We always have lunch together on Fridays.\nمثال: Every Eid, we visit our grandparents.\nIt's a tradition in my family to + verb: It's a tradition in my family to cook together."},
+  {"h": "العادات في الماضي: used to", "t": "used to + verb لعادة كانت في الماضي وانتهت.\nمثال: We used to spend every summer in the village.\nالنفي: didn't use to. السؤال: Did you use to...?\nلاحظ: بعد did تُكتب use بدون d."},
+  {"h": "مفردات المناسبات", "t": "celebrate = يحتفل، celebration = احتفال، gather / get together = يجتمع، relatives = أقارب، feast = وليمة، occasion = مناسبة، custom = عادة، generation = جيل، pass down = يورّث.\nمثال: This recipe was passed down from my grandmother."},
+  {"h": "حروف الجر مع المناسبات", "t": "at + العيد كفترة: at Eid, at Christmas.\non + يوم محدد: on Eid day, on my birthday, on Fridays.\nin + شهر: in Ramadan.\nduring = أثناء: During Ramadan, we break our fast together."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "خطأ: We are used to visit them (للماضي). الصحيح: We used to visit them. أما be used to + verb-ing فمعناها معتاد على."},
+  {"k": "grammar", "t": "في النفي والسؤال: didn't use to وليس didn't used to."},
+  {"k": "pron", "t": "used to تُنطق (يُوسْتُ) بصوت s وليس z، ولا يُسمع حرف d."}
+ ],
+ "vocab": [
+  {"en": "tradition", "ar": "تقليد", "emoji": "🏮"},
+  {"en": "celebrate", "ar": "يحتفل", "emoji": "🎉"},
+  {"en": "relatives", "ar": "أقارب", "emoji": "👨‍👩‍👧‍👦"},
+  {"en": "gather", "ar": "يجتمع", "emoji": "🫂"},
+  {"en": "feast", "ar": "وليمة", "emoji": "🍗"},
+  {"en": "gift", "ar": "هدية", "emoji": "🎁"},
+  {"en": "generation", "ar": "جيل", "emoji": "👴"},
+  {"en": "custom", "ar": "عادة / عُرف", "emoji": "📜"},
+  {"en": "occasion", "ar": "مناسبة", "emoji": "🎊"},
+  {"en": "recipe", "ar": "وصفة طعام", "emoji": "📖"}
+ ],
+ "phrases": [
+  {"en": "We always have lunch together on Fridays.", "ar": "نتناول الغداء معاً دائماً أيام الجمعة."},
+  {"en": "We used to visit our grandparents every summer.", "ar": "كنا نزور أجدادنا كل صيف."},
+  {"en": "The whole family gets together at Eid.", "ar": "تجتمع العائلة كلها في العيد."},
+  {"en": "It's a tradition in my family.", "ar": "إنه تقليد في عائلتي."},
+  {"en": "How do you celebrate special occasions?", "ar": "كيف تحتفلون بالمناسبات الخاصة؟"}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: When I was a child, we ___ go to the village every summer.", "o": ["use to", "used to", "are used to", "using to"], "a": 1, "why": "used to + الفعل المجرد لعادة ماضية."},
+  {"q": "اختر الصحيح: Did you ___ get gifts at Eid?", "o": ["used to", "using to", "uses to", "use to"], "a": 3, "why": "بعد did نكتب use to بدون d."},
+  {"q": "ما معنى relatives؟", "o": ["أقارب", "جيران", "أصدقاء", "ضيوف"], "a": 0, "why": "relatives هم أفراد العائلة الممتدة."},
+  {"q": "اختر الصحيح: We give presents ___ my birthday.", "o": ["at", "in", "on", "by"], "a": 2, "why": "مع اليوم المحدد نستخدم on."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["It's a tradition to cooking together.", "It's a tradition cook together.", "It's a tradition to cook together.", "It's tradition for cook together."], "a": 2, "why": "It's a tradition to + الفعل المجرد."},
+  {"q": "ما معنى pass down؟", "o": ["يمرّ بجانب", "يورّث للأجيال التالية", "ينزل", "ينسى"], "a": 1, "why": "pass down تعني نقل الشيء من جيل إلى جيل."}
+ ]
+},
+{
+ "n": "125",
+ "type": "conversation",
+ "title_ar": "طلب المساعدة",
+ "title_en": "Asking for help",
+ "summary": "تتعلم كيف تطلب المساعدة بأدب بدرجات مختلفة من الرسمية، وكيف توافق على مساعدة الآخرين أو تعتذر بلطف. الطلب المهذب ضروري جداً في الإنجليزية حتى لا تبدو فظاً.",
+ "notes": [
+  {"h": "طلبات مباشرة ومهذبة", "t": "Can you + verb...? (غير رسمي): Can you help me?\nCould you + verb..., please? (أكثر تهذيباً): Could you open the door, please?\nWould you + verb...? : Would you help me with these bags?\nCould you give me a hand? = هل تساعدني؟ (غير رسمي)"},
+  {"h": "طلبات أكثر رسمية", "t": "Would you mind + verb-ing...? : Would you mind helping me?\nDo you think you could + verb...? : Do you think you could explain this?\nI was wondering if you could + verb... : I was wondering if you could lend me your notes.\nCould you do me a favour? = هل تسدي لي معروفاً؟"},
+  {"h": "الموافقة", "t": "Sure. / Of course. / Certainly. / No problem. / I'd be happy to.\nانتبه: الرد على Would you mind...? بالموافقة يكون: Not at all. / No, of course not. (أي لا أمانع)."},
+  {"h": "الاعتذار والشكر", "t": "للاعتذار: I'm sorry, but I can't right now. / I'm afraid I'm busy. / I wish I could, but...\nللشكر: Thanks a lot. / That's very kind of you. / I really appreciate it.\nللبدء: Excuse me, ... / Sorry to bother you, but..."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "بعد Would you mind يأتي الفعل مع ing: Would you mind opening the window? وليس Would you mind to open."},
+  {"k": "mistake", "t": "الرد بـ Yes على Would you mind...? يعني أنك تمانع! للموافقة قل: Not at all."},
+  {"k": "tip", "t": "صيغة الأمر مثل Help me أو Give me that تبدو فظة في الإنجليزية. أضف دائماً Could you و please."}
+ ],
+ "vocab": [
+  {"en": "help", "ar": "مساعدة / يساعد", "emoji": "🆘"},
+  {"en": "favour", "ar": "معروف / خدمة", "emoji": "🙏"},
+  {"en": "lend", "ar": "يُعير", "emoji": "🤲"},
+  {"en": "borrow", "ar": "يستعير", "emoji": "📚"},
+  {"en": "carry", "ar": "يحمل", "emoji": "🧳"},
+  {"en": "explain", "ar": "يشرح", "emoji": "🧑‍🏫"},
+  {"en": "appreciate", "ar": "يقدّر", "emoji": "💐"},
+  {"en": "mind", "ar": "يمانع", "emoji": "🤔"},
+  {"en": "certainly", "ar": "بالتأكيد", "emoji": "👍"},
+  {"en": "bother", "ar": "يزعج", "emoji": "😅"}
+ ],
+ "phrases": [
+  {"en": "Could you help me, please?", "ar": "هل يمكنك مساعدتي من فضلك؟"},
+  {"en": "Would you mind opening the window?", "ar": "هل تمانع في فتح النافذة؟"},
+  {"en": "Could you do me a favour?", "ar": "هل تسدي لي معروفاً؟"},
+  {"en": "Can you give me a hand?", "ar": "هل يمكنك أن تساعدني؟"},
+  {"en": "I really appreciate your help.", "ar": "أقدّر مساعدتك حقاً."},
+  {"en": "I'm sorry, but I'm busy right now.", "ar": "آسف، لكنني مشغول الآن."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: Would you mind ___ the door?", "o": ["close", "to close", "closing", "closed"], "a": 2, "why": "بعد mind يأتي الفعل مع ing."},
+  {"q": "A: Would you mind helping me? B (يوافق): ___", "o": ["Yes, I would.", "Not at all.", "Yes, I mind.", "No, I can't."], "a": 1, "why": "Not at all تعني لا أمانع، أي موافق."},
+  {"q": "أي طلب هو الأكثر تهذيباً؟", "o": ["Help me.", "Can you help me?", "You must help me.", "I was wondering if you could help me."], "a": 3, "why": "I was wondering if you could... صيغة رسمية ومهذبة جداً."},
+  {"q": "ما معنى give me a hand؟", "o": ["ساعدني", "صافحني", "أعطني يدك حرفياً", "صفّق لي"], "a": 0, "why": "تعبير اصطلاحي بمعنى ساعدني."},
+  {"q": "اختر الصحيح: Could you ___ me your pen? I forgot mine.", "o": ["borrow", "lend", "take", "bring"], "a": 1, "why": "lend تعني يُعير (يعطي)، أما borrow فتعني يستعير (يأخذ)."},
+  {"q": "أي عبارة تُستخدم للشكر؟", "o": ["I'm afraid I can't.", "Sorry to bother you.", "I really appreciate it.", "Excuse me."], "a": 2, "why": "I appreciate it تعني أقدّر ذلك."}
+ ]
+},
+{
+ "n": "126",
+ "type": "conversation",
+ "title_ar": "طلب الإذن",
+ "title_en": "Asking for permission",
+ "summary": "تتعلم كيف تستأذن لفعل شيء ما باستخدام can و could و may وتراكيب أخرى مهذبة، وكيف تمنح الإذن أو ترفضه بلطف. ستتعلم أيضاً الفرق بين طلب الإذن وطلب المساعدة.",
+ "notes": [
+  {"h": "Can / Could / May I...?", "t": "Can I + verb...? (غير رسمي): Can I use your phone?\nCould I + verb...? (مهذب): Could I leave early today?\nMay I + verb...? (رسمي): May I come in?\nالفاعل هنا I أو we لأنك أنت من سيفعل الشيء."},
+  {"h": "تراكيب أخرى مهذبة", "t": "Is it OK if I + present...? : Is it OK if I sit here?\nDo you mind if I + present...? : Do you mind if I open the window?\nWould you mind if I + past...? : Would you mind if I borrowed your car?\nWould it be possible to + verb...? (رسمي جداً)"},
+  {"h": "منح الإذن", "t": "Yes, of course. / Sure, go ahead. / Certainly. / Feel free. / Yes, you can.\nمع Do you mind if...? الموافقة تكون: No, not at all. / No, go ahead."},
+  {"h": "رفض الإذن والحديث عن المسموح", "t": "للرفض بلطف: I'm sorry, but... / I'm afraid not. / I'd rather you didn't.\nللحديث عن القواعد: be allowed to + verb.\nمثال: You are allowed to park here. / We aren't allowed to use phones in class.\nYou can't smoke here."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "Could I...? لطلب الإذن (أنا سأفعل)، و Could you...? لطلب المساعدة (أنت ستفعل). لا تخلط بينهما."},
+  {"k": "mistake", "t": "في الجواب لا نستخدم could: A: Could I use your pen? B: Yes, you can. وليس Yes, you could."},
+  {"k": "grammar", "t": "بعد Do you mind if I يأتي فعل مصرّف وليس ing: Do you mind if I sit here? أما Do you mind sitting فتطلب من الآخر أن يجلس."}
+ ],
+ "vocab": [
+  {"en": "permission", "ar": "إذن", "emoji": "✅"},
+  {"en": "allow", "ar": "يسمح", "emoji": "👌"},
+  {"en": "may", "ar": "هل لي أن / ربما", "emoji": "🙋"},
+  {"en": "go ahead", "ar": "تفضل", "emoji": "👉"},
+  {"en": "feel free", "ar": "خذ راحتك", "emoji": "😊"},
+  {"en": "borrow", "ar": "يستعير", "emoji": "📚"},
+  {"en": "leave early", "ar": "يغادر مبكراً", "emoji": "🚪"},
+  {"en": "forbidden", "ar": "ممنوع", "emoji": "🚫"},
+  {"en": "rule", "ar": "قاعدة", "emoji": "📏"},
+  {"en": "refuse", "ar": "يرفض", "emoji": "🙅"}
+ ],
+ "phrases": [
+  {"en": "May I come in?", "ar": "هل لي أن أدخل؟"},
+  {"en": "Could I use your phone, please?", "ar": "هل يمكنني استخدام هاتفك من فضلك؟"},
+  {"en": "Do you mind if I sit here?", "ar": "هل تمانع إن جلست هنا؟"},
+  {"en": "Sure, go ahead.", "ar": "بالتأكيد، تفضل."},
+  {"en": "Is it OK if I leave early?", "ar": "هل من مانع إن غادرت مبكراً؟"},
+  {"en": "We aren't allowed to park here.", "ar": "غير مسموح لنا بالوقوف هنا."}
+ ],
+ "quiz": [
+  {"q": "أي صيغة هي الأكثر رسمية لطلب الإذن؟", "o": ["Can I go?", "I go now, OK?", "I want to go.", "May I go?"], "a": 3, "why": "May I...? هي الصيغة الرسمية."},
+  {"q": "اختر الصحيح: Do you mind if I ___ the window?", "o": ["open", "opening", "to open", "will open"], "a": 0, "why": "بعد Do you mind if I يأتي المضارع البسيط."},
+  {"q": "A: Could I borrow your pen? B: ___", "o": ["Yes, you could.", "Yes, I can.", "Yes, of course.", "Yes, I could."], "a": 2, "why": "نمنح الإذن بـ Yes, of course أو Yes, you can، لا بـ could."},
+  {"q": "اختر الصحيح: Students are not ___ to use phones in the exam.", "o": ["allow", "allowed", "allowing", "allows"], "a": 1, "why": "التركيب: be allowed to + verb."},
+  {"q": "أي جملة تطلب الإذن (وليس المساعدة)؟", "o": ["Could you open the door?", "Would you help me?", "Could I open the door?", "Can you carry this?"], "a": 2, "why": "الفاعل I يعني أن المتكلم هو من سيفعل، فهو يستأذن."},
+  {"q": "A: Do you mind if I smoke? B (يرفض بلطف): ___", "o": ["No, go ahead.", "I'd rather you didn't.", "Not at all.", "Feel free."], "a": 1, "why": "I'd rather you didn't رفض مهذب."}
+ ]
+},
+{
+ "n": "127",
+ "type": "conversation",
+ "title_ar": "التعبير عن الرأي",
+ "title_en": "Expressing opinions",
+ "summary": "تتعلم كيف تعبّر عن رأيك بوضوح، وكيف تسأل الآخرين عن آرائهم، وتوافقهم أو تخالفهم بأدب. هذه المهارة أساسية في النقاشات والاجتماعات واختبارات المحادثة.",
+ "notes": [
+  {"h": "إبداء الرأي", "t": "I think (that)... / I believe... / In my opinion, ... / In my view, ... / As far as I'm concerned, ... / Personally, I think... / It seems to me that...\nمثال: In my opinion, online learning is very useful."},
+  {"h": "السؤال عن الرأي", "t": "What do you think about / of...?\nWhat's your opinion on...?\nHow do you feel about...?\nDo you agree?\nمثال: What do you think about working from home?"},
+  {"h": "الموافقة", "t": "I agree (with you). / I totally agree. / You're right. / Exactly! / That's true. / I think so too. / Absolutely.\nموافقة جزئية: I agree up to a point, but... / That's true, but..."},
+  {"h": "الاختلاف بأدب", "t": "I'm not sure about that. / I don't really agree. / I see your point, but... / I'm afraid I disagree. / I don't think so.\nتجنّب: You are wrong (فظة)."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "خطأ شائع جداً: I am agree. الصحيح: I agree. الفعل agree لا يحتاج am. والنفي: I don't agree."},
+  {"k": "mistake", "t": "لا تجمع بين التعبيرين: In my opinion, I think... اختر واحداً فقط. ولا تقل According to me."},
+  {"k": "grammar", "t": "للنفي نقول: I don't think it's a good idea، وليس I think it isn't a good idea."}
+ ],
+ "vocab": [
+  {"en": "opinion", "ar": "رأي", "emoji": "💬"},
+  {"en": "agree", "ar": "يوافق", "emoji": "👍"},
+  {"en": "disagree", "ar": "يخالف", "emoji": "👎"},
+  {"en": "believe", "ar": "يعتقد", "emoji": "🤔"},
+  {"en": "point of view", "ar": "وجهة نظر", "emoji": "👁️"},
+  {"en": "exactly", "ar": "بالضبط", "emoji": "🎯"},
+  {"en": "absolutely", "ar": "قطعاً / تماماً", "emoji": "💯"},
+  {"en": "personally", "ar": "شخصياً", "emoji": "🙋"},
+  {"en": "argument", "ar": "حُجّة / جدال", "emoji": "🗣️"},
+  {"en": "reason", "ar": "سبب", "emoji": "❓"}
+ ],
+ "phrases": [
+  {"en": "In my opinion, it's a great idea.", "ar": "في رأيي، إنها فكرة رائعة."},
+  {"en": "What do you think about it?", "ar": "ما رأيك في ذلك؟"},
+  {"en": "I totally agree with you.", "ar": "أوافقك تماماً."},
+  {"en": "I see your point, but I disagree.", "ar": "أفهم وجهة نظرك، لكنني أخالفك."},
+  {"en": "I don't think that's true.", "ar": "لا أعتقد أن ذلك صحيح."}
+ ],
+ "quiz": [
+  {"q": "اختر الجملة الصحيحة:", "o": ["I am agree with you.", "I agree with you.", "I agreeing with you.", "I am agreed with you."], "a": 1, "why": "agree فعل عادي لا يسبقه am."},
+  {"q": "اختر الصحيح: ___ my opinion, the film was boring.", "o": ["On", "At", "For", "In"], "a": 3, "why": "التعبير الثابت: In my opinion."},
+  {"q": "أي عبارة تعبّر عن اختلاف مهذب؟", "o": ["I see your point, but...", "You are wrong.", "Exactly!", "That's nonsense."], "a": 0, "why": "تعترف بوجهة نظر الآخر قبل الاختلاف."},
+  {"q": "اختر الصحيح: What do you think ___ the new manager?", "o": ["in", "on", "of", "at"], "a": 2, "why": "نقول think of أو think about."},
+  {"q": "أي عبارة تعني موافقة تامة؟", "o": ["I'm not sure.", "I don't think so.", "I agree up to a point.", "Absolutely."], "a": 3, "why": "Absolutely تعني تماماً بلا تحفظ."},
+  {"q": "اختر الصيغة الأفضل:", "o": ["I think it isn't not fair.", "I don't think it's fair.", "I am not think it's fair.", "I not think it's fair."], "a": 1, "why": "ننفي الفعل think: I don't think..."}
+ ]
+},
+{
+ "n": "128",
+ "type": "grammar",
+ "title_ar": "تقديم الاقتراحات",
+ "title_en": "Making suggestions",
+ "summary": "تتعلم التراكيب المختلفة لتقديم الاقتراحات مثل Let's و How about و Why don't we، وما يأتي بعد كل منها من صيغة الفعل. كما تتعلم كيف تقبل الاقتراح أو ترفضه بلطف.",
+ "notes": [
+  {"h": "تراكيب يتبعها الفعل المجرد", "t": "Let's + verb: Let's go to the cinema.\nShall we + verb...? : Shall we order pizza?\nWhy don't we + verb...? : Why don't we take a taxi?\nWe could + verb: We could watch a film.\nنفي Let's: Let's not + verb: Let's not argue."},
+  {"h": "تراكيب يتبعها verb-ing", "t": "How about + verb-ing...? : How about going for a walk?\nWhat about + verb-ing...? : What about eating out tonight?\nيمكن أن يتبعهما اسم أيضاً: How about a coffee?"},
+  {"h": "الفعل suggest", "t": "suggest + verb-ing: I suggest taking the train.\nsuggest (that) + subject + verb: I suggest (that) we leave early.\nلا نقول: I suggest to take / I suggest you to take."},
+  {"h": "قبول الاقتراح ورفضه", "t": "للقبول: Good idea! / That sounds great. / Why not? / Yes, let's.\nللرفض بلطف: I'd rather not. / I'm not sure about that. / I don't really feel like it. / Maybe another time.\nاقتراح بديل: I'd rather stay home. / How about ... instead?"}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "خطأ: Let's to go / Let's going. الصحيح: Let's go. بعد Let's الفعل المجرد دون to."},
+  {"k": "mistake", "t": "خطأ: How about go? الصحيح: How about going? بعد about نضيف ing."},
+  {"k": "grammar", "t": "Shall تُستخدم في الاقتراح مع I و we فقط: Shall we dance? ولا نقول Shall you...?"}
+ ],
+ "vocab": [
+  {"en": "suggest", "ar": "يقترح", "emoji": "💡"},
+  {"en": "suggestion", "ar": "اقتراح", "emoji": "📝"},
+  {"en": "idea", "ar": "فكرة", "emoji": "🧠"},
+  {"en": "instead", "ar": "بدلاً من ذلك", "emoji": "🔄"},
+  {"en": "rather", "ar": "أفضّل", "emoji": "⚖️"},
+  {"en": "eat out", "ar": "يأكل خارج البيت", "emoji": "🍽️"},
+  {"en": "walk", "ar": "تمشية / يمشي", "emoji": "🚶"},
+  {"en": "sounds great", "ar": "يبدو رائعاً", "emoji": "🤩"},
+  {"en": "recommend", "ar": "ينصح بـ", "emoji": "⭐"}
+ ],
+ "phrases": [
+  {"en": "Let's go to the cinema tonight.", "ar": "لنذهب إلى السينما الليلة."},
+  {"en": "How about going for a walk?", "ar": "ما رأيك أن نذهب للتمشي؟"},
+  {"en": "Why don't we take a taxi?", "ar": "لماذا لا نأخذ سيارة أجرة؟"},
+  {"en": "Shall we order some pizza?", "ar": "هل نطلب بعض البيتزا؟"},
+  {"en": "That sounds like a good idea.", "ar": "تبدو فكرة جيدة."},
+  {"en": "I'd rather stay at home.", "ar": "أفضّل البقاء في البيت."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: How about ___ a pizza?", "o": ["order", "to order", "ordering", "we ordering"], "a": 2, "why": "بعد How about يأتي الفعل مع ing."},
+  {"q": "اختر الصحيح: Let's ___ a break.", "o": ["take", "to take", "taking", "takes"], "a": 0, "why": "بعد Let's الفعل المجرد."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I suggest to go by bus.", "I suggest you to go by bus.", "I suggest go by bus.", "I suggest going by bus."], "a": 3, "why": "suggest + verb-ing."},
+  {"q": "اختر الصحيح: Why ___ we invite Ahmed?", "o": ["not", "don't", "aren't", "no"], "a": 1, "why": "التركيب: Why don't we + verb?"},
+  {"q": "أي رد يرفض الاقتراح بلطف؟", "o": ["Good idea!", "Yes, let's.", "I'd rather not.", "Why not?"], "a": 2, "why": "I'd rather not تعني أفضّل ألا نفعل."},
+  {"q": "نفي Let's go هو:", "o": ["Let's don't go.", "Let's not go.", "Don't let's going.", "Let's no go."], "a": 1, "why": "النفي: Let's not + verb."}
+ ]
+},
+{
+ "n": "129",
+ "type": "grammar",
+ "title_ar": "تقديم الوعود",
+ "title_en": "Making promises",
+ "summary": "تتعلم كيف تَعِد بشيء باستخدام will و promise، وكيف تتحدث عن الوفاء بالوعد أو الإخلاف به. ستتعلم أيضاً قاعدة مهمة: لا نستخدم will بعد when و as soon as.",
+ "notes": [
+  {"h": "will و won't للوعد", "t": "نستخدم will للوعد وليس be going to.\nمثال: I'll call you tonight = سأتصل بك الليلة.\nمثال: I won't tell anyone = لن أخبر أحداً.\nمثال: I'll always be there for you."},
+  {"h": "الفعل promise", "t": "I promise (that) + subject + will: I promise I'll be on time.\nI promise to + verb: I promise to help you.\nI promise not to + verb: I promise not to be late.\npromise + شخص: He promised me that he would come."},
+  {"h": "تعبيرات مع الوعد", "t": "make a promise = يقطع وعداً\nkeep a promise / keep your word = يفي بوعده\nbreak a promise = يُخلف وعده\nI give you my word = أعطيك كلمتي\nYou can count on me = يمكنك الاعتماد عليّ\nTrust me = ثق بي"},
+  {"h": "الوعد مع أدوات الزمن", "t": "بعد when, as soon as, after, before, until نستخدم المضارع البسيط وليس will.\nمثال: I'll text you as soon as I arrive.\nمثال: I'll pay you back when I get my salary.\npay back = يردّ المال."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "خطأ: I'll call you when I will arrive. الصحيح: I'll call you when I arrive."},
+  {"k": "mistake", "t": "نقول make a promise و keep a promise، ولا نقول do a promise أو save a promise."},
+  {"k": "pron", "t": "I'll تُنطق (آيل) كمقطع واحد. و promise تُنطق (برُومِس) والحرف e الأخير صامت، وليست (برومايز)."}
+ ],
+ "vocab": [
+  {"en": "promise", "ar": "وعد / يَعِد", "emoji": "🤞"},
+  {"en": "keep a promise", "ar": "يفي بوعد", "emoji": "🤝"},
+  {"en": "break a promise", "ar": "يُخلف وعداً", "emoji": "💔"},
+  {"en": "swear", "ar": "يُقسم", "emoji": "✋"},
+  {"en": "trust", "ar": "يثق", "emoji": "🫱"},
+  {"en": "word", "ar": "كلمة / عهد", "emoji": "🗣️"},
+  {"en": "on time", "ar": "في الموعد", "emoji": "⏰"},
+  {"en": "pay back", "ar": "يردّ المال", "emoji": "💵"},
+  {"en": "count on", "ar": "يعتمد على", "emoji": "🧗"},
+  {"en": "forget", "ar": "ينسى", "emoji": "🙈"}
+ ],
+ "phrases": [
+  {"en": "I promise I'll be on time.", "ar": "أعدك أن أكون في الموعد."},
+  {"en": "I won't tell anyone.", "ar": "لن أخبر أحداً."},
+  {"en": "I'll call you as soon as I arrive.", "ar": "سأتصل بك حالما أصل."},
+  {"en": "You can count on me.", "ar": "يمكنك الاعتماد عليّ."},
+  {"en": "He always keeps his promises.", "ar": "هو يفي بوعوده دائماً."},
+  {"en": "I promise not to be late.", "ar": "أعدك ألا أتأخر."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: Don't worry. I ___ you with your homework. (وعد)", "o": ["help", "am helping", "helped", "will help"], "a": 3, "why": "نستخدم will للوعد."},
+  {"q": "اختر الصحيح: I'll phone you when I ___ home.", "o": ["get", "will get", "am going to get", "got"], "a": 0, "why": "بعد when نستخدم المضارع البسيط للمستقبل."},
+  {"q": "اختر الصحيح: She promised ___ late again.", "o": ["to not being", "not to be", "not be", "to don't be"], "a": 1, "why": "promise + not to + الفعل المجرد."},
+  {"q": "ما معنى break a promise؟", "o": ["يقطع وعداً", "يفي بوعده", "يُخلف وعده", "ينسى الموعد"], "a": 2, "why": "break هنا بمعنى عدم الالتزام."},
+  {"q": "اختر الصحيح: A good friend always ___ his promises.", "o": ["does", "keeps", "saves", "holds on"], "a": 1, "why": "التلازم اللفظي: keep a promise."},
+  {"q": "ما معنى You can count on me؟", "o": ["يمكنك أن تعدّ معي", "يمكنك الاعتماد عليّ", "احسب لي", "لا تثق بي"], "a": 1, "why": "count on تعني يعتمد على."}
+ ]
+},
+{
+ "n": "130",
+ "type": "conversation",
+ "title_ar": "تقديم العروض",
+ "title_en": "Making offers",
+ "summary": "تتعلم كيف تعرض المساعدة أو تقدّم شيئاً لشخص ما باستخدام Shall I و Would you like و I'll، وكيف تقبل العرض أو ترفضه بأدب. عبارات تحتاجها مع الضيوف وفي العمل.",
+ "notes": [
+  {"h": "عرض القيام بشيء", "t": "I'll + verb: I'll carry that for you.\nShall I + verb...? : Shall I open the window?\nCan I + verb...? : Can I help you?\nLet me + verb: Let me help you with that.\nWould you like me to + verb...? : Would you like me to drive you home?"},
+  {"h": "عرض شيء (طعام، شراب...)", "t": "Would you like + اسم...? : Would you like a cup of tea?\nWould you like to + verb...? : Would you like to sit down?\nCan I get you something to drink?\nHelp yourself = تفضل، اخدم نفسك.\nفي العروض نستخدم some: Would you like some cake?"},
+  {"h": "قبول العرض", "t": "Yes, please. / That would be great. / That's very kind of you. / Thank you, I'd love one. / If you don't mind."},
+  {"h": "رفض العرض بأدب", "t": "No, thank you. / No, thanks. I'm fine. / That's OK, I can manage. / Thanks, but I've already eaten.\nلا تكتفِ بكلمة No وحدها فهي فظة."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "Would you like...? للعرض، أما Do you like...? فللسؤال عن الذوق العام. Do you like tea? = هل تحب الشاي عموماً؟"},
+  {"k": "grammar", "t": "بعد Let me يأتي الفعل المجرد دون to: Let me help وليس Let me to help."},
+  {"k": "grammar", "t": "نقول Would you like me to open it? وليس Would you like that I open it?"}
+ ],
+ "vocab": [
+  {"en": "offer", "ar": "عرض / يعرض", "emoji": "🤲"},
+  {"en": "would like", "ar": "يودّ", "emoji": "😊"},
+  {"en": "help yourself", "ar": "تفضل / اخدم نفسك", "emoji": "🍪"},
+  {"en": "kind", "ar": "لطيف", "emoji": "💗"},
+  {"en": "manage", "ar": "يتدبر الأمر", "emoji": "💪"},
+  {"en": "carry", "ar": "يحمل", "emoji": "🧳"},
+  {"en": "guest", "ar": "ضيف", "emoji": "🛎️"},
+  {"en": "accept", "ar": "يقبل", "emoji": "✅"},
+  {"en": "refuse", "ar": "يرفض", "emoji": "🙅"},
+  {"en": "cup of tea", "ar": "كوب شاي", "emoji": "🍵"}
+ ],
+ "phrases": [
+  {"en": "Would you like a cup of tea?", "ar": "هل تودّ كوباً من الشاي؟"},
+  {"en": "Shall I carry your bag?", "ar": "هل أحمل حقيبتك؟"},
+  {"en": "Let me help you with that.", "ar": "دعني أساعدك في ذلك."},
+  {"en": "That's very kind of you.", "ar": "هذا لطف كبير منك."},
+  {"en": "No, thanks. I can manage.", "ar": "لا، شكراً. أستطيع تدبر الأمر."},
+  {"en": "Would you like me to drive?", "ar": "هل تريد أن أقود أنا؟"}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: ___ I open the door for you?", "o": ["Will", "Shall", "Do", "Am"], "a": 1, "why": "Shall I...? لعرض القيام بشيء."},
+  {"q": "اختر الصحيح: Let me ___ your coat.", "o": ["to take", "taking", "take", "took"], "a": 2, "why": "بعد Let me الفعل المجرد."},
+  {"q": "أي جملة هي عرض؟", "o": ["Would you like some coffee?", "Do you like coffee?", "Did you like the coffee?", "You like coffee."], "a": 0, "why": "Would you like...? تُستخدم للعرض."},
+  {"q": "اختر الصحيح: Would you like me ___ a taxi?", "o": ["call", "calling", "that I call", "to call"], "a": 3, "why": "Would you like me to + verb."},
+  {"q": "أي رد يرفض العرض بأدب؟", "o": ["No.", "Yes, please.", "That's OK, I can manage.", "I'd love one."], "a": 2, "why": "يشكر ضمنياً ويوضح أنه لا يحتاج المساعدة."},
+  {"q": "ما معنى Help yourself؟", "o": ["ساعدني", "تفضل، خذ ما تشاء", "اعتمد على نفسك في العمل", "لا تلمس شيئاً"], "a": 1, "why": "تُقال للضيف ليأخذ من الطعام بنفسه."}
+ ]
+},
+{
+ "n": "131",
+ "type": "conversation",
+ "title_ar": "تقديم الشكاوى",
+ "title_en": "Making complaints",
+ "summary": "تتعلم كيف تشتكي بأدب وفعالية في المطعم والفندق والمتجر، وكيف تطلب حلاً مثل استرداد المال أو الاستبدال. ستتعلم أيضاً كيف تردّ على شكوى وتعتذر.",
+ "notes": [
+  {"h": "بدء الشكوى بأدب", "t": "Excuse me, I'm afraid there's a problem with...\nI'm sorry to bother you, but...\nI'd like to make a complaint about...\nI'm not happy with...\nمثال: I'm afraid there's a problem with my room."},
+  {"h": "وصف المشكلة", "t": "It doesn't work = لا يعمل. / It's broken = مكسور. / It's damaged = تالف.\nThe food is cold. / This isn't what I ordered.\ntoo + صفة: The music is too loud.\nnot + صفة + enough: The room isn't clean enough.\nThere's a mistake in the bill."},
+  {"h": "طلب الحل", "t": "Could you do something about it?\nI'd like a refund = أريد استرداد المال.\nCould you replace / exchange it? = هل يمكن استبداله؟\nCould I speak to the manager, please?\nHere is my receipt = هذا هو الإيصال."},
+  {"h": "الرد على الشكوى", "t": "I'm so sorry about that. / I do apologise. / I'll look into it right away. / I'll sort it out. / We'll send someone immediately. / Let me see what I can do."}
+ ],
+ "alerts": [
+  {"k": "tip", "t": "ابدأ الشكوى بـ I'm afraid أو I'm sorry, but حتى تبدو مهذباً؛ الشكوى المباشرة الحادة تبدو عدوانية في الإنجليزية."},
+  {"k": "grammar", "t": "too قبل الصفة و enough بعدها: too small / not big enough. لا نقول enough big."},
+  {"k": "pron", "t": "receipt: حرف p صامت وتُنطق (رِسِيت). و complaint اسم، والفعل complain بدون t."}
+ ],
+ "vocab": [
+  {"en": "complaint", "ar": "شكوى", "emoji": "😠"},
+  {"en": "complain", "ar": "يشتكي", "emoji": "🗯️"},
+  {"en": "refund", "ar": "استرداد المال", "emoji": "💸"},
+  {"en": "receipt", "ar": "إيصال", "emoji": "🧾"},
+  {"en": "broken", "ar": "مكسور / معطّل", "emoji": "💔"},
+  {"en": "replace", "ar": "يستبدل", "emoji": "🔄"},
+  {"en": "manager", "ar": "مدير", "emoji": "👔"},
+  {"en": "apologise", "ar": "يعتذر", "emoji": "🙇"},
+  {"en": "bill", "ar": "فاتورة", "emoji": "💳"},
+  {"en": "damaged", "ar": "تالف", "emoji": "📦"},
+  {"en": "noisy", "ar": "مزعج / صاخب", "emoji": "🔊"}
+ ],
+ "phrases": [
+  {"en": "I'm afraid there's a problem with my room.", "ar": "أخشى أن هناك مشكلة في غرفتي."},
+  {"en": "This isn't what I ordered.", "ar": "هذا ليس ما طلبته."},
+  {"en": "I'd like a refund, please.", "ar": "أريد استرداد مالي من فضلك."},
+  {"en": "Could I speak to the manager, please?", "ar": "هل يمكنني التحدث إلى المدير من فضلك؟"},
+  {"en": "The air conditioning doesn't work.", "ar": "المكيّف لا يعمل."},
+  {"en": "I'm so sorry about that.", "ar": "أنا آسف جداً على ذلك."}
+ ],
+ "quiz": [
+  {"q": "أي بداية هي الأكثر تهذيباً للشكوى؟", "o": ["This is terrible!", "You made a mistake.", "I'm afraid there's a problem with my order.", "Give me my money back."], "a": 2, "why": "I'm afraid تلطّف الشكوى."},
+  {"q": "اختر الصحيح: The soup isn't ___.", "o": ["enough hot", "hot enough", "too hot enough", "hot too"], "a": 1, "why": "enough تأتي بعد الصفة."},
+  {"q": "ما معنى refund؟", "o": ["استرداد المال", "إيصال", "خصم", "فاتورة"], "a": 0, "why": "refund هو إرجاع المبلغ المدفوع."},
+  {"q": "اختر الصحيح: I'd like to make a ___ about the service.", "o": ["complain", "complaining", "complained", "complaint"], "a": 3, "why": "بعد a نحتاج الاسم complaint."},
+  {"q": "أي حرف صامت في كلمة receipt؟", "o": ["r", "c", "p", "t"], "a": 2, "why": "حرف p لا يُنطق: (رِسِيت)."},
+  {"q": "أي جملة ردٌّ مناسب من الموظف على شكوى؟", "o": ["That's not my problem.", "I'll look into it right away.", "I'd like a refund.", "It doesn't work."], "a": 1, "why": "look into it تعني سأتحقق من الأمر."}
+ ]
+}
+]

@@ -1,0 +1,371 @@
+[
+{
+"n": "58",
+"type": "vocab",
+"title_ar": "وصف الناس — المظهر",
+"title_en": "Describing people (appearance)",
+"summary": "تتعلم كيف تصف شكل شخص ما: طوله، بنيته، شعره وعينيه. الأهم هو أن تعرف متى تستخدم is ومتى تستخدم has في الوصف.",
+"notes": [
+{"h": "السؤال عن المظهر", "t": "What does he look like? = كيف يبدو شكله؟\nWhat does she look like? = كيف يبدو شكلها؟\nهذا السؤال عن الشكل فقط وليس عن الشخصية."},
+{"h": "نستخدم be مع الصفات", "t": "للطول والبنية والعمر:\nHe is tall = هو طويل.\nShe is short = هي قصيرة.\nHe is thin / slim = هو نحيف.\nHe is young / old = هو شاب / مسنّ.\nShe is beautiful = هي جميلة.\nHe is handsome = هو وسيم."},
+{"h": "نستخدم have / has مع الملامح", "t": "للشعر والعينين واللحية:\nShe has long hair = لديها شعر طويل.\nHe has short black hair = لديه شعر أسود قصير.\nShe has blue eyes = لديها عينان زرقاوان.\nHe has a beard = لديه لحية."},
+{"h": "ترتيب الصفات", "t": "الطول ثم اللون ثم الاسم:\nlong brown hair = شعر بني طويل\nshort curly hair = شعر مجعد قصير\nونقول أيضاً: He wears glasses = يلبس نظارة."}
+],
+"alerts": [
+{"k": "mistake", "t": "الصفة تأتي قبل الاسم في الإنجليزية عكس العربية: blue eyes وليس eyes blue."},
+{"k": "grammar", "t": "hair اسم غير معدود في الوصف: She has long hair وليس long hairs ولا a long hair."},
+{"k": "tip", "t": "كلمة fat قد تكون جارحة. الألطف أن تقول: He is a bit overweight. وللنحافة slim كلمة إيجابية."}
+],
+"vocab": [
+{"en": "tall", "ar": "طويل", "emoji": "🦒"},
+{"en": "short", "ar": "قصير", "emoji": "📏"},
+{"en": "slim", "ar": "نحيف / رشيق", "emoji": "🧍"},
+{"en": "young", "ar": "شاب / صغير السن", "emoji": "🧒"},
+{"en": "old", "ar": "مسنّ / كبير السن", "emoji": "👴"},
+{"en": "hair", "ar": "شعر", "emoji": "💇"},
+{"en": "eyes", "ar": "عينان", "emoji": "👀"},
+{"en": "beard", "ar": "لحية", "emoji": "🧔"},
+{"en": "glasses", "ar": "نظارة", "emoji": "👓"},
+{"en": "curly", "ar": "مجعد", "emoji": "🌀"},
+{"en": "handsome", "ar": "وسيم", "emoji": "🤵"},
+{"en": "beautiful", "ar": "جميلة", "emoji": "🌹"}
+],
+"phrases": [
+{"en": "What does he look like?", "ar": "كيف يبدو شكله؟"},
+{"en": "He is tall and slim.", "ar": "هو طويل ونحيف."},
+{"en": "She has long black hair.", "ar": "لديها شعر أسود طويل."},
+{"en": "My father has a beard.", "ar": "أبي لديه لحية."},
+{"en": "She wears glasses.", "ar": "هي تلبس نظارة."}
+],
+"quiz": [
+{"q": "اختر الصحيح: She ___ blue eyes.", "o": ["is", "has", "have", "are"], "a": 1, "why": "مع الملامح (العينين والشعر) نستخدم has."},
+{"q": "اختر الصحيح: My brother ___ tall.", "o": ["has", "have", "is", "does"], "a": 2, "why": "مع صفات الطول والبنية نستخدم فعل be."},
+{"q": "أي ترتيب صحيح؟", "o": ["long brown hair", "hair long brown", "brown long hair", "hair brown long"], "a": 0, "why": "الطول ثم اللون ثم الاسم."},
+{"q": "ما معنى: What does she look like؟", "o": ["ماذا تحب؟", "كيف حالها؟", "ما شخصيتها؟", "كيف يبدو شكلها؟"], "a": 3, "why": "look like للسؤال عن المظهر."},
+{"q": "أي جملة صحيحة؟", "o": ["He has short hairs.", "He has a short hair.", "He has short hair.", "He is short hair."], "a": 2, "why": "hair غير معدود في الوصف، بدون a وبدون s."},
+{"q": "ما معنى: beard؟", "o": ["شارب", "لحية", "نظارة", "شعر"], "a": 1, "why": "beard تعني لحية."}
+]
+},
+{
+"n": "59",
+"type": "vocab",
+"title_ar": "وصف الناس — الشخصية",
+"title_en": "Describing people (personality)",
+"summary": "بعد وصف الشكل تتعلم وصف الطباع والشخصية: لطيف، خجول، مجتهد، كسول وغيرها. ستتعلم أيضاً الفرق بين السؤالين What is he like و What does he look like.",
+"notes": [
+{"h": "السؤال عن الشخصية", "t": "What is he like? = ما شخصيته؟ / كيف هو؟\nWhat is your boss like? = كيف هو مديرك؟\nالجواب: He is kind and funny = هو لطيف ومرح."},
+{"h": "صفات إيجابية", "t": "kind = لطيف / طيب\nfriendly = ودود\nfunny = مرح\npolite = مؤدب\nhonest = صادق\nhard-working = مجتهد\ngenerous = كريم\nclever = ذكي"},
+{"h": "صفات سلبية أو محايدة", "t": "shy = خجول\nquiet = هادئ\nlazy = كسول\nrude = وقح\nselfish = أناني\nserious = جادّ"},
+{"h": "درجات الوصف", "t": "very = جداً: She is very kind = هي لطيفة جداً.\nreally = حقاً: He is really funny = هو مرح حقاً.\nquite = إلى حد ما: He is quite shy = هو خجول إلى حد ما.\na bit = قليلاً (مع الصفات السلبية): He is a bit lazy = هو كسول قليلاً."}
+],
+"alerts": [
+{"k": "mistake", "t": "لا تخلط بين السؤالين: What is he like? عن الشخصية، و What does he like? عن الأشياء التي يحبها."},
+{"k": "pron", "t": "honest تُنطق: أونِست (حرف h صامت)، ولذلك نقول an honest man."},
+{"k": "grammar", "t": "الصفات لا تُجمع في الإنجليزية: They are kind وليس They are kinds."}
+],
+"vocab": [
+{"en": "kind", "ar": "لطيف / طيب", "emoji": "🤗"},
+{"en": "friendly", "ar": "ودود", "emoji": "😊"},
+{"en": "funny", "ar": "مرح / مضحك", "emoji": "😂"},
+{"en": "shy", "ar": "خجول", "emoji": "🙈"},
+{"en": "lazy", "ar": "كسول", "emoji": "🦥"},
+{"en": "polite", "ar": "مؤدب", "emoji": "🙇"},
+{"en": "rude", "ar": "وقح", "emoji": "😤"},
+{"en": "honest", "ar": "صادق", "emoji": "🤞"},
+{"en": "clever", "ar": "ذكي", "emoji": "🧠"},
+{"en": "quiet", "ar": "هادئ", "emoji": "🤫"},
+{"en": "generous", "ar": "كريم", "emoji": "💝"},
+{"en": "serious", "ar": "جادّ", "emoji": "😐"}
+],
+"phrases": [
+{"en": "What is your teacher like?", "ar": "كيف هو معلمك؟"},
+{"en": "She is very kind and friendly.", "ar": "هي لطيفة وودودة جداً."},
+{"en": "My brother is a bit lazy.", "ar": "أخي كسول قليلاً."},
+{"en": "He is quite shy.", "ar": "هو خجول إلى حد ما."},
+{"en": "They are polite and honest.", "ar": "هم مؤدبون وصادقون."}
+],
+"quiz": [
+{"q": "أي سؤال يسأل عن الشخصية؟", "o": ["What does he like?", "What does he look like?", "What is he like?", "How is he?"], "a": 2, "why": "What is he like? للسؤال عن الطباع والشخصية."},
+{"q": "ما عكس polite؟", "o": ["rude", "kind", "shy", "clever"], "a": 0, "why": "polite مؤدب وعكسها rude وقح."},
+{"q": "ما معنى: lazy؟", "o": ["مجتهد", "خجول", "كريم", "كسول"], "a": 3, "why": "lazy تعني كسول."},
+{"q": "أي جملة صحيحة؟", "o": ["They are kinds.", "They are kind.", "They kind.", "They are a kind."], "a": 1, "why": "الصفة لا تُجمع ولا تأخذ a بدون اسم."},
+{"q": "أكمل: He never talks in class. He is very ___.", "o": ["funny", "rude", "quiet", "generous"], "a": 2, "why": "من لا يتكلم يوصف بأنه quiet = هادئ."},
+{"q": "اختر الصحيح: She is ___ honest woman.", "o": ["a", "an", "the a", "two"], "a": 1, "why": "h صامتة في honest فتبدأ الكلمة بصوت متحرك ونستخدم an."}
+]
+},
+{
+"n": "60",
+"type": "vocab",
+"title_ar": "مفردات الرياضة",
+"title_en": "Sports vocabulary",
+"summary": "تتعلم أسماء أشهر الرياضات وكلمات الملعب والمباراة، والقاعدة المهمة: متى نقول play ومتى نقول go ومتى نقول do مع الرياضة.",
+"notes": [
+{"h": "play + ألعاب الكرة والفرق", "t": "play football = يلعب كرة القدم\nplay basketball = يلعب كرة السلة\nplay tennis = يلعب التنس\nplay volleyball = يلعب الكرة الطائرة\nمثال: I play football on Fridays = ألعب كرة القدم أيام الجمعة."},
+{"h": "go + رياضات تنتهي بـ ing", "t": "go swimming = يذهب للسباحة\ngo running = يذهب للجري\ngo cycling = يذهب لركوب الدراجة\ngo fishing = يذهب للصيد\nمثال: She goes swimming every week = تذهب للسباحة كل أسبوع."},
+{"h": "do + رياضات فردية وتمارين", "t": "do exercise = يمارس التمارين\ndo yoga = يمارس اليوغا\ndo karate = يمارس الكاراتيه\ndo gymnastics = يمارس الجمباز"},
+{"h": "كلمات المباراة", "t": "team = فريق\nplayer = لاعب\nmatch = مباراة\ngoal = هدف\nwin - won = يفوز - فاز\nlose - lost = يخسر - خسر\nمثال: Our team won the match = فاز فريقنا بالمباراة."}
+],
+"alerts": [
+{"k": "mistake", "t": "لا نضع the قبل اسم الرياضة: I play football وليس I play the football."},
+{"k": "grammar", "t": "القاعدة السريعة: كرة أو فريق = play، كلمة تنتهي بـ ing = go، غير ذلك = do."},
+{"k": "pron", "t": "won تُنطق مثل الرقم one: وَن. و lose تُنطق: لوز (بصوت z)."}
+],
+"vocab": [
+{"en": "football", "ar": "كرة القدم", "emoji": "⚽"},
+{"en": "basketball", "ar": "كرة السلة", "emoji": "🏀"},
+{"en": "tennis", "ar": "التنس", "emoji": "🎾"},
+{"en": "swimming", "ar": "السباحة", "emoji": "🏊"},
+{"en": "running", "ar": "الجري", "emoji": "🏃"},
+{"en": "cycling", "ar": "ركوب الدراجات", "emoji": "🚴"},
+{"en": "team", "ar": "فريق", "emoji": "👥"},
+{"en": "player", "ar": "لاعب", "emoji": "⛹️"},
+{"en": "match", "ar": "مباراة", "emoji": "🏟️"},
+{"en": "goal", "ar": "هدف", "emoji": "🥅"},
+{"en": "win", "ar": "يفوز", "emoji": "🏆"},
+{"en": "lose", "ar": "يخسر", "emoji": "😞"}
+],
+"phrases": [
+{"en": "I play football with my friends.", "ar": "ألعب كرة القدم مع أصدقائي."},
+{"en": "She goes swimming every week.", "ar": "تذهب للسباحة كل أسبوع."},
+{"en": "Do you do any sport?", "ar": "هل تمارس أي رياضة؟"},
+{"en": "Our team won the match.", "ar": "فاز فريقنا بالمباراة."},
+{"en": "What is your favourite sport?", "ar": "ما رياضتك المفضلة؟"}
+],
+"quiz": [
+{"q": "اختر الصحيح: I ___ tennis on Sundays.", "o": ["go", "do", "play", "make"], "a": 2, "why": "مع ألعاب الكرة نستخدم play."},
+{"q": "اختر الصحيح: He ___ swimming every morning.", "o": ["goes", "plays", "does", "makes"], "a": 0, "why": "مع الرياضات المنتهية بـ ing نستخدم go."},
+{"q": "اختر الصحيح: She ___ yoga at home.", "o": ["plays", "does", "goes", "wins"], "a": 1, "why": "مع اليوغا والتمارين نستخدم do."},
+{"q": "أي جملة صحيحة؟", "o": ["I play the football.", "I go football.", "I do football.", "I play football."], "a": 3, "why": "play + اسم الرياضة بدون the."},
+{"q": "ما الماضي من win؟", "o": ["winned", "win", "won", "wan"], "a": 2, "why": "win فعل غير منتظم وماضيه won."},
+{"q": "ما معنى: match؟", "o": ["هدف", "مباراة", "فريق", "لاعب"], "a": 1, "why": "match تعني مباراة."}
+]
+},
+{
+"n": "61",
+"type": "vocab",
+"title_ar": "المواد الدراسية",
+"title_en": "School subjects",
+"summary": "تتعلم أسماء المواد الدراسية بالإنجليزية وكيف تتحدث عن مادتك المفضلة، وما تجيده وما تجده صعباً. مفيد للحديث عن الدراسة ولمساعدة الأبناء.",
+"notes": [
+{"h": "المواد الدراسية", "t": "maths = الرياضيات\nscience = العلوم\nhistory = التاريخ\ngeography = الجغرافيا\nart = الرسم / الفنون\nmusic = الموسيقى\nPE = التربية البدنية\nEnglish = اللغة الإنجليزية\nArabic = اللغة العربية"},
+{"h": "المادة المفضلة", "t": "What is your favourite subject? = ما مادتك المفضلة؟\nMy favourite subject is science = مادتي المفضلة هي العلوم.\nI like history = أحب التاريخ.\nI don't like maths = لا أحب الرياضيات."},
+{"h": "جيد في / سيئ في", "t": "be good at + المادة = جيد في\nbe bad at + المادة = ضعيف في\nI am good at English = أنا جيد في الإنجليزية.\nHe is bad at maths = هو ضعيف في الرياضيات."},
+{"h": "وصف المواد وكلمات المدرسة", "t": "easy = سهل، difficult = صعب، interesting = ممتع، boring = ممل\nMaths is difficult = الرياضيات صعبة.\nhomework = واجب منزلي، exam = امتحان، lesson = درس / حصة\nI have an exam tomorrow = عندي امتحان غداً."}
+],
+"alerts": [
+{"k": "grammar", "t": "أسماء اللغات تبدأ دائماً بحرف كبير: English, Arabic, French. أما باقي المواد فبحرف صغير: maths, history."},
+{"k": "mistake", "t": "نقول good at وليس good in: I am good at maths."},
+{"k": "pron", "t": "science تُنطق: سايَنس (حرف c بعد s صامت). و geography تُنطق: جيوغرَفي (النبر على og)."}
+],
+"vocab": [
+{"en": "maths", "ar": "الرياضيات", "emoji": "➗"},
+{"en": "science", "ar": "العلوم", "emoji": "🔬"},
+{"en": "history", "ar": "التاريخ", "emoji": "🏺"},
+{"en": "geography", "ar": "الجغرافيا", "emoji": "🌍"},
+{"en": "art", "ar": "الرسم / الفنون", "emoji": "🎨"},
+{"en": "music", "ar": "الموسيقى", "emoji": "🎵"},
+{"en": "subject", "ar": "مادة دراسية", "emoji": "📘"},
+{"en": "homework", "ar": "واجب منزلي", "emoji": "📝"},
+{"en": "exam", "ar": "امتحان", "emoji": "💯"},
+{"en": "lesson", "ar": "درس / حصة", "emoji": "👩‍🏫"},
+{"en": "difficult", "ar": "صعب", "emoji": "😓"}
+],
+"phrases": [
+{"en": "What is your favourite subject?", "ar": "ما مادتك المفضلة؟"},
+{"en": "My favourite subject is science.", "ar": "مادتي المفضلة هي العلوم."},
+{"en": "I am good at English.", "ar": "أنا جيد في الإنجليزية."},
+{"en": "Maths is difficult for me.", "ar": "الرياضيات صعبة عليّ."},
+{"en": "I have an exam tomorrow.", "ar": "عندي امتحان غداً."}
+],
+"quiz": [
+{"q": "اختر الصحيح: She is good ___ history.", "o": ["in", "on", "at", "with"], "a": 2, "why": "التعبير هو good at."},
+{"q": "أي مادة ندرس فيها الدول والخرائط؟", "o": ["geography", "music", "art", "maths"], "a": 0, "why": "geography هي الجغرافيا."},
+{"q": "أي كتابة صحيحة؟", "o": ["I study english.", "I study English.", "i study English.", "I Study english."], "a": 1, "why": "أسماء اللغات تبدأ بحرف كبير."},
+{"q": "ما معنى: homework؟", "o": ["عمل البيت (تنظيف)", "امتحان", "حصة", "واجب منزلي"], "a": 3, "why": "homework هو الواجب المدرسي المنزلي."},
+{"q": "ما عكس easy؟", "o": ["boring", "difficult", "interesting", "good"], "a": 1, "why": "easy سهل وعكسها difficult صعب."}
+]
+},
+{
+"n": "62",
+"type": "vocab",
+"title_ar": "البرامج التلفزيونية والأفلام",
+"title_en": "TV shows and movies",
+"summary": "تتعلم أنواع الأفلام والبرامج التلفزيونية وكيف تعبّر عن رأيك فيها. موضوع ممتاز للمحادثة مع الأصدقاء، ويساعدك على اختيار ما تشاهده بالإنجليزية.",
+"notes": [
+{"h": "أنواع الأفلام", "t": "action film = فيلم حركة\ncomedy = فيلم كوميدي\nhorror film = فيلم رعب\ndrama = دراما\ncartoon = رسوم متحركة\nromantic film = فيلم رومانسي\nscience fiction = خيال علمي"},
+{"h": "أنواع البرامج", "t": "the news = الأخبار\nseries = مسلسل\ndocumentary = فيلم وثائقي\ntalk show = برنامج حواري\ncooking show = برنامج طبخ\nepisode = حلقة"},
+{"h": "السؤال والرأي", "t": "What kind of films do you like? = أي نوع من الأفلام تحب؟\nI like comedies = أحب الأفلام الكوميدية.\nI can't stand horror films = لا أطيق أفلام الرعب.\nIt was funny / scary / exciting / sad = كان مضحكاً / مخيفاً / مشوقاً / حزيناً."},
+{"h": "تعابير مفيدة", "t": "watch TV = يشاهد التلفاز\ngo to the cinema = يذهب إلى السينما\nWhat's on TV tonight? = ماذا يُعرض على التلفاز الليلة؟\nmy favourite actor = ممثلي المفضل"}
+],
+"alerts": [
+{"k": "grammar", "t": "نقول watch TV بدون the، لكن نقول go to the cinema مع the."},
+{"k": "mistake", "t": "news مفرد دائماً رغم حرف s: The news is on at nine وليس The news are."},
+{"k": "tip", "t": "في بريطانيا يقولون film وفي أمريكا movie، والمعنى واحد. وكلمة series لا تتغير في الجمع."}
+],
+"vocab": [
+{"en": "comedy", "ar": "كوميديا", "emoji": "😂"},
+{"en": "horror", "ar": "رعب", "emoji": "👻"},
+{"en": "cartoon", "ar": "رسوم متحركة", "emoji": "🐭"},
+{"en": "news", "ar": "الأخبار", "emoji": "📰"},
+{"en": "series", "ar": "مسلسل", "emoji": "📺"},
+{"en": "documentary", "ar": "فيلم وثائقي", "emoji": "🎥"},
+{"en": "actor", "ar": "ممثل", "emoji": "🎭"},
+{"en": "cinema", "ar": "سينما", "emoji": "🍿"},
+{"en": "episode", "ar": "حلقة", "emoji": "▶️"},
+{"en": "scary", "ar": "مخيف", "emoji": "😱"},
+{"en": "exciting", "ar": "مشوّق", "emoji": "🤩"}
+],
+"phrases": [
+{"en": "What kind of films do you like?", "ar": "أي نوع من الأفلام تحب؟"},
+{"en": "I like action films.", "ar": "أحب أفلام الحركة."},
+{"en": "I watched a documentary last night.", "ar": "شاهدتُ فيلماً وثائقياً الليلة الماضية."},
+{"en": "The film was very scary.", "ar": "كان الفيلم مخيفاً جداً."},
+{"en": "Let's go to the cinema.", "ar": "هيا نذهب إلى السينما."}
+],
+"quiz": [
+{"q": "أي نوع من الأفلام يُضحك؟", "o": ["horror", "comedy", "drama", "documentary"], "a": 1, "why": "comedy هو الفيلم الكوميدي المضحك."},
+{"q": "أي جملة صحيحة؟", "o": ["I watch the TV every day.", "I see TV every day.", "I watch TV every day.", "I look TV every day."], "a": 2, "why": "التعبير هو watch TV بدون the."},
+{"q": "اختر الصحيح: The news ___ at nine o'clock.", "o": ["is", "are", "were", "be"], "a": 0, "why": "news اسم مفرد فنستخدم is."},
+{"q": "ما معنى: scary؟", "o": ["مضحك", "حزين", "ممل", "مخيف"], "a": 3, "why": "scary تعني مخيف."},
+{"q": "برنامج يعرض معلومات حقيقية عن الطبيعة أو التاريخ هو:", "o": ["a cartoon", "a comedy", "a documentary", "a talk show"], "a": 2, "why": "documentary هو الفيلم الوثائقي."},
+{"q": "اختر الصحيح: We went ___ last Friday.", "o": ["to cinema", "to the cinema", "the cinema", "at cinema"], "a": 1, "why": "نقول go to the cinema."}
+]
+},
+{
+"n": "63",
+"type": "vocab",
+"title_ar": "الحواسيب والهواتف",
+"title_en": "Computers and phones",
+"summary": "تتعلم أسماء أجزاء الحاسوب والهاتف وأهم الأفعال التقنية مثل: يشغّل، يطفئ، يحمّل، يشحن. كلمات تستخدمها يومياً وتراها على شاشتك.",
+"notes": [
+{"h": "الأجهزة وأجزاؤها", "t": "laptop = حاسوب محمول\nscreen = شاشة\nkeyboard = لوحة مفاتيح\nmouse = فأرة\ncharger = شاحن\nbattery = بطارية\nprinter = طابعة"},
+{"h": "أفعال التشغيل", "t": "turn on = يشغّل\nturn off = يطفئ\ncharge = يشحن\nTurn on the computer = شغّل الحاسوب.\nMy battery is low = بطاريتي ضعيفة.\nI need to charge my phone = أحتاج أن أشحن هاتفي."},
+{"h": "أفعال الإنترنت والملفات", "t": "download = يحمّل / ينزّل\nsend = يرسل\nsave = يحفظ\ndelete = يحذف\nsearch = يبحث\nclick = ينقر\nI downloaded the app = حمّلتُ التطبيق."},
+{"h": "كلمات شائعة", "t": "password = كلمة السر\napp = تطبيق\nmessage = رسالة\nemail = بريد إلكتروني\nWi-Fi = شبكة لاسلكية\nWhat's the Wi-Fi password? = ما كلمة سر الواي فاي؟"}
+],
+"alerts": [
+{"k": "grammar", "t": "مع turn on / turn off يأتي الضمير في الوسط: Turn it on وليس Turn on it."},
+{"k": "mistake", "t": "نقول turn on the light / the computer وليس open the computer. الفعل open للأبواب والنوافذ والملفات."},
+{"k": "pron", "t": "password فيها حرف p وليس b: باس وِرد. وكلمة delete تُنطق: دِليت (النبر على المقطع الثاني)."}
+],
+"vocab": [
+{"en": "laptop", "ar": "حاسوب محمول", "emoji": "💻"},
+{"en": "screen", "ar": "شاشة", "emoji": "🖥️"},
+{"en": "keyboard", "ar": "لوحة مفاتيح", "emoji": "⌨️"},
+{"en": "mouse", "ar": "فأرة", "emoji": "🖱️"},
+{"en": "charger", "ar": "شاحن", "emoji": "🔌"},
+{"en": "battery", "ar": "بطارية", "emoji": "🔋"},
+{"en": "password", "ar": "كلمة السر", "emoji": "🔑"},
+{"en": "download", "ar": "يحمّل / ينزّل", "emoji": "⬇️"},
+{"en": "message", "ar": "رسالة", "emoji": "💬"},
+{"en": "email", "ar": "بريد إلكتروني", "emoji": "📧"},
+{"en": "delete", "ar": "يحذف", "emoji": "🗑️"},
+{"en": "printer", "ar": "طابعة", "emoji": "🖨️"}
+],
+"phrases": [
+{"en": "Can you turn on the computer?", "ar": "هل يمكنك تشغيل الحاسوب؟"},
+{"en": "My battery is low.", "ar": "بطاريتي ضعيفة."},
+{"en": "I need to charge my phone.", "ar": "أحتاج أن أشحن هاتفي."},
+{"en": "I sent you a message.", "ar": "أرسلتُ لك رسالة."},
+{"en": "I forgot my password.", "ar": "نسيتُ كلمة السر."}
+],
+"quiz": [
+{"q": "ما معنى: turn off؟", "o": ["يشغّل", "يشحن", "يطفئ", "يحفظ"], "a": 2, "why": "turn off يطفئ، وعكسها turn on يشغّل."},
+{"q": "أي جملة صحيحة؟", "o": ["Turn it on.", "Turn on it.", "Open it on.", "On turn it."], "a": 0, "why": "الضمير يأتي بين turn و on."},
+{"q": "بماذا نكتب على الحاسوب؟", "o": ["screen", "keyboard", "charger", "printer"], "a": 1, "why": "keyboard هي لوحة المفاتيح."},
+{"q": "اختر الصحيح: My phone is at 2 percent. I need my ___.", "o": ["mouse", "password", "screen", "charger"], "a": 3, "why": "البطارية ضعيفة فنحتاج الشاحن charger."},
+{"q": "ما الماضي من send؟", "o": ["sended", "sent", "sand", "sending"], "a": 1, "why": "send فعل غير منتظم وماضيه sent."},
+{"q": "ما معنى: delete؟", "o": ["يحفظ", "يرسل", "يحذف", "يبحث"], "a": 2, "why": "delete تعني يحذف."}
+]
+},
+{
+"n": "64",
+"type": "vocab",
+"title_ar": "مفردات مواقع التواصل الاجتماعي",
+"title_en": "Social media vocabulary",
+"summary": "تتعلم الكلمات التي تراها كل يوم في تطبيقات التواصل: ينشر، يشارك، يتابع، يعلّق، وكيف تستخدمها في جمل صحيحة. كثير منها يُستخدم اسماً وفعلاً.",
+"notes": [
+{"h": "الأفعال الأساسية", "t": "post = ينشر\nshare = يشارك\nlike = يعجب بـ\ncomment = يعلّق\nfollow = يتابع\nI posted a photo = نشرتُ صورة.\nShe shared my video = شاركت مقطعي."},
+{"h": "الحساب", "t": "account = حساب\nprofile = ملف شخصي\nusername = اسم المستخدم\nlog in = يسجّل الدخول\nlog out = يسجّل الخروج\nI have an account on Instagram = لدي حساب على إنستغرام."},
+{"h": "كلمات تكون اسماً وفعلاً", "t": "a post / to post = منشور / ينشر\na comment / to comment = تعليق / يعلّق\na like / to like = إعجاب / يعجب بـ\nThe video got a lot of likes = حصل المقطع على إعجابات كثيرة."},
+{"h": "تعابير مفيدة", "t": "followers = متابعون\nShe has many followers = لديها متابعون كثيرون.\nAre you on Facebook? = هل لديك حساب على فيسبوك؟\nFollow me on Instagram = تابعني على إنستغرام.\nI spend two hours online = أقضي ساعتين على الإنترنت."}
+],
+"alerts": [
+{"k": "grammar", "t": "نستخدم on مع مواقع التواصل والإنترنت: on Facebook, on YouTube, on the internet وليس in."},
+{"k": "pron", "t": "post تُنطق: بوست بحرف p (هواء من الشفتين) وليست بوست بحرف b. و video تبدأ بحرف v وليس f."},
+{"k": "mistake", "t": "نقول comment on a post: He commented on my photo = علّق على صورتي."}
+],
+"vocab": [
+{"en": "post", "ar": "ينشر / منشور", "emoji": "📝"},
+{"en": "share", "ar": "يشارك", "emoji": "🔁"},
+{"en": "like", "ar": "يعجب بـ / إعجاب", "emoji": "👍"},
+{"en": "comment", "ar": "يعلّق / تعليق", "emoji": "💬"},
+{"en": "follow", "ar": "يتابع", "emoji": "➕"},
+{"en": "followers", "ar": "متابعون", "emoji": "👥"},
+{"en": "account", "ar": "حساب", "emoji": "👤"},
+{"en": "profile", "ar": "ملف شخصي", "emoji": "🪪"},
+{"en": "log in", "ar": "يسجّل الدخول", "emoji": "🔐"},
+{"en": "video", "ar": "مقطع فيديو", "emoji": "📹"},
+{"en": "online", "ar": "متصل بالإنترنت", "emoji": "🌐"}
+],
+"phrases": [
+{"en": "I posted a photo yesterday.", "ar": "نشرتُ صورة أمس."},
+{"en": "Follow me on Instagram.", "ar": "تابعني على إنستغرام."},
+{"en": "She has many followers.", "ar": "لديها متابعون كثيرون."},
+{"en": "He commented on my post.", "ar": "علّق على منشوري."},
+{"en": "Do you have an account?", "ar": "هل لديك حساب؟"}
+],
+"quiz": [
+{"q": "اختر الصحيح: I saw the video ___ YouTube.", "o": ["in", "at", "on", "by"], "a": 2, "why": "مع مواقع التواصل والإنترنت نستخدم on."},
+{"q": "ما معنى: followers؟", "o": ["متابعون", "منشورات", "تعليقات", "حسابات"], "a": 0, "why": "followers هم المتابعون."},
+{"q": "ما معنى: log out؟", "o": ["يسجّل الدخول", "ينشر", "يحذف الحساب", "يسجّل الخروج"], "a": 3, "why": "log out عكس log in."},
+{"q": "اختر الصحيح: She ___ a photo of her cat yesterday.", "o": ["post", "posted", "posting", "posts"], "a": 1, "why": "yesterday تدل على الماضي: posted."},
+{"q": "اختر الصحيح: He commented ___ my photo.", "o": ["in", "at", "on", "to"], "a": 2, "why": "التعبير هو comment on."}
+]
+},
+{
+"n": "65",
+"type": "conversation",
+"title_ar": "التفضيلات — أنا أفضّل",
+"title_en": "Preferences (I prefer...)",
+"summary": "تتعلم كيف تعبّر عما تفضّله بين خيارين باستخدام prefer و would rather، وكيف تسأل الآخرين عن تفضيلاتهم. مهم في المطعم والتسوق واتخاذ القرارات.",
+"notes": [
+{"h": "prefer للتفضيل العام", "t": "الصيغة: prefer + اسم + to + اسم\nI prefer tea to coffee = أفضّل الشاي على القهوة.\nمع الأفعال: prefer + فعل ing\nI prefer reading to watching TV = أفضّل القراءة على مشاهدة التلفاز.\nمع he / she: She prefers cats = هي تفضّل القطط."},
+{"h": "السؤال", "t": "Do you prefer tea or coffee? = هل تفضّل الشاي أم القهوة؟\nWhich do you prefer? = أيهما تفضّل؟\nI prefer coffee = أفضّل القهوة."},
+{"h": "would prefer / would rather للتفضيل الآن", "t": "I would prefer to stay at home = أفضّل أن أبقى في البيت (الآن).\nالاختصار: I'd prefer\nI would rather + الفعل الأصلي بدون to:\nI'd rather stay at home = أفضّل أن أبقى في البيت.\nWould you rather walk or take a taxi? = هل تفضّل المشي أم أخذ سيارة أجرة؟"},
+{"h": "تعابير أخرى", "t": "I like tea better than coffee = أحب الشاي أكثر من القهوة.\nI don't mind = لا مانع عندي / لا فرق.\nIt's up to you = القرار لك."}
+],
+"alerts": [
+{"k": "mistake", "t": "مع prefer نستخدم to وليس than. الخطأ: I prefer tea than coffee. الصحيح: I prefer tea to coffee."},
+{"k": "grammar", "t": "بعد would rather يأتي الفعل بدون to: I'd rather go. وبعد would prefer يأتي to: I'd prefer to go."},
+{"k": "pron", "t": "prefer النبر فيها على المقطع الثاني: بري-فِر. و rather تُنطق: راذَر (th مثل الذال)."}
+],
+"vocab": [
+{"en": "prefer", "ar": "يفضّل", "emoji": "👍"},
+{"en": "would rather", "ar": "يفضّل (الآن)", "emoji": "🤔"},
+{"en": "better", "ar": "أفضل / أكثر", "emoji": "⬆️"},
+{"en": "tea", "ar": "شاي", "emoji": "🍵"},
+{"en": "coffee", "ar": "قهوة", "emoji": "☕"},
+{"en": "which", "ar": "أيّ / أيهما", "emoji": "❓"},
+{"en": "choose", "ar": "يختار", "emoji": "👆"},
+{"en": "both", "ar": "كلاهما", "emoji": "✌️"},
+{"en": "favourite", "ar": "مفضّل", "emoji": "⭐"},
+{"en": "I don't mind", "ar": "لا مانع عندي", "emoji": "🤷"}
+],
+"phrases": [
+{"en": "I prefer tea to coffee.", "ar": "أفضّل الشاي على القهوة."},
+{"en": "Which do you prefer?", "ar": "أيهما تفضّل؟"},
+{"en": "I would rather stay at home.", "ar": "أفضّل أن أبقى في البيت."},
+{"en": "She prefers reading to watching TV.", "ar": "هي تفضّل القراءة على مشاهدة التلفاز."},
+{"en": "It's up to you.", "ar": "القرار لك."}
+],
+"quiz": [
+{"q": "اختر الصحيح: I prefer juice ___ water.", "o": ["than", "to", "from", "of"], "a": 1, "why": "مع prefer نستخدم to بين الخيارين."},
+{"q": "اختر الصحيح: I'd rather ___ at home tonight.", "o": ["to stay", "staying", "stayed", "stay"], "a": 3, "why": "بعد would rather يأتي الفعل الأصلي بدون to."},
+{"q": "اختر الصحيح: She ___ cats to dogs.", "o": ["prefers", "prefer", "preferring", "is prefer"], "a": 0, "why": "مع she نضيف s للفعل في المضارع البسيط."},
+{"q": "ما معنى: I don't mind؟", "o": ["لا أفهم", "لا أتذكر", "لا مانع عندي", "لا أحب ذلك"], "a": 2, "why": "I don't mind تعني أن الخيارين مقبولان عندي."},
+{"q": "أي جملة صحيحة؟", "o": ["I prefer walking than driving.", "I prefer walking to driving.", "I prefer walk to drive.", "I prefer to walking than driving."], "a": 1, "why": "prefer + فعل ing + to + فعل ing."},
+{"q": "اختر الصحيح: I'd prefer ___ by train.", "o": ["go", "going to", "to go", "went"], "a": 2, "why": "بعد would prefer يأتي to + الفعل."}
+]
+}
+]

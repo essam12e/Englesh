@@ -1,0 +1,362 @@
+[
+ {
+  "n": "26",
+  "type": "grammar",
+  "title_ar": "المضارع البسيط — الإثبات",
+  "title_en": "Present simple (positive)",
+  "summary": "في هذا الدرس تتعلم زمن المضارع البسيط في الجمل المثبتة. نستخدمه للحديث عن العادات اليومية والحقائق الثابتة، وهو من أكثر الأزمنة استخداماً في اللغة الإنجليزية.",
+  "notes": [
+   {"h": "متى نستخدمه؟", "t": "نستخدم المضارع البسيط مع:\n1) العادات والأشياء المتكررة: I drink coffee every day = أشرب القهوة كل يوم.\n2) الحقائق الثابتة: The sun rises in the east = تشرق الشمس من الشرق.\n3) الأحوال الدائمة: I live in Cairo = أعيش في القاهرة."},
+   {"h": "القاعدة مع I / you / we / they", "t": "الفاعل + الفعل كما هو (بدون أي إضافة).\nI work in a bank = أعمل في بنك.\nYou speak Arabic = أنت تتكلم العربية.\nWe play football = نلعب كرة القدم.\nThey live here = هم يعيشون هنا."},
+   {"h": "القاعدة مع he / she / it", "t": "الفاعل + الفعل + s.\nHe works in a bank = هو يعمل في بنك.\nShe likes tea = هي تحب الشاي.\nIt rains in winter = تمطر في الشتاء.\nوكذلك مع أي اسم مفرد: Ahmed plays tennis = أحمد يلعب التنس."},
+   {"h": "قواعد إضافة s", "t": "1) أغلب الأفعال: نضيف s فقط: work → works, read → reads.\n2) الأفعال المنتهية بـ s, sh, ch, x, o: نضيف es: watch → watches, go → goes, wash → washes.\n3) الفعل المنتهي بحرف ساكن + y: نحذف y ونضيف ies: study → studies.\n4) فعل شاذ: have → has. مثال: She has a car = هي لديها سيارة."},
+   {"h": "كلمات تدل على هذا الزمن", "t": "every day = كل يوم، always = دائماً، usually = عادةً، often = غالباً، sometimes = أحياناً، never = أبداً.\nمثال: I always get up early = أنا دائماً أستيقظ مبكراً."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "أشهر خطأ: نسيان حرف s مع he / she / it. لا تقل: He work. الصحيح: He works."},
+   {"k": "grammar", "t": "لا نضع am / is / are قبل الفعل في المضارع البسيط. لا تقل: I am work. الصحيح: I work."},
+   {"k": "pron", "t": "حرف s في آخر الفعل له ثلاثة أصوات: works تُنطق (وِركس)، plays تُنطق (بليز)، watches تُنطق (ووتشِز)."}
+  ],
+  "vocab": [
+   {"en": "work", "ar": "يعمل", "emoji": "💼"},
+   {"en": "live", "ar": "يعيش / يسكن", "emoji": "🏠"},
+   {"en": "drink", "ar": "يشرب", "emoji": "🥤"},
+   {"en": "eat", "ar": "يأكل", "emoji": "🍽️"},
+   {"en": "study", "ar": "يدرس", "emoji": "📚"},
+   {"en": "play", "ar": "يلعب", "emoji": "⚽"},
+   {"en": "watch", "ar": "يشاهد", "emoji": "📺"},
+   {"en": "go", "ar": "يذهب", "emoji": "🚶"},
+   {"en": "every day", "ar": "كل يوم", "emoji": "📅"},
+   {"en": "always", "ar": "دائماً", "emoji": "♾️"}
+  ],
+  "phrases": [
+   {"en": "I drink coffee every morning.", "ar": "أشرب القهوة كل صباح."},
+   {"en": "She works in a hospital.", "ar": "هي تعمل في مستشفى."},
+   {"en": "We live in a big city.", "ar": "نحن نعيش في مدينة كبيرة."},
+   {"en": "He goes to school by bus.", "ar": "هو يذهب إلى المدرسة بالحافلة."},
+   {"en": "My brother watches TV at night.", "ar": "أخي يشاهد التلفاز في الليل."}
+  ],
+  "quiz": [
+   {"q": "اختر الصحيح: She ___ in a bank.", "o": ["work", "works", "working", "is work"], "a": 1, "why": "مع she نضيف s للفعل: works."},
+   {"q": "اختر الصحيح: They ___ football every Friday.", "o": ["play", "plays", "playing", "are play"], "a": 0, "why": "مع they يبقى الفعل كما هو بدون s."},
+   {"q": "ما الشكل الصحيح للفعل go مع he؟", "o": ["gos", "go", "goes", "going"], "a": 2, "why": "الأفعال المنتهية بـ o نضيف لها es: goes."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I am live in Dubai.", "I lives in Dubai.", "I living in Dubai.", "I live in Dubai."], "a": 3, "why": "مع I نستخدم الفعل كما هو وبدون am."},
+   {"q": "اختر الصحيح: My sister ___ English at university.", "o": ["study", "studys", "studies", "studyes"], "a": 2, "why": "study تنتهي بحرف ساكن + y فنحذف y ونضيف ies."},
+   {"q": "ما معنى: He has a car؟", "o": ["هو لديه سيارة", "هو يقود سيارة", "هو يريد سيارة", "هو يبيع سيارة"], "a": 0, "why": "has هي صيغة have مع he / she / it وتعني يملك أو لديه."}
+  ]
+ },
+ {
+  "n": "27",
+  "type": "grammar",
+  "title_ar": "المضارع البسيط — النفي",
+  "title_en": "Present simple (negative)",
+  "summary": "تتعلم في هذا الدرس كيف تنفي الجملة في المضارع البسيط باستخدام don't و doesn't. النفي ضروري لتقول ما لا تفعله أو ما لا تحبه.",
+  "notes": [
+   {"h": "النفي مع I / you / we / they", "t": "الفاعل + do not (don't) + الفعل في صورته الأصلية.\nI don't like fish = أنا لا أحب السمك.\nWe don't work on Friday = نحن لا نعمل يوم الجمعة.\nThey don't speak French = هم لا يتكلمون الفرنسية."},
+   {"h": "النفي مع he / she / it", "t": "الفاعل + does not (doesn't) + الفعل في صورته الأصلية (بدون s).\nHe doesn't smoke = هو لا يدخن.\nShe doesn't eat meat = هي لا تأكل اللحم.\nIt doesn't work = إنه لا يعمل."},
+   {"h": "أين ذهب حرف s؟", "t": "في الإثبات نقول: He works.\nفي النفي حرف s ينتقل إلى does، ويعود الفعل إلى أصله: He doesn't work.\nوكذلك has تعود إلى have: She has a car → She doesn't have a car = ليس لديها سيارة."},
+   {"h": "الاختصارات", "t": "do not = don't (تُنطق: دونت).\ndoes not = doesn't (تُنطق: دَزِنت).\nفي الكلام اليومي نستخدم الاختصار غالباً، وفي الكتابة الرسمية نكتب الصيغة الكاملة."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "لا تضع s بعد doesn't. لا تقل: He doesn't works. الصحيح: He doesn't work."},
+   {"k": "mistake", "t": "لا تنفِ الأفعال العادية بـ not وحدها أو بـ am/is/are. لا تقل: I not like / I am not like. الصحيح: I don't like."},
+   {"k": "pron", "t": "doesn't تُنطق (دَزِنت) وليس (دوزنت)، و don't تُنطق (دونت) بصوت o طويل."}
+  ],
+  "vocab": [
+   {"en": "don't", "ar": "لا (مع I, you, we, they)", "emoji": "🚫"},
+   {"en": "doesn't", "ar": "لا (مع he, she, it)", "emoji": "❌"},
+   {"en": "like", "ar": "يحب", "emoji": "👍"},
+   {"en": "speak", "ar": "يتكلم", "emoji": "🗣️"},
+   {"en": "smoke", "ar": "يدخن", "emoji": "🚬"},
+   {"en": "understand", "ar": "يفهم", "emoji": "💡"},
+   {"en": "know", "ar": "يعرف", "emoji": "🧠"},
+   {"en": "want", "ar": "يريد", "emoji": "🙏"},
+   {"en": "meat", "ar": "لحم", "emoji": "🥩"},
+   {"en": "fish", "ar": "سمك", "emoji": "🐟"}
+  ],
+  "phrases": [
+   {"en": "I don't like fish.", "ar": "أنا لا أحب السمك."},
+   {"en": "She doesn't eat meat.", "ar": "هي لا تأكل اللحم."},
+   {"en": "We don't work on Friday.", "ar": "نحن لا نعمل يوم الجمعة."},
+   {"en": "He doesn't have a car.", "ar": "هو ليس لديه سيارة."},
+   {"en": "I don't understand this word.", "ar": "أنا لا أفهم هذه الكلمة."}
+  ],
+  "quiz": [
+   {"q": "اختر الصحيح: He ___ like coffee.", "o": ["don't", "isn't", "doesn't", "not"], "a": 2, "why": "مع he نستخدم doesn't للنفي."},
+   {"q": "اختر الصحيح: They ___ live here.", "o": ["don't", "doesn't", "aren't", "no"], "a": 0, "why": "مع they نستخدم don't."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["She doesn't works.", "She don't work.", "She not work.", "She doesn't work."], "a": 3, "why": "بعد doesn't يأتي الفعل في صورته الأصلية بدون s."},
+   {"q": "حوّل إلى النفي: I speak French.", "o": ["I not speak French.", "I don't speak French.", "I doesn't speak French.", "I am not speak French."], "a": 1, "why": "مع I نضع don't قبل الفعل."},
+   {"q": "ما نفي: She has a car؟", "o": ["She doesn't has a car.", "She hasn't car.", "She doesn't have a car.", "She don't have a car."], "a": 2, "why": "بعد doesn't تعود has إلى أصلها have."},
+   {"q": "ما معنى: I don't know؟", "o": ["أنا لا أعرف", "أنا لا أريد", "أنا لا أحب", "أنا لا أفهم"], "a": 0, "why": "know تعني يعرف، و don't تنفيها."}
+  ]
+ },
+ {
+  "n": "28",
+  "type": "grammar",
+  "title_ar": "المضارع البسيط — الأسئلة",
+  "title_en": "Present simple (questions)",
+  "summary": "تتعلم كيف تكوّن السؤال في المضارع البسيط باستخدام Do و Does، وكيف تجيب إجابة قصيرة، وكيف تسأل بأدوات الاستفهام مثل What و Where. هذا يجعلك قادراً على إجراء محادثة بسيطة.",
+  "notes": [
+   {"h": "سؤال نعم / لا", "t": "Do + (I / you / we / they) + الفعل الأصلي؟\nDoes + (he / she / it) + الفعل الأصلي؟\nDo you speak English? = هل تتكلم الإنجليزية؟\nDoes she work here? = هل هي تعمل هنا؟"},
+   {"h": "الإجابة القصيرة", "t": "Yes, I do. / No, I don't. = نعم. / لا.\nYes, she does. / No, she doesn't.\nلا نكرر الفعل الأساسي في الإجابة القصيرة: لا نقول Yes, I speak، بل Yes, I do."},
+   {"h": "السؤال بأدوات الاستفهام", "t": "أداة الاستفهام + do / does + الفاعل + الفعل الأصلي؟\nWhere do you live? = أين تسكن؟\nWhat does he do? = ماذا يعمل؟\nWhen do they start? = متى يبدؤون؟\nWhat time does the shop open? = في أي ساعة يفتح المحل؟"},
+   {"h": "تذكّر", "t": "مع Does لا نضيف s للفعل، لأن s موجودة في does.\nDoes he play tennis? (وليس plays).\nوالأسئلة مع فعل يكون لا تحتاج do: Are you a student? = هل أنت طالب؟"}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "في العربية نسأل بدون فعل مساعد، لكن في الإنجليزية لا بد من do / does. لا تقل: You speak English? ولا Where you live? الصحيح: Do you speak English? / Where do you live?"},
+   {"k": "grammar", "t": "بعد Does يعود الفعل لأصله: Does she like tea? وليس Does she likes tea?"},
+   {"k": "pron", "t": "Do you تُنطق سريعاً قريبة من (دُيو)، و does تُنطق (دَز)."}
+  ],
+  "vocab": [
+   {"en": "do", "ar": "هل (مع I, you, we, they)", "emoji": "❓"},
+   {"en": "does", "ar": "هل (مع he, she, it)", "emoji": "❔"},
+   {"en": "what", "ar": "ماذا / ما", "emoji": "🤔"},
+   {"en": "where", "ar": "أين", "emoji": "📍"},
+   {"en": "when", "ar": "متى", "emoji": "⏰"},
+   {"en": "start", "ar": "يبدأ", "emoji": "▶️"},
+   {"en": "finish", "ar": "ينتهي", "emoji": "🏁"},
+   {"en": "open", "ar": "يفتح", "emoji": "🔓"},
+   {"en": "close", "ar": "يغلق", "emoji": "🔒"}
+  ],
+  "phrases": [
+   {"en": "Do you speak English?", "ar": "هل تتكلم الإنجليزية؟"},
+   {"en": "Where do you live?", "ar": "أين تسكن؟"},
+   {"en": "Does she work here?", "ar": "هل هي تعمل هنا؟"},
+   {"en": "What time does the bank open?", "ar": "في أي ساعة يفتح البنك؟"},
+   {"en": "What do you do?", "ar": "ماذا تعمل؟"}
+  ],
+  "quiz": [
+   {"q": "اختر الصحيح: ___ you like tea?", "o": ["Does", "Are", "Do", "Is"], "a": 2, "why": "مع you نبدأ السؤال بـ Do."},
+   {"q": "اختر الصحيح: ___ he live in Riyadh?", "o": ["Does", "Do", "Is", "Are"], "a": 0, "why": "مع he نبدأ السؤال بـ Does."},
+   {"q": "اختر السؤال الصحيح:", "o": ["Where you work?", "Where do you work?", "Where does you work?", "Where you do work?"], "a": 1, "why": "الترتيب: أداة الاستفهام + do + الفاعل + الفعل."},
+   {"q": "Do you play football? — الإجابة القصيرة الصحيحة:", "o": ["Yes, I am.", "Yes, I play.", "Yes, I does.", "Yes, I do."], "a": 3, "why": "نجيب بنفس الفعل المساعد: Yes, I do."},
+   {"q": "أين الخطأ؟ Does she likes coffee?", "o": ["Does", "she", "likes", "coffee"], "a": 2, "why": "بعد Does يكون الفعل بدون s: like."},
+   {"q": "ما معنى: What does he do؟", "o": ["ماذا يعمل؟", "أين يعمل؟", "متى يعمل؟", "هل يعمل؟"], "a": 0, "why": "What تعني ماذا، والسؤال عن العمل أو المهنة."}
+  ]
+ },
+ {
+  "n": "29",
+  "type": "grammar",
+  "title_ar": "الصفات",
+  "title_en": "Adjectives",
+  "summary": "الصفات كلمات تصف الأسماء مثل big و small. في هذا الدرس تتعلم أشهر الصفات وعكسها، وأين نضع الصفة في الجملة الإنجليزية، وهو مختلف عن ترتيب العربية.",
+  "notes": [
+   {"h": "ما هي الصفة؟", "t": "الصفة كلمة تصف شخصاً أو شيئاً: big = كبير، small = صغير، new = جديد، old = قديم، happy = سعيد.\nمثال: a big house = بيت كبير."},
+   {"h": "مكان الصفة: قبل الاسم", "t": "في الإنجليزية الصفة تأتي قبل الاسم، عكس العربية.\na new car = سيارة جديدة.\nan old man = رجل عجوز.\na beautiful city = مدينة جميلة."},
+   {"h": "مكان الصفة: بعد فعل يكون", "t": "الفاعل + am / is / are + الصفة.\nThe car is new = السيارة جديدة.\nI am tired = أنا متعب.\nThey are happy = هم سعداء."},
+   {"h": "الصفة لا تتغير", "t": "الصفة ثابتة مع المفرد والجمع والمذكر والمؤنث، ولا نضيف لها s أبداً.\na tall boy = ولد طويل.\ntall boys = أولاد طوال.\na tall girl = بنت طويلة."},
+   {"h": "صفات وعكسها", "t": "big ↔ small = كبير ↔ صغير\nhot ↔ cold = حار ↔ بارد\nnew ↔ old = جديد ↔ قديم\ngood ↔ bad = جيد ↔ سيئ\nfast ↔ slow = سريع ↔ بطيء\ncheap ↔ expensive = رخيص ↔ غالٍ\nhappy ↔ sad = سعيد ↔ حزين"}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "لا تتبع ترتيب العربية. لا تقل: a car new. الصحيح: a new car."},
+   {"k": "mistake", "t": "لا نجمع الصفة. لا تقل: bigs houses أو news cars. الصحيح: big houses / new cars."},
+   {"k": "grammar", "t": "قبل صفة تبدأ بصوت متحرك نستخدم an: an old house, an easy lesson."}
+  ],
+  "vocab": [
+   {"en": "big", "ar": "كبير", "emoji": "🐘"},
+   {"en": "small", "ar": "صغير", "emoji": "🐜"},
+   {"en": "hot", "ar": "حار / ساخن", "emoji": "🔥"},
+   {"en": "cold", "ar": "بارد", "emoji": "🧊"},
+   {"en": "new", "ar": "جديد", "emoji": "🆕"},
+   {"en": "old", "ar": "قديم / عجوز", "emoji": "👴"},
+   {"en": "happy", "ar": "سعيد", "emoji": "😀"},
+   {"en": "sad", "ar": "حزين", "emoji": "😢"},
+   {"en": "fast", "ar": "سريع", "emoji": "🚀"},
+   {"en": "slow", "ar": "بطيء", "emoji": "🐢"},
+   {"en": "cheap", "ar": "رخيص", "emoji": "🏷️"},
+   {"en": "expensive", "ar": "غالٍ", "emoji": "💎"}
+  ],
+  "phrases": [
+   {"en": "I have a new car.", "ar": "لدي سيارة جديدة."},
+   {"en": "The weather is hot today.", "ar": "الطقس حار اليوم."},
+   {"en": "She lives in a small house.", "ar": "هي تسكن في بيت صغير."},
+   {"en": "This phone is very expensive.", "ar": "هذا الهاتف غالٍ جداً."},
+   {"en": "They are happy children.", "ar": "هم أطفال سعداء."}
+  ],
+  "quiz": [
+   {"q": "اختر الجملة الصحيحة:", "o": ["I have a car new.", "I have a new car.", "I have new a car.", "I have car a new."], "a": 1, "why": "الصفة تأتي قبل الاسم: a new car."},
+   {"q": "ما عكس كلمة hot؟", "o": ["old", "big", "slow", "cold"], "a": 3, "why": "hot = حار وعكسها cold = بارد."},
+   {"q": "اختر الصحيح: They are ___ boys.", "o": ["tall", "talls", "a tall", "tall the"], "a": 0, "why": "الصفة لا تُجمع ولا تأخذ a مع الجمع."},
+   {"q": "ما معنى expensive؟", "o": ["رخيص", "سريع", "غالٍ", "قديم"], "a": 2, "why": "expensive = غالٍ وعكسها cheap = رخيص."},
+   {"q": "اختر الصحيح: The tea ___ hot.", "o": ["are", "is", "do", "have"], "a": 1, "why": "نستخدم is بين الاسم المفرد والصفة."},
+   {"q": "اختر الصحيح: She lives in ___ old house.", "o": ["a", "the a", "an", "any"], "a": 2, "why": "old تبدأ بصوت متحرك فنستخدم an."}
+  ]
+ },
+ {
+  "n": "30",
+  "type": "grammar",
+  "title_ar": "حروف الجر",
+  "title_en": "Prepositions",
+  "summary": "حروف الجر كلمات صغيرة لكنها مهمة جداً، تحدد المكان والزمان. في هذا الدرس تتعلم حروف جر المكان مثل in و on و under، وحروف جر الزمان in و on و at.",
+  "notes": [
+   {"h": "حروف جر المكان الأساسية", "t": "in = في / داخل: The keys are in the bag = المفاتيح في الحقيبة.\non = على: The book is on the table = الكتاب على الطاولة.\nunder = تحت: The cat is under the chair = القطة تحت الكرسي."},
+   {"h": "حروف مكان أخرى", "t": "next to = بجانب: The bank is next to the school = البنك بجانب المدرسة.\nbehind = خلف: The garden is behind the house = الحديقة خلف البيت.\nin front of = أمام: The car is in front of the house = السيارة أمام البيت.\nbetween = بين: The shop is between the bank and the hotel = المحل بين البنك والفندق."},
+   {"h": "at للمكان", "t": "نستخدم at مع مكان محدد أو نقطة: at home = في البيت، at work = في العمل، at school = في المدرسة، at the door = عند الباب.\nI am at home = أنا في البيت."},
+   {"h": "حروف جر الزمان", "t": "at + الساعة: at seven o'clock = في الساعة السابعة.\non + اليوم أو التاريخ: on Monday = يوم الاثنين.\nin + الشهر / السنة / الفصل / جزء من اليوم: in May = في مايو، in 2020، in summer = في الصيف، in the morning = في الصباح.\nاستثناء: at night = في الليل."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "كلمة (في) العربية تقابلها in أو on أو at حسب السياق. لا تقل: in Monday أو in seven o'clock. الصحيح: on Monday / at seven o'clock."},
+   {"k": "mistake", "t": "نقول at home بدون the وبدون in. لا تقل: in the home."},
+   {"k": "pron", "t": "انتبه للفرق بين in (إن) و on (أون). و under تُنطق (أَندر)، و behind تُنطق (بِهايند)."}
+  ],
+  "vocab": [
+   {"en": "in", "ar": "في / داخل", "emoji": "📥"},
+   {"en": "on", "ar": "على", "emoji": "🔛"},
+   {"en": "under", "ar": "تحت", "emoji": "⬇️"},
+   {"en": "next to", "ar": "بجانب", "emoji": "↔️"},
+   {"en": "behind", "ar": "خلف", "emoji": "🔙"},
+   {"en": "in front of", "ar": "أمام", "emoji": "⬆️"},
+   {"en": "between", "ar": "بين", "emoji": "🥪"},
+   {"en": "at", "ar": "عند / في", "emoji": "📍"},
+   {"en": "table", "ar": "طاولة", "emoji": "🪑"},
+   {"en": "bag", "ar": "حقيبة", "emoji": "👜"}
+  ],
+  "phrases": [
+   {"en": "The book is on the table.", "ar": "الكتاب على الطاولة."},
+   {"en": "The cat is under the chair.", "ar": "القطة تحت الكرسي."},
+   {"en": "The bank is next to the school.", "ar": "البنك بجانب المدرسة."},
+   {"en": "I get up at seven o'clock.", "ar": "أستيقظ في الساعة السابعة."},
+   {"en": "We don't work on Friday.", "ar": "نحن لا نعمل يوم الجمعة."}
+  ],
+  "quiz": [
+   {"q": "اختر الصحيح: The keys are ___ the bag.", "o": ["on", "at", "in", "between"], "a": 2, "why": "in تعني داخل الشيء."},
+   {"q": "اختر الصحيح: The lesson starts ___ eight o'clock.", "o": ["at", "in", "on", "under"], "a": 0, "why": "مع الساعة نستخدم at."},
+   {"q": "اختر الصحيح: I visit my family ___ Friday.", "o": ["in", "on", "at", "next to"], "a": 1, "why": "مع أيام الأسبوع نستخدم on."},
+   {"q": "ما معنى behind؟", "o": ["أمام", "بجانب", "تحت", "خلف"], "a": 3, "why": "behind = خلف، وعكسها in front of = أمام."},
+   {"q": "اختر الصحيح: My birthday is ___ May.", "o": ["on", "in", "at", "to"], "a": 1, "why": "مع الشهور نستخدم in."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I am at home.", "I am in the home.", "I am on home.", "I am at the home."], "a": 0, "why": "التعبير الثابت هو at home بدون the."}
+  ]
+ },
+ {
+  "n": "31",
+  "type": "grammar",
+  "title_ar": "يوجد / لا يوجد",
+  "title_en": "There is / There are",
+  "summary": "نستخدم There is و There are لنقول إن شيئاً موجود في مكان ما. في هذا الدرس تتعلم الإثبات والنفي والسؤال، وتستطيع بعده أن تصف غرفتك أو مدينتك.",
+  "notes": [
+   {"h": "الإثبات", "t": "There is + اسم مفرد: There is a book on the table = يوجد كتاب على الطاولة.\nThere are + اسم جمع: There are two books on the table = يوجد كتابان على الطاولة.\nالاختصار: There is = There's."},
+   {"h": "النفي", "t": "There isn't + مفرد: There isn't a bank here = لا يوجد بنك هنا.\nThere aren't + جمع: There aren't any shops here = لا توجد محلات هنا.\nفي النفي مع الجمع نستخدم any غالباً."},
+   {"h": "السؤال والإجابة", "t": "Is there + مفرد؟ Is there a hotel near here? = هل يوجد فندق قريب من هنا؟\nالإجابة: Yes, there is. / No, there isn't.\nAre there + جمع؟ Are there any chairs? = هل توجد كراسٍ؟\nالإجابة: Yes, there are. / No, there aren't."},
+   {"h": "مع الأسماء غير المعدودة", "t": "الاسم غير المعدود يعامل معاملة المفرد، فنستخدم There is.\nThere is some water in the bottle = يوجد بعض الماء في الزجاجة.\nThere isn't any milk = لا يوجد حليب."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "لا تترجم (يوجد) بكلمة أخرى مثل It has أو Exist. لا تقل: It has a book on the table. الصحيح: There is a book on the table."},
+   {"k": "grammar", "t": "الاختيار بين is و are يعتمد على الاسم الذي بعدها: مفرد → is، جمع → are."},
+   {"k": "pron", "t": "حرف th في there يُنطق مثل الذال (ذِير)، وليس (زير) أو (دير). ولا تخلط بينها وبين their (ملكهم) فالنطق واحد والمعنى مختلف."}
+  ],
+  "vocab": [
+   {"en": "there is", "ar": "يوجد (للمفرد)", "emoji": "☝️"},
+   {"en": "there are", "ar": "يوجد (للجمع)", "emoji": "✌️"},
+   {"en": "room", "ar": "غرفة", "emoji": "🚪"},
+   {"en": "bed", "ar": "سرير", "emoji": "🛏️"},
+   {"en": "chair", "ar": "كرسي", "emoji": "🪑"},
+   {"en": "window", "ar": "نافذة", "emoji": "🪟"},
+   {"en": "park", "ar": "حديقة عامة", "emoji": "🏞️"},
+   {"en": "hospital", "ar": "مستشفى", "emoji": "🏥"},
+   {"en": "near", "ar": "قريب من", "emoji": "📌"}
+  ],
+  "phrases": [
+   {"en": "There is a book on the table.", "ar": "يوجد كتاب على الطاولة."},
+   {"en": "There are two beds in the room.", "ar": "يوجد سريران في الغرفة."},
+   {"en": "There isn't a bank here.", "ar": "لا يوجد بنك هنا."},
+   {"en": "Is there a hotel near here?", "ar": "هل يوجد فندق قريب من هنا؟"},
+   {"en": "Are there any chairs?", "ar": "هل توجد كراسٍ؟"}
+  ],
+  "quiz": [
+   {"q": "اختر الصحيح: There ___ a park near my house.", "o": ["are", "is", "have", "be"], "a": 1, "why": "a park مفرد فنستخدم is."},
+   {"q": "اختر الصحيح: There ___ three windows in the room.", "o": ["are", "is", "has", "am"], "a": 0, "why": "three windows جمع فنستخدم are."},
+   {"q": "Is there a hospital here? — الإجابة الصحيحة:", "o": ["Yes, it is.", "Yes, there are.", "Yes, there is.", "Yes, is there."], "a": 2, "why": "نجيب عن Is there بـ Yes, there is."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["It has a cat under the bed.", "There are a cat under the bed.", "Is a cat under the bed.", "There is a cat under the bed."], "a": 3, "why": "نعبّر عن الوجود بـ There is مع المفرد."},
+   {"q": "اختر الصحيح: ___ any shops in this street?", "o": ["Is there", "There are", "Are there", "There is"], "a": 2, "why": "shops جمع، وفي السؤال نبدأ بـ Are there."},
+   {"q": "ما نفي: There is a bank here؟", "o": ["There isn't a bank here.", "There not is a bank here.", "There aren't a bank here.", "There doesn't a bank here."], "a": 0, "why": "ننفي is بإضافة not: isn't."}
+  ]
+ },
+ {
+  "n": "32",
+  "type": "grammar",
+  "title_ar": "الأسماء المعدودة وغير المعدودة",
+  "title_en": "Countable and uncountable nouns",
+  "summary": "بعض الأسماء في الإنجليزية يمكن عدّها مثل apple، وبعضها لا يُعد مثل water. معرفة الفرق مهمة لأنها تحدد استخدام a / an والجمع وكلمات الكمية.",
+  "notes": [
+   {"h": "الأسماء المعدودة", "t": "هي أشياء نستطيع عدّها واحداً واحداً، ولها مفرد وجمع.\none apple = تفاحة واحدة، two apples = تفاحتان.\na book → books، a car → cars، an egg → eggs.\nمع المفرد نستخدم a / an، ومع الجمع نستخدم are: The apples are red = التفاحات حمراء."},
+   {"h": "الأسماء غير المعدودة", "t": "هي أشياء لا نعدّها واحداً واحداً، مثل السوائل والمواد.\nwater = ماء، milk = حليب، rice = أرز، sugar = سكر، bread = خبز، money = مال، cheese = جبن.\nليس لها جمع، ولا نضع قبلها a / an، ونستخدم معها الفعل المفرد: The water is cold = الماء بارد."},
+   {"h": "كيف نعدّ غير المعدود؟", "t": "نستخدم وعاءً أو كمية:\na glass of water = كوب ماء.\na cup of tea = فنجان شاي.\na bottle of milk = زجاجة حليب.\na piece of bread = قطعة خبز.\ntwo cups of coffee = فنجانا قهوة."},
+   {"h": "السؤال عن الكمية", "t": "How many + معدود جمع؟ How many apples do you want? = كم تفاحة تريد؟\nHow much + غير معدود؟ How much sugar do you want? = كم من السكر تريد؟"}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "هذه الكلمات غير معدودة في الإنجليزية ولا تُجمع: money, bread, water, rice, information, advice. لا تقل: moneys أو a bread أو informations."},
+   {"k": "grammar", "t": "لا نستخدم a / an ولا الأرقام مباشرة مع غير المعدود. لا تقل: a water / two milks. قل: a glass of water / two bottles of milk."},
+   {"k": "tip", "t": "اسأل نفسك: هل أستطيع أن أقول واحد، اثنان، ثلاثة؟ إن نعم فالاسم معدود."}
+  ],
+  "vocab": [
+   {"en": "apple", "ar": "تفاحة", "emoji": "🍎"},
+   {"en": "egg", "ar": "بيضة", "emoji": "🥚"},
+   {"en": "water", "ar": "ماء", "emoji": "💧"},
+   {"en": "milk", "ar": "حليب", "emoji": "🥛"},
+   {"en": "rice", "ar": "أرز", "emoji": "🍚"},
+   {"en": "bread", "ar": "خبز", "emoji": "🍞"},
+   {"en": "sugar", "ar": "سكر", "emoji": "🍬"},
+   {"en": "cheese", "ar": "جبن", "emoji": "🧀"},
+   {"en": "money", "ar": "مال / نقود", "emoji": "💵"},
+   {"en": "glass", "ar": "كوب زجاجي", "emoji": "🥃"},
+   {"en": "bottle", "ar": "زجاجة", "emoji": "🍾"}
+  ],
+  "phrases": [
+   {"en": "I eat an apple every day.", "ar": "آكل تفاحة كل يوم."},
+   {"en": "I want a glass of water.", "ar": "أريد كوب ماء."},
+   {"en": "The milk is in the fridge.", "ar": "الحليب في الثلاجة."},
+   {"en": "How many eggs do you want?", "ar": "كم بيضة تريد؟"},
+   {"en": "We don't have bread.", "ar": "ليس لدينا خبز."}
+  ],
+  "quiz": [
+   {"q": "أي كلمة من هذه غير معدودة؟", "o": ["apple", "book", "water", "egg"], "a": 2, "why": "الماء سائل لا يُعد واحداً واحداً."},
+   {"q": "أي كلمة من هذه معدودة؟", "o": ["chair", "rice", "milk", "sugar"], "a": 0, "why": "نستطيع أن نقول one chair, two chairs."},
+   {"q": "اختر الصحيح: I want ___ of tea.", "o": ["a", "a cup", "an", "two"], "a": 1, "why": "نعدّ غير المعدود بوعاء: a cup of tea."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I have a money.", "I have moneys.", "I have two money.", "I have money."], "a": 3, "why": "money غير معدودة: لا تُجمع ولا تأخذ a."},
+   {"q": "اختر الصحيح: How ___ apples do you want?", "o": ["much", "many", "is", "are"], "a": 1, "why": "apples اسم معدود جمع فنسأل بـ How many."},
+   {"q": "اختر الصحيح: The bread ___ on the table.", "o": ["are", "be", "is", "have"], "a": 2, "why": "الاسم غير المعدود يأخذ الفعل المفرد is."}
+  ]
+ },
+ {
+  "n": "33",
+  "type": "grammar",
+  "title_ar": "بعض / أي",
+  "title_en": "Some / Any",
+  "summary": "نستخدم some و any للحديث عن كمية غير محددة. القاعدة الأساسية بسيطة: some في الإثبات، و any في النفي والسؤال.",
+  "notes": [
+   {"h": "some في الجمل المثبتة", "t": "some = بعض. تأتي قبل الجمع المعدود أو غير المعدود.\nI have some friends in London = لدي بعض الأصدقاء في لندن.\nThere is some milk in the fridge = يوجد بعض الحليب في الثلاجة."},
+   {"h": "any في النفي", "t": "any في النفي تعني (أي) أو (لا شيء من).\nI don't have any money = ليس لدي أي مال.\nThere aren't any eggs = لا يوجد أي بيض."},
+   {"h": "any في السؤال", "t": "Do you have any brothers? = هل لديك إخوة؟\nIs there any water? = هل يوجد ماء؟\nAre there any questions? = هل توجد أسئلة؟"},
+   {"h": "some في العرض والطلب", "t": "عندما نعرض شيئاً أو نطلبه بأدب نستخدم some حتى في السؤال.\nWould you like some tea? = هل تود بعض الشاي؟\nCan I have some water, please? = هل يمكنني الحصول على بعض الماء من فضلك؟"}
+  ],
+  "alerts": [
+   {"k": "grammar", "t": "القاعدة السريعة: some للإثبات (+)، any للنفي (−) والسؤال (؟)."},
+   {"k": "mistake", "t": "لا تستخدم some أو any مع المفرد المعدود. لا تقل: I have some car. الصحيح: I have a car."},
+   {"k": "pron", "t": "some تُنطق (سَم) وليس (سوم). any تُنطق (إِني)."}
+  ],
+  "vocab": [
+   {"en": "some", "ar": "بعض", "emoji": "🤏"},
+   {"en": "any", "ar": "أي", "emoji": "❓"},
+   {"en": "friends", "ar": "أصدقاء", "emoji": "👫"},
+   {"en": "tea", "ar": "شاي", "emoji": "🍵"},
+   {"en": "juice", "ar": "عصير", "emoji": "🧃"},
+   {"en": "eggs", "ar": "بيض", "emoji": "🥚"},
+   {"en": "fridge", "ar": "ثلاجة", "emoji": "🧊"},
+   {"en": "questions", "ar": "أسئلة", "emoji": "🙋"}
+  ],
+  "phrases": [
+   {"en": "I have some friends in London.", "ar": "لدي بعض الأصدقاء في لندن."},
+   {"en": "I don't have any money.", "ar": "ليس لدي أي مال."},
+   {"en": "Do you have any brothers?", "ar": "هل لديك إخوة؟"},
+   {"en": "Would you like some tea?", "ar": "هل تود بعض الشاي؟"},
+   {"en": "There is some juice in the fridge.", "ar": "يوجد بعض العصير في الثلاجة."}
+  ],
+  "quiz": [
+   {"q": "اختر الصحيح: I have ___ books.", "o": ["any", "a", "some", "an"], "a": 2, "why": "الجملة مثبتة والاسم جمع فنستخدم some."},
+   {"q": "اختر الصحيح: She doesn't have ___ sisters.", "o": ["any", "some", "a", "an"], "a": 0, "why": "في النفي نستخدم any."},
+   {"q": "اختر الصحيح: Are there ___ eggs in the fridge?", "o": ["some", "any", "a", "much"], "a": 1, "why": "في السؤال العادي نستخدم any."},
+   {"q": "اختر الصحيح للعرض بأدب: Would you like ___ coffee?", "o": ["any", "a", "many", "some"], "a": 3, "why": "في العرض والطلب نستخدم some حتى لو كانت الجملة سؤالاً."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I have any money.", "I don't have some money.", "I don't have any money.", "I have some car."], "a": 2, "why": "النفي يأخذ any: I don't have any money."}
+  ]
+ }
+]

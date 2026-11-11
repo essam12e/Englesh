@@ -1,0 +1,365 @@
+[
+{
+"n": "50",
+"type": "grammar",
+"title_ar": "فعل يكون في الماضي — الإثبات",
+"title_en": "Verb to be: past simple (positive)",
+"summary": "في هذا الدرس تتعلم كيف تقول كنتُ / كان / كانوا بالإنجليزية باستخدام was و were. هذا أول خطوة للتحدث عن الماضي: أين كنت، كيف كان الطقس، وكيف كان يومك.",
+"notes": [
+{"h": "القاعدة", "t": "الماضي من am / is هو was، والماضي من are هو were.\nالصيغة: Subject + was/were + ...\nمثال: I was at home = كنتُ في البيت."},
+{"h": "متى نستخدم was؟", "t": "مع I / he / she / it ومع الاسم المفرد.\nI was tired = كنتُ متعباً.\nShe was a teacher = كانت معلمة.\nThe film was good = كان الفيلم جيداً."},
+{"h": "متى نستخدم were؟", "t": "مع you / we / they ومع الاسم الجمع.\nYou were late = كنتَ متأخراً.\nWe were happy = كنا سعداء.\nThe children were at school = كان الأطفال في المدرسة."},
+{"h": "كلمات الزمن الماضي", "t": "yesterday = أمس\nlast night = الليلة الماضية\nlast week = الأسبوع الماضي\ntwo days ago = قبل يومين\nin 2010 = في عام 2010\nمثال: I was in Dubai last week = كنتُ في دبي الأسبوع الماضي."},
+{"h": "was born", "t": "نقول I was born للحديث عن الولادة.\nI was born in 1995 = وُلدتُ عام 1995.\nThey were born in Egypt = وُلدوا في مصر."}
+],
+"alerts": [
+{"k": "mistake", "t": "في العربية نقول «أنا متعب أمس» بدون فعل، لكن في الإنجليزية لا بد من was/were: I was tired yesterday وليس I tired yesterday."},
+{"k": "grammar", "t": "مع you نستخدم دائماً were حتى لو كنا نخاطب شخصاً واحداً: You were right = كنتَ محقاً."},
+{"k": "pron", "t": "was تُنطق: وَز (بصوت z في آخرها)، و were تُنطق: وِر (لا تنطقها مثل where = وير)."}
+],
+"vocab": [
+{"en": "was", "ar": "كان / كانت (للمفرد)", "emoji": "⏪"},
+{"en": "were", "ar": "كانوا / كنا / كنتم", "emoji": "👥"},
+{"en": "yesterday", "ar": "أمس", "emoji": "📆"},
+{"en": "last night", "ar": "الليلة الماضية", "emoji": "🌙"},
+{"en": "last week", "ar": "الأسبوع الماضي", "emoji": "🗓️"},
+{"en": "ago", "ar": "قبل / منذ", "emoji": "⏳"},
+{"en": "born", "ar": "مولود", "emoji": "👶"},
+{"en": "late", "ar": "متأخر", "emoji": "⏰"},
+{"en": "tired", "ar": "متعب", "emoji": "😫"},
+{"en": "busy", "ar": "مشغول", "emoji": "💼"}
+],
+"phrases": [
+{"en": "I was at home yesterday.", "ar": "كنتُ في البيت أمس."},
+{"en": "She was very tired last night.", "ar": "كانت متعبة جداً الليلة الماضية."},
+{"en": "We were at the park.", "ar": "كنا في الحديقة."},
+{"en": "The weather was cold last week.", "ar": "كان الطقس بارداً الأسبوع الماضي."},
+{"en": "I was born in 1995.", "ar": "وُلدتُ عام 1995."}
+],
+"quiz": [
+{"q": "اختر الصحيح: He ___ at work yesterday.", "o": ["were", "is", "was", "are"], "a": 2, "why": "مع he في الماضي نستخدم was."},
+{"q": "اختر الصحيح: They ___ happy last night.", "o": ["were", "was", "is", "am"], "a": 0, "why": "مع they في الماضي نستخدم were."},
+{"q": "ما معنى: two days ago؟", "o": ["بعد يومين", "قبل يومين", "كل يومين", "يومان فقط"], "a": 1, "why": "ago تعني قبل / منذ."},
+{"q": "أي جملة صحيحة؟", "o": ["I tired yesterday.", "I were tired yesterday.", "I am tired yesterday.", "I was tired yesterday."], "a": 3, "why": "مع I في الماضي نستخدم was، ولا تُحذف."},
+{"q": "اختر الصحيح: You ___ late this morning.", "o": ["was", "were", "is", "be"], "a": 1, "why": "مع you نستخدم دائماً were."},
+{"q": "اختر الصحيح: My sister ___ born in 2001.", "o": ["were", "is", "was", "are"], "a": 2, "why": "my sister مفرد، فنقول was born."}
+]
+},
+{
+"n": "51",
+"type": "grammar",
+"title_ar": "فعل يكون في الماضي — النفي",
+"title_en": "Verb to be: past simple (negative)",
+"summary": "تتعلم هنا كيف تنفي was و were لتقول: لم أكن، لم يكن، لم يكونوا. ستحتاج النفي كثيراً عندما تصحح معلومة أو تصف شيئاً لم يحدث في الماضي.",
+"notes": [
+{"h": "القاعدة", "t": "نضيف not بعد was / were.\nالصيغة: Subject + was not / were not + ...\nمثال: I was not at home = لم أكن في البيت."},
+{"h": "الاختصار", "t": "was not = wasn't\nwere not = weren't\nالاختصار هو الأكثر استخداماً في الكلام.\nHe wasn't happy = لم يكن سعيداً.\nThey weren't ready = لم يكونوا جاهزين."},
+{"h": "wasn't مع المفرد", "t": "مع I / he / she / it:\nI wasn't hungry = لم أكن جائعاً.\nThe test wasn't easy = لم يكن الاختبار سهلاً."},
+{"h": "weren't مع الجمع ومع you", "t": "مع you / we / they:\nYou weren't in class = لم تكن في الصف.\nWe weren't late = لم نكن متأخرين.\nThe shops weren't open = لم تكن المحلات مفتوحة."}
+],
+"alerts": [
+{"k": "mistake", "t": "لا تستخدم didn't مع was/were. الخطأ: I didn't was there. الصحيح: I wasn't there = لم أكن هناك."},
+{"k": "pron", "t": "wasn't تُنطق: وَزِنت، و weren't تُنطق: وِرنت. حرف t في آخرها خفيف جداً."},
+{"k": "grammar", "t": "لا تقل I weren't. مع I نقول دائماً I wasn't."}
+],
+"vocab": [
+{"en": "wasn't", "ar": "لم يكن / لم تكن", "emoji": "🚫"},
+{"en": "weren't", "ar": "لم يكونوا / لم نكن", "emoji": "❌"},
+{"en": "ready", "ar": "جاهز", "emoji": "✅"},
+{"en": "hungry", "ar": "جائع", "emoji": "🍽️"},
+{"en": "open", "ar": "مفتوح", "emoji": "🔓"},
+{"en": "easy", "ar": "سهل", "emoji": "👌"},
+{"en": "sick", "ar": "مريض", "emoji": "🤒"},
+{"en": "angry", "ar": "غاضب", "emoji": "😠"},
+{"en": "there", "ar": "هناك", "emoji": "👉"}
+],
+"phrases": [
+{"en": "I wasn't at school yesterday.", "ar": "لم أكن في المدرسة أمس."},
+{"en": "The test wasn't easy.", "ar": "لم يكن الاختبار سهلاً."},
+{"en": "They weren't at the party.", "ar": "لم يكونوا في الحفلة."},
+{"en": "We weren't hungry last night.", "ar": "لم نكن جائعين الليلة الماضية."},
+{"en": "She wasn't angry with me.", "ar": "لم تكن غاضبة مني."}
+],
+"quiz": [
+{"q": "اختر الصحيح: She ___ at home last night.", "o": ["weren't", "wasn't", "isn't", "don't"], "a": 1, "why": "مع she في الماضي المنفي نستخدم wasn't."},
+{"q": "اختر الصحيح: We ___ ready.", "o": ["wasn't", "didn't", "aren't was", "weren't"], "a": 3, "why": "مع we نستخدم weren't."},
+{"q": "أي جملة صحيحة؟", "o": ["I wasn't there.", "I didn't was there.", "I weren't there.", "I not was there."], "a": 0, "why": "النفي يكون بإضافة not بعد was: wasn't."},
+{"q": "ما الصيغة الكاملة لـ weren't؟", "o": ["was not", "will not", "were not", "are not"], "a": 2, "why": "weren't اختصار were not."},
+{"q": "اختر الصحيح: The shops ___ open yesterday.", "o": ["wasn't", "weren't", "isn't", "not"], "a": 1, "why": "the shops جمع، فنستخدم weren't."}
+]
+},
+{
+"n": "52",
+"type": "grammar",
+"title_ar": "فعل يكون في الماضي — السؤال",
+"title_en": "Verb to be: past simple (questions)",
+"summary": "تتعلم كيف تسأل بـ was و were: هل كنتَ...؟ أين كنتَ؟ كيف كان...؟ وتتعلم الإجابات القصيرة. هذه الأسئلة أساسية في أي حديث عن الماضي.",
+"notes": [
+{"h": "سؤال نعم / لا", "t": "نضع was / were قبل الفاعل.\nالصيغة: Was/Were + subject + ...?\nWas he at work? = هل كان في العمل؟\nWere you tired? = هل كنتَ متعباً؟"},
+{"h": "الإجابات القصيرة", "t": "Yes, I was. / No, I wasn't.\nYes, they were. / No, they weren't.\nمثال: Was the film good? - Yes, it was = هل كان الفيلم جيداً؟ - نعم."},
+{"h": "أسئلة بأدوات الاستفهام", "t": "الصيغة: Wh-word + was/were + subject?\nWhere were you? = أين كنتَ؟\nHow was your day? = كيف كان يومك؟\nWho was she? = من كانت؟\nWhen was the party? = متى كانت الحفلة؟"},
+{"h": "أسئلة شائعة", "t": "How was the weather? = كيف كان الطقس؟\nWhere were you born? = أين وُلدتَ؟\nWhy were you late? = لماذا تأخرتَ؟\nHow old were you? = كم كان عمرك؟"}
+],
+"alerts": [
+{"k": "mistake", "t": "لا تستخدم did في السؤال مع was/were. الخطأ: Did you was at home? الصحيح: Were you at home?"},
+{"k": "grammar", "t": "في الإجابة القصيرة بنعم لا نختصر، وفي النفي نختصر: Yes, I was. / No, I wasn't."},
+{"k": "tip", "t": "السؤال Were you...? يُجاب عنه بـ I was وليس I were: Were you busy? - Yes, I was."}
+],
+"vocab": [
+{"en": "where", "ar": "أين", "emoji": "📍"},
+{"en": "when", "ar": "متى", "emoji": "🕒"},
+{"en": "why", "ar": "لماذا", "emoji": "❓"},
+{"en": "how", "ar": "كيف", "emoji": "🤔"},
+{"en": "who", "ar": "من", "emoji": "👤"},
+{"en": "party", "ar": "حفلة", "emoji": "🎉"},
+{"en": "trip", "ar": "رحلة", "emoji": "🧳"},
+{"en": "meeting", "ar": "اجتماع", "emoji": "🤝"},
+{"en": "film", "ar": "فيلم", "emoji": "🎬"}
+],
+"phrases": [
+{"en": "Where were you last night?", "ar": "أين كنتَ الليلة الماضية؟"},
+{"en": "How was your trip?", "ar": "كيف كانت رحلتك؟"},
+{"en": "Were they at the meeting?", "ar": "هل كانوا في الاجتماع؟"},
+{"en": "Was the film good?", "ar": "هل كان الفيلم جيداً؟"},
+{"en": "Why were you late?", "ar": "لماذا تأخرتَ؟"}
+],
+"quiz": [
+{"q": "اختر الصحيح: ___ you at home yesterday?", "o": ["Was", "Did", "Were", "Are"], "a": 2, "why": "مع you في سؤال الماضي نستخدم Were."},
+{"q": "أكمل الإجابة: Was she happy? - Yes, she ___.", "o": ["was", "were", "did", "is"], "a": 0, "why": "الإجابة القصيرة تكرر نفس الفعل: she was."},
+{"q": "أي سؤال صحيح؟", "o": ["Where you were?", "Where did you was?", "Where was you?", "Where were you?"], "a": 3, "why": "الترتيب: أداة الاستفهام + were + you."},
+{"q": "ما معنى: How was your day?", "o": ["أين كان يومك؟", "كيف كان يومك؟", "متى كان يومك؟", "ما هو يومك؟"], "a": 1, "why": "How تعني كيف، و was تعني كان."},
+{"q": "أكمل: Were they late? - No, they ___.", "o": ["wasn't", "didn't", "weren't", "aren't"], "a": 2, "why": "مع they في النفي نستخدم weren't."},
+{"q": "اختر الصحيح: ___ the weather nice?", "o": ["Were", "Was", "Did", "Do"], "a": 1, "why": "the weather مفرد، فنستخدم Was."}
+]
+},
+{
+"n": "53",
+"type": "grammar",
+"title_ar": "الماضي البسيط — الأفعال المنتظمة",
+"title_en": "Past simple: regular verbs",
+"summary": "الماضي البسيط يُستخدم للأفعال التي انتهت في الماضي. في هذا الدرس تتعلم الأفعال المنتظمة التي نضيف لها ed، مع قواعد الكتابة والنطق والنفي والسؤال.",
+"notes": [
+{"h": "القاعدة", "t": "الصيغة: Subject + verb + ed\nالفعل لا يتغير مع أي فاعل.\nI worked yesterday = عملتُ أمس.\nShe worked yesterday = عملت أمس.\nThey played football = لعبوا كرة القدم."},
+{"h": "قواعد كتابة ed", "t": "أغلب الأفعال: + ed: watch - watched (شاهد)\nفعل ينتهي بـ e: + d فقط: live - lived (عاش)\nحرف ساكن + y: نحذف y ونضيف ied: study - studied (درس)\nحرف متحرك + y: + ed: play - played (لعب)\nفعل قصير ينتهي بمتحرك + ساكن: نضاعف الساكن: stop - stopped (توقف)"},
+{"h": "النفي", "t": "الصيغة: Subject + didn't + الفعل الأصلي (بدون ed)\nI didn't work yesterday = لم أعمل أمس.\nHe didn't watch TV = لم يشاهد التلفاز."},
+{"h": "السؤال", "t": "الصيغة: Did + subject + الفعل الأصلي?\nDid you study? = هل درستَ؟\nYes, I did. / No, I didn't.\nWhat did you cook? = ماذا طبختَ؟"},
+{"h": "نطق ed", "t": "ثلاث طرق:\n1) صوت t بعد الأصوات المهموسة: worked (وِركت)، watched (وُتشت)\n2) صوت d بعد الأصوات الأخرى: played (بليد)، lived (لِفد)\n3) صوت id بعد t أو d فقط: wanted (وُنتِد)، needed (نيدِد)"}
+],
+"alerts": [
+{"k": "pron", "t": "لا تنطق ed مقطعاً كاملاً دائماً. worked تُنطق: وِركت وليست وِركِد. ننطق «إد» فقط بعد t و d مثل wanted و needed."},
+{"k": "mistake", "t": "بعد didn't و Did يعود الفعل إلى أصله. الخطأ: I didn't worked. الصحيح: I didn't work."},
+{"k": "grammar", "t": "لا نضيف s في الماضي مع he / she / it: He played وليس He playeds."}
+],
+"vocab": [
+{"en": "worked", "ar": "عمل", "emoji": "💼"},
+{"en": "played", "ar": "لعب", "emoji": "⚽"},
+{"en": "watched", "ar": "شاهد", "emoji": "📺"},
+{"en": "studied", "ar": "درس", "emoji": "📚"},
+{"en": "cooked", "ar": "طبخ", "emoji": "🍳"},
+{"en": "cleaned", "ar": "نظّف", "emoji": "🧹"},
+{"en": "visited", "ar": "زار", "emoji": "🏠"},
+{"en": "walked", "ar": "مشى", "emoji": "🚶"},
+{"en": "started", "ar": "بدأ", "emoji": "▶️"},
+{"en": "stopped", "ar": "توقف", "emoji": "🛑"},
+{"en": "wanted", "ar": "أراد", "emoji": "🙏"},
+{"en": "lived", "ar": "عاش / سكن", "emoji": "🏡"}
+],
+"phrases": [
+{"en": "I watched a film last night.", "ar": "شاهدتُ فيلماً الليلة الماضية."},
+{"en": "She studied English yesterday.", "ar": "درست الإنجليزية أمس."},
+{"en": "We didn't play football.", "ar": "لم نلعب كرة القدم."},
+{"en": "Did you clean your room?", "ar": "هل نظّفتَ غرفتك؟"},
+{"en": "They lived in Cairo in 2015.", "ar": "عاشوا في القاهرة عام 2015."}
+],
+"quiz": [
+{"q": "ما الماضي من study؟", "o": ["studyed", "studied", "studed", "studid"], "a": 1, "why": "حرف ساكن + y: نحذف y ونضيف ied."},
+{"q": "اختر الصحيح: I ___ TV last night.", "o": ["watch", "watching", "watches", "watched"], "a": 3, "why": "last night تدل على الماضي فنضيف ed."},
+{"q": "أي جملة صحيحة؟", "o": ["He didn't work yesterday.", "He didn't worked yesterday.", "He doesn't worked yesterday.", "He not worked yesterday."], "a": 0, "why": "بعد didn't يأتي الفعل الأصلي بدون ed."},
+{"q": "اختر الصحيح: ___ you visit your family?", "o": ["Do", "Were", "Did", "Was"], "a": 2, "why": "السؤال في الماضي البسيط يبدأ بـ Did."},
+{"q": "في أي فعل تُنطق ed مثل «إد»؟", "o": ["played", "worked", "wanted", "cleaned"], "a": 2, "why": "تُنطق «إد» بعد t أو d فقط، و want ينتهي بـ t."},
+{"q": "ما الماضي من stop؟", "o": ["stoped", "stopped", "stopt", "stopied"], "a": 1, "why": "فعل قصير ينتهي بمتحرك ثم ساكن، فنضاعف الحرف الأخير."}
+]
+},
+{
+"n": "54",
+"type": "grammar",
+"title_ar": "الماضي البسيط — الأفعال غير المنتظمة",
+"title_en": "Past simple: irregular verbs",
+"summary": "كثير من الأفعال الأكثر استخداماً في الإنجليزية لا تأخذ ed في الماضي، بل تتغير صيغتها ويجب حفظها. في هذا الدرس تتعلم أهمها وكيف تنفيها وتسأل بها.",
+"notes": [
+{"h": "ما الفعل غير المنتظم؟", "t": "هو فعل له صيغة ماضٍ خاصة لا تتبع قاعدة ed.\ngo - went = ذهب\nhave - had = امتلك / تناول\ndo - did = فعل\nsee - saw = رأى\neat - ate = أكل"},
+{"h": "أفعال مهمة أخرى", "t": "come - came = أتى\nbuy - bought = اشترى\nmake - made = صنع\ntake - took = أخذ\nget - got = حصل على\ndrink - drank = شرب\nsay - said = قال\nwrite - wrote = كتب"},
+{"h": "في الإثبات فقط", "t": "صيغة الماضي الخاصة تُستخدم في الجملة المثبتة فقط، وهي واحدة مع كل الضمائر.\nI went to the market = ذهبتُ إلى السوق.\nShe went to the market = ذهبت إلى السوق."},
+{"h": "النفي والسؤال", "t": "مثل الأفعال المنتظمة: didn't / Did + الفعل الأصلي.\nI didn't go = لم أذهب.\nDid you see him? = هل رأيتَه؟\nWhat did you buy? = ماذا اشتريتَ؟"},
+{"h": "أفعال لا تتغير", "t": "بعض الأفعال تبقى كما هي في الماضي:\nput - put = وضع\ncut - cut = قطع\ncost - cost = كلّف\nوالفعل read يُكتب بنفس الشكل لكن يُنطق في الماضي: رِد."}
+],
+"alerts": [
+{"k": "mistake", "t": "لا تضف ed للفعل غير المنتظم. الخطأ: goed, eated, buyed. الصحيح: went, ate, bought."},
+{"k": "mistake", "t": "بعد didn't و Did نستخدم الفعل الأصلي. الخطأ: I didn't went. الصحيح: I didn't go."},
+{"k": "pron", "t": "bought تُنطق: بوت (gh صامتة)، said تُنطق: سِد وليست سَيد، ate تُنطق: إيت."}
+],
+"vocab": [
+{"en": "went", "ar": "ذهب", "emoji": "🚶"},
+{"en": "had", "ar": "امتلك / تناول", "emoji": "🤲"},
+{"en": "saw", "ar": "رأى", "emoji": "👀"},
+{"en": "ate", "ar": "أكل", "emoji": "🍽️"},
+{"en": "drank", "ar": "شرب", "emoji": "🥤"},
+{"en": "bought", "ar": "اشترى", "emoji": "🛍️"},
+{"en": "came", "ar": "أتى", "emoji": "🚪"},
+{"en": "made", "ar": "صنع", "emoji": "🛠️"},
+{"en": "took", "ar": "أخذ", "emoji": "✋"},
+{"en": "got", "ar": "حصل على", "emoji": "🎁"},
+{"en": "said", "ar": "قال", "emoji": "💬"},
+{"en": "wrote", "ar": "كتب", "emoji": "✍️"}
+],
+"phrases": [
+{"en": "I went to the market yesterday.", "ar": "ذهبتُ إلى السوق أمس."},
+{"en": "She bought a new phone.", "ar": "اشترت هاتفاً جديداً."},
+{"en": "We ate lunch at home.", "ar": "تناولنا الغداء في البيت."},
+{"en": "I didn't see him.", "ar": "لم أره."},
+{"en": "What did you buy?", "ar": "ماذا اشتريتَ؟"}
+],
+"quiz": [
+{"q": "ما الماضي من go؟", "o": ["goed", "gone", "went", "going"], "a": 2, "why": "go فعل غير منتظم وماضيه went."},
+{"q": "اختر الصحيح: She ___ a sandwich for lunch.", "o": ["ate", "eated", "eat", "eats"], "a": 0, "why": "الماضي من eat هو ate."},
+{"q": "أي جملة صحيحة؟", "o": ["I didn't went to work.", "I didn't goed to work.", "I not went to work.", "I didn't go to work."], "a": 3, "why": "بعد didn't يأتي الفعل الأصلي go."},
+{"q": "ما الماضي من buy؟", "o": ["buyed", "bought", "brought", "boughted"], "a": 1, "why": "buy - bought. أما brought فهو ماضي bring."},
+{"q": "اختر الصحيح: Did you ___ the film?", "o": ["saw", "seen", "see", "sees"], "a": 2, "why": "بعد Did نستخدم الفعل الأصلي see."},
+{"q": "ما معنى: He took my pen؟", "o": ["أعطاني قلمي", "أخذ قلمي", "كسر قلمي", "وجد قلمي"], "a": 1, "why": "took ماضي take ومعناه أخذ."}
+]
+},
+{
+"n": "55",
+"type": "conversation",
+"title_ar": "التحدث عن أمس",
+"title_en": "Talking about yesterday",
+"summary": "في هذا الدرس تستخدم الماضي البسيط لتحكي ما فعلته أمس من الصباح حتى المساء، وتسأل الآخرين عن يومهم. هذه محادثة يومية تتكرر كثيراً.",
+"notes": [
+{"h": "السؤال عن أمس", "t": "What did you do yesterday? = ماذا فعلتَ أمس؟\nHow was your day? = كيف كان يومك؟\nDid you go out? = هل خرجتَ؟\nWhat time did you get up? = متى استيقظتَ؟"},
+{"h": "يومي أمس", "t": "I got up at seven = استيقظتُ الساعة السابعة.\nI had breakfast = تناولتُ الفطور.\nI went to work = ذهبتُ إلى العمل.\nI came home at five = عدتُ إلى البيت الساعة الخامسة.\nI went to bed late = نمتُ متأخراً."},
+{"h": "تعابير الوقت", "t": "yesterday morning = صباح أمس\nyesterday afternoon = بعد ظهر أمس\nyesterday evening = مساء أمس\nlast night = الليلة الماضية\nنقول last night وليس yesterday night."},
+{"h": "ترتيب الأحداث", "t": "First = أولاً\nThen = ثم\nAfter that = بعد ذلك\nFinally = أخيراً\nمثال: First, I had breakfast. Then, I went to work = أولاً تناولتُ الفطور، ثم ذهبتُ إلى العمل."}
+],
+"alerts": [
+{"k": "mistake", "t": "لا تقل yesterday night. الصحيح: last night = الليلة الماضية."},
+{"k": "grammar", "t": "في السؤال What did you do? كلمة did الأولى للسؤال و do هي الفعل الأصلي (يفعل). والجواب يكون بفعل ماضٍ: I stayed at home."},
+{"k": "tip", "t": "احفظ ماضي أفعال الروتين: get up - got up، have - had، go - went، come - came."}
+],
+"vocab": [
+{"en": "got up", "ar": "استيقظ / نهض", "emoji": "⏰"},
+{"en": "breakfast", "ar": "فطور", "emoji": "🍳"},
+{"en": "morning", "ar": "صباح", "emoji": "🌅"},
+{"en": "afternoon", "ar": "بعد الظهر", "emoji": "☀️"},
+{"en": "evening", "ar": "مساء", "emoji": "🌆"},
+{"en": "then", "ar": "ثم", "emoji": "➡️"},
+{"en": "after that", "ar": "بعد ذلك", "emoji": "⏭️"},
+{"en": "finally", "ar": "أخيراً", "emoji": "🏁"},
+{"en": "stayed", "ar": "بقي", "emoji": "🏠"},
+{"en": "slept", "ar": "نام", "emoji": "😴"}
+],
+"phrases": [
+{"en": "What did you do yesterday?", "ar": "ماذا فعلتَ أمس؟"},
+{"en": "I got up at seven o'clock.", "ar": "استيقظتُ الساعة السابعة."},
+{"en": "Then I went to work.", "ar": "ثم ذهبتُ إلى العمل."},
+{"en": "I stayed at home last night.", "ar": "بقيتُ في البيت الليلة الماضية."},
+{"en": "I went to bed late.", "ar": "نمتُ متأخراً."}
+],
+"quiz": [
+{"q": "كيف تسأل: ماذا فعلتَ أمس؟", "o": ["What do you do yesterday?", "What did you do yesterday?", "What did you did yesterday?", "What you did yesterday?"], "a": 1, "why": "الصيغة: What + did + you + الفعل الأصلي do."},
+{"q": "أي تعبير صحيح لـ «الليلة الماضية»؟", "o": ["yesterday night", "past night", "last night", "night ago"], "a": 2, "why": "نقول last night وليس yesterday night."},
+{"q": "اختر الصحيح: I ___ up at six yesterday.", "o": ["got", "get", "getted", "gets"], "a": 0, "why": "الماضي من get up هو got up."},
+{"q": "ما معنى: After that؟", "o": ["قبل ذلك", "أولاً", "أخيراً", "بعد ذلك"], "a": 3, "why": "After that تُستخدم لترتيب الأحداث ومعناها بعد ذلك."},
+{"q": "اختر الصحيح: She ___ breakfast at eight.", "o": ["haved", "had", "has", "having"], "a": 1, "why": "الماضي من have هو had."}
+]
+},
+{
+"n": "56",
+"type": "conversation",
+"title_ar": "التحدث عن نهاية الأسبوع الماضية",
+"title_en": "Talking about last weekend",
+"summary": "تتعلم كيف تحكي ما فعلته في عطلة نهاية الأسبوع وتسأل زملاءك وأصدقاءك عنها. هذا من أشهر مواضيع المحادثة القصيرة بالإنجليزية.",
+"notes": [
+{"h": "الأسئلة", "t": "How was your weekend? = كيف كانت عطلة نهاية الأسبوع؟\nWhat did you do last weekend? = ماذا فعلتَ في نهاية الأسبوع الماضية؟\nDid you have a good weekend? = هل قضيتَ عطلة جيدة؟\nWho did you go with? = مع من ذهبتَ؟"},
+{"h": "الرد العام", "t": "It was great = كانت رائعة.\nIt was nice = كانت لطيفة.\nIt was OK = كانت عادية.\nIt was boring = كانت مملة.\nIt was busy = كانت مزدحمة بالأشغال."},
+{"h": "أنشطة نهاية الأسبوع", "t": "I visited my family = زرتُ عائلتي.\nI met my friends = قابلتُ أصدقائي.\nI went shopping = ذهبتُ للتسوق.\nI stayed at home = بقيتُ في البيت.\nI relaxed = استرحتُ.\nWe had a picnic = قمنا بنزهة."},
+{"h": "حروف الجر مع الوقت", "t": "on Friday = يوم الجمعة\non Saturday morning = صباح السبت\nat the weekend = في نهاية الأسبوع\nلكن مع last لا نضع حرف جر: last weekend, last Friday."}
+],
+"alerts": [
+{"k": "mistake", "t": "لا تضع حرف جر قبل last. الخطأ: in last weekend / on last Friday. الصحيح: last weekend / last Friday."},
+{"k": "grammar", "t": "نقول go shopping و go swimming (go + فعل ing) وفي الماضي: went shopping = ذهب للتسوق."},
+{"k": "pron", "t": "weekend تُنطق: ويك إند. و relaxed تُنطق: ريلاكست (ed هنا بصوت t)."}
+],
+"vocab": [
+{"en": "weekend", "ar": "نهاية الأسبوع", "emoji": "📅"},
+{"en": "met", "ar": "قابل", "emoji": "🤝"},
+{"en": "relaxed", "ar": "استراح", "emoji": "😌"},
+{"en": "shopping", "ar": "تسوق", "emoji": "🛒"},
+{"en": "picnic", "ar": "نزهة", "emoji": "🧺"},
+{"en": "great", "ar": "رائع", "emoji": "🤩"},
+{"en": "boring", "ar": "ممل", "emoji": "🥱"},
+{"en": "friends", "ar": "أصدقاء", "emoji": "👫"},
+{"en": "restaurant", "ar": "مطعم", "emoji": "🍴"},
+{"en": "beach", "ar": "شاطئ", "emoji": "🏖️"}
+],
+"phrases": [
+{"en": "How was your weekend?", "ar": "كيف كانت عطلة نهاية الأسبوع؟"},
+{"en": "It was great, thanks.", "ar": "كانت رائعة، شكراً."},
+{"en": "I met my friends on Friday.", "ar": "قابلتُ أصدقائي يوم الجمعة."},
+{"en": "We went to the beach.", "ar": "ذهبنا إلى الشاطئ."},
+{"en": "I stayed at home and relaxed.", "ar": "بقيتُ في البيت واسترحتُ."}
+],
+"quiz": [
+{"q": "اختر الصحيح: I visited my family ___.", "o": ["in last weekend", "on last weekend", "last weekend", "at last weekend"], "a": 2, "why": "لا نضع حرف جر قبل last."},
+{"q": "ما الماضي من meet؟", "o": ["met", "meeted", "meet", "mat"], "a": 0, "why": "meet فعل غير منتظم وماضيه met."},
+{"q": "أكمل: How was your weekend? - ___", "o": ["I am fine.", "It was nice.", "Yes, I did.", "It is Friday."], "a": 1, "why": "السؤال عن وصف العطلة، فالجواب It was + صفة."},
+{"q": "اختر الصحيح: We ___ shopping on Saturday.", "o": ["go", "goed", "going", "went"], "a": 3, "why": "الماضي من go shopping هو went shopping."},
+{"q": "ما معنى: It was boring؟", "o": ["كانت رائعة", "كانت مملة", "كانت متعبة", "كانت قصيرة"], "a": 1, "why": "boring تعني ممل."}
+]
+},
+{
+"n": "57",
+"type": "conversation",
+"title_ar": "التحدث عن العطلة الماضية",
+"title_en": "Talking about your last holiday",
+"summary": "تتعلم كيف تحكي عن آخر عطلة أو رحلة سفر: أين ذهبت، كيف سافرت، أين أقمت، وماذا فعلت. ستستخدم الماضي البسيط مع مفردات السفر.",
+"notes": [
+{"h": "أسئلة عن العطلة", "t": "Where did you go? = أين ذهبتَ؟\nHow did you get there? = كيف وصلتَ إلى هناك؟\nWhere did you stay? = أين أقمتَ؟\nHow long did you stay? = كم بقيتَ؟\nDid you enjoy it? = هل استمتعتَ بها؟"},
+{"h": "الإجابات", "t": "I went to Turkey = ذهبتُ إلى تركيا.\nI travelled by plane = سافرتُ بالطائرة.\nI stayed in a hotel = أقمتُ في فندق.\nI stayed for a week = بقيتُ أسبوعاً.\nI loved it = أحببتُها كثيراً."},
+{"h": "ماذا فعلت هناك؟", "t": "I took a lot of photos = التقطتُ صوراً كثيرة.\nI swam in the sea = سبحتُ في البحر.\nI visited a museum = زرتُ متحفاً.\nI tried the local food = جرّبتُ الطعام المحلي.\nI bought some gifts = اشتريتُ بعض الهدايا."},
+{"h": "وصف العطلة", "t": "The hotel was clean = كان الفندق نظيفاً.\nThe food was delicious = كان الطعام لذيذاً.\nThe people were friendly = كان الناس ودودين.\nThe weather was hot = كان الطقس حاراً."}
+],
+"alerts": [
+{"k": "grammar", "t": "مع وسائل النقل نستخدم by: by plane, by car, by train, by bus. لكن نقول on foot = مشياً."},
+{"k": "mistake", "t": "نقول take photos وليس make photos. في الماضي: I took photos = التقطتُ صوراً."},
+{"k": "pron", "t": "swam تُنطق: سوام، و museum تُنطق: ميوزيَم (النبر على zi)."}
+],
+"vocab": [
+{"en": "holiday", "ar": "عطلة", "emoji": "🏝️"},
+{"en": "travelled", "ar": "سافر", "emoji": "✈️"},
+{"en": "hotel", "ar": "فندق", "emoji": "🏨"},
+{"en": "plane", "ar": "طائرة", "emoji": "🛫"},
+{"en": "sea", "ar": "بحر", "emoji": "🌊"},
+{"en": "swam", "ar": "سبح", "emoji": "🏊"},
+{"en": "museum", "ar": "متحف", "emoji": "🏛️"},
+{"en": "photos", "ar": "صور", "emoji": "📸"},
+{"en": "gifts", "ar": "هدايا", "emoji": "🎁"},
+{"en": "delicious", "ar": "لذيذ", "emoji": "😋"},
+{"en": "enjoyed", "ar": "استمتع", "emoji": "😄"}
+],
+"phrases": [
+{"en": "Where did you go on holiday?", "ar": "أين ذهبتَ في العطلة؟"},
+{"en": "I went to Turkey by plane.", "ar": "ذهبتُ إلى تركيا بالطائرة."},
+{"en": "We stayed in a nice hotel.", "ar": "أقمنا في فندق جميل."},
+{"en": "I took a lot of photos.", "ar": "التقطتُ صوراً كثيرة."},
+{"en": "The food was delicious.", "ar": "كان الطعام لذيذاً."}
+],
+"quiz": [
+{"q": "اختر الصحيح: We travelled ___ train.", "o": ["with", "by", "in", "on"], "a": 1, "why": "مع وسائل النقل نستخدم by."},
+{"q": "ما الماضي من take؟", "o": ["taked", "taken", "tooked", "took"], "a": 3, "why": "take فعل غير منتظم وماضيه took."},
+{"q": "أي سؤال يعني: أين أقمتَ؟", "o": ["Where did you stay?", "Where did you go?", "How did you get there?", "How long did you stay?"], "a": 0, "why": "stay تعني أقام / بقي."},
+{"q": "اختر الصحيح: I ___ in the sea last summer.", "o": ["swimmed", "swum", "swam", "swim"], "a": 2, "why": "الماضي البسيط من swim هو swam."},
+{"q": "اختر الصحيح: The people ___ very friendly.", "o": ["was", "were", "did", "is"], "a": 1, "why": "people جمع، فنستخدم were."},
+{"q": "أي جملة صحيحة؟", "o": ["I made many photos.", "I taked many photos.", "I took many photos.", "I did many photos."], "a": 2, "why": "نقول take photos وماضيه took photos."}
+]
+}
+]

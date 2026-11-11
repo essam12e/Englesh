@@ -1,0 +1,425 @@
+[
+{
+ "n": "88",
+ "type": "conversation",
+ "title_ar": "الروتين اليومي بالتفصيل",
+ "title_en": "Daily routine in detail",
+ "summary": "في هذا الدرس تتعلم كيف تصف يومك من الاستيقاظ حتى النوم بتفصيل أكثر من المستوى المبتدئ. ستستخدم المضارع البسيط مع ظروف التكرار وأدوات الربط الزمنية لتجعل كلامك مرتبًا وطبيعيًا.",
+ "notes": [
+  {"h": "المضارع البسيط للعادات", "t": "نستخدم المضارع البسيط للحديث عن الأشياء التي نكررها كل يوم.\nI get up at six = أستيقظ في السادسة.\nمع he / she / it نضيف s: She gets up at six.\nالنفي: I don't have breakfast. / He doesn't have breakfast."},
+  {"h": "ظروف التكرار", "t": "always (دائمًا)، usually (عادةً)، often (غالبًا)، sometimes (أحيانًا)، hardly ever (نادرًا جدًا)، never (أبدًا).\nمكانها قبل الفعل الأساسي: I usually take the bus.\nوبعد فعل be: I am never late."},
+  {"h": "ترتيب الأحداث", "t": "استخدم كلمات الربط لترتيب يومك:\nFirst (أولًا)، then (ثم)، after that (بعد ذلك)، finally (أخيرًا).\nbefore + فعل بـ ing: I have a shower before going to work.\nafter + فعل بـ ing: After having dinner, I watch TV.\nas soon as = حالما: As soon as I wake up, I check my phone."},
+  {"h": "عبارات مفيدة عن الروتين", "t": "wake up = يستيقظ (يفتح عينيه) / get up = ينهض من السرير.\nget dressed = يرتدي ملابسه.\ncommute to work = يذهب إلى العمل يوميًا.\nhave a break = يأخذ استراحة.\ndo the housework = يقوم بأعمال المنزل.\nstay up late = يسهر.\ngo to bed = يذهب إلى السرير / fall asleep = يغفو."},
+  {"h": "أسئلة عن الروتين", "t": "What time do you get up? = في أي ساعة تستيقظ؟\nHow often do you exercise? = كم مرة تتمرن؟\nHow long does it take you to get to work? = كم يستغرق وصولك إلى العمل؟\nIt takes me twenty minutes = يستغرق مني عشرين دقيقة."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تقل I wake up at six and I sleep at eleven إذا قصدت وقت الذهاب إلى السرير؛ الصحيح: I go to bed at eleven. الفعل sleep يعني حالة النوم نفسها."},
+  {"k": "grammar", "t": "ظرف التكرار يأتي قبل الفعل الأساسي وبعد be: I always drink coffee / I am always tired. لا تقل I drink always coffee."},
+  {"k": "pron", "t": "كلمة usually تُنطق: يُوجْوَلي، وحرف s فيها يُنطق مثل الجيم الشامية (ج خفيفة) وليس س."}
+ ],
+ "vocab": [
+  {"en": "wake up", "ar": "يستيقظ", "emoji": "⏰"},
+  {"en": "get dressed", "ar": "يرتدي ملابسه", "emoji": "👔"},
+  {"en": "shower", "ar": "دُش / استحمام", "emoji": "🚿"},
+  {"en": "commute", "ar": "يتنقل إلى العمل يوميًا", "emoji": "🚌"},
+  {"en": "break", "ar": "استراحة", "emoji": "☕"},
+  {"en": "housework", "ar": "أعمال المنزل", "emoji": "🧹"},
+  {"en": "exercise", "ar": "يتمرن / تمرين", "emoji": "🏃"},
+  {"en": "stay up", "ar": "يسهر", "emoji": "🌙"},
+  {"en": "fall asleep", "ar": "يغفو", "emoji": "😴"},
+  {"en": "usually", "ar": "عادةً", "emoji": "🔁"}
+ ],
+ "phrases": [
+  {"en": "I usually get up at half past six.", "ar": "عادةً أستيقظ في السادسة والنصف."},
+  {"en": "It takes me twenty minutes to get to work.", "ar": "يستغرق مني عشرين دقيقة للوصول إلى العمل."},
+  {"en": "After having dinner, I watch the news.", "ar": "بعد تناول العشاء أشاهد الأخبار."},
+  {"en": "I hardly ever stay up late.", "ar": "نادرًا جدًا ما أسهر."},
+  {"en": "How often do you exercise?", "ar": "كم مرة تتمرن؟"}
+ ],
+ "quiz": [
+  {"q": "اختر الترتيب الصحيح:", "o": ["I drink always coffee.", "I always drink coffee.", "Always I drinking coffee.", "I drink coffee always am."], "a": 1, "why": "ظرف التكرار يأتي قبل الفعل الأساسي."},
+  {"q": "أكمل: I have a shower before ___ to work.", "o": ["go", "goes", "going", "went"], "a": 2, "why": "بعد before نستخدم الفعل بصيغة ing."},
+  {"q": "ما معنى hardly ever؟", "o": ["نادرًا جدًا", "دائمًا", "غالبًا", "بصعوبة شديدة"], "a": 0, "why": "hardly ever تعني نادرًا جدًا، تقريبًا never."},
+  {"q": "أكمل: It ___ me an hour to get to the office.", "o": ["makes", "does", "gets", "takes"], "a": 3, "why": "نقول It takes me + مدة للتعبير عن الوقت المستغرق."},
+  {"q": "أكمل: She ___ up at seven every day.", "o": ["get", "gets", "getting", "is get"], "a": 1, "why": "مع she في المضارع البسيط نضيف s للفعل."},
+  {"q": "ما معنى stay up late؟", "o": ["يستيقظ متأخرًا", "يتأخر عن العمل", "يسهر", "ينام مبكرًا"], "a": 2, "why": "stay up late تعني أن تبقى مستيقظًا حتى وقت متأخر."}
+ ]
+},
+{
+ "n": "89",
+ "type": "conversation",
+ "title_ar": "الحديث عن العمل",
+ "title_en": "Talking about work",
+ "summary": "تتعلم في هذا الدرس كيف تتحدث عن وظيفتك: ماذا تعمل، أين، ما مسؤولياتك وما رأيك في عملك. هذه من أكثر المواضيع شيوعًا في المحادثات والمقابلات.",
+ "notes": [
+  {"h": "السؤال عن الوظيفة", "t": "What do you do? = ماذا تعمل؟ (وهو أشهر سؤال عن المهنة)\nWhat do you do for a living? = ما مصدر رزقك؟\nWhere do you work? = أين تعمل؟\nالإجابة: I'm an accountant. / I work as a nurse. / I work for a bank. / I work in marketing."},
+  {"h": "حروف الجر مع work", "t": "work as + المهنة: I work as a teacher.\nwork for + الشركة أو الشخص: She works for Google.\nwork in + المجال أو المكان: He works in sales / in a hospital.\nwork on + مشروع: We are working on a new project.\nwork with + أشخاص: I work with children."},
+  {"h": "وصف المسؤوليات", "t": "I'm responsible for + اسم أو فعل بـ ing: I'm responsible for training new staff.\nI'm in charge of the sales team = أنا المسؤول عن فريق المبيعات.\nMy job involves travelling a lot = عملي يتضمن السفر كثيرًا.\nI deal with customers = أتعامل مع العملاء."},
+  {"h": "ظروف العمل", "t": "full-time = دوام كامل / part-time = دوام جزئي.\nwork shifts = يعمل بنظام المناوبات.\nwork overtime = يعمل ساعات إضافية.\nself-employed = يعمل لحسابه الخاص.\nunemployed = عاطل عن العمل.\nget a promotion = يحصل على ترقية / retire = يتقاعد / resign = يستقيل."},
+  {"h": "رأيك في عملك", "t": "My job is rewarding = عملي مُجزٍ معنويًا.\nIt's stressful but well paid = مُجهد لكن راتبه جيد.\nI get on well with my colleagues = علاقتي جيدة مع زملائي.\nThe salary is not great, but I enjoy it."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تنسَ أداة النكرة قبل المهنة: I'm a doctor / I'm an engineer. الخطأ الشائع: I'm doctor."},
+  {"k": "mistake", "t": "كلمة job معدودة و work غير معدودة: I have a good job (وليس a good work). I have a lot of work today."},
+  {"k": "pron", "t": "colleague تُنطق: كُولِيغ (الحروف ue في النهاية صامتة)، و salary تُنطق: سَالَري."}
+ ],
+ "vocab": [
+  {"en": "colleague", "ar": "زميل عمل", "emoji": "🧑‍🤝‍🧑"},
+  {"en": "salary", "ar": "راتب", "emoji": "💰"},
+  {"en": "manager", "ar": "مدير", "emoji": "👨‍💼"},
+  {"en": "full-time", "ar": "دوام كامل", "emoji": "🕘"},
+  {"en": "overtime", "ar": "ساعات إضافية", "emoji": "⏱️"},
+  {"en": "promotion", "ar": "ترقية", "emoji": "📈"},
+  {"en": "responsible", "ar": "مسؤول", "emoji": "📋"},
+  {"en": "self-employed", "ar": "يعمل لحسابه", "emoji": "🧑‍💻"},
+  {"en": "retire", "ar": "يتقاعد", "emoji": "🏖️"},
+  {"en": "meeting", "ar": "اجتماع", "emoji": "🤝"},
+  {"en": "stressful", "ar": "مُجهد / مُوتِّر", "emoji": "😫"}
+ ],
+ "phrases": [
+  {"en": "What do you do for a living?", "ar": "ماذا تعمل لكسب رزقك؟"},
+  {"en": "I work as an engineer for a big company.", "ar": "أعمل مهندسًا لدى شركة كبيرة."},
+  {"en": "I'm responsible for training new staff.", "ar": "أنا مسؤول عن تدريب الموظفين الجدد."},
+  {"en": "My job is stressful but well paid.", "ar": "عملي مُجهد لكن راتبه جيد."},
+  {"en": "I get on well with my colleagues.", "ar": "علاقتي جيدة مع زملائي."}
+ ],
+ "quiz": [
+  {"q": "أكمل: She works ___ a nurse in a big hospital.", "o": ["for", "like", "as", "in"], "a": 2, "why": "نستخدم work as قبل اسم المهنة."},
+  {"q": "أكمل: I'm responsible for ___ the website.", "o": ["manage", "managing", "manages", "to manage"], "a": 1, "why": "بعد حرف الجر for يأتي الفعل بصيغة ing."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I have a good job.", "I have a good work.", "I'm engineer.", "I work like a teacher."], "a": 0, "why": "job اسم معدود فنقول a good job، أما work فغير معدود."},
+  {"q": "ما معنى What do you do؟", "o": ["ماذا تفعل الآن؟", "كيف حالك؟", "ماذا فعلت؟", "ما مهنتك؟"], "a": 3, "why": "What do you do? هو السؤال المعتاد عن المهنة."},
+  {"q": "شخص يعمل لحسابه الخاص هو:", "o": ["unemployed", "retired", "self-employed", "part-time"], "a": 2, "why": "self-employed تعني أنه يعمل لنفسه وليس عند شركة."},
+  {"q": "أكمل: He works ___ a bank in the city centre.", "o": ["for", "as", "on", "like"], "a": 0, "why": "work for + اسم الشركة أو المؤسسة."}
+ ]
+},
+{
+ "n": "90",
+ "type": "conversation",
+ "title_ar": "الحديث عن دراستك",
+ "title_en": "Talking about your studies",
+ "summary": "تتعلم هنا كيف تتحدث عن دراستك الحالية والسابقة: التخصص، المواد، الامتحانات والدرجات. ستتعرف أيضًا على أفعال مهمة مثل pass و fail و graduate مع حروف الجر الصحيحة.",
+ "notes": [
+  {"h": "السؤال عن الدراسة", "t": "What do you study? / What are you studying? = ماذا تدرس؟\nWhat's your major? = ما تخصصك؟\nWhich year are you in? = في أي سنة أنت؟\nالإجابة: I'm studying medicine at Cairo University. / I'm in my second year. / I'm doing a degree in law."},
+  {"h": "الامتحانات", "t": "take an exam (أو do / sit an exam) = يؤدي امتحانًا.\npass an exam = ينجح في الامتحان.\nfail an exam = يرسب في الامتحان.\nrevise for an exam = يراجع للامتحان.\nget good marks / grades = يحصل على درجات جيدة.\nانتبه: pass the exam لا تعني يؤدي الامتحان، بل ينجح فيه."},
+  {"h": "التخرج والشهادات", "t": "graduate from + الجامعة: I graduated from university in 2020.\ngraduate in + التخصص: She graduated in engineering.\na degree = شهادة جامعية / a bachelor's degree = بكالوريوس / a master's degree = ماجستير.\napply for a scholarship = يتقدم لمنحة دراسية."},
+  {"h": "الحديث عن المواد", "t": "I'm good at maths = أنا جيد في الرياضيات.\nI'm bad at chemistry = أنا ضعيف في الكيمياء.\nI'm interested in history = أنا مهتم بالتاريخ.\nMy favourite subject is physics.\nI find grammar difficult = أجد القواعد صعبة."},
+  {"h": "الحياة الدراسية", "t": "attend a lecture = يحضر محاضرة.\ntake notes = يدوّن ملاحظات.\nhand in an assignment = يسلّم واجبًا.\nmeet a deadline = يلتزم بالموعد النهائي.\nmiss a class = يتغيب عن حصة."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "نقول good at وليس good in: I'm good at English. ونقول graduate from university وليس graduate university."},
+  {"k": "mistake", "t": "كلمة homework غير معدودة: I have a lot of homework. لا تقل homeworks ولا a homework."},
+  {"k": "pron", "t": "subject (اسم) النبرة على المقطع الأول: سَبْجِكت. و degree النبرة على الثاني: دِغْرِي."}
+ ],
+ "vocab": [
+  {"en": "degree", "ar": "شهادة جامعية", "emoji": "🎓"},
+  {"en": "subject", "ar": "مادة دراسية", "emoji": "📚"},
+  {"en": "lecture", "ar": "محاضرة", "emoji": "👩‍🏫"},
+  {"en": "exam", "ar": "امتحان", "emoji": "📝"},
+  {"en": "pass", "ar": "ينجح", "emoji": "✅"},
+  {"en": "fail", "ar": "يرسب", "emoji": "❌"},
+  {"en": "revise", "ar": "يراجع", "emoji": "📖"},
+  {"en": "graduate", "ar": "يتخرج", "emoji": "🧑‍🎓"},
+  {"en": "scholarship", "ar": "منحة دراسية", "emoji": "🏅"},
+  {"en": "assignment", "ar": "واجب / تكليف", "emoji": "📄"},
+  {"en": "deadline", "ar": "الموعد النهائي", "emoji": "📅"}
+ ],
+ "phrases": [
+  {"en": "I'm studying medicine at university.", "ar": "أدرس الطب في الجامعة."},
+  {"en": "I'm in my second year.", "ar": "أنا في سنتي الثانية."},
+  {"en": "I have to revise for my exams.", "ar": "يجب أن أراجع لامتحاناتي."},
+  {"en": "She graduated from university last year.", "ar": "تخرجت من الجامعة العام الماضي."},
+  {"en": "I'm good at maths but bad at history.", "ar": "أنا جيد في الرياضيات لكني ضعيف في التاريخ."}
+ ],
+ "quiz": [
+  {"q": "أكمل: I'm good ___ languages.", "o": ["in", "at", "on", "for"], "a": 1, "why": "الصفة good يتبعها حرف الجر at."},
+  {"q": "ما معنى He passed the exam؟", "o": ["أدّى الامتحان", "تغيّب عن الامتحان", "رسب في الامتحان", "نجح في الامتحان"], "a": 3, "why": "pass an exam تعني النجاح فيه، أما أداؤه فهو take an exam."},
+  {"q": "أكمل: She graduated ___ Oxford University.", "o": ["from", "of", "at", "to"], "a": 0, "why": "نقول graduate from + اسم الجامعة."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I have many homeworks.", "I have a homework.", "I have a lot of homework.", "I have homeworks a lot."], "a": 2, "why": "homework اسم غير معدود فلا يُجمع ولا يأخذ a."},
+  {"q": "ما معنى hand in an assignment؟", "o": ["يكتب واجبًا", "يسلّم واجبًا", "ينسى واجبًا", "يصحح واجبًا"], "a": 1, "why": "hand in تعني يسلّم العمل للمعلم."},
+  {"q": "أكمل: I need to ___ for my exam tomorrow.", "o": ["fail", "graduate", "attend", "revise"], "a": 3, "why": "revise for an exam = يراجع للامتحان."}
+ ]
+},
+{
+ "n": "91",
+ "type": "conversation",
+ "title_ar": "الحديث عن عطلة نهاية الأسبوع",
+ "title_en": "Talking about weekends",
+ "summary": "تتعلم كيف تسأل عن عطلة نهاية الأسبوع وتتحدث عنها: ما تفعله عادةً، ما فعلته في العطلة الماضية وما تخطط له في القادمة. هذا موضوع يومي جدًا في الأحاديث القصيرة بين الزملاء والأصدقاء.",
+ "notes": [
+  {"h": "ثلاثة أزمنة لثلاثة مواقف", "t": "العادة (مضارع بسيط): What do you usually do at the weekend? - I usually visit my parents.\nالماضي (ماضٍ بسيط): What did you do last weekend? - I stayed at home.\nالمستقبل (going to أو المضارع المستمر): What are you doing this weekend? - I'm going to meet some friends."},
+  {"h": "السؤال عن العطلة", "t": "How was your weekend? = كيف كانت عطلتك؟\nDid you have a good weekend? = هل قضيت عطلة جيدة؟\nDid you do anything special? = هل فعلت شيئًا مميزًا؟\nAny plans for the weekend? = هل لديك خطط للعطلة؟"},
+  {"h": "الإجابات الشائعة", "t": "It was great, thanks = كانت رائعة، شكرًا.\nNothing special. I just relaxed = لا شيء مميز، استرخيت فقط.\nIt was quite busy = كانت مزدحمة بعض الشيء.\nI didn't do much = لم أفعل الكثير.\nوبعد الإجابة ردّ السؤال: How about you? / What about yours?"},
+  {"h": "أنشطة العطلة", "t": "have a lie-in = ينام حتى وقت متأخر صباحًا.\ngo out with friends = يخرج مع الأصدقاء.\ngo for a walk = يذهب للتنزه مشيًا.\nhave a barbecue = يقيم حفل شواء.\nstay in = يبقى في البيت.\ncatch up on sleep = يعوّض النوم.\nspend time with family = يقضي وقتًا مع العائلة."},
+  {"h": "go + ing للأنشطة", "t": "مع كثير من الأنشطة الترفيهية نستخدم go + فعل بـ ing:\ngo shopping = يذهب للتسوق.\ngo swimming = يذهب للسباحة.\ngo fishing = يذهب لصيد السمك.\ngo camping = يذهب للتخييم.\nلا نضيف to: I went shopping (وليس went to shopping)."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "في الإنجليزية البريطانية نقول at the weekend وفي الأمريكية on the weekend، وكلاهما صحيح. لكن لا تقل in the weekend."},
+  {"k": "mistake", "t": "مع last weekend استخدم الماضي البسيط دائمًا: I went to the beach last weekend. لا تقل I go أو I have gone."},
+  {"k": "tip", "t": "السؤال How was your weekend? هو مجرد حديث ودي؛ يكفي جواب قصير ثم تسأل: And yours?"}
+ ],
+ "vocab": [
+  {"en": "weekend", "ar": "عطلة نهاية الأسبوع", "emoji": "📆"},
+  {"en": "relax", "ar": "يسترخي", "emoji": "😌"},
+  {"en": "lie-in", "ar": "نوم حتى وقت متأخر", "emoji": "🛌"},
+  {"en": "go out", "ar": "يخرج للتنزه", "emoji": "🚶"},
+  {"en": "stay in", "ar": "يبقى في البيت", "emoji": "🏠"},
+  {"en": "barbecue", "ar": "حفل شواء", "emoji": "🍖"},
+  {"en": "camping", "ar": "تخييم", "emoji": "🏕️"},
+  {"en": "fishing", "ar": "صيد السمك", "emoji": "🎣"},
+  {"en": "plans", "ar": "خطط", "emoji": "🗓️"},
+  {"en": "busy", "ar": "مشغول", "emoji": "🏃"}
+ ],
+ "phrases": [
+  {"en": "How was your weekend?", "ar": "كيف كانت عطلتك؟"},
+  {"en": "I didn't do much. I just relaxed.", "ar": "لم أفعل الكثير، استرخيت فقط."},
+  {"en": "We went camping in the mountains.", "ar": "ذهبنا للتخييم في الجبال."},
+  {"en": "What are you doing this weekend?", "ar": "ماذا ستفعل في هذه العطلة؟"},
+  {"en": "I usually have a lie-in on Saturdays.", "ar": "عادةً أنام حتى وقت متأخر أيام السبت."}
+ ],
+ "quiz": [
+  {"q": "أكمل: What ___ you do last weekend?", "o": ["do", "did", "are", "have"], "a": 1, "why": "last weekend زمن ماضٍ محدد فنستخدم did."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["We went to shopping.", "We went shop.", "We went shopping.", "We go shopping yesterday."], "a": 2, "why": "نقول go + ing بدون to: went shopping."},
+  {"q": "ما معنى have a lie-in؟", "o": ["ينام حتى وقت متأخر صباحًا", "يكذب على شخص", "يسهر ليلًا", "يأخذ قيلولة قصيرة"], "a": 0, "why": "have a lie-in تعني البقاء في السرير صباحًا أكثر من المعتاد."},
+  {"q": "أيّ عبارة خاطئة؟", "o": ["at the weekend", "on the weekend", "last weekend", "in the weekend"], "a": 3, "why": "نقول at أو on the weekend ولا نستخدم in."},
+  {"q": "أكمل: I usually ___ my grandparents on Fridays.", "o": ["visited", "visiting", "visit", "am visit"], "a": 2, "why": "العادة المتكررة تُعبَّر بالمضارع البسيط."},
+  {"q": "الرد المناسب على: How was your weekend?", "o": ["It was great, thanks.", "I'm fine, thanks.", "Yes, I do.", "At the weekend."], "a": 0, "why": "السؤال عن الماضي فالإجابة بـ It was."}
+ ]
+},
+{
+ "n": "92",
+ "type": "conversation",
+ "title_ar": "شراء الملابس",
+ "title_en": "Shopping for clothes",
+ "summary": "تتعلم في هذا الدرس العبارات التي تحتاجها في محل الملابس: السؤال عن المقاس واللون، تجربة القطعة، إبداء الرأي فيها، والدفع أو الإرجاع. ستتمكن بعده من إجراء حوار كامل مع البائع.",
+ "notes": [
+  {"h": "مع البائع", "t": "Can I help you? = هل أستطيع مساعدتك؟\nI'm just looking, thanks = أنا أتفرج فقط، شكرًا.\nI'm looking for a jacket = أبحث عن سترة.\nDo you have this in blue? = هل لديكم هذا باللون الأزرق؟\nDo you have this in a medium? = هل لديكم هذا بمقاس متوسط؟"},
+  {"h": "المقاس والتجربة", "t": "What size are you? = ما مقاسك؟\nI'm a size 40 / I'm a medium.\nCan I try this on? = هل يمكنني تجربة هذا؟\nWhere are the fitting rooms? = أين غرف القياس؟\nالمقاسات: small, medium, large, extra large."},
+  {"h": "fit و suit", "t": "fit = يناسب من حيث المقاس: These shoes don't fit me. They're too small.\nsuit = يليق من حيث الشكل واللون: That colour really suits you.\ntoo + صفة = أكثر من اللازم: It's too tight (ضيق جدًا) / too loose (واسع جدًا).\nnot + صفة + enough: It isn't long enough = ليس طويلًا كفاية."},
+  {"h": "السعر والدفع", "t": "How much is this shirt? = كم سعر هذا القميص؟\nHow much are these trousers? = كم سعر هذا البنطال؟\nIs it in the sale? = هل هو ضمن التخفيضات؟\nIt's 20 percent off = عليه خصم 20 بالمئة.\nI'll take it = سآخذه.\nCan I pay by card? = هل أستطيع الدفع بالبطاقة؟"},
+  {"h": "الإرجاع والاستبدال", "t": "I'd like to return this = أود إرجاع هذا.\nCan I exchange it for a bigger size? = هل أستطيع استبداله بمقاس أكبر؟\nCan I have a refund? = هل أستطيع استرداد نقودي؟\nDo you have the receipt? = هل معك الإيصال؟"}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "كلمات مثل trousers, jeans, shorts, glasses دائمًا جمع: These jeans are nice. نقول a pair of jeans ولا نقول a jeans."},
+  {"k": "pron", "t": "في receipt حرف p صامت، تُنطق: رِسِيت. وكلمة clothes تُنطق مقطعًا واحدًا قريبًا من: كْلُوذْز، وليس كْلُوثِز."},
+  {"k": "mistake", "t": "الفعل try on يُفصل مع الضمير: try it on / try them on. لا تقل try on it."}
+ ],
+ "vocab": [
+  {"en": "size", "ar": "مقاس", "emoji": "📏"},
+  {"en": "try on", "ar": "يجرّب (ملابس)", "emoji": "👗"},
+  {"en": "fitting room", "ar": "غرفة القياس", "emoji": "🚪"},
+  {"en": "tight", "ar": "ضيّق", "emoji": "🤏"},
+  {"en": "loose", "ar": "واسع", "emoji": "👘"},
+  {"en": "jacket", "ar": "سترة", "emoji": "🧥"},
+  {"en": "trousers", "ar": "بنطال", "emoji": "👖"},
+  {"en": "sale", "ar": "تخفيضات", "emoji": "🏷️"},
+  {"en": "receipt", "ar": "إيصال", "emoji": "🧾"},
+  {"en": "refund", "ar": "استرداد النقود", "emoji": "💵"},
+  {"en": "exchange", "ar": "يستبدل", "emoji": "🔄"}
+ ],
+ "phrases": [
+  {"en": "I'm just looking, thanks.", "ar": "أنا أتفرج فقط، شكرًا."},
+  {"en": "Can I try this on, please?", "ar": "هل يمكنني تجربة هذا من فضلك؟"},
+  {"en": "Do you have this in a bigger size?", "ar": "هل لديكم هذا بمقاس أكبر؟"},
+  {"en": "It's too tight. It doesn't fit me.", "ar": "إنه ضيق جدًا، لا يناسب مقاسي."},
+  {"en": "That colour really suits you.", "ar": "هذا اللون يليق بك حقًا."},
+  {"en": "Can I pay by card?", "ar": "هل أستطيع الدفع بالبطاقة؟"}
+ ],
+ "quiz": [
+  {"q": "أكمل: These trousers ___ too long.", "o": ["is", "are", "was", "be"], "a": 1, "why": "trousers اسم جمع دائمًا فيأخذ are."},
+  {"q": "القميص مقاسه صحيح لكن لونه لا يليق بك. تقول:", "o": ["It doesn't fit me.", "It's too tight.", "It doesn't suit me.", "It's not big enough."], "a": 2, "why": "suit للشكل واللون، و fit للمقاس."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["Can I try on it?", "Can I on try it?", "Can I try it in?", "Can I try it on?"], "a": 3, "why": "الضمير يأتي بين try و on."},
+  {"q": "ما معنى I'd like a refund؟", "o": ["أريد استرداد نقودي", "أريد خصمًا", "أريد مقاسًا آخر", "أريد إيصالًا"], "a": 0, "why": "refund تعني إعادة المبلغ المدفوع."},
+  {"q": "أكمل: How much ___ these shoes?", "o": ["is", "does", "are", "do"], "a": 2, "why": "shoes جمع فنستخدم are."},
+  {"q": "أكمل: The jacket is ___ small. I need a bigger one.", "o": ["enough", "too", "very much", "more"], "a": 1, "why": "too + صفة تعني أكثر من اللازم."}
+ ]
+},
+{
+ "n": "93",
+ "type": "conversation",
+ "title_ar": "شراء الطعام",
+ "title_en": "Shopping for food",
+ "summary": "تتعلم هنا مفردات وعبارات شراء الطعام من السوبرماركت أو السوق: الكميات والعبوات، السؤال عن مكان المنتجات، والفرق بين much و many و some و any. الدرس يراجع أيضًا الأسماء المعدودة وغير المعدودة عمليًا.",
+ "notes": [
+  {"h": "المعدود وغير المعدود", "t": "أسماء معدودة: an apple, two eggs, three tomatoes.\nأسماء غير معدودة (لا تُجمع): milk, bread, rice, sugar, cheese, meat, water.\nHow many + معدود: How many eggs do we need?\nHow much + غير معدود: How much rice do we need?\nHow much is it? = كم السعر؟"},
+  {"h": "some و any", "t": "some في الجمل المثبتة: We need some milk.\nany في النفي والسؤال: We don't have any bread. Do we have any eggs?\nفي العرض والطلب نستخدم some: Would you like some tea? / Can I have some water?"},
+  {"h": "العبوات والكميات", "t": "a loaf of bread = رغيف خبز.\na bottle of water = زجاجة ماء.\na carton of milk = علبة حليب كرتونية.\na can of tuna = علبة تونة معدنية.\na packet of biscuits = علبة بسكويت.\na jar of honey = مرطبان عسل.\na bag of rice = كيس أرز.\na kilo of tomatoes / half a kilo of cheese / a dozen eggs = دزينة بيض."},
+  {"h": "في المتجر", "t": "Excuse me, where can I find the rice? = أين أجد الأرز؟\nIt's in aisle five, next to the pasta = في الممر الخامس بجانب المعكرونة.\nDo you sell fresh fish? = هل تبيعون سمكًا طازجًا؟\nI'm afraid we've run out of eggs = للأسف نفد البيض عندنا.\nCan I have half a kilo of cheese, please?"},
+  {"h": "عند الدفع", "t": "the checkout = مكان المحاسبة.\nWould you like a bag? = هل تريد كيسًا؟\nThat's twelve pounds fifty altogether = المجموع اثنا عشر جنيهًا ونصف.\nHere's your change = تفضل الباقي.\nIs this on offer? = هل على هذا عرض؟"}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تجمع الأسماء غير المعدودة: نقول some bread وليس breads، و two loaves of bread وليس two breads."},
+  {"k": "pron", "t": "aisle حرف s فيها صامت وتُنطق: آيْل. و vegetable تُنطق ثلاثة مقاطع: فِجْتَبِل. وجمع loaf هو loaves."},
+  {"k": "grammar", "t": "much مع غير المعدود و many مع المعدود. و a lot of تصلح مع الاثنين: a lot of fruit / a lot of apples."}
+ ],
+ "vocab": [
+  {"en": "loaf", "ar": "رغيف", "emoji": "🍞"},
+  {"en": "carton", "ar": "علبة كرتونية", "emoji": "🥛"},
+  {"en": "can", "ar": "علبة معدنية", "emoji": "🥫"},
+  {"en": "jar", "ar": "مرطبان", "emoji": "🍯"},
+  {"en": "dozen", "ar": "دزينة (اثنا عشر)", "emoji": "🥚"},
+  {"en": "aisle", "ar": "ممر (في المتجر)", "emoji": "🛒"},
+  {"en": "checkout", "ar": "مكان المحاسبة", "emoji": "💳"},
+  {"en": "fresh", "ar": "طازج", "emoji": "🥬"},
+  {"en": "frozen", "ar": "مجمّد", "emoji": "🧊"},
+  {"en": "change", "ar": "الباقي (من النقود)", "emoji": "🪙"},
+  {"en": "vegetables", "ar": "خضراوات", "emoji": "🥕"}
+ ],
+ "phrases": [
+  {"en": "How much rice do we need?", "ar": "كم نحتاج من الأرز؟"},
+  {"en": "We don't have any eggs.", "ar": "ليس لدينا أي بيض."},
+  {"en": "Where can I find the milk?", "ar": "أين أجد الحليب؟"},
+  {"en": "Can I have a kilo of tomatoes, please?", "ar": "هل لي بكيلو من الطماطم من فضلك؟"},
+  {"en": "I need a loaf of bread.", "ar": "أحتاج رغيف خبز."}
+ ],
+ "quiz": [
+  {"q": "أكمل: How ___ eggs do we need?", "o": ["much", "many", "any", "a lot"], "a": 1, "why": "eggs اسم معدود فنستخدم many."},
+  {"q": "أكمل: We don't have ___ milk.", "o": ["some", "many", "any", "a"], "a": 2, "why": "في النفي نستخدم any."},
+  {"q": "اختر العبارة الصحيحة:", "o": ["a loaf of bread", "a loaf of milk", "a carton of bread", "two breads"], "a": 0, "why": "loaf هي وحدة الخبز، و bread لا تُجمع."},
+  {"q": "ما معنى We've run out of sugar؟", "o": ["اشترينا السكر", "السكر رخيص", "نريد سكرًا أقل", "نفد السكر عندنا"], "a": 3, "why": "run out of تعني انتهت الكمية ولم يبقَ شيء."},
+  {"q": "أكمل: How ___ cheese would you like?", "o": ["many", "much", "few", "dozen"], "a": 1, "why": "cheese اسم غير معدود فنستخدم much."},
+  {"q": "كم بيضة في a dozen eggs؟", "o": ["ست", "عشر", "عشرون", "اثنتا عشرة"], "a": 3, "why": "dozen تعني اثني عشر."}
+ ]
+},
+{
+ "n": "94",
+ "type": "conversation",
+ "title_ar": "الطلب في المقهى",
+ "title_en": "Ordering at a cafe",
+ "summary": "تتعلم كيف تطلب مشروبًا أو وجبة خفيفة في المقهى بأسلوب مهذب وطبيعي، وكيف تفهم أسئلة النادل وتطلب الفاتورة. التركيز على الصيغ المهذبة مثل I'd like و Could I have.",
+ "notes": [
+  {"h": "الطلب بأدب", "t": "I'd like a cappuccino, please = أود كابتشينو من فضلك. (I'd = I would)\nCan I have a tea, please? = هل لي بشاي؟\nCould I have the menu, please? = هل لي بقائمة الطعام؟ (أكثر تهذيبًا)\nI'll have a cheese sandwich = سآخذ شطيرة جبن.\nتجنب I want فهي تبدو جافة وغير مهذبة."},
+  {"h": "أسئلة النادل", "t": "What can I get you? = ماذا أحضر لك؟\nAre you ready to order? = هل أنت جاهز للطلب؟\nEat in or take away? = هنا أم سفري؟ (في أمريكا: For here or to go?)\nWhat size? Small, medium or large? = أي حجم؟\nAnything else? = أي شيء آخر؟\nWould you like milk and sugar?"},
+  {"h": "تفاصيل الطلب", "t": "a black coffee = قهوة بلا حليب.\na white coffee = قهوة بالحليب.\nwith sugar / without sugar = بسكر / بدون سكر.\ndecaf = منزوعة الكافيين.\na slice of cake = قطعة كعك.\nstill water / sparkling water = ماء عادي / ماء فوّار."},
+  {"h": "العرض والقبول والرفض", "t": "Would you like a dessert? = هل تود حلوى؟\nYes, please = نعم من فضلك.\nNo, thanks. I'm fine = لا شكرًا، أنا مكتفٍ.\nThat's all, thanks = هذا كل شيء، شكرًا.\nWhat do you recommend? = بماذا تنصح؟"},
+  {"h": "الدفع", "t": "Can I have the bill, please? = الفاتورة من فضلك. (في أمريكا: the check)\nHow much is that? = كم الحساب؟\nCan we pay separately? = هل ندفع كلٌّ على حدة؟\nKeep the change = احتفظ بالباقي.\nIs service included? = هل الخدمة مشمولة؟"}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "الفرق مهم: I like coffee = أحب القهوة عمومًا. I'd like a coffee = أريد قهوة الآن. لا تخلط بينهما عند الطلب."},
+  {"k": "tip", "t": "أضف please دائمًا في نهاية الطلب، وقل Thank you عند استلامه. غيابها في الإنجليزية يُعتبر قلة ذوق."},
+  {"k": "pron", "t": "dessert (حلوى) النبرة على المقطع الثاني: دِزِرْت. أما desert (صحراء) فالنبرة على الأول: دِزَرْت."}
+ ],
+ "vocab": [
+  {"en": "menu", "ar": "قائمة الطعام", "emoji": "📋"},
+  {"en": "order", "ar": "يطلب / طلب", "emoji": "🛎️"},
+  {"en": "coffee", "ar": "قهوة", "emoji": "☕"},
+  {"en": "take away", "ar": "طلب سفري", "emoji": "🥡"},
+  {"en": "slice", "ar": "شريحة / قطعة", "emoji": "🍰"},
+  {"en": "dessert", "ar": "حلوى (بعد الأكل)", "emoji": "🍨"},
+  {"en": "sandwich", "ar": "شطيرة", "emoji": "🥪"},
+  {"en": "bill", "ar": "فاتورة", "emoji": "🧾"},
+  {"en": "tip", "ar": "بقشيش", "emoji": "🪙"},
+  {"en": "waiter", "ar": "نادل", "emoji": "🤵"},
+  {"en": "juice", "ar": "عصير", "emoji": "🧃"}
+ ],
+ "phrases": [
+  {"en": "I'd like a large coffee, please.", "ar": "أود قهوة كبيرة من فضلك."},
+  {"en": "Could I have the menu, please?", "ar": "هل لي بقائمة الطعام من فضلك؟"},
+  {"en": "I'll have a slice of chocolate cake.", "ar": "سآخذ قطعة من كعكة الشوكولاتة."},
+  {"en": "Eat in or take away?", "ar": "هنا أم سفري؟"},
+  {"en": "Can I have the bill, please?", "ar": "الفاتورة من فضلك."},
+  {"en": "That's all, thanks.", "ar": "هذا كل شيء، شكرًا."}
+ ],
+ "quiz": [
+  {"q": "أيّ جملة هي الأكثر تهذيبًا للطلب؟", "o": ["I want a coffee.", "Give me a coffee.", "I'd like a coffee, please.", "I like coffee."], "a": 2, "why": "I'd like + please هي الصيغة المهذبة للطلب."},
+  {"q": "ما معنى Eat in or take away؟", "o": ["هنا أم سفري؟", "حلو أم مالح؟", "نقدًا أم بالبطاقة؟", "حار أم بارد؟"], "a": 0, "why": "eat in = الأكل في المكان، take away = أخذ الطلب للخارج."},
+  {"q": "أكمل: ___ I have the bill, please?", "o": ["Do", "Would", "Am", "Could"], "a": 3, "why": "Could I have...? صيغة مهذبة للطلب."},
+  {"q": "a black coffee هي قهوة:", "o": ["بسكر كثير", "بدون حليب", "بالحليب", "منزوعة الكافيين"], "a": 1, "why": "black coffee تعني قهوة بلا حليب."},
+  {"q": "النادل يسأل: Anything else? وأنت لا تريد شيئًا آخر. تقول:", "o": ["Yes, I do.", "No, I don't like.", "That's all, thanks.", "I'm ready."], "a": 2, "why": "That's all, thanks تعني هذا كل ما أريده."},
+  {"q": "I'd like هي اختصار لـ:", "o": ["I would like", "I had like", "I did like", "I should like to"], "a": 0, "why": "I'd هنا اختصار I would."}
+ ]
+},
+{
+ "n": "95",
+ "type": "conversation",
+ "title_ar": "الحديث عن السفر",
+ "title_en": "Talking about travel",
+ "summary": "تتعلم مفردات السفر الأساسية وكيف تتحدث عن رحلاتك ووسائل النقل والحجز والمطار. ستفهم أيضًا الفرق بين travel و trip و journey التي يخلط بينها كثير من المتعلمين.",
+ "notes": [
+  {"h": "travel / trip / journey", "t": "travel غالبًا فعل: I love travelling = أحب السفر. I travel a lot for work.\ntrip = رحلة كاملة (ذهاب وعودة وإقامة): We went on a trip to Turkey. a business trip = رحلة عمل.\njourney = المسافة أو الطريق من مكان إلى آخر: The journey took six hours.\nلا نقول a travel؛ نقول a trip أو a journey."},
+  {"h": "وسائل النقل وحروف الجر", "t": "by + وسيلة النقل بدون أداة: by plane, by train, by car, by bus. لكن: on foot = مشيًا.\nget on / get off للحافلة والقطار والطائرة: Get off at the next stop.\nget in / get out of للسيارة والتاكسي: Get in the car.\ncatch a train = يلحق بالقطار / miss a flight = تفوته الرحلة."},
+  {"h": "الحجز والتحضير", "t": "book a flight / a hotel = يحجز رحلة طيران / فندقًا.\na single ticket = تذكرة ذهاب / a return ticket = تذكرة ذهاب وعودة.\npack your suitcase = يحزم حقيبته.\nrenew your passport = يجدد جواز سفره.\napply for a visa = يتقدم لطلب تأشيرة."},
+  {"h": "في المطار", "t": "check in = يسجّل الوصول.\nboarding pass = بطاقة الصعود.\nhand luggage = حقيبة اليد.\ngate = بوابة.\ndeparture = مغادرة / arrival = وصول.\nThe flight is delayed = الرحلة متأخرة.\ntake off = تُقلع / land = تهبط."},
+  {"h": "الحديث عن رحلاتك", "t": "Have you ever been to London? = هل زرت لندن من قبل؟\nI've been to Dubai twice = زرت دبي مرتين.\nI went there two years ago = ذهبت إلى هناك قبل سنتين.\nWe stayed in a hotel near the beach.\nI'd love to visit Japan one day = أتمنى أن أزور اليابان يومًا ما."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "luggage و baggage غير معدودتين: I have two pieces of luggage أو two bags. لا تقل luggages."},
+  {"k": "mistake", "t": "نقول go by car وليس go with car أو go by the car. ونقول arrive in + مدينة أو بلد و arrive at + مكان محدد (المطار، الفندق)، ولا نقول arrive to."},
+  {"k": "pron", "t": "journey تُنطق: جِيرْني. و luggage تُنطق: لَغِج. و suitcase تُنطق: سُوتْكِيس."}
+ ],
+ "vocab": [
+  {"en": "trip", "ar": "رحلة", "emoji": "🧳"},
+  {"en": "journey", "ar": "رحلة (الطريق)", "emoji": "🛤️"},
+  {"en": "flight", "ar": "رحلة طيران", "emoji": "✈️"},
+  {"en": "passport", "ar": "جواز سفر", "emoji": "🛂"},
+  {"en": "luggage", "ar": "أمتعة", "emoji": "🛄"},
+  {"en": "ticket", "ar": "تذكرة", "emoji": "🎫"},
+  {"en": "book", "ar": "يحجز", "emoji": "📅"},
+  {"en": "delayed", "ar": "متأخر", "emoji": "⏳"},
+  {"en": "take off", "ar": "تُقلع", "emoji": "🛫"},
+  {"en": "land", "ar": "تهبط", "emoji": "🛬"},
+  {"en": "abroad", "ar": "خارج البلاد", "emoji": "🌍"},
+  {"en": "boarding pass", "ar": "بطاقة الصعود", "emoji": "🎟️"}
+ ],
+ "phrases": [
+  {"en": "We went on a trip to Turkey.", "ar": "ذهبنا في رحلة إلى تركيا."},
+  {"en": "The journey took six hours.", "ar": "استغرقت الرحلة ست ساعات."},
+  {"en": "I usually travel by train.", "ar": "عادةً أسافر بالقطار."},
+  {"en": "I'd like to book a return ticket.", "ar": "أود حجز تذكرة ذهاب وعودة."},
+  {"en": "Our flight was delayed by two hours.", "ar": "تأخرت رحلتنا ساعتين."},
+  {"en": "Have you ever been abroad?", "ar": "هل سافرت خارج البلاد من قبل؟"}
+ ],
+ "quiz": [
+  {"q": "أكمل: We went on a ___ to Egypt last year.", "o": ["travel", "trip", "luggage", "flight ticket"], "a": 1, "why": "نقول go on a trip، ولا نقول a travel."},
+  {"q": "أكمل: I go to work ___ bus.", "o": ["with", "in", "on the", "by"], "a": 3, "why": "by + وسيلة النقل بدون أداة تعريف."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I have two pieces of luggage.", "I have two luggages.", "I have a luggage.", "I have many luggages."], "a": 0, "why": "luggage غير معدودة فنستخدم pieces of."},
+  {"q": "ما معنى a return ticket؟", "o": ["تذكرة مُرتجعة", "تذكرة ذهاب فقط", "تذكرة ذهاب وعودة", "تذكرة مجانية"], "a": 2, "why": "return ticket = ذهاب وعودة، و single ticket = ذهاب فقط."},
+  {"q": "أكمل: We arrived ___ London at midnight.", "o": ["to", "in", "on", "by"], "a": 1, "why": "arrive in مع المدن والبلدان."},
+  {"q": "أكمل: The plane ___ off at 9 a.m.", "o": ["got", "went", "took", "put"], "a": 2, "why": "take off تعني تُقلع وماضيها took off."}
+ ]
+},
+{
+ "n": "96",
+ "type": "grammar",
+ "title_ar": "المضارع المستمر — الإثبات",
+ "title_en": "Present continuous (positive)",
+ "summary": "تتعلم تكوين المضارع المستمر في الجمل المثبتة واستخدامه لوصف ما يحدث الآن أو في هذه الفترة. ستتقن أيضًا قواعد إضافة ing للفعل، وهي مصدر أخطاء إملائية كثيرة.",
+ "notes": [
+  {"h": "القاعدة", "t": "الفاعل + am / is / are + الفعل + ing\nI am working = أنا أعمل الآن.\nHe / She / It is working.\nWe / You / They are working.\nالاختصار في الكلام: I'm, he's, she's, it's, we're, you're, they're."},
+  {"h": "متى نستخدمه؟", "t": "1) حدث يجري لحظة الكلام: Be quiet! The baby is sleeping.\n2) حدث يجري في هذه الفترة وليس بالضرورة هذه اللحظة: I'm reading a great book these days.\n3) وضع يتغير: The weather is getting colder.\nكلمات دالة: now, right now, at the moment, today, this week, Look!, Listen!"},
+  {"h": "قواعد إضافة ing", "t": "معظم الأفعال: نضيف ing مباشرة: play - playing, read - reading.\nفعل ينتهي بـ e صامتة: نحذف e: make - making, write - writing.\nفعل قصير ينتهي بحرف ساكن قبله حرف علة واحد: نضاعف الأخير: run - running, sit - sitting, swim - swimming.\nفعل ينتهي بـ ie: تتحول إلى y: lie - lying, die - dying."},
+  {"h": "أمثلة", "t": "Look! It's raining = انظر! إنها تمطر.\nThe children are playing in the garden.\nI'm learning English at the moment.\nShe's wearing a red dress today.\nWe're having lunch right now."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "أشيع خطأ عند المتعلمين العرب نسيان فعل be: لا تقل I working أو She reading. الصحيح: I am working / She is reading."},
+  {"k": "grammar", "t": "لا نضاعف الحرف الأخير إذا انتهى الفعل بـ w أو x أو y: snow - snowing, fix - fixing, play - playing."},
+  {"k": "pron", "t": "النهاية ing تُنطق بصوت أنفي واحد (نغ) دون غين واضحة: working = وِيرْكِنْغ بنون أنفية خفيفة."}
+ ],
+ "vocab": [
+  {"en": "now", "ar": "الآن", "emoji": "⏱️"},
+  {"en": "at the moment", "ar": "في هذه اللحظة", "emoji": "👉"},
+  {"en": "raining", "ar": "تمطر", "emoji": "🌧️"},
+  {"en": "sleeping", "ar": "نائم", "emoji": "😴"},
+  {"en": "running", "ar": "يركض", "emoji": "🏃"},
+  {"en": "writing", "ar": "يكتب", "emoji": "✍️"},
+  {"en": "swimming", "ar": "يسبح", "emoji": "🏊"},
+  {"en": "cooking", "ar": "يطبخ", "emoji": "🍳"},
+  {"en": "wearing", "ar": "يرتدي", "emoji": "👕"},
+  {"en": "listen", "ar": "استمع", "emoji": "👂"}
+ ],
+ "phrases": [
+  {"en": "I'm learning English at the moment.", "ar": "أتعلم الإنجليزية في الوقت الحالي."},
+  {"en": "Look! It's raining.", "ar": "انظر! إنها تمطر."},
+  {"en": "The children are playing in the garden.", "ar": "الأطفال يلعبون في الحديقة."},
+  {"en": "She's wearing a red dress today.", "ar": "هي ترتدي فستانًا أحمر اليوم."},
+  {"en": "We're having lunch right now.", "ar": "نحن نتناول الغداء الآن."}
+ ],
+ "quiz": [
+  {"q": "أكمل: Listen! Somebody ___ at the door.", "o": ["knock", "knocks", "is knocking", "are knocking"], "a": 2, "why": "حدث يجري الآن، و somebody مفرد فيأخذ is."},
+  {"q": "ما صيغة ing الصحيحة للفعل run؟", "o": ["runing", "running", "runeing", "runnning"], "a": 1, "why": "فعل قصير ينتهي بساكن قبله حرف علة واحد فنضاعف n."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["They are watching TV now.", "They watching TV now.", "They is watching TV now.", "They are watch TV now."], "a": 0, "why": "they + are + الفعل بـ ing."},
+  {"q": "ما صيغة ing الصحيحة للفعل write؟", "o": ["writeing", "writting", "writeng", "writing"], "a": 3, "why": "نحذف e الصامتة ثم نضيف ing دون مضاعفة."},
+  {"q": "أكمل: I ___ a very good book these days.", "o": ["reading", "am reading", "is reading", "am read"], "a": 1, "why": "مع I نستخدم am + الفعل بـ ing."},
+  {"q": "أيّ كلمة تدل غالبًا على المضارع المستمر؟", "o": ["yesterday", "every day", "at the moment", "last week"], "a": 2, "why": "at the moment تعني الآن وتأتي مع المضارع المستمر."}
+ ]
+}
+]

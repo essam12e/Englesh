@@ -1,0 +1,424 @@
+[
+ {
+  "n": "1",
+  "type": "conversation",
+  "title_ar": "التحيات والتعارف",
+  "title_en": "Greetings",
+  "summary": "في هذا الدرس تتعلم كيف تُلقي التحية بالإنجليزية في أوقات اليوم المختلفة، وكيف تسأل عن الحال وتعرّف بنفسك وتودّع الآخرين. هذه أول عبارات تحتاجها في أي محادثة.",
+  "notes": [
+   {"h": "التحية العامة", "t": "Hello = مرحباً (تصلح في كل المواقف).\nHi = أهلاً (غير رسمية، مع الأصدقاء والعائلة).\nمثال: Hello, Sara! = مرحباً يا سارة!"},
+   {"h": "التحية حسب الوقت", "t": "Good morning = صباح الخير (من الصباح حتى الظهر).\nGood afternoon = مساء الخير (بعد الظهر حتى نحو الخامسة).\nGood evening = مساء الخير (في المساء عند اللقاء).\nGood night = تصبح على خير (عند الوداع أو قبل النوم فقط)."},
+   {"h": "السؤال عن الحال", "t": "How are you? = كيف حالك؟\nالرد: I'm fine, thank you. = أنا بخير، شكراً لك.\nثم نسأل: And you? = وأنت؟\nردود أخرى: I'm good = أنا بخير، Not bad = لا بأس."},
+   {"h": "التعارف", "t": "What's your name? = ما اسمك؟\nMy name is Ali. = اسمي علي.\nيمكن أيضاً: I'm Ali. = أنا علي.\nNice to meet you. = سعيد بلقائك.\nالرد: Nice to meet you too. = وأنا أيضاً سعيد بلقائك."},
+   {"h": "الوداع", "t": "Goodbye = مع السلامة (رسمية).\nBye = وداعاً (غير رسمية).\nSee you later. = أراك لاحقاً.\nSee you tomorrow. = أراك غداً."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "Good night لا تُقال عند اللقاء أبداً، بل عند الوداع ليلاً أو قبل النوم. عند اللقاء مساءً قل: Good evening."},
+   {"k": "pron", "t": "في thank you صوت th يُنطق مثل حرف «ث» بوضع اللسان بين الأسنان: ثانك يو، وليس «سانك يو» أو «تانك يو»."},
+   {"k": "tip", "t": "جواب How are you? يكون قصيراً ومهذباً: I'm fine, thank you. ولا تنسَ أن تسأل الشخص الآخر: And you?"}
+  ],
+  "vocab": [
+   {"en": "hello", "ar": "مرحباً", "emoji": "👋"},
+   {"en": "hi", "ar": "أهلاً", "emoji": "🙋"},
+   {"en": "good morning", "ar": "صباح الخير", "emoji": "🌅"},
+   {"en": "good afternoon", "ar": "مساء الخير (بعد الظهر)", "emoji": "☀️"},
+   {"en": "good evening", "ar": "مساء الخير", "emoji": "🌆"},
+   {"en": "good night", "ar": "تصبح على خير", "emoji": "🌙"},
+   {"en": "goodbye", "ar": "مع السلامة", "emoji": "🚪"},
+   {"en": "thank you", "ar": "شكراً لك", "emoji": "🙏"},
+   {"en": "name", "ar": "اسم", "emoji": "📛"},
+   {"en": "fine", "ar": "بخير", "emoji": "👍"}
+  ],
+  "phrases": [
+   {"en": "Hello, how are you?", "ar": "مرحباً، كيف حالك؟"},
+   {"en": "I'm fine, thank you.", "ar": "أنا بخير، شكراً لك."},
+   {"en": "What's your name?", "ar": "ما اسمك؟"},
+   {"en": "My name is Ahmed.", "ar": "اسمي أحمد."},
+   {"en": "Nice to meet you.", "ar": "سعيد بلقائك."},
+   {"en": "See you later.", "ar": "أراك لاحقاً."}
+  ],
+  "quiz": [
+   {"q": "الساعة الآن 8 صباحاً. ماذا تقول عند اللقاء؟", "o": ["Good night", "Good evening", "Good morning", "Goodbye"], "a": 2, "why": "في الصباح نقول Good morning."},
+   {"q": "ما الرد المناسب على: How are you?", "o": ["I'm fine, thank you.", "My name is Ali.", "Good night.", "See you later."], "a": 0, "why": "السؤال عن الحال، فالجواب: I'm fine, thank you."},
+   {"q": "متى نقول Good night؟", "o": ["عند اللقاء صباحاً", "عند الوداع ليلاً أو قبل النوم", "عند اللقاء ظهراً", "عند التعارف"], "a": 1, "why": "Good night تُقال للوداع ليلاً وليست تحية لقاء."},
+   {"q": "أكمل: What's your ___?", "o": ["fine", "you", "morning", "name"], "a": 3, "why": "What's your name? تعني: ما اسمك؟"},
+   {"q": "ما معنى: Nice to meet you؟", "o": ["أراك لاحقاً", "سعيد بلقائك", "كيف حالك؟", "مع السلامة"], "a": 1, "why": "Nice to meet you = سعيد بلقائك."},
+   {"q": "أيّ عبارة تُستعمل للوداع؟", "o": ["Hello", "Good afternoon", "See you later", "How are you?"], "a": 2, "why": "See you later = أراك لاحقاً، وهي عبارة وداع."}
+  ]
+ },
+ {
+  "n": "2",
+  "type": "vocab",
+  "title_ar": "الحروف الأبجدية",
+  "title_en": "The alphabet",
+  "summary": "تتعلم في هذا الدرس الحروف الإنجليزية الستة والعشرين وأسماءها، والفرق بين الحروف الكبيرة والصغيرة والحروف المتحركة والساكنة. إتقان الأبجدية يساعدك على القراءة وتهجئة اسمك.",
+  "notes": [
+   {"h": "عدد الحروف", "t": "في الإنجليزية 26 حرفاً:\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\nلكل حرف شكلان: كبير (Capital) مثل A، وصغير (small) مثل a.\nالإنجليزية تُكتب من اليسار إلى اليمين."},
+   {"h": "الحروف المتحركة والساكنة", "t": "الحروف المتحركة (vowels) خمسة: A, E, I, O, U.\nبقية الحروف ساكنة (consonants) وعددها 21.\nكل كلمة إنجليزية تقريباً فيها حرف متحرك: cat = قطة، pen = قلم."},
+   {"h": "متى نستعمل الحرف الكبير", "t": "1) أول الجملة: My name is Ali. = اسمي علي.\n2) أسماء الأشخاص والبلدان والمدن: Sara, Egypt, Cairo.\n3) الضمير I (أنا) يُكتب كبيراً دائماً.\n4) أسماء الأيام والأشهر: Monday, May."},
+   {"h": "التهجئة", "t": "للسؤال عن التهجئة: How do you spell your name? = كيف تتهجّى اسمك؟\nالجواب بأسماء الحروف: A-L-I.\nاسم الحرف يختلف أحياناً عن صوته: الحرف C اسمه «سي» لكن صوته في cat هو «ك»."},
+   {"h": "كلمات للتدريب", "t": "A: apple = تفاحة\nB: book = كتاب\nC: cat = قطة\nD: dog = كلب\nE: egg = بيضة\nF: fish = سمكة"}
+  ],
+  "alerts": [
+   {"k": "pron", "t": "فرّق بين P و B: حرف P يُنطق بنفخة هواء قوية بلا اهتزاز (pen)، أما B فمثل الباء العربية (book). لا تقل «بن» بدل pen."},
+   {"k": "pron", "t": "انتبه لأسماء الحروف المتشابهة: A تُنطق «إيه»، E تُنطق «إي»، I تُنطق «آي». و G تُنطق «جي» أما J فتُنطق «جيه»."},
+   {"k": "mistake", "t": "العربية لا تعرف الحروف الكبيرة، فينسى المتعلم كتابة الحرف الكبير في أول الجملة وفي الأسماء. اكتب: Ali وليس ali."}
+  ],
+  "vocab": [
+   {"en": "apple", "ar": "تفاحة", "emoji": "🍎"},
+   {"en": "book", "ar": "كتاب", "emoji": "📕"},
+   {"en": "cat", "ar": "قطة", "emoji": "🐱"},
+   {"en": "dog", "ar": "كلب", "emoji": "🐶"},
+   {"en": "egg", "ar": "بيضة", "emoji": "🥚"},
+   {"en": "fish", "ar": "سمكة", "emoji": "🐟"},
+   {"en": "pen", "ar": "قلم", "emoji": "🖊️"},
+   {"en": "sun", "ar": "شمس", "emoji": "☀️"},
+   {"en": "letter", "ar": "حرف", "emoji": "🔤"},
+   {"en": "tree", "ar": "شجرة", "emoji": "🌳"}
+  ],
+  "phrases": [
+   {"en": "How do you spell your name?", "ar": "كيف تتهجّى اسمك؟"},
+   {"en": "This is a book.", "ar": "هذا كتاب."},
+   {"en": "I have a pen.", "ar": "عندي قلم."},
+   {"en": "The cat is small.", "ar": "القطة صغيرة."},
+   {"en": "My name is Sara.", "ar": "اسمي سارة."}
+  ],
+  "quiz": [
+   {"q": "كم عدد حروف الأبجدية الإنجليزية؟", "o": ["24", "26", "28", "30"], "a": 1, "why": "الأبجدية الإنجليزية 26 حرفاً."},
+   {"q": "أيّ مجموعة هي الحروف المتحركة (vowels)؟", "o": ["A, E, I, O, U", "A, B, C, D, E", "B, C, D, F, G", "W, X, Y, Z, A"], "a": 0, "why": "الحروف المتحركة خمسة: A, E, I, O, U."},
+   {"q": "اختر الجملة المكتوبة بشكل صحيح:", "o": ["my name is ali.", "My name is ali.", "my Name is Ali.", "My name is Ali."], "a": 3, "why": "نبدأ الجملة بحرف كبير ونكتب اسم الشخص بحرف كبير."},
+   {"q": "بأيّ حرف تبدأ كلمة «كتاب» بالإنجليزية؟", "o": ["P", "D", "B", "K"], "a": 2, "why": "كتاب = book وتبدأ بحرف B."},
+   {"q": "ما معنى كلمة egg؟", "o": ["تفاحة", "بيضة", "سمكة", "قلم"], "a": 1, "why": "egg = بيضة."},
+   {"q": "الضمير «أنا» بالإنجليزية يُكتب:", "o": ["i دائماً", "I في أول الجملة فقط", "I دائماً بحرف كبير", "ي"], "a": 2, "why": "الضمير I يُكتب بحرف كبير دائماً أينما جاء."}
+  ]
+ },
+ {
+  "n": "3",
+  "type": "vocab",
+  "title_ar": "الأرقام",
+  "title_en": "Numbers",
+  "summary": "تتعلم في هذا الدرس العدّ بالإنجليزية من 1 إلى 100، وكيف تسأل عن العمر ورقم الهاتف. الأرقام ضرورية للأسعار والوقت والتواريخ.",
+  "notes": [
+   {"h": "من 1 إلى 12", "t": "1 one، 2 two، 3 three، 4 four، 5 five، 6 six\n7 seven، 8 eight، 9 nine، 10 ten، 11 eleven، 12 twelve\nهذه الأرقام تُحفظ كما هي."},
+   {"h": "من 13 إلى 19 (teen)", "t": "نضيف teen في آخر الرقم:\n13 thirteen، 14 fourteen، 15 fifteen، 16 sixteen، 17 seventeen، 18 eighteen، 19 nineteen\nانتبه للتغيّر في الكتابة: thirteen و fifteen."},
+   {"h": "العشرات (ty)", "t": "20 twenty، 30 thirty، 40 forty، 50 fifty، 60 sixty، 70 seventy، 80 eighty، 90 ninety، 100 one hundred\nللأرقام المركبة نقول العشرات ثم الآحاد:\n21 = twenty-one، 35 = thirty-five، 99 = ninety-nine"},
+   {"h": "استعمال الأرقام", "t": "How old are you? = كم عمرك؟\nI am twenty years old. = عمري عشرون سنة.\nWhat's your phone number? = ما رقم هاتفك؟\nI have two brothers. = عندي أخوان.\nالصفر: zero."}
+  ],
+  "alerts": [
+   {"k": "pron", "t": "فرّق بين teen و ty: في thirteen (13) النبرة على آخر الكلمة «ثِرتين»، وفي thirty (30) النبرة على أولها «ثِرتي». الخلط بينهما شائع جداً."},
+   {"k": "pron", "t": "three تبدأ بصوت «ث»: ثري، وليست «تري» أو «سري». وكلمة two تُنطق «تو» بدون نطق حرف w."},
+   {"k": "mistake", "t": "في الإنجليزية نقول العشرات أولاً ثم الآحاد عكس العربية: 25 = twenty-five (عشرون ثم خمسة) وليس five and twenty. وانتبه: 40 تُكتب forty بدون حرف u."}
+  ],
+  "vocab": [
+   {"en": "one", "ar": "واحد", "emoji": "1️⃣"},
+   {"en": "two", "ar": "اثنان", "emoji": "2️⃣"},
+   {"en": "three", "ar": "ثلاثة", "emoji": "3️⃣"},
+   {"en": "four", "ar": "أربعة", "emoji": "4️⃣"},
+   {"en": "five", "ar": "خمسة", "emoji": "5️⃣"},
+   {"en": "six", "ar": "ستة", "emoji": "6️⃣"},
+   {"en": "seven", "ar": "سبعة", "emoji": "7️⃣"},
+   {"en": "eight", "ar": "ثمانية", "emoji": "8️⃣"},
+   {"en": "nine", "ar": "تسعة", "emoji": "9️⃣"},
+   {"en": "ten", "ar": "عشرة", "emoji": "🔟"},
+   {"en": "zero", "ar": "صفر", "emoji": "0️⃣"},
+   {"en": "hundred", "ar": "مئة", "emoji": "💯"}
+  ],
+  "phrases": [
+   {"en": "How old are you?", "ar": "كم عمرك؟"},
+   {"en": "I am twenty years old.", "ar": "عمري عشرون سنة."},
+   {"en": "I have two brothers.", "ar": "عندي أخوان."},
+   {"en": "What's your phone number?", "ar": "ما رقم هاتفك؟"},
+   {"en": "There are seven days in a week.", "ar": "في الأسبوع سبعة أيام."}
+  ],
+  "quiz": [
+   {"q": "ما الرقم 12 بالإنجليزية؟", "o": ["twenty", "eleven", "twelve", "two"], "a": 2, "why": "12 = twelve."},
+   {"q": "كيف نكتب الرقم 40؟", "o": ["forty", "fourty", "fourteen", "fourtey"], "a": 0, "why": "40 تُكتب forty بدون حرف u."},
+   {"q": "ما الرقم thirteen؟", "o": ["30", "3", "33", "13"], "a": 3, "why": "thirteen تنتهي بـ teen فهي 13، أما 30 فهي thirty."},
+   {"q": "اختر الكتابة الصحيحة للرقم 25:", "o": ["five-twenty", "twenty-five", "twenty and five", "two-five"], "a": 1, "why": "نقول العشرات ثم الآحاد: twenty-five."},
+   {"q": "أكمل: I am thirty ___ old.", "o": ["year", "age", "years", "old"], "a": 2, "why": "نقول years old للتعبير عن العمر."},
+   {"q": "ما معنى: How old are you؟", "o": ["كم عمرك؟", "كيف حالك؟", "ما اسمك؟", "أين أنت؟"], "a": 0, "why": "How old are you? سؤال عن العمر."}
+  ]
+ },
+ {
+  "n": "4",
+  "type": "vocab",
+  "title_ar": "أيام الأسبوع",
+  "title_en": "Days of the week",
+  "summary": "تتعلم في هذا الدرس أسماء أيام الأسبوع السبعة بالإنجليزية، وكيف تسأل عن اليوم وتتحدث عن الأمس واليوم والغد. تحتاج هذه الكلمات لتحديد المواعيد.",
+  "notes": [
+   {"h": "أيام الأسبوع", "t": "Sunday = الأحد\nMonday = الاثنين\nTuesday = الثلاثاء\nWednesday = الأربعاء\nThursday = الخميس\nFriday = الجمعة\nSaturday = السبت\nكل الأيام تنتهي بكلمة day (يوم)."},
+   {"h": "السؤال عن اليوم", "t": "What day is it today? = ما اليوم؟\nIt is Monday. = اليوم الاثنين.\nToday is Friday. = اليوم الجمعة.\nTomorrow is Saturday. = غداً السبت.\nYesterday was Thursday. = أمس كان الخميس."},
+   {"h": "حرف الجر on مع الأيام", "t": "نستعمل on قبل اسم اليوم:\nI work on Sunday. = أعمل يوم الأحد.\nSee you on Friday. = أراك يوم الجمعة.\nلكن لا نستعمل on مع today و tomorrow و yesterday."},
+   {"h": "كلمات مفيدة", "t": "week = أسبوع\nweekend = عطلة نهاية الأسبوع\nevery day = كل يوم\nI study English every day. = أدرس الإنجليزية كل يوم."}
+  ],
+  "alerts": [
+   {"k": "grammar", "t": "أسماء الأيام تبدأ دائماً بحرف كبير حتى في وسط الجملة: on Monday وليس on monday."},
+   {"k": "pron", "t": "Wednesday تُنطق «وِنزدي»: حرف d الأول لا يُنطق. و Tuesday تُنطق «تيوزدي»، و Thursday تبدأ بصوت «ث»: ثِرزدي. لا تخلط بين Tuesday و Thursday."},
+   {"k": "mistake", "t": "لا تقل in Monday أو at Monday. الصحيح دائماً: on Monday."}
+  ],
+  "vocab": [
+   {"en": "Sunday", "ar": "الأحد", "emoji": "☀️"},
+   {"en": "Monday", "ar": "الاثنين", "emoji": "🌙"},
+   {"en": "Tuesday", "ar": "الثلاثاء", "emoji": "📅"},
+   {"en": "Wednesday", "ar": "الأربعاء", "emoji": "🗓️"},
+   {"en": "Thursday", "ar": "الخميس", "emoji": "📆"},
+   {"en": "Friday", "ar": "الجمعة", "emoji": "🕌"},
+   {"en": "Saturday", "ar": "السبت", "emoji": "🪐"},
+   {"en": "today", "ar": "اليوم", "emoji": "📍"},
+   {"en": "tomorrow", "ar": "غداً", "emoji": "⏭️"},
+   {"en": "yesterday", "ar": "أمس", "emoji": "⏮️"},
+   {"en": "week", "ar": "أسبوع", "emoji": "7️⃣"},
+   {"en": "weekend", "ar": "عطلة نهاية الأسبوع", "emoji": "🏖️"}
+  ],
+  "phrases": [
+   {"en": "What day is it today?", "ar": "ما اليوم؟"},
+   {"en": "Today is Monday.", "ar": "اليوم الاثنين."},
+   {"en": "Tomorrow is Tuesday.", "ar": "غداً الثلاثاء."},
+   {"en": "I work on Sunday.", "ar": "أعمل يوم الأحد."},
+   {"en": "See you on Friday.", "ar": "أراك يوم الجمعة."}
+  ],
+  "quiz": [
+   {"q": "ما اليوم الذي يأتي بعد Monday؟", "o": ["Sunday", "Tuesday", "Thursday", "Wednesday"], "a": 1, "why": "بعد الاثنين يأتي الثلاثاء: Tuesday."},
+   {"q": "أكمل: I work ___ Sunday.", "o": ["in", "at", "to", "on"], "a": 3, "why": "نستعمل on قبل أسماء الأيام."},
+   {"q": "ما معنى Thursday؟", "o": ["الخميس", "الثلاثاء", "السبت", "الأربعاء"], "a": 0, "why": "Thursday = الخميس، أما الثلاثاء فهو Tuesday."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["Today is friday.", "Today is on Friday.", "Today is Friday.", "today is Friday."], "a": 2, "why": "اسم اليوم بحرف كبير، ولا نضع on بعد Today is."},
+   {"q": "إذا كان اليوم Friday فإن tomorrow هو:", "o": ["Thursday", "Saturday", "Sunday", "Wednesday"], "a": 1, "why": "بعد الجمعة يأتي السبت: Saturday."},
+   {"q": "ما معنى yesterday؟", "o": ["غداً", "اليوم", "أسبوع", "أمس"], "a": 3, "why": "yesterday = أمس."}
+  ]
+ },
+ {
+  "n": "5",
+  "type": "vocab",
+  "title_ar": "أشهر السنة",
+  "title_en": "Months of the year",
+  "summary": "تتعلم في هذا الدرس أسماء أشهر السنة الاثني عشر وفصول السنة الأربعة، وكيف تقول متى وُلدت. ستحتاج هذه الكلمات للتواريخ والمواعيد.",
+  "notes": [
+   {"h": "أشهر السنة", "t": "1 January = يناير، 2 February = فبراير، 3 March = مارس\n4 April = أبريل، 5 May = مايو، 6 June = يونيو\n7 July = يوليو، 8 August = أغسطس، 9 September = سبتمبر\n10 October = أكتوبر، 11 November = نوفمبر، 12 December = ديسمبر"},
+   {"h": "حرف الجر in مع الأشهر", "t": "نستعمل in قبل اسم الشهر:\nMy birthday is in May. = عيد ميلادي في مايو.\nI was born in July. = وُلدت في يوليو.\nSchool starts in September. = تبدأ المدرسة في سبتمبر."},
+   {"h": "فصول السنة", "t": "spring = الربيع\nsummer = الصيف\nautumn = الخريف (وفي أمريكا: fall)\nwinter = الشتاء\nنقول: in summer = في الصيف، in winter = في الشتاء."},
+   {"h": "كلمات مفيدة", "t": "month = شهر\nyear = سنة\nbirthday = عيد ميلاد\nThere are twelve months in a year. = في السنة اثنا عشر شهراً.\nWhen is your birthday? = متى عيد ميلادك؟"}
+  ],
+  "alerts": [
+   {"k": "grammar", "t": "أسماء الأشهر تبدأ بحرف كبير دائماً: in March وليس in march. أما الفصول فتُكتب بحرف صغير: in summer."},
+   {"k": "mistake", "t": "مع الأشهر نستعمل in، ومع الأيام نستعمل on: in May لكن on Monday. لا تقل on May."},
+   {"k": "pron", "t": "February تُنطق «فِبروري»، و August النبرة على أولها «أوغست»، و month تنتهي بصوت «ث»: مَنث."}
+  ],
+  "vocab": [
+   {"en": "January", "ar": "يناير", "emoji": "❄️"},
+   {"en": "February", "ar": "فبراير", "emoji": "💝"},
+   {"en": "March", "ar": "مارس", "emoji": "🌱"},
+   {"en": "April", "ar": "أبريل", "emoji": "🌧️"},
+   {"en": "May", "ar": "مايو", "emoji": "🌸"},
+   {"en": "June", "ar": "يونيو", "emoji": "🌻"},
+   {"en": "July", "ar": "يوليو", "emoji": "🏖️"},
+   {"en": "August", "ar": "أغسطس", "emoji": "🌞"},
+   {"en": "September", "ar": "سبتمبر", "emoji": "🍂"},
+   {"en": "October", "ar": "أكتوبر", "emoji": "🎃"},
+   {"en": "November", "ar": "نوفمبر", "emoji": "🌫️"},
+   {"en": "December", "ar": "ديسمبر", "emoji": "🎄"}
+  ],
+  "phrases": [
+   {"en": "When is your birthday?", "ar": "متى عيد ميلادك؟"},
+   {"en": "My birthday is in May.", "ar": "عيد ميلادي في مايو."},
+   {"en": "I was born in July.", "ar": "وُلدت في يوليو."},
+   {"en": "It is hot in summer.", "ar": "الجو حار في الصيف."},
+   {"en": "There are twelve months in a year.", "ar": "في السنة اثنا عشر شهراً."}
+  ],
+  "quiz": [
+   {"q": "ما الشهر الأول في السنة؟", "o": ["June", "July", "January", "December"], "a": 2, "why": "الشهر الأول هو January (يناير)."},
+   {"q": "أكمل: My birthday is ___ March.", "o": ["in", "on", "at", "to"], "a": 0, "why": "نستعمل in قبل أسماء الأشهر."},
+   {"q": "ما الشهر الذي يأتي بعد April؟", "o": ["March", "May", "June", "August"], "a": 1, "why": "بعد أبريل يأتي مايو: May."},
+   {"q": "ما معنى winter؟", "o": ["الصيف", "الربيع", "الخريف", "الشتاء"], "a": 3, "why": "winter = الشتاء."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I was born in july.", "I was born on July.", "I was born in July.", "I was born at July."], "a": 2, "why": "نستعمل in مع الأشهر ونكتب الشهر بحرف كبير."},
+   {"q": "كم شهراً في السنة؟ There are ___ months in a year.", "o": ["seven", "twelve", "ten", "twenty"], "a": 1, "why": "في السنة اثنا عشر شهراً: twelve."}
+  ]
+ },
+ {
+  "n": "6",
+  "type": "vocab",
+  "title_ar": "أفراد العائلة",
+  "title_en": "Family members",
+  "summary": "تتعلم في هذا الدرس أسماء أفراد العائلة بالإنجليزية وكيف تتحدث عن عائلتك باستعمال have و my. الحديث عن العائلة من أكثر المواضيع شيوعاً عند التعارف.",
+  "notes": [
+   {"h": "العائلة القريبة", "t": "father = أب (dad = بابا)\nmother = أم (mom = ماما)\nparents = الوالدان\nbrother = أخ\nsister = أخت\nson = ابن\ndaughter = ابنة\nhusband = زوج\nwife = زوجة"},
+   {"h": "الأقارب", "t": "grandfather = جد\ngrandmother = جدة\nuncle = عم أو خال\naunt = عمة أو خالة\ncousin = ابن أو بنت العم أو الخال\nالإنجليزية لا تفرّق بين أقارب الأب وأقارب الأم."},
+   {"h": "التحدث عن العائلة", "t": "This is my father. = هذا أبي.\nI have one brother and two sisters. = عندي أخ واحد وأختان.\nShe has a son. = عندها ابن.\nمع I / you / we / they نستعمل have، ومع he / she نستعمل has."},
+   {"h": "صفات الملكية", "t": "my = لي (my mother = أمي)\nyour = لك (your brother = أخوك)\nhis = له (his wife = زوجته)\nher = لها (her husband = زوجها)\nتأتي صفة الملكية قبل الاسم دائماً."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "في العربية نقول «أمي» بضمير في آخر الكلمة، أما في الإنجليزية فكلمة my تأتي قبل الاسم: my mother وليس mother my."},
+   {"k": "pron", "t": "في father و mother و brother صوت th يُنطق مثل «ذ»: فاذر، ماذر، براذر. و daughter تُنطق «دوتر» فالحرفان gh لا يُنطقان."},
+   {"k": "grammar", "t": "parents تعني الأب والأم معاً وليست «الأقارب». كلمة الأقارب هي relatives."}
+  ],
+  "vocab": [
+   {"en": "family", "ar": "عائلة", "emoji": "👪"},
+   {"en": "father", "ar": "أب", "emoji": "👨"},
+   {"en": "mother", "ar": "أم", "emoji": "👩"},
+   {"en": "brother", "ar": "أخ", "emoji": "👦"},
+   {"en": "sister", "ar": "أخت", "emoji": "👧"},
+   {"en": "son", "ar": "ابن", "emoji": "🧒"},
+   {"en": "daughter", "ar": "ابنة", "emoji": "👱‍♀️"},
+   {"en": "grandfather", "ar": "جد", "emoji": "👴"},
+   {"en": "grandmother", "ar": "جدة", "emoji": "👵"},
+   {"en": "baby", "ar": "رضيع", "emoji": "👶"},
+   {"en": "husband", "ar": "زوج", "emoji": "🤵"},
+   {"en": "wife", "ar": "زوجة", "emoji": "👰"}
+  ],
+  "phrases": [
+   {"en": "This is my father.", "ar": "هذا أبي."},
+   {"en": "I have two sisters.", "ar": "عندي أختان."},
+   {"en": "She has one brother.", "ar": "عندها أخ واحد."},
+   {"en": "My mother is a teacher.", "ar": "أمي معلمة."},
+   {"en": "I love my family.", "ar": "أحب عائلتي."}
+  ],
+  "quiz": [
+   {"q": "ما معنى sister؟", "o": ["أخ", "أم", "ابنة", "أخت"], "a": 3, "why": "sister = أخت."},
+   {"q": "والد أبي هو:", "o": ["my grandfather", "my uncle", "my brother", "my son"], "a": 0, "why": "أبو الأب أو أبو الأم هو grandfather (الجد)."},
+   {"q": "اختر الصحيح: «هذه أمي»", "o": ["This is mother my.", "This is my mother.", "This is I mother.", "This is me mother."], "a": 1, "why": "صفة الملكية my تأتي قبل الاسم."},
+   {"q": "أكمل: She ___ two brothers.", "o": ["have", "is", "has", "are"], "a": 2, "why": "مع she نستعمل has."},
+   {"q": "ما معنى parents؟", "o": ["الأقارب", "الوالدان", "الأجداد", "الإخوة"], "a": 1, "why": "parents = الأب والأم معاً."},
+   {"q": "أخو أمي بالإنجليزية:", "o": ["aunt", "cousin", "uncle", "husband"], "a": 2, "why": "uncle تعني العم أو الخال."}
+  ]
+ },
+ {
+  "n": "7",
+  "type": "vocab",
+  "title_ar": "الألوان",
+  "title_en": "Colors",
+  "summary": "تتعلم في هذا الدرس أسماء الألوان الأساسية بالإنجليزية وكيف تصف بها الأشياء وتسأل عن اللون. الألوان من أول الصفات التي تستعملها في الوصف.",
+  "notes": [
+   {"h": "الألوان الأساسية", "t": "red = أحمر، blue = أزرق، green = أخضر\nyellow = أصفر، black = أسود، white = أبيض\norange = برتقالي، brown = بني، pink = وردي\npurple = بنفسجي، gray = رمادي"},
+   {"h": "السؤال عن اللون", "t": "What color is it? = ما لونه؟\nIt is red. = لونه أحمر.\nWhat color is the car? = ما لون السيارة؟\nThe car is black. = السيارة سوداء.\nWhat is your favorite color? = ما لونك المفضل؟"},
+   {"h": "مكان اللون في الجملة", "t": "اللون صفة، والصفة في الإنجليزية تأتي قبل الاسم:\na red car = سيارة حمراء\na white shirt = قميص أبيض\nأو تأتي بعد am / is / are:\nThe sky is blue. = السماء زرقاء."},
+   {"h": "الفاتح والغامق", "t": "light = فاتح، dark = غامق\nlight blue = أزرق فاتح\ndark green = أخضر غامق\nاللون لا يتغير مع المفرد والجمع أو المذكر والمؤنث: red car, red cars."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "في العربية نقول «سيارة حمراء» فتأتي الصفة بعد الاسم، أما في الإنجليزية فالعكس: a red car وليس a car red."},
+   {"k": "grammar", "t": "الصفات لا تُجمع أبداً: نقول two red cars وليس two reds cars."},
+   {"k": "pron", "t": "purple تُنطق «بيربل» بحرف p مهموس في الموضعين، و orange تُنطق «أورِنج»، و white تُنطق «وايت»."}
+  ],
+  "vocab": [
+   {"en": "red", "ar": "أحمر", "emoji": "🔴"},
+   {"en": "blue", "ar": "أزرق", "emoji": "🔵"},
+   {"en": "green", "ar": "أخضر", "emoji": "🟢"},
+   {"en": "yellow", "ar": "أصفر", "emoji": "🟡"},
+   {"en": "orange", "ar": "برتقالي", "emoji": "🟠"},
+   {"en": "purple", "ar": "بنفسجي", "emoji": "🟣"},
+   {"en": "black", "ar": "أسود", "emoji": "⚫"},
+   {"en": "white", "ar": "أبيض", "emoji": "⚪"},
+   {"en": "brown", "ar": "بني", "emoji": "🟤"},
+   {"en": "pink", "ar": "وردي", "emoji": "🌸"},
+   {"en": "color", "ar": "لون", "emoji": "🎨"}
+  ],
+  "phrases": [
+   {"en": "What color is it?", "ar": "ما لونه؟"},
+   {"en": "The sky is blue.", "ar": "السماء زرقاء."},
+   {"en": "I have a red car.", "ar": "عندي سيارة حمراء."},
+   {"en": "My favorite color is green.", "ar": "لوني المفضل هو الأخضر."},
+   {"en": "The cat is black and white.", "ar": "القطة سوداء وبيضاء."}
+  ],
+  "quiz": [
+   {"q": "ما معنى yellow؟", "o": ["أصفر", "أخضر", "أزرق", "بني"], "a": 0, "why": "yellow = أصفر."},
+   {"q": "اختر الصحيح: «سيارة حمراء»", "o": ["a car red", "a red car", "a reds car", "car a red"], "a": 1, "why": "الصفة تأتي قبل الاسم في الإنجليزية."},
+   {"q": "أكمل: The sky is ___.", "o": ["green", "brown", "blue", "pink"], "a": 2, "why": "السماء زرقاء: blue."},
+   {"q": "ما لون الحليب؟ Milk is ___.", "o": ["black", "red", "purple", "white"], "a": 3, "why": "الحليب أبيض: white."},
+   {"q": "ما معنى dark green؟", "o": ["أخضر فاتح", "أخضر غامق", "أزرق غامق", "أخضر وأسود"], "a": 1, "why": "dark = غامق، فـ dark green = أخضر غامق."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I have two reds pens.", "I have two pens reds.", "I have two red pens.", "I have two pen red."], "a": 2, "why": "الصفة لا تُجمع وتأتي قبل الاسم: two red pens."}
+  ]
+ },
+ {
+  "n": "8",
+  "type": "vocab",
+  "title_ar": "الوقت والساعة",
+  "title_en": "Telling the time",
+  "summary": "تتعلم في هذا الدرس كيف تسأل عن الوقت وتقرأ الساعة بالإنجليزية: الساعة الكاملة والنصف والربع، مع أوقات اليوم. معرفة الوقت ضرورية للمواعيد والسفر.",
+  "notes": [
+   {"h": "السؤال عن الوقت", "t": "What time is it? = كم الساعة؟\nنبدأ الجواب دائماً بـ It is أو اختصارها It's:\nIt's five o'clock. = الساعة الخامسة."},
+   {"h": "الساعة الكاملة والنصف", "t": "الساعة الكاملة: الرقم + o'clock\nIt's seven o'clock. = الساعة السابعة.\nالنصف: half past + الساعة\nIt's half past seven. = الساعة السابعة والنصف (7:30)."},
+   {"h": "الربع", "t": "والربع: quarter past + الساعة\nIt's quarter past three. = الثالثة والربع (3:15).\nإلا ربعاً: quarter to + الساعة القادمة\nIt's quarter to four. = الرابعة إلا ربعاً (3:45).\npast = بعد، to = قبل (إلا)."},
+   {"h": "الطريقة السهلة", "t": "يمكن قراءة الساعة ثم الدقائق مباشرة:\n3:15 = three fifteen\n7:30 = seven thirty\n9:45 = nine forty-five\na.m. = قبل الظهر (صباحاً)، p.m. = بعد الظهر (مساءً)\nIt's 8 a.m. = الساعة الثامنة صباحاً."},
+   {"h": "أوقات اليوم وحروف الجر", "t": "at + الساعة: at six o'clock = في الساعة السادسة\nin the morning = في الصباح\nin the afternoon = بعد الظهر\nin the evening = في المساء\nat night = في الليل\nI wake up at six o'clock. = أستيقظ في الساعة السادسة."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "لا تقل The clock is five ترجمةً لـ «الساعة خمسة». الصحيح: It is five o'clock."},
+   {"k": "grammar", "t": "o'clock تُستعمل مع الساعة الكاملة فقط: It's five o'clock. ولا نقول half past five o'clock."},
+   {"k": "pron", "t": "half تُنطق «هاف»: حرف l لا يُنطق. و quarter تُنطق «كْوورتر»، و hour تُنطق «آور» بدون نطق حرف h."}
+  ],
+  "vocab": [
+   {"en": "time", "ar": "وقت", "emoji": "⏰"},
+   {"en": "clock", "ar": "ساعة حائط", "emoji": "🕰️"},
+   {"en": "watch", "ar": "ساعة يد", "emoji": "⌚"},
+   {"en": "hour", "ar": "ساعة (60 دقيقة)", "emoji": "⏳"},
+   {"en": "minute", "ar": "دقيقة", "emoji": "⏱️"},
+   {"en": "half", "ar": "نصف", "emoji": "🌗"},
+   {"en": "morning", "ar": "صباح", "emoji": "🌅"},
+   {"en": "afternoon", "ar": "بعد الظهر", "emoji": "☀️"},
+   {"en": "evening", "ar": "مساء", "emoji": "🌆"},
+   {"en": "night", "ar": "ليل", "emoji": "🌙"},
+   {"en": "midnight", "ar": "منتصف الليل", "emoji": "🌃"}
+  ],
+  "phrases": [
+   {"en": "What time is it?", "ar": "كم الساعة؟"},
+   {"en": "It's seven o'clock.", "ar": "الساعة السابعة."},
+   {"en": "It's half past two.", "ar": "الساعة الثانية والنصف."},
+   {"en": "It's quarter to nine.", "ar": "الساعة التاسعة إلا ربعاً."},
+   {"en": "I wake up at six o'clock.", "ar": "أستيقظ في الساعة السادسة."}
+  ],
+  "quiz": [
+   {"q": "كيف تسأل عن الساعة؟", "o": ["How old are you?", "What time is it?", "What day is it?", "How are you?"], "a": 1, "why": "What time is it? = كم الساعة؟"},
+   {"q": "الساعة 7:30 هي:", "o": ["half past seven", "half to seven", "quarter past seven", "seven o'clock"], "a": 0, "why": "النصف = half past + الساعة."},
+   {"q": "It's quarter to four تعني:", "o": ["4:15", "4:45", "3:45", "3:15"], "a": 2, "why": "quarter to four = الرابعة إلا ربعاً أي 3:45."},
+   {"q": "أكمل: I wake up ___ six o'clock.", "o": ["in", "on", "to", "at"], "a": 3, "why": "نستعمل at قبل الساعة."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["The clock is five.", "It five o'clock.", "It's five o'clock.", "Is five o'clock."], "a": 2, "why": "نقول It's + الوقت."},
+   {"q": "ما معنى in the morning؟", "o": ["في الليل", "في الصباح", "في المساء", "بعد الظهر"], "a": 1, "why": "morning = صباح."}
+  ]
+ },
+ {
+  "n": "9a",
+  "type": "vocab",
+  "title_ar": "الطعام (1): الفواكه والخضراوات والأطعمة الأساسية",
+  "title_en": "Food (1): fruit, vegetables and basic food",
+  "summary": "تتعلم في هذا الدرس أسماء أشهر الفواكه والخضراوات والأطعمة الأساسية، وكيف تقول ما تحبه منها. كلمات الطعام تحتاجها يومياً في البيت والسوق والمطعم.",
+  "notes": [
+   {"h": "الفواكه (fruit)", "t": "apple = تفاحة\nbanana = موزة\norange = برتقالة\ngrapes = عنب\nstrawberry = فراولة\nwatermelon = بطيخ\nlemon = ليمون"},
+   {"h": "الخضراوات (vegetables)", "t": "tomato = طماطم\npotato = بطاطس\ncarrot = جزر\nonion = بصل\ncucumber = خيار"},
+   {"h": "أطعمة أساسية", "t": "bread = خبز\nrice = أرز\nmeat = لحم\nchicken = دجاج\nfish = سمك\negg = بيضة\ncheese = جبن"},
+   {"h": "a أو an", "t": "قبل الاسم المفرد المعدود نضع a:\na banana = موزة، a tomato = حبة طماطم\nوإذا بدأ الاسم بصوت متحرك (a, e, i, o, u) نضع an:\nan apple = تفاحة، an orange = برتقالة، an egg = بيضة"},
+   {"h": "أسماء لا تُعدّ", "t": "بعض الأطعمة لا تُعدّ فلا تأخذ a / an ولا تُجمع:\nbread, rice, meat, cheese\nنقول: I eat rice. = آكل الأرز.\nوللكمية نقول: some bread = بعض الخبز."}
+  ],
+  "alerts": [
+   {"k": "grammar", "t": "نقول an apple و an egg و an orange لأنها تبدأ بصوت متحرك، ونقول a banana. لا تقل a apple."},
+   {"k": "pron", "t": "vegetables تُنطق «فِجتَبلز» بثلاثة مقاطع فقط، وحرف v يُنطق بوضع الأسنان العليا على الشفة السفلى مع اهتزاز، وليس مثل «ف»."},
+   {"k": "mistake", "t": "لا تقل a bread أو two breads أو rices. هذه أسماء لا تُعدّ: نقول bread و rice فقط، أو some bread."}
+  ],
+  "vocab": [
+   {"en": "apple", "ar": "تفاحة", "emoji": "🍎"},
+   {"en": "banana", "ar": "موزة", "emoji": "🍌"},
+   {"en": "orange", "ar": "برتقالة", "emoji": "🍊"},
+   {"en": "grapes", "ar": "عنب", "emoji": "🍇"},
+   {"en": "tomato", "ar": "طماطم", "emoji": "🍅"},
+   {"en": "potato", "ar": "بطاطس", "emoji": "🥔"},
+   {"en": "carrot", "ar": "جزر", "emoji": "🥕"},
+   {"en": "bread", "ar": "خبز", "emoji": "🍞"},
+   {"en": "rice", "ar": "أرز", "emoji": "🍚"},
+   {"en": "chicken", "ar": "دجاج", "emoji": "🍗"},
+   {"en": "egg", "ar": "بيضة", "emoji": "🥚"},
+   {"en": "cheese", "ar": "جبن", "emoji": "🧀"}
+  ],
+  "phrases": [
+   {"en": "I eat an apple every day.", "ar": "آكل تفاحة كل يوم."},
+   {"en": "I like chicken and rice.", "ar": "أحب الدجاج والأرز."},
+   {"en": "Bananas are yellow.", "ar": "الموز أصفر."},
+   {"en": "I don't like onions.", "ar": "لا أحب البصل."},
+   {"en": "We need bread and cheese.", "ar": "نحتاج خبزاً وجبناً."}
+  ],
+  "quiz": [
+   {"q": "أكمل: I eat ___ apple.", "o": ["a", "an", "two", "some"], "a": 1, "why": "apple تبدأ بصوت متحرك فنستعمل an."},
+   {"q": "أيّ كلمة من الخضراوات؟", "o": ["banana", "bread", "cheese", "carrot"], "a": 3, "why": "carrot = جزر، وهو من الخضراوات."},
+   {"q": "ما معنى bread؟", "o": ["خبز", "أرز", "لحم", "جبن"], "a": 0, "why": "bread = خبز."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I eat a rice.", "I eat rices.", "I eat rice.", "I eat an rice."], "a": 2, "why": "rice اسم لا يُعدّ فلا يأخذ a ولا يُجمع."},
+   {"q": "أيّ كلمة تأخذ an؟", "o": ["banana", "tomato", "egg", "potato"], "a": 2, "why": "egg تبدأ بصوت متحرك: an egg."},
+   {"q": "ما معنى chicken؟", "o": ["سمك", "دجاج", "لحم", "بيض"], "a": 1, "why": "chicken = دجاج."}
+  ]
+ }
+]

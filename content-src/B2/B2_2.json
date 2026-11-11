@@ -1,0 +1,1718 @@
+[
+ {
+  "n": "149",
+  "type": "skills",
+  "title_ar": "رواية قصة مفصّلة",
+  "title_en": "Telling a detailed story",
+  "summary": "تتعلم كيف تروي قصة غنية بالتفاصيل باستخدام أزمنة السرد الأربعة وأدوات الربط الزمنية والصفات والظروف الوصفية. هذه المهارة تجعل حديثك وكتابتك أكثر تشويقاً وتنظيماً.",
+  "notes": [
+   {
+    "h": "أزمنة السرد",
+    "t": "Past simple للأحداث الرئيسية المتتابعة: I opened the door and walked in.\nPast continuous لخلفية المشهد أو لحدث قاطعه حدث آخر: It was raining when I left the house.\nPast perfect لحدث وقع قبل حدث ماضٍ آخر: When I arrived, the train had already left.\nPast perfect continuous لنشاط استمر قبل لحظة ماضية: I had been waiting for an hour when she finally called."
+   },
+   {
+    "h": "بناء القصة",
+    "t": "1) المشهد: الزمان والمكان والشخصيات. It was a cold winter night...\n2) الحدث الذي غيّر الوضع: Suddenly, the lights went out.\n3) تطور الأحداث وذروتها.\n4) النهاية وما شعرت به أو تعلمته: In the end, everything turned out fine."
+   },
+   {
+    "h": "أدوات الربط الزمنية",
+    "t": "للبداية: at first, one day, it all began when.\nللتتابع: then, after that, later, as soon as, by the time.\nللتزامن: while, meanwhile, just as.\nللمفاجأة: suddenly, all of a sudden, out of the blue, to my surprise.\nللنهاية: eventually, finally, in the end.\nمثال: By the time we got there, the shop had closed."
+   },
+   {
+    "h": "إضافة التفاصيل",
+    "t": "استخدم صفات قوية بدل very + صفة عادية: exhausted بدل very tired، terrified بدل very scared، freezing بدل very cold، delighted بدل very happy.\nواستخدم ظروف الحال: slowly, nervously, quietly, desperately.\nواذكر الحواس: I could hear footsteps behind me."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "grammar",
+    "t": "لا تستخدم الماضي التام لكل الأحداث. استخدمه فقط لما سبق الحدث الرئيسي: I realised I had forgotten my passport."
+   },
+   {
+    "k": "mistake",
+    "t": "at the end تتبعها of: at the end of the film. أما in the end فتعني في النهاية أو أخيراً ولا يتبعها of. خطأ: At the end, we found the hotel."
+   },
+   {
+    "k": "pron",
+    "t": "نهاية ed تُنطق t بعد الأصوات المهموسة: walked = وُوكْت، وتُنطق d بعد المجهورة: opened = أُوبِنْد، وتُنطق id بعد t و d فقط: waited = وَيْتِد."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "suddenly",
+    "ar": "فجأة",
+    "emoji": "⚡"
+   },
+   {
+    "en": "meanwhile",
+    "ar": "في تلك الأثناء",
+    "emoji": "⏳"
+   },
+   {
+    "en": "eventually",
+    "ar": "في نهاية المطاف",
+    "emoji": "🏁"
+   },
+   {
+    "en": "exhausted",
+    "ar": "منهك",
+    "emoji": "😩"
+   },
+   {
+    "en": "terrified",
+    "ar": "مرعوب",
+    "emoji": "😱"
+   },
+   {
+    "en": "delighted",
+    "ar": "مسرور جداً",
+    "emoji": "😄"
+   },
+   {
+    "en": "freezing",
+    "ar": "شديد البرودة",
+    "emoji": "🥶"
+   },
+   {
+    "en": "realise",
+    "ar": "يدرك",
+    "emoji": "💡"
+   },
+   {
+    "en": "nervously",
+    "ar": "بتوتر",
+    "emoji": "😬"
+   },
+   {
+    "en": "unexpectedly",
+    "ar": "بشكل غير متوقع",
+    "emoji": "🌩️"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "It was raining when I left the house.",
+    "ar": "كانت تمطر عندما غادرت المنزل."
+   },
+   {
+    "en": "When I arrived, the train had already left.",
+    "ar": "عندما وصلت كان القطار قد غادر."
+   },
+   {
+    "en": "Suddenly, all the lights went out.",
+    "ar": "فجأة انطفأت كل الأنوار."
+   },
+   {
+    "en": "I had been waiting for an hour.",
+    "ar": "كنت أنتظر منذ ساعة."
+   },
+   {
+    "en": "In the end, everything turned out fine.",
+    "ar": "في النهاية انتهى كل شيء على ما يرام."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "When we got to the cinema, the film ___.",
+    "o": [
+     "already started",
+     "had already started",
+     "has already started",
+     "was already start"
+    ],
+    "a": 1,
+    "why": "الحدث الأسبق في الماضي يأخذ الماضي التام."
+   },
+   {
+    "q": "I ___ TV when the phone rang.",
+    "o": [
+     "was watching",
+     "watched",
+     "had watched",
+     "am watching"
+    ],
+    "a": 0,
+    "why": "الحدث المستمر الذي قاطعه حدث آخر يأخذ الماضي المستمر."
+   },
+   {
+    "q": "اختر الصحيح:",
+    "o": [
+     "At the end, we found a taxi.",
+     "In the end of the day, we found a taxi.",
+     "At the end we were found a taxi.",
+     "In the end, we found a taxi."
+    ],
+    "a": 3,
+    "why": "in the end = أخيراً، ولا يتبعها of."
+   },
+   {
+    "q": "أي صفة تعني very tired؟",
+    "o": [
+     "terrified",
+     "delighted",
+     "exhausted",
+     "freezing"
+    ],
+    "a": 2,
+    "why": "exhausted = منهك تماماً."
+   },
+   {
+    "q": "ما معنى out of the blue؟",
+    "o": [
+     "على حين غرّة",
+     "من السماء",
+     "بلون أزرق",
+     "في النهاية"
+    ],
+    "a": 0,
+    "why": "تعبير يعني بشكل مفاجئ وغير متوقع."
+   },
+   {
+    "q": "She was tired because she ___ all day.",
+    "o": [
+     "has been working",
+     "is working",
+     "had been working",
+     "works"
+    ],
+    "a": 2,
+    "why": "نشاط مستمر قبل لحظة في الماضي: Past perfect continuous."
+   }
+  ]
+ },
+ {
+  "n": "150",
+  "type": "skills",
+  "title_ar": "قصص التحديات",
+  "title_en": "Challenging stories",
+  "summary": "تتعلم كيف تحكي عن موقف صعب مررت به وكيف تجاوزته. ستكتسب تعابير وصف الصعوبات والمثابرة والدروس المستفادة، وهي مطلوبة كثيراً في المقابلات والاختبارات الشفوية.",
+  "notes": [
+   {
+    "h": "وصف التحدي",
+    "t": "face a challenge = يواجه تحدياً، a setback = انتكاسة، an obstacle = عقبة، struggle with / to = يعاني من / ليفعل، go through a tough time = يمر بوقت عصيب، be under pressure = تحت ضغط.\nمثال: I faced a major setback in my first year at university."
+   },
+   {
+    "h": "وصف رد الفعل والمثابرة",
+    "t": "overcome = يتغلب على، cope with / deal with = يتعامل مع، keep going = يواصل، refuse to give up = يرفض الاستسلام، manage to do = ينجح في فعل شيء صعب، pull through = يتجاوز المحنة.\nمثال: Despite the difficulties, I managed to finish the course."
+   },
+   {
+    "h": "أدوات التضاد",
+    "t": "although / even though + جملة: Although I was exhausted, I kept going.\ndespite / in spite of + اسم أو ing: Despite being exhausted, I kept going.\nhowever في بداية جملة جديدة وبعدها فاصلة: I failed twice. However, I tried again."
+   },
+   {
+    "h": "الدرس المستفاد",
+    "t": "It taught me that... = علّمني أنّ\nLooking back, I realise that... = حين أنظر إلى الوراء أدرك أنّ\nIt made me stronger = جعلني أقوى.\nIf I hadn't failed, I wouldn't have learned so much = لو لم أفشل لما تعلمت كل هذا.\nIt was a turning point in my life = كان نقطة تحول في حياتي."
+   },
+   {
+    "h": "قالب STAR للمقابلات",
+    "t": "Situation: الموقف. Task: المطلوب منك. Action: ما فعلته. Result: النتيجة.\nمثال مختصر: Our team lost a key member (S). I had to finish the project alone (T). I reorganised the schedule and worked extra hours (A). We delivered on time (R)."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "grammar",
+    "t": "despite لا يتبعها of ولا جملة كاملة: Despite the rain / Despite being tired. خطأ: Despite of the rain، Despite I was tired."
+   },
+   {
+    "k": "mistake",
+    "t": "managed to تعني نجح فعلاً في موقف صعب محدد. لا تقل I could pass the exam عن نجاح واحد محدد في الماضي، بل I managed to pass / I was able to pass the exam."
+   },
+   {
+    "k": "pron",
+    "t": "obstacle النبر على المقطع الأول: أُوبْسْتِكِل. و overcome النبر على الأخير: أُوفَرْكَم."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "challenge",
+    "ar": "تحدٍّ",
+    "emoji": "🧗"
+   },
+   {
+    "en": "setback",
+    "ar": "انتكاسة",
+    "emoji": "↩️"
+   },
+   {
+    "en": "obstacle",
+    "ar": "عقبة",
+    "emoji": "🚧"
+   },
+   {
+    "en": "overcome",
+    "ar": "يتغلب على",
+    "emoji": "💪"
+   },
+   {
+    "en": "struggle",
+    "ar": "يعاني / صراع",
+    "emoji": "😣"
+   },
+   {
+    "en": "cope with",
+    "ar": "يتعامل مع",
+    "emoji": "🧘"
+   },
+   {
+    "en": "give up",
+    "ar": "يستسلم",
+    "emoji": "🏳️"
+   },
+   {
+    "en": "determined",
+    "ar": "مصمّم",
+    "emoji": "😤"
+   },
+   {
+    "en": "turning point",
+    "ar": "نقطة تحول",
+    "emoji": "🔀"
+   },
+   {
+    "en": "pressure",
+    "ar": "ضغط",
+    "emoji": "⏲️"
+   },
+   {
+    "en": "resilient",
+    "ar": "قادر على الصمود",
+    "emoji": "🌵"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "I faced a major setback last year.",
+    "ar": "واجهت انتكاسة كبيرة العام الماضي."
+   },
+   {
+    "en": "Despite the difficulties, I kept going.",
+    "ar": "رغم الصعوبات واصلت المسير."
+   },
+   {
+    "en": "I managed to finish the course.",
+    "ar": "نجحت في إنهاء الدورة."
+   },
+   {
+    "en": "It was a turning point in my life.",
+    "ar": "كان نقطة تحول في حياتي."
+   },
+   {
+    "en": "I refused to give up.",
+    "ar": "رفضت أن أستسلم."
+   },
+   {
+    "en": "Looking back, it made me stronger.",
+    "ar": "حين أنظر إلى الوراء أجد أنه جعلني أقوى."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "___ being ill, she passed the exam.",
+    "o": [
+     "Although",
+     "Despite",
+     "However",
+     "Even though"
+    ],
+    "a": 1,
+    "why": "despite يتبعها اسم أو فعل بصيغة ing."
+   },
+   {
+    "q": "اختر الصحيح:",
+    "o": [
+     "Despite of the rain, we went out.",
+     "Despite it was raining, we went out.",
+     "Although the rain, we went out.",
+     "Although it was raining, we went out."
+    ],
+    "a": 3,
+    "why": "although تتبعها جملة كاملة."
+   },
+   {
+    "q": "It was hard, but I ___ solve the problem in the end.",
+    "o": [
+     "managed to",
+     "could to",
+     "succeeded to",
+     "managed"
+    ],
+    "a": 0,
+    "why": "manage to + المصدر للنجاح في أمر صعب محدد."
+   },
+   {
+    "q": "ما معنى setback؟",
+    "o": [
+     "نجاح مفاجئ",
+     "نقطة تحول",
+     "انتكاسة تؤخر التقدم",
+     "ضغط نفسي"
+    ],
+    "a": 2,
+    "why": "setback = عثرة أو انتكاسة."
+   },
+   {
+    "q": "في قالب STAR، الحرف A يرمز إلى:",
+    "o": [
+     "Answer",
+     "Action",
+     "Aim",
+     "Advice"
+    ],
+    "a": 1,
+    "why": "A = Action أي ما قمت به."
+   },
+   {
+    "q": "She found it hard to ___ with the stress.",
+    "o": [
+     "overcome",
+     "manage",
+     "cope",
+     "face"
+    ],
+    "a": 2,
+    "why": "نقول cope with، أما overcome و face فلا تتبعهما with."
+   }
+  ]
+ },
+ {
+  "n": "151",
+  "type": "conversation",
+  "title_ar": "التجارب الإيجابية",
+  "title_en": "Positive experiences",
+  "summary": "تتعلم كيف تصف تجربة جميلة عشتها بحماس وبصفات قوية، وكيف تتفاعل مع من يحكي لك تجربته. ستستخدم المضارع التام للتجارب والماضي البسيط للتفاصيل.",
+  "notes": [
+   {
+    "h": "السؤال عن التجارب",
+    "t": "Have you ever + التصريف الثالث؟ للسؤال عن تجربة في أي وقت من الحياة:\nHave you ever been to Japan? / Have you ever tried scuba diving?\nثم ننتقل إلى الماضي البسيط للتفاصيل: Yes, I went there in 2019. It was amazing.\nWhat was it like? = كيف كانت؟"
+   },
+   {
+    "h": "صفات قوية للتجارب",
+    "t": "amazing, incredible, fantastic = مذهل، unforgettable = لا يُنسى، breathtaking = يخطف الأنفاس، thrilling = مثير، rewarding = مُجزٍ معنوياً، memorable = جدير بالتذكر، once-in-a-lifetime = لا يتكرر في العمر.\nمع الصفات القوية نستخدم absolutely أو really لا very: absolutely amazing."
+   },
+   {
+    "h": "تعابير المشاعر",
+    "t": "I had the time of my life = قضيت أجمل أوقات حياتي.\nIt was a dream come true = حلم تحقق.\nI was over the moon = كنت في غاية السعادة.\nIt exceeded my expectations = فاق توقعاتي.\nIt was well worth it = كان يستحق العناء.\nI'd do it again in a heartbeat = سأكررها بلا تردد."
+   },
+   {
+    "h": "التفاعل مع المتحدث",
+    "t": "Wow, that sounds incredible!\nReally? Lucky you!\nI'd love to do that someday.\nWhat was the best part?\nهذه العبارات تُظهر اهتمامك وتُبقي الحوار حياً."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "grammar",
+    "t": "مع وقت محدد في الماضي استخدم الماضي البسيط لا المضارع التام: I went to Paris last year، وليس I have been to Paris last year."
+   },
+   {
+    "k": "mistake",
+    "t": "الصفة بـ ed تصف شعورك، وبـ ing تصف الشيء: I was excited / The trip was exciting. خطأ: I was exciting."
+   },
+   {
+    "k": "pron",
+    "t": "unforgettable النبر على get: أَنْفَرْغِتَبِل. و breathtaking تبدأ بـ breath بصوت ث: بْرِثْ تَيْكِنغ."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "unforgettable",
+    "ar": "لا يُنسى",
+    "emoji": "🌟"
+   },
+   {
+    "en": "breathtaking",
+    "ar": "يخطف الأنفاس",
+    "emoji": "🏔️"
+   },
+   {
+    "en": "thrilling",
+    "ar": "مثير",
+    "emoji": "🎢"
+   },
+   {
+    "en": "rewarding",
+    "ar": "مُجزٍ",
+    "emoji": "🏅"
+   },
+   {
+    "en": "memorable",
+    "ar": "جدير بالتذكر",
+    "emoji": "📸"
+   },
+   {
+    "en": "incredible",
+    "ar": "مذهل",
+    "emoji": "🤩"
+   },
+   {
+    "en": "highlight",
+    "ar": "أبرز لحظة",
+    "emoji": "✨"
+   },
+   {
+    "en": "experience",
+    "ar": "تجربة",
+    "emoji": "🎈"
+   },
+   {
+    "en": "expectation",
+    "ar": "توقّع",
+    "emoji": "🔮"
+   },
+   {
+    "en": "over the moon",
+    "ar": "في غاية السعادة",
+    "emoji": "🌙"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "Have you ever tried scuba diving?",
+    "ar": "هل جرّبت الغوص من قبل؟"
+   },
+   {
+    "en": "I had the time of my life.",
+    "ar": "قضيت أجمل أوقات حياتي."
+   },
+   {
+    "en": "It was a dream come true.",
+    "ar": "كان حلماً تحقق."
+   },
+   {
+    "en": "The view was absolutely breathtaking.",
+    "ar": "كان المنظر يخطف الأنفاس حقاً."
+   },
+   {
+    "en": "It exceeded all my expectations.",
+    "ar": "فاق كل توقعاتي."
+   },
+   {
+    "en": "It was well worth the effort.",
+    "ar": "كان يستحق الجهد."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "I ___ to Italy two years ago.",
+    "o": [
+     "have been",
+     "have gone",
+     "went",
+     "had been going"
+    ],
+    "a": 2,
+    "why": "مع وقت محدد (two years ago) نستخدم الماضي البسيط."
+   },
+   {
+    "q": "The view was ___ amazing.",
+    "o": [
+     "very much",
+     "absolutely",
+     "a bit",
+     "fairly"
+    ],
+    "a": 1,
+    "why": "مع الصفات القوية نستخدم absolutely."
+   },
+   {
+    "q": "ما معنى I was over the moon؟",
+    "o": [
+     "كنت سعيداً للغاية",
+     "سافرت إلى مكان بعيد",
+     "كنت متعباً جداً",
+     "سهرت طوال الليل"
+    ],
+    "a": 0,
+    "why": "تعبير اصطلاحي عن السعادة الغامرة."
+   },
+   {
+    "q": "أين الخطأ؟ I was really exciting about the trip.",
+    "o": [
+     "I was",
+     "really",
+     "about the trip",
+     "exciting"
+    ],
+    "a": 3,
+    "why": "لوصف شعور الشخص نستخدم excited."
+   },
+   {
+    "q": "___ you ever ridden a camel?",
+    "o": [
+     "Did",
+     "Have",
+     "Were",
+     "Do"
+    ],
+    "a": 1,
+    "why": "السؤال عن تجربة: Have you ever + التصريف الثالث."
+   },
+   {
+    "q": "تجربة rewarding هي تجربة:",
+    "o": [
+     "مخيفة",
+     "مملة",
+     "تمنحك شعوراً بالرضا والفائدة",
+     "غالية الثمن"
+    ],
+    "a": 2,
+    "why": "rewarding = مُجزية معنوياً."
+   }
+  ]
+ },
+ {
+  "n": "152",
+  "type": "conversation",
+  "title_ar": "الذكريات الشخصية",
+  "title_en": "Personal memories",
+  "summary": "تتعلم كيف تتحدث عن طفولتك وذكرياتك وعاداتك القديمة باستخدام used to و would، وأفعال التذكر وأنماطها. ستعبّر عن الحنين إلى الماضي بلغة طبيعية.",
+  "notes": [
+   {
+    "h": "used to للعادات والحالات الماضية",
+    "t": "used to + المصدر لعادة أو حالة كانت في الماضي وانتهت:\nI used to play football every day. / We used to live in a small village.\nالنفي: I didn't use to like vegetables.\nالسؤال: Did you use to walk to school?"
+   },
+   {
+    "h": "would للعادات المتكررة",
+    "t": "would + المصدر لأفعال متكررة في الماضي، خاصة في السرد:\nEvery summer we would visit my grandparents, and my grandmother would bake bread.\nلا نستخدم would مع أفعال الحالة مثل be, have, live, like, know. خطأ: I would have long hair. الصحيح: I used to have long hair."
+   },
+   {
+    "h": "أفعال التذكر",
+    "t": "remember + ing = أتذكر شيئاً حدث في الماضي: I remember playing in that park.\nremember + to = أتذكر أن أفعل شيئاً مطلوباً: Remember to lock the door.\nremind someone of = يذكّره بـ: This song reminds me of my childhood.\nforget + ing للذكريات: I'll never forget meeting her."
+   },
+   {
+    "h": "تعابير الذكريات",
+    "t": "It brings back memories = يعيد الذكريات.\nI have fond memories of = لدي ذكريات جميلة عن.\nI can still picture = ما زلت أتخيل.\nAs far as I remember = على ما أذكر.\nIt takes me back to = يعيدني إلى.\nWhen I was a child / Back then / In those days = في ذلك الزمان."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "لا تخلط بين used to do (عادة ماضية) و be used to doing (معتاد على): I used to get up early = كنت أستيقظ مبكراً. I am used to getting up early = أنا معتاد على الاستيقاظ مبكراً."
+   },
+   {
+    "k": "grammar",
+    "t": "في النفي والسؤال تُحذف d: didn't use to / Did you use to، لأن did تحمل الماضي."
+   },
+   {
+    "k": "pron",
+    "t": "used to تُنطق: يُوسْتُ بصوت s لا z، وتُدمج الكلمتان. أما used بمعنى استخدم فتُنطق: يُوزْد."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "childhood",
+    "ar": "الطفولة",
+    "emoji": "🧒"
+   },
+   {
+    "en": "memory",
+    "ar": "ذكرى",
+    "emoji": "💭"
+   },
+   {
+    "en": "remind",
+    "ar": "يذكّر",
+    "emoji": "🔔"
+   },
+   {
+    "en": "nostalgic",
+    "ar": "يشعر بالحنين",
+    "emoji": "🥹"
+   },
+   {
+    "en": "used to",
+    "ar": "كان يعتاد أن",
+    "emoji": "🕰️"
+   },
+   {
+    "en": "grow up",
+    "ar": "ينشأ / يكبر",
+    "emoji": "🌱"
+   },
+   {
+    "en": "neighbourhood",
+    "ar": "الحيّ",
+    "emoji": "🏘️"
+   },
+   {
+    "en": "fond memories",
+    "ar": "ذكريات جميلة",
+    "emoji": "💖"
+   },
+   {
+    "en": "recall",
+    "ar": "يستحضر / يتذكر",
+    "emoji": "🧠"
+   },
+   {
+    "en": "back then",
+    "ar": "في ذلك الوقت",
+    "emoji": "⏪"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "I used to play here every day.",
+    "ar": "كنت ألعب هنا كل يوم."
+   },
+   {
+    "en": "We would visit my grandparents every summer.",
+    "ar": "كنا نزور جدّيّ كل صيف."
+   },
+   {
+    "en": "This song reminds me of my childhood.",
+    "ar": "هذه الأغنية تذكّرني بطفولتي."
+   },
+   {
+    "en": "I remember playing in that park.",
+    "ar": "أتذكر أنني كنت ألعب في تلك الحديقة."
+   },
+   {
+    "en": "It brings back so many memories.",
+    "ar": "إنه يعيد ذكريات كثيرة."
+   },
+   {
+    "en": "I'll never forget meeting her.",
+    "ar": "لن أنسى لقائي بها أبداً."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "I ___ like coffee, but now I love it.",
+    "o": [
+     "didn't used to",
+     "didn't use to",
+     "wasn't used to",
+     "wouldn't"
+    ],
+    "a": 1,
+    "why": "النفي: didn't use to بدون d."
+   },
+   {
+    "q": "اختر الصحيح:",
+    "o": [
+     "I would have a bicycle when I was ten.",
+     "I used to having a bicycle.",
+     "I used to have a bicycle when I was ten.",
+     "I use to have a bicycle."
+    ],
+    "a": 2,
+    "why": "have فعل حالة (ملكية) فلا يأتي مع would، والصيغة used to + المصدر."
+   },
+   {
+    "q": "I remember ___ her for the first time.",
+    "o": [
+     "meeting",
+     "to meet",
+     "meet",
+     "met"
+    ],
+    "a": 0,
+    "why": "remember + ing لذكرى حدثت في الماضي."
+   },
+   {
+    "q": "This smell reminds me ___ my grandmother's kitchen.",
+    "o": [
+     "about",
+     "to",
+     "with",
+     "of"
+    ],
+    "a": 3,
+    "why": "remind someone of something."
+   },
+   {
+    "q": "ما معنى I am used to driving at night؟",
+    "o": [
+     "كنت أقود ليلاً في الماضي",
+     "أنا معتاد على القيادة ليلاً",
+     "سأقود ليلاً",
+     "لا أقود ليلاً"
+    ],
+    "a": 1,
+    "why": "be used to + ing تعني معتاد على."
+   },
+   {
+    "q": "Don't forget! Remember ___ the door.",
+    "o": [
+     "locking",
+     "lock",
+     "to lock",
+     "locked"
+    ],
+    "a": 2,
+    "why": "remember + to لشيء يجب فعله."
+   }
+  ]
+ },
+ {
+  "n": "153",
+  "type": "vocab",
+  "title_ar": "الاحتفالات الثقافية",
+  "title_en": "Cultural celebrations",
+  "summary": "تتعلم مفردات الأعياد والمهرجانات والعادات والتقاليد، وكيف تشرح احتفالات بلدك لشخص أجنبي. موضوع شائع في المحادثات مع الأجانب وفي اختبارات المحادثة.",
+  "notes": [
+   {
+    "h": "أنواع المناسبات",
+    "t": "a festival = مهرجان، a public holiday = عطلة رسمية، a religious festival = عيد ديني، a national day = يوم وطني، a wedding = زفاف، an anniversary = ذكرى سنوية، a ceremony = مراسم.\nمثال: Eid al-Fitr is a religious festival that marks the end of Ramadan."
+   },
+   {
+    "h": "العادات والتقاليد",
+    "t": "a tradition = تقليد، a custom = عادة اجتماعية، a ritual = طقس، heritage = تراث، traditional costume = زي تقليدي، pass down = يتوارث.\nمثال: This tradition has been passed down from generation to generation."
+   },
+   {
+    "h": "أفعال الاحتفال",
+    "t": "celebrate = يحتفل بـ (بدون حرف جر)، take place = يُقام، commemorate = يُحيي ذكرى، gather = يجتمع، decorate = يزيّن، exchange gifts = يتبادل الهدايا، fast = يصوم، set off fireworks = يطلق الألعاب النارية.\nمثال: The festival takes place every spring."
+   },
+   {
+    "h": "شرح احتفال لأجنبي",
+    "t": "It is celebrated on... / It marks... / It dates back to...\nPeople usually wear... / Families get together and...\nIt is customary to + فعل: It is customary to visit relatives.\nمثال: During Eid, it is customary to give children money."
+   },
+   {
+    "h": "التهاني",
+    "t": "Happy Eid! / Eid Mubarak! / Happy New Year! / Congratulations! / Many happy returns! (في عيد الميلاد) / Best wishes!"
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "خطأ شائع: We celebrate with Eid أو celebrate in. الصحيح بلا حرف جر: We celebrate Eid. ونقول congratulate someone on: I congratulated him on his wedding."
+   },
+   {
+    "k": "grammar",
+    "t": "حروف الجر مع المناسبات: on للأيام (on Eid day, on New Year's Day)، at لفترة العيد عموماً (at Christmas, at Eid)، in للشهور (in Ramadan)."
+   },
+   {
+    "k": "pron",
+    "t": "anniversary النبر على ver: أَنِفِيرْسَري. و ceremony النبر على المقطع الأول: سِيرِمُني."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "festival",
+    "ar": "مهرجان / عيد",
+    "emoji": "🎉"
+   },
+   {
+    "en": "tradition",
+    "ar": "تقليد",
+    "emoji": "🏮"
+   },
+   {
+    "en": "custom",
+    "ar": "عادة",
+    "emoji": "🤲"
+   },
+   {
+    "en": "ceremony",
+    "ar": "مراسم",
+    "emoji": "🎊"
+   },
+   {
+    "en": "celebrate",
+    "ar": "يحتفل",
+    "emoji": "🥳"
+   },
+   {
+    "en": "fireworks",
+    "ar": "ألعاب نارية",
+    "emoji": "🎆"
+   },
+   {
+    "en": "heritage",
+    "ar": "تراث",
+    "emoji": "🏺"
+   },
+   {
+    "en": "costume",
+    "ar": "زي",
+    "emoji": "👘"
+   },
+   {
+    "en": "anniversary",
+    "ar": "ذكرى سنوية",
+    "emoji": "💍"
+   },
+   {
+    "en": "feast",
+    "ar": "وليمة",
+    "emoji": "🍽️"
+   },
+   {
+    "en": "gather",
+    "ar": "يجتمع",
+    "emoji": "👨‍👩‍👧‍👦"
+   },
+   {
+    "en": "decorate",
+    "ar": "يزيّن",
+    "emoji": "🎀"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "We celebrate Eid with our relatives.",
+    "ar": "نحتفل بالعيد مع أقاربنا."
+   },
+   {
+    "en": "The festival takes place every spring.",
+    "ar": "يُقام المهرجان كل ربيع."
+   },
+   {
+    "en": "It is customary to visit relatives.",
+    "ar": "من العادة زيارة الأقارب."
+   },
+   {
+    "en": "This tradition dates back hundreds of years.",
+    "ar": "يعود هذا التقليد إلى مئات السنين."
+   },
+   {
+    "en": "Families get together and exchange gifts.",
+    "ar": "تجتمع العائلات وتتبادل الهدايا."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "We ___ our national day in September.",
+    "o": [
+     "celebrate with",
+     "celebrate",
+     "celebrate in",
+     "celebrate for"
+    ],
+    "a": 1,
+    "why": "celebrate لا يحتاج إلى حرف جر قبل المناسبة."
+   },
+   {
+    "q": "The ceremony ___ place in the main square.",
+    "o": [
+     "takes",
+     "makes",
+     "does",
+     "holds"
+    ],
+    "a": 0,
+    "why": "take place = يُقام."
+   },
+   {
+    "q": "ما معنى heritage؟",
+    "o": [
+     "مهرجان",
+     "زي",
+     "وليمة",
+     "تراث"
+    ],
+    "a": 3,
+    "why": "heritage = التراث الموروث."
+   },
+   {
+    "q": "I congratulated her ___ her graduation.",
+    "o": [
+     "for",
+     "with",
+     "on",
+     "about"
+    ],
+    "a": 2,
+    "why": "congratulate someone on something."
+   },
+   {
+    "q": "It is customary ___ shoes before entering.",
+    "o": [
+     "remove",
+     "removing",
+     "to remove",
+     "removed"
+    ],
+    "a": 2,
+    "why": "It is customary to + المصدر."
+   },
+   {
+    "q": "This custom has been passed ___ for generations.",
+    "o": [
+     "down",
+     "up",
+     "off",
+     "out"
+    ],
+    "a": 0,
+    "why": "pass down = يتوارث عبر الأجيال."
+   }
+  ]
+ },
+ {
+  "n": "154",
+  "type": "conversation",
+  "title_ar": "الإنجازات الشخصية",
+  "title_en": "Personal achievements",
+  "summary": "تتعلم كيف تتحدث عن إنجازاتك وأهدافك بثقة ودون مبالغة، وكيف تهنئ الآخرين. مهارة ضرورية في المقابلات الوظيفية وكتابة السيرة الذاتية.",
+  "notes": [
+   {
+    "h": "مفردات الإنجاز",
+    "t": "achieve a goal = يحقق هدفاً، accomplish = يُنجز، succeed in + ing = ينجح في، reach a target = يبلغ هدفاً رقمياً، win an award = يفوز بجائزة، graduate from = يتخرج من، get promoted = يحصل على ترقية، set a goal = يضع هدفاً.\nمثال: She succeeded in getting a scholarship."
+   },
+   {
+    "h": "المضارع التام للإنجازات",
+    "t": "نستخدم Present perfect لإنجاز له أثر حتى الآن دون ذكر وقت محدد:\nI have completed three training courses.\nI have just been promoted.\nوالمضارع التام المستمر للمدة: I have been learning English for two years.\nومع وقت محدد نستخدم الماضي: I graduated in 2020."
+   },
+   {
+    "h": "التعبير عن الفخر والجهد",
+    "t": "I'm proud of + اسم أو ing: I'm proud of finishing the marathon.\nMy greatest achievement is...\nIt took a lot of hard work and dedication.\nAll my efforts paid off = أثمرت كل جهودي.\nI couldn't have done it without my family = ما كنت لأفعلها لولا عائلتي."
+   },
+   {
+    "h": "التهنئة والرد",
+    "t": "Congratulations on your promotion! / Well done! / You deserve it! / I'm so happy for you!\nالرد: Thank you, that means a lot. / I was lucky to have a great team."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "grammar",
+    "t": "نقول succeed in doing وليس succeed to do: He succeeded in passing the test. ونقول proud of وليس proud with أو proud by."
+   },
+   {
+    "k": "mistake",
+    "t": "Congratulations دائماً بصيغة الجمع وبعدها on: Congratulations on your success. خطأ: Congratulation for your success."
+   },
+   {
+    "k": "pron",
+    "t": "achieve تُنطق: أَتْشِيف بصوت v في آخرها. و award تُنطق: أَوُورْد."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "achievement",
+    "ar": "إنجاز",
+    "emoji": "🏆"
+   },
+   {
+    "en": "goal",
+    "ar": "هدف",
+    "emoji": "🎯"
+   },
+   {
+    "en": "succeed",
+    "ar": "ينجح",
+    "emoji": "✅"
+   },
+   {
+    "en": "award",
+    "ar": "جائزة",
+    "emoji": "🏅"
+   },
+   {
+    "en": "graduate",
+    "ar": "يتخرج",
+    "emoji": "🎓"
+   },
+   {
+    "en": "promotion",
+    "ar": "ترقية",
+    "emoji": "📈"
+   },
+   {
+    "en": "proud",
+    "ar": "فخور",
+    "emoji": "😊"
+   },
+   {
+    "en": "dedication",
+    "ar": "تفانٍ",
+    "emoji": "🔥"
+   },
+   {
+    "en": "effort",
+    "ar": "جهد",
+    "emoji": "💪"
+   },
+   {
+    "en": "scholarship",
+    "ar": "منحة دراسية",
+    "emoji": "📚"
+   },
+   {
+    "en": "ambitious",
+    "ar": "طموح",
+    "emoji": "🚀"
+   },
+   {
+    "en": "milestone",
+    "ar": "محطة مهمة",
+    "emoji": "🪧"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "I'm proud of what I have achieved.",
+    "ar": "أنا فخور بما حققته."
+   },
+   {
+    "en": "She succeeded in getting a scholarship.",
+    "ar": "نجحت في الحصول على منحة دراسية."
+   },
+   {
+    "en": "All my hard work paid off.",
+    "ar": "أثمر كل اجتهادي."
+   },
+   {
+    "en": "Congratulations on your promotion!",
+    "ar": "تهانينا على ترقيتك!"
+   },
+   {
+    "en": "I have just completed my degree.",
+    "ar": "لقد أنهيت شهادتي الجامعية للتو."
+   },
+   {
+    "en": "I couldn't have done it alone.",
+    "ar": "ما كنت لأفعلها وحدي."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "He succeeded ___ the exam.",
+    "o": [
+     "to pass",
+     "in passing",
+     "passing",
+     "on pass"
+    ],
+    "a": 1,
+    "why": "succeed in + ing."
+   },
+   {
+    "q": "اختر الصحيح:",
+    "o": [
+     "Congratulations on your new job!",
+     "Congratulation for your new job!",
+     "Congratulations of your new job!",
+     "Congratulation on your new job!"
+    ],
+    "a": 0,
+    "why": "Congratulations بالجمع ومعها on."
+   },
+   {
+    "q": "I ___ from university in 2018.",
+    "o": [
+     "have graduated",
+     "have been graduating",
+     "am graduated",
+     "graduated"
+    ],
+    "a": 3,
+    "why": "مع سنة محددة نستخدم الماضي البسيط."
+   },
+   {
+    "q": "She is very proud ___ her children.",
+    "o": [
+     "with",
+     "by",
+     "of",
+     "for"
+    ],
+    "a": 2,
+    "why": "proud of."
+   },
+   {
+    "q": "ما معنى My efforts paid off؟",
+    "o": [
+     "دفعتُ ثمن أخطائي",
+     "أثمرت جهودي",
+     "توقفت عن المحاولة",
+     "دفعت ديوني"
+    ],
+    "a": 1,
+    "why": "pay off هنا تعني يؤتي ثماره."
+   },
+   {
+    "q": "I ___ English for three years, and I'm still learning.",
+    "o": [
+     "learn",
+     "am learning",
+     "have been learning",
+     "was learning"
+    ],
+    "a": 2,
+    "why": "نشاط بدأ في الماضي ومستمر حتى الآن مع for: المضارع التام المستمر."
+   }
+  ]
+ },
+ {
+  "n": "155",
+  "type": "vocab",
+  "title_ar": "القضايا البيئية",
+  "title_en": "Environmental issues",
+  "summary": "تتعلم مفردات التلوث وتغير المناخ والطاقة المتجددة، وكيف تتحدث عن الأسباب والنتائج والحلول. موضوع أساسي في المقالات والنقاشات عند مستوى B2.",
+  "notes": [
+   {
+    "h": "المشكلات",
+    "t": "climate change = تغير المناخ، global warming = الاحتباس الحراري، pollution = التلوث، deforestation = إزالة الغابات، greenhouse gases = الغازات الدفيئة، carbon emissions = انبعاثات الكربون، drought = جفاف، flood = فيضان، rising sea levels = ارتفاع مستوى البحار."
+   },
+   {
+    "h": "الأسباب والنتائج",
+    "t": "cause / lead to / result in = يسبب / يؤدي إلى: Burning fossil fuels leads to global warming.\nbe caused by / result from / be due to = ينتج عن: Floods are often caused by heavy rain.\nas a result / consequently / therefore = ونتيجة لذلك.\nمثال: Forests are being cut down. As a result, many species are losing their habitats."
+   },
+   {
+    "h": "الحلول",
+    "t": "renewable energy = الطاقة المتجددة (solar power, wind power)، recycle = يعيد التدوير، reduce waste = يقلل النفايات، cut emissions = يخفض الانبعاثات، go green = يتبع نمطاً صديقاً للبيئة، sustainable = مستدام، eco-friendly = صديق للبيئة، carbon footprint = البصمة الكربونية."
+   },
+   {
+    "h": "اقتراح الحلول",
+    "t": "Governments should invest in renewable energy.\nWe need to reduce our carbon footprint.\nIt is essential that we protect forests.\nUnless we act now, the situation will get worse.\nunless = if not وتأتي بعدها جملة مثبتة في المضارع."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "خطأ شائع: Unless we don't act. كلمة unless منفية في معناها فلا نضع بعدها نفياً: Unless we act now... وخطأ آخر: pollutions، فكلمة pollution غير معدودة."
+   },
+   {
+    "k": "grammar",
+    "t": "affect فعل (يؤثر في) و effect اسم (تأثير): Pollution affects our health. / Pollution has a bad effect on our health."
+   },
+   {
+    "k": "pron",
+    "t": "environment فيها n خفيفة قبل m وتُنطق: إنْفايْرُنْمِنت والنبر على vi. و drought تُنطق: دْراوْت."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "pollution",
+    "ar": "التلوث",
+    "emoji": "🏭"
+   },
+   {
+    "en": "climate change",
+    "ar": "تغير المناخ",
+    "emoji": "🌡️"
+   },
+   {
+    "en": "recycle",
+    "ar": "يعيد التدوير",
+    "emoji": "♻️"
+   },
+   {
+    "en": "drought",
+    "ar": "جفاف",
+    "emoji": "🏜️"
+   },
+   {
+    "en": "flood",
+    "ar": "فيضان",
+    "emoji": "🌊"
+   },
+   {
+    "en": "emissions",
+    "ar": "انبعاثات",
+    "emoji": "💨"
+   },
+   {
+    "en": "renewable energy",
+    "ar": "طاقة متجددة",
+    "emoji": "☀️"
+   },
+   {
+    "en": "sustainable",
+    "ar": "مستدام",
+    "emoji": "🌿"
+   },
+   {
+    "en": "fossil fuels",
+    "ar": "الوقود الأحفوري",
+    "emoji": "🛢️"
+   },
+   {
+    "en": "deforestation",
+    "ar": "إزالة الغابات",
+    "emoji": "🪓"
+   },
+   {
+    "en": "waste",
+    "ar": "نفايات",
+    "emoji": "🗑️"
+   },
+   {
+    "en": "carbon footprint",
+    "ar": "البصمة الكربونية",
+    "emoji": "👣"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "Burning fossil fuels leads to global warming.",
+    "ar": "حرق الوقود الأحفوري يؤدي إلى الاحتباس الحراري."
+   },
+   {
+    "en": "We need to reduce our carbon footprint.",
+    "ar": "علينا أن نقلل بصمتنا الكربونية."
+   },
+   {
+    "en": "Unless we act now, things will get worse.",
+    "ar": "إن لم نتحرك الآن فستسوء الأمور."
+   },
+   {
+    "en": "Pollution has a serious effect on health.",
+    "ar": "للتلوث أثر خطير على الصحة."
+   },
+   {
+    "en": "Governments should invest in renewable energy.",
+    "ar": "على الحكومات أن تستثمر في الطاقة المتجددة."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Pollution ___ our health badly.",
+    "o": [
+     "effects",
+     "affects",
+     "effect on",
+     "affect to"
+    ],
+    "a": 1,
+    "why": "affect فعل بمعنى يؤثر في، ولا يحتاج إلى حرف جر."
+   },
+   {
+    "q": "Unless we ___ emissions, temperatures will keep rising.",
+    "o": [
+     "don't cut",
+     "won't cut",
+     "will cut",
+     "cut"
+    ],
+    "a": 3,
+    "why": "بعد unless جملة مثبتة في المضارع البسيط."
+   },
+   {
+    "q": "ما معنى deforestation؟",
+    "o": [
+     "إزالة الغابات",
+     "زراعة الأشجار",
+     "الجفاف",
+     "إعادة التدوير"
+    ],
+    "a": 0,
+    "why": "deforestation = قطع الغابات وإزالتها."
+   },
+   {
+    "q": "Global warming is caused ___ greenhouse gases.",
+    "o": [
+     "from",
+     "of",
+     "by",
+     "with"
+    ],
+    "a": 2,
+    "why": "be caused by."
+   },
+   {
+    "q": "أي مما يلي مصدر طاقة متجددة؟",
+    "o": [
+     "coal",
+     "solar power",
+     "oil",
+     "natural gas"
+    ],
+    "a": 1,
+    "why": "الطاقة الشمسية متجددة، والبقية وقود أحفوري."
+   },
+   {
+    "q": "Heavy rain can result ___ floods.",
+    "o": [
+     "in",
+     "from",
+     "to",
+     "by"
+    ],
+    "a": 0,
+    "why": "result in = يؤدي إلى، أما result from فتعني ينتج عن."
+   }
+  ]
+ },
+ {
+  "n": "156",
+  "type": "vocab",
+  "title_ar": "المتنزهات والسياحة",
+  "title_en": "Parks and tourism",
+  "summary": "تتعلم مفردات المحميات الطبيعية والمتنزهات الوطنية والسياحة البيئية، وكيف تصف مكاناً سياحياً وتوصي به. ستناقش أيضاً إيجابيات السياحة وسلبياتها.",
+  "notes": [
+   {
+    "h": "المتنزهات والطبيعة",
+    "t": "a national park = متنزه وطني، a nature reserve = محمية طبيعية، a trail = مسار للمشي، scenery = مناظر طبيعية، landscape = طبيعة الأرض، a waterfall = شلال، a campsite = موقع تخييم، a park ranger = حارس المتنزه.\nمثال: The park is famous for its stunning scenery."
+   },
+   {
+    "h": "أنواع السياحة والأنشطة",
+    "t": "ecotourism = السياحة البيئية، mass tourism = السياحة الجماعية، sightseeing = مشاهدة المعالم، a guided tour = جولة مع مرشد، hiking = المشي الجبلي، go camping = يخيّم، a tourist attraction = معلم سياحي، off the beaten track = بعيد عن الأماكن المزدحمة.\nنقول: go sightseeing / go hiking / go camping."
+   },
+   {
+    "h": "وصف المكان والتوصية",
+    "t": "It's well worth a visit = يستحق الزيارة.\nIt's a must-see = لا بد من رؤيته.\nI'd highly recommend + ing: I'd highly recommend taking the guided tour.\nIt's packed with tourists in summer = يزدحم بالسياح صيفاً.\nThe best time to visit is spring."
+   },
+   {
+    "h": "أثر السياحة",
+    "t": "الإيجابيات: create jobs = توفّر وظائف، boost the local economy = تنعش الاقتصاد المحلي، preserve heritage = تحفظ التراث.\nالسلبيات: overcrowding = الازدحام الشديد، litter = القمامة المرمية، damage to wildlife = الإضرار بالحياة البرية.\nمثال: Tourism boosts the local economy, but it can also damage the environment."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "scenery غير معدودة: beautiful scenery، وليس a scenery أو sceneries. وكذلك litter و wildlife. أما view فمعدودة: a beautiful view."
+   },
+   {
+    "k": "grammar",
+    "t": "recommend يتبعه ing أو that: I recommend visiting the park / I recommend that you visit. خطأ: I recommend you to visit."
+   },
+   {
+    "k": "pron",
+    "t": "scenery تُنطق: سِينَري (c صامتة). و tourism تُنطق: تُورِزِم. و reserve تُنطق بصوت z: رِزِيرْف."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "national park",
+    "ar": "متنزه وطني",
+    "emoji": "🏞️"
+   },
+   {
+    "en": "nature reserve",
+    "ar": "محمية طبيعية",
+    "emoji": "🦌"
+   },
+   {
+    "en": "scenery",
+    "ar": "مناظر طبيعية",
+    "emoji": "🌄"
+   },
+   {
+    "en": "trail",
+    "ar": "مسار للمشي",
+    "emoji": "🥾"
+   },
+   {
+    "en": "waterfall",
+    "ar": "شلال",
+    "emoji": "💦"
+   },
+   {
+    "en": "campsite",
+    "ar": "موقع تخييم",
+    "emoji": "⛺"
+   },
+   {
+    "en": "sightseeing",
+    "ar": "مشاهدة المعالم",
+    "emoji": "📷"
+   },
+   {
+    "en": "hiking",
+    "ar": "المشي الجبلي",
+    "emoji": "🧗"
+   },
+   {
+    "en": "tour guide",
+    "ar": "مرشد سياحي",
+    "emoji": "🧑‍🏫"
+   },
+   {
+    "en": "attraction",
+    "ar": "معلم سياحي",
+    "emoji": "🎡"
+   },
+   {
+    "en": "litter",
+    "ar": "قمامة مرمية",
+    "emoji": "🚯"
+   },
+   {
+    "en": "ecotourism",
+    "ar": "السياحة البيئية",
+    "emoji": "🌿"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "The park is famous for its scenery.",
+    "ar": "يشتهر المتنزه بمناظره الطبيعية."
+   },
+   {
+    "en": "It's well worth a visit.",
+    "ar": "إنه يستحق الزيارة حقاً."
+   },
+   {
+    "en": "We went hiking in the mountains.",
+    "ar": "ذهبنا للمشي في الجبال."
+   },
+   {
+    "en": "I'd recommend taking the guided tour.",
+    "ar": "أنصح بأخذ الجولة مع المرشد."
+   },
+   {
+    "en": "Tourism creates jobs for local people.",
+    "ar": "السياحة توفّر وظائف للسكان المحليين."
+   },
+   {
+    "en": "Please don't drop litter in the park.",
+    "ar": "من فضلك لا ترمِ القمامة في المتنزه."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "The mountain ___ was absolutely stunning.",
+    "o": [
+     "sceneries",
+     "scenery",
+     "a scenery",
+     "scene's"
+    ],
+    "a": 1,
+    "why": "scenery اسم غير معدود."
+   },
+   {
+    "q": "I'd recommend ___ early in the morning.",
+    "o": [
+     "to go",
+     "you to go",
+     "go to",
+     "going"
+    ],
+    "a": 3,
+    "why": "recommend + ing."
+   },
+   {
+    "q": "ما معنى off the beaten track؟",
+    "o": [
+     "بعيد عن الأماكن السياحية المزدحمة",
+     "على الطريق الرئيسي",
+     "مسار خطير",
+     "قطار سريع"
+    ],
+    "a": 0,
+    "why": "تعبير عن الأماكن الهادئة غير المطروقة."
+   },
+   {
+    "q": "We ___ sightseeing on the first day.",
+    "o": [
+     "did",
+     "made",
+     "went",
+     "took"
+    ],
+    "a": 2,
+    "why": "نقول go sightseeing."
+   },
+   {
+    "q": "أي مما يلي أثر سلبي للسياحة؟",
+    "o": [
+     "creating jobs",
+     "overcrowding",
+     "boosting the economy",
+     "preserving heritage"
+    ],
+    "a": 1,
+    "why": "overcrowding = الازدحام الشديد وهو أثر سلبي."
+   },
+   {
+    "q": "The old castle is a ___. You can't miss it.",
+    "o": [
+     "must-see",
+     "litter",
+     "campsite",
+     "trail"
+    ],
+    "a": 0,
+    "why": "a must-see = شيء لا بد من رؤيته."
+   }
+  ]
+ },
+ {
+  "n": "157",
+  "type": "vocab",
+  "title_ar": "التطورات العلمية",
+  "title_en": "Scientific developments",
+  "summary": "تتعلم مفردات البحث العلمي والاكتشافات والتقنيات الحديثة، وكيف تتحدث عن أثر العلم في حياتنا وعن توقعات المستقبل. موضوع يتكرر في القراءة الأكاديمية والأخبار.",
+  "notes": [
+   {
+    "h": "البحث العلمي",
+    "t": "research = بحث علمي، carry out / conduct an experiment = يُجري تجربة، a theory = نظرية، evidence = دليل، data = بيانات، a laboratory = مختبر، a discovery = اكتشاف، a breakthrough = اختراق علمي، prove = يُثبت.\nمثال: Scientists have carried out research into the causes of the disease."
+   },
+   {
+    "h": "discover أم invent؟",
+    "t": "discover = يكتشف شيئاً موجوداً أصلاً: Alexander Fleming discovered penicillin.\ninvent = يخترع شيئاً جديداً لم يكن موجوداً: Alexander Graham Bell invented the telephone.\ndevelop = يطوّر: Researchers are developing a new vaccine."
+   },
+   {
+    "h": "مجالات حديثة",
+    "t": "artificial intelligence = الذكاء الاصطناعي، genetic engineering = الهندسة الوراثية، space exploration = استكشاف الفضاء، robotics = علم الروبوتات، a vaccine = لقاح، a cure for = علاج شافٍ لـ، nanotechnology = تقنية النانو."
+   },
+   {
+    "h": "الحديث عن الأثر والمستقبل",
+    "t": "It has revolutionised the way we communicate = أحدث ثورة في طريقة تواصلنا.\nIt has had a huge impact on medicine.\nللتوقع: is likely to + المصدر: AI is likely to replace some jobs.\nmay well / might / could للاحتمال: Scientists may well find a cure soon.\nمع المبني للمجهول: A cure will probably be found within ten years."
+   }
+  ],
+  "alerts": [
+   {
+    "k": "mistake",
+    "t": "research و evidence غير معدودتين: do research / a piece of research، وليس a research أو researches أو evidences."
+   },
+   {
+    "k": "grammar",
+    "t": "نقول an impact on و a cure for و research into: research into cancer، a cure for cancer."
+   },
+   {
+    "k": "pron",
+    "t": "laboratory في البريطانية النبر على bo: لَبُورَتْري، وفي الأمريكية على الأول: لابْرَتُوري. و vaccine تُنطق: فاكْسِين."
+   }
+  ],
+  "vocab": [
+   {
+    "en": "research",
+    "ar": "بحث علمي",
+    "emoji": "🔬"
+   },
+   {
+    "en": "experiment",
+    "ar": "تجربة",
+    "emoji": "🧪"
+   },
+   {
+    "en": "discovery",
+    "ar": "اكتشاف",
+    "emoji": "🔭"
+   },
+   {
+    "en": "breakthrough",
+    "ar": "اختراق علمي",
+    "emoji": "💥"
+   },
+   {
+    "en": "evidence",
+    "ar": "دليل",
+    "emoji": "🧾"
+   },
+   {
+    "en": "theory",
+    "ar": "نظرية",
+    "emoji": "📐"
+   },
+   {
+    "en": "invent",
+    "ar": "يخترع",
+    "emoji": "💡"
+   },
+   {
+    "en": "vaccine",
+    "ar": "لقاح",
+    "emoji": "💉"
+   },
+   {
+    "en": "cure",
+    "ar": "علاج شافٍ",
+    "emoji": "💊"
+   },
+   {
+    "en": "laboratory",
+    "ar": "مختبر",
+    "emoji": "⚗️"
+   },
+   {
+    "en": "robot",
+    "ar": "روبوت",
+    "emoji": "🤖"
+   },
+   {
+    "en": "gene",
+    "ar": "جين",
+    "emoji": "🧬"
+   }
+  ],
+  "phrases": [
+   {
+    "en": "Scientists carried out an important experiment.",
+    "ar": "أجرى العلماء تجربة مهمة."
+   },
+   {
+    "en": "It was a major scientific breakthrough.",
+    "ar": "كان اختراقاً علمياً كبيراً."
+   },
+   {
+    "en": "There is no evidence for this theory.",
+    "ar": "لا يوجد دليل على هذه النظرية."
+   },
+   {
+    "en": "Technology has had a huge impact on medicine.",
+    "ar": "كان للتقنية أثر هائل على الطب."
+   },
+   {
+    "en": "They are developing a new vaccine.",
+    "ar": "إنهم يطوّرون لقاحاً جديداً."
+   },
+   {
+    "en": "A cure is likely to be found soon.",
+    "ar": "من المرجح أن يُكتشف علاج قريباً."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Who ___ the telephone?",
+    "o": [
+     "discovered",
+     "invented",
+     "found out",
+     "explored"
+    ],
+    "a": 1,
+    "why": "الهاتف لم يكن موجوداً فهو اختراع: invent."
+   },
+   {
+    "q": "Scientists are doing ___ into climate change.",
+    "o": [
+     "research",
+     "a research",
+     "researches",
+     "a researches"
+    ],
+    "a": 0,
+    "why": "research اسم غير معدود."
+   },
+   {
+    "q": "They ___ an experiment to test the theory.",
+    "o": [
+     "made up",
+     "did up",
+     "took",
+     "carried out"
+    ],
+    "a": 3,
+    "why": "carry out an experiment = يُجري تجربة."
+   },
+   {
+    "q": "Scientists hope to find a cure ___ the disease.",
+    "o": [
+     "of",
+     "to",
+     "for",
+     "at"
+    ],
+    "a": 2,
+    "why": "a cure for."
+   },
+   {
+    "q": "ما معنى breakthrough؟",
+    "o": [
+     "عطل في الجهاز",
+     "اكتشاف مهم يفتح الطريق",
+     "تجربة فاشلة",
+     "نظرية قديمة"
+    ],
+    "a": 1,
+    "why": "breakthrough = تقدم علمي كبير ومفاجئ."
+   },
+   {
+    "q": "AI is likely ___ many industries.",
+    "o": [
+     "transform",
+     "transforming",
+     "to transform",
+     "transformed"
+    ],
+    "a": 2,
+    "why": "be likely to + المصدر."
+   }
+  ]
+ }
+]

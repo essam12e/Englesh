@@ -1,0 +1,242 @@
+[
+{
+ "n": "193",
+ "type": "conversation",
+ "title_ar": "مقابلات العمل",
+ "title_en": "Job interviews",
+ "summary": "تتعلم كيف تجيب عن أشهر أسئلة مقابلات العمل بلغة احترافية مقنعة، وكيف تنظّم إجابتك بطريقة STAR وتتحدث عن إنجازاتك دون مبالغة. إتقان هذه اللغة قد يصنع الفارق بين القبول والرفض.",
+ "notes": [
+  {"h": "الأسئلة الشائعة", "t": "Tell me about yourself = حدّثني عن نفسك.\nWhy do you want to work for us?\nWhat are your greatest strengths and weaknesses?\nWhere do you see yourself in five years' time?\nWhy should we hire you?\nCan you tell me about a time when you faced a challenge?\nWhat are your salary expectations?"},
+  {"h": "طريقة STAR للأسئلة السلوكية", "t": "Situation = الموقف: In my previous role, we were facing a sharp drop in sales.\nTask = المهمة: I was responsible for turning the situation around.\nAction = الإجراء: I introduced a new follow-up system.\nResult = النتيجة: As a result, sales rose by 15 percent within six months.\nاذكر نتيجة قابلة للقياس كلما أمكن."},
+  {"h": "لغة الحديث عن الخبرة", "t": "المضارع التام لخبرة ممتدة: I have been working in logistics for eight years.\nالماضي البسيط لإنجاز محدد: I led a team of twelve.\nعبارات قوية: I have a proven track record in sales.\nI thrive under pressure = أُبدع تحت الضغط.\nI am keen to take on new challenges.\nI pride myself on my attention to detail."},
+  {"h": "الحديث عن نقاط الضعف والأسئلة الصعبة", "t": "اذكر ضعفاً حقيقياً وما تفعله لتحسينه:\nI used to find it hard to delegate, but I have been working on it.\nلكسب الوقت: That is an interesting question. Let me think for a moment.\nلطلب التوضيح: Could you clarify what you mean by...?\nفي النهاية اسأل: What does a typical day look like in this role?"},
+  {"h": "الختام", "t": "Do you have any questions for us?\nWhat are the next steps in the process?\nThank you for your time. I look forward to hearing from you.\nnotice period = فترة الإشعار قبل ترك العمل.\nI would be available to start in a month."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تقل I have worked there since five years. الصحيح: for five years (مدة) أو since 2020 (نقطة بداية). ولا تقل I am working here since، بل I have been working here since."},
+  {"k": "tip", "t": "تجنّب الإجابات المحفوظة مثل: My weakness is that I work too hard. المحاورون يفضّلون صدقاً مدروساً مع خطة تحسين واضحة."},
+  {"k": "pron", "t": "interview النبر على المقطع الأول: إنتَرڤيو. و colleague تُنطق: كوليغ. و thrive تُنطق: ثرايڤ بصوت ث ثم v."}
+ ],
+ "vocab": [
+  {"en": "interviewer", "ar": "المحاوِر", "emoji": "🧑‍💼"},
+  {"en": "candidate", "ar": "المرشّح", "emoji": "🙋"},
+  {"en": "track record", "ar": "سجلّ الإنجازات", "emoji": "📈"},
+  {"en": "strength", "ar": "نقطة قوة", "emoji": "💪"},
+  {"en": "thrive", "ar": "يزدهر / يُبدع", "emoji": "🌱"},
+  {"en": "hire", "ar": "يوظّف", "emoji": "🤝"},
+  {"en": "notice period", "ar": "فترة الإشعار", "emoji": "📆"},
+  {"en": "salary expectations", "ar": "الراتب المتوقع", "emoji": "💵"},
+  {"en": "shortlist", "ar": "القائمة القصيرة", "emoji": "📋"},
+  {"en": "probation", "ar": "فترة تجربة", "emoji": "⏳"},
+  {"en": "asset", "ar": "إضافة قيّمة", "emoji": "💎"}
+ ],
+ "phrases": [
+  {"en": "I have a proven track record in sales.", "ar": "لديّ سجلّ إنجازات مثبت في المبيعات."},
+  {"en": "I thrive under pressure.", "ar": "أُبدع تحت الضغط."},
+  {"en": "As a result, sales rose by fifteen percent.", "ar": "ونتيجة لذلك ارتفعت المبيعات بنسبة خمسة عشر بالمئة."},
+  {"en": "Could you clarify what you mean?", "ar": "هل يمكنك توضيح ما تقصده؟"},
+  {"en": "I look forward to hearing from you.", "ar": "أتطلّع إلى سماع ردّكم."},
+  {"en": "I believe I would be an asset.", "ar": "أعتقد أنني سأكون إضافة قيّمة."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: I ___ in marketing for six years, and I still love it.", "o": ["work", "am working", "have been working", "was working"], "a": 2, "why": "حدث بدأ في الماضي ومستمر حتى الآن مع for: المضارع التام المستمر."},
+  {"q": "حرف R في طريقة STAR يدل على:", "o": ["Reason", "Result", "Role", "Risk"], "a": 1, "why": "STAR = Situation, Task, Action, Result."},
+  {"q": "ما معنى a proven track record؟", "o": ["سجلّ إنجازات مثبت", "سجلّ جنائي", "رقم قياسي في الجري", "شهادة جامعية"], "a": 0, "why": "track record هو تاريخ إنجازات الشخص المهنية."},
+  {"q": "أي إجابة هي الأفضل عن سؤال نقاط الضعف؟", "o": ["I have no weaknesses at all.", "I am a perfectionist and I work too hard.", "I am often late, but that is who I am.", "I used to struggle with delegating, but I have been working on it."], "a": 3, "why": "تذكر ضعفاً حقيقياً مع ما تفعله لتحسينه."},
+  {"q": "اختر الصحيح: I look forward to ___ from you.", "o": ["hear", "hearing", "heard", "be hearing"], "a": 1, "why": "to في look forward to حرف جر يتبعه ing."},
+  {"q": "ما معنى notice period؟", "o": ["فترة التدريب", "إجازة سنوية", "المدة التي تُعلِم فيها صاحب العمل قبل ترك الوظيفة", "موعد المقابلة"], "a": 2, "why": "notice = إشعار، أي المهلة قبل انتهاء العقد."}
+ ]
+},
+{
+ "n": "194",
+ "type": "skills",
+ "title_ar": "الإنجليزية المهنية",
+ "title_en": "Professional English",
+ "summary": "تتعلم الأسلوب الرسمي واللبق المستخدم في بيئة العمل: كيف تطلب وتعترض وتقترح بدبلوماسية، وأهم عبارات الاجتماعات. الفرق بين الإنجليزية العادية والمهنية يكمن غالباً في درجة التلطيف والدقة.",
+ "notes": [
+  {"h": "تلطيف الطلب والرأي", "t": "بدل I want قل: I would like to / I was wondering if you could...\nبدل Send me the file قل: Could you possibly send me the file?\nبدل You are wrong قل: I am not sure I agree with that / I see it slightly differently.\nبدل This is a bad idea قل: I am afraid that might not work.\nكلمات التلطيف: slightly, a bit, perhaps, might, seem."},
+  {"h": "عبارات الاجتماعات", "t": "Shall we get started? = هل نبدأ؟\nThe first item on the agenda is... = البند الأول في جدول الأعمال...\nCould I just come in here? = هل لي أن أتدخل هنا؟\nSorry to interrupt, but...\nLet's not get sidetracked = لا نخرج عن الموضوع.\nTo recap, we have agreed to...\nI will follow up by email."},
+  {"h": "الموافقة والاعتراض باحتراف", "t": "موافقة: I couldn't agree more. / That is a valid point.\nموافقة جزئية: I take your point, but... / I agree up to a point.\nاعتراض: I am afraid I have some reservations about that.\nWith all due respect, I think we are overlooking the cost.\nاقتراح: Might I suggest an alternative?"},
+  {"h": "مفردات العمل المتقدمة", "t": "stakeholder = صاحب مصلحة.\ndeadline / deliverable = الموعد النهائي / المُخرَج المطلوب.\nstreamline = يبسّط الإجراءات.\nimplement = ينفّذ.\nbottom line = الخلاصة / صافي الربح.\ntouch base = يتواصل للاطمئنان.\nkeep someone in the loop = يُبقيه على اطلاع.\nget back to someone = يردّ عليه لاحقاً."},
+  {"h": "الرسمي مقابل غير الرسمي", "t": "ask for - request.\nget - obtain / receive.\nhelp - assist.\ntell - inform.\nneed - require.\nbuy - purchase.\nfind out - ascertain.\nفي الكتابة الرسمية نتجنب الاختصارات: I am لا I'm، و cannot لا can't."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "الترجمة الحرفية من العربية قد تبدو فظّة: Give me the report تبدو أمراً. استخدم Could you أو Would you mind + ing: Would you mind sending me the report?"},
+  {"k": "grammar", "t": "بعد suggest لا نستخدم to: I suggest postponing the meeting أو I suggest (that) we postpone it (وليس I suggest to postpone)."},
+  {"k": "pron", "t": "agenda تُنطق: أجِندا. و colleague تُنطق: كوليغ. و schedule بريطانياً: شِديول، وأمريكياً: سكِجول."}
+ ],
+ "vocab": [
+  {"en": "agenda", "ar": "جدول الأعمال", "emoji": "📋"},
+  {"en": "stakeholder", "ar": "صاحب مصلحة", "emoji": "👥"},
+  {"en": "implement", "ar": "ينفّذ", "emoji": "⚙️"},
+  {"en": "streamline", "ar": "يبسّط الإجراءات", "emoji": "🚀"},
+  {"en": "follow up", "ar": "يتابع", "emoji": "📨"},
+  {"en": "bottom line", "ar": "الخلاصة / صافي الربح", "emoji": "💰"},
+  {"en": "reservation", "ar": "تحفّظ", "emoji": "🤨"},
+  {"en": "postpone", "ar": "يؤجّل", "emoji": "⏭️"},
+  {"en": "minutes", "ar": "محضر الاجتماع", "emoji": "📝"},
+  {"en": "in the loop", "ar": "على اطلاع", "emoji": "🔄"},
+  {"en": "liaise", "ar": "ينسّق مع", "emoji": "🔗"}
+ ],
+ "phrases": [
+  {"en": "I was wondering if you could help.", "ar": "كنتُ أتساءل إن كان بإمكانك المساعدة."},
+  {"en": "I take your point, but I disagree.", "ar": "أتفهّم وجهة نظرك لكنني لا أوافق."},
+  {"en": "Please keep me in the loop.", "ar": "أرجو أن تُبقيني على اطلاع."},
+  {"en": "I will get back to you tomorrow.", "ar": "سأردّ عليك غداً."},
+  {"en": "Would you mind sending me the report?", "ar": "هل تمانع في إرسال التقرير لي؟"},
+  {"en": "I suggest we postpone the meeting.", "ar": "أقترح أن نؤجّل الاجتماع."}
+ ],
+ "quiz": [
+  {"q": "أي جملة هي الأكثر لباقة ومهنية؟", "o": ["Send me the figures now.", "I want the figures.", "I was wondering if you could send me the figures.", "You must send me the figures."], "a": 2, "why": "I was wondering if you could صيغة طلب ملطّفة جداً."},
+  {"q": "اختر الصحيح: I suggest ___ the launch until May.", "o": ["to delay", "delaying", "delay to", "us to delay"], "a": 1, "why": "suggest + ing أو suggest that + جملة، ولا يأتي بعدها to."},
+  {"q": "ما معنى keep someone in the loop؟", "o": ["يُبقيه على اطلاع بالمستجدات", "يستبعده من المشروع", "يطلب منه الانتظار", "يراقبه عن قرب"], "a": 0, "why": "in the loop = ضمن دائرة من يعرفون ما يجري."},
+  {"q": "ما المقابل الرسمي للفعل buy؟", "o": ["obtain", "require", "assist", "purchase"], "a": 3, "why": "purchase هو المرادف الرسمي لـ buy."},
+  {"q": "ما وظيفة عبارة I take your point, but...؟", "o": ["موافقة تامة", "تمهيد مهذب للاعتراض", "إنهاء الاجتماع", "طلب تكرار الكلام"], "a": 1, "why": "تُقرّ بوجهة نظر الطرف الآخر ثم تعرض اعتراضك."},
+  {"q": "اختر الصحيح: Would you mind ___ the door?", "o": ["to close", "close", "closing", "closed"], "a": 2, "why": "Would you mind + ing."}
+ ]
+},
+{
+ "n": "195",
+ "type": "skills",
+ "title_ar": "رسائل البريد الإلكتروني في العمل",
+ "title_en": "Business emails",
+ "summary": "تتعلم بنية البريد الإلكتروني المهني والعبارات الجاهزة لكل جزء فيه، مع التمييز بين الأسلوب الرسمي وشبه الرسمي. الكتابة الواضحة والمهذبة تعكس صورتك المهنية أمام الزملاء والعملاء.",
+ "notes": [
+  {"h": "بنية الرسالة", "t": "Subject line: عنوان واضح ومحدد مثل: Meeting rescheduled to 5 May.\nGreeting: التحية.\nOpening: سبب الكتابة.\nBody: التفاصيل في فقرات قصيرة.\nClosing: الإجراء المطلوب أو عبارة ختامية.\nSign-off: التوقيع."},
+  {"h": "التحية والتوقيع", "t": "رسمي لشخص لا تعرف اسمه: Dear Sir or Madam, ... والختام: Yours faithfully,\nرسمي لشخص تعرف اسمه: Dear Mr Hassan, / Dear Ms Smith, ... والختام: Yours sincerely,\nشبه رسمي: Dear Sara, / Hello Sara, ... والختام: Kind regards, / Best regards,\nلمجموعة: Dear all, / Hi everyone,"},
+  {"h": "عبارات الافتتاح", "t": "I am writing to enquire about... = أكتب للاستفسار عن...\nI am writing with regard to... = أكتب بخصوص...\nFurther to our conversation yesterday, ... = إلحاقاً بحديثنا أمس...\nThank you for your prompt reply = شكراً لردّكم السريع.\nI hope this email finds you well."},
+  {"h": "الطلب والمرفقات والأخبار", "t": "I would be grateful if you could... = سأكون ممتناً لو...\nCould you please confirm...?\nPlease find attached the report = تجدون التقرير مرفقاً.\nI have attached the file for your reference.\nخبر سار: I am pleased to inform you that...\nخبر سيئ: I regret to inform you that... / Unfortunately, ...\nاعتذار: Please accept my apologies for the delay."},
+  {"h": "عبارات الختام", "t": "Please let me know if you have any questions.\nDo not hesitate to contact me if you need further information.\nI look forward to hearing from you.\nThank you in advance for your help.\nاختصارات شائعة: ASAP = في أقرب وقت، FYI = للعلم، CC = نسخة إلى، EOD = نهاية يوم العمل."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تكتب Dear Mr Ahmed باستخدام الاسم الأول. بعد Mr و Ms يأتي اسم العائلة: Dear Mr Hassan. واستخدم Ms للمرأة ما لم تعرف أنها تفضّل Mrs أو Miss."},
+  {"k": "grammar", "t": "نقول I look forward to hearing (وليس to hear). ونقول Please find attached the file أو I have attached the file (وليس I attached you the file)."},
+  {"k": "tip", "t": "اجعل لكل رسالة غرضاً واحداً، واكتب الإجراء المطلوب والموعد بوضوح، وتجنّب الحروف الكبيرة المتواصلة لأنها تُفهم صراخاً. راجع الرسالة قبل الضغط على إرسال."}
+ ],
+ "vocab": [
+  {"en": "subject line", "ar": "عنوان الرسالة", "emoji": "🏷️"},
+  {"en": "attachment", "ar": "مرفق", "emoji": "📎"},
+  {"en": "enquire", "ar": "يستفسر", "emoji": "❓"},
+  {"en": "forward", "ar": "يعيد توجيه", "emoji": "➡️"},
+  {"en": "recipient", "ar": "المستلِم", "emoji": "📥"},
+  {"en": "prompt", "ar": "سريع / فوري", "emoji": "⚡"},
+  {"en": "regards", "ar": "تحيات", "emoji": "🙏"},
+  {"en": "confirm", "ar": "يؤكّد", "emoji": "✅"},
+  {"en": "apologies", "ar": "اعتذار", "emoji": "🙇"},
+  {"en": "grateful", "ar": "ممتنّ", "emoji": "💐"},
+  {"en": "ASAP", "ar": "في أقرب وقت ممكن", "emoji": "⏰"}
+ ],
+ "phrases": [
+  {"en": "I am writing to enquire about your services.", "ar": "أكتب للاستفسار عن خدماتكم."},
+  {"en": "Please find attached the report.", "ar": "تجدون التقرير مرفقاً."},
+  {"en": "I would be grateful if you could confirm.", "ar": "سأكون ممتناً لو أكّدتم ذلك."},
+  {"en": "Please accept my apologies for the delay.", "ar": "أرجو قبول اعتذاري عن التأخير."},
+  {"en": "Do not hesitate to contact me.", "ar": "لا تتردد في التواصل معي."},
+  {"en": "Thank you for your prompt reply.", "ar": "شكراً لردّكم السريع."}
+ ],
+ "quiz": [
+  {"q": "بدأتَ رسالتك بـ Dear Sir or Madam، فما الختام التقليدي المناسب؟", "o": ["Yours faithfully,", "Yours sincerely,", "Cheers,", "Love,"], "a": 0, "why": "مع Dear Sir or Madam نختم بـ Yours faithfully، ومع الاسم نختم بـ Yours sincerely."},
+  {"q": "اختر التحية الصحيحة لرجل اسمه Ahmed Hassan في رسالة رسمية:", "o": ["Dear Mr Ahmed,", "Dear Mr Hassan,", "Dear Mister,", "Dear Hassan Mr,"], "a": 1, "why": "بعد Mr يأتي اسم العائلة."},
+  {"q": "أي عبارة تُستخدم لإبلاغ خبر سيئ رسمياً؟", "o": ["I am pleased to inform you that...", "Further to our conversation...", "Please find attached...", "I regret to inform you that..."], "a": 3, "why": "regret to inform = يؤسفني أن أبلغكم."},
+  {"q": "اختر الصحيح: I would be grateful if you ___ send me the invoice.", "o": ["can to", "will", "could", "would to"], "a": 2, "why": "التركيب المهذب: I would be grateful if you could + فعل."},
+  {"q": "ما معنى FYI؟", "o": ["في أقرب وقت", "للعلم والاطلاع", "نسخة إلى", "مع الشكر"], "a": 1, "why": "FYI = For Your Information."},
+  {"q": "أي عنوان (subject line) هو الأفضل؟", "o": ["Hello", "URGENT!!!", "Invoice 245: payment due 10 June", "Question"], "a": 2, "why": "العنوان الجيد محدد ويوضح موضوع الرسالة."}
+ ]
+},
+{
+ "n": "196",
+ "type": "skills",
+ "title_ar": "المفاوضات",
+ "title_en": "Negotiations",
+ "summary": "تتعلم لغة التفاوض بمراحله: تقديم العرض، المساومة، وضع الشروط، ثم إبرام الاتفاق. ستتقن استخدام الجمل الشرطية والعبارات الدبلوماسية التي تحافظ على العلاقة وتحقق مصلحتك.",
+ "notes": [
+  {"h": "مراحل التفاوض", "t": "1. التمهيد وبناء العلاقة (small talk).\n2. عرض المواقف: We are looking for... / Our main priority is...\n3. تقديم العروض (making proposals).\n4. المساومة (bargaining).\n5. الاتفاق والتلخيص (closing the deal)."},
+  {"h": "تقديم العروض والردّ عليها", "t": "We would like to propose... / We are prepared to offer...\nWould you be willing to...? = هل أنتم مستعدون لـ...؟\nقبول: That sounds reasonable. / We can agree to that.\nرفض مهذب: I am afraid that is not feasible for us.\nThat is rather more than we had budgeted for.\nWe would find that difficult to accept."},
+  {"h": "الجمل الشرطية في المساومة", "t": "الشرطية الأولى لعرض حقيقي: If you order 500 units, we will give you a 10 percent discount.\nالشرطية الثانية لعرض أكثر حذراً ولباقة: If you extended the contract, we would be able to lower the price.\nأدوات الشرط: provided (that) / as long as = بشرط أن، unless = ما لم.\nWe can deliver earlier provided that you pay in advance."},
+  {"h": "التنازل والحل الوسط", "t": "make a concession = يقدّم تنازلاً.\nmeet halfway = يلتقي في منتصف الطريق.\nreach a compromise = يتوصل إلى حل وسط.\nwin-win outcome = نتيجة يربح فيها الطرفان.\nThat is our bottom line = هذا آخر ما عندنا.\nI am afraid that is a deal-breaker = هذا شرط يُفسد الصفقة."},
+  {"h": "التوضيح والختام", "t": "So, if I understand correctly, you are saying...\nLet me just run through what we have agreed.\nI need to check with my manager before I commit.\nWe have a deal = اتفقنا.\nLet's put that in writing = لنوثّق ذلك كتابةً.\nterms and conditions = الشروط والأحكام."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "لا تضع will أو would بعد if أو provided أو unless: If you pay today (وليس If you will pay today), we will give you a discount."},
+  {"k": "tip", "t": "في التفاوض بالإنجليزية يُفضَّل التلطيف: بدل No, impossible قل I am afraid that would be difficult. الرفض المباشر قد يُفهم عدائية ويُغلق باب الحوار."},
+  {"k": "pron", "t": "negotiate تُنطق: نِغوشييت. و compromise تُنطق: كومپرَمايز (وليس كومپروميس). و feasible تُنطق: فيزَبل."}
+ ],
+ "vocab": [
+  {"en": "negotiate", "ar": "يتفاوض", "emoji": "🤝"},
+  {"en": "proposal", "ar": "عرض / مقترح", "emoji": "📑"},
+  {"en": "compromise", "ar": "حل وسط", "emoji": "⚖️"},
+  {"en": "concession", "ar": "تنازل", "emoji": "🎁"},
+  {"en": "bargain", "ar": "يساوم / صفقة رابحة", "emoji": "🏷️"},
+  {"en": "discount", "ar": "خصم", "emoji": "💸"},
+  {"en": "deadlock", "ar": "طريق مسدود", "emoji": "🔒"},
+  {"en": "deal-breaker", "ar": "شرط يُفسد الصفقة", "emoji": "💔"},
+  {"en": "feasible", "ar": "ممكن التنفيذ", "emoji": "👌"},
+  {"en": "terms", "ar": "شروط", "emoji": "📜"},
+  {"en": "counter-offer", "ar": "عرض مضاد", "emoji": "↩️"}
+ ],
+ "phrases": [
+  {"en": "We are prepared to offer a discount.", "ar": "نحن مستعدون لتقديم خصم."},
+  {"en": "Would you be willing to meet us halfway?", "ar": "هل أنتم مستعدون للالتقاء معنا في منتصف الطريق؟"},
+  {"en": "I am afraid that is not feasible.", "ar": "أخشى أن ذلك غير ممكن التنفيذ."},
+  {"en": "We can agree, provided that you pay early.", "ar": "يمكننا الموافقة بشرط أن تدفعوا مبكراً."},
+  {"en": "Let's put that in writing.", "ar": "لنوثّق ذلك كتابةً."},
+  {"en": "I think we have a deal.", "ar": "أظن أننا اتفقنا."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: If you ___ the order, we will reduce the price.", "o": ["will increase", "increase", "would increase", "increased to"], "a": 1, "why": "في الشرطية الأولى نستخدم المضارع البسيط بعد if."},
+  {"q": "اختر الصحيح: We can deliver by Friday ___ you confirm today.", "o": ["unless", "despite", "provided that", "although"], "a": 2, "why": "provided that = بشرط أن."},
+  {"q": "ما معنى meet halfway؟", "o": ["يتوصل إلى حل وسط بتنازل الطرفين", "يلتقي في منتصف المدينة", "يلغي الاجتماع", "يرفض العرض كلياً"], "a": 0, "why": "أي يتنازل كل طرف قليلاً للوصول إلى اتفاق."},
+  {"q": "أي ردّ هو الأكثر دبلوماسية لرفض عرض؟", "o": ["No way.", "That is a ridiculous price.", "Impossible. Forget it.", "I am afraid we would find that difficult to accept."], "a": 3, "why": "الرفض الملطّف يحافظ على العلاقة ويُبقي باب التفاوض مفتوحاً."},
+  {"q": "ما معنى deal-breaker؟", "o": ["وسيط الصفقات", "شرط يؤدي إلى فشل الاتفاق إن لم يتحقق", "خصم كبير", "عقد طويل الأمد"], "a": 1, "why": "هو أمر لا يمكن للطرف قبوله فيُفسد الصفقة."},
+  {"q": "أي جملة أكثر حذراً ولباقة في تقديم العرض؟", "o": ["If you sign now, we will cut the price.", "Sign now and we cut the price.", "If you signed today, we would be able to lower the price.", "You sign, we cut."], "a": 2, "why": "الشرطية الثانية تجعل العرض افتراضياً وأكثر تهذيباً."}
+ ]
+},
+{
+ "n": "197",
+ "type": "conversation",
+ "title_ar": "بناء شبكة العلاقات المهنية",
+ "title_en": "Networking",
+ "summary": "تتعلم كيف تبدأ حديثاً مع أشخاص جدد في المؤتمرات والفعاليات، وتعرّف بنفسك باختصار، وتُبقي الحديث مستمراً ثم تنهيه بلباقة وتتابع التواصل. العلاقات المهنية من أهم مفاتيح الفرص الوظيفية.",
+ "notes": [
+  {"h": "بدء الحديث", "t": "I don't think we have met. I am Omar.\nMind if I join you? = هل تمانع إن انضممتُ إليكم؟\nWhat brings you here today? = ما الذي أتى بك اليوم؟\nHow did you find the keynote speech? = ما رأيك في الكلمة الرئيسية؟\nHow do you know the host?\nسؤال ذيلي لفتح الحديث: Great turnout, isn't it?"},
+  {"h": "التعريف المختصر بالنفس", "t": "elevator pitch = تعريف موجز في نصف دقيقة: من أنت، ماذا تفعل، وما القيمة التي تقدّمها.\nI work in renewable energy = أعمل في مجال الطاقة المتجددة.\nI am in charge of business development at...\nI specialise in helping small firms go digital.\nWhat line of work are you in? = ما مجال عملك؟"},
+  {"h": "إبقاء الحديث مستمراً", "t": "أظهر الاهتمام: Really? That sounds fascinating.\nاطرح أسئلة مفتوحة: How did you get into that field?\nWhat are you working on at the moment?\nابحث عن المشترك: We have a lot in common. / What a coincidence!\nاعرض المساعدة: I could put you in touch with a colleague of mine."},
+  {"h": "تبادل وسائل التواصل", "t": "Do you have a business card?\nAre you on LinkedIn? Let's connect.\nWhat is the best way to reach you?\nI will drop you a line next week = سأراسلك الأسبوع القادم.\nLet's keep in touch = لنبقَ على تواصل."},
+  {"h": "إنهاء الحديث والمتابعة", "t": "It has been a pleasure talking to you.\nI won't keep you any longer = لن أطيل عليك.\nI should go and say hello to a few people.\nفي رسالة المتابعة: It was great to meet you at the conference. As promised, here is the link I mentioned.\nfollow up within a day or two = تابع خلال يوم أو يومين."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "Nice to meet you تُقال عند أول لقاء فقط. عند الوداع قل Nice meeting you أو It was nice to meet you، ومع من تعرفه قل Nice to see you again."},
+  {"k": "tip", "t": "في الثقافة المهنية الغربية يُتجنّب في اللقاء الأول السؤال عن الراتب أو العمر أو الدين أو الحالة الاجتماعية. مواضيع آمنة: العمل، الفعالية، السفر، الطقس."},
+  {"k": "pron", "t": "في السؤال الذيلي الذي تتوقع فيه الموافقة تنخفض النغمة: isn't it? ↘. و colleague تُنطق: كوليغ. و acquaintance تُنطق: أكوينتَنس."}
+ ],
+ "vocab": [
+  {"en": "networking", "ar": "بناء العلاقات المهنية", "emoji": "🕸️"},
+  {"en": "contact", "ar": "جهة اتصال / معرفة", "emoji": "📇"},
+  {"en": "business card", "ar": "بطاقة عمل", "emoji": "💳"},
+  {"en": "elevator pitch", "ar": "تعريف موجز بالنفس", "emoji": "🛗"},
+  {"en": "small talk", "ar": "حديث خفيف", "emoji": "💬"},
+  {"en": "conference", "ar": "مؤتمر", "emoji": "🏛️"},
+  {"en": "acquaintance", "ar": "شخص تعرفه معرفة سطحية", "emoji": "👋"},
+  {"en": "keep in touch", "ar": "يبقى على تواصل", "emoji": "📱"},
+  {"en": "referral", "ar": "توصية / إحالة", "emoji": "👉"},
+  {"en": "mentor", "ar": "مرشد مهني", "emoji": "🧙"},
+  {"en": "rapport", "ar": "ألفة وتفاهم", "emoji": "🤝"}
+ ],
+ "phrases": [
+  {"en": "I don't think we have met.", "ar": "لا أظن أننا التقينا من قبل."},
+  {"en": "What line of work are you in?", "ar": "ما مجال عملك؟"},
+  {"en": "How did you get into that field?", "ar": "كيف دخلتَ هذا المجال؟"},
+  {"en": "I could put you in touch with her.", "ar": "يمكنني أن أصلك بها."},
+  {"en": "It has been a pleasure talking to you.", "ar": "سُررتُ بالحديث معك."},
+  {"en": "Let's keep in touch.", "ar": "لنبقَ على تواصل."}
+ ],
+ "quiz": [
+  {"q": "ما هو elevator pitch؟", "o": ["عرض تقديمي طويل", "تعريف موجز ومقنع بالنفس في نحو نصف دقيقة", "شكوى من المصعد", "خطاب استقالة"], "a": 1, "why": "سُمّي بذلك لأنه قصير بقدر رحلة في المصعد."},
+  {"q": "ماذا تقول عند وداع شخص قابلته لأول مرة؟", "o": ["Nice to meet you too, hello.", "How do you do?", "It was nice to meet you.", "Nice to see you again."], "a": 2, "why": "عند الوداع نستخدم الماضي: It was nice to meet you."},
+  {"q": "أي سؤال غير مناسب في لقاء مهني أول؟", "o": ["How much do you earn?", "What brings you here today?", "What line of work are you in?", "How did you find the talk?"], "a": 0, "why": "السؤال عن الراتب يُعدّ غير لائق في اللقاء الأول."},
+  {"q": "ما معنى I will drop you a line؟", "o": ["سأرسم لك خطاً", "سأنتظرك في الطابور", "سأتصل بالشرطة", "سأراسلك برسالة قصيرة"], "a": 3, "why": "drop someone a line = يكتب له رسالة قصيرة."},
+  {"q": "اختر الصحيح: I could put you ___ touch with our director.", "o": ["on", "in", "at", "to"], "a": 1, "why": "التعبير هو put someone in touch with."},
+  {"q": "أي عبارة تُنهي الحديث بلباقة؟", "o": ["I am bored. Bye.", "Stop talking, please.", "I won't keep you any longer.", "Mind if I join you?"], "a": 2, "why": "I won't keep you any longer طريقة مهذبة للاستئذان."}
+ ]
+}
+]

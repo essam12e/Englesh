@@ -1,0 +1,381 @@
+[
+{
+ "n": "106",
+ "type": "grammar",
+ "title_ar": "المضارع التام مع ever و never",
+ "title_en": "Present perfect (ever / never)",
+ "summary": "تتعلم استخدام ever في السؤال عن تجارب الحياة و never لنفيها تمامًا. هذا التركيب هو الطريقة الأشهر لبدء حديث ممتع: هل سبق لك أن...؟",
+ "notes": [
+  {"h": "السؤال بـ ever", "t": "Have / Has + الفاعل + ever + التصريف الثالث؟\never تعني: في أي وقت من حياتك، هل سبق لك.\nHave you ever eaten sushi? = هل سبق أن أكلت السوشي؟\nHas she ever been to Africa? = هل سبق أن زارت أفريقيا؟\nالإجابة القصيرة: Yes, I have. / No, I haven't. / No, never."},
+  {"h": "النفي بـ never", "t": "الفاعل + have / has + never + التصريف الثالث.\nnever تعني: ولا مرة في حياتي.\nI've never seen snow = لم أرَ الثلج في حياتي.\nHe's never driven a lorry = لم يسبق له أن قاد شاحنة.\nnever كلمة نفي بذاتها، فالفعل معها مثبت: I have never (وليس I haven't never)."},
+  {"h": "مكان ever و never", "t": "تأتيان بين have / has والتصريف الثالث:\nHave you ever met a famous person?\nI have never met a famous person.\nفي السؤال: ever بعد الفاعل مباشرة."},
+  {"h": "ever مع صيغة التفضيل", "t": "تركيب شائع جدًا:\nIt's the best film I've ever seen = إنه أفضل فيلم شاهدته في حياتي.\nShe's the kindest person I've ever met.\nThis is the most difficult exam I've ever taken."},
+  {"h": "متابعة الحديث", "t": "بعد الإجابة بنعم ننتقل إلى الماضي البسيط:\nA: Have you ever broken a bone?\nB: Yes, I have. I broke my arm when I was ten.\nA: How did it happen?\nB: I fell off my bike."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تجمع نفيين: I haven't never been خطأ. الصحيح: I've never been أو I haven't ever been."},
+  {"k": "mistake", "t": "لا تقل Did you ever been? ولا Have you ever went? الصحيح: Have you ever been? بالتصريف الثالث."},
+  {"k": "grammar", "t": "ever للسؤال (وللنفي مع haven't)، و never للجملة المنفية المعنى بفعل مثبت. لا نقول I've ever been في جملة خبرية عادية."}
+ ],
+ "vocab": [
+  {"en": "ever", "ar": "في أي وقت / سبق أن", "emoji": "❓"},
+  {"en": "never", "ar": "أبدًا", "emoji": "🚫"},
+  {"en": "broken", "ar": "كسر", "emoji": "🦴"},
+  {"en": "driven", "ar": "قاد", "emoji": "🚗"},
+  {"en": "won", "ar": "فاز", "emoji": "🏆"},
+  {"en": "lost", "ar": "أضاع / خسر", "emoji": "🧭"},
+  {"en": "tried", "ar": "جرّب", "emoji": "🍣"},
+  {"en": "forgotten", "ar": "نسي", "emoji": "🤦"},
+  {"en": "snow", "ar": "ثلج", "emoji": "❄️"},
+  {"en": "famous", "ar": "مشهور", "emoji": "⭐"}
+ ],
+ "phrases": [
+  {"en": "Have you ever eaten sushi?", "ar": "هل سبق أن أكلت السوشي؟"},
+  {"en": "I've never seen snow.", "ar": "لم أرَ الثلج في حياتي."},
+  {"en": "Has she ever been to Africa?", "ar": "هل سبق أن زارت أفريقيا؟"},
+  {"en": "It's the best film I've ever seen.", "ar": "إنه أفضل فيلم شاهدته في حياتي."},
+  {"en": "He has never driven a car.", "ar": "لم يسبق له أن قاد سيارة."}
+ ],
+ "quiz": [
+  {"q": "أكمل: Have you ___ been to China?", "o": ["never", "ever", "yet", "ago"], "a": 1, "why": "في السؤال عن التجارب نستخدم ever."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I haven't never tried it.", "I never have try it.", "I've never tried it.", "I've ever tried it."], "a": 2, "why": "never تأتي مع فعل مثبت بين have والتصريف الثالث."},
+  {"q": "Have you ever lost your phone? الإجابة القصيرة:", "o": ["Yes, I have.", "Yes, I did lost.", "Yes, I lost.", "Yes, I am."], "a": 0, "why": "الإجابة القصيرة تستخدم الفعل المساعد نفسه: have."},
+  {"q": "أكمل: This is the best book I've ___ read.", "o": ["never", "yet", "already not", "ever"], "a": 3, "why": "بعد صيغة التفضيل نستخدم ever."},
+  {"q": "أكمل: ___ he ever won a prize?", "o": ["Have", "Did", "Has", "Is"], "a": 2, "why": "مع he نستخدم Has في المضارع التام."},
+  {"q": "أين الخطأ؟ Have you ever went to London?", "o": ["Have", "went", "ever", "London"], "a": 1, "why": "بعد have يأتي التصريف الثالث been أو gone وليس went."}
+ ]
+},
+{
+ "n": "107",
+ "type": "grammar",
+ "title_ar": "المضارع التام مع since و for",
+ "title_en": "Present perfect (since / for)",
+ "summary": "تتعلم استخدام المضارع التام للحديث عن حالة بدأت في الماضي وما زالت مستمرة حتى الآن، مع for للمدة و since لنقطة البداية. هذا من أكثر المواضع التي يخطئ فيها المتعلمون العرب.",
+ "notes": [
+  {"h": "حالة بدأت ولم تنتهِ", "t": "نستخدم المضارع التام لشيء بدأ في الماضي وما زال مستمرًا:\nI've lived here for ten years = أعيش هنا منذ عشر سنوات (وما زلت).\nShe's known him since 2015 = تعرفه منذ عام 2015.\nفي العربية نستخدم المضارع (أعيش، أعرف)، لكن في الإنجليزية يجب المضارع التام."},
+  {"h": "for + مدة", "t": "for تسبق طول المدة:\nfor two hours, for three days, for six months, for ten years, for a long time, for ages.\nWe've been married for five years = نحن متزوجان منذ خمس سنوات."},
+  {"h": "since + نقطة البداية", "t": "since تسبق اللحظة التي بدأ عندها الشيء:\nsince Monday, since 2010, since last week, since nine o'clock, since I was a child.\nI've had this car since March = عندي هذه السيارة منذ مارس.\nبعد since قد تأتي جملة بالماضي البسيط: since I left school."},
+  {"h": "السؤال بـ How long", "t": "How long + have / has + الفاعل + التصريف الثالث؟\nHow long have you lived here? = منذ متى تعيش هنا؟\nHow long has she worked there? - For two years. / Since 2022.\nHow long have you known each other?"},
+  {"h": "قارن مع الماضي البسيط", "t": "I've lived in Dubai for five years = ما زلت أعيش هناك.\nI lived in Dubai for five years = عشت هناك خمس سنوات وانتهى الأمر.\nfor تأتي مع الزمنين، أما since فمع التام."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "أشيع خطأ: I live here since 2010 أو I am here for two years. الصحيح: I've lived here since 2010 / I've been here for two years."},
+  {"k": "grammar", "t": "for = كم طالت المدة (for three weeks). since = متى بدأت (since Monday). لا تقل since three weeks."},
+  {"k": "mistake", "t": "لا تستخدم ago مع المضارع التام: I've started two years ago خطأ. قل I started two years ago أو I've worked here for two years."}
+ ],
+ "vocab": [
+  {"en": "since", "ar": "منذ (نقطة بداية)", "emoji": "📍"},
+  {"en": "for", "ar": "لمدة", "emoji": "⏳"},
+  {"en": "how long", "ar": "منذ متى / كم المدة", "emoji": "📏"},
+  {"en": "lived", "ar": "عاش / سكن", "emoji": "🏠"},
+  {"en": "known", "ar": "عرف", "emoji": "🤝"},
+  {"en": "had", "ar": "امتلك", "emoji": "🔑"},
+  {"en": "worked", "ar": "عمل", "emoji": "💼"},
+  {"en": "married", "ar": "متزوج", "emoji": "💍"},
+  {"en": "ages", "ar": "مدة طويلة جدًا", "emoji": "🕰️"},
+  {"en": "childhood", "ar": "الطفولة", "emoji": "🧒"}
+ ],
+ "phrases": [
+  {"en": "I've lived here for ten years.", "ar": "أعيش هنا منذ عشر سنوات."},
+  {"en": "She's known him since 2015.", "ar": "هي تعرفه منذ عام 2015."},
+  {"en": "How long have you worked here?", "ar": "منذ متى تعمل هنا؟"},
+  {"en": "We've been married for five years.", "ar": "نحن متزوجان منذ خمس سنوات."},
+  {"en": "I haven't seen him since Monday.", "ar": "لم أره منذ يوم الاثنين."},
+  {"en": "I've had this car since March.", "ar": "عندي هذه السيارة منذ مارس."}
+ ],
+ "quiz": [
+  {"q": "أكمل: I've lived in this flat ___ 2018.", "o": ["for", "ago", "since", "from"], "a": 2, "why": "2018 نقطة بداية فنستخدم since."},
+  {"q": "أكمل: She's been a teacher ___ twenty years.", "o": ["for", "since", "ago", "during"], "a": 0, "why": "twenty years مدة زمنية فنستخدم for."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I know him since 2010.", "I am knowing him since 2010.", "I knew him since 2010.", "I've known him since 2010."], "a": 3, "why": "حالة مستمرة من الماضي إلى الآن تتطلب المضارع التام."},
+  {"q": "أكمل: How long ___ you had your phone?", "o": ["do", "have", "did", "are"], "a": 1, "why": "السؤال عن مدة مستمرة حتى الآن يكون بـ How long have."},
+  {"q": "أيّ عبارة تأتي مع since؟", "o": ["three weeks", "a long time", "last Friday", "two hours"], "a": 2, "why": "last Friday نقطة زمنية محددة، والبقية مُدد تأتي مع for."},
+  {"q": "ما معنى I lived in Dubai for five years؟", "o": ["ما زلت أعيش في دبي", "عشت في دبي ولم أعد أعيش هناك", "سأعيش في دبي", "أزور دبي كل خمس سنوات"], "a": 1, "why": "الماضي البسيط يدل على فترة انتهت."}
+ ]
+},
+{
+ "n": "108",
+ "type": "grammar",
+ "title_ar": "المضارع التام أم الماضي البسيط؟",
+ "title_en": "Present perfect vs past simple",
+ "summary": "هذا الدرس يحسم الفرق بين I have done و I did، وهو من أصعب نقاط المستوى المتوسط لأن العربية تستخدم الفعل الماضي للحالتين. القاعدة الذهبية: الوقت المحدد المنتهي يعني الماضي البسيط.",
+ "notes": [
+  {"h": "القاعدة الذهبية", "t": "الماضي البسيط: حدث انتهى في وقت محدد منتهٍ (نعرف متى أو نذكر متى).\nI saw Ahmed yesterday.\nالمضارع التام: حدث في الماضي لا نحدد وقته، أو له علاقة بالحاضر.\nI've seen Ahmed (لا يهم متى، المهم أنني رأيته)."},
+  {"h": "عبارات الزمن", "t": "مع الماضي البسيط (وقت منتهٍ): yesterday, last week, in 2015, two days ago, when I was young, at five o'clock.\nمع المضارع التام (وقت غير منتهٍ أو غير محدد): ever, never, already, yet, just, so far, recently, since, this week, today (إذا لم ينتهِ اليوم)."},
+  {"h": "النتيجة في الحاضر", "t": "المضارع التام يربط الماضي بالحاضر:\nI've lost my keys = أضعت مفاتيحي (وما زالت ضائعة الآن).\nI lost my keys yesterday = أضعتها أمس (ربما وجدتها بعد ذلك).\nShe's broken her leg = ساقها مكسورة الآن."},
+  {"h": "فترة منتهية أم مستمرة؟", "t": "I've had two coffees this morning = ما زلنا في الصباح.\nI had two coffees this morning = انتهى الصباح، نحن الآن في المساء.\nShakespeare wrote many plays = مات، فالفترة منتهية.\nMy friend has written three books = ما زال حيًّا وقد يكتب المزيد."},
+  {"h": "أسئلة التفاصيل", "t": "السؤال بـ When و What time يكون بالماضي البسيط دائمًا لأنه يسأل عن وقت محدد:\nWhen did you arrive? (وليس When have you arrived?)\nالحوار المعتاد: Have you ever been to Italy? - Yes, I have. - When did you go? - I went last May."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تجمع المضارع التام مع وقت ماضٍ محدد: I have finished it yesterday خطأ. الصحيح: I finished it yesterday."},
+  {"k": "grammar", "t": "السؤال بـ When يأخذ الماضي البسيط: When did you buy it? ولا نقول When have you bought it?"},
+  {"k": "tip", "t": "اسأل نفسك: هل ذكرتُ متى؟ إذا نعم فالماضي البسيط. إذا لا والمهم هو النتيجة أو التجربة فالمضارع التام."}
+ ],
+ "vocab": [
+  {"en": "yesterday", "ar": "أمس", "emoji": "⏪"},
+  {"en": "already", "ar": "سبق / بالفعل", "emoji": "✅"},
+  {"en": "yet", "ar": "بعد / حتى الآن", "emoji": "⏳"},
+  {"en": "just", "ar": "للتوّ", "emoji": "⚡"},
+  {"en": "recently", "ar": "مؤخرًا", "emoji": "🆕"},
+  {"en": "so far", "ar": "حتى الآن", "emoji": "📊"},
+  {"en": "last week", "ar": "الأسبوع الماضي", "emoji": "📆"},
+  {"en": "finished", "ar": "أنهى", "emoji": "🏁"},
+  {"en": "bought", "ar": "اشترى", "emoji": "🛍️"},
+  {"en": "keys", "ar": "مفاتيح", "emoji": "🔑"}
+ ],
+ "phrases": [
+  {"en": "I saw Ahmed yesterday.", "ar": "رأيت أحمد أمس."},
+  {"en": "I've lost my keys.", "ar": "أضعت مفاتيحي."},
+  {"en": "When did you arrive?", "ar": "متى وصلت؟"},
+  {"en": "I've had two coffees this morning.", "ar": "شربت فنجانَي قهوة هذا الصباح."},
+  {"en": "She finished university in 2019.", "ar": "أنهت الجامعة عام 2019."},
+  {"en": "Have you finished your homework yet?", "ar": "هل أنهيت واجبك بعد؟"}
+ ],
+ "quiz": [
+  {"q": "أكمل: I ___ my homework last night.", "o": ["have finished", "finished", "has finished", "finish"], "a": 1, "why": "last night وقت محدد منتهٍ فنستخدم الماضي البسيط."},
+  {"q": "أكمل: I can't open the door. I ___ my keys.", "o": ["lose", "am losing", "have lost", "was losing"], "a": 2, "why": "للحدث نتيجة في الحاضر فنستخدم المضارع التام."},
+  {"q": "اختر السؤال الصحيح:", "o": ["When did you buy your car?", "When have you bought your car?", "When you bought your car?", "When has you buy your car?"], "a": 0, "why": "السؤال بـ When يأخذ الماضي البسيط."},
+  {"q": "أيّ عبارة لا تأتي مع المضارع التام؟", "o": ["never", "so far", "since 2010", "two days ago"], "a": 3, "why": "ago تدل على وقت ماضٍ محدد وتأتي مع الماضي البسيط."},
+  {"q": "أكمل: She ___ to Italy three times in her life.", "o": ["went", "has been", "have been", "was going"], "a": 1, "why": "تجارب الحياة غير المحددة بوقت تأخذ المضارع التام، ومع she نستخدم has."},
+  {"q": "صحّح الجملة: I have seen that film last week.", "o": ["I see that film last week.", "I have saw that film last week.", "I saw that film last week.", "I was seen that film last week."], "a": 2, "why": "مع last week يجب الماضي البسيط: saw."}
+ ]
+},
+{
+ "n": "109",
+ "type": "conversation",
+ "title_ar": "الحديث عن أحداث الحياة",
+ "title_en": "Talking about life events",
+ "summary": "تتعلم مفردات المحطات الكبرى في حياة الإنسان: الولادة، الدراسة، العمل، الزواج والتقاعد، وكيف تحكي سيرتك أو سيرة شخص آخر. ستنتبه إلى تراكيب خاصة مثل was born و get married to.",
+ "notes": [
+  {"h": "الولادة والنشأة", "t": "be born = يُولد، وتأتي دائمًا في المبني للمجهول:\nI was born in Amman in 1995 = وُلدت في عمّان عام 1995.\nWhere were you born? = أين وُلدت؟\ngrow up = ينشأ ويكبر: I grew up in a small village.\nbe brought up by = تربّى على يد: She was brought up by her grandmother."},
+  {"h": "الدراسة والعمل", "t": "start school / leave school = يبدأ الدراسة / ينهي المدرسة.\ngo to university = يلتحق بالجامعة.\ngraduate from university = يتخرج.\nget a job = يحصل على وظيفة.\nchange jobs = يغيّر وظيفته.\nstart a business = يؤسس عملًا تجاريًا.\nretire = يتقاعد."},
+  {"h": "العلاقات والأسرة", "t": "meet someone = يتعرف على شخص.\nfall in love with = يقع في حب.\nget engaged to = يخطب.\nget married to = يتزوج من: He got married to Layla in 2018.\nhave a baby / have children = يُرزق بطفل.\nget divorced = يتطلّق."},
+  {"h": "أحداث أخرى", "t": "move to = ينتقل إلى: We moved to Riyadh when I was six.\nmove house = يغيّر بيته.\nbuy a house = يشتري بيتًا.\npass your driving test = ينجح في اختبار القيادة.\npass away = يتوفى (تعبير مهذب عن die)."},
+  {"h": "ربط الأحداث بالزمن", "t": "When I was ten, ... = عندما كنت في العاشرة.\nat the age of 25 = في سن الخامسة والعشرين.\nin my twenties = في العشرينيات من عمري.\na year later = بعد سنة.\nafter graduating = بعد التخرج.\nالأحداث المتتالية في سيرة الحياة تُروى بالماضي البسيط."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "قل I was born وليس I born أو I have born أو I am born. الفعل دائمًا was / were born للحديث عن ولادتك."},
+  {"k": "mistake", "t": "نقول get married to someone أو marry someone، ولا نقول marry with أو married with: She married a doctor / She got married to a doctor."},
+  {"k": "pron", "t": "born تُنطق: بُورْن. و married تُنطق: مَارِد (مقطعان). و engaged تُنطق: إِنْغِيجْد."}
+ ],
+ "vocab": [
+  {"en": "born", "ar": "مولود", "emoji": "👶"},
+  {"en": "grow up", "ar": "ينشأ / يكبر", "emoji": "🌱"},
+  {"en": "graduate", "ar": "يتخرج", "emoji": "🎓"},
+  {"en": "engaged", "ar": "خاطب / مخطوبة", "emoji": "💍"},
+  {"en": "get married", "ar": "يتزوج", "emoji": "💒"},
+  {"en": "move", "ar": "ينتقل", "emoji": "🚚"},
+  {"en": "retire", "ar": "يتقاعد", "emoji": "🏖️"},
+  {"en": "divorced", "ar": "مطلّق", "emoji": "💔"},
+  {"en": "pass away", "ar": "يتوفى", "emoji": "🕊️"},
+  {"en": "business", "ar": "عمل تجاري", "emoji": "🏪"},
+  {"en": "age", "ar": "عمر / سن", "emoji": "🎂"}
+ ],
+ "phrases": [
+  {"en": "I was born in Amman in 1995.", "ar": "وُلدت في عمّان عام 1995."},
+  {"en": "I grew up in a small village.", "ar": "نشأت في قرية صغيرة."},
+  {"en": "She got married at the age of 25.", "ar": "تزوجت في سن الخامسة والعشرين."},
+  {"en": "We moved to Riyadh when I was six.", "ar": "انتقلنا إلى الرياض عندما كنت في السادسة."},
+  {"en": "My father retired two years ago.", "ar": "تقاعد والدي قبل سنتين."},
+  {"en": "Where were you born?", "ar": "أين وُلدت؟"}
+ ],
+ "quiz": [
+  {"q": "اختر الجملة الصحيحة:", "o": ["I born in 1990.", "I have born in 1990.", "I was born in 1990.", "I am born in 1990."], "a": 2, "why": "نستخدم was born للحديث عن الولادة."},
+  {"q": "أكمل: He got married ___ his neighbour's daughter.", "o": ["with", "to", "by", "from"], "a": 1, "why": "نقول get married to وليس with."},
+  {"q": "ما معنى grow up؟", "o": ["ينشأ ويكبر", "يزرع", "يستيقظ", "يرتفع السعر"], "a": 0, "why": "grow up تعني الانتقال من الطفولة إلى سن الرشد."},
+  {"q": "ما معنى pass away؟", "o": ["ينجح", "يمرّ", "يسافر", "يتوفى"], "a": 3, "why": "pass away تعبير مهذب بمعنى die."},
+  {"q": "أكمل: She graduated ___ university in 2016.", "o": ["of", "at", "from", "in"], "a": 2, "why": "نقول graduate from university."},
+  {"q": "أكمل: Where ___ your parents born?", "o": ["did", "were", "was", "are"], "a": 1, "why": "parents جمع فنستخدم were born."}
+ ]
+},
+{
+ "n": "110",
+ "type": "conversation",
+ "title_ar": "الحديث عن الإنجازات",
+ "title_en": "Talking about achievements",
+ "summary": "تتعلم كيف تتحدث عن إنجازاتك ونجاحاتك مستخدمًا المضارع التام، وهي مهارة أساسية في مقابلات العمل والسيرة الذاتية. ستتعلم أيضًا already و yet وعبارات التهنئة.",
+ "notes": [
+  {"h": "المضارع التام للإنجازات", "t": "نستخدم المضارع التام لما أنجزناه حتى الآن دون تحديد الوقت:\nI've passed my driving test = نجحت في اختبار القيادة.\nShe's won three awards = فازت بثلاث جوائز.\nWe've finished the project = أنهينا المشروع.\nHe's learned to speak four languages."},
+  {"h": "already و yet", "t": "already = سبق وأن (في الإثبات، بين have والتصريف الثالث): I've already sent the email.\nyet = بعد (في نهاية النفي والسؤال): I haven't finished yet = لم أنتهِ بعد. Have you finished yet? = هل انتهيت؟\nstill مع النفي للتأكيد: I still haven't finished."},
+  {"h": "so far والأرقام", "t": "so far = حتى الآن: We've raised 5,000 dollars so far.\nالحديث عن الكمية المنجزة يأخذ المضارع التام: I've read twenty books this year. She's written three novels.\nmanage to + فعل = يتمكن من: I've managed to save some money."},
+  {"h": "أفعال الإنجاز", "t": "achieve a goal = يحقق هدفًا.\nwin a prize / an award = يفوز بجائزة.\nsucceed in + ing = ينجح في: She succeeded in getting the job.\nreach a target = يبلغ هدفًا محددًا.\novercome a problem = يتغلب على مشكلة.\nbe proud of = يفتخر بـ: I'm proud of my results."},
+  {"h": "التهنئة والرد", "t": "Congratulations! = مبروك!\nWell done! = أحسنت!\nThat's a great achievement = هذا إنجاز عظيم.\nYou must be very proud = لا بد أنك فخور جدًا.\nالرد: Thank you. I worked really hard for it."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "already في وسط الجملة المثبتة، و yet في آخر النفي والسؤال: I've already eaten / I haven't eaten yet. لا تقل I haven't already eaten."},
+  {"k": "mistake", "t": "نقول succeed in doing وليس succeed to do. ونقول proud of وليس proud with أو proud from."},
+  {"k": "pron", "t": "achieve تُنطق: أَتْشِيف، و achievement: أَتْشِيفْمِنْت. و Congratulations النبرة فيها على المقطع قبل الأخير: كُنْغْرَاتْشُولِيشِنْز."}
+ ],
+ "vocab": [
+  {"en": "achievement", "ar": "إنجاز", "emoji": "🏆"},
+  {"en": "achieve", "ar": "يحقق", "emoji": "🎯"},
+  {"en": "goal", "ar": "هدف", "emoji": "🥅"},
+  {"en": "award", "ar": "جائزة تكريم", "emoji": "🏅"},
+  {"en": "succeed", "ar": "ينجح", "emoji": "💪"},
+  {"en": "proud", "ar": "فخور", "emoji": "😊"},
+  {"en": "already", "ar": "سبق / بالفعل", "emoji": "✅"},
+  {"en": "yet", "ar": "بعد", "emoji": "⏳"},
+  {"en": "manage", "ar": "يتمكن", "emoji": "👍"},
+  {"en": "overcome", "ar": "يتغلب على", "emoji": "🧗"},
+  {"en": "congratulations", "ar": "مبروك", "emoji": "🎉"}
+ ],
+ "phrases": [
+  {"en": "I've passed my driving test.", "ar": "نجحت في اختبار القيادة."},
+  {"en": "She's won three awards so far.", "ar": "فازت بثلاث جوائز حتى الآن."},
+  {"en": "I've already sent the email.", "ar": "سبق أن أرسلت البريد الإلكتروني."},
+  {"en": "I haven't finished the report yet.", "ar": "لم أنهِ التقرير بعد."},
+  {"en": "I'm really proud of my results.", "ar": "أنا فخور حقًا بنتائجي."},
+  {"en": "Congratulations! That's a great achievement.", "ar": "مبروك! هذا إنجاز عظيم."}
+ ],
+ "quiz": [
+  {"q": "أكمل: I haven't finished my homework ___.", "o": ["already", "just", "yet", "ever"], "a": 2, "why": "yet تأتي في نهاية الجملة المنفية."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I've already seen that film.", "I've seen already yet that film.", "I already have see that film.", "I haven't already seen that film."], "a": 0, "why": "already تأتي بين have والتصريف الثالث في الإثبات."},
+  {"q": "أكمل: She succeeded ___ the exam.", "o": ["to pass", "in passing", "pass", "for pass"], "a": 1, "why": "نقول succeed in + الفعل بـ ing."},
+  {"q": "أكمل: I'm very proud ___ my daughter.", "o": ["with", "from", "about of", "of"], "a": 3, "why": "الصفة proud يتبعها حرف الجر of."},
+  {"q": "صديقك نجح في الامتحان. ماذا تقول له؟", "o": ["Good luck!", "Congratulations!", "Never mind.", "Bless you!"], "a": 1, "why": "Congratulations تُقال للتهنئة بعد النجاح، أما Good luck فتُقال قبله."},
+  {"q": "ما معنى so far؟", "o": ["بعيد جدًا", "قريبًا", "حتى الآن", "منذ زمن"], "a": 2, "why": "so far تعني حتى هذه اللحظة."}
+ ]
+},
+{
+ "n": "111",
+ "type": "conversation",
+ "title_ar": "الحديث عن آخر الأخبار",
+ "title_en": "Talking about recent news",
+ "summary": "تتعلم كيف تنقل خبرًا حديثًا وتتفاعل مع أخبار الآخرين، سواء كانت شخصية أو عامة. المضارع التام مع just و recently هو الزمن الأساسي هنا، ثم الماضي البسيط للتفاصيل.",
+ "notes": [
+  {"h": "إعلان الخبر بالمضارع التام", "t": "نستخدم المضارع التام لخبر جديد مهم الآن:\nI've got a new job! = حصلت على وظيفة جديدة!\nSara has had a baby = سارة أنجبت طفلًا.\nThere has been an accident on the main road = وقع حادث على الطريق الرئيسي.\nPrices have gone up again = ارتفعت الأسعار مجددًا."},
+  {"h": "just و recently و lately", "t": "just = للتوّ (بين have والتصريف الثالث): I've just heard the news = سمعت الخبر للتوّ.\nrecently = مؤخرًا: She's recently moved to Canada.\nlately = في الآونة الأخيرة (غالبًا في آخر الجملة): I haven't seen him lately."},
+  {"h": "من الخبر إلى التفاصيل", "t": "الخبر بالمضارع التام ثم التفاصيل بالماضي البسيط:\nA: Ali has broken his leg.\nB: Oh no! How did it happen?\nA: He fell off a ladder yesterday.\nهذا النمط ثابت في الأحاديث وفي نشرات الأخبار."},
+  {"h": "بدء الحديث عن الأخبار", "t": "Have you heard the news? = هل سمعت الخبر؟\nGuess what! = خمّن ماذا حدث!\nDid you hear about Omar? = هل سمعت بما حدث لعمر؟\nI've got some good news / bad news = عندي خبر سار / سيئ.\nWhat's new? = ما الجديد؟"},
+  {"h": "التفاعل مع الخبر", "t": "خبر سار: That's great news! / Congratulations! / I'm so happy for you.\nخبر سيئ: Oh no! / I'm sorry to hear that. / That's terrible.\nدهشة: Really? / No way! / You're kidding!"}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "كلمة news غير معدودة وتأخذ فعلًا مفردًا رغم حرف s: The news is good. نقول a piece of news أو some news، ولا نقول a news أو the news are."},
+  {"k": "mistake", "t": "لا تقل I just have heard. مكان just بين have والتصريف الثالث: I have just heard."},
+  {"k": "pron", "t": "news تُنطق: نْيُوز بصوت z في آخرها. و heard تُنطق: هِيرْد (مثل bird) وليس هِيَرْد."}
+ ],
+ "vocab": [
+  {"en": "news", "ar": "أخبار", "emoji": "📰"},
+  {"en": "just", "ar": "للتوّ", "emoji": "⚡"},
+  {"en": "recently", "ar": "مؤخرًا", "emoji": "🆕"},
+  {"en": "lately", "ar": "في الآونة الأخيرة", "emoji": "📆"},
+  {"en": "heard", "ar": "سمع", "emoji": "👂"},
+  {"en": "accident", "ar": "حادث", "emoji": "🚑"},
+  {"en": "announce", "ar": "يعلن", "emoji": "📢"},
+  {"en": "guess", "ar": "يخمّن", "emoji": "🤔"},
+  {"en": "terrible", "ar": "فظيع", "emoji": "😨"},
+  {"en": "headline", "ar": "عنوان رئيسي", "emoji": "🗞️"}
+ ],
+ "phrases": [
+  {"en": "Have you heard the news?", "ar": "هل سمعت الخبر؟"},
+  {"en": "I've just got a new job.", "ar": "حصلت للتوّ على وظيفة جديدة."},
+  {"en": "She's recently moved to Canada.", "ar": "انتقلت مؤخرًا إلى كندا."},
+  {"en": "I'm sorry to hear that.", "ar": "يؤسفني سماع ذلك."},
+  {"en": "That's great news!", "ar": "هذا خبر رائع!"},
+  {"en": "How did it happen?", "ar": "كيف حدث ذلك؟"}
+ ],
+ "quiz": [
+  {"q": "أكمل: The news ___ very good today.", "o": ["are", "is", "were", "have"], "a": 1, "why": "news اسم غير معدود ويأخذ فعلًا مفردًا."},
+  {"q": "اختر الترتيب الصحيح:", "o": ["I just have finished.", "I have finished just.", "Just I have finished.", "I have just finished."], "a": 3, "why": "just تأتي بين have والتصريف الثالث."},
+  {"q": "صديقك يقول: I failed my driving test. الرد المناسب:", "o": ["I'm sorry to hear that.", "Congratulations!", "That's great news!", "Well done!"], "a": 0, "why": "خبر سيئ فنرد بعبارة تعاطف."},
+  {"q": "A: Ali has broken his arm. B: Oh no! How ___ it happen?", "o": ["has", "does", "did", "have"], "a": 2, "why": "السؤال عن تفاصيل الحدث يكون بالماضي البسيط."},
+  {"q": "ما معنى lately؟", "o": ["متأخرًا", "في الآونة الأخيرة", "لاحقًا", "أخيرًا"], "a": 1, "why": "lately تعني recently وليست بمعنى متأخرًا (late)."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I have a good news.", "I have good newses.", "I have some good news.", "I have a good new."], "a": 2, "why": "news غير معدودة فنقول some news بدون a."}
+ ]
+},
+{
+ "n": "112",
+ "type": "grammar",
+ "title_ar": "المضارع التام المستمر",
+ "title_en": "Present perfect continuous",
+ "summary": "تتعلم زمن المضارع التام المستمر الذي يركّز على استمرار النشاط ومدته من الماضي حتى الآن. ستعرف تكوينه ومتى تختاره بدل المضارع التام البسيط.",
+ "notes": [
+  {"h": "القاعدة", "t": "الفاعل + have / has + been + الفعل + ing\nI have been working = I've been working.\nShe has been working = She's been working.\nالنفي: I haven't been sleeping well.\nالسؤال: Have you been waiting long? / How long has he been studying?"},
+  {"h": "الاستخدام الأول: نشاط مستمر حتى الآن", "t": "نشاط بدأ في الماضي وما زال مستمرًا، مع التركيز على المدة:\nI've been learning English for two years = أتعلم الإنجليزية منذ سنتين.\nIt's been raining since this morning = تمطر منذ الصباح.\nHow long have you been waiting? = منذ متى وأنت تنتظر؟"},
+  {"h": "الاستخدام الثاني: نشاط انتهى للتوّ وأثره ظاهر", "t": "You look tired. - Yes, I've been running = تبدو متعبًا. - نعم، كنت أركض.\nYour eyes are red. Have you been crying?\nThe ground is wet. It's been raining.\nالنشاط توقف قبل قليل لكن نتيجته واضحة أمامنا."},
+  {"h": "التام البسيط أم التام المستمر؟", "t": "المستمر يركّز على النشاط والمدة: I've been reading all morning = كنت أقرأ طوال الصباح.\nالبسيط يركّز على النتيجة أو العدد: I've read three chapters = قرأت ثلاثة فصول.\nمع How long نستخدم المستمر، ومع How many / How much نستخدم البسيط.\nShe's been writing emails all day. / She's written ten emails."},
+  {"h": "أفعال الحالة", "t": "أفعال الحالة مثل know, have (يملك), be, like, believe لا تأتي في صيغة الاستمرار:\nI've known her for years (وليس I've been knowing).\nI've had this phone since May (وليس I've been having).\nأما live و work فيجوز معهما الزمنان بمعنى متقارب: I've lived / I've been living here for years."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تقل I am learning English for two years. عند ذكر المدة من الماضي حتى الآن يجب: I've been learning English for two years."},
+  {"k": "grammar", "t": "لا تنسَ been: I have working خطأ. والصيغة مع he / she / it هي has been: He has been working."},
+  {"k": "pron", "t": "في الكلام الطبيعي تُنطق been قصيرة: بِن. وجملة I've been working تُسمع: آيْفْ بِن وِيرْكِنْغ."}
+ ],
+ "vocab": [
+  {"en": "been", "ar": "كان (تصريف ثالث)", "emoji": "🔗"},
+  {"en": "waiting", "ar": "ينتظر", "emoji": "⏳"},
+  {"en": "learning", "ar": "يتعلم", "emoji": "📚"},
+  {"en": "raining", "ar": "تمطر", "emoji": "🌧️"},
+  {"en": "tired", "ar": "متعب", "emoji": "😩"},
+  {"en": "all day", "ar": "طوال اليوم", "emoji": "🌞"},
+  {"en": "all morning", "ar": "طوال الصباح", "emoji": "🌅"},
+  {"en": "how long", "ar": "منذ متى", "emoji": "📏"},
+  {"en": "wet", "ar": "مبلل", "emoji": "💧"},
+  {"en": "chapter", "ar": "فصل (من كتاب)", "emoji": "📖"}
+ ],
+ "phrases": [
+  {"en": "I've been learning English for two years.", "ar": "أتعلم الإنجليزية منذ سنتين."},
+  {"en": "How long have you been waiting?", "ar": "منذ متى وأنت تنتظر؟"},
+  {"en": "It's been raining since this morning.", "ar": "تمطر منذ هذا الصباح."},
+  {"en": "She's been working all day.", "ar": "هي تعمل طوال اليوم."},
+  {"en": "I haven't been sleeping well lately.", "ar": "لا أنام جيدًا في الآونة الأخيرة."},
+  {"en": "I'm tired because I've been running.", "ar": "أنا متعب لأنني كنت أركض."}
+ ],
+ "quiz": [
+  {"q": "أكمل: She ___ for the bus for twenty minutes.", "o": ["has been waiting", "have been waiting", "is waiting", "has waiting"], "a": 0, "why": "has + been + ing مع she للتعبير عن مدة مستمرة."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I am studying here for two years.", "I have studying here for two years.", "I've been studying here for two years.", "I studying here since two years."], "a": 2, "why": "المدة من الماضي حتى الآن تتطلب have been + ing."},
+  {"q": "أكمل: I ___ three emails this morning.", "o": ["have been writing", "have written", "am writing", "has written"], "a": 1, "why": "عند ذكر العدد المنجز نستخدم المضارع التام البسيط."},
+  {"q": "أكمل: How long ___ it been snowing?", "o": ["have", "is", "does", "has"], "a": 3, "why": "مع it نستخدم has."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I've been knowing him for years.", "I've known him for years.", "I'm knowing him for years.", "I know him since years."], "a": 1, "why": "know فعل حالة لا يأتي في صيغة الاستمرار."},
+  {"q": "لماذا نقول: The ground is wet. It's been raining؟", "o": ["لأن المطر سيهطل غدًا", "لأن المطر يهطل كل يوم", "لأن المطر توقف للتوّ وأثره ظاهر", "لأن المطر لم يهطل"], "a": 2, "why": "المضارع التام المستمر يصف نشاطًا حديثًا أثره ظاهر الآن."}
+ ]
+},
+{
+ "n": "113",
+ "type": "grammar",
+ "title_ar": "المقارنة بالتفصيل",
+ "title_en": "Comparatives in detail",
+ "summary": "تتوسع في هذا الدرس في صيغ المقارنة: القواعد الإملائية، الصفات الشاذة، تقوية المقارنة بـ much و a bit، والتركيب as ... as. ستتمكن من المقارنة بين الأشياء والأشخاص بدقة ودرجات مختلفة.",
+ "notes": [
+  {"h": "تكوين صفة المقارنة", "t": "صفة قصيرة (مقطع واحد): + er: tall - taller, cheap - cheaper.\nتنتهي بـ e: + r: nice - nicer.\nساكن + علة + ساكن: نضاعف الأخير: big - bigger, hot - hotter.\nتنتهي بـ y: تتحول إلى ier: easy - easier, happy - happier.\nصفة طويلة (مقطعان فأكثر): more + الصفة: more expensive, more interesting.\nثم than: Cairo is bigger than Alexandria."},
+  {"h": "الصفات الشاذة", "t": "good - better = أفضل.\nbad - worse = أسوأ.\nfar - further / farther = أبعد.\nmuch / many - more = أكثر.\nlittle - less = أقل.\nMy English is better than last year."},
+  {"h": "تقوية المقارنة وتخفيفها", "t": "للفرق الكبير: much / a lot / far + صفة المقارنة: This phone is much better. It's a lot more expensive.\nللفرق الصغير: a bit / a little / slightly: She's a bit taller than me.\nلا نستخدم very مع صيغة المقارنة: لا نقول very bigger."},
+  {"h": "as ... as", "t": "للتساوي: as + الصفة الأصلية + as: Ali is as tall as his father = عليّ بطول أبيه.\nلعدم التساوي: not as ... as: The film isn't as good as the book = الفيلم ليس بجودة الكتاب.\nوهي تساوي: The book is better than the film."},
+  {"h": "تراكيب أخرى", "t": "less + صفة + than: This hotel is less expensive than that one.\nالمقارنة المزدوجة للتغيّر المستمر: It's getting colder and colder = يزداد برودة. more and more expensive.\nThe + مقارنة ... the + مقارنة: The more you practise, the better you get = كلما تدربت أكثر تحسنت أكثر.\nمع الظروف: She drives more carefully than me. He runs faster than me."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تجمع more مع er: more bigger و more better خطأ. قل bigger و better فقط."},
+  {"k": "mistake", "t": "بعد صفة المقارنة نستخدم than وليس from أو that: He is older than me (وليس older from me)."},
+  {"k": "pron", "t": "than تُنطق ضعيفة في الجملة: ذَن بصوت ذ (th المجهورة)، ولا تخلطها بـ then. و worse تُنطق: وِيرْس."}
+ ],
+ "vocab": [
+  {"en": "than", "ar": "مِن (في المقارنة)", "emoji": "⚖️"},
+  {"en": "better", "ar": "أفضل", "emoji": "👍"},
+  {"en": "worse", "ar": "أسوأ", "emoji": "👎"},
+  {"en": "further", "ar": "أبعد", "emoji": "🛣️"},
+  {"en": "less", "ar": "أقل", "emoji": "➖"},
+  {"en": "more", "ar": "أكثر", "emoji": "➕"},
+  {"en": "much", "ar": "بكثير", "emoji": "⏫"},
+  {"en": "a bit", "ar": "قليلًا", "emoji": "🤏"},
+  {"en": "slightly", "ar": "بقدر طفيف", "emoji": "📐"},
+  {"en": "cheaper", "ar": "أرخص", "emoji": "🏷️"},
+  {"en": "easier", "ar": "أسهل", "emoji": "😌"},
+  {"en": "expensive", "ar": "غالٍ", "emoji": "💎"}
+ ],
+ "phrases": [
+  {"en": "Cairo is bigger than Alexandria.", "ar": "القاهرة أكبر من الإسكندرية."},
+  {"en": "This phone is much better than mine.", "ar": "هذا الهاتف أفضل بكثير من هاتفي."},
+  {"en": "She's a bit taller than me.", "ar": "هي أطول مني قليلًا."},
+  {"en": "The film isn't as good as the book.", "ar": "الفيلم ليس بجودة الكتاب."},
+  {"en": "It's getting colder and colder.", "ar": "الجو يزداد برودة."},
+  {"en": "The more you practise, the better you get.", "ar": "كلما تدربت أكثر تحسنت أكثر."}
+ ],
+ "quiz": [
+  {"q": "اختر الجملة الصحيحة:", "o": ["This car is more better.", "This car is better.", "This car is gooder.", "This car is more good."], "a": 1, "why": "good صفة شاذة ومقارنتها better دون more."},
+  {"q": "أكمل: My brother is ___ than me.", "o": ["more old", "old", "oldest", "older"], "a": 3, "why": "old صفة قصيرة فنضيف er."},
+  {"q": "أكمل: Today is ___ hotter than yesterday.", "o": ["much", "very", "more", "too"], "a": 0, "why": "نقوّي صيغة المقارنة بـ much وليس very."},
+  {"q": "أكمل: She isn't as tall ___ her sister.", "o": ["than", "like", "as", "that"], "a": 2, "why": "التركيب هو as + صفة + as."},
+  {"q": "ما صيغة المقارنة من easy؟", "o": ["easyer", "more easy", "easier", "easiest"], "a": 2, "why": "الصفة المنتهية بـ y تتحول إلى ier."},
+  {"q": "The film isn't as good as the book تعني:", "o": ["The film is better than the book.", "The book is better than the film.", "The film and the book are the same.", "The book is worse than the film."], "a": 1, "why": "not as good as تعني أن الأول أقل جودة من الثاني."}
+ ]
+}
+]

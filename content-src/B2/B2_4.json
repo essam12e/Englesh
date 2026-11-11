@@ -1,0 +1,401 @@
+[
+{
+ "n": "167",
+ "type": "grammar",
+ "title_ar": "المستقبل التام والمستقبل التام المستمر",
+ "title_en": "Future perfect and future perfect continuous",
+ "summary": "في هذا الدرس تتعلم كيف تتحدث عن حدث سيكون قد انتهى قبل وقت معيّن في المستقبل، وعن حدث سيكون مستمراً لمدة معيّنة حتى ذلك الوقت. هذان الزمنان يجعلان كلامك عن الخطط والمواعيد النهائية دقيقاً واحترافياً.",
+ "notes": [
+  {"h": "المستقبل التام", "t": "الصيغة: Subject + will have + التصريف الثالث (past participle).\nنستخدمه لحدث سيكتمل قبل نقطة محددة في المستقبل.\nمثال: By Friday, I will have finished the report = بحلول الجمعة سأكون قد أنهيت التقرير.\nالنفي: She won't have arrived by six.\nالسؤال: Will you have finished by then?"},
+  {"h": "المستقبل التام المستمر", "t": "الصيغة: Subject + will have been + الفعل مع ing.\nنستخدمه للتركيز على مدة استمرار الحدث حتى نقطة في المستقبل.\nمثال: By June, I will have been working here for ten years = بحلول يونيو سأكون قد أمضيت عشر سنوات وأنا أعمل هنا."},
+  {"h": "الفرق بينهما", "t": "المستقبل التام يركّز على النتيجة أو الاكتمال: I will have read three chapters (العدد والنتيجة).\nالمستقبل التام المستمر يركّز على المدة: I will have been reading for two hours (كم من الوقت).\nأفعال الحالة مثل know و be و have (بمعنى يملك) لا تأتي في الصيغة المستمرة: I will have known her for a year."},
+  {"h": "التعابير الزمنية المصاحبة", "t": "by + وقت: by tomorrow, by 2030, by the end of the year.\nby the time + جملة في المضارع البسيط: By the time you arrive, we will have eaten.\nfor + مدة: for five years.\nin + مدة: In two weeks, I will have graduated."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "بعد by the time و when نستخدم المضارع البسيط وليس will: By the time he comes (وليس will come), I will have left."},
+  {"k": "mistake", "t": "خطأ شائع: I will have finish. الصحيح: I will have finished. بعد will have يأتي دائماً التصريف الثالث."},
+  {"k": "pron", "t": "في الكلام السريع تُختصر will have إلى will've وتُنطق تقريباً: وِلَف. و won't have تُنطق: وونت أَف."}
+ ],
+ "vocab": [
+  {"en": "deadline", "ar": "الموعد النهائي", "emoji": "⏰"},
+  {"en": "complete", "ar": "يُكمل", "emoji": "✅"},
+  {"en": "graduate", "ar": "يتخرّج", "emoji": "🎓"},
+  {"en": "retire", "ar": "يتقاعد", "emoji": "🏖️"},
+  {"en": "by then", "ar": "بحلول ذلك الوقت", "emoji": "📅"},
+  {"en": "duration", "ar": "المدة", "emoji": "⏳"},
+  {"en": "achieve", "ar": "يحقّق", "emoji": "🏆"},
+  {"en": "decade", "ar": "عقد (عشر سنوات)", "emoji": "🔟"}
+ ],
+ "phrases": [
+  {"en": "I will have finished the report by Friday.", "ar": "سأكون قد أنهيت التقرير بحلول الجمعة."},
+  {"en": "She will have been teaching for twenty years.", "ar": "ستكون قد أمضت عشرين عاماً في التدريس."},
+  {"en": "Will you have finished by then?", "ar": "هل ستكون قد انتهيت بحلول ذلك الوقت؟"},
+  {"en": "They won't have arrived by six.", "ar": "لن يكونوا قد وصلوا بحلول السادسة."},
+  {"en": "By next year, he will have graduated.", "ar": "بحلول العام القادم سيكون قد تخرّج."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: By 2030, scientists ___ a cure.", "o": ["will find", "will have found", "will have find", "have found"], "a": 1, "why": "حدث يكتمل قبل وقت محدد في المستقبل: will have + التصريف الثالث."},
+  {"q": "اختر الصحيح: By next month, I ___ here for five years.", "o": ["will have been living", "will living", "will have been live", "am living"], "a": 0, "why": "التركيز على المدة حتى وقت مستقبلي: will have been + ing."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["By the time he will arrive, we will have left.", "By the time he arrives, we will left.", "By the time he arrives, we will have left.", "By the time he arrived, we will have leave."], "a": 2, "why": "بعد by the time نستخدم المضارع البسيط، وفي الجملة الرئيسية will have + التصريف الثالث."},
+  {"q": "أي جملة تركّز على مدة الحدث؟", "o": ["I will have read the book.", "I will read the book.", "I am going to read the book.", "I will have been reading for two hours."], "a": 3, "why": "المستقبل التام المستمر مع for يركّز على المدة."},
+  {"q": "أين الخطأ؟ She will have finish her degree by June.", "o": ["She", "will have", "finish", "by June"], "a": 2, "why": "يجب استخدام التصريف الثالث finished بعد will have."},
+  {"q": "اختر الصحيح: By May, I ___ her for ten years.", "o": ["will have been knowing", "will have known", "will knowing", "will have know"], "a": 1, "why": "know فعل حالة لا يأتي في الصيغة المستمرة."}
+ ]
+},
+{
+ "n": "168",
+ "type": "skills",
+ "title_ar": "كتابة السيرة الذاتية",
+ "title_en": "Writing a CV",
+ "summary": "تتعلم في هذا الدرس أقسام السيرة الذاتية بالإنجليزية والمفردات والأفعال القوية التي تُستخدم فيها. سيرة ذاتية واضحة ومرتّبة هي أول خطوة للحصول على مقابلة عمل.",
+ "notes": [
+  {"h": "أقسام السيرة الذاتية", "t": "Personal details: الاسم ووسائل الاتصال.\nProfile / Personal statement: فقرة قصيرة تلخّص من أنت وماذا تقدّم.\nWork experience: الخبرة العملية من الأحدث إلى الأقدم.\nEducation: المؤهلات الدراسية.\nSkills: المهارات (لغات، حاسوب...).\nReferences: المعرّفون، ويُكتب غالباً: References available on request."},
+  {"h": "أفعال الإنجاز القوية", "t": "ابدأ كل نقطة بفعل في الماضي دون ضمير I:\nManaged a team of ten employees = أدرتُ فريقاً من عشرة موظفين.\nIncreased sales by 20 percent = رفعتُ المبيعات بنسبة 20%.\nDeveloped a new training programme = طوّرتُ برنامجاً تدريبياً جديداً.\nللوظيفة الحالية استخدم المضارع: Manage, Lead, Supervise."},
+  {"h": "صفات تصف بها نفسك", "t": "reliable = جدير بالثقة، motivated = متحمّس، organised = منظّم، fluent in English = يتقن الإنجليزية.\nمثال للملخّص: A motivated graduate with strong communication skills, seeking a position in marketing."},
+  {"h": "نصائح للصياغة", "t": "اجعل السيرة صفحة أو صفحتين.\nاستخدم نقاطاً قصيرة لا فقرات طويلة.\nاذكر أرقاماً ونتائج محددة.\nعدّل السيرة لتناسب كل وظيفة (tailor your CV).\nراجع الإملاء جيداً (proofread)."}
+ ],
+ "alerts": [
+  {"k": "tip", "t": "في بريطانيا يُقال CV، وفي أمريكا يُقال غالباً resume (تُنطق: رِزيوماي). المعنى واحد تقريباً في سياق التوظيف."},
+  {"k": "mistake", "t": "experience بمعنى الخبرة العملية غير معدودة: I have five years of experience (وليس experiences)."},
+  {"k": "pron", "t": "CV تُنطق حرفين: سي ڤي، بصوت v وليس f. وكلمة colleague تُنطق: كوليغ."}
+ ],
+ "vocab": [
+  {"en": "resume", "ar": "سيرة ذاتية (أمريكي)", "emoji": "📄"},
+  {"en": "experience", "ar": "خبرة", "emoji": "💼"},
+  {"en": "qualification", "ar": "مؤهّل", "emoji": "🎓"},
+  {"en": "skills", "ar": "مهارات", "emoji": "🛠️"},
+  {"en": "reference", "ar": "معرّف / مرجع", "emoji": "📇"},
+  {"en": "achievement", "ar": "إنجاز", "emoji": "🏆"},
+  {"en": "employer", "ar": "صاحب العمل", "emoji": "🏢"},
+  {"en": "applicant", "ar": "المتقدّم للوظيفة", "emoji": "🙋"},
+  {"en": "fluent", "ar": "طليق اللسان", "emoji": "🗣️"},
+  {"en": "proofread", "ar": "يدقّق النص", "emoji": "🔍"}
+ ],
+ "phrases": [
+  {"en": "I have five years of experience.", "ar": "لديّ خمس سنوات من الخبرة."},
+  {"en": "I managed a team of ten people.", "ar": "أدرتُ فريقاً من عشرة أشخاص."},
+  {"en": "I am fluent in English and Arabic.", "ar": "أتقن الإنجليزية والعربية."},
+  {"en": "References are available on request.", "ar": "المعرّفون متاحون عند الطلب."},
+  {"en": "Please find my CV attached.", "ar": "تجدون سيرتي الذاتية مرفقة."}
+ ],
+ "quiz": [
+  {"q": "في أي قسم من السيرة الذاتية تكتب شهادتك الجامعية؟", "o": ["References", "Education", "Skills", "Profile"], "a": 1, "why": "Education هو قسم المؤهلات الدراسية."},
+  {"q": "اختر الجملة الأنسب للسيرة الذاتية:", "o": ["I was doing some sales things.", "Sales were good when I worked there.", "Increased sales by 20 percent in one year.", "I think I am good at sales."], "a": 2, "why": "نبدأ بفعل إنجاز قوي ونذكر نتيجة محددة بالأرقام."},
+  {"q": "اختر الصحيح: I have three years of ___ in teaching.", "o": ["experience", "experiences", "experienced", "experiencing"], "a": 0, "why": "experience بمعنى الخبرة العملية اسم غير معدود."},
+  {"q": "ما معنى tailor your CV؟", "o": ["تطبع السيرة الذاتية", "ترسل السيرة بالبريد", "تختصر السيرة الذاتية", "تعدّل السيرة لتناسب الوظيفة"], "a": 3, "why": "tailor تعني يفصّل، أي تعديل السيرة حسب كل وظيفة."},
+  {"q": "ما معنى References available on request؟", "o": ["المراجع مرفقة بالسيرة", "المعرّفون متاحون عند الطلب", "لا يوجد معرّفون", "اطلب الوظيفة الآن"], "a": 1, "why": "on request تعني عند الطلب."}
+ ]
+},
+{
+ "n": "169",
+ "type": "skills",
+ "title_ar": "استراتيجيات تعلّم الإنجليزية",
+ "title_en": "English learning strategies",
+ "summary": "يعرض هذا الدرس طرقاً عملية لتطوير لغتك في المرحلة فوق المتوسطة، مع المفردات التي تحتاجها للحديث عن طريقة تعلّمك. معرفة الاستراتيجية المناسبة توفّر عليك وقتاً وجهداً كبيرين.",
+ "notes": [
+  {"h": "التعرّض للغة والانغماس فيها", "t": "immersion = الانغماس: أحِط نفسك بالإنجليزية يومياً.\nextensive reading/listening = القراءة والاستماع بكثرة لمواد ممتعة وسهلة نسبياً.\nمثال: I try to immerse myself in English by watching series without subtitles."},
+  {"h": "حفظ المفردات بذكاء", "t": "تعلّم الكلمات داخل جمل وتلازمات لفظية (collocations) لا منفردة: make a decision, heavy rain.\nاستخدم التكرار المتباعد (spaced repetition): راجع الكلمة بعد يوم ثم ثلاثة أيام ثم أسبوع.\nاحتفظ بدفتر مفردات (vocabulary notebook) واكتب مثالاً من عندك."},
+  {"h": "تطوير التحدّث والنطق", "t": "shadowing = الترديد خلف المتحدث مباشرة لتقليد النطق والإيقاع.\nسجّل صوتك (record yourself) وقارنه بالأصل.\nلا تخف من الأخطاء: Making mistakes is part of the process."},
+  {"h": "عبارات للحديث عن تعلّمك", "t": "I find it helpful to + فعل: I find it helpful to keep a diary.\nWhat works for me is + ing: What works for me is listening to podcasts.\nI struggle with + اسم: I struggle with phrasal verbs.\npick up = يلتقط/يتعلّم دون دراسة: I picked up a lot of slang from films."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تقل learn English language. قل learn English أو learn the English language."},
+  {"k": "grammar", "t": "بعد practise و keep و avoid يأتي الفعل مع ing: I practise speaking every day (وليس practise to speak)."},
+  {"k": "pron", "t": "vocabulary تُنطق: ڤوكابيولَري والنبر على المقطع الثاني. و pronunciation تُكتب وتُنطق بـ nun وليس noun: برونَنسييشن."}
+ ],
+ "vocab": [
+  {"en": "immersion", "ar": "الانغماس في اللغة", "emoji": "🌊"},
+  {"en": "fluency", "ar": "الطلاقة", "emoji": "🗣️"},
+  {"en": "accuracy", "ar": "الدقة", "emoji": "🎯"},
+  {"en": "collocation", "ar": "تلازم لفظي", "emoji": "🔗"},
+  {"en": "shadowing", "ar": "الترديد خلف المتحدث", "emoji": "👥"},
+  {"en": "subtitles", "ar": "الترجمة المكتوبة", "emoji": "🎬"},
+  {"en": "pick up", "ar": "يلتقط / يتعلّم عفوياً", "emoji": "🧲"},
+  {"en": "revise", "ar": "يراجع", "emoji": "🔁"},
+  {"en": "memorize", "ar": "يحفظ", "emoji": "🧠"},
+  {"en": "podcast", "ar": "بودكاست", "emoji": "🎧"}
+ ],
+ "phrases": [
+  {"en": "I practise speaking English every day.", "ar": "أتدرّب على التحدّث بالإنجليزية كل يوم."},
+  {"en": "What works for me is listening to podcasts.", "ar": "ما ينجح معي هو الاستماع إلى البودكاست."},
+  {"en": "I picked up new words from films.", "ar": "التقطتُ كلمات جديدة من الأفلام."},
+  {"en": "Making mistakes is part of the process.", "ar": "ارتكاب الأخطاء جزء من العملية."},
+  {"en": "I struggle with phrasal verbs.", "ar": "أجد صعوبة في الأفعال المركّبة."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: I practise ___ English with my friends.", "o": ["to speak", "speak", "speaking", "spoke"], "a": 2, "why": "بعد practise يأتي الفعل مع ing."},
+  {"q": "ما معنى shadowing؟", "o": ["الترديد خلف المتحدث مباشرة", "حفظ قوائم الكلمات", "القراءة السريعة", "كتابة اليوميات"], "a": 0, "why": "shadowing هو تقليد المتحدث فوراً لتحسين النطق والإيقاع."},
+  {"q": "أي مما يلي تلازم لفظي (collocation) صحيح؟", "o": ["do a decision", "make a decision", "strong rain", "make homework"], "a": 1, "why": "نقول make a decision، ونقول heavy rain و do homework."},
+  {"q": "ما معنى pick up في: I picked up some Spanish in Madrid؟", "o": ["رفعتُ شيئاً عن الأرض", "نسيتُ", "درّستُ", "تعلّمتُ دون دراسة منظمة"], "a": 3, "why": "pick up هنا تعني اكتساب اللغة عفوياً."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I want to learn English language.", "I find it helpful keeping a diary to.", "I find it helpful to keep a diary.", "I struggle of grammar."], "a": 2, "why": "التركيب الصحيح: find it helpful to + فعل."}
+ ]
+},
+{
+ "n": "170",
+ "type": "vocab",
+ "title_ar": "الامتحانات والتقييم",
+ "title_en": "Exams and assessments",
+ "summary": "تتعلم مفردات الامتحانات والدرجات وطرق التقييم، والأفعال الصحيحة التي تُستخدم معها. هذه المفردات ضرورية لكل من يدرس أو ينوي الدراسة بالإنجليزية.",
+ "notes": [
+  {"h": "الأفعال مع exam", "t": "take / sit an exam = يؤدّي امتحاناً.\npass an exam = ينجح.\nfail an exam = يرسب.\nretake / resit an exam = يعيد الامتحان.\nrevise for an exam (بريطاني) / review for an exam (أمريكي) = يراجع.\ncheat in an exam = يغشّ."},
+  {"h": "أنواع التقييم", "t": "continuous assessment = تقييم مستمر طوال الفصل.\ncoursework = أعمال الفصل.\nassignment = واجب / بحث.\nmock exam = امتحان تجريبي.\nmultiple-choice questions = أسئلة اختيار من متعدد.\noral exam = امتحان شفهي."},
+  {"h": "النتائج والدرجات", "t": "mark (بريطاني) / grade (أمريكي) = الدرجة.\nget good marks = يحصل على درجات جيدة.\npass with flying colours = ينجح بتفوّق.\nscrape through = ينجح بصعوبة.\nexaminer = الممتحِن، candidate = الممتحَن.\nمثال: She passed with flying colours."},
+  {"h": "التعبير عن ضغط الامتحانات", "t": "I am under a lot of pressure = أنا تحت ضغط كبير.\ncram = يذاكر بكثافة في آخر لحظة.\nmy mind went blank = نسيتُ كل شيء فجأة.\nmeet the deadline = يسلّم في الموعد.\nhand in = يسلّم: I handed in my assignment yesterday."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "pass an exam تعني ينجح فيه، لا يؤدّيه. لتقول أدّيتُ امتحاناً قل: I took an exam. وخطأ شائع: I made an exam (هذه تعني أعددتُ الامتحان كمعلّم)."},
+  {"k": "grammar", "t": "نقول fail an exam بدون حرف جر، ونقول succeed in an exam مع in."},
+  {"k": "pron", "t": "exam تُنطق: إغزام (حرف x هنا يُنطق gz)، و assessment تُنطق: أسِسمِنت والنبر على المقطع الثاني."}
+ ],
+ "vocab": [
+  {"en": "assessment", "ar": "تقييم", "emoji": "📊"},
+  {"en": "revise", "ar": "يراجع للامتحان", "emoji": "📖"},
+  {"en": "fail", "ar": "يرسب", "emoji": "❌"},
+  {"en": "retake", "ar": "يعيد الامتحان", "emoji": "🔁"},
+  {"en": "assignment", "ar": "واجب / بحث", "emoji": "📝"},
+  {"en": "grade", "ar": "درجة", "emoji": "💯"},
+  {"en": "cheat", "ar": "يغشّ", "emoji": "🙈"},
+  {"en": "cram", "ar": "يذاكر بكثافة آخر لحظة", "emoji": "😰"},
+  {"en": "examiner", "ar": "الممتحِن", "emoji": "🧑‍🏫"},
+  {"en": "mock exam", "ar": "امتحان تجريبي", "emoji": "🧪"}
+ ],
+ "phrases": [
+  {"en": "I am taking an exam tomorrow.", "ar": "سأؤدّي امتحاناً غداً."},
+  {"en": "She passed with flying colours.", "ar": "نجحت بتفوّق."},
+  {"en": "I need to revise for my exams.", "ar": "أحتاج إلى المراجعة لامتحاناتي."},
+  {"en": "He handed in his assignment late.", "ar": "سلّم واجبه متأخراً."},
+  {"en": "My mind went blank during the test.", "ar": "نسيتُ كل شيء أثناء الاختبار."}
+ ],
+ "quiz": [
+  {"q": "كيف تقول: أدّيتُ الامتحان أمس (ولا أعرف النتيجة بعد)؟", "o": ["I passed the exam yesterday.", "I made the exam yesterday.", "I took the exam yesterday.", "I gave the exam yesterday."], "a": 2, "why": "take an exam = يؤدّي الامتحان، أما pass فتعني ينجح."},
+  {"q": "ما معنى mock exam؟", "o": ["امتحان تجريبي", "امتحان نهائي", "امتحان شفهي", "امتحان صعب"], "a": 0, "why": "mock exam امتحان تدريبي قبل الحقيقي."},
+  {"q": "اختر الصحيح: He didn't study, so he ___ the test.", "o": ["passed", "failed", "revised", "sat"], "a": 1, "why": "لم يدرس، فالنتيجة المنطقية أنه رسب: failed."},
+  {"q": "ما معنى pass with flying colours؟", "o": ["يرسب", "ينجح بصعوبة", "يغشّ", "ينجح بتفوّق"], "a": 3, "why": "تعبير اصطلاحي يعني النجاح بامتياز."},
+  {"q": "اختر الصحيح: You must ___ your coursework by Monday.", "o": ["hand in", "hand on", "take in", "pass up"], "a": 0, "why": "hand in = يسلّم العمل."},
+  {"q": "ما معنى cram؟", "o": ["ينام قبل الامتحان", "يعيد الامتحان", "يذاكر بكثافة في آخر لحظة", "يصحّح الأوراق"], "a": 2, "why": "cram تعني حشو المعلومات قبيل الامتحان."}
+ ]
+},
+{
+ "n": "171",
+ "type": "vocab",
+ "title_ar": "الدراسة في الخارج",
+ "title_en": "Studying abroad",
+ "summary": "تتعلم مفردات التقديم للجامعات الأجنبية والمنح والسكن والحياة الطلابية. ستتمكن من الحديث عن خططك الدراسية ومزايا الدراسة في الخارج وتحدياتها.",
+ "notes": [
+  {"h": "التقديم والقبول", "t": "apply to a university = يتقدّم إلى جامعة.\napply for a scholarship / a visa = يتقدّم بطلب منحة / تأشيرة.\nbe accepted / get an offer = يُقبل.\nenrol on a course (بريطاني) / enroll in a course (أمريكي) = يسجّل في مقرر.\ntuition fees = الرسوم الدراسية.\nentry requirements = شروط القبول."},
+  {"h": "الدرجات العلمية", "t": "undergraduate = طالب المرحلة الجامعية الأولى.\npostgraduate = طالب دراسات عليا.\nbachelor's degree = بكالوريوس.\nmaster's degree = ماجستير.\nPhD = دكتوراه.\nمثال: She is doing a master's degree in engineering."},
+  {"h": "الحياة هناك", "t": "accommodation = السكن.\nhall of residence / dormitory = السكن الجامعي.\nhost family = عائلة مضيفة.\nhomesick = يشعر بالحنين للوطن.\nculture shock = الصدمة الثقافية.\nsettle in = يتأقلم: It took me a month to settle in."},
+  {"h": "مزايا وتحديات", "t": "مزايا: broaden your horizons = توسّع آفاقك، become independent = تصبح مستقلاً، improve your career prospects = تحسّن فرصك المهنية.\nتحديات: language barrier = حاجز اللغة، cost of living = تكلفة المعيشة."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "abroad ظرف لا يسبقه حرف جر: study abroad و go abroad (وليس study in abroad أو go to abroad)."},
+  {"k": "grammar", "t": "apply to + الجهة (apply to Oxford)، و apply for + الشيء المطلوب (apply for a grant)."},
+  {"k": "pron", "t": "abroad تُنطق: أبرود بصوت b واضح. و scholarship تُنطق: سكولَرشِب (ch هنا تُنطق k)."}
+ ],
+ "vocab": [
+  {"en": "abroad", "ar": "في الخارج", "emoji": "🌍"},
+  {"en": "scholarship", "ar": "منحة دراسية", "emoji": "🎓"},
+  {"en": "tuition fees", "ar": "الرسوم الدراسية", "emoji": "💰"},
+  {"en": "accommodation", "ar": "سكن", "emoji": "🏠"},
+  {"en": "homesick", "ar": "يحنّ إلى الوطن", "emoji": "😢"},
+  {"en": "visa", "ar": "تأشيرة", "emoji": "🛂"},
+  {"en": "enrol", "ar": "يسجّل", "emoji": "📝"},
+  {"en": "degree", "ar": "درجة علمية", "emoji": "📜"},
+  {"en": "campus", "ar": "الحرم الجامعي", "emoji": "🏫"},
+  {"en": "culture shock", "ar": "صدمة ثقافية", "emoji": "😲"}
+ ],
+ "phrases": [
+  {"en": "I would like to study abroad.", "ar": "أودّ أن أدرس في الخارج."},
+  {"en": "She applied for a scholarship.", "ar": "تقدّمت بطلب للحصول على منحة."},
+  {"en": "I felt homesick in the first month.", "ar": "شعرتُ بالحنين للوطن في الشهر الأول."},
+  {"en": "Studying abroad broadens your horizons.", "ar": "الدراسة في الخارج توسّع آفاقك."},
+  {"en": "It took me a month to settle in.", "ar": "احتجتُ شهراً لأتأقلم."}
+ ],
+ "quiz": [
+  {"q": "اختر الجملة الصحيحة:", "o": ["He wants to study in abroad.", "He wants to study abroad.", "He wants to study to abroad.", "He wants to study at abroad."], "a": 1, "why": "abroad ظرف لا يحتاج إلى حرف جر."},
+  {"q": "اختر الصحيح: She applied ___ a scholarship.", "o": ["to", "at", "on", "for"], "a": 3, "why": "apply for + الشيء المطلوب."},
+  {"q": "ما معنى homesick؟", "o": ["يحنّ إلى الوطن", "مريض في البيت", "يكره البيت", "بلا مأوى"], "a": 0, "why": "homesick تعني الشعور بالحنين إلى البيت والأهل."},
+  {"q": "ما معنى tuition fees؟", "o": ["تكلفة السكن", "ثمن الكتب", "الرسوم الدراسية", "تذاكر السفر"], "a": 2, "why": "tuition fees هي المبالغ المدفوعة مقابل التعليم."},
+  {"q": "من هو postgraduate؟", "o": ["طالب في المدرسة الثانوية", "طالب دراسات عليا", "أستاذ جامعي", "طالب في السنة الأولى"], "a": 1, "why": "postgraduate يدرس بعد الحصول على الشهادة الجامعية الأولى."}
+ ]
+},
+{
+ "n": "172",
+ "type": "vocab",
+ "title_ar": "الفقر",
+ "title_en": "Poverty",
+ "summary": "تتعلم المفردات والتعابير اللازمة لمناقشة الفقر وأسبابه وحلوله. هذا موضوع شائع في النقاشات والمقالات وامتحانات اللغة.",
+ "notes": [
+  {"h": "وصف الفقر", "t": "live in poverty = يعيش في فقر.\nlive below the poverty line = يعيش تحت خط الفقر.\nextreme poverty = فقر مدقع.\nthe poor / the wealthy = الفقراء / الأثرياء.\nlow-income families = الأسر محدودة الدخل.\nthe gap between rich and poor = الفجوة بين الأغنياء والفقراء.\nmake ends meet = يدبّر معيشته بالكاد."},
+  {"h": "الأسباب", "t": "unemployment = البطالة.\nlack of education = نقص التعليم.\ninequality = عدم المساواة.\ndebt = الدَّين.\nمثال: Unemployment is a major cause of poverty.\nتراكيب السبب: be caused by, result from, lead to: Poverty often leads to poor health."},
+  {"h": "النتائج", "t": "hunger / malnutrition = الجوع / سوء التغذية.\nhomelessness = التشرّد.\nslum = حي فقير عشوائي.\nchild labour = عمالة الأطفال.\nمثال: Millions of children suffer from malnutrition."},
+  {"h": "الحلول", "t": "tackle / reduce / eradicate poverty = يعالج / يقلّل / يقضي على الفقر.\ncharity = جمعية خيرية / صدقة.\ndonate = يتبرّع.\naid = مساعدات.\ncreate jobs = يوفّر وظائف.\nprovide access to education = يتيح التعليم."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "the + صفة تدل على فئة من الناس وتُعامل معاملة الجمع: The poor need help (وليس needs، ولا the poors)."},
+  {"k": "mistake", "t": "نقول suffer from hunger مع from. وكلمة poverty اسم غير معدود فلا نقول a poverty."},
+  {"k": "pron", "t": "poverty تُنطق: پوڤَرتي بصوت p ثم v. و debt حرف b فيها صامت: دِت."}
+ ],
+ "vocab": [
+  {"en": "poverty", "ar": "الفقر", "emoji": "🥀"},
+  {"en": "wealthy", "ar": "ثري", "emoji": "💎"},
+  {"en": "unemployment", "ar": "البطالة", "emoji": "📉"},
+  {"en": "homeless", "ar": "مشرّد", "emoji": "⛺"},
+  {"en": "hunger", "ar": "الجوع", "emoji": "🍽️"},
+  {"en": "charity", "ar": "جمعية خيرية", "emoji": "🤲"},
+  {"en": "donate", "ar": "يتبرّع", "emoji": "🎁"},
+  {"en": "inequality", "ar": "عدم المساواة", "emoji": "⚖️"},
+  {"en": "debt", "ar": "دَين", "emoji": "💳"},
+  {"en": "income", "ar": "دخل", "emoji": "💵"}
+ ],
+ "phrases": [
+  {"en": "Many families live below the poverty line.", "ar": "تعيش أسر كثيرة تحت خط الفقر."},
+  {"en": "Unemployment is a major cause of poverty.", "ar": "البطالة سبب رئيسي للفقر."},
+  {"en": "They struggle to make ends meet.", "ar": "يكافحون لتدبير معيشتهم."},
+  {"en": "Education can help reduce poverty.", "ar": "التعليم يمكن أن يساعد في تقليل الفقر."},
+  {"en": "The poor need better healthcare.", "ar": "الفقراء يحتاجون إلى رعاية صحية أفضل."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: The poor ___ more support from the government.", "o": ["needs", "need", "is needing", "has need"], "a": 1, "why": "the poor تعني الفقراء وتأخذ فعلاً جمعاً."},
+  {"q": "ما معنى make ends meet؟", "o": ["يدبّر معيشته بالكاد", "يلتقي بالأصدقاء", "ينهي عمله", "يصبح غنياً"], "a": 0, "why": "تعبير اصطلاحي يعني أن الدخل يكفي بالكاد للحاجات الأساسية."},
+  {"q": "أي فعل يعني القضاء التام على الفقر؟", "o": ["reduce", "tackle", "eradicate", "measure"], "a": 2, "why": "eradicate تعني يستأصل ويقضي تماماً."},
+  {"q": "اختر الصحيح: Millions of people suffer ___ hunger.", "o": ["of", "with", "by", "from"], "a": 3, "why": "الفعل suffer يأتي معه from."},
+  {"q": "ما معنى unemployment؟", "o": ["التوظيف", "التقاعد", "البطالة", "الراتب"], "a": 2, "why": "unemployment هي عدم وجود عمل."},
+  {"q": "أي حرف صامت في كلمة debt؟", "o": ["d", "b", "e", "t"], "a": 1, "why": "حرف b لا يُنطق: دِت."}
+ ]
+},
+{
+ "n": "173",
+ "type": "vocab",
+ "title_ar": "الحروب",
+ "title_en": "Wars",
+ "summary": "تتعلم مفردات الحرب والسلام كما ترد في الأخبار والكتب، وكيف تتحدث عن أسباب النزاعات وآثارها. ستفهم نشرات الأخبار بسهولة أكبر.",
+ "notes": [
+  {"h": "بداية النزاع", "t": "conflict = نزاع.\nwar breaks out = تندلع الحرب: War broke out in 1939.\ndeclare war on = يعلن الحرب على.\ninvade = يغزو، invasion = غزو.\nattack = يهاجم / هجوم.\ncivil war = حرب أهلية."},
+  {"h": "أطراف الحرب وأدواتها", "t": "army = جيش، soldier = جندي، troops = قوات.\nenemy = عدو، ally = حليف.\nweapon = سلاح.\ncivilian = مدني.\nمثال: Thousands of civilians were forced to leave their homes."},
+  {"h": "الآثار", "t": "casualties = الضحايا (قتلى وجرحى).\nrefugee = لاجئ.\nflee = يفرّ (الماضي: fled).\ndestroy = يدمّر، destruction = دمار.\nbe wounded / be killed = يُصاب / يُقتل.\nفي الأخبار يكثر المبني للمجهول: The city was destroyed."},
+  {"h": "نهاية الحرب والسلام", "t": "ceasefire = وقف إطلاق النار.\npeace talks = محادثات سلام.\nsign a peace treaty = يوقّع معاهدة سلام.\nsurrender = يستسلم.\ndefeat = يهزم / هزيمة.\nvictory = نصر.\nمثال: The two sides agreed to a ceasefire."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "break out فعل لازم لا يُبنى للمجهول: The war broke out (وليس was broken out)."},
+  {"k": "pron", "t": "war تُنطق: وور (مثل more) وليس وار. و soldier تُنطق: سولجَر. و weapon تُنطق: وِپِن."},
+  {"k": "mistake", "t": "نقول declare war on a country بحرف on، ونقول be at war with بحرف with."}
+ ],
+ "vocab": [
+  {"en": "conflict", "ar": "نزاع", "emoji": "⚔️"},
+  {"en": "soldier", "ar": "جندي", "emoji": "💂"},
+  {"en": "weapon", "ar": "سلاح", "emoji": "🗡️"},
+  {"en": "invade", "ar": "يغزو", "emoji": "🚩"},
+  {"en": "refugee", "ar": "لاجئ", "emoji": "🧳"},
+  {"en": "civilian", "ar": "مدني", "emoji": "👨‍👩‍👧"},
+  {"en": "ceasefire", "ar": "وقف إطلاق النار", "emoji": "🏳️"},
+  {"en": "peace", "ar": "سلام", "emoji": "🕊️"},
+  {"en": "victory", "ar": "نصر", "emoji": "🏆"},
+  {"en": "destroy", "ar": "يدمّر", "emoji": "💥"}
+ ],
+ "phrases": [
+  {"en": "The war broke out in 1939.", "ar": "اندلعت الحرب عام 1939."},
+  {"en": "Many civilians fled the city.", "ar": "فرّ كثير من المدنيين من المدينة."},
+  {"en": "The two sides agreed to a ceasefire.", "ar": "اتفق الطرفان على وقف إطلاق النار."},
+  {"en": "They signed a peace treaty.", "ar": "وقّعوا معاهدة سلام."},
+  {"en": "The city was destroyed during the war.", "ar": "دُمّرت المدينة خلال الحرب."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: The war ___ in 1914.", "o": ["was broken out", "broke out", "broke up", "breaks down"], "a": 1, "why": "break out تعني يندلع ولا تُبنى للمجهول."},
+  {"q": "ما معنى ceasefire؟", "o": ["إطلاق النار", "حريق كبير", "وقف إطلاق النار", "إعلان الحرب"], "a": 2, "why": "cease = يتوقف، fire = إطلاق النار."},
+  {"q": "من هو refugee؟", "o": ["شخص فرّ من بلده بسبب الخطر", "جندي في الجيش", "قائد عسكري", "صحفي حربي"], "a": 0, "why": "refugee هو اللاجئ."},
+  {"q": "ما ماضي الفعل flee؟", "o": ["fleed", "flew", "flown", "fled"], "a": 3, "why": "flee - fled - fled. أما flew فماضي fly."},
+  {"q": "اختر الصحيح: The country declared war ___ its neighbour.", "o": ["on", "with", "to", "at"], "a": 0, "why": "نقول declare war on."},
+  {"q": "ما عكس victory؟", "o": ["peace", "ally", "defeat", "treaty"], "a": 2, "why": "victory = نصر، defeat = هزيمة."}
+ ]
+},
+{
+ "n": "174",
+ "type": "vocab",
+ "title_ar": "حقوق الإنسان",
+ "title_en": "Human rights",
+ "summary": "تتعلم مفردات الحقوق والحريات والعدالة، والتراكيب المستخدمة للحديث عن الحق في شيء ما. الموضوع حاضر بقوة في الأخبار والنقاشات الجادّة.",
+ "notes": [
+  {"h": "الحقوق الأساسية", "t": "the right to + اسم/فعل = الحق في:\nthe right to education = الحق في التعليم.\nthe right to vote = حق التصويت.\nfreedom of speech / expression = حرية التعبير.\nfreedom of religion = حرية المعتقد.\nequality = المساواة.\ndignity = الكرامة."},
+  {"h": "تراكيب مهمة", "t": "have the right to do = له الحق أن: Everyone has the right to a fair trial.\nbe entitled to = يستحق / يحق له: Workers are entitled to a fair wage.\nbe equal before the law = متساوون أمام القانون.\nregardless of = بغضّ النظر عن: regardless of race, gender or religion."},
+  {"h": "الانتهاكات", "t": "violate / violation = ينتهك / انتهاك.\ndiscrimination against = التمييز ضد.\nracism = العنصرية.\noppression = القمع.\nslavery = العبودية.\ntorture = التعذيب.\nمثال: Discrimination against minorities is illegal."},
+  {"h": "حماية الحقوق", "t": "protect / defend / respect human rights = يحمي / يدافع عن / يحترم.\ncampaign for = يناضل من أجل.\nactivist = ناشط.\njustice = العدالة.\nfair trial = محاكمة عادلة.\nمثال: Activists campaign for equal rights."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "right بمعنى حق اسم معدود: a right, human rights. نقول the right to education، ونقول discrimination against (وليس discrimination to)."},
+  {"k": "mistake", "t": "لا تخلط بين right (حق / صحيح / يمين) و write (يكتب). النطق واحد: رايت، لكن المعنى والإملاء مختلفان."},
+  {"k": "pron", "t": "حرفا gh صامتان في rights: رايتس. و equality النبر على المقطع الثاني: إكوولِتي."}
+ ],
+ "vocab": [
+  {"en": "freedom", "ar": "حرية", "emoji": "🕊️"},
+  {"en": "equality", "ar": "مساواة", "emoji": "⚖️"},
+  {"en": "justice", "ar": "عدالة", "emoji": "👩‍⚖️"},
+  {"en": "dignity", "ar": "كرامة", "emoji": "👑"},
+  {"en": "discrimination", "ar": "تمييز", "emoji": "🚫"},
+  {"en": "violate", "ar": "ينتهك", "emoji": "⛔"},
+  {"en": "activist", "ar": "ناشط", "emoji": "📣"},
+  {"en": "vote", "ar": "يصوّت", "emoji": "🗳️"},
+  {"en": "slavery", "ar": "العبودية", "emoji": "⛓️"},
+  {"en": "protect", "ar": "يحمي", "emoji": "🛡️"}
+ ],
+ "phrases": [
+  {"en": "Everyone has the right to education.", "ar": "لكل إنسان الحق في التعليم."},
+  {"en": "All people are equal before the law.", "ar": "كل الناس متساوون أمام القانون."},
+  {"en": "We must protect human rights.", "ar": "يجب أن نحمي حقوق الإنسان."},
+  {"en": "Freedom of speech is a basic right.", "ar": "حرية التعبير حق أساسي."},
+  {"en": "Workers are entitled to a fair wage.", "ar": "يحق للعمال أجر عادل."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: Everyone has the right ___ a fair trial.", "o": ["for", "of", "to", "in"], "a": 2, "why": "نقول the right to + اسم أو فعل."},
+  {"q": "اختر الصحيح: Discrimination ___ women is illegal.", "o": ["against", "to", "from", "on"], "a": 0, "why": "discrimination against = التمييز ضد."},
+  {"q": "ما معنى be entitled to؟", "o": ["يُمنع من", "يحق له", "يخاف من", "يعتذر عن"], "a": 1, "why": "be entitled to تعني له الحق في الحصول على شيء."},
+  {"q": "ما معنى regardless of؟", "o": ["بسبب", "بالإضافة إلى", "بدلاً من", "بغضّ النظر عن"], "a": 3, "why": "regardless of = دون اعتبار لـ."},
+  {"q": "أي كلمة تعني انتهاك؟", "o": ["dignity", "violation", "justice", "equality"], "a": 1, "why": "violation اسم من الفعل violate بمعنى ينتهك."}
+ ]
+},
+{
+ "n": "175",
+ "type": "vocab",
+ "title_ar": "مدن المستقبل",
+ "title_en": "Future cities",
+ "summary": "تتعلم مفردات المدن الذكية والاستدامة والنقل الحديث، وكيف تعبّر عن توقعاتك للمستقبل بدرجات مختلفة من اليقين. موضوع ممتع ومفيد في النقاش والكتابة.",
+ "notes": [
+  {"h": "مفردات المدينة الذكية", "t": "smart city = مدينة ذكية.\nskyscraper = ناطحة سحاب.\ninfrastructure = البنية التحتية.\nurban = حضري، rural = ريفي.\nurbanisation = التمدّن.\nresidents / inhabitants = السكان.\nvertical farm = مزرعة عمودية."},
+  {"h": "النقل والطاقة", "t": "driverless / self-driving cars = سيارات ذاتية القيادة.\npublic transport = النقل العام.\ntraffic congestion = الازدحام المروري.\nrenewable energy = الطاقة المتجددة.\nsolar panels = ألواح شمسية.\ncarbon emissions = انبعاثات الكربون.\nsustainable = مستدام."},
+  {"h": "التعبير عن التوقعات", "t": "يقين عالٍ: will definitely / is bound to: Cities will definitely become greener.\nاحتمال قوي: is likely to / will probably: Cars are likely to be electric.\nاحتمال: may / might / could: We might live in floating cities.\nنفي الاحتمال: is unlikely to / probably won't."},
+  {"h": "المبني للمجهول في المستقبل", "t": "will be + التصريف الثالث: Homes will be powered by solar energy = ستُزوَّد المنازل بالطاقة الشمسية.\nWaste will be recycled automatically = ستُعاد تدوير النفايات آلياً."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "ترتيب probably: بعد will في الإثبات (will probably)، وقبل won't في النفي (probably won't)."},
+  {"k": "mistake", "t": "likely صفة وليست فعلاً: It is likely to rain (وليس It likely to rain). و traffic غير معدودة: a lot of traffic (وليس many traffics)."},
+  {"k": "pron", "t": "skyscraper تُنطق: سكاي سكرِيپَر. و sustainable النبر على المقطع الثاني: سَستينَبل."}
+ ],
+ "vocab": [
+  {"en": "skyscraper", "ar": "ناطحة سحاب", "emoji": "🏙️"},
+  {"en": "sustainable", "ar": "مستدام", "emoji": "♻️"},
+  {"en": "solar panel", "ar": "لوح شمسي", "emoji": "☀️"},
+  {"en": "driverless car", "ar": "سيارة ذاتية القيادة", "emoji": "🚗"},
+  {"en": "congestion", "ar": "ازدحام", "emoji": "🚦"},
+  {"en": "pollution", "ar": "تلوّث", "emoji": "🏭"},
+  {"en": "infrastructure", "ar": "بنية تحتية", "emoji": "🌉"},
+  {"en": "robot", "ar": "روبوت", "emoji": "🤖"},
+  {"en": "urban", "ar": "حضري", "emoji": "🌆"},
+  {"en": "drone", "ar": "طائرة مسيّرة", "emoji": "🚁"}
+ ],
+ "phrases": [
+  {"en": "Cities will probably become much greener.", "ar": "ستصبح المدن على الأرجح أكثر خضرة."},
+  {"en": "Most cars are likely to be electric.", "ar": "من المرجّح أن تكون معظم السيارات كهربائية."},
+  {"en": "Homes will be powered by solar energy.", "ar": "ستُزوَّد المنازل بالطاقة الشمسية."},
+  {"en": "We might live in floating cities.", "ar": "ربما نعيش في مدن عائمة."},
+  {"en": "Traffic congestion is a serious problem.", "ar": "الازدحام المروري مشكلة خطيرة."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: Driverless cars ___ to become common soon.", "o": ["likely", "are likely", "will likely be", "is likely"], "a": 1, "why": "التركيب: be likely to + فعل، والفاعل جمع فنستخدم are."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["People won't probably use petrol.", "People probably won't use petrol.", "People won't use probably petrol.", "Probably people won't to use petrol."], "a": 1, "why": "في النفي تأتي probably قبل won't."},
+  {"q": "ما معنى sustainable؟", "o": ["مستدام لا يضرّ بالبيئة", "مزدحم جداً", "مرتفع الثمن", "قديم الطراز"], "a": 0, "why": "sustainable يعني قابل للاستمرار دون استنزاف الموارد."},
+  {"q": "اختر الصحيح: In the future, waste ___ automatically.", "o": ["will recycle", "will be recycle", "will recycled", "will be recycled"], "a": 3, "why": "مبني للمجهول في المستقبل: will be + التصريف الثالث."},
+  {"q": "أي تعبير يدل على أعلى درجة من اليقين؟", "o": ["might", "could", "is bound to", "is unlikely to"], "a": 2, "why": "is bound to تعني أن الأمر مؤكد الحدوث تقريباً."},
+  {"q": "ما عكس urban؟", "o": ["modern", "smart", "crowded", "rural"], "a": 3, "why": "urban = حضري، rural = ريفي."}
+ ]
+}
+]

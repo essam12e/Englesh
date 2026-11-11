@@ -1,0 +1,319 @@
+[
+ {
+  "n": "34",
+  "type": "grammar",
+  "title_ar": "كثير — Much / Many",
+  "title_en": "Much / Many",
+  "summary": "كلمة (كثير) لها أكثر من مقابل في الإنجليزية: many و much و a lot of. في هذا الدرس تتعلم متى تستخدم كل واحدة، وكيف تسأل عن العدد والكمية والسعر.",
+  "notes": [
+   {"h": "many مع المعدود", "t": "many + اسم معدود جمع.\nI don't have many friends = ليس لدي أصدقاء كثيرون.\nAre there many students? = هل يوجد طلاب كثيرون؟"},
+   {"h": "much مع غير المعدود", "t": "much + اسم غير معدود.\nI don't have much time = ليس لدي وقت كثير.\nWe don't drink much coffee = نحن لا نشرب قهوة كثيرة.\nنستخدم much غالباً في النفي والسؤال."},
+   {"h": "a lot of مع الاثنين", "t": "a lot of = الكثير من. تصلح مع المعدود وغير المعدود، وهي الأشهر في الجمل المثبتة.\nShe has a lot of books = لديها الكثير من الكتب.\nHe drinks a lot of water = هو يشرب الكثير من الماء."},
+   {"h": "How many / How much", "t": "How many + معدود جمع؟ = كم العدد؟\nHow many brothers do you have? = كم أخاً لديك؟\nHow much + غير معدود؟ = كم الكمية؟\nHow much water do you drink? = كم تشرب من الماء؟\nوللسؤال عن السعر: How much is this? = بكم هذا؟"}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "لا تقل much books أو many money. الصحيح: many books (معدود) و much money (غير معدود)."},
+   {"k": "grammar", "t": "السؤال عن السعر دائماً بـ How much، حتى لو كان الشيء معدوداً: How much are these shoes? = بكم هذا الحذاء؟"},
+   {"k": "pron", "t": "many تُنطق (مِني) وليس (ماني). much تُنطق (مَتش)."}
+  ],
+  "vocab": [
+   {"en": "many", "ar": "كثير (للمعدود)", "emoji": "🔢"},
+   {"en": "much", "ar": "كثير (لغير المعدود)", "emoji": "🌊"},
+   {"en": "a lot of", "ar": "الكثير من", "emoji": "📚"},
+   {"en": "how many", "ar": "كم عدد", "emoji": "🧮"},
+   {"en": "how much", "ar": "كم كمية / بكم", "emoji": "💰"},
+   {"en": "time", "ar": "وقت", "emoji": "⏳"},
+   {"en": "people", "ar": "ناس", "emoji": "👥"},
+   {"en": "students", "ar": "طلاب", "emoji": "🧑‍🎓"},
+   {"en": "coffee", "ar": "قهوة", "emoji": "☕"}
+  ],
+  "phrases": [
+   {"en": "I don't have much time.", "ar": "ليس لدي وقت كثير."},
+   {"en": "How many brothers do you have?", "ar": "كم أخاً لديك؟"},
+   {"en": "How much is this bag?", "ar": "بكم هذه الحقيبة؟"},
+   {"en": "She has a lot of books.", "ar": "لديها الكثير من الكتب."},
+   {"en": "There are many people in the park.", "ar": "يوجد ناس كثيرون في الحديقة."}
+  ],
+  "quiz": [
+   {"q": "اختر الصحيح: How ___ sisters do you have?", "o": ["much", "many", "a lot", "any"], "a": 1, "why": "sisters اسم معدود جمع فنستخدم many."},
+   {"q": "اختر الصحيح: I don't have ___ money.", "o": ["many", "a", "much", "an"], "a": 2, "why": "money غير معدودة فنستخدم much."},
+   {"q": "كيف تسأل عن السعر؟", "o": ["How much is it?", "How many is it?", "How is it?", "What much is it?"], "a": 0, "why": "نسأل عن السعر بـ How much."},
+   {"q": "اختر الصحيح: He drinks ___ water.", "o": ["many", "a lot", "a many", "a lot of"], "a": 3, "why": "a lot of تأتي مع غير المعدود في الإثبات، ولا بد من of قبل الاسم."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I have much books.", "I have many books.", "I have many book.", "I have a lot books."], "a": 1, "why": "books معدود جمع فنستخدم many."},
+   {"q": "اختر الصحيح: How ___ sugar do you want?", "o": ["much", "many", "some", "lot"], "a": 0, "why": "sugar غير معدود فنسأل بـ How much."}
+  ]
+ },
+ {
+  "n": "37",
+  "type": "grammar",
+  "title_ar": "الملكية بحرف s",
+  "title_en": "Possessive 's",
+  "summary": "تتعلم في هذا الدرس كيف تعبّر عن الملكية بإضافة 's إلى اسم المالك، مثل Ahmed's phone أي هاتف أحمد. الترتيب هنا عكس العربية، لذلك يحتاج إلى انتباه.",
+  "notes": [
+   {"h": "القاعدة", "t": "المالك + 's + الشيء المملوك.\nAhmed's phone = هاتف أحمد.\nSara's car = سيارة سارة.\nmy father's office = مكتب أبي.\nلاحظ: في العربية نبدأ بالشيء ثم المالك، وفي الإنجليزية نبدأ بالمالك."},
+   {"h": "مع الجمع", "t": "إذا كان الاسم جمعاً منتهياً بـ s نضع الفاصلة فقط بعد s:\nthe students' books = كتب الطلاب.\nmy parents' house = بيت والديّ.\nوإذا كان الجمع شاذاً لا ينتهي بـ s نضيف 's:\nthe children's room = غرفة الأطفال."},
+   {"h": "السؤال بـ Whose", "t": "Whose = لمن؟\nWhose phone is this? = لمن هذا الهاتف؟\nIt's Ahmed's phone = إنه هاتف أحمد.\nأو باختصار: It's Ahmed's = إنه لأحمد."},
+   {"h": "الفرق بين أنواع 's", "t": "1) ملكية: Ali's book = كتاب علي.\n2) اختصار is: Ali's a teacher = Ali is a teacher = علي معلم.\nنعرف الفرق من الكلمة التي بعدها: إذا جاء بعدها شيء مملوك فهي ملكية."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "لا تتبع ترتيب العربية. لا تقل: the phone Ahmed أو phone of Ahmed. الصحيح: Ahmed's phone."},
+   {"k": "grammar", "t": "لا نضع the قبل اسم العلم المالك. لا تقل: the Ahmed's phone. ونستخدم 's مع الأشخاص والحيوانات غالباً، ومع الأشياء نستخدم of: the door of the room = باب الغرفة."},
+   {"k": "pron", "t": "حرف 's يُنطق (س) أو (ز) حسب آخر الاسم: Ahmed's (أحمدز)، Jack's (جاكس)، وبعد صوت س أو ش أو تش نزيد مقطعاً: George's (جورجِز)."}
+  ],
+  "vocab": [
+   {"en": "whose", "ar": "لمن", "emoji": "🤷"},
+   {"en": "phone", "ar": "هاتف", "emoji": "📱"},
+   {"en": "car", "ar": "سيارة", "emoji": "🚗"},
+   {"en": "father", "ar": "أب", "emoji": "👨"},
+   {"en": "mother", "ar": "أم", "emoji": "👩"},
+   {"en": "friend", "ar": "صديق", "emoji": "🤝"},
+   {"en": "teacher", "ar": "معلم", "emoji": "🧑‍🏫"},
+   {"en": "children", "ar": "أطفال", "emoji": "🧒"},
+   {"en": "office", "ar": "مكتب", "emoji": "🏢"},
+   {"en": "name", "ar": "اسم", "emoji": "📛"}
+  ],
+  "phrases": [
+   {"en": "This is Ahmed's phone.", "ar": "هذا هاتف أحمد."},
+   {"en": "Whose car is this?", "ar": "لمن هذه السيارة؟"},
+   {"en": "My father's office is big.", "ar": "مكتب أبي كبير."},
+   {"en": "Sara's brother is a doctor.", "ar": "أخو سارة طبيب."},
+   {"en": "What is your friend's name?", "ar": "ما اسم صديقك؟"}
+  ],
+  "quiz": [
+   {"q": "كيف تقول (كتاب علي) بالإنجليزية؟", "o": ["book Ali", "Ali book's", "Ali's book", "the book Ali"], "a": 2, "why": "المالك + 's + الشيء: Ali's book."},
+   {"q": "اختر الصحيح: This is my ___ car.", "o": ["mother's", "mother", "mothers", "the mother"], "a": 0, "why": "نضيف 's للمالك: my mother's car."},
+   {"q": "اختر الصحيح: ___ bag is this?", "o": ["Who", "What's", "Who's", "Whose"], "a": 3, "why": "نسأل عن المالك بـ Whose."},
+   {"q": "كيف نكتب (كتب الطلاب)؟", "o": ["the student's books", "the students' books", "the students books'", "the books students"], "a": 1, "why": "الجمع المنتهي بـ s نضع بعده الفاصلة فقط."},
+   {"q": "في أي جملة 's تعني الملكية؟", "o": ["Sara's a nurse.", "Sara's happy.", "Sara's house is new.", "Sara's at home."], "a": 2, "why": "بعد Sara's جاء شيء مملوك (house)، وفي البقية هي اختصار is."},
+   {"q": "اختر الصحيح: the ___ room", "o": ["childrens'", "children's", "childrens", "children"], "a": 1, "why": "children جمع شاذ لا ينتهي بـ s فنضيف 's."}
+  ]
+ },
+ {
+  "n": "38",
+  "type": "grammar",
+  "title_ar": "أدوات الإشارة",
+  "title_en": "This, that, these, those",
+  "summary": "أدوات الإشارة أربع: this و that للمفرد، و these و those للجمع. الاختيار بينها يعتمد على أمرين: هل الشيء قريب أم بعيد، وهل هو مفرد أم جمع.",
+  "notes": [
+   {"h": "للقريب", "t": "this = هذا / هذه (مفرد قريب): This is my book = هذا كتابي.\nthese = هؤلاء / هذه (جمع قريب): These are my books = هذه كتبي."},
+   {"h": "للبعيد", "t": "that = ذلك / تلك (مفرد بعيد): That is my car = تلك سيارتي.\nthose = أولئك / تلك (جمع بعيد): Those are my friends = أولئك أصدقائي."},
+   {"h": "الفعل المناسب", "t": "this / that + is.\nthese / those + are.\nThat's = That is. ولا يوجد اختصار لـ This is.\nويمكن أن تأتي قبل الاسم مباشرة: this book = هذا الكتاب، those houses = تلك البيوت."},
+   {"h": "السؤال والإجابة", "t": "What is this? = ما هذا؟ → It is a pen = إنه قلم.\nWhat are these? = ما هذه؟ → They are pens = إنها أقلام.\nIs that your bag? = هل تلك حقيبتك؟ → Yes, it is.\nفي الإجابة نستخدم it للمفرد و they للجمع."}
+  ],
+  "alerts": [
+   {"k": "pron", "t": "this تُنطق (ذِس) بحرف i قصير و s، أما these فتُنطق (ذِيز) بحرف i طويل وصوت z في الآخر. الفرق في النطق يغيّر المعنى من مفرد إلى جمع."},
+   {"k": "pron", "t": "حرف th في الكلمات الأربع يُنطق مثل الذال، وليس زاياً ولا دالاً: that (ذات)، those (ذوز)."},
+   {"k": "mistake", "t": "لا تستخدم this مع الجمع. لا تقل: this books. الصحيح: these books. ولا تقل: These is. الصحيح: These are."}
+  ],
+  "vocab": [
+   {"en": "this", "ar": "هذا / هذه", "emoji": "👇"},
+   {"en": "that", "ar": "ذلك / تلك", "emoji": "👉"},
+   {"en": "these", "ar": "هؤلاء (للقريب)", "emoji": "👐"},
+   {"en": "those", "ar": "أولئك (للبعيد)", "emoji": "🔭"},
+   {"en": "here", "ar": "هنا", "emoji": "📍"},
+   {"en": "pen", "ar": "قلم", "emoji": "🖊️"},
+   {"en": "shoes", "ar": "حذاء", "emoji": "👟"},
+   {"en": "keys", "ar": "مفاتيح", "emoji": "🔑"},
+   {"en": "house", "ar": "بيت", "emoji": "🏠"}
+  ],
+  "phrases": [
+   {"en": "This is my brother.", "ar": "هذا أخي."},
+   {"en": "That is my house.", "ar": "ذلك بيتي."},
+   {"en": "These are my keys.", "ar": "هذه مفاتيحي."},
+   {"en": "Those shoes are expensive.", "ar": "ذلك الحذاء غالٍ."},
+   {"en": "What is this?", "ar": "ما هذا؟"}
+  ],
+  "quiz": [
+   {"q": "اختر الصحيح (قريب، جمع): ___ are my books.", "o": ["This", "That", "Those", "These"], "a": 3, "why": "للجمع القريب نستخدم these."},
+   {"q": "اختر الصحيح (بعيد، مفرد): ___ is my car over there.", "o": ["That", "These", "This", "Those"], "a": 0, "why": "للمفرد البعيد نستخدم that."},
+   {"q": "اختر الصحيح: Those ___ my friends.", "o": ["is", "are", "am", "be"], "a": 1, "why": "مع those و these نستخدم are."},
+   {"q": "What are these? — الإجابة الصحيحة:", "o": ["It is a pen.", "This is pens.", "They are pens.", "These is pens."], "a": 2, "why": "نجيب عن الجمع بـ They are."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["This shoes are new.", "These shoes are new.", "These shoes is new.", "That shoes are new."], "a": 1, "why": "shoes جمع فنستخدم these مع are."},
+   {"q": "ما جمع this؟", "o": ["these", "those", "that", "thises"], "a": 0, "why": "this للمفرد القريب وجمعها these."}
+  ]
+ },
+ {
+  "n": "39",
+  "type": "grammar",
+  "title_ar": "يستطيع / لا يستطيع",
+  "title_en": "Can / Can't",
+  "summary": "نستخدم can للتعبير عن القدرة، ولطلب الإذن. هي من أسهل الأفعال في الإنجليزية لأنها لا تتغير مع أي فاعل.",
+  "notes": [
+   {"h": "الإثبات", "t": "الفاعل + can + الفعل الأصلي.\nI can swim = أستطيع السباحة.\nShe can speak English = هي تستطيع التحدث بالإنجليزية.\ncan ثابتة مع كل الضمائر: I can, he can, they can."},
+   {"h": "النفي", "t": "الفاعل + cannot / can't + الفعل الأصلي.\nI can't drive = لا أستطيع القيادة.\nHe can't cook = هو لا يستطيع الطبخ.\nتُكتب cannot كلمة واحدة."},
+   {"h": "السؤال والإجابة", "t": "Can + الفاعل + الفعل الأصلي؟\nCan you swim? = هل تستطيع السباحة؟\nYes, I can. / No, I can't.\nلا نستخدم do أو does مع can."},
+   {"h": "can للإذن والطلب", "t": "Can I open the window? = هل يمكنني فتح النافذة؟\nCan you help me, please? = هل يمكنك مساعدتي من فضلك؟\nYou can sit here = يمكنك الجلوس هنا."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "لا نضع to بعد can، ولا نضيف s. لا تقل: I can to swim أو He cans swim أو He can swims. الصحيح: I can swim / He can swim."},
+   {"k": "pron", "t": "الفرق في النطق مهم: can في وسط الجملة تُنطق خفيفة (كِن)، أما can't فتُنطق قوية وواضحة (كانت) أو (كَانْت). انتبه لحرف t في آخرها حتى لا يُفهم العكس."},
+   {"k": "mistake", "t": "لا تسأل بـ Do مع can. لا تقل: Do you can swim? الصحيح: Can you swim?"}
+  ],
+  "vocab": [
+   {"en": "can", "ar": "يستطيع", "emoji": "💪"},
+   {"en": "can't", "ar": "لا يستطيع", "emoji": "🚫"},
+   {"en": "swim", "ar": "يسبح", "emoji": "🏊"},
+   {"en": "drive", "ar": "يقود", "emoji": "🚗"},
+   {"en": "cook", "ar": "يطبخ", "emoji": "🍳"},
+   {"en": "sing", "ar": "يغني", "emoji": "🎤"},
+   {"en": "run", "ar": "يجري", "emoji": "🏃"},
+   {"en": "ride", "ar": "يركب", "emoji": "🚴"},
+   {"en": "help", "ar": "يساعد", "emoji": "🆘"},
+   {"en": "dance", "ar": "يرقص", "emoji": "💃"}
+  ],
+  "phrases": [
+   {"en": "I can speak English.", "ar": "أستطيع التحدث بالإنجليزية."},
+   {"en": "She can't drive a car.", "ar": "هي لا تستطيع قيادة السيارة."},
+   {"en": "Can you swim?", "ar": "هل تستطيع السباحة؟"},
+   {"en": "Can you help me, please?", "ar": "هل يمكنك مساعدتي من فضلك؟"},
+   {"en": "He can cook very well.", "ar": "هو يستطيع الطبخ جيداً جداً."}
+  ],
+  "quiz": [
+   {"q": "اختر الصحيح: She can ___ very fast.", "o": ["runs", "run", "to run", "running"], "a": 1, "why": "بعد can يأتي الفعل الأصلي بدون s وبدون to."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["He cans swim.", "He can swims.", "He can swim.", "He can to swim."], "a": 2, "why": "can لا تأخذ s، والفعل بعدها في صورته الأصلية."},
+   {"q": "اختر السؤال الصحيح:", "o": ["Can you drive?", "Do you can drive?", "You can drive?", "Can you to drive?"], "a": 0, "why": "نبدأ السؤال بـ Can مباشرة بدون do."},
+   {"q": "Can you cook? — الإجابة القصيرة الصحيحة:", "o": ["No, I don't.", "No, I am not.", "No, I not can.", "No, I can't."], "a": 3, "why": "نجيب بنفس الفعل: No, I can't."},
+   {"q": "ما معنى: I can't sing؟", "o": ["أستطيع الغناء", "لا أستطيع الغناء", "لا أحب الغناء", "أريد الغناء"], "a": 1, "why": "can't = لا يستطيع، و sing = يغني."},
+   {"q": "اختر الصحيح لطلب الإذن: ___ I sit here?", "o": ["Am", "Do", "Can", "Is"], "a": 2, "why": "نطلب الإذن بـ Can I ...?"}
+  ]
+ },
+ {
+  "n": "40",
+  "type": "grammar",
+  "title_ar": "صيغة الأمر",
+  "title_en": "Imperatives",
+  "summary": "نستخدم صيغة الأمر لإعطاء التعليمات والأوامر والنصائح والإرشادات. تكوينها سهل جداً: نبدأ الجملة بالفعل مباشرة بدون فاعل.",
+  "notes": [
+   {"h": "الأمر المثبت", "t": "نبدأ بالفعل في صورته الأصلية، بدون فاعل.\nOpen the door = افتح الباب.\nSit down = اجلس.\nListen to me = استمع إليّ.\nالصيغة واحدة للمفرد والجمع والمذكر والمؤنث."},
+   {"h": "الأمر المنفي (النهي)", "t": "Don't + الفعل الأصلي.\nDon't open the window = لا تفتح النافذة.\nDon't be late = لا تتأخر.\nDon't worry = لا تقلق."},
+   {"h": "الأمر المهذب", "t": "نضيف please في أول الجملة أو آخرها ليصبح الأمر طلباً لطيفاً.\nPlease sit down = تفضل بالجلوس.\nClose the door, please = أغلق الباب من فضلك."},
+   {"h": "استخدامات أخرى", "t": "الإرشاد إلى الطريق: Turn left = اتجه يساراً. Go straight = امشِ مباشرة.\nالاقتراح بـ Let's + الفعل: Let's go = هيا نذهب. Let's eat = هيا نأكل.\nمع الصفات نستخدم be: Be careful = كن حذراً. Be quiet = كن هادئاً."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "لا نضع الفاعل you قبل فعل الأمر. لا تقل: You open the door (بقصد الأمر). الصحيح: Open the door."},
+   {"k": "mistake", "t": "النهي يكون بـ Don't وليس No أو Not. لا تقل: No open / Not open. الصحيح: Don't open."},
+   {"k": "tip", "t": "الأمر بدون please قد يبدو جافاً أو غير مهذب مع الغرباء، فاجعل please عادة في كلامك."}
+  ],
+  "vocab": [
+   {"en": "open", "ar": "افتح", "emoji": "📖"},
+   {"en": "close", "ar": "أغلق", "emoji": "🚪"},
+   {"en": "sit down", "ar": "اجلس", "emoji": "🪑"},
+   {"en": "stand up", "ar": "قف", "emoji": "🧍"},
+   {"en": "listen", "ar": "استمع", "emoji": "👂"},
+   {"en": "look", "ar": "انظر", "emoji": "👀"},
+   {"en": "wait", "ar": "انتظر", "emoji": "⏳"},
+   {"en": "stop", "ar": "توقف", "emoji": "🛑"},
+   {"en": "come", "ar": "تعال", "emoji": "👋"},
+   {"en": "turn left", "ar": "اتجه يساراً", "emoji": "⬅️"},
+   {"en": "be careful", "ar": "كن حذراً", "emoji": "⚠️"}
+  ],
+  "phrases": [
+   {"en": "Open the door, please.", "ar": "افتح الباب من فضلك."},
+   {"en": "Don't be late.", "ar": "لا تتأخر."},
+   {"en": "Please sit down.", "ar": "تفضل بالجلوس."},
+   {"en": "Don't touch the screen.", "ar": "لا تلمس الشاشة."},
+   {"en": "Turn left at the bank.", "ar": "اتجه يساراً عند البنك."}
+  ],
+  "quiz": [
+   {"q": "اختر صيغة الأمر الصحيحة:", "o": ["You close the door.", "Closes the door.", "Close the door.", "To close the door."], "a": 2, "why": "الأمر يبدأ بالفعل الأصلي مباشرة بدون فاعل."},
+   {"q": "اختر صيغة النهي الصحيحة:", "o": ["Don't smoke here.", "No smoke here.", "Not smoke here.", "Doesn't smoke here."], "a": 0, "why": "النهي يكون بـ Don't + الفعل الأصلي."},
+   {"q": "ما معنى: Be careful؟", "o": ["كن هادئاً", "كن حذراً", "لا تتأخر", "انتظر"], "a": 1, "why": "careful تعني حذر."},
+   {"q": "كيف تجعل الأمر مهذباً؟", "o": ["نضيف you", "نضيف do", "نضيف not", "نضيف please"], "a": 3, "why": "كلمة please تجعل الأمر طلباً لطيفاً."},
+   {"q": "اختر الصحيح: ___ late.", "o": ["Don't", "Don't be", "Not be", "No be"], "a": 1, "why": "late صفة، فنحتاج be بعد Don't: Don't be late."},
+   {"q": "ما معنى: Let's go؟", "o": ["اذهب", "لا تذهب", "هيا نذهب", "هل نذهب؟"], "a": 2, "why": "Let's تُستخدم للاقتراح وتعني هيا."}
+  ]
+ },
+ {
+  "n": "41",
+  "type": "conversation",
+  "title_ar": "صيغة الطلب",
+  "title_en": "Making requests",
+  "summary": "تتعلم في هذا الدرس كيف تطلب شيئاً بأدب في الإنجليزية باستخدام Can و Could و Would you like و I'd like، وكيف ترد على الطلب بالموافقة أو الاعتذار.",
+  "notes": [
+   {"h": "أن تطلب من شخص أن يفعل شيئاً", "t": "Can you + الفعل؟ (عادي): Can you help me? = هل يمكنك مساعدتي؟\nCould you + الفعل؟ (أكثر أدباً): Could you open the door, please? = هل يمكنك فتح الباب من فضلك؟"},
+   {"h": "أن تطلب شيئاً لنفسك", "t": "Can I have ...? = هل يمكنني الحصول على ...؟\nCan I have a coffee, please? = هل يمكنني الحصول على قهوة من فضلك؟\nI'd like ... = أود / أريد (بأدب). I'd like a tea, please = أود شاياً من فضلك.\nI'd like = I would like."},
+   {"h": "أن تعرض شيئاً", "t": "Would you like ...? = هل تود ...؟\nWould you like some water? = هل تود بعض الماء؟\nالرد: Yes, please = نعم من فضلك. / No, thank you = لا، شكراً."},
+   {"h": "الرد على الطلب", "t": "للموافقة: Sure = بالتأكيد. Of course = طبعاً. No problem = لا مشكلة. Here you are = تفضل.\nللاعتذار: Sorry, I can't = آسف، لا أستطيع. I'm afraid not = للأسف لا."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "قول I want أو Give me مباشرة يبدو غير مهذب في الإنجليزية. استخدم I'd like أو Can I have ... , please?"},
+   {"k": "grammar", "t": "بعد Can you / Could you يأتي الفعل الأصلي بدون to: Could you help me? وليس Could you to help me?"},
+   {"k": "pron", "t": "حرف l في could و would صامت لا يُنطق: could (كُد)، would (وُد). و I'd like تُنطق (آيد لايك)."}
+  ],
+  "vocab": [
+   {"en": "could", "ar": "هل يمكن (بأدب)", "emoji": "🙏"},
+   {"en": "would like", "ar": "يود", "emoji": "😊"},
+   {"en": "please", "ar": "من فضلك", "emoji": "🤲"},
+   {"en": "sure", "ar": "بالتأكيد", "emoji": "👍"},
+   {"en": "of course", "ar": "طبعاً", "emoji": "✅"},
+   {"en": "sorry", "ar": "آسف", "emoji": "😔"},
+   {"en": "thank you", "ar": "شكراً", "emoji": "💐"},
+   {"en": "no problem", "ar": "لا مشكلة", "emoji": "👌"},
+   {"en": "repeat", "ar": "يكرر", "emoji": "🔁"}
+  ],
+  "phrases": [
+   {"en": "Can you help me, please?", "ar": "هل يمكنك مساعدتي من فضلك؟"},
+   {"en": "Could you repeat that, please?", "ar": "هل يمكنك تكرار ذلك من فضلك؟"},
+   {"en": "Can I have a coffee, please?", "ar": "هل يمكنني الحصول على قهوة من فضلك؟"},
+   {"en": "I'd like a glass of water.", "ar": "أود كوباً من الماء."},
+   {"en": "Would you like some tea?", "ar": "هل تود بعض الشاي؟"}
+  ],
+  "quiz": [
+   {"q": "أي جملة هي الأكثر أدباً؟", "o": ["Give me water.", "I want water.", "Could I have some water, please?", "Water!"], "a": 2, "why": "Could مع please هي الصيغة الأكثر تهذيباً."},
+   {"q": "اختر الصحيح: Could you ___ the window, please?", "o": ["to open", "open", "opening", "opens"], "a": 1, "why": "بعد Could you يأتي الفعل الأصلي."},
+   {"q": "Would you like some coffee? — الرد المناسب:", "o": ["Yes, please.", "Yes, I do like.", "Yes, I am.", "Yes, you would."], "a": 0, "why": "نقبل العرض بقول Yes, please."},
+   {"q": "ما معنى I'd like؟", "o": ["أنا أحب", "أنا أشبه", "أنا لا أريد", "أنا أود"], "a": 3, "why": "I'd like = I would like وهي طريقة مهذبة لقول أريد."},
+   {"q": "Can you help me? — أي رد يعني الموافقة؟", "o": ["I'm afraid not.", "Of course.", "Sorry, I can't.", "No, thank you."], "a": 1, "why": "Of course تعني طبعاً."},
+   {"q": "أي حرف لا يُنطق في كلمة could؟", "o": ["c", "d", "l", "o"], "a": 2, "why": "حرف l صامت: تُنطق (كُد)."}
+  ]
+ },
+ {
+  "n": "42",
+  "type": "vocab",
+  "title_ar": "مفردات التسوق",
+  "title_en": "Shopping vocabulary",
+  "summary": "تتعلم في هذا الدرس أهم الكلمات والعبارات التي تحتاجها في المحلات: السؤال عن السعر والمقاس، وتجربة الملابس، والدفع. هذه العبارات تفيدك في السفر والتسوق عبر الإنترنت.",
+  "notes": [
+   {"h": "كلمات أساسية", "t": "shop / store = محل، customer = زبون، price = سعر، size = مقاس، cash = نقداً، card = بطاقة، receipt = إيصال، sale = تخفيضات، discount = خصم.\nمثال: There is a sale today = توجد تخفيضات اليوم."},
+   {"h": "أفعال التسوق", "t": "buy = يشتري: I want to buy a shirt = أريد أن أشتري قميصاً.\nsell = يبيع: They sell shoes = هم يبيعون الأحذية.\npay = يدفع: Can I pay by card? = هل يمكنني الدفع بالبطاقة؟\ntry on = يجرب (الملابس): Can I try it on? = هل يمكنني تجربته؟"},
+   {"h": "عبارات البائع", "t": "Can I help you? = هل يمكنني مساعدتك؟\nWhat size are you? = ما مقاسك؟\nHere you are = تفضل.\nAnything else? = هل تريد شيئاً آخر؟"},
+   {"h": "عبارات الزبون", "t": "I'm looking for a jacket = أبحث عن سترة.\nI'm just looking, thanks = أنا أتفرج فقط، شكراً.\nHow much is it? = بكم هو؟\nDo you have it in blue? = هل لديكم منه باللون الأزرق؟\nIt's too big = إنه كبير جداً.\nI'll take it = سآخذه."},
+   {"h": "المقاسات", "t": "small = صغير، medium = متوسط، large = كبير.\nDo you have a medium? = هل لديكم مقاس متوسط؟\nDo you have a bigger size? = هل لديكم مقاس أكبر؟"}
+  ],
+  "alerts": [
+   {"k": "pron", "t": "حرف p في receipt صامت: تُنطق (رِسيت). و buy تُنطق (باي) مثل bye تماماً."},
+   {"k": "mistake", "t": "السؤال عن السعر: How much is it? وليس How many is it? أو What is the price of it بترجمة حرفية معقدة."},
+   {"k": "grammar", "t": "مع الأشياء التي تأتي أزواجاً (shoes, trousers, jeans) نستخدم الجمع: How much are these shoes? / Can I try them on?"}
+  ],
+  "vocab": [
+   {"en": "shop", "ar": "محل", "emoji": "🏪"},
+   {"en": "buy", "ar": "يشتري", "emoji": "🛍️"},
+   {"en": "sell", "ar": "يبيع", "emoji": "🤝"},
+   {"en": "pay", "ar": "يدفع", "emoji": "💳"},
+   {"en": "price", "ar": "سعر", "emoji": "🏷️"},
+   {"en": "size", "ar": "مقاس", "emoji": "📏"},
+   {"en": "cash", "ar": "نقداً", "emoji": "💵"},
+   {"en": "receipt", "ar": "إيصال", "emoji": "🧾"},
+   {"en": "shirt", "ar": "قميص", "emoji": "👔"},
+   {"en": "jacket", "ar": "سترة", "emoji": "🧥"},
+   {"en": "customer", "ar": "زبون", "emoji": "🧑"},
+   {"en": "discount", "ar": "خصم", "emoji": "🔖"}
+  ],
+  "phrases": [
+   {"en": "Can I help you?", "ar": "هل يمكنني مساعدتك؟"},
+   {"en": "I'm looking for a jacket.", "ar": "أبحث عن سترة."},
+   {"en": "How much is this shirt?", "ar": "بكم هذا القميص؟"},
+   {"en": "Can I try it on?", "ar": "هل يمكنني تجربته؟"},
+   {"en": "Can I pay by card?", "ar": "هل يمكنني الدفع بالبطاقة؟"},
+   {"en": "I'll take it.", "ar": "سآخذه."}
+  ],
+  "quiz": [
+   {"q": "ما معنى receipt؟", "o": ["سعر", "إيصال", "خصم", "مقاس"], "a": 1, "why": "receipt هو الإيصال الذي تأخذه بعد الدفع."},
+   {"q": "كيف تسأل عن السعر؟", "o": ["How much is it?", "How many is it?", "What size is it?", "Where is it?"], "a": 0, "why": "نسأل عن السعر بـ How much."},
+   {"q": "تريد تجربة قميص. ماذا تقول؟", "o": ["Can I pay it?", "Can I sell it?", "Can I try it on?", "Can I help you?"], "a": 2, "why": "try on تعني يجرب الملابس."},
+   {"q": "ما عكس buy؟", "o": ["pay", "take", "look", "sell"], "a": 3, "why": "buy = يشتري وعكسها sell = يبيع."},
+   {"q": "ماذا تقول إذا كنت تتفرج فقط؟", "o": ["I'll take it.", "I'm just looking, thanks.", "Anything else?", "Here you are."], "a": 1, "why": "I'm just looking تعني أنا أتفرج فقط."},
+   {"q": "اختر الصحيح: How much ___ these shoes?", "o": ["is", "do", "are", "does"], "a": 2, "why": "shoes جمع فنستخدم are."}
+  ]
+ }
+]

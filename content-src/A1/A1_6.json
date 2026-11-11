@@ -1,0 +1,330 @@
+[
+ {
+  "n": "43",
+  "type": "vocab",
+  "title_ar": "الأموال والأسعار",
+  "title_en": "Money and prices",
+  "summary": "تتعلم في هذا الدرس مفردات المال والعملات، وكيف تسأل عن السعر وتقرأ الأسعار بالإنجليزية، وكيف تصف الشيء بأنه غالٍ أو رخيص.",
+  "notes": [
+   {"h": "مفردات المال", "t": "money = مال، coin = عملة معدنية، note = ورقة نقدية (وفي أمريكا bill)، cash = نقد، card = بطاقة، change = الباقي / الفكة، wallet = محفظة.\nأشهر العملات: dollar = دولار، pound = جنيه، euro = يورو، cent = سنت."},
+   {"h": "السؤال عن السعر", "t": "للمفرد: How much is it? / How much is this watch? = بكم هذه الساعة؟\nللجمع: How much are they? / How much are these shoes? = بكم هذا الحذاء؟\nالإجابة: It's ten dollars = إنها بعشرة دولارات. They're twenty pounds = إنها بعشرين جنيهاً."},
+   {"h": "قراءة الأسعار", "t": "5.50 دولار تُقرأ: five dollars fifty أو five fifty.\n0.99 تُقرأ: ninety-nine cents.\n100 تُقرأ: one hundred / a hundred.\n250 تُقرأ: two hundred and fifty.\n1000 تُقرأ: one thousand."},
+   {"h": "وصف السعر", "t": "It's cheap = إنه رخيص.\nIt's expensive = إنه غالٍ.\nIt's too expensive = إنه غالٍ جداً (أكثر من اللازم).\nThat's a good price = هذا سعر جيد."},
+   {"h": "أفعال مع المال", "t": "cost = يكلف: It costs five dollars = يكلف خمسة دولارات.\nspend = ينفق: I spend a lot of money = أنفق الكثير من المال.\nsave = يدّخر: I save money every month = أدّخر مالاً كل شهر.\npay = يدفع: I pay in cash = أدفع نقداً."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "money غير معدودة: لا تقل moneys أو many money. قل: much money / a lot of money. والفعل معها مفرد: The money is on the table."},
+   {"k": "pron", "t": "انتبه للفرق بين الأرقام: thirteen (ثِرتين) النبرة في آخرها = 13، و thirty (ثِرتي) النبرة في أولها = 30. وكذلك fifteen / fifty. الخطأ هنا يغيّر السعر كثيراً."},
+   {"k": "grammar", "t": "نجمع العملة بعد أي رقم أكبر من واحد: one dollar لكن two dollars، ten pounds."}
+  ],
+  "vocab": [
+   {"en": "money", "ar": "مال", "emoji": "💰"},
+   {"en": "dollar", "ar": "دولار", "emoji": "💵"},
+   {"en": "pound", "ar": "جنيه", "emoji": "💷"},
+   {"en": "euro", "ar": "يورو", "emoji": "💶"},
+   {"en": "coin", "ar": "عملة معدنية", "emoji": "🪙"},
+   {"en": "wallet", "ar": "محفظة", "emoji": "👛"},
+   {"en": "card", "ar": "بطاقة", "emoji": "💳"},
+   {"en": "change", "ar": "الباقي / الفكة", "emoji": "🔄"},
+   {"en": "cost", "ar": "يكلف", "emoji": "🏷️"},
+   {"en": "save", "ar": "يدّخر", "emoji": "🏦"},
+   {"en": "hundred", "ar": "مئة", "emoji": "💯"}
+  ],
+  "phrases": [
+   {"en": "How much is this watch?", "ar": "بكم هذه الساعة؟"},
+   {"en": "It is ten dollars.", "ar": "إنها بعشرة دولارات."},
+   {"en": "That is too expensive.", "ar": "هذا غالٍ جداً."},
+   {"en": "Here is your change.", "ar": "تفضل الباقي."},
+   {"en": "I don't have any cash.", "ar": "ليس لدي أي نقود."}
+  ],
+  "quiz": [
+   {"q": "اختر الصحيح: How much ___ this bag?", "o": ["are", "is", "do", "many"], "a": 1, "why": "this bag مفرد فنستخدم is."},
+   {"q": "ما معنى change في المحل؟", "o": ["الباقي", "السعر", "المحفظة", "الخصم"], "a": 0, "why": "change هو المال الذي يعيده البائع إليك."},
+   {"q": "كيف نقرأ الرقم 30؟", "o": ["thirteen", "three", "thirty", "third"], "a": 2, "why": "30 = thirty، أما thirteen فهي 13."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I have many money.", "I have a lot of moneys.", "I have a money.", "I have a lot of money."], "a": 3, "why": "money غير معدودة فلا تُجمع ولا تأخذ many."},
+   {"q": "ما عكس expensive؟", "o": ["big", "cheap", "new", "good"], "a": 1, "why": "expensive = غالٍ وعكسها cheap = رخيص."},
+   {"q": "اختر الصحيح: It costs five ___.", "o": ["dollar", "a dollar", "dollars", "dollar's"], "a": 2, "why": "بعد رقم أكبر من واحد نجمع العملة: dollars."}
+  ]
+ },
+ {
+  "n": "44",
+  "type": "conversation",
+  "title_ar": "في المطعم",
+  "title_en": "At the restaurant",
+  "summary": "تتعلم في هذا الدرس كل ما تحتاجه في المطعم: حجز طاولة، قراءة القائمة، طلب الطعام والشراب بأدب، ثم طلب الفاتورة.",
+  "notes": [
+   {"h": "عند الوصول", "t": "A table for two, please = طاولة لشخصين من فضلك.\nDo you have a reservation? = هل لديك حجز؟\nCan I see the menu, please? = هل يمكنني رؤية القائمة من فضلك؟"},
+   {"h": "عبارات النادل", "t": "Are you ready to order? = هل أنت جاهز للطلب؟\nWhat would you like to eat? = ماذا تود أن تأكل؟\nWhat would you like to drink? = ماذا تود أن تشرب؟\nAnything else? = أي شيء آخر؟\nEnjoy your meal = بالهناء والشفاء."},
+   {"h": "طلب الطعام", "t": "I'd like the chicken, please = أود الدجاج من فضلك.\nCan I have a salad, please? = هل يمكنني الحصول على سلطة من فضلك؟\nI'll have the soup = سآخذ الحساء.\nA bottle of water, please = زجاجة ماء من فضلك."},
+   {"h": "في نهاية الوجبة", "t": "Can I have the bill, please? = الفاتورة من فضلك.\nCan I pay by card? = هل يمكنني الدفع بالبطاقة؟\nThe food was delicious = كان الطعام لذيذاً.\nفي الإنجليزية الأمريكية يقولون check بدل bill."},
+   {"h": "أقسام القائمة", "t": "starter = مقبلات، main course = الطبق الرئيسي، dessert = حلوى، drinks = مشروبات."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "لا تقل للنادل I want chicken أو Give me chicken. الأدب أن تقول: I'd like the chicken, please."},
+   {"k": "pron", "t": "dessert (دِزيرت) بالنبرة على المقطع الأخير تعني حلوى، أما desert (دِزَرت) بالنبرة على الأول فتعني صحراء. و menu تُنطق (مِنيو)."},
+   {"k": "pron", "t": "كلمة restaurant تُنطق في مقطعين أو ثلاثة (رِسترونت) وليس كما تُكتب."}
+  ],
+  "vocab": [
+   {"en": "restaurant", "ar": "مطعم", "emoji": "🍽️"},
+   {"en": "menu", "ar": "قائمة الطعام", "emoji": "📋"},
+   {"en": "waiter", "ar": "نادل", "emoji": "🤵"},
+   {"en": "order", "ar": "يطلب / طلب", "emoji": "📝"},
+   {"en": "bill", "ar": "فاتورة", "emoji": "🧾"},
+   {"en": "chicken", "ar": "دجاج", "emoji": "🍗"},
+   {"en": "salad", "ar": "سلطة", "emoji": "🥗"},
+   {"en": "soup", "ar": "حساء", "emoji": "🍲"},
+   {"en": "dessert", "ar": "حلوى", "emoji": "🍰"},
+   {"en": "delicious", "ar": "لذيذ", "emoji": "😋"},
+   {"en": "hungry", "ar": "جائع", "emoji": "🤤"}
+  ],
+  "phrases": [
+   {"en": "A table for two, please.", "ar": "طاولة لشخصين من فضلك."},
+   {"en": "Can I see the menu, please?", "ar": "هل يمكنني رؤية القائمة من فضلك؟"},
+   {"en": "I'd like the chicken, please.", "ar": "أود الدجاج من فضلك."},
+   {"en": "What would you like to drink?", "ar": "ماذا تود أن تشرب؟"},
+   {"en": "Can I have the bill, please?", "ar": "الفاتورة من فضلك."}
+  ],
+  "quiz": [
+   {"q": "تريد أن تدفع في المطعم. ماذا تطلب؟", "o": ["the menu", "the table", "the bill", "the order"], "a": 2, "why": "bill هي الفاتورة."},
+   {"q": "ما معنى menu؟", "o": ["قائمة الطعام", "النادل", "الطاولة", "الحلوى"], "a": 0, "why": "menu هي قائمة الطعام في المطعم."},
+   {"q": "أي جملة مهذبة لطلب الطعام؟", "o": ["Give me soup.", "I'd like the soup, please.", "I want soup now.", "Soup."], "a": 1, "why": "I'd like مع please هي الصيغة المهذبة."},
+   {"q": "النادل يسأل: Are you ready to order? ماذا يقصد؟", "o": ["هل تريد الفاتورة؟", "هل لديك حجز؟", "هل الطعام لذيذ؟", "هل أنت جاهز للطلب؟"], "a": 3, "why": "order تعني يطلب، و ready تعني جاهز."},
+   {"q": "ما معنى dessert؟", "o": ["صحراء", "حلوى", "مقبلات", "مشروب"], "a": 1, "why": "dessert هي الحلوى بعد الوجبة، أما desert فهي الصحراء."},
+   {"q": "اختر الصحيح: What would you like ___ drink?", "o": ["for", "a", "to", "the"], "a": 2, "why": "بعد would like نستخدم to + الفعل."}
+  ]
+ },
+ {
+  "n": "45",
+  "type": "conversation",
+  "title_ar": "في السوبرماركت",
+  "title_en": "At the supermarket",
+  "summary": "تتعلم في هذا الدرس مفردات السوبرماركت وأقسامه، وكيف تسأل عن مكان المنتجات وكمياتها، وما يُقال عند صندوق الدفع.",
+  "notes": [
+   {"h": "داخل السوبرماركت", "t": "trolley = عربة التسوق (وفي أمريكا cart)، basket = سلة، shelf = رف، aisle = ممر، checkout = صندوق الدفع، cashier = أمين الصندوق، bag = كيس."},
+   {"h": "أقسام ومنتجات", "t": "fruit = فواكه، vegetables = خضروات، meat = لحوم، dairy = ألبان، bakery = مخبوزات.\nمنتجات شائعة: bread = خبز، milk = حليب، eggs = بيض، rice = أرز، oil = زيت، salt = ملح."},
+   {"h": "السؤال عن المكان", "t": "Excuse me, where is the milk? = عفواً، أين الحليب؟\nWhere can I find the rice? = أين أجد الأرز؟\nالإجابة: It's in aisle three = إنه في الممر الثالث. It's next to the bread = إنه بجانب الخبز."},
+   {"h": "الكميات والعبوات", "t": "a kilo of tomatoes = كيلو طماطم.\na bottle of oil = زجاجة زيت.\na carton of milk = علبة حليب.\na bag of rice = كيس أرز.\na box of eggs = علبة بيض.\na can of tuna = علبة تونة."},
+   {"h": "عند صندوق الدفع", "t": "Do you need a bag? = هل تحتاج كيساً؟\nYes, please = نعم من فضلك.\nThat's twelve dollars = المجموع اثنا عشر دولاراً.\nHere is your receipt = تفضل إيصالك."}
+  ],
+  "alerts": [
+   {"k": "pron", "t": "حرف s في aisle صامت: تُنطق (آيل). و vegetables تُنطق في ثلاثة مقاطع (فِجتَبلز) وليس (فيجي-تابلز)."},
+   {"k": "pron", "t": "حرف v في vegetables ليس f: ضع أسنانك العليا على شفتك السفلى وأخرج الصوت مع اهتزاز."},
+   {"k": "grammar", "t": "fruit غالباً غير معدودة: I eat a lot of fruit. أما vegetables فمعدودة وتُجمع."}
+  ],
+  "vocab": [
+   {"en": "supermarket", "ar": "سوبرماركت", "emoji": "🛒"},
+   {"en": "basket", "ar": "سلة", "emoji": "🧺"},
+   {"en": "fruit", "ar": "فواكه", "emoji": "🍇"},
+   {"en": "vegetables", "ar": "خضروات", "emoji": "🥕"},
+   {"en": "tomatoes", "ar": "طماطم", "emoji": "🍅"},
+   {"en": "oil", "ar": "زيت", "emoji": "🫒"},
+   {"en": "salt", "ar": "ملح", "emoji": "🧂"},
+   {"en": "kilo", "ar": "كيلو", "emoji": "⚖️"},
+   {"en": "cashier", "ar": "أمين الصندوق", "emoji": "🧑‍💼"},
+   {"en": "bag", "ar": "كيس", "emoji": "🛍️"},
+   {"en": "can", "ar": "علبة معدنية", "emoji": "🥫"}
+  ],
+  "phrases": [
+   {"en": "Excuse me, where is the milk?", "ar": "عفواً، أين الحليب؟"},
+   {"en": "It is next to the bread.", "ar": "إنه بجانب الخبز."},
+   {"en": "I need a kilo of tomatoes.", "ar": "أحتاج كيلو طماطم."},
+   {"en": "Do you need a bag?", "ar": "هل تحتاج كيساً؟"},
+   {"en": "Where can I find the rice?", "ar": "أين أجد الأرز؟"}
+  ],
+  "quiz": [
+   {"q": "أين تدفع في السوبرماركت؟", "o": ["aisle", "shelf", "basket", "checkout"], "a": 3, "why": "checkout هو صندوق الدفع."},
+   {"q": "اختر الصحيح: a ___ of oil", "o": ["bottle", "kilo of", "slice", "piece"], "a": 0, "why": "الزيت يكون في زجاجة: a bottle of oil."},
+   {"q": "كيف تسأل عن مكان الحليب؟", "o": ["How much is the milk?", "Where is the milk?", "What is the milk?", "Who is the milk?"], "a": 1, "why": "نسأل عن المكان بـ Where."},
+   {"q": "ما معنى vegetables؟", "o": ["فواكه", "لحوم", "خضروات", "ألبان"], "a": 2, "why": "vegetables = خضروات، و fruit = فواكه."},
+   {"q": "أي حرف صامت في كلمة aisle؟", "o": ["a", "s", "l", "i"], "a": 1, "why": "حرف s لا يُنطق: (آيل)."},
+   {"q": "اختر الصحيح: I need a kilo ___ tomatoes.", "o": ["from", "for", "of", "in"], "a": 2, "why": "نقول: a kilo of + الاسم."}
+  ]
+ },
+ {
+  "n": "46",
+  "type": "conversation",
+  "title_ar": "في محطة الحافلات",
+  "title_en": "At the bus station",
+  "summary": "تتعلم في هذا الدرس كيف تشتري تذكرة حافلة، وتسأل عن موعد الانطلاق والوصول ورقم الرصيف، وتتأكد أنك في الحافلة الصحيحة.",
+  "notes": [
+   {"h": "مفردات المحطة", "t": "bus station = محطة الحافلات، bus stop = موقف الحافلة، ticket = تذكرة، ticket office = مكتب التذاكر، driver = سائق، passenger = راكب، platform = رصيف، seat = مقعد، timetable = جدول المواعيد."},
+   {"h": "شراء التذكرة", "t": "A ticket to London, please = تذكرة إلى لندن من فضلك.\nsingle ticket = تذكرة ذهاب فقط (وفي أمريكا one-way).\nreturn ticket = تذكرة ذهاب وعودة (وفي أمريكا round-trip).\nHow much is a ticket to the airport? = بكم التذكرة إلى المطار؟"},
+   {"h": "السؤال عن المواعيد", "t": "What time does the bus leave? = متى تغادر الحافلة؟\nWhat time does it arrive? = متى تصل؟\nHow long does it take? = كم تستغرق الرحلة؟\nIt takes two hours = تستغرق ساعتين.\nWhen is the next bus? = متى الحافلة القادمة؟"},
+   {"h": "التأكد من الحافلة", "t": "Which bus goes to the city centre? = أي حافلة تذهب إلى وسط المدينة؟\nDoes this bus go to the airport? = هل تذهب هذه الحافلة إلى المطار؟\nWhere is the bus stop? = أين موقف الحافلة؟\nIs this seat free? = هل هذا المقعد شاغر؟"},
+   {"h": "حروف الجر مع المواصلات", "t": "by bus = بالحافلة: I go to work by bus = أذهب إلى العمل بالحافلة.\nget on the bus = يصعد الحافلة.\nget off the bus = ينزل من الحافلة.\nI get off at the next stop = أنزل عند الموقف القادم."}
+  ],
+  "alerts": [
+   {"k": "pron", "t": "حرف u في bus يُنطق فتحة قصيرة (بَس) وليس (باص) ولا (بوس)."},
+   {"k": "mistake", "t": "نقول on the bus وليس in the bus. ونقول by bus بدون the: I go by bus."},
+   {"k": "grammar", "t": "مواعيد الحافلات والقطارات نعبّر عنها بالمضارع البسيط: The bus leaves at nine = الحافلة تغادر في التاسعة."}
+  ],
+  "vocab": [
+   {"en": "bus", "ar": "حافلة", "emoji": "🚌"},
+   {"en": "bus stop", "ar": "موقف الحافلة", "emoji": "🚏"},
+   {"en": "ticket", "ar": "تذكرة", "emoji": "🎫"},
+   {"en": "driver", "ar": "سائق", "emoji": "🧑‍✈️"},
+   {"en": "passenger", "ar": "راكب", "emoji": "🧍"},
+   {"en": "seat", "ar": "مقعد", "emoji": "💺"},
+   {"en": "leave", "ar": "يغادر", "emoji": "🚀"},
+   {"en": "arrive", "ar": "يصل", "emoji": "🏁"},
+   {"en": "timetable", "ar": "جدول المواعيد", "emoji": "🕒"},
+   {"en": "next", "ar": "القادم / التالي", "emoji": "⏭️"}
+  ],
+  "phrases": [
+   {"en": "A ticket to London, please.", "ar": "تذكرة إلى لندن من فضلك."},
+   {"en": "What time does the bus leave?", "ar": "متى تغادر الحافلة؟"},
+   {"en": "Does this bus go to the airport?", "ar": "هل تذهب هذه الحافلة إلى المطار؟"},
+   {"en": "Where is the bus stop?", "ar": "أين موقف الحافلة؟"},
+   {"en": "I go to work by bus.", "ar": "أذهب إلى العمل بالحافلة."}
+  ],
+  "quiz": [
+   {"q": "ما معنى return ticket؟", "o": ["تذكرة ذهاب فقط", "تذكرة مجانية", "تذكرة ذهاب وعودة", "تذكرة ملغاة"], "a": 2, "why": "return تعني العودة، فهي تذكرة ذهاب وعودة."},
+   {"q": "اختر الصحيح: I go to school ___ bus.", "o": ["by", "in", "with", "on the"], "a": 0, "why": "مع وسيلة المواصلات نستخدم by بدون the."},
+   {"q": "اختر السؤال الصحيح:", "o": ["What time the bus leaves?", "What time does the bus leave?", "What time does the bus leaves?", "What time do the bus leave?"], "a": 1, "why": "the bus مفرد فنستخدم does والفعل بدون s."},
+   {"q": "ما عكس leave؟", "o": ["go", "take", "stop", "arrive"], "a": 3, "why": "leave = يغادر وعكسها arrive = يصل."},
+   {"q": "ما معنى: Is this seat free؟", "o": ["هل هذا المقعد مجاني؟", "هل هذا المقعد شاغر؟", "هل هذا المقعد مريح؟", "هل هذا مقعدي؟"], "a": 1, "why": "free هنا تعني شاغر أو غير محجوز."},
+   {"q": "اختر الصحيح: I get ___ the bus at the next stop.", "o": ["of", "out", "off", "down"], "a": 2, "why": "get off = ينزل من الحافلة."}
+  ]
+ },
+ {
+  "n": "47",
+  "type": "conversation",
+  "title_ar": "في المطار",
+  "title_en": "At the airport",
+  "summary": "تتعلم في هذا الدرس أهم المفردات والعبارات في المطار: إنهاء إجراءات السفر، الأمتعة، بوابة الصعود، والأسئلة التي يطرحها موظف الجوازات.",
+  "notes": [
+   {"h": "مفردات المطار", "t": "airport = مطار، flight = رحلة جوية، passport = جواز سفر، boarding pass = بطاقة صعود الطائرة، gate = بوابة، luggage / baggage = أمتعة، suitcase = حقيبة سفر، departures = المغادرة، arrivals = الوصول."},
+   {"h": "عند تسجيل السفر", "t": "check-in desk = مكتب تسجيل السفر.\nCan I see your passport, please? = هل يمكنني رؤية جواز سفرك من فضلك؟\nHow many bags do you have? = كم حقيبة لديك؟\nWindow or aisle seat? = مقعد بجانب النافذة أم الممر؟\nA window seat, please = مقعد بجانب النافذة من فضلك."},
+   {"h": "الأسئلة المفيدة للمسافر", "t": "Where is gate twelve? = أين البوابة رقم اثني عشر؟\nWhat time is my flight? = متى رحلتي؟\nIs the flight on time? = هل الرحلة في موعدها؟\nThe flight is delayed = الرحلة متأخرة.\nWhere can I get my luggage? = أين أستلم أمتعتي؟"},
+   {"h": "عند الجوازات", "t": "Where are you from? = من أين أنت؟\nWhat is the purpose of your visit? = ما الغرض من زيارتك؟\nI'm here on holiday = أنا هنا في إجازة. / I'm here on business = أنا هنا للعمل.\nHow long are you staying? = كم ستبقى؟ → For one week = لمدة أسبوع."}
+  ],
+  "alerts": [
+   {"k": "pron", "t": "حرف p ليس b: passport تُنطق بحرف p مع نفخة هواء (پاسپورت). ضع يدك أمام فمك لتشعر بالهواء. و flight تُنطق (فلايت) لأن gh صامتة."},
+   {"k": "grammar", "t": "luggage و baggage غير معدودتين: لا تقل luggages أو a luggage. قل: my luggage / two bags / two suitcases."},
+   {"k": "tip", "t": "احفظ إجابات أسئلة الجوازات جاهزة، فهي تتكرر في كل مطار: on holiday / on business / for one week."}
+  ],
+  "vocab": [
+   {"en": "airport", "ar": "مطار", "emoji": "🛫"},
+   {"en": "flight", "ar": "رحلة جوية", "emoji": "✈️"},
+   {"en": "passport", "ar": "جواز سفر", "emoji": "🛂"},
+   {"en": "boarding pass", "ar": "بطاقة الصعود", "emoji": "🎫"},
+   {"en": "gate", "ar": "بوابة", "emoji": "🚪"},
+   {"en": "luggage", "ar": "أمتعة", "emoji": "🛄"},
+   {"en": "suitcase", "ar": "حقيبة سفر", "emoji": "🧳"},
+   {"en": "delayed", "ar": "متأخر", "emoji": "⏰"},
+   {"en": "holiday", "ar": "إجازة", "emoji": "🏖️"},
+   {"en": "arrivals", "ar": "الوصول", "emoji": "🛬"}
+  ],
+  "phrases": [
+   {"en": "Can I see your passport, please?", "ar": "هل يمكنني رؤية جواز سفرك من فضلك؟"},
+   {"en": "Where is gate twelve?", "ar": "أين البوابة رقم اثني عشر؟"},
+   {"en": "I have one suitcase.", "ar": "لدي حقيبة سفر واحدة."},
+   {"en": "A window seat, please.", "ar": "مقعد بجانب النافذة من فضلك."},
+   {"en": "I'm here on holiday.", "ar": "أنا هنا في إجازة."},
+   {"en": "What time is my flight?", "ar": "متى رحلتي؟"}
+  ],
+  "quiz": [
+   {"q": "ما معنى boarding pass؟", "o": ["جواز السفر", "بطاقة صعود الطائرة", "حقيبة السفر", "بوابة المغادرة"], "a": 1, "why": "boarding pass هي البطاقة التي تصعد بها إلى الطائرة."},
+   {"q": "The flight is delayed. ما المعنى؟", "o": ["الرحلة متأخرة", "الرحلة ملغاة", "الرحلة في موعدها", "الرحلة وصلت"], "a": 0, "why": "delayed تعني متأخر."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I have two luggages.", "I have a luggage.", "I have many luggages.", "I have two suitcases."], "a": 3, "why": "luggage غير معدودة، أما suitcase فمعدودة وتُجمع."},
+   {"q": "موظف الجوازات يسأل: How long are you staying? ما الإجابة المناسبة؟", "o": ["I'm from Egypt.", "On holiday.", "For one week.", "At gate five."], "a": 2, "why": "How long سؤال عن المدة، فنجيب: For one week."},
+   {"q": "ما معنى arrivals؟", "o": ["المغادرة", "الوصول", "الأمتعة", "الجوازات"], "a": 1, "why": "arrivals = الوصول، و departures = المغادرة."},
+   {"q": "أين تذهب لتصعد إلى الطائرة؟", "o": ["gate", "arrivals", "luggage", "passport"], "a": 0, "why": "gate هي بوابة الصعود إلى الطائرة."}
+  ]
+ },
+ {
+  "n": "48",
+  "type": "conversation",
+  "title_ar": "في الفندق",
+  "title_en": "At the hotel",
+  "summary": "تتعلم في هذا الدرس كيف تحجز غرفة في فندق، وتسجل الدخول والخروج، وتسأل عن الخدمات مثل الإفطار والإنترنت، وتبلّغ عن مشكلة في الغرفة.",
+  "notes": [
+   {"h": "مفردات الفندق", "t": "hotel = فندق، reception = الاستقبال، receptionist = موظف الاستقبال، room = غرفة، key = مفتاح، floor = طابق، lift = مصعد (وفي أمريكا elevator)، guest = نزيل.\nsingle room = غرفة لشخص واحد، double room = غرفة لشخصين."},
+   {"h": "الحجز وتسجيل الدخول", "t": "I have a reservation = لدي حجز.\nI'd like a double room, please = أود غرفة لشخصين من فضلك.\nFor how many nights? = لكم ليلة؟ → For three nights = لثلاث ليالٍ.\nHow much is it per night? = كم سعر الليلة؟\nHere is your key = تفضل مفتاحك.\nYour room is on the second floor = غرفتك في الطابق الثاني."},
+   {"h": "السؤال عن الخدمات", "t": "Is breakfast included? = هل الإفطار مشمول؟\nWhat time is breakfast? = متى الإفطار؟\nIs there free Wi-Fi? = هل يوجد إنترنت مجاني؟\nWhat is the Wi-Fi password? = ما كلمة سر الإنترنت؟"},
+   {"h": "المشكلات والمغادرة", "t": "The air conditioning doesn't work = المكيف لا يعمل.\nThere is no hot water = لا يوجد ماء ساخن.\nCan I have another towel, please? = هل يمكنني الحصول على منشفة أخرى من فضلك؟\ncheck in = يسجل الدخول، check out = يسجل الخروج.\nWhat time is check-out? = متى موعد المغادرة؟"}
+  ],
+  "alerts": [
+   {"k": "pron", "t": "النبرة في hotel على المقطع الثاني (هو-تِل). و key تُنطق (كي). و towel تُنطق (تاوِل)."},
+   {"k": "mistake", "t": "نقول on the second floor وليس in the second floor."},
+   {"k": "grammar", "t": "لوصف المشكلة نستخدم نفي المضارع البسيط: The TV doesn't work، أو There is no ...: There is no soap."}
+  ],
+  "vocab": [
+   {"en": "hotel", "ar": "فندق", "emoji": "🏨"},
+   {"en": "reception", "ar": "الاستقبال", "emoji": "🛎️"},
+   {"en": "key", "ar": "مفتاح", "emoji": "🔑"},
+   {"en": "single room", "ar": "غرفة لشخص", "emoji": "🛏️"},
+   {"en": "double room", "ar": "غرفة لشخصين", "emoji": "👫"},
+   {"en": "night", "ar": "ليلة", "emoji": "🌙"},
+   {"en": "breakfast", "ar": "إفطار", "emoji": "🍳"},
+   {"en": "towel", "ar": "منشفة", "emoji": "🧖"},
+   {"en": "floor", "ar": "طابق", "emoji": "🏢"},
+   {"en": "lift", "ar": "مصعد", "emoji": "🛗"},
+   {"en": "password", "ar": "كلمة السر", "emoji": "🔐"}
+  ],
+  "phrases": [
+   {"en": "I have a reservation.", "ar": "لدي حجز."},
+   {"en": "I'd like a double room, please.", "ar": "أود غرفة لشخصين من فضلك."},
+   {"en": "How much is it per night?", "ar": "كم سعر الليلة؟"},
+   {"en": "Is breakfast included?", "ar": "هل الإفطار مشمول؟"},
+   {"en": "What time is breakfast?", "ar": "متى الإفطار؟"},
+   {"en": "There is no hot water.", "ar": "لا يوجد ماء ساخن."}
+  ],
+  "quiz": [
+   {"q": "ما معنى double room؟", "o": ["غرفة لشخص واحد", "غرفتان", "غرفة لشخصين", "غرفة كبيرة"], "a": 2, "why": "double room غرفة لشخصين، و single room لشخص واحد."},
+   {"q": "كيف تسأل عن سعر الليلة؟", "o": ["How much is it per night?", "How many nights?", "What time is the night?", "How long is the night?"], "a": 0, "why": "نسأل عن السعر بـ How much، و per night تعني لليلة."},
+   {"q": "اختر الصحيح: Your room is ___ the third floor.", "o": ["in", "at", "to", "on"], "a": 3, "why": "مع الطوابق نستخدم on."},
+   {"q": "ما معنى: Is breakfast included؟", "o": ["هل الإفطار جاهز؟", "هل الإفطار مشمول؟", "أين الإفطار؟", "متى الإفطار؟"], "a": 1, "why": "included تعني مشمول في السعر."},
+   {"q": "اختر الجملة الصحيحة للشكوى:", "o": ["The TV don't work.", "The TV not work.", "The TV doesn't work.", "The TV doesn't works."], "a": 2, "why": "The TV مفرد فنستخدم doesn't + الفعل الأصلي."},
+   {"q": "عند مغادرة الفندق أنت ...", "o": ["check in", "check out", "check up", "check on"], "a": 1, "why": "check out تعني تسجيل الخروج والمغادرة."}
+  ]
+ },
+ {
+  "n": "49",
+  "type": "test",
+  "title_ar": "اختبار المستوى الأول",
+  "title_en": "A1 level test",
+  "summary": "هذا الدرس مراجعة شاملة لأهم قواعد المستوى الأول A1 قبل الانتقال إلى المستوى التالي. راجع النقاط الأساسية ثم اختبر نفسك لتعرف ما أتقنته وما يحتاج إلى مراجعة.",
+  "notes": [
+   {"h": "فعل يكون والضمائر", "t": "I am / he, she, it is / you, we, they are.\nI am a student = أنا طالب. She is a doctor = هي طبيبة. They are at home = هم في البيت.\nالنفي: I'm not, he isn't, they aren't.\nالسؤال: Are you a teacher? = هل أنت معلم؟"},
+   {"h": "المضارع البسيط", "t": "الإثبات: I work / He works (نضيف s مع he, she, it).\nالنفي: I don't work / He doesn't work.\nالسؤال: Do you work? / Does he work?\nبعد does و doesn't يعود الفعل لأصله بدون s."},
+   {"h": "الأسماء والكميات", "t": "a / an مع المفرد المعدود: a book, an apple.\nThere is + مفرد، There are + جمع.\nsome في الإثبات، any في النفي والسؤال.\nmany / How many مع المعدود، much / How much مع غير المعدود والسعر."},
+   {"h": "الصفات والإشارة والملكية", "t": "الصفة قبل الاسم ولا تُجمع: a new car, new cars.\nthis / that للمفرد، these / those للجمع.\nالملكية: Ahmed's phone = هاتف أحمد. my, your, his, her, our, their."},
+   {"h": "can والأمر والطلب", "t": "can + الفعل الأصلي: I can swim / I can't drive / Can you help me?\nالأمر: Open the door. النهي: Don't be late.\nالطلب المهذب: Could you ...? / I'd like ... / Can I have ..., please?"},
+   {"h": "حروف الجر", "t": "المكان: in = في، on = على، under = تحت، next to = بجانب.\nالزمان: at + الساعة، on + اليوم، in + الشهر والسنة.\nat seven o'clock, on Monday, in May."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "أكثر ثلاثة أخطاء في هذا المستوى: نسيان s مع he/she/it، نسيان فعل يكون (She a doctor)، وطرح السؤال بدون do/does."},
+   {"k": "tip", "t": "إذا أخطأت في سؤال فارجع إلى درسه وأعد مشاهدته. الهدف من الاختبار أن تعرف نقاط ضعفك، لا أن تحصل على الدرجة الكاملة."},
+   {"k": "grammar", "t": "لا تجمع بين فعل يكون والفعل العادي في المضارع البسيط: لا تقل I am work أو He is plays."}
+  ],
+  "vocab": [
+   {"en": "test", "ar": "اختبار", "emoji": "📝"},
+   {"en": "question", "ar": "سؤال", "emoji": "❓"},
+   {"en": "answer", "ar": "إجابة", "emoji": "💬"},
+   {"en": "correct", "ar": "صحيح", "emoji": "✅"},
+   {"en": "wrong", "ar": "خطأ", "emoji": "❌"},
+   {"en": "mistake", "ar": "غلطة", "emoji": "⚠️"},
+   {"en": "easy", "ar": "سهل", "emoji": "😌"},
+   {"en": "difficult", "ar": "صعب", "emoji": "😓"},
+   {"en": "level", "ar": "مستوى", "emoji": "📶"},
+   {"en": "practice", "ar": "تمرين / ممارسة", "emoji": "🏋️"}
+  ],
+  "phrases": [
+   {"en": "She is a doctor.", "ar": "هي طبيبة."},
+   {"en": "He doesn't work on Friday.", "ar": "هو لا يعمل يوم الجمعة."},
+   {"en": "Do you speak English?", "ar": "هل تتكلم الإنجليزية؟"},
+   {"en": "There are two books on the table.", "ar": "يوجد كتابان على الطاولة."},
+   {"en": "Can I have some water, please?", "ar": "هل يمكنني الحصول على بعض الماء من فضلك؟"},
+   {"en": "This is my brother's car.", "ar": "هذه سيارة أخي."}
+  ],
+  "quiz": [
+   {"q": "اختر الصحيح: They ___ from Egypt.", "o": ["is", "am", "are", "be"], "a": 2, "why": "مع they نستخدم are."},
+   {"q": "اختر الصحيح: My father ___ in a hospital.", "o": ["works", "work", "working", "is work"], "a": 0, "why": "my father = he فنضيف s للفعل."},
+   {"q": "اختر الصحيح: ___ she like tea?", "o": ["Do", "Is", "Are", "Does"], "a": 3, "why": "مع she نسأل بـ Does."},
+   {"q": "اختر الصحيح: There ___ any milk in the fridge.", "o": ["aren't", "isn't", "don't", "doesn't"], "a": 1, "why": "milk غير معدود فيعامل كالمفرد: There isn't."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I can to swim.", "She cans swim.", "He can swim.", "They can swims."], "a": 2, "why": "can ثابتة وبعدها الفعل الأصلي."},
+   {"q": "اختر الصحيح: The lesson is ___ Monday ___ nine o'clock.", "o": ["in / on", "on / at", "at / in", "on / in"], "a": 1, "why": "on مع اليوم و at مع الساعة."}
+  ]
+ }
+]

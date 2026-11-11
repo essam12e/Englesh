@@ -1,0 +1,333 @@
+[
+{
+"n": "73",
+"type": "vocab",
+"title_ar": "وصف المدن",
+"title_en": "Describing cities",
+"summary": "تتعلم كيف تصف مدينتك أو أي مدينة زرتها: هل هي كبيرة، مزدحمة، هادئة، نظيفة؟ وماذا يوجد فيها؟ ستستخدم There is / There are مع صفات المدن.",
+"notes": [
+{"h": "السؤال عن المدينة", "t": "What is your city like? = كيف هي مدينتك؟\nWhere is it? = أين تقع؟\nIt is in the north of Egypt = تقع في شمال مصر.\nالجهات: north = شمال، south = جنوب، east = شرق، west = غرب"},
+{"h": "صفات المدن", "t": "big / small = كبيرة / صغيرة\nmodern / old = حديثة / قديمة\ncrowded = مزدحمة\nquiet / noisy = هادئة / صاخبة\nclean / dirty = نظيفة / متسخة\nsafe / dangerous = آمنة / خطيرة\nIt is a big, modern city = إنها مدينة كبيرة وحديثة."},
+{"h": "ماذا يوجد في المدينة؟", "t": "There is + مفرد: There is a big park = يوجد حديقة كبيرة.\nThere are + جمع: There are many restaurants = يوجد مطاعم كثيرة.\nالنفي: There isn't a cinema = لا توجد سينما. / There aren't any hotels = لا توجد فنادق."},
+{"h": "الحديث عن الحياة فيها", "t": "The traffic is terrible = الزحام المروري فظيع.\nThe people are friendly = الناس ودودون.\nIt is famous for its old market = هي مشهورة بسوقها القديم.\nI like living here = أحب العيش هنا."}
+],
+"alerts": [
+{"k": "mistake", "t": "السؤال What is your city like? يسأل عن الوصف، فلا تُجب بـ I like. الجواب: It is big and crowded."},
+{"k": "grammar", "t": "There is مع المفرد و There are مع الجمع: There is a museum / There are two museums."},
+{"k": "pron", "t": "crowded تُنطق: كراودِد (ed هنا تُنطق إد). و quiet تُنطق: كوايَت، وتختلف عن quite (كوايت) التي تعني إلى حد ما."}
+],
+"vocab": [
+{"en": "city", "ar": "مدينة", "emoji": "🏙️"},
+{"en": "crowded", "ar": "مزدحم", "emoji": "👥"},
+{"en": "quiet", "ar": "هادئ", "emoji": "🤫"},
+{"en": "noisy", "ar": "صاخب", "emoji": "📢"},
+{"en": "modern", "ar": "حديث", "emoji": "🏢"},
+{"en": "clean", "ar": "نظيف", "emoji": "✨"},
+{"en": "dirty", "ar": "متسخ", "emoji": "🗑️"},
+{"en": "safe", "ar": "آمن", "emoji": "🛡️"},
+{"en": "traffic", "ar": "زحام مروري", "emoji": "🚦"},
+{"en": "building", "ar": "مبنى", "emoji": "🏬"},
+{"en": "famous", "ar": "مشهور", "emoji": "🌟"},
+{"en": "bridge", "ar": "جسر", "emoji": "🌉"}
+],
+"phrases": [
+{"en": "What is your city like?", "ar": "كيف هي مدينتك؟"},
+{"en": "It is big and crowded.", "ar": "هي كبيرة ومزدحمة."},
+{"en": "There are many restaurants.", "ar": "يوجد مطاعم كثيرة."},
+{"en": "The traffic is terrible.", "ar": "الزحام المروري فظيع."},
+{"en": "It is famous for its old market.", "ar": "هي مشهورة بسوقها القديم."}
+],
+"quiz": [
+{"q": "اختر الصحيح: ___ a big park in my city.", "o": ["There are", "There is", "It is", "They are"], "a": 1, "why": "a big park مفرد، فنستخدم There is."},
+{"q": "ما عكس quiet؟", "o": ["clean", "safe", "noisy", "modern"], "a": 2, "why": "quiet هادئ وعكسها noisy صاخب."},
+{"q": "أكمل: What is your city like? - ___", "o": ["It is small and quiet.", "I like pizza.", "Yes, I do.", "I like it very much, thanks."], "a": 0, "why": "السؤال عن الوصف، فالجواب It is + صفات."},
+{"q": "ما معنى: crowded؟", "o": ["نظيف", "قديم", "خطير", "مزدحم"], "a": 3, "why": "crowded تعني مزدحم بالناس."},
+{"q": "اختر الصحيح: There ___ any hotels near here.", "o": ["isn't", "aren't", "not", "wasn't"], "a": 1, "why": "hotels جمع، فالنفي There aren't."},
+{"q": "اختر الصحيح: Paris is famous ___ its tower.", "o": ["with", "of", "for", "by"], "a": 2, "why": "التعبير هو famous for."}
+]
+},
+{
+"n": "74",
+"type": "vocab",
+"title_ar": "وصف الطبيعة",
+"title_en": "Describing nature",
+"summary": "تتعلم أسماء المعالم الطبيعية مثل الجبل والنهر والغابة والصحراء، والصفات التي نصفها بها. مفيد عند الحديث عن الرحلات والأماكن الجميلة.",
+"notes": [
+{"h": "الماء", "t": "sea = بحر\nocean = محيط\nriver = نهر\nlake = بحيرة\nbeach = شاطئ\nisland = جزيرة\nwaterfall = شلال"},
+{"h": "اليابسة", "t": "mountain = جبل\nhill = تل\nforest = غابة\ndesert = صحراء\nvalley = وادٍ\nfield = حقل"},
+{"h": "صفات الطبيعة", "t": "high = عالٍ: a high mountain = جبل عالٍ\ndeep = عميق: a deep lake = بحيرة عميقة\nwide = واسع: a wide river = نهر واسع\ngreen = أخضر، dry = جاف، wild = برّي\nbeautiful = جميل، peaceful = هادئ ومريح"},
+{"h": "جمل للوصف", "t": "The view is amazing = المنظر مذهل.\nThere are a lot of trees = يوجد أشجار كثيرة.\nThe air is fresh = الهواء منعش.\nI love walking in the forest = أحب المشي في الغابة."}
+],
+"alerts": [
+{"k": "pron", "t": "island تُنطق: آيلَند (حرف s صامت). و mountain تُنطق: ماونتِن."},
+{"k": "pron", "t": "desert (صحراء) النبر على المقطع الأول: دِزَرت. أما dessert (حلوى) فالنبر على الثاني: دِزيرت."},
+{"k": "grammar", "t": "نضع the قبل أسماء الأنهار والبحار والمحيطات والصحارى: the Nile, the Red Sea, the Sahara."}
+],
+"vocab": [
+{"en": "mountain", "ar": "جبل", "emoji": "⛰️"},
+{"en": "river", "ar": "نهر", "emoji": "🏞️"},
+{"en": "lake", "ar": "بحيرة", "emoji": "🛶"},
+{"en": "forest", "ar": "غابة", "emoji": "🌲"},
+{"en": "desert", "ar": "صحراء", "emoji": "🏜️"},
+{"en": "island", "ar": "جزيرة", "emoji": "🏝️"},
+{"en": "ocean", "ar": "محيط", "emoji": "🌊"},
+{"en": "tree", "ar": "شجرة", "emoji": "🌳"},
+{"en": "flower", "ar": "زهرة", "emoji": "🌸"},
+{"en": "sky", "ar": "سماء", "emoji": "🌌"},
+{"en": "waterfall", "ar": "شلال", "emoji": "💦"},
+{"en": "view", "ar": "منظر", "emoji": "🖼️"}
+],
+"phrases": [
+{"en": "The mountain is very high.", "ar": "الجبل عالٍ جداً."},
+{"en": "We swam in the lake.", "ar": "سبحنا في البحيرة."},
+{"en": "The view is amazing.", "ar": "المنظر مذهل."},
+{"en": "I love walking in the forest.", "ar": "أحب المشي في الغابة."},
+{"en": "The air is fresh here.", "ar": "الهواء منعش هنا."}
+],
+"quiz": [
+{"q": "ما معنى: desert؟", "o": ["حلوى", "غابة", "صحراء", "جزيرة"], "a": 2, "why": "desert بحرف s واحد تعني صحراء."},
+{"q": "أرض يحيط بها الماء من كل الجهات هي:", "o": ["an island", "a hill", "a field", "a valley"], "a": 0, "why": "island هي الجزيرة."},
+{"q": "أي حرف صامت في كلمة island؟", "o": ["i", "l", "d", "s"], "a": 3, "why": "حرف s لا يُنطق: آيلَند."},
+{"q": "اختر الصفة المناسبة: a ___ mountain", "o": ["deep", "high", "wide", "wet"], "a": 1, "why": "الجبل يوصف بأنه high = عالٍ."},
+{"q": "أي جملة صحيحة؟", "o": ["Nile is a long river.", "A Nile is a long river.", "The Nile is a long river.", "Nile the is a long river."], "a": 2, "why": "أسماء الأنهار تأخذ the."},
+{"q": "ما معنى: forest؟", "o": ["حقل", "غابة", "بحيرة", "وادٍ"], "a": 1, "why": "forest تعني غابة."}
+]
+},
+{
+"n": "75",
+"type": "vocab",
+"title_ar": "وصف الطقس",
+"title_en": "Describing the weather",
+"summary": "تتعلم كيف تسأل عن الطقس وتصفه: مشمس، ممطر، عاصف، بارد. الحديث عن الطقس من أشهر طرق بدء المحادثة مع المتحدثين بالإنجليزية.",
+"notes": [
+{"h": "السؤال عن الطقس", "t": "What is the weather like? = كيف هو الطقس؟\nWhat is the weather like today? = كيف الطقس اليوم؟\nHow is the weather? = كيف الطقس؟\nالجواب يبدأ بـ It is: It is sunny = الجو مشمس."},
+{"h": "صفات الطقس (اسم + y)", "t": "sun - sunny = مشمس\nrain - rainy = ممطر\ncloud - cloudy = غائم\nwind - windy = عاصف\nsnow - snowy = مثلج\nfog - foggy = ضبابي\nstorm - stormy = عاصف مع رعد"},
+{"h": "الحرارة", "t": "hot = حار\nwarm = دافئ\ncool = لطيف البرودة\ncold = بارد\nfreezing = شديد البرودة\nIt is 30 degrees = الحرارة ثلاثون درجة."},
+{"h": "أفعال الطقس", "t": "It is raining = إنها تمطر الآن.\nIt is snowing = الثلج يتساقط الآن.\nIt rains a lot in winter = تمطر كثيراً في الشتاء.\nIt rained yesterday = أمطرت أمس.\nIt will be sunny tomorrow = سيكون الجو مشمساً غداً."}
+],
+"alerts": [
+{"k": "grammar", "t": "جملة الطقس تبدأ دائماً بـ It: It is cold وليس The weather cold أو Is cold."},
+{"k": "mistake", "t": "فرّق بين الصفة والفعل: It is rainy (صفة) أو It is raining (فعل). لا تقل It is rain."},
+{"k": "pron", "t": "weather تُنطق: وِذَر (th مثل الذال)، و warm تُنطق: وُورم وليست وارم."}
+],
+"vocab": [
+{"en": "weather", "ar": "الطقس", "emoji": "🌤️"},
+{"en": "sunny", "ar": "مشمس", "emoji": "☀️"},
+{"en": "rainy", "ar": "ممطر", "emoji": "🌧️"},
+{"en": "cloudy", "ar": "غائم", "emoji": "☁️"},
+{"en": "windy", "ar": "عاصف", "emoji": "💨"},
+{"en": "snowy", "ar": "مثلج", "emoji": "❄️"},
+{"en": "foggy", "ar": "ضبابي", "emoji": "🌫️"},
+{"en": "storm", "ar": "عاصفة", "emoji": "⛈️"},
+{"en": "hot", "ar": "حار", "emoji": "🥵"},
+{"en": "cold", "ar": "بارد", "emoji": "🥶"},
+{"en": "warm", "ar": "دافئ", "emoji": "🌡️"},
+{"en": "umbrella", "ar": "مظلة", "emoji": "☂️"}
+],
+"phrases": [
+{"en": "What is the weather like today?", "ar": "كيف الطقس اليوم؟"},
+{"en": "It is sunny and warm.", "ar": "الجو مشمس ودافئ."},
+{"en": "It is raining now.", "ar": "إنها تمطر الآن."},
+{"en": "It was very cold yesterday.", "ar": "كان الجو بارداً جداً أمس."},
+{"en": "Take an umbrella with you.", "ar": "خذ مظلة معك."}
+],
+"quiz": [
+{"q": "أي جملة صحيحة؟", "o": ["Is cold today.", "The weather cold today.", "It cold today.", "It is cold today."], "a": 3, "why": "جملة الطقس تبدأ بـ It is."},
+{"q": "ما الصفة من cloud؟", "o": ["cloudy", "clouding", "clouded", "cloudly"], "a": 0, "why": "نضيف y للاسم: cloudy = غائم."},
+{"q": "اختر الصحيح: Look outside. It is ___ now.", "o": ["rain", "rains", "raining", "rained"], "a": 2, "why": "حدث يجري الآن، فنستخدم is raining."},
+{"q": "ما معنى: windy؟", "o": ["ضبابي", "عاصف", "مثلج", "دافئ"], "a": 1, "why": "windy من wind (ريح) وتعني عاصف."},
+{"q": "أي كلمة تدل على أشد برودة؟", "o": ["cool", "warm", "freezing", "hot"], "a": 2, "why": "freezing تعني شديد البرودة."},
+{"q": "كيف تسأل عن الطقس؟", "o": ["What does the weather like?", "What is the weather like?", "How the weather is?", "What weather is like?"], "a": 1, "why": "الصيغة: What is the weather like?"}
+]
+},
+{
+"n": "76",
+"type": "vocab",
+"title_ar": "وصف منزلك",
+"title_en": "Describing your house",
+"summary": "تتعلم أسماء غرف المنزل وأجزائه وكيف تصف بيتك: كم غرفة فيه، وما الذي يوجد فيه، وفي أي طابق تسكن. موضوع أساسي عند البحث عن سكن أو التعريف بنفسك.",
+"notes": [
+{"h": "أنواع السكن", "t": "house = منزل\nflat / apartment = شقة\nI live in a flat = أسكن في شقة.\nIt is on the second floor = هي في الطابق الثاني.\nI live with my family = أسكن مع عائلتي."},
+{"h": "الغرف", "t": "living room = غرفة الجلوس\nbedroom = غرفة النوم\nkitchen = مطبخ\nbathroom = حمّام\ndining room = غرفة الطعام\nThere are three bedrooms = يوجد ثلاث غرف نوم."},
+{"h": "أجزاء المنزل", "t": "door = باب\nwindow = نافذة\nstairs = درج\nroof = سطح\ngarden = حديقة\nbalcony = شرفة\ngarage = مرآب"},
+{"h": "وصف المنزل", "t": "My house is big and comfortable = منزلي كبير ومريح.\nIt has two floors = فيه طابقان.\nIt has a small garden = فيه حديقة صغيرة.\nThe kitchen is next to the living room = المطبخ بجانب غرفة الجلوس.\nupstairs = في الطابق العلوي، downstairs = في الطابق السفلي"}
+],
+"alerts": [
+{"k": "grammar", "t": "مع الطوابق نستخدم on: on the first floor = في الطابق الأول. وليس in the first floor."},
+{"k": "mistake", "t": "لا تخلط kitchen (مطبخ) مع chicken (دجاج). kitchen تُنطق: كِتشِن."},
+{"k": "pron", "t": "comfortable تُنطق في ثلاثة مقاطع: كَمف-تَ-بل. و garage تُنطق: غَراج أو غارِج."}
+],
+"vocab": [
+{"en": "house", "ar": "منزل", "emoji": "🏠"},
+{"en": "flat", "ar": "شقة", "emoji": "🏢"},
+{"en": "living room", "ar": "غرفة الجلوس", "emoji": "🛋️"},
+{"en": "bedroom", "ar": "غرفة النوم", "emoji": "🛏️"},
+{"en": "kitchen", "ar": "مطبخ", "emoji": "🍳"},
+{"en": "bathroom", "ar": "حمّام", "emoji": "🚿"},
+{"en": "garden", "ar": "حديقة", "emoji": "🌷"},
+{"en": "door", "ar": "باب", "emoji": "🚪"},
+{"en": "window", "ar": "نافذة", "emoji": "🪟"},
+{"en": "stairs", "ar": "درج", "emoji": "🪜"},
+{"en": "floor", "ar": "طابق / أرضية", "emoji": "🔢"},
+{"en": "garage", "ar": "مرآب", "emoji": "🚗"}
+],
+"phrases": [
+{"en": "I live in a small flat.", "ar": "أسكن في شقة صغيرة."},
+{"en": "There are three bedrooms.", "ar": "يوجد ثلاث غرف نوم."},
+{"en": "My flat is on the second floor.", "ar": "شقتي في الطابق الثاني."},
+{"en": "The house has a big garden.", "ar": "في المنزل حديقة كبيرة."},
+{"en": "The kitchen is next to the living room.", "ar": "المطبخ بجانب غرفة الجلوس."}
+],
+"quiz": [
+{"q": "أين نطبخ الطعام؟", "o": ["in the bedroom", "in the bathroom", "in the kitchen", "in the garage"], "a": 2, "why": "kitchen هو المطبخ."},
+{"q": "اختر الصحيح: My flat is ___ the third floor.", "o": ["on", "in", "at", "to"], "a": 0, "why": "مع الطوابق نستخدم on."},
+{"q": "ما معنى: upstairs؟", "o": ["خارج البيت", "في الطابق السفلي", "بجانب الدرج", "في الطابق العلوي"], "a": 3, "why": "upstairs تعني في الطابق العلوي."},
+{"q": "اختر الصحيح: There ___ two bathrooms in my house.", "o": ["is", "are", "has", "have"], "a": 1, "why": "two bathrooms جمع، فنستخدم There are."},
+{"q": "أين نضع السيارة؟", "o": ["in the living room", "on the roof", "in the garage", "on the balcony"], "a": 2, "why": "garage هو مرآب السيارة."},
+{"q": "ما معنى: bedroom؟", "o": ["غرفة الجلوس", "غرفة النوم", "غرفة الطعام", "الحمّام"], "a": 1, "why": "bed سرير و room غرفة: غرفة النوم."}
+]
+},
+{
+"n": "77",
+"type": "vocab",
+"title_ar": "وصف غرفتك",
+"title_en": "Describing your room",
+"summary": "تتعلم أسماء الأثاث والأشياء الموجودة في الغرفة، وكيف تحدد مكان كل شيء باستخدام حروف الجر المكانية: على، تحت، بجانب، بين، خلف، أمام.",
+"notes": [
+{"h": "الأثاث", "t": "bed = سرير\ndesk = مكتب\nchair = كرسي\nwardrobe = خزانة ملابس\nshelf = رف\nlamp = مصباح\ncarpet = سجادة\ncurtains = ستائر\nmirror = مرآة\npillow = وسادة"},
+{"h": "حروف الجر المكانية", "t": "in = في / داخل\non = على\nunder = تحت\nnext to = بجانب\nbetween = بين\nbehind = خلف\nin front of = أمام\nopposite = مقابل"},
+{"h": "تحديد المكان", "t": "The lamp is on the desk = المصباح على المكتب.\nMy shoes are under the bed = حذائي تحت السرير.\nThe desk is next to the window = المكتب بجانب النافذة.\nThe bed is between the door and the wardrobe = السرير بين الباب والخزانة."},
+{"h": "وصف الغرفة", "t": "My room is small but tidy = غرفتي صغيرة لكنها مرتبة.\ntidy = مرتب، messy = فوضوي\nbright = مضيء، dark = مظلم\nThere is a picture on the wall = يوجد صورة على الجدار.\nThe walls are white = الجدران بيضاء."}
+],
+"alerts": [
+{"k": "mistake", "t": "نقول on the wall (على الجدار) و on the floor (على الأرض)، وليس in the wall."},
+{"k": "grammar", "t": "جمع shelf هو shelves (تتحول f إلى ves). وبعد between نستخدم and: between the bed and the desk."},
+{"k": "pron", "t": "wardrobe تُنطق: وُورد-روب. و curtains تُنطق: كِرتِنز."}
+],
+"vocab": [
+{"en": "bed", "ar": "سرير", "emoji": "🛏️"},
+{"en": "desk", "ar": "مكتب", "emoji": "🗄️"},
+{"en": "chair", "ar": "كرسي", "emoji": "🪑"},
+{"en": "wardrobe", "ar": "خزانة ملابس", "emoji": "👔"},
+{"en": "shelf", "ar": "رف", "emoji": "📚"},
+{"en": "lamp", "ar": "مصباح", "emoji": "💡"},
+{"en": "mirror", "ar": "مرآة", "emoji": "🪞"},
+{"en": "carpet", "ar": "سجادة", "emoji": "🧶"},
+{"en": "wall", "ar": "جدار", "emoji": "🧱"},
+{"en": "under", "ar": "تحت", "emoji": "⬇️"},
+{"en": "next to", "ar": "بجانب", "emoji": "↔️"},
+{"en": "behind", "ar": "خلف", "emoji": "🔙"}
+],
+"phrases": [
+{"en": "The lamp is on the desk.", "ar": "المصباح على المكتب."},
+{"en": "My shoes are under the bed.", "ar": "حذائي تحت السرير."},
+{"en": "The desk is next to the window.", "ar": "المكتب بجانب النافذة."},
+{"en": "There is a picture on the wall.", "ar": "يوجد صورة على الجدار."},
+{"en": "My room is small but tidy.", "ar": "غرفتي صغيرة لكنها مرتبة."}
+],
+"quiz": [
+{"q": "اختر الصحيح: The picture is ___ the wall.", "o": ["in", "on", "under", "between"], "a": 1, "why": "نقول on the wall = على الجدار."},
+{"q": "ما معنى: behind؟", "o": ["أمام", "بجانب", "خلف", "فوق"], "a": 2, "why": "behind تعني خلف."},
+{"q": "أين نضع الملابس؟", "o": ["in the wardrobe", "in the lamp", "in the mirror", "in the carpet"], "a": 0, "why": "wardrobe هي خزانة الملابس."},
+{"q": "اختر الصحيح: The bed is between the door ___ the desk.", "o": ["or", "to", "with", "and"], "a": 3, "why": "بعد between نستخدم and."},
+{"q": "ما عكس tidy؟", "o": ["bright", "messy", "small", "dark"], "a": 1, "why": "tidy مرتب وعكسها messy فوضوي."},
+{"q": "ما جمع shelf؟", "o": ["shelfs", "shelfes", "shelves", "shelvs"], "a": 2, "why": "تتحول f إلى ves في الجمع."}
+]
+},
+{
+"n": "78",
+"type": "vocab",
+"title_ar": "وصف المشاعر",
+"title_en": "Describing feelings",
+"summary": "تتعلم كيف تعبّر عن مشاعرك: سعيد، حزين، قلق، متحمس، وكيف تسأل الآخرين عن شعورهم. ستتعلم أيضاً الفرق المهم بين الصفات المنتهية بـ ed والمنتهية بـ ing.",
+"notes": [
+{"h": "السؤال عن الشعور", "t": "How do you feel? = كيف تشعر؟\nHow are you feeling today? = كيف تشعر اليوم؟\nWhat's wrong? = ما الخطب؟\nالجواب: I feel + صفة أو I am + صفة\nI feel tired = أشعر بالتعب.\nI am happy = أنا سعيد."},
+{"h": "مشاعر إيجابية", "t": "happy = سعيد\nexcited = متحمس\nrelaxed = مرتاح\nproud = فخور\nsurprised = متفاجئ"},
+{"h": "مشاعر سلبية", "t": "sad = حزين\nangry = غاضب\nworried = قلق\nscared = خائف\nnervous = متوتر\nbored = يشعر بالملل\nlonely = وحيد"},
+{"h": "الفرق بين ed و ing", "t": "الصفة بـ ed تصف شعور الشخص، والصفة بـ ing تصف الشيء الذي يسبب الشعور.\nI am bored = أنا أشعر بالملل.\nThe film is boring = الفيلم ممل.\nI am tired = أنا متعب. / The work is tiring = العمل متعِب.\nI am excited = أنا متحمس. / The match is exciting = المباراة مشوقة."},
+{"h": "ذكر السبب", "t": "نستخدم because = لأن.\nI am happy because I passed the exam = أنا سعيد لأنني نجحتُ في الامتحان.\nShe is worried about her son = هي قلقة على ابنها."}
+],
+"alerts": [
+{"k": "mistake", "t": "لا تقل I am boring إذا كنت تشعر بالملل، فهذا يعني أنا شخص ممل. الصحيح: I am bored."},
+{"k": "grammar", "t": "بعد feel تأتي الصفة مباشرة: I feel happy وليس I feel happily ولا I feel myself happy."},
+{"k": "pron", "t": "worried تُنطق: وَريد، و scared تُنطق: سكيرد (مقطع واحد)، و tired تُنطق: تايَرد."}
+],
+"vocab": [
+{"en": "happy", "ar": "سعيد", "emoji": "😊"},
+{"en": "sad", "ar": "حزين", "emoji": "😢"},
+{"en": "angry", "ar": "غاضب", "emoji": "😠"},
+{"en": "worried", "ar": "قلق", "emoji": "😟"},
+{"en": "scared", "ar": "خائف", "emoji": "😨"},
+{"en": "excited", "ar": "متحمس", "emoji": "🤩"},
+{"en": "bored", "ar": "يشعر بالملل", "emoji": "🥱"},
+{"en": "nervous", "ar": "متوتر", "emoji": "😬"},
+{"en": "surprised", "ar": "متفاجئ", "emoji": "😲"},
+{"en": "proud", "ar": "فخور", "emoji": "🏅"},
+{"en": "lonely", "ar": "وحيد", "emoji": "🧍"},
+{"en": "feel", "ar": "يشعر", "emoji": "❤️"}
+],
+"phrases": [
+{"en": "How do you feel today?", "ar": "كيف تشعر اليوم؟"},
+{"en": "I feel very tired.", "ar": "أشعر بتعب شديد."},
+{"en": "She is worried about her son.", "ar": "هي قلقة على ابنها."},
+{"en": "I am excited about the trip.", "ar": "أنا متحمس للرحلة."},
+{"en": "He was angry with me.", "ar": "كان غاضباً مني."}
+],
+"quiz": [
+{"q": "اختر الصحيح: This lesson is long. I am ___.", "o": ["boring", "bored", "bore", "bores"], "a": 1, "why": "صفة الشعور عند الشخص تنتهي بـ ed."},
+{"q": "اختر الصحيح: The film was very ___.", "o": ["excited", "excite", "exciting", "excites"], "a": 2, "why": "الشيء الذي يسبب الشعور يوصف بصفة ing."},
+{"q": "ما معنى: worried؟", "o": ["قلق", "فخور", "متحمس", "وحيد"], "a": 0, "why": "worried تعني قلق."},
+{"q": "أي جملة صحيحة؟", "o": ["I feel happily.", "I feel me happy.", "I am feel happy.", "I feel happy."], "a": 3, "why": "بعد feel تأتي الصفة مباشرة."},
+{"q": "اختر الصحيح: I am happy ___ I passed the exam.", "o": ["but", "because", "so", "or"], "a": 1, "why": "because تُستخدم لذكر السبب."},
+{"q": "ما عكس happy؟", "o": ["proud", "excited", "sad", "relaxed"], "a": 2, "why": "happy سعيد وعكسها sad حزين."}
+]
+},
+{
+"n": "79",
+"type": "grammar",
+"title_ar": "الأفعال الناقصة",
+"title_en": "Modal verbs",
+"summary": "الأفعال الناقصة مثل can و must و should كلمات تأتي قبل الفعل الرئيسي لتضيف معنى: القدرة، الإذن، الوجوب، النصيحة. في هذا الدرس تتعلم قاعدتها العامة وأهم معانيها.",
+"notes": [
+{"h": "القاعدة العامة", "t": "الصيغة: Subject + modal + الفعل الأصلي\nالفعل الناقص لا يتغير مع أي فاعل (لا نضيف s).\nوبعده فعل أصلي بدون to.\nI can swim = أستطيع السباحة.\nShe can swim = هي تستطيع السباحة."},
+{"h": "can: القدرة والإذن", "t": "I can drive = أستطيع القيادة.\nCan I open the window? = هل يمكنني فتح النافذة؟\nYou can sit here = يمكنك الجلوس هنا.\nالنفي: can't / cannot: I can't hear you = لا أستطيع سماعك."},
+{"h": "must و have to: الوجوب", "t": "You must wear a seat belt = يجب أن تربط حزام الأمان.\nI have to get up early = عليّ أن أستيقظ مبكراً.\nmustn't = ممنوع: You mustn't smoke here = ممنوع التدخين هنا.\ndon't have to = غير ضروري: You don't have to come = لا يلزمك أن تأتي."},
+{"h": "should: النصيحة", "t": "You should see a doctor = ينبغي أن تراجع طبيباً.\nYou shouldn't eat too much sugar = لا ينبغي أن تأكل سكراً كثيراً."},
+{"h": "النفي والسؤال", "t": "النفي: نضيف not بعد الفعل الناقص: can't, mustn't, shouldn't.\nالسؤال: نضع الفعل الناقص أولاً: Can you help me? = هل تستطيع مساعدتي؟\nلا نستخدم do / does / did مع الأفعال الناقصة."}
+],
+"alerts": [
+{"k": "mistake", "t": "لا نضع to بعد can / must / should. الخطأ: I can to swim. الصحيح: I can swim. (الاستثناء: have to)"},
+{"k": "grammar", "t": "mustn't تعني ممنوع، أما don't have to فتعني غير ضروري. المعنى مختلف تماماً."},
+{"k": "pron", "t": "حرف l صامت في should و could: شُد، كُد. و mustn't تُنطق: مَسِنت (حرف t الأول صامت)."}
+],
+"vocab": [
+{"en": "can", "ar": "يستطيع / يمكن", "emoji": "💪"},
+{"en": "can't", "ar": "لا يستطيع", "emoji": "🚫"},
+{"en": "must", "ar": "يجب", "emoji": "❗"},
+{"en": "mustn't", "ar": "ممنوع / يجب ألّا", "emoji": "⛔"},
+{"en": "have to", "ar": "عليه أن / مضطر", "emoji": "📌"},
+{"en": "should", "ar": "ينبغي", "emoji": "💡"},
+{"en": "shouldn't", "ar": "لا ينبغي", "emoji": "👎"},
+{"en": "may", "ar": "قد / هل يمكن (رسمي)", "emoji": "🙋"},
+{"en": "drive", "ar": "يقود", "emoji": "🚗"},
+{"en": "smoke", "ar": "يدخّن", "emoji": "🚬"},
+{"en": "seat belt", "ar": "حزام الأمان", "emoji": "💺"}
+],
+"phrases": [
+{"en": "I can speak English.", "ar": "أستطيع التحدث بالإنجليزية."},
+{"en": "Can I open the window?", "ar": "هل يمكنني فتح النافذة؟"},
+{"en": "You must wear a seat belt.", "ar": "يجب أن تربط حزام الأمان."},
+{"en": "You mustn't smoke here.", "ar": "ممنوع التدخين هنا."},
+{"en": "You should see a doctor.", "ar": "ينبغي أن تراجع طبيباً."},
+{"en": "You don't have to come.", "ar": "لا يلزمك أن تأتي."}
+],
+"quiz": [
+{"q": "أي جملة صحيحة؟", "o": ["She cans swim.", "She can to swim.", "She can swim.", "She can swims."], "a": 2, "why": "can لا تتغير وبعدها فعل أصلي بدون to."},
+{"q": "ما معنى: You mustn't park here؟", "o": ["ممنوع أن تقف هنا", "غير ضروري أن تقف هنا", "يمكنك الوقوف هنا", "ينبغي أن تقف هنا"], "a": 0, "why": "mustn't تدل على المنع."},
+{"q": "أي فعل نستخدمه للنصيحة؟", "o": ["can", "should", "must", "may"], "a": 1, "why": "should تُستخدم لتقديم النصيحة."},
+{"q": "اختر الصحيح: ___ you help me, please?", "o": ["Do can", "Does", "Are", "Can"], "a": 3, "why": "في السؤال نضع الفعل الناقص أولاً بدون do."},
+{"q": "غداً عطلة. You ___ get up early.", "o": ["mustn't", "must", "don't have to", "have to"], "a": 2, "why": "don't have to تعني غير ضروري."},
+{"q": "اختر الصحيح: He must ___ his homework.", "o": ["does", "do", "to do", "doing"], "a": 1, "why": "بعد must يأتي الفعل الأصلي."}
+]
+}
+]

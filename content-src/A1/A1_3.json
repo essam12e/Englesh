@@ -1,0 +1,380 @@
+[
+ {
+  "n": "18",
+  "type": "vocab",
+  "title_ar": "الحيوانات",
+  "title_en": "Animals",
+  "summary": "تتعلم في هذا الدرس أسماء الحيوانات الأليفة وحيوانات المزرعة والحيوانات البرية، مع بعض الجموع الشاذة، وكيف تصف ما يستطيع الحيوان فعله باستعمال can.",
+  "notes": [
+   {"h": "الحيوانات الأليفة وحيوانات المزرعة", "t": "الحيوانات الأليفة (pets):\ncat = قطة، dog = كلب، bird = طائر، fish = سمكة، rabbit = أرنب\nحيوانات المزرعة (farm animals):\ncow = بقرة، horse = حصان، sheep = خروف، goat = ماعز، chicken = دجاجة، donkey = حمار"},
+   {"h": "الحيوانات البرية", "t": "الحيوانات البرية (wild animals):\nlion = أسد\ntiger = نمر\nelephant = فيل\nmonkey = قرد\ngiraffe = زرافة\nbear = دب\nsnake = ثعبان\ncamel = جمل"},
+   {"h": "الجمع", "t": "معظم الأسماء تُجمع بإضافة s: cat ← cats، dog ← dogs.\nجموع شاذة:\nmouse ← mice = فئران\nsheep ← sheep = خراف (لا تتغير)\nfish ← fish = أسماك (لا تتغير غالباً)\nI have two cats. = عندي قطتان."},
+   {"h": "can = يستطيع", "t": "can + الفعل في صورته الأصلية، مع كل الضمائر بلا تغيير:\nA bird can fly. = الطائر يستطيع الطيران.\nA fish can swim. = السمكة تستطيع السباحة.\nالنفي: can't\nA cow can't fly. = البقرة لا تستطيع الطيران."},
+   {"h": "جمل مفيدة", "t": "I have a cat. = عندي قطة.\nMy favorite animal is the horse. = حيواني المفضل هو الحصان.\nThe elephant is big. = الفيل كبير.\nThe mouse is small. = الفأر صغير."}
+  ],
+  "alerts": [
+   {"k": "grammar", "t": "نقول an elephant لأنها تبدأ بصوت متحرك، ونقول a lion و a horse. وجمع sheep هو sheep بلا s، وجمع mouse هو mice."},
+   {"k": "pron", "t": "bear تُنطق «بير» مثل كلمة hair وليس مثل ear. و tiger تُنطق «تايغر»، و lion تُنطق «لايَن». وفرّق بين sheep بياء طويلة (خروف) و ship بكسرة قصيرة (سفينة)."},
+   {"k": "mistake", "t": "بعد can لا نضيف s ولا to للفعل: A bird can fly. وليس can flies أو can to fly."}
+  ],
+  "vocab": [
+   {"en": "cat", "ar": "قطة", "emoji": "🐱"},
+   {"en": "dog", "ar": "كلب", "emoji": "🐶"},
+   {"en": "bird", "ar": "طائر", "emoji": "🐦"},
+   {"en": "cow", "ar": "بقرة", "emoji": "🐄"},
+   {"en": "horse", "ar": "حصان", "emoji": "🐎"},
+   {"en": "sheep", "ar": "خروف", "emoji": "🐑"},
+   {"en": "lion", "ar": "أسد", "emoji": "🦁"},
+   {"en": "elephant", "ar": "فيل", "emoji": "🐘"},
+   {"en": "monkey", "ar": "قرد", "emoji": "🐒"},
+   {"en": "camel", "ar": "جمل", "emoji": "🐪"},
+   {"en": "rabbit", "ar": "أرنب", "emoji": "🐇"},
+   {"en": "snake", "ar": "ثعبان", "emoji": "🐍"}
+  ],
+  "phrases": [
+   {"en": "I have a cat.", "ar": "عندي قطة."},
+   {"en": "A bird can fly.", "ar": "الطائر يستطيع الطيران."},
+   {"en": "The elephant is very big.", "ar": "الفيل كبير جداً."},
+   {"en": "My favorite animal is the horse.", "ar": "حيواني المفضل هو الحصان."},
+   {"en": "Lions eat meat.", "ar": "الأسود تأكل اللحم."}
+  ],
+  "quiz": [
+   {"q": "ما معنى horse؟", "o": ["بقرة", "حصان", "خروف", "جمل"], "a": 1, "why": "horse = حصان."},
+   {"q": "ما جمع mouse؟", "o": ["mouses", "mouse", "mices", "mice"], "a": 3, "why": "جمع mouse شاذ: mice."},
+   {"q": "أكمل: A bird can ___.", "o": ["fly", "flies", "to fly", "flying"], "a": 0, "why": "بعد can يأتي الفعل في صورته الأصلية."},
+   {"q": "أيّ حيوان من الحيوانات البرية (wild animals)؟", "o": ["cow", "cat", "lion", "sheep"], "a": 2, "why": "lion (الأسد) حيوان بري."},
+   {"q": "أكمل: There is ___ elephant in the zoo.", "o": ["a", "an", "two", "some"], "a": 1, "why": "elephant تبدأ بصوت متحرك فنستعمل an."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I have two sheeps.", "I have two sheep.", "I have two a sheep.", "I has two sheep."], "a": 1, "why": "جمع sheep هو sheep بلا s، ومع I نستعمل have."}
+  ]
+ },
+ {
+  "n": "19",
+  "type": "vocab",
+  "title_ar": "وسائل النقل",
+  "title_en": "Transportation",
+  "summary": "تتعلم في هذا الدرس أسماء وسائل النقل وكيف تقول بأي وسيلة تذهب إلى العمل أو المدرسة باستعمال by. تحتاج هذه الكلمات في السفر والتنقل داخل المدينة.",
+  "notes": [
+   {"h": "وسائل النقل", "t": "car = سيارة\nbus = حافلة\ntrain = قطار\nplane = طائرة\nship = سفينة\nboat = قارب\nbike = دراجة\nmotorbike = دراجة نارية\ntaxi = سيارة أجرة\nsubway = مترو الأنفاق"},
+   {"h": "by + وسيلة النقل", "t": "نستعمل by قبل وسيلة النقل بدون a أو the:\nI go to work by car. = أذهب إلى العمل بالسيارة.\nShe goes to school by bus. = هي تذهب إلى المدرسة بالحافلة.\nWe travel by plane. = نسافر بالطائرة.\nالاستثناء: on foot = مشياً على الأقدام."},
+   {"h": "السؤال", "t": "How do you go to work? = كيف تذهب إلى العمل؟\nI go by bus. = أذهب بالحافلة.\nI walk to work. = أمشي إلى العمل.\nwalk = يمشي."},
+   {"h": "أفعال مفيدة", "t": "drive a car = يقود سيارة\nride a bike = يركب دراجة\ntake a taxi = يأخذ سيارة أجرة\ntake the bus = يركب الحافلة\nI drive to work. = أقود سيارتي إلى العمل."},
+   {"h": "أماكن وكلمات", "t": "station = محطة\nbus stop = موقف الحافلة\nairport = مطار\nticket = تذكرة\nfast = سريع، slow = بطيء\nThe train is fast. = القطار سريع."}
+  ],
+  "alerts": [
+   {"k": "grammar", "t": "بعد by لا نضع a أو the أو my: by car, by bus, by train. ولا نقول by the car."},
+   {"k": "mistake", "t": "لا تقل by foot. الصحيح: on foot. ومع الدراجة نقول ride a bike وليس drive a bike."},
+   {"k": "pron", "t": "bus تُنطق «بَس» بفتحة قصيرة وليس «باص». و ship بكسرة قصيرة (سفينة) تختلف عن sheep بياء طويلة (خروف). و plane تُنطق «بْلين» بحرف p مهموس."}
+  ],
+  "vocab": [
+   {"en": "car", "ar": "سيارة", "emoji": "🚗"},
+   {"en": "bus", "ar": "حافلة", "emoji": "🚌"},
+   {"en": "train", "ar": "قطار", "emoji": "🚆"},
+   {"en": "plane", "ar": "طائرة", "emoji": "✈️"},
+   {"en": "ship", "ar": "سفينة", "emoji": "🚢"},
+   {"en": "boat", "ar": "قارب", "emoji": "⛵"},
+   {"en": "bike", "ar": "دراجة", "emoji": "🚲"},
+   {"en": "motorbike", "ar": "دراجة نارية", "emoji": "🏍️"},
+   {"en": "taxi", "ar": "سيارة أجرة", "emoji": "🚕"},
+   {"en": "truck", "ar": "شاحنة", "emoji": "🚚"},
+   {"en": "ticket", "ar": "تذكرة", "emoji": "🎫"},
+   {"en": "walk", "ar": "يمشي", "emoji": "🚶"}
+  ],
+  "phrases": [
+   {"en": "How do you go to work?", "ar": "كيف تذهب إلى العمل؟"},
+   {"en": "I go to work by car.", "ar": "أذهب إلى العمل بالسيارة."},
+   {"en": "She goes to school by bus.", "ar": "هي تذهب إلى المدرسة بالحافلة."},
+   {"en": "I go to school on foot.", "ar": "أذهب إلى المدرسة مشياً."},
+   {"en": "The train is very fast.", "ar": "القطار سريع جداً."}
+  ],
+  "quiz": [
+   {"q": "أكمل: I go to work ___ bus.", "o": ["in", "on", "by", "with"], "a": 2, "why": "نستعمل by قبل وسيلة النقل."},
+   {"q": "ما معنى plane؟", "o": ["طائرة", "قطار", "سفينة", "حافلة"], "a": 0, "why": "plane = طائرة."},
+   {"q": "اختر الصحيح: «مشياً على الأقدام»", "o": ["by foot", "on foot", "by feet", "in foot"], "a": 1, "why": "الاستثناء الوحيد: on foot."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I go by the car.", "I go by a car.", "I go with car.", "I go by car."], "a": 3, "why": "بعد by لا نضع a أو the."},
+   {"q": "أكمل: I ___ a bike.", "o": ["drive", "ride", "go", "walk"], "a": 1, "why": "مع الدراجة نستعمل ride."},
+   {"q": "أيّ وسيلة تسير في البحر؟", "o": ["train", "bus", "ship", "truck"], "a": 2, "why": "ship = سفينة، وتسير في البحر."}
+  ]
+ },
+ {
+  "n": "20",
+  "type": "vocab",
+  "title_ar": "أماكن المدينة",
+  "title_en": "Places in the city",
+  "summary": "تتعلم في هذا الدرس أسماء أهم الأماكن في المدينة مثل البنك والمستشفى والسوق، وكيف تسأل عن مكانها وتحدد موقعها بحروف المكان.",
+  "notes": [
+   {"h": "أماكن مهمة", "t": "school = مدرسة\nhospital = مستشفى\nbank = بنك\nmosque = مسجد\npharmacy = صيدلية\npolice station = مركز الشرطة\npost office = مكتب البريد\nairport = مطار"},
+   {"h": "أماكن التسوق والترفيه", "t": "supermarket = متجر كبير\nmarket = سوق\nrestaurant = مطعم\ncafe = مقهى\nhotel = فندق\npark = حديقة عامة\ncinema = سينما\nlibrary = مكتبة عامة"},
+   {"h": "السؤال عن المكان", "t": "Where is the bank? = أين البنك؟\nIs there a pharmacy near here? = هل توجد صيدلية قريبة من هنا؟\nYes, there is. = نعم، توجد.\nNo, there isn't. = لا، لا توجد."},
+   {"h": "تحديد الموقع", "t": "next to = بجانب\nopposite = مقابل\nbetween = بين\nnear = قريب من\nThe bank is next to the hotel. = البنك بجانب الفندق.\nThe school is opposite the park. = المدرسة مقابل الحديقة.\nThe cafe is between the bank and the hotel. = المقهى بين البنك والفندق."},
+   {"h": "الذهاب إلى مكان", "t": "go to the + المكان:\nI go to the supermarket. = أذهب إلى المتجر.\nوبدون the مع: go to school = يذهب إلى المدرسة، go to work = يذهب إلى العمل.\nنشتري الدواء من pharmacy ونقرأ الكتب في library."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "library تعني مكتبة للقراءة والاستعارة، أما المكان الذي نشتري منه الكتب فهو bookshop. لا تخلط بينهما."},
+   {"k": "grammar", "t": "next to فيها to، أما opposite و near فلا يأتي بعدهما to: next to the bank لكن opposite the bank و near the bank."},
+   {"k": "pron", "t": "restaurant تُنطق «رِسترونت» بمقطعين أو ثلاثة، و hospital النبرة على أولها «هُسبِتل» مع p مهموسة، و park تبدأ بـ p وليس b."}
+  ],
+  "vocab": [
+   {"en": "school", "ar": "مدرسة", "emoji": "🏫"},
+   {"en": "hospital", "ar": "مستشفى", "emoji": "🏥"},
+   {"en": "bank", "ar": "بنك", "emoji": "🏦"},
+   {"en": "mosque", "ar": "مسجد", "emoji": "🕌"},
+   {"en": "pharmacy", "ar": "صيدلية", "emoji": "💊"},
+   {"en": "supermarket", "ar": "متجر كبير", "emoji": "🛒"},
+   {"en": "restaurant", "ar": "مطعم", "emoji": "🍽️"},
+   {"en": "hotel", "ar": "فندق", "emoji": "🏨"},
+   {"en": "park", "ar": "حديقة عامة", "emoji": "🏞️"},
+   {"en": "library", "ar": "مكتبة عامة", "emoji": "📚"},
+   {"en": "post office", "ar": "مكتب البريد", "emoji": "🏤"},
+   {"en": "airport", "ar": "مطار", "emoji": "🛫"}
+  ],
+  "phrases": [
+   {"en": "Where is the bank?", "ar": "أين البنك؟"},
+   {"en": "The bank is next to the hotel.", "ar": "البنك بجانب الفندق."},
+   {"en": "Is there a pharmacy near here?", "ar": "هل توجد صيدلية قريبة من هنا؟"},
+   {"en": "The school is opposite the park.", "ar": "المدرسة مقابل الحديقة."},
+   {"en": "I go to the supermarket.", "ar": "أذهب إلى المتجر."}
+  ],
+  "quiz": [
+   {"q": "من أين نشتري الدواء؟", "o": ["library", "bank", "hotel", "pharmacy"], "a": 3, "why": "pharmacy = صيدلية."},
+   {"q": "ما معنى library؟", "o": ["مكتبة للقراءة", "متجر كتب", "مدرسة", "مكتب بريد"], "a": 0, "why": "library مكتبة للقراءة والاستعارة."},
+   {"q": "أكمل: The bank is next ___ the hotel.", "o": ["of", "to", "at", "in"], "a": 1, "why": "نقول next to = بجانب."},
+   {"q": "ما معنى opposite؟", "o": ["بجانب", "بين", "مقابل", "قريب من"], "a": 2, "why": "opposite = مقابل."},
+   {"q": "أكمل: The cafe is ___ the bank and the hotel.", "o": ["next", "between", "opposite to", "in"], "a": 1, "why": "between ... and ... = بين ... و ..."},
+   {"q": "اختر السؤال الصحيح:", "o": ["Where the bank is?", "Where bank?", "Where is the bank?", "Where are the bank?"], "a": 2, "why": "Where + is + the + المكان المفرد."}
+  ]
+ },
+ {
+  "n": "21",
+  "type": "conversation",
+  "title_ar": "السؤال عن الاتجاهات",
+  "title_en": "Asking for directions",
+  "summary": "تتعلم في هذا الدرس كيف تسأل عن الطريق بأدب وكيف تفهم الإرشادات وتعطيها: يمين، يسار، إلى الأمام. هذه العبارات ضرورية عند السفر أو في مدينة جديدة.",
+  "notes": [
+   {"h": "السؤال عن الطريق", "t": "نبدأ دائماً بـ Excuse me = عفواً، لو سمحت.\nExcuse me, where is the bank? = عفواً، أين البنك؟\nHow can I get to the station? = كيف أصل إلى المحطة؟\nIs it far? = هل هو بعيد؟\nIt's near. = إنه قريب."},
+   {"h": "إعطاء الاتجاهات", "t": "نستعمل فعل الأمر (الفعل في صورته الأصلية بدون فاعل):\nGo straight. = اذهب إلى الأمام مباشرة.\nTurn left. = انعطف يساراً.\nTurn right. = انعطف يميناً.\nCross the street. = اعبر الشارع.\nStop here. = توقف هنا."},
+   {"h": "تحديد المكان", "t": "on the left = على اليسار\non the right = على اليمين\nat the corner = عند الزاوية\nat the traffic lights = عند إشارة المرور\nIt's on the right. = إنه على اليمين.\nIt's next to the school. = إنه بجانب المدرسة."},
+   {"h": "ترتيب الإرشادات", "t": "first = أولاً، then = ثم\nthe first street = الشارع الأول\nthe second street = الشارع الثاني\nGo straight, then turn left. = اذهب مباشرة ثم انعطف يساراً.\nTake the second street on the right. = خذ الشارع الثاني على اليمين."},
+   {"h": "حوار قصير", "t": "A: Excuse me, where is the hospital? = عفواً، أين المستشفى؟\nB: Go straight, then turn right. It's next to the bank. = اذهب مباشرة ثم انعطف يميناً. إنه بجانب البنك.\nA: Thank you very much. = شكراً جزيلاً.\nB: You're welcome. = على الرحب والسعة."}
+  ],
+  "alerts": [
+   {"k": "grammar", "t": "في إعطاء الاتجاهات نستعمل الفعل مباشرة دون فاعل: Turn left. ولا نقول You turn left أو To turn left."},
+   {"k": "mistake", "t": "نقول on the left و on the right بحرف الجر on. لا تقل in the left أو at the right."},
+   {"k": "pron", "t": "straight تُنطق «سْتْريت»: الحرفان gh لا يُنطقان. و right تُنطق «رايت»، و excuse me تُنطق «إكسكيوز مي»."}
+  ],
+  "vocab": [
+   {"en": "left", "ar": "يسار", "emoji": "⬅️"},
+   {"en": "right", "ar": "يمين", "emoji": "➡️"},
+   {"en": "straight", "ar": "إلى الأمام مباشرة", "emoji": "⬆️"},
+   {"en": "turn", "ar": "ينعطف", "emoji": "↪️"},
+   {"en": "street", "ar": "شارع", "emoji": "🛣️"},
+   {"en": "corner", "ar": "زاوية", "emoji": "📐"},
+   {"en": "traffic lights", "ar": "إشارة المرور", "emoji": "🚦"},
+   {"en": "map", "ar": "خريطة", "emoji": "🗺️"},
+   {"en": "bridge", "ar": "جسر", "emoji": "🌉"},
+   {"en": "stop", "ar": "يتوقف", "emoji": "🛑"},
+   {"en": "near", "ar": "قريب", "emoji": "📍"}
+  ],
+  "phrases": [
+   {"en": "Excuse me, where is the bank?", "ar": "عفواً، أين البنك؟"},
+   {"en": "Go straight, then turn left.", "ar": "اذهب مباشرة ثم انعطف يساراً."},
+   {"en": "It's on the right.", "ar": "إنه على اليمين."},
+   {"en": "Take the second street on the right.", "ar": "خذ الشارع الثاني على اليمين."},
+   {"en": "Is it far from here?", "ar": "هل هو بعيد من هنا؟"},
+   {"en": "Thank you very much.", "ar": "شكراً جزيلاً."}
+  ],
+  "quiz": [
+   {"q": "ما معنى Turn left؟", "o": ["انعطف يساراً", "انعطف يميناً", "اذهب مباشرة", "توقف هنا"], "a": 0, "why": "left = يسار."},
+   {"q": "بماذا نبدأ عندما نسأل شخصاً غريباً عن الطريق؟", "o": ["Goodbye", "Good night", "Excuse me", "You're welcome"], "a": 2, "why": "Excuse me = عفواً، وهي بداية مهذبة للسؤال."},
+   {"q": "أكمل: It's ___ the right.", "o": ["in", "on", "at", "by"], "a": 1, "why": "نقول on the right و on the left."},
+   {"q": "ما معنى Go straight؟", "o": ["ارجع", "انعطف", "اعبر الشارع", "اذهب إلى الأمام مباشرة"], "a": 3, "why": "straight = إلى الأمام مباشرة."},
+   {"q": "اختر الجملة الصحيحة لإعطاء اتجاه:", "o": ["To turn right.", "You turning right.", "Turn right.", "Turns right."], "a": 2, "why": "نستعمل فعل الأمر مباشرة: Turn right."},
+   {"q": "ما الرد المناسب على Thank you؟", "o": ["Excuse me.", "You're welcome.", "Go straight.", "Is it far?"], "a": 1, "why": "You're welcome = على الرحب والسعة."}
+  ]
+ },
+ {
+  "n": "22",
+  "type": "grammar",
+  "title_ar": "ما تحب وما تكره",
+  "title_en": "Likes and dislikes",
+  "summary": "تتعلم في هذا الدرس كيف تعبّر عما تحبه وما لا تحبه باستعمال like و love و hate، وكيف تسأل الآخرين عما يحبون وتجيب بإجابة قصيرة.",
+  "notes": [
+   {"h": "درجات الحب والكره", "t": "I love = أحب جداً\nI like = أحب\nI don't like = لا أحب\nI hate = أكره\nأمثلة:\nI love coffee. = أحب القهوة جداً.\nI like tea. = أحب الشاي.\nI don't like milk. = لا أحب الحليب.\nI hate onions. = أكره البصل."},
+   {"h": "ماذا يأتي بعد like؟", "t": "1) اسم: I like football. = أحب كرة القدم.\n2) فعل مع ing: I like reading. = أحب القراءة.\nمع الأسماء المعدودة نستعمل الجمع عند الكلام بشكل عام:\nI like cats. = أحب القطط.\nI love apples. = أحب التفاح."},
+   {"h": "مع he / she / it", "t": "في الإثبات نضيف s للفعل:\nHe likes pizza. = هو يحب البيتزا.\nShe loves music. = هي تحب الموسيقى.\nفي النفي نستعمل doesn't والفعل بدون s:\nHe doesn't like fish. = هو لا يحب السمك.\nومع I / you / we / they نستعمل don't:\nWe don't like cold weather. = لا نحب الطقس البارد."},
+   {"h": "السؤال والإجابة القصيرة", "t": "Do + I / you / we / they + like ...?\nDo you like tea? = هل تحب الشاي؟\nYes, I do. = نعم. / No, I don't. = لا.\nDoes + he / she + like ...?\nDoes she like coffee? = هل تحب القهوة؟\nYes, she does. / No, she doesn't."},
+   {"h": "عبارات مفيدة", "t": "What do you like? = ماذا تحب؟\nI like it very much. = أحبه كثيراً.\nI like it too. = أنا أيضاً أحبه.\nMy favorite food is rice. = طعامي المفضل هو الأرز."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "لا تقل I am like tea. الفعل like لا يحتاج am / is / are. الصحيح: I like tea."},
+   {"k": "grammar", "t": "مع he و she نقول likes بالـ s، لكن بعد doesn't و does يعود الفعل بدون s: He doesn't like وليس He doesn't likes."},
+   {"k": "mistake", "t": "النفي يكون بـ don't قبل الفعل: I don't like milk. ولا نقول I not like milk أو I like not milk."}
+  ],
+  "vocab": [
+   {"en": "like", "ar": "يحب", "emoji": "👍"},
+   {"en": "love", "ar": "يحب جداً", "emoji": "❤️"},
+   {"en": "hate", "ar": "يكره", "emoji": "😡"},
+   {"en": "don't like", "ar": "لا يحب", "emoji": "👎"},
+   {"en": "favorite", "ar": "مفضل", "emoji": "⭐"},
+   {"en": "pizza", "ar": "بيتزا", "emoji": "🍕"},
+   {"en": "chocolate", "ar": "شوكولاتة", "emoji": "🍫"},
+   {"en": "coffee", "ar": "قهوة", "emoji": "☕"},
+   {"en": "music", "ar": "موسيقى", "emoji": "🎵"},
+   {"en": "football", "ar": "كرة القدم", "emoji": "⚽"},
+   {"en": "onion", "ar": "بصل", "emoji": "🧅"}
+  ],
+  "phrases": [
+   {"en": "I like tea.", "ar": "أحب الشاي."},
+   {"en": "I don't like milk.", "ar": "لا أحب الحليب."},
+   {"en": "She loves chocolate.", "ar": "هي تحب الشوكولاتة جداً."},
+   {"en": "He doesn't like fish.", "ar": "هو لا يحب السمك."},
+   {"en": "Do you like football?", "ar": "هل تحب كرة القدم؟"},
+   {"en": "Yes, I do.", "ar": "نعم، أحبها."}
+  ],
+  "quiz": [
+   {"q": "اختر الجملة الصحيحة:", "o": ["I am like tea.", "I like tea.", "I likes tea.", "I liking tea."], "a": 1, "why": "like فعل لا يحتاج am، ومع I لا نضيف s."},
+   {"q": "أكمل: She ___ chocolate.", "o": ["like", "liking", "likes", "are like"], "a": 2, "why": "مع she نضيف s للفعل: likes."},
+   {"q": "أكمل: I ___ like onions.", "o": ["don't", "doesn't", "not", "am not"], "a": 0, "why": "مع I نستعمل don't للنفي."},
+   {"q": "أكمل: He doesn't ___ fish.", "o": ["likes", "liking", "liked", "like"], "a": 3, "why": "بعد doesn't يأتي الفعل بدون s."},
+   {"q": "ما الإجابة القصيرة الصحيحة؟ Do you like coffee?", "o": ["Yes, I like.", "Yes, I am.", "Yes, I do.", "Yes, I does."], "a": 2, "why": "السؤال بـ Do فالإجابة القصيرة: Yes, I do."},
+   {"q": "ما معنى I hate؟", "o": ["أحب", "أكره", "أحب جداً", "أفضّل"], "a": 1, "why": "hate = يكره."}
+  ]
+ },
+ {
+  "n": "23",
+  "type": "grammar",
+  "title_ar": "فعل يكون — الإثبات",
+  "title_en": "Verb to be (positive)",
+  "summary": "تتعلم في هذا الدرس فعل الكينونة am / is / are في الجملة المثبتة، وهو أهم فعل في الإنجليزية. لا تكتمل الجملة الإنجليزية بدون فعل، ولذلك نحتاجه في جمل مثل «أنا طالب» التي لا فعل لها في العربية.",
+  "notes": [
+   {"h": "القاعدة", "t": "Subject + am / is / are + ...\nI am\nHe is / She is / It is\nYou are / We are / They are\nأمثلة:\nI am a student. = أنا طالب.\nShe is a doctor. = هي طبيبة.\nThey are friends. = هم أصدقاء."},
+   {"h": "الضمائر", "t": "I = أنا\nyou = أنت، أنتم\nhe = هو\nshe = هي\nit = هو أو هي لغير العاقل\nwe = نحن\nthey = هم، هن\nمع الاسم المفرد نستعمل is: Ali is tall. = علي طويل.\nمع الجمع نستعمل are: Ali and Sara are happy. = علي وسارة سعيدان."},
+   {"h": "متى نستعمله", "t": "1) المهنة: He is a teacher. = هو معلم.\n2) الصفة: The car is new. = السيارة جديدة.\n3) المكان: We are at home. = نحن في البيت.\n4) العمر: I am twenty years old. = عمري عشرون سنة.\n5) الجنسية: She is Egyptian. = هي مصرية."},
+   {"h": "الاختصارات", "t": "في الكلام والكتابة غير الرسمية نختصر:\nI am = I'm\nYou are = You're\nHe is = He's\nShe is = She's\nIt is = It's\nWe are = We're\nThey are = They're\nI'm happy. = أنا سعيد."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "في العربية نقول «أنا طالب» بلا فعل، فيقول المتعلم I student. هذا خطأ: لا بد من فعل الكينونة: I am a student."},
+   {"k": "grammar", "t": "am مع I فقط. is مع he / she / it والاسم المفرد. are مع you / we / they والجمع. نقول You are حتى لو كان المخاطب شخصاً واحداً."},
+   {"k": "pron", "t": "He's تُنطق «هيز» بصوت z في آخرها، و They're تُنطق قريباً من «ذير» بصوت «ذ» في أولها، و We're تُنطق «وير»."}
+  ],
+  "vocab": [
+   {"en": "student", "ar": "طالب", "emoji": "🧑‍🎓"},
+   {"en": "happy", "ar": "سعيد", "emoji": "😊"},
+   {"en": "sad", "ar": "حزين", "emoji": "😢"},
+   {"en": "tired", "ar": "متعب", "emoji": "😩"},
+   {"en": "tall", "ar": "طويل", "emoji": "🦒"},
+   {"en": "short", "ar": "قصير", "emoji": "🤏"},
+   {"en": "friend", "ar": "صديق", "emoji": "🤝"},
+   {"en": "home", "ar": "بيت", "emoji": "🏠"},
+   {"en": "new", "ar": "جديد", "emoji": "✨"},
+   {"en": "old", "ar": "قديم، كبير السن", "emoji": "👴"}
+  ],
+  "phrases": [
+   {"en": "I am a student.", "ar": "أنا طالب."},
+   {"en": "She is a doctor.", "ar": "هي طبيبة."},
+   {"en": "We are at home.", "ar": "نحن في البيت."},
+   {"en": "They are my friends.", "ar": "هم أصدقائي."},
+   {"en": "It is a new car.", "ar": "إنها سيارة جديدة."},
+   {"en": "You are very tall.", "ar": "أنت طويل جداً."}
+  ],
+  "quiz": [
+   {"q": "اختر الصحيح: She ___ a doctor.", "o": ["am", "is", "are", "be"], "a": 1, "why": "مع she نستعمل is."},
+   {"q": "اختر الصحيح: I ___ happy.", "o": ["am", "is", "are", "be"], "a": 0, "why": "مع I نستعمل am فقط."},
+   {"q": "اختر الصحيح: They ___ friends.", "o": ["is", "am", "be", "are"], "a": 3, "why": "مع they نستعمل are."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I student.", "I is a student.", "I am a student.", "I are a student."], "a": 2, "why": "لا بد من فعل الكينونة، ومع I نستعمل am."},
+   {"q": "ما اختصار They are؟", "o": ["They'r", "Their", "They're", "Theyr'e"], "a": 2, "why": "They are = They're."},
+   {"q": "اختر الصحيح: Ali and Sara ___ at home.", "o": ["is", "are", "am", "be"], "a": 1, "why": "Ali and Sara جمع (= they) فنستعمل are."}
+  ]
+ },
+ {
+  "n": "24",
+  "type": "grammar",
+  "title_ar": "فعل يكون — النفي",
+  "title_en": "Verb to be (negative)",
+  "summary": "تتعلم في هذا الدرس كيف تنفي الجملة التي فيها am / is / are بإضافة not، مع الاختصارات isn't و aren't. بهذا تستطيع أن تقول «لستُ» و«ليس» و«ليسوا» بالإنجليزية.",
+  "notes": [
+   {"h": "القاعدة", "t": "Subject + am / is / are + not + ...\nنضع not بعد فعل الكينونة مباشرة:\nI am not tired. = لست متعباً.\nHe is not a teacher. = هو ليس معلماً.\nThey are not at home. = هم ليسوا في البيت."},
+   {"h": "الاختصارات", "t": "is not = isn't\nare not = aren't\nHe isn't here. = هو ليس هنا.\nWe aren't late. = لسنا متأخرين.\nمع I لا يوجد اختصار amn't، بل نقول:\nI'm not hungry. = لست جائعاً."},
+   {"h": "شكلان للاختصار", "t": "يمكن اختصار الفعل مع الضمير أو مع not، والمعنى واحد:\nHe isn't happy. = He's not happy. = هو ليس سعيداً.\nThey aren't here. = They're not here. = هم ليسوا هنا.\nYou aren't late. = You're not late. = لست متأخراً."},
+   {"h": "من الإثبات إلى النفي", "t": "She is a nurse. ← She isn't a nurse. = هي ليست ممرضة.\nIt is cold. ← It isn't cold. = الجو ليس بارداً.\nWe are students. ← We aren't students. = لسنا طلاباً.\nI am from Egypt. ← I'm not from Egypt. = لست من مصر."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "لا تستعمل don't أو no مع فعل الكينونة. لا تقل I don't happy أو I am no happy. الصحيح: I am not happy."},
+   {"k": "grammar", "t": "not تأتي بعد am / is / are وليس قبلها: She is not here وليس She not is here. ولا يوجد اختصار amn't."},
+   {"k": "pron", "t": "isn't تُنطق «إزِنت»، و aren't تُنطق «آرنت» بمقطع واحد. حرف t في آخرهما خفيف لكنه مهم للتفريق بين الإثبات والنفي."}
+  ],
+  "vocab": [
+   {"en": "not", "ar": "ليس، لا", "emoji": "❌"},
+   {"en": "tired", "ar": "متعب", "emoji": "😩"},
+   {"en": "hungry", "ar": "جائع", "emoji": "🍽️"},
+   {"en": "late", "ar": "متأخر", "emoji": "⏰"},
+   {"en": "busy", "ar": "مشغول", "emoji": "💼"},
+   {"en": "ready", "ar": "جاهز", "emoji": "✅"},
+   {"en": "angry", "ar": "غاضب", "emoji": "😠"},
+   {"en": "sick", "ar": "مريض", "emoji": "🤒"},
+   {"en": "here", "ar": "هنا", "emoji": "📍"},
+   {"en": "cold", "ar": "بارد", "emoji": "🥶"}
+  ],
+  "phrases": [
+   {"en": "I am not tired.", "ar": "لست متعباً."},
+   {"en": "He isn't a teacher.", "ar": "هو ليس معلماً."},
+   {"en": "They aren't at home.", "ar": "هم ليسوا في البيت."},
+   {"en": "It isn't cold today.", "ar": "الجو ليس بارداً اليوم."},
+   {"en": "We aren't late.", "ar": "لسنا متأخرين."},
+   {"en": "I'm not hungry.", "ar": "لست جائعاً."}
+  ],
+  "quiz": [
+   {"q": "اختر الصحيح: She ___ a nurse. (نفي)", "o": ["aren't", "am not", "isn't", "don't"], "a": 2, "why": "مع she نستعمل is not = isn't."},
+   {"q": "اختر الجملة الصحيحة:", "o": ["I amn't hungry.", "I'm not hungry.", "I don't hungry.", "I not hungry."], "a": 1, "why": "مع I نقول I'm not، ولا يوجد اختصار amn't."},
+   {"q": "اختر الصحيح: They ___ at home. (نفي)", "o": ["aren't", "isn't", "am not", "not"], "a": 0, "why": "مع they نستعمل are not = aren't."},
+   {"q": "أين نضع not؟", "o": ["قبل الفاعل", "قبل am / is / are", "في آخر الجملة", "بعد am / is / are"], "a": 3, "why": "not تأتي بعد فعل الكينونة مباشرة."},
+   {"q": "حوّل إلى النفي: He is happy.", "o": ["He not is happy.", "He don't happy.", "He isn't happy.", "He aren't happy."], "a": 2, "why": "He is ← He isn't."},
+   {"q": "ما اختصار are not؟", "o": ["arn't", "aren't", "are'nt", "amn't"], "a": 1, "why": "are not = aren't."}
+  ]
+ },
+ {
+  "n": "25",
+  "type": "grammar",
+  "title_ar": "فعل يكون — السؤال",
+  "title_en": "Verb to be (questions)",
+  "summary": "تتعلم في هذا الدرس كيف تكوّن السؤال بفعل الكينونة بتقديم am / is / are على الفاعل، وكيف تجيب بإجابة قصيرة، مع أسئلة أدوات الاستفهام مثل What و Where و Who.",
+  "notes": [
+   {"h": "القاعدة", "t": "Am / Is / Are + Subject + ...?\nنبدّل مكان الفاعل وفعل الكينونة:\nYou are a student. ← Are you a student? = هل أنت طالب؟\nHe is at home. ← Is he at home? = هل هو في البيت؟\nThey are ready. ← Are they ready? = هل هم جاهزون؟\nAm I late? = هل أنا متأخر؟"},
+   {"h": "الإجابة القصيرة", "t": "Yes + ضمير + am / is / are\nNo + ضمير + am not / isn't / aren't\nAre you a student? ← Yes, I am. / No, I'm not.\nIs she a doctor? ← Yes, she is. / No, she isn't.\nAre they at home? ← Yes, they are. / No, they aren't."},
+   {"h": "أسئلة أدوات الاستفهام", "t": "أداة الاستفهام + am / is / are + Subject?\nWhat is your name? = ما اسمك؟\nWhere are you from? = من أين أنت؟\nHow old is he? = كم عمره؟\nWho is she? = من هي؟\nHow are you? = كيف حالك؟"},
+   {"h": "معاني أدوات الاستفهام", "t": "What = ما، ماذا\nWhere = أين\nWho = مَن\nHow = كيف\nHow old = كم العمر\nWhen = متى\nجواب هذه الأسئلة معلومة وليس Yes أو No:\nWhere is Ali? ← He is at school. = هو في المدرسة."}
+  ],
+  "alerts": [
+   {"k": "mistake", "t": "في العربية نسأل بتغيير النبرة فقط أو بكلمة «هل». في الإنجليزية لا بد من تقديم الفعل: Are you a student? وليس You are a student? ولا نستعمل Do مع فعل الكينونة: لا تقل Do you are happy?"},
+   {"k": "grammar", "t": "في الإجابة القصيرة بـ Yes لا نختصر: Yes, I am. وليس Yes, I'm. و Yes, she is. وليس Yes, she's."},
+   {"k": "tip", "t": "عندما يسألك أحد Are you ...? فالجواب يكون بـ I am: Yes, I am. ولا تكرر are في جوابك عن نفسك."}
+  ],
+  "vocab": [
+   {"en": "what", "ar": "ما، ماذا", "emoji": "❓"},
+   {"en": "where", "ar": "أين", "emoji": "📍"},
+   {"en": "who", "ar": "مَن", "emoji": "👤"},
+   {"en": "how", "ar": "كيف", "emoji": "🤔"},
+   {"en": "when", "ar": "متى", "emoji": "📅"},
+   {"en": "yes", "ar": "نعم", "emoji": "✅"},
+   {"en": "no", "ar": "لا", "emoji": "❌"},
+   {"en": "question", "ar": "سؤال", "emoji": "🙋"},
+   {"en": "answer", "ar": "جواب", "emoji": "💬"},
+   {"en": "married", "ar": "متزوج", "emoji": "💍"}
+  ],
+  "phrases": [
+   {"en": "Are you a student?", "ar": "هل أنت طالب؟"},
+   {"en": "Yes, I am.", "ar": "نعم، أنا كذلك."},
+   {"en": "Is she a doctor?", "ar": "هل هي طبيبة؟"},
+   {"en": "No, she isn't.", "ar": "لا، ليست كذلك."},
+   {"en": "Where are you from?", "ar": "من أين أنت؟"},
+   {"en": "How old is he?", "ar": "كم عمره؟"}
+  ],
+  "quiz": [
+   {"q": "اختر السؤال الصحيح:", "o": ["You are a student?", "Do you are a student?", "Is you a student?", "Are you a student?"], "a": 3, "why": "نقدّم are على الفاعل you."},
+   {"q": "أكمل: ___ she a doctor?", "o": ["Is", "Are", "Am", "Do"], "a": 0, "why": "مع she نستعمل Is."},
+   {"q": "ما الإجابة القصيرة الصحيحة؟ Are you happy?", "o": ["Yes, I'm.", "Yes, you are.", "Yes, I am.", "Yes, I do."], "a": 2, "why": "الجواب عن النفس: Yes, I am بدون اختصار."},
+   {"q": "أكمل: Where ___ you from?", "o": ["is", "are", "am", "do"], "a": 1, "why": "مع you نستعمل are."},
+   {"q": "ما الإجابة الصحيحة؟ Is he at home?", "o": ["No, he aren't.", "No, he not.", "No, he isn't.", "No, he don't."], "a": 2, "why": "مع he في النفي: No, he isn't."},
+   {"q": "أيّ أداة استفهام نسأل بها عن المكان؟", "o": ["Who", "Where", "What", "How"], "a": 1, "why": "Where = أين."}
+  ]
+ }
+]

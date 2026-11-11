@@ -1,0 +1,408 @@
+[
+{
+ "n": "176",
+ "type": "vocab",
+ "title_ar": "أنظمة الرعاية الصحية",
+ "title_en": "Healthcare systems",
+ "summary": "تتعلم مفردات الرعاية الصحية العامة والخاصة والتأمين والعلاج، وكيف تقارن بين الأنظمة الصحية. مفيد للنقاش ولمن يعيش أو يسافر إلى بلد أجنبي.",
+ "notes": [
+  {"h": "عام أم خاص", "t": "public healthcare = الرعاية الصحية الحكومية، وتُموَّل من الضرائب (funded by taxes).\nprivate healthcare = الرعاية الخاصة.\nhealth insurance = التأمين الصحي.\nfree at the point of use = مجاني عند تلقّي الخدمة.\naffordable = بسعر معقول.\nمثال: Private treatment is faster but more expensive."},
+  {"h": "الأشخاص والأماكن", "t": "GP (general practitioner) = طبيب عام.\nspecialist = طبيب مختص.\nsurgeon = جرّاح.\nclinic = عيادة.\nA and E / emergency room = قسم الطوارئ.\nward = جناح في المستشفى.\npatient = مريض."},
+  {"h": "رحلة العلاج", "t": "make an appointment = يحجز موعداً.\nbe referred to a specialist = يُحال إلى مختص.\nbe on a waiting list = على قائمة الانتظار.\ndiagnose / diagnosis = يشخّص / تشخيص.\nprescribe / prescription = يصف دواء / وصفة.\nhave an operation / surgery = يجري عملية.\nrecover = يتعافى."},
+  {"h": "الوقاية ومناقشة النظام", "t": "prevention is better than cure = الوقاية خير من العلاج.\nvaccination = تطعيم.\ncheck-up = فحص دوري.\nunderfunded = يعاني نقص التمويل.\nunderstaffed = يعاني نقص الموظفين.\nمثال: Many hospitals are understaffed."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "patient اسم يعني مريض، وصفة تعني صبور. و ill / sick صفتان تعنيان مريض. لا تقل He is a sick للدلالة على مريض في المستشفى، قل He is a patient."},
+  {"k": "pron", "t": "surgeon تُنطق: سيرجَن. و diagnose تُنطق: دايَغنوز. و patient تُنطق: پيشِنت بصوت p واضح."},
+  {"k": "grammar", "t": "نقول go to hospital (بريطاني، بدون the للمريض) و go to the hospital (أمريكي). وكلمة health غير معدودة: good health (بدون a)."}
+ ],
+ "vocab": [
+  {"en": "healthcare", "ar": "الرعاية الصحية", "emoji": "🏥"},
+  {"en": "insurance", "ar": "تأمين", "emoji": "🛡️"},
+  {"en": "surgeon", "ar": "جرّاح", "emoji": "👨‍⚕️"},
+  {"en": "patient", "ar": "مريض", "emoji": "🤒"},
+  {"en": "prescription", "ar": "وصفة طبية", "emoji": "💊"},
+  {"en": "diagnosis", "ar": "تشخيص", "emoji": "🩺"},
+  {"en": "vaccination", "ar": "تطعيم", "emoji": "💉"},
+  {"en": "ambulance", "ar": "سيارة إسعاف", "emoji": "🚑"},
+  {"en": "recover", "ar": "يتعافى", "emoji": "💪"},
+  {"en": "waiting list", "ar": "قائمة انتظار", "emoji": "📋"}
+ ],
+ "phrases": [
+  {"en": "I need to make an appointment.", "ar": "أحتاج إلى حجز موعد."},
+  {"en": "Do you have health insurance?", "ar": "هل لديك تأمين صحي؟"},
+  {"en": "She was referred to a specialist.", "ar": "أُحيلت إلى طبيب مختص."},
+  {"en": "Prevention is better than cure.", "ar": "الوقاية خير من العلاج."},
+  {"en": "He is recovering from an operation.", "ar": "إنه يتعافى من عملية جراحية."}
+ ],
+ "quiz": [
+  {"q": "من هو GP؟", "o": ["جرّاح", "طبيب عام", "ممرض", "صيدلي"], "a": 1, "why": "GP اختصار general practitioner أي الطبيب العام."},
+  {"q": "اختر الصحيح: The doctor ___ me some antibiotics.", "o": ["diagnosed", "recovered", "prescribed", "referred"], "a": 2, "why": "prescribe = يصف دواء."},
+  {"q": "ما معنى understaffed؟", "o": ["يعاني نقص الموظفين", "مزدحم بالمرضى", "حديث التجهيز", "مرتفع التكلفة"], "a": 0, "why": "under = أقل من اللازم، staff = موظفون."},
+  {"q": "اختر الصحيح: She is ___ a waiting list for surgery.", "o": ["in", "at", "by", "on"], "a": 3, "why": "نقول on a waiting list."},
+  {"q": "ما معنى Prevention is better than cure؟", "o": ["العلاج أفضل من الوقاية", "الوقاية خير من العلاج", "الدواء مرّ", "الصحة تاج"], "a": 1, "why": "prevention = الوقاية، cure = العلاج."},
+  {"q": "كيف تُموَّل الرعاية الصحية العامة غالباً؟", "o": ["funded by patients only", "funded by doctors", "funded by taxes", "funded by tourists"], "a": 2, "why": "الرعاية الحكومية تُموَّل من الضرائب: funded by taxes."}
+ ]
+},
+{
+ "n": "177",
+ "type": "vocab",
+ "title_ar": "القيادة",
+ "title_en": "Leadership",
+ "summary": "تتعلم صفات القائد الناجح والأفعال والتعابير المرتبطة بقيادة الفرق. ستتمكن من وصف المديرين والقادة والحديث عن أسلوبك في العمل مع الآخرين.",
+ "notes": [
+  {"h": "صفات القائد", "t": "decisive = حاسم.\nconfident = واثق.\ninspiring = مُلهِم.\nfair = عادل.\napproachable = يسهل التحدث إليه.\naccountable = يتحمّل المسؤولية.\nhave a clear vision = لديه رؤية واضحة.\nمثال: A good leader is decisive but approachable."},
+  {"h": "ماذا يفعل القائد", "t": "lead by example = يكون قدوة بأفعاله.\ndelegate tasks = يفوّض المهام.\nmotivate / inspire the team = يحفّز / يُلهم الفريق.\ntake responsibility for = يتحمّل مسؤولية.\nmake tough decisions = يتخذ قرارات صعبة.\nset goals = يحدّد الأهداف.\ngive feedback = يقدّم ملاحظات."},
+  {"h": "أساليب القيادة", "t": "authoritarian = سلطوي.\ndemocratic = ديمقراطي يشارك الفريق في القرار.\nhands-on = يشارك بنفسه في العمل.\nmicromanage = يتدخل في كل صغيرة (صفة سلبية).\nمثال: Nobody likes a boss who micromanages."},
+  {"h": "عائلة الكلمة", "t": "lead (فعل، ماضيه led) = يقود.\nleader = قائد.\nleadership = القيادة.\nleading (صفة) = رائد: a leading company.\nmanage - manager - management."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "ماضي lead هو led (ثلاثة أحرف وتُنطق: لِد). خطأ شائع كتابته lead. مثال: She led the team for five years."},
+  {"k": "grammar", "t": "نقول responsible for و in charge of: She is in charge of the sales team."},
+  {"k": "pron", "t": "lead (يقود) تُنطق: ليد بياء طويلة. و colleague تُنطق: كوليغ. و decisive تُنطق: دِسايسِڤ."}
+ ],
+ "vocab": [
+  {"en": "leader", "ar": "قائد", "emoji": "🧭"},
+  {"en": "vision", "ar": "رؤية", "emoji": "🔭"},
+  {"en": "delegate", "ar": "يفوّض", "emoji": "🤝"},
+  {"en": "inspire", "ar": "يُلهم", "emoji": "✨"},
+  {"en": "decisive", "ar": "حاسم", "emoji": "🔨"},
+  {"en": "confident", "ar": "واثق", "emoji": "😎"},
+  {"en": "teamwork", "ar": "العمل الجماعي", "emoji": "👥"},
+  {"en": "responsibility", "ar": "مسؤولية", "emoji": "🎒"},
+  {"en": "feedback", "ar": "ملاحظات / تقييم", "emoji": "💬"},
+  {"en": "role model", "ar": "قدوة", "emoji": "🌟"}
+ ],
+ "phrases": [
+  {"en": "A good leader leads by example.", "ar": "القائد الجيد يكون قدوة بأفعاله."},
+  {"en": "She is in charge of the team.", "ar": "هي المسؤولة عن الفريق."},
+  {"en": "He led the company for ten years.", "ar": "قاد الشركة لعشر سنوات."},
+  {"en": "Leaders must take responsibility for mistakes.", "ar": "على القادة تحمّل مسؤولية الأخطاء."},
+  {"en": "You should learn to delegate tasks.", "ar": "عليك أن تتعلم تفويض المهام."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: She ___ the project last year.", "o": ["lead", "leaded", "led", "leads"], "a": 2, "why": "ماضي lead هو led."},
+  {"q": "ما معنى delegate tasks؟", "o": ["يفوّض المهام للآخرين", "يلغي المهام", "يؤجّل المهام", "ينجز كل شيء بنفسه"], "a": 0, "why": "delegate = يوزّع المهام ويمنح الصلاحية."},
+  {"q": "اختر الصحيح: He is in charge ___ the marketing department.", "o": ["for", "of", "on", "with"], "a": 1, "why": "التعبير هو in charge of."},
+  {"q": "أي كلمة تحمل معنى سلبياً؟", "o": ["inspire", "motivate", "delegate", "micromanage"], "a": 3, "why": "micromanage تعني التدخل المفرط في تفاصيل عمل الموظفين."},
+  {"q": "ما معنى lead by example؟", "o": ["يعطي أمثلة كثيرة", "يكون قدوة بأفعاله", "يتبع الآخرين", "يشرح القواعد"], "a": 1, "why": "أي يتصرف بالطريقة التي يريدها من فريقه."},
+  {"q": "ما معنى approachable؟", "o": ["صارم جداً", "دائم الغياب", "يسهل التحدث إليه", "كثير الكلام"], "a": 2, "why": "approachable يعني ودود ويسهل الاقتراب منه."}
+ ]
+},
+{
+ "n": "178",
+ "type": "vocab",
+ "title_ar": "النجاح",
+ "title_en": "Success",
+ "summary": "تتعلم عائلة كلمة success واستخداماتها الصحيحة، والتعابير الشائعة للحديث عن النجاح والفشل والمثابرة. هذه الكلمات تتكرر كثيراً ويخطئ فيها متعلمون كُثر.",
+ "notes": [
+  {"h": "عائلة الكلمة", "t": "success (اسم) = نجاح: Hard work is the key to success.\nsucceed (فعل) = ينجح: She succeeded in passing the exam.\nsuccessful (صفة) = ناجح: a successful businessman.\nsuccessfully (ظرف) = بنجاح: He successfully completed the course.\nالعكس: failure, fail, unsuccessful."},
+  {"h": "تلازمات مهمة", "t": "achieve success = يحقق النجاح.\nbe a great success = يكون ناجحاً جداً: The party was a great success.\nthe key / secret to success = مفتاح / سر النجاح.\nsucceed in + ing = ينجح في.\nmanage to + فعل = يتمكن من: I managed to finish on time."},
+  {"h": "تعابير اصطلاحية", "t": "work your way up = يترقّى تدريجياً.\nmake it = ينجح ويصل: She finally made it as a singer.\nreach the top = يبلغ القمة.\nsuccess story = قصة نجاح.\novernight success = نجاح مفاجئ وسريع.\ngive up = يستسلم: Never give up."},
+  {"h": "طريق النجاح", "t": "hard work = العمل الجاد.\nperseverance = المثابرة.\ndetermination = العزيمة.\novercome obstacles = يتغلب على العقبات.\nlearn from failure = يتعلم من الفشل.\nambitious = طموح."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "خطأ شائع جداً: I success أو I am success. الصحيح: I succeed (فعل) أو I am successful (صفة)."},
+  {"k": "grammar", "t": "بعد succeed in يأتي الفعل مع ing: He succeeded in finding a job (وليس succeeded to find). أما manage فيأتي بعدها to: He managed to find a job."},
+  {"k": "pron", "t": "success تُنطق: سَكسِس والنبر على المقطع الثاني، وأول c تُنطق k والثانية s. و succeed تُنطق: سَكسيد."}
+ ],
+ "vocab": [
+  {"en": "success", "ar": "نجاح", "emoji": "🏆"},
+  {"en": "succeed", "ar": "ينجح", "emoji": "✅"},
+  {"en": "failure", "ar": "فشل", "emoji": "💔"},
+  {"en": "ambitious", "ar": "طموح", "emoji": "🚀"},
+  {"en": "determination", "ar": "عزيمة", "emoji": "💪"},
+  {"en": "obstacle", "ar": "عقبة", "emoji": "🚧"},
+  {"en": "overcome", "ar": "يتغلب على", "emoji": "🧗"},
+  {"en": "give up", "ar": "يستسلم", "emoji": "🏳️"},
+  {"en": "hard work", "ar": "العمل الجاد", "emoji": "⚒️"},
+  {"en": "wealth", "ar": "ثروة", "emoji": "💰"}
+ ],
+ "phrases": [
+  {"en": "Hard work is the key to success.", "ar": "العمل الجاد مفتاح النجاح."},
+  {"en": "She succeeded in passing the exam.", "ar": "نجحت في اجتياز الامتحان."},
+  {"en": "He is a very successful businessman.", "ar": "هو رجل أعمال ناجح جداً."},
+  {"en": "You must learn from failure.", "ar": "يجب أن تتعلم من الفشل."},
+  {"en": "I managed to finish on time.", "ar": "تمكّنتُ من الانتهاء في الوقت المحدد."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: She is a very ___ lawyer.", "o": ["success", "succeed", "successfully", "successful"], "a": 3, "why": "نحتاج صفة قبل الاسم: successful."},
+  {"q": "اختر الصحيح: He succeeded ___ a job abroad.", "o": ["in finding", "to find", "finding to", "for find"], "a": 0, "why": "succeed in + ing."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["I want to success in life.", "I want to be success in life.", "I want to succeed in life.", "I want to successful in life."], "a": 2, "why": "بعد to نحتاج الفعل succeed."},
+  {"q": "ما معنى overcome obstacles؟", "o": ["يضع العقبات", "يتغلب على العقبات", "يتجنب العمل", "يخاف من الفشل"], "a": 1, "why": "overcome = يتغلب، obstacles = عقبات."},
+  {"q": "اختر الصحيح: I ___ to solve the problem in the end.", "o": ["succeeded", "managed", "achieved", "made"], "a": 1, "why": "manage to + فعل. أما succeed فتحتاج in + ing."},
+  {"q": "ما معنى work your way up؟", "o": ["يصعد السلالم", "يعمل ساعات إضافية", "يستقيل من عمله", "يترقّى تدريجياً"], "a": 3, "why": "تعبير يعني التدرّج من منصب صغير حتى منصب عالٍ."}
+ ]
+},
+{
+ "n": "179",
+ "type": "vocab",
+ "title_ar": "التحفيز",
+ "title_en": "Motivation",
+ "summary": "تتعلم كيف تتحدث عن الحافز والدافع وما يشجّعك أو يحبطك، مع التراكيب النحوية الصحيحة لأفعال التشجيع. موضوع مفيد في العمل والدراسة والمقابلات.",
+ "notes": [
+  {"h": "عائلة الكلمة", "t": "motivate (فعل) = يحفّز.\nmotivation (اسم) = حافز / دافعية.\nmotivated (صفة للشخص) = متحمّس.\nmotivating / motivational (صفة للشيء) = محفّز: a motivational speech.\ndemotivated = فاقد الحماس.\nself-motivated = يحفّز نفسه بنفسه."},
+  {"h": "تراكيب الأفعال", "t": "motivate / encourage / inspire / push + شخص + to + فعل:\nMy teacher encouraged me to apply = شجّعني معلمي على التقديم.\nWhat motivates you to work hard?\nbe motivated by + اسم: I am motivated by challenges.\nkeep + شخص + ing: Music keeps me going."},
+  {"h": "فقدان الحافز واستعادته", "t": "lose motivation = يفقد الحافز.\nfeel like giving up = يشعر برغبة في الاستسلام.\nprocrastinate = يماطل ويؤجّل.\nstay focused = يبقى مركّزاً.\nkeep going = يواصل.\nreward yourself = كافئ نفسك.\nboost your motivation = يرفع حماسك."},
+  {"h": "نوعا الدافع", "t": "intrinsic motivation = دافع داخلي (حب الشيء نفسه).\nextrinsic motivation = دافع خارجي (مال، درجات، مديح).\nincentive = حافز خارجي: Bonuses are a good incentive.\nsense of achievement = شعور بالإنجاز."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "الصفة المنتهية بـ ed تصف الشعور، والمنتهية بـ ing تصف المسبّب: I am motivated / The talk was motivating. وكذلك bored / boring."},
+  {"k": "mistake", "t": "لا تقل He encouraged me apply أو encouraged me for applying. الصحيح: He encouraged me to apply."},
+  {"k": "pron", "t": "motivation تُنطق: موتِڤيشن بصوت v. و procrastinate تُنطق: پروكراستِنيت والنبر على المقطع الثاني."}
+ ],
+ "vocab": [
+  {"en": "motivate", "ar": "يحفّز", "emoji": "🔥"},
+  {"en": "encourage", "ar": "يشجّع", "emoji": "👏"},
+  {"en": "reward", "ar": "مكافأة", "emoji": "🎁"},
+  {"en": "incentive", "ar": "حافز", "emoji": "🥕"},
+  {"en": "procrastinate", "ar": "يماطل", "emoji": "🐌"},
+  {"en": "enthusiasm", "ar": "حماس", "emoji": "🤩"},
+  {"en": "challenge", "ar": "تحدٍّ", "emoji": "⛰️"},
+  {"en": "focused", "ar": "مركّز", "emoji": "🎯"},
+  {"en": "keep going", "ar": "يواصل", "emoji": "🏃"},
+  {"en": "effort", "ar": "جهد", "emoji": "💪"}
+ ],
+ "phrases": [
+  {"en": "What motivates you to work hard?", "ar": "ما الذي يحفّزك على العمل بجد؟"},
+  {"en": "My teacher encouraged me to apply.", "ar": "شجّعني معلمي على التقديم."},
+  {"en": "I am motivated by new challenges.", "ar": "تحفّزني التحديات الجديدة."},
+  {"en": "Try to stay focused on your goal.", "ar": "حاول أن تبقى مركّزاً على هدفك."},
+  {"en": "Reward yourself after finishing a task.", "ar": "كافئ نفسك بعد إنهاء مهمة."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: My parents encouraged me ___ medicine.", "o": ["study", "to study", "studying", "for study"], "a": 1, "why": "encourage + شخص + to + فعل."},
+  {"q": "اختر الصحيح: It was a very ___ speech.", "o": ["motivated", "motivate", "motivating", "motivation"], "a": 2, "why": "نصف الشيء المسبّب للشعور بصفة تنتهي بـ ing."},
+  {"q": "ما معنى procrastinate؟", "o": ["يماطل ويؤجّل العمل", "يعمل بسرعة", "يخطط جيداً", "يساعد زملاءه"], "a": 0, "why": "procrastinate تعني تأجيل ما يجب فعله."},
+  {"q": "أي مثال يدل على دافع خارجي (extrinsic)؟", "o": ["حب التعلّم", "الفضول", "الاستمتاع بالعمل", "مكافأة مالية"], "a": 3, "why": "الدافع الخارجي يأتي من مكافآت خارجية كالمال."},
+  {"q": "اختر الصحيح: I am motivated ___ the desire to help people.", "o": ["by", "from", "of", "at"], "a": 0, "why": "be motivated by."},
+  {"q": "ما معنى incentive؟", "o": ["عقوبة", "عقبة", "حافز", "موعد"], "a": 2, "why": "incentive شيء يشجّعك على فعل أمر ما."}
+ ]
+},
+{
+ "n": "180",
+ "type": "vocab",
+ "title_ar": "الأخبار اليومية",
+ "title_en": "Daily news",
+ "summary": "تتعلم مفردات متابعة الأخبار وأنواعها والتعابير التي يستخدمها المذيعون، وكيف تنقل خبراً لغيرك. متابعة الأخبار بالإنجليزية من أفضل طرق تطوير اللغة في هذا المستوى.",
+ "notes": [
+  {"h": "متابعة الأخبار", "t": "keep up with the news = يتابع الأخبار أولاً بأول.\nwatch / follow / read the news.\nheadline = عنوان رئيسي.\nbreaking news = خبر عاجل.\nnews bulletin = نشرة أخبار.\ncurrent affairs = الشؤون الجارية.\ncoverage = تغطية: live coverage = تغطية مباشرة."},
+  {"h": "العاملون في الأخبار", "t": "journalist / reporter = صحفي / مراسل.\ncorrespondent = مراسل مختص أو خارجي.\nnewsreader / anchor = مذيع الأخبار.\neditor = محرر.\nsource = مصدر: according to official sources = حسب مصادر رسمية."},
+  {"h": "لغة نشرات الأخبار", "t": "يكثر استخدام المبني للمجهول:\nThree people were injured = أُصيب ثلاثة أشخاص.\nA man has been arrested = اعتُقل رجل.\nوتراكيب النقل: It is reported that..., He is believed to be..., is said to.\nمثال: The minister is expected to resign."},
+  {"h": "نقل الخبر في الحديث", "t": "Have you heard the news? = هل سمعت الخبر؟\nDid you hear about...? = هل سمعت عن...؟\nApparently, ... = على ما يبدو...\nAccording to the BBC, ... = وفقاً لـ...\nI read that... / They say that..."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "news اسم غير معدود ومفرد رغم حرف s: The news is good (وليس are). ونقول a piece of news أو some news (وليس a news)."},
+  {"k": "mistake", "t": "لا تقل according to me. قل in my opinion. according to تُستخدم لمصدر آخر غيرك."},
+  {"k": "pron", "t": "news تُنطق: نيوز بصوت z في آخرها. و headline تُنطق: هِدلاين. و journalist تُنطق: جيرنَلِست."}
+ ],
+ "vocab": [
+  {"en": "headline", "ar": "عنوان رئيسي", "emoji": "📰"},
+  {"en": "breaking news", "ar": "خبر عاجل", "emoji": "🚨"},
+  {"en": "journalist", "ar": "صحفي", "emoji": "🧑‍💻"},
+  {"en": "reporter", "ar": "مراسل", "emoji": "🎤"},
+  {"en": "broadcast", "ar": "يبثّ / بثّ", "emoji": "📡"},
+  {"en": "coverage", "ar": "تغطية", "emoji": "🎥"},
+  {"en": "source", "ar": "مصدر", "emoji": "🔎"},
+  {"en": "current affairs", "ar": "الشؤون الجارية", "emoji": "🌐"},
+  {"en": "bulletin", "ar": "نشرة", "emoji": "📺"},
+  {"en": "interview", "ar": "مقابلة", "emoji": "🎙️"}
+ ],
+ "phrases": [
+  {"en": "Have you heard the news?", "ar": "هل سمعت الخبر؟"},
+  {"en": "The news is not good today.", "ar": "الأخبار ليست جيدة اليوم."},
+  {"en": "I try to keep up with the news.", "ar": "أحاول متابعة الأخبار أولاً بأول."},
+  {"en": "Three people were injured in the accident.", "ar": "أُصيب ثلاثة أشخاص في الحادث."},
+  {"en": "The minister is expected to resign.", "ar": "من المتوقع أن يستقيل الوزير."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: The news ___ very surprising.", "o": ["are", "were", "is", "have been"], "a": 2, "why": "news اسم غير معدود يأخذ فعلاً مفرداً."},
+  {"q": "اختر الصحيح: I have ___ for you.", "o": ["a good news", "some good news", "good new", "many good news"], "a": 1, "why": "news غير معدودة فنستخدم some."},
+  {"q": "ما معنى breaking news؟", "o": ["خبر عاجل", "خبر كاذب", "خبر قديم", "خبر رياضي"], "a": 0, "why": "breaking news هو خبر يحدث الآن ويُنقل فوراً."},
+  {"q": "اختر الصحيح: A man ___ in connection with the robbery.", "o": ["has arrested", "has been arrest", "have been arrested", "has been arrested"], "a": 3, "why": "مبني للمجهول في المضارع التام: has been + التصريف الثالث."},
+  {"q": "كيف تعبّر عن رأيك الشخصي؟", "o": ["According to me, ...", "In my opinion, ...", "According to my opinion, ...", "In my point, ..."], "a": 1, "why": "according to تُستخدم لمصدر غيرك، ولرأيك قل in my opinion."},
+  {"q": "ما معنى keep up with the news؟", "o": ["يتجاهل الأخبار", "يكتب الأخبار", "يتابع الأخبار باستمرار", "يصدّق الأخبار"], "a": 2, "why": "keep up with = يواكب ويتابع."}
+ ]
+},
+{
+ "n": "181",
+ "type": "vocab",
+ "title_ar": "الصحيفة",
+ "title_en": "Newspapers",
+ "summary": "تتعلم أقسام الصحيفة وأنواع الصحف، وتكتشف القواعد الخاصة بلغة العناوين الصحفية. فهم العناوين مهارة مهمة لأنها تُكتب بأسلوب مختصر يختلف عن اللغة العادية.",
+ "notes": [
+  {"h": "أنواع الصحف", "t": "broadsheet = صحيفة جادّة.\ntabloid = صحيفة شعبية تهتم بالإثارة والمشاهير.\ndaily / weekly = يومية / أسبوعية.\nthe press = الصحافة.\ncirculation = عدد النسخ الموزعة.\nonline edition = النسخة الإلكترونية.\nsubscribe to = يشترك في."},
+  {"h": "أقسام الصحيفة", "t": "front page = الصفحة الأولى.\narticle = مقال.\neditorial = افتتاحية تعبّر عن رأي الصحيفة.\ncolumn = عمود، columnist = كاتب عمود.\nfeature = تحقيق مطوّل.\nreview = مراجعة نقدية.\nobituary = نعي.\nclassified ads = إعلانات مبوّبة.\ncartoon = رسم كاريكاتيري."},
+  {"h": "لغة العناوين", "t": "تُحذف أدوات التعريف وفعل be: Man arrested after robbery (= A man has been arrested).\nالمضارع البسيط للماضي القريب: President visits Egypt (= has visited).\nto + فعل للمستقبل: Government to raise taxes (= is going to raise).\nكلمات قصيرة خاصة: back = يدعم، axe = يلغي، talks = مفاوضات، blast = انفجار."},
+  {"h": "الحديث عمّا قرأت", "t": "It says in the paper that... = مكتوب في الصحيفة أن...\nI read an article about... = قرأتُ مقالاً عن...\nIt made the headlines = تصدّر العناوين.\nbiased = منحاز، objective = موضوعي."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "نقول in the newspaper (وليس on the newspaper)، لكن on the front page و on page five."},
+  {"k": "mistake", "t": "العنوان Minister to resign لا يعني أمراً، بل يعني: الوزير سيستقيل. صيغة to + فعل في العناوين تدل على المستقبل."},
+  {"k": "pron", "t": "editorial تُنطق: إدِتوريَل. و obituary تُنطق: أوبِتشوَري. و column حرف n فيها صامت: كولَم."}
+ ],
+ "vocab": [
+  {"en": "newspaper", "ar": "صحيفة", "emoji": "📰"},
+  {"en": "article", "ar": "مقال", "emoji": "📄"},
+  {"en": "front page", "ar": "الصفحة الأولى", "emoji": "🗞️"},
+  {"en": "editorial", "ar": "افتتاحية", "emoji": "✒️"},
+  {"en": "column", "ar": "عمود صحفي", "emoji": "🖋️"},
+  {"en": "tabloid", "ar": "صحيفة شعبية", "emoji": "💋"},
+  {"en": "subscribe", "ar": "يشترك", "emoji": "📬"},
+  {"en": "biased", "ar": "منحاز", "emoji": "⚖️"},
+  {"en": "cartoon", "ar": "كاريكاتير", "emoji": "🎨"},
+  {"en": "publish", "ar": "ينشر", "emoji": "🖨️"}
+ ],
+ "phrases": [
+  {"en": "I read it in the newspaper.", "ar": "قرأتُه في الصحيفة."},
+  {"en": "The story is on the front page.", "ar": "الخبر على الصفحة الأولى."},
+  {"en": "The story made the headlines.", "ar": "تصدّر الخبر العناوين."},
+  {"en": "I subscribe to a daily newspaper.", "ar": "أنا مشترك في صحيفة يومية."},
+  {"en": "I read an interesting article about health.", "ar": "قرأتُ مقالاً شيّقاً عن الصحة."}
+ ],
+ "quiz": [
+  {"q": "ما معنى العنوان: Government to cut taxes؟", "o": ["الحكومة خفّضت الضرائب", "الحكومة ستخفّض الضرائب", "على الحكومة أن تخفّض الضرائب", "الحكومة ترفض خفض الضرائب"], "a": 1, "why": "to + فعل في العناوين يدل على المستقبل."},
+  {"q": "اختر الصحيح: I saw his photo ___ the newspaper.", "o": ["on", "at", "in", "by"], "a": 2, "why": "نقول in the newspaper."},
+  {"q": "ما هي editorial؟", "o": ["مقال يعبّر عن رأي الصحيفة", "إعلان تجاري", "صفحة الرياضة", "رسم كاريكاتيري"], "a": 0, "why": "الافتتاحية تعرض موقف الصحيفة من قضية."},
+  {"q": "العنوان Man arrested after robbery يساوي:", "o": ["A man arrested the robber.", "A man will be arrested.", "A man is arresting someone.", "A man has been arrested."], "a": 3, "why": "في العناوين يُحذف فعل be من المبني للمجهول."},
+  {"q": "ما هي tabloid؟", "o": ["صحيفة اقتصادية جادّة", "صحيفة شعبية تهتم بالإثارة", "مجلة علمية", "نشرة تلفزيونية"], "a": 1, "why": "tabloid صحيفة شعبية تركّز على المشاهير والأخبار المثيرة."},
+  {"q": "أي حرف صامت في column؟", "o": ["c", "l", "n", "m"], "a": 2, "why": "حرف n الأخير لا يُنطق: كولَم."}
+ ]
+},
+{
+ "n": "182",
+ "type": "vocab",
+ "title_ar": "أخبار وسائل التواصل الاجتماعي",
+ "title_en": "Social media news",
+ "summary": "تتعلم مفردات الأخبار على وسائل التواصل، وكيف تتحدث عن الأخبار الكاذبة والتحقق من المصادر. مهارة أساسية في عصر تنتشر فيه المعلومات بسرعة هائلة.",
+ "notes": [
+  {"h": "مفردات المنصات", "t": "post = منشور / ينشر.\nshare = يشارك.\nfeed = صفحة المنشورات المتجددة.\nfollower = متابع.\nhashtag = وسم.\ngo viral = ينتشر انتشاراً واسعاً: The video went viral.\ntrending = رائج.\ninfluencer = مؤثّر.\nnotification = إشعار."},
+  {"h": "الأخبار الكاذبة", "t": "fake news = أخبار كاذبة.\nmisinformation = معلومات خاطئة.\nrumour = إشاعة.\nclickbait = عنوان مضلّل لجذب النقرات.\nmisleading = مضلّل.\nhoax = خدعة.\nspread = ينشر / ينتشر (ماضيه spread): Rumours spread quickly online."},
+  {"h": "التحقق من الخبر", "t": "check the source = تحقّق من المصدر.\nreliable / trustworthy = موثوق.\nverify = يتثبّت.\nfact-check = يدقّق الحقائق.\nMake sure the account is verified = تأكد أن الحساب موثّق.\nDon't believe everything you read online."},
+  {"h": "إيجابيات وسلبيات", "t": "إيجابيات: instant updates = تحديثات فورية، free access = وصول مجاني، citizen journalism = صحافة المواطن.\nسلبيات: bias = انحياز، echo chamber = غرفة الصدى (لا ترى إلا ما يوافق رأيك)، invasion of privacy = انتهاك الخصوصية."}
+ ],
+ "alerts": [
+  {"k": "grammar", "t": "نقول on social media و on Facebook و on the internet بحرف on (وليس in). و spread فعل شاذ: spread - spread - spread."},
+  {"k": "mistake", "t": "information و news غير معدودتين: a lot of information (وليس informations)."},
+  {"k": "pron", "t": "viral تُنطق: ڤايرَل بصوت v. و rumour تُنطق: رومَر. و media تُنطق: ميديا بياء طويلة."}
+ ],
+ "vocab": [
+  {"en": "post", "ar": "منشور", "emoji": "📝"},
+  {"en": "share", "ar": "يشارك", "emoji": "🔁"},
+  {"en": "go viral", "ar": "ينتشر بسرعة", "emoji": "📈"},
+  {"en": "fake news", "ar": "أخبار كاذبة", "emoji": "🤥"},
+  {"en": "rumour", "ar": "إشاعة", "emoji": "🗣️"},
+  {"en": "reliable", "ar": "موثوق", "emoji": "✅"},
+  {"en": "follower", "ar": "متابع", "emoji": "👥"},
+  {"en": "hashtag", "ar": "وسم", "emoji": "#️⃣"},
+  {"en": "notification", "ar": "إشعار", "emoji": "🔔"},
+  {"en": "verify", "ar": "يتحقق", "emoji": "🔍"},
+  {"en": "privacy", "ar": "خصوصية", "emoji": "🔒"}
+ ],
+ "phrases": [
+  {"en": "The video went viral overnight.", "ar": "انتشر الفيديو انتشاراً واسعاً بين ليلة وضحاها."},
+  {"en": "I saw it on social media.", "ar": "رأيتُه على وسائل التواصل الاجتماعي."},
+  {"en": "Always check the source first.", "ar": "تحقّق دائماً من المصدر أولاً."},
+  {"en": "Fake news spreads very quickly online.", "ar": "الأخبار الكاذبة تنتشر بسرعة كبيرة على الإنترنت."},
+  {"en": "Don't believe everything you read online.", "ar": "لا تصدّق كل ما تقرؤه على الإنترنت."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: I read the story ___ social media.", "o": ["in", "on", "at", "by"], "a": 1, "why": "نقول on social media."},
+  {"q": "ما معنى go viral؟", "o": ["يُصاب بفيروس", "يُحذف من الإنترنت", "يُحظر الحساب", "ينتشر انتشاراً واسعاً وسريعاً"], "a": 3, "why": "go viral تعني أن المحتوى انتشر بين عدد هائل من الناس."},
+  {"q": "ما هو clickbait؟", "o": ["عنوان مضلّل لجذب النقرات", "برنامج حماية", "إعلان مدفوع", "تعليق سلبي"], "a": 0, "why": "click = نقرة، bait = طُعم."},
+  {"q": "اختر الصحيح: The rumour ___ quickly last week.", "o": ["spreaded", "spreads", "spread", "was spreaded"], "a": 2, "why": "ماضي spread هو spread دون تغيير."},
+  {"q": "أي كلمة تعني موثوق؟", "o": ["misleading", "reliable", "biased", "fake"], "a": 1, "why": "reliable = يمكن الاعتماد عليه."},
+  {"q": "اختر الصحيح: There is too much false ___ online.", "o": ["informations", "an information", "information", "informationes"], "a": 2, "why": "information اسم غير معدود لا يُجمع."}
+ ]
+},
+{
+ "n": "183",
+ "type": "vocab",
+ "title_ar": "التطوير الشخصي",
+ "title_en": "Personal development",
+ "summary": "تتعلم مفردات تطوير الذات: العادات، نقاط القوة والضعف، والخروج من منطقة الراحة. ستحتاجها في المقابلات وعند الحديث عن خططك لتحسين نفسك.",
+ "notes": [
+  {"h": "مفاهيم أساسية", "t": "self-improvement = تحسين الذات.\nself-confidence = الثقة بالنفس.\nself-discipline = الانضباط الذاتي.\nself-awareness = الوعي بالذات.\nmindset = عقلية: a growth mindset = عقلية النمو.\nstrengths and weaknesses = نقاط القوة والضعف.\npotential = إمكانات: reach your full potential."},
+  {"h": "العادات", "t": "develop / form a habit = يكوّن عادة.\nbreak a bad habit = يتخلص من عادة سيئة.\nget into the habit of + ing = يعتاد على: I got into the habit of reading daily.\nroutine = روتين.\nconsistent = مواظب."},
+  {"h": "تعابير التغيير", "t": "step out of your comfort zone = اخرج من منطقة راحتك.\nwork on yourself = اعمل على نفسك.\nlearn a new skill = تعلّم مهارة جديدة.\nbuild confidence = يبني الثقة.\nturn over a new leaf = يفتح صفحة جديدة.\ntake up = يبدأ هواية: I took up yoga."},
+  {"h": "التأمل والتقييم", "t": "reflect on = يتأمل في: Reflect on your mistakes.\nkeep a journal = يكتب يوميات.\nask for feedback = يطلب ملاحظات.\ntrack your progress = يتابع تقدّمه.\nمثال: I am working on my communication skills."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "خطأ شائع: I want to develop myself in English. الأفضل: I want to improve my English. و progress غير معدودة: make progress (وليس make a progress)."},
+  {"k": "grammar", "t": "بعد get into the habit of و be good at و work on يأتي اسم أو فعل مع ing: I am good at solving problems."},
+  {"k": "pron", "t": "development النبر على المقطع الثاني: دِڤِلَپمِنت. و weakness تُنطق: ويكنِس. و strength تُنطق: سترِنث بصوت ث في آخرها."}
+ ],
+ "vocab": [
+  {"en": "habit", "ar": "عادة", "emoji": "🔁"},
+  {"en": "mindset", "ar": "عقلية", "emoji": "🧠"},
+  {"en": "strength", "ar": "نقطة قوة", "emoji": "💪"},
+  {"en": "weakness", "ar": "نقطة ضعف", "emoji": "🩹"},
+  {"en": "confidence", "ar": "ثقة", "emoji": "😎"},
+  {"en": "discipline", "ar": "انضباط", "emoji": "🥋"},
+  {"en": "comfort zone", "ar": "منطقة الراحة", "emoji": "🛋️"},
+  {"en": "potential", "ar": "إمكانات", "emoji": "🌱"},
+  {"en": "journal", "ar": "دفتر يوميات", "emoji": "📓"},
+  {"en": "progress", "ar": "تقدّم", "emoji": "📈"}
+ ],
+ "phrases": [
+  {"en": "Step out of your comfort zone.", "ar": "اخرج من منطقة راحتك."},
+  {"en": "I am working on my communication skills.", "ar": "أعمل على تطوير مهاراتي في التواصل."},
+  {"en": "It is hard to break a bad habit.", "ar": "من الصعب التخلص من عادة سيئة."},
+  {"en": "You are making good progress.", "ar": "أنت تحرز تقدّماً جيداً."},
+  {"en": "Know your strengths and weaknesses.", "ar": "اعرف نقاط قوتك وضعفك."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: You are making ___ in English.", "o": ["a good progress", "good progresses", "good progress", "a progress"], "a": 2, "why": "progress اسم غير معدود."},
+  {"q": "ما معنى break a habit؟", "o": ["يتخلص من عادة", "يكوّن عادة", "يكسر شيئاً", "يكرر العادة"], "a": 0, "why": "break a habit = يترك العادة."},
+  {"q": "اختر الصحيح: I got into the habit of ___ early.", "o": ["wake up", "to wake up", "woke up", "waking up"], "a": 3, "why": "بعد حرف الجر of يأتي الفعل مع ing."},
+  {"q": "ما معنى turn over a new leaf؟", "o": ["يقلّب صفحات الكتاب", "يبدأ صفحة جديدة ويغيّر سلوكه", "يزرع شجرة", "يسافر إلى مكان جديد"], "a": 1, "why": "تعبير اصطلاحي يعني بداية جديدة أفضل."},
+  {"q": "ما عكس strength؟", "o": ["weakness", "confidence", "potential", "mindset"], "a": 0, "why": "strength = قوة، weakness = ضعف."},
+  {"q": "ما معنى take up في: She took up painting؟", "o": ["توقفت عن الرسم", "باعت لوحاتها", "بدأت هواية الرسم", "رفعت اللوحة"], "a": 2, "why": "take up = يبدأ هواية أو نشاطاً جديداً."}
+ ]
+},
+{
+ "n": "184",
+ "type": "vocab",
+ "title_ar": "إدارة الوقت",
+ "title_en": "Time management",
+ "summary": "تتعلم التعابير الخاصة بتنظيم الوقت وترتيب الأولويات والمواعيد النهائية، والأفعال الصحيحة التي تُستخدم مع كلمة time. مفردات لا غنى عنها في الدراسة والعمل.",
+ "notes": [
+  {"h": "أفعال مع time", "t": "spend time + ing = يقضي وقتاً: I spend two hours studying.\nwaste time = يضيّع الوقت.\nsave time = يوفّر الوقت.\nmake time for = يخصّص وقتاً لـ.\nrun out of time = ينفد منه الوقت.\nkill time = يملأ وقت الفراغ.\ntake your time = خذ وقتك."},
+  {"h": "التخطيط والأولويات", "t": "prioritise = يرتّب حسب الأولوية.\nset priorities = يحدد الأولويات.\nto-do list = قائمة المهام.\nschedule = جدول زمني.\nplan ahead = يخطط مسبقاً.\nurgent = عاجل، important = مهم.\nمثال: Do the most urgent tasks first."},
+  {"h": "المواعيد النهائية", "t": "meet a deadline = يلتزم بالموعد النهائي.\nmiss a deadline = يتجاوز الموعد النهائي.\ntight deadline = موعد ضيق.\nbe behind schedule = متأخر عن الجدول.\nbe ahead of schedule = متقدّم على الجدول.\nat the last minute = في اللحظة الأخيرة.\nput off = يؤجّل: Don't put it off until tomorrow."},
+  {"h": "on time و in time", "t": "on time = في الموعد المحدد تماماً: The train left on time.\nin time = قبل فوات الأوان، بوقت كافٍ: We arrived in time to see the start.\njust in time = في آخر لحظة ممكنة."}
+ ],
+ "alerts": [
+  {"k": "mistake", "t": "لا تقل spend time to study أو lose time. الصحيح: spend time studying و waste time."},
+  {"k": "grammar", "t": "put off يتبعه الفعل مع ing: He put off going to the dentist. والضمير يتوسط الفعل المركّب: put it off (وليس put off it)."},
+  {"k": "pron", "t": "schedule تُنطق في بريطانيا: شِديول، وفي أمريكا: سكِجول. و priority النبر على المقطع الثاني: پرايورِتي."}
+ ],
+ "vocab": [
+  {"en": "schedule", "ar": "جدول زمني", "emoji": "📅"},
+  {"en": "priority", "ar": "أولوية", "emoji": "🥇"},
+  {"en": "urgent", "ar": "عاجل", "emoji": "🚨"},
+  {"en": "waste time", "ar": "يضيّع الوقت", "emoji": "🗑️"},
+  {"en": "save time", "ar": "يوفّر الوقت", "emoji": "⏱️"},
+  {"en": "put off", "ar": "يؤجّل", "emoji": "⏭️"},
+  {"en": "on time", "ar": "في الموعد", "emoji": "🕘"},
+  {"en": "to-do list", "ar": "قائمة المهام", "emoji": "📝"},
+  {"en": "punctual", "ar": "دقيق في مواعيده", "emoji": "⌚"},
+  {"en": "distraction", "ar": "مُشتِّت", "emoji": "📱"}
+ ],
+ "phrases": [
+  {"en": "I spend two hours studying every day.", "ar": "أقضي ساعتين في الدراسة كل يوم."},
+  {"en": "We are running out of time.", "ar": "الوقت ينفد منا."},
+  {"en": "She always meets her deadlines.", "ar": "تلتزم دائماً بمواعيدها النهائية."},
+  {"en": "Don't put it off until tomorrow.", "ar": "لا تؤجّله إلى الغد."},
+  {"en": "The meeting started on time.", "ar": "بدأ الاجتماع في موعده."}
+ ],
+ "quiz": [
+  {"q": "اختر الصحيح: I spend a lot of time ___ emails.", "o": ["to answer", "answer", "answering", "answered"], "a": 2, "why": "spend time + فعل مع ing."},
+  {"q": "اختر الصحيح: We arrived just ___ time to catch the plane.", "o": ["in", "on", "at", "by"], "a": 0, "why": "in time = قبل فوات الأوان."},
+  {"q": "ما معنى put off؟", "o": ["يُنهي", "يؤجّل", "يبدأ", "يلغي نهائياً"], "a": 1, "why": "put off = يؤخّر إلى وقت لاحق."},
+  {"q": "اختر الجملة الصحيحة:", "o": ["Stop losing time on your phone.", "Stop wasting time on your phone.", "Stop spending time to your phone.", "Stop killing the times on phone."], "a": 1, "why": "التلازم الصحيح هو waste time."},
+  {"q": "ما معنى behind schedule؟", "o": ["متقدّم على الجدول", "في الموعد تماماً", "بلا جدول", "متأخر عن الجدول"], "a": 3, "why": "behind = خلف، أي متأخر عن الخطة."},
+  {"q": "من هو الشخص punctual؟", "o": ["يصل في الموعد دائماً", "يتأخر دائماً", "ينسى مواعيده", "يعمل ببطء"], "a": 0, "why": "punctual = دقيق في مواعيده."}
+ ]
+}
+]
