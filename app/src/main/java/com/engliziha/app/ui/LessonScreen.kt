@@ -1,6 +1,9 @@
 package com.engliziha.app.ui
 
 import android.content.Intent
+import android.net.ConnectivityManager
+import android.net.Network
+import android.net.NetworkCapabilities
 import android.net.Uri
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
@@ -83,7 +86,8 @@ fun LessonScreen(
 
     Column(Modifier.fillMaxSize()) {
         TopBar("الدرس ${lesson.label} · ${lesson.level}", onBack)
-        LessonPlayer(lesson, store, onEnded = { finished = true })
+        val online = rememberOnline()
+        if (online) LessonPlayer(lesson, store, onEnded = { finished = true }) else OfflinePanel()
         Column(
             Modifier.weight(1f).verticalScroll(rememberScrollState()).navigationBarsPadding()
                 .padding(start = 20.dp, end = 20.dp, top = 16.dp, bottom = 32.dp),
@@ -178,6 +182,38 @@ fun LessonScreen(
             confirmButton = { Button(onClick = { finished = false; onQuiz() }) { Text("ابدأ الاختبار") } },
             dismissButton = { TextButton(onClick = { finished = false }) { Text("راجع الملخص أولاً") } },
         )
+    }
+}
+
+/** True while the phone has a working internet connection. */
+@Composable
+private fun rememberOnline(): Boolean {
+    val context = LocalContext.current
+    val manager = remember { context.getSystemService(ConnectivityManager::class.java) }
+    fun check(): Boolean = manager?.getNetworkCapabilities(manager.activeNetwork)
+        ?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) == true
+    var online by remember { mutableStateOf(check()) }
+    DisposableEffect(manager) {
+        val callback = object : ConnectivityManager.NetworkCallback() {
+            override fun onAvailable(network: Network) { online = true }
+            override fun onLost(network: Network) { online = check() }
+        }
+        manager?.registerDefaultNetworkCallback(callback)
+        onDispose { manager?.unregisterNetworkCallback(callback) }
+    }
+    return online
+}
+
+@Composable
+private fun OfflinePanel() {
+    Surface(color = MaterialTheme.colorScheme.surfaceContainerHigh, modifier = Modifier.fillMaxWidth()) {
+        Column(Modifier.padding(horizontal = 20.dp, vertical = 18.dp)) {
+            Text("📴 أنت الآن بدون إنترنت", style = MaterialTheme.typography.titleMedium)
+            Text(
+                "الفيديو يُشغَّل من يوتيوب ويحتاج اتصالاً. يمكنك الآن دراسة ملخص الدرس وكلماته وحل الاختبار، وسيظهر الفيديو تلقائياً عند عودة الاتصال.",
+                style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
     }
 }
 

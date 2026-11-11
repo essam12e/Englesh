@@ -26,10 +26,12 @@ import com.engliziha.app.ui.LessonScreen
 import com.engliziha.app.ui.LevelScreen
 import com.engliziha.app.ui.QuizScreen
 import com.engliziha.app.ui.RecordsScreen
+import com.engliziha.app.ui.ReviewScreen
 
 sealed interface Screen {
     data object Home : Screen
     data object Records : Screen
+    data object Review : Screen
     data class LevelList(val code: String) : Screen
     data class LessonView(val n: String) : Screen
     data class Quiz(val n: String) : Screen
@@ -60,8 +62,10 @@ class MainActivity : ComponentActivity() {
                                 onLevel = { stack += Screen.LevelList(it) },
                                 onLesson = { stack += Screen.LessonView(it) },
                                 onRecords = { stack += Screen.Records },
+                                onReview = { stack += Screen.Review },
                             )
                             Screen.Records -> RecordsScreen(course, state, back)
+                            Screen.Review -> ReviewScreen(course, store, back)
                             is Screen.LevelList -> LevelScreen(
                                 course, screen.code, state, back,
                                 onLesson = { stack += Screen.LessonView(it) },

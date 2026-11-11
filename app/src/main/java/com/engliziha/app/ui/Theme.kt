@@ -22,44 +22,45 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.engliziha.app.R
 
-// Direction: a quiet study notebook. Warm paper, deep teal ink, and amber kept only for "pay attention".
+// Direction: the logo's palette. Soft off-white paper, the speech-bubble blue for actions,
+// the chart green for success and the book's peach kept only for "pay attention".
 
 private val Light = lightColorScheme(
-    primary = Color(0xFF0F4C4A),
-    onPrimary = Color(0xFFF6F1E7),
-    primaryContainer = Color(0xFFCFE5DF),
-    onPrimaryContainer = Color(0xFF07302F),
-    secondary = Color(0xFF5B6B63),
-    background = Color(0xFFF6F1E7),
-    onBackground = Color(0xFF1B2526),
-    surface = Color(0xFFFFFBF3),
-    onSurface = Color(0xFF1B2526),
-    surfaceContainer = Color(0xFFEFE8DA),
-    surfaceContainerHigh = Color(0xFFE6DDCB),
-    surfaceVariant = Color(0xFFEFE8DA),
-    onSurfaceVariant = Color(0xFF5C6562),
-    outline = Color(0xFFCFC5B0),
-    outlineVariant = Color(0xFFE0D7C4),
-    error = Color(0xFFB3372E),
+    primary = Color(0xFF2C78BD),
+    onPrimary = Color(0xFFFFFFFF),
+    primaryContainer = Color(0xFFD6ECFB),
+    onPrimaryContainer = Color(0xFF0B3558),
+    secondary = Color(0xFF3C9A68),
+    background = Color(0xFFFBFAF7),
+    onBackground = Color(0xFF1F2A37),
+    surface = Color(0xFFFFFFFF),
+    onSurface = Color(0xFF1F2A37),
+    surfaceContainer = Color(0xFFF0F4F7),
+    surfaceContainerHigh = Color(0xFFE3EAF0),
+    surfaceVariant = Color(0xFFF0F4F7),
+    onSurfaceVariant = Color(0xFF596573),
+    outline = Color(0xFFCBD5DE),
+    outlineVariant = Color(0xFFE4E9EE),
+    error = Color(0xFFC0392F),
     onError = Color(0xFFFFFFFF),
 )
 
 private val Dark = darkColorScheme(
-    primary = Color(0xFF8FD3C8),
-    onPrimary = Color(0xFF05302D),
-    primaryContainer = Color(0xFF174743),
-    onPrimaryContainer = Color(0xFFCFEFE8),
-    secondary = Color(0xFFA9B8B0),
-    background = Color(0xFF0F1415),
-    onBackground = Color(0xFFE8E3D8),
-    surface = Color(0xFF161D1E),
-    onSurface = Color(0xFFE8E3D8),
-    surfaceContainer = Color(0xFF1E2728),
-    surfaceContainerHigh = Color(0xFF283233),
-    surfaceVariant = Color(0xFF1E2728),
-    onSurfaceVariant = Color(0xFF9CA8A4),
-    outline = Color(0xFF3A4647),
-    outlineVariant = Color(0xFF2A3435),
+    primary = Color(0xFF83C7F1),
+    onPrimary = Color(0xFF06304F),
+    primaryContainer = Color(0xFF1B4A6E),
+    onPrimaryContainer = Color(0xFFD6ECFB),
+    secondary = Color(0xFF9BD9B3),
+    background = Color(0xFF0F151B),
+    onBackground = Color(0xFFE6EBF0),
+    surface = Color(0xFF161E26),
+    onSurface = Color(0xFFE6EBF0),
+    surfaceContainer = Color(0xFF1D2731),
+    surfaceContainerHigh = Color(0xFF27323E),
+    surfaceVariant = Color(0xFF1D2731),
+    onSurfaceVariant = Color(0xFF9BA8B5),
+    outline = Color(0xFF3A4755),
+    outlineVariant = Color(0xFF28333F),
     error = Color(0xFFFF9A8C),
     onError = Color(0xFF4A0B05),
 )
@@ -77,26 +78,26 @@ data class Extra(
 }
 
 private val LightExtra = Extra(
-    attention = Color(0xFFB8740F),
-    attentionContainer = Color(0xFFFBE7BF),
+    attention = Color(0xFFB96F0E),
+    attentionContainer = Color(0xFFFDEBCF),
     onAttentionContainer = Color(0xFF4A2D00),
-    success = Color(0xFF2E7D4F),
-    successContainer = Color(0xFFD5EEDD),
+    success = Color(0xFF2F8F5B),
+    successContainer = Color(0xFFDDF3E5),
     levels = mapOf(
-        "A1" to Color(0xFF2E7D4F), "A2" to Color(0xFF0F6C78), "B1" to Color(0xFF2F5AA8),
-        "B2" to Color(0xFF6A4BA3), "C1" to Color(0xFFA33B55),
+        "A1" to Color(0xFF3C9A68), "A2" to Color(0xFF2A8F9B), "B1" to Color(0xFF2C78BD),
+        "B2" to Color(0xFFC77A1E), "C1" to Color(0xFF24507E),
     ),
 )
 
 private val DarkExtra = Extra(
-    attention = Color(0xFFF2B95C),
+    attention = Color(0xFFF7C886),
     attentionContainer = Color(0xFF4A3410),
     onAttentionContainer = Color(0xFFFCE6BC),
-    success = Color(0xFF7FD09C),
+    success = Color(0xFF9BD9B3),
     successContainer = Color(0xFF173A26),
     levels = mapOf(
-        "A1" to Color(0xFF7FD09C), "A2" to Color(0xFF6FC7D3), "B1" to Color(0xFF8FB0F0),
-        "B2" to Color(0xFFBBA3EA), "C1" to Color(0xFFEE98AE),
+        "A1" to Color(0xFF9BD9B3), "A2" to Color(0xFF7FD0DA), "B1" to Color(0xFF83C7F1),
+        "B2" to Color(0xFFF7C886), "C1" to Color(0xFFB7CDE6),
     ),
 )
 

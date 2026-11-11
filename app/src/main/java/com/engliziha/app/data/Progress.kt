@@ -37,12 +37,40 @@ data class Attempt(
     val passed: Boolean get() = percent >= PASS_PERCENT
 }
 
+/** Spaced-review state of one word: which box it is in and the day it is due again. */
+@Serializable
+data class WordState(val box: Int = 0, val due: Long = 0)
+
 @Serializable
 data class ProgressState(
     val lessons: Map<String, LessonProgress> = emptyMap(),
     val attempts: List<Attempt> = emptyList(),
     val last: String? = null,
-)
+    val words: Map<String, WordState> = emptyMap(),
+    val days: List<Long> = emptyList(),   // days (epoch day) on which the learner studied
+) {
+    /** Consecutive study days ending today or yesterday. */
+    fun streak(today: Long = today()): Int {
+        val set = days.toSet()
+        var day = if (today in set) today else today - 1
+        var count = 0
+        while (day in set) { count++; day-- }
+        return count
+    }
+}
+
+fun today(): Long = java.time.LocalDate.now().toEpochDay()
+
+/** Days to wait after a correct answer, by box. */
+private val INTERVALS = longArrayOf(1, 3, 7, 16, 35)
+
+data class ReviewCard(val key: String, val word: Vocab, val lesson: Lesson)
+
+/** Words from lessons already passed that are due for review today, oldest first. */
+fun Course.dueWords(state: ProgressState, today: Long = today()): List<ReviewCard> =
+    all.filter { state.lessons[it.n]?.passed == true }.flatMap { lesson ->
+        lesson.vocab.map { ReviewCard("${lesson.n}|${it.en}", it, lesson) }
+    }.filter { (state.words[it.key]?.due ?: 0) <= today }.sortedBy { state.words[it.key]?.due ?: 0 }
 
 /** Everything the learner has done, kept on the device only. */
 class ProgressStore(context: Context) {
@@ -74,11 +102,19 @@ class ProgressStore(context: Context) {
 
     fun markOpened(lesson: String) = update { it.copy(last = lesson) }
 
+    fun reviewWord(key: String, known: Boolean) = update { s ->
+        val old = s.words[key] ?: WordState()
+        val box = if (known) (old.box + 1).coerceAtMost(INTERVALS.size) else 0
+        val wait = if (known) INTERVALS[box - 1] else 1
+        s.copy(words = s.words + (key to WordState(box, today() + wait)), days = (s.days + today()).distinct())
+    }
+
     fun addAttempt(attempt: Attempt) = update { s ->
         val old = s.lessons[attempt.lesson] ?: LessonProgress()
         s.copy(
             lessons = s.lessons + (attempt.lesson to old.copy(best = maxOf(old.best, attempt.percent))),
             attempts = s.attempts + attempt,
+            days = (s.days + today()).distinct(),
         )
     }
 }

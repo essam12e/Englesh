@@ -40,6 +40,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.Image
+import androidx.compose.ui.res.painterResource
+import com.engliziha.app.R
+import com.engliziha.app.data.dueWords
 import com.engliziha.app.data.Course
 import com.engliziha.app.data.Lesson
 import com.engliziha.app.data.Level
@@ -54,6 +58,7 @@ fun HomeScreen(
     onLevel: (String) -> Unit,
     onLesson: (String) -> Unit,
     onRecords: () -> Unit,
+    onReview: () -> Unit,
 ) {
     val extra = LocalExtra.current
     val passed = course.all.count { state.lessons[it.n]?.passed == true }
@@ -68,16 +73,20 @@ fun HomeScreen(
     ) {
         item {
             Row(verticalAlignment = Alignment.CenterVertically) {
+                Image(painterResource(R.drawable.logo), contentDescription = null, modifier = Modifier.size(64.dp))
+                Spacer(Modifier.width(10.dp))
                 Column(Modifier.weight(1f)) {
-                    Text("تعلّم الإنجليزية في 365 يوماً", style = MaterialTheme.typography.labelMedium,
+                    Text("English", style = MaterialTheme.typography.headlineMedium, color = MaterialTheme.colorScheme.primary)
+                    Text("تعلّم .. وتطوّر .. وحقق هدفك", style = MaterialTheme.typography.labelMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    Text("إنجليزيها", style = MaterialTheme.typography.displaySmall, color = MaterialTheme.colorScheme.primary)
                 }
                 TextButton(onClick = onRecords) { Text("السجلات") }
             }
         }
         if (resume != null) item {
             ResumeCard(resume, state, passed, course.all.size) { onLesson(resume.n) }
+            Spacer(Modifier.height(12.dp))
+            DailyRow(state.streak(), course.dueWords(state).size, onReview)
             Spacer(Modifier.height(12.dp))
             Text("المستويات", style = MaterialTheme.typography.titleLarge)
         }
@@ -87,6 +96,32 @@ fun HomeScreen(
             LevelRow(level, state, open, extra.level(level.code)) {
                 if (open) onLevel(level.code)
                 else Toast.makeText(context, "أكمل المستوى السابق أولاً لفتح هذا المستوى", Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+}
+
+/** Today's habit: the study streak and the words waiting for review. */
+@Composable
+private fun DailyRow(streak: Int, due: Int, onReview: () -> Unit) {
+    val extra = LocalExtra.current
+    Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Surface(shape = MaterialTheme.shapes.medium, color = extra.attentionContainer, modifier = Modifier.weight(1f)) {
+            Column(Modifier.padding(14.dp)) {
+                Text("🔥 $streak", style = Numeric, fontSize = 24.sp, color = extra.onAttentionContainer)
+                Text(if (streak == 0) "ابدأ سلسلتك اليوم" else "يوماً متتالياً", style = MaterialTheme.typography.bodySmall,
+                    color = extra.onAttentionContainer)
+            }
+        }
+        Surface(
+            onClick = onReview, enabled = due > 0,
+            shape = MaterialTheme.shapes.medium, color = extra.successContainer, modifier = Modifier.weight(2f),
+        ) {
+            Column(Modifier.padding(14.dp)) {
+                Text(if (due > 0) "🧠 مراجعة اليوم: $due كلمة" else "🧠 لا كلمات للمراجعة الآن",
+                    style = MaterialTheme.typography.titleMedium)
+                Text(if (due > 0) "راجعها حتى لا تنساها — تعمل بدون إنترنت" else "تظهر هنا كلمات الدروس التي نجحت فيها",
+                    style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
     }

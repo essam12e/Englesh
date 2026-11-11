@@ -56,3 +56,14 @@ class QuizTest {
         }
     }
 }
+
+class StreakTest {
+    @Test
+    fun streakCountsConsecutiveDaysUpToTodayOrYesterday() {
+        val s = com.engliziha.app.data.ProgressState(days = listOf(10, 11, 12, 14))
+        assertEquals(1, s.streak(today = 14))
+        assertEquals(3, s.streak(today = 12))
+        assertEquals(3, s.streak(today = 13))
+        assertEquals(0, s.streak(today = 16))
+    }
+}

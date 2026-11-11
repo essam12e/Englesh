@@ -69,7 +69,7 @@ class Listener(private val context: Context) {
                         SpeechRecognizer.ERROR_NO_MATCH, SpeechRecognizer.ERROR_SPEECH_TIMEOUT ->
                             "لم أسمع شيئاً واضحاً، اقترب من الميكروفون وحاول مرة أخرى"
                         SpeechRecognizer.ERROR_NETWORK, SpeechRecognizer.ERROR_NETWORK_TIMEOUT ->
-                            "التعرف على الصوت يحتاج اتصالاً بالإنترنت"
+                            "التعرف على الصوت بدون إنترنت يحتاج تنزيل اللغة الإنجليزية من إعدادات الإدخال الصوتي في جوالك"
                         SpeechRecognizer.ERROR_INSUFFICIENT_PERMISSIONS -> "يجب السماح باستخدام الميكروفون"
                         else -> "تعذّر التعرف على الصوت (رمز $error)"
                     }
@@ -89,6 +89,8 @@ class Listener(private val context: Context) {
                 .putExtra(RecognizerIntent.EXTRA_LANGUAGE, "en-US")
                 .putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, "en-US")
                 .putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 5)
+                // Use the on-device English model when the phone has one, so this works without internet.
+                .putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE, true)
         )
     }
 
