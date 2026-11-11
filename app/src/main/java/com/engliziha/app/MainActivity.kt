@@ -29,6 +29,8 @@ import com.engliziha.app.ui.QuizScreen
 import com.engliziha.app.ui.DailyScreen
 import com.engliziha.app.ui.NotebookScreen
 import com.engliziha.app.ui.ShadowScreen
+import com.engliziha.app.ui.WritingScreen
+import com.engliziha.app.data.Dictionary
 import com.engliziha.app.notify.Reminders
 import com.engliziha.app.ui.RecordsScreen
 import com.engliziha.app.ui.ReviewScreen
@@ -43,6 +45,7 @@ sealed interface Screen {
     data class Shadow(val n: String) : Screen
     data object Daily : Screen
     data object Notebook : Screen
+    data object Writing : Screen
 }
 
 class MainActivity : ComponentActivity() {
@@ -51,6 +54,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         val course = Course.load(this)
         val store = ProgressStore(this)
+        // Loaded on first use (about a megabyte of words), then kept.
+        val dictionary by lazy { Dictionary.load(applicationContext) }
         Reminders.schedule(this)
         setContent {
             AppTheme {
@@ -74,12 +79,14 @@ class MainActivity : ComponentActivity() {
                                 onReview = { stack += Screen.Review },
                                 onDaily = { stack += Screen.Daily },
                                 onNotebook = { stack += Screen.Notebook },
+                                onWriting = { stack += Screen.Writing },
                                 onQuiz = { stack += Screen.Quiz(it) },
                                 onSkipPlacement = { store.skipPlacement() },
                             )
                             Screen.Records -> RecordsScreen(course, state, store, back)
                             Screen.Daily -> DailyScreen(course, state, back) { stack += Screen.Quiz(it) }
                             Screen.Notebook -> NotebookScreen(course, state, store, back)
+                            Screen.Writing -> WritingScreen(state, store, { dictionary }, back) { stack += Screen.Quiz(QuizMode.Spelling) }
                             is Screen.Shadow -> ShadowScreen(course, screen.n, back)
                             Screen.Review -> ReviewScreen(course, store, back)
                             is Screen.LevelList -> LevelScreen(
@@ -93,7 +100,7 @@ class MainActivity : ComponentActivity() {
                                 onShadow = { stack += Screen.Shadow(screen.n) },
                             )
                             is Screen.Quiz -> QuizScreen(
-                                course, screen.mode, store,
+                                course, screen.mode, store, { dictionary },
                                 onClose = back,
                                 onNext = { next ->
                                     // Leave the quiz and the finished lesson, then open the next one.

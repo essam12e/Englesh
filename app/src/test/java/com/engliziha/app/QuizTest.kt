@@ -129,3 +129,50 @@ class FeaturesTest {
         assertEquals(6, com.engliziha.app.quiz.dailyTestItems(course, empty).size)
     }
 }
+
+class DictionaryTest {
+    private val words = File("src/main/assets/dict/words.tsv").readLines().filter { it.isNotBlank() }
+        .associate { it.substringBefore('\t') to it.substringAfter('\t').trim().toInt() }
+    private val dict = com.engliziha.app.data.Dictionary(
+        words, mapOf("apple" to com.engliziha.app.data.Example("تفاحة", "I eat an apple every day.", "آكل تفاحة كل يوم.")),
+    )
+
+    @Test
+    fun misspelledWordsGetTheClosestCommonWord() {
+        assertEquals("apple", dict.suggest("aple"))
+        assertEquals("friend", dict.suggest("freind"))
+        assertEquals("school", dict.suggest("scool"))
+        assertEquals("because", dict.suggest("becuase"))
+        assertEquals("beautiful", dict.suggest("beutiful"))
+        assertEquals(null, dict.suggest("qqqqzzzz"))
+    }
+
+    @Test
+    fun checkSplitsTextAndSeparatesRightFromWrong() {
+        val result = dict.check("Apple, dog\naple  DOG teacher")
+        assertEquals(listOf("apple", "dog", "aple", "teacher"), result.map { it.typed })
+        assertTrue(result[0] is com.engliziha.app.data.WordCheck.Correct)
+        val wrong = result[2] as com.engliziha.app.data.WordCheck.Wrong
+        assertEquals("apple", wrong.correct)
+        assertEquals("تفاحة", wrong.example?.arabic)
+    }
+
+    @Test
+    fun mistakesAreExplained() {
+        val d = com.engliziha.app.data.Dictionary
+        assertTrue(d.explain("aple", "apple").startsWith("حرف ناقص"))
+        assertTrue(d.explain("appple", "apple").startsWith("حرف زائد"))
+        assertTrue(d.explain("freind", "friend").startsWith("حرفان متبادلان"))
+        assertTrue(d.explain("cet", "cat").startsWith("حرف خاطئ"))
+        assertTrue(d.explain("beutifl", "beautiful").startsWith("أكثر من خطأ"))
+        assertEquals(listOf(false, false, true, false, false), d.fixedLetters("aple", "apple").toList())
+    }
+
+    @Test
+    fun theWordIsBlankedOnlyAsAWholeWord() {
+        val d = com.engliziha.app.data.Dictionary
+        assertEquals("I eat an _____ every day.", d.blank("I eat an apple every day.", "apple"))
+        assertEquals("_____ am a student.", d.blank("I am a student.", "i"))
+        assertEquals(null, d.blank("I like pineapples.", "apple"))
+    }
+}

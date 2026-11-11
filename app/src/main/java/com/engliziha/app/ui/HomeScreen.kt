@@ -68,6 +68,7 @@ fun HomeScreen(
     onReview: () -> Unit,
     onDaily: () -> Unit,
     onNotebook: () -> Unit,
+    onWriting: () -> Unit,
     onQuiz: (QuizMode) -> Unit,
     onSkipPlacement: () -> Unit,
 ) {
@@ -136,6 +137,22 @@ fun HomeScreen(
                     }
                     Text(if (daily.tested) "✓" else "${daily.learned.size}/3", style = Numeric, fontSize = 18.sp,
                         color = if (daily.tested) LocalExtra.current.success else MaterialTheme.colorScheme.primary)
+                }
+            }
+            Spacer(Modifier.height(12.dp))
+            Surface(
+                onClick = onWriting, shape = MaterialTheme.shapes.medium, color = MaterialTheme.colorScheme.surface,
+                border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant), modifier = Modifier.fillMaxWidth(),
+            ) {
+                Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Text("✍️", fontSize = 28.sp)
+                    Spacer(Modifier.width(12.dp))
+                    Column(Modifier.weight(1f)) {
+                        Text("اكتب ما تعرف", style = MaterialTheme.typography.titleMedium)
+                        Text("اكتب كلماتك الإنجليزية ونصحّح إملاءها ونعلّمك استخدامها", style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                    Text("${state.knownWords.size}", style = Numeric, fontSize = 18.sp, color = MaterialTheme.colorScheme.primary)
                 }
             }
             Spacer(Modifier.height(12.dp))

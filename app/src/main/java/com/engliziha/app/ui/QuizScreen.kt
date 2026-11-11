@@ -66,6 +66,8 @@ import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
 import com.engliziha.app.data.Attempt
 import com.engliziha.app.data.Course
+import com.engliziha.app.data.Dictionary
+import com.engliziha.app.quiz.QuizItem
 import com.engliziha.app.data.PASS_PERCENT
 import com.engliziha.app.data.ProgressStore
 import com.engliziha.app.data.SkillScore
@@ -97,6 +99,7 @@ sealed interface QuizMode {
     data class Exam(val code: String) : QuizMode
     data class DailyLearn(val slot: Int) : QuizMode
     data object DailyTest : QuizMode
+    data object Spelling : QuizMode
 }
 
 private data class Summary(
@@ -109,7 +112,7 @@ private data class Summary(
 }
 
 @Composable
-fun QuizScreen(course: Course, mode: QuizMode, store: ProgressStore, onClose: () -> Unit, onNext: (String) -> Unit) {
+fun QuizScreen(course: Course, mode: QuizMode, store: ProgressStore, dictionary: () -> Dictionary, onClose: () -> Unit, onNext: (String) -> Unit) {
     val context = LocalContext.current
     val speaker = remember { Speaker(context) }
     val listener = remember { Listener(context) }
@@ -125,6 +128,10 @@ fun QuizScreen(course: Course, mode: QuizMode, store: ProgressStore, onClose: ()
             is QuizMode.Exam -> examItems(course, mode.code)
             is QuizMode.DailyLearn -> dailyLearnItems(course, state, mode.slot)
             QuizMode.DailyTest -> dailyTestItems(course, state)
+            // Hear each word you misspelled in the writing pad and type it.
+            QuizMode.Spelling -> state.spelling.shuffled().take(10).map { w ->
+                QuizItem(Question.Dictation(w, dictionary().example(w)?.arabic.orEmpty()), "")
+            }
         }
     }
     val results = remember(round) { mutableStateListOf<Boolean?>() }
@@ -171,6 +178,9 @@ fun QuizScreen(course: Course, mode: QuizMode, store: ProgressStore, onClose: ()
                 store.addAttempt(attempt("daily", "اختبار جمل اليوم", items.firstOrNull()?.let { course.lesson(it.lesson)?.level } ?: ""), lessonQuiz = false)
             }
             QuizMode.Mistakes -> {}
+            QuizMode.Spelling -> store.spellingFixed(
+                items.indices.filter { results[it] == true }.mapNotNull { (items[it].question as? Question.Dictation)?.text }
+            )
         }
         summary = s
     }
@@ -417,7 +427,7 @@ private fun WriteBody(
 ) {
     var text by remember { mutableStateOf("") }
     val submit = {
-        if (text.isNotBlank() && !answered) onAnswer(Outcome(sameText(text, expected), "$expected = $meaning"))
+        if (text.isNotBlank() && !answered) onAnswer(Outcome(sameText(text, expected), if (meaning.isBlank()) expected else "$expected = $meaning"))
     }
     if (autoSpeak) LaunchedEffect(Unit) { speaker.say(expected) }
     Text(title, style = MaterialTheme.typography.headlineSmall)
@@ -556,6 +566,7 @@ private fun ResultView(
         is QuizMode.Exam ->
             if (s.passed) "مبروك! أتممت المستوى ${mode.code}" to "أجبت عن ${s.correct} من ${s.total} في الاختبار الشامل."
             else "لم تصل إلى $PASS_PERCENT% بعد" to "أجبت عن ${s.correct} من ${s.total}. راجع دروس المستوى ثم أعد الاختبار."
+        QuizMode.Spelling -> "كتبت ${s.correct} من ${s.total} صحيحة" to "الكلمات التي كتبتها صحيحة خرجت من قائمة أخطائك الإملائية."
         QuizMode.Mistakes -> "صحّحت ${s.correct} من ${s.total}" to "الأسئلة التي أجبتها صحيحة حُذفت من قائمة أخطائك، والباقي ينتظرك."
         QuizMode.Placement -> "مستواك المناسب: ${s.placed}" to
             "أجبت عن ${s.correct} من ${s.total}. فتحنا لك المستوى ${s.placed} وكل ما قبله، وتستطيع دائماً الرجوع للدروس السابقة."
@@ -581,7 +592,7 @@ private fun ResultView(
         if (mode is QuizMode.Exam && s.passed) {
             Certificate(course, mode.code, s.percent, store)
             Spacer(Modifier.height(24.dp))
-        } else if (scored && mode != QuizMode.Mistakes) {
+        } else if (scored && mode != QuizMode.Mistakes && mode != QuizMode.Spelling) {
             SkillBars(s.questions, s.writing, s.speaking)
             Spacer(Modifier.height(28.dp))
         }

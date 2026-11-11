@@ -65,6 +65,8 @@ data class ProgressState(
     val exams: Map<String, Int> = emptyMap(),     // best level-exam score by level code
     val name: String = "",
     val daily: DailyState = DailyState(),
+    val knownWords: List<String> = emptyList(),   // words written correctly in the writing pad
+    val spelling: List<String> = emptyList(),     // correct forms of words the learner misspelled
 ) {
     /** Today's sentence progress; yesterday's is ignored. */
     fun dailyToday(today: Long = today()): DailyState = if (daily.day == today) daily else DailyState(today)
@@ -163,6 +165,19 @@ class ProgressStore(context: Context) {
     }
 
     fun dailyTested() = update { s -> s.copy(daily = s.dailyToday().copy(tested = true)) }
+
+    /** Result of one writing-pad check: words spelled right, and the correct forms of the ones spelled wrong. */
+    fun recordWriting(correct: List<String>, misspelled: List<String>) = update { s ->
+        s.copy(
+            knownWords = (s.knownWords + correct).distinct(),
+            spelling = (s.spelling + misspelled).distinct(),
+            days = (s.days + today()).distinct(),
+        )
+    }
+
+    fun spellingFixed(words: List<String>) = update { s ->
+        s.copy(spelling = s.spelling - words.toSet(), knownWords = (s.knownWords + words).distinct())
+    }
 
     fun exportJson(): String = json.encodeToString(_state.value)
 
