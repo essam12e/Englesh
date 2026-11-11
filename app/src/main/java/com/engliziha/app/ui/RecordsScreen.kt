@@ -23,6 +23,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import android.widget.Toast
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.Switch
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.platform.LocalContext
+import com.engliziha.app.data.ProgressStore
+import com.engliziha.app.notify.Reminders
 import com.engliziha.app.data.Course
 import com.engliziha.app.data.ProgressState
 import com.engliziha.app.data.SkillScore
@@ -31,7 +43,25 @@ import java.util.Date
 import java.util.Locale
 
 @Composable
-fun RecordsScreen(course: Course, state: ProgressState, onBack: () -> Unit) {
+fun RecordsScreen(course: Course, state: ProgressState, store: ProgressStore, onBack: () -> Unit) {
+    val context = LocalContext.current
+    var reminders by remember { mutableStateOf(Reminders.enabled(context)) }
+    val export = rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/json")) { uri ->
+        if (uri != null) {
+            val ok = try {
+                context.contentResolver.openOutputStream(uri)?.use { it.write(store.exportJson().toByteArray()) } != null
+            } catch (e: Exception) { false }
+            Toast.makeText(context, if (ok) "حُفظت النسخة الاحتياطية" else "تعذّر حفظ النسخة", Toast.LENGTH_SHORT).show()
+        }
+    }
+    val import = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
+        if (uri != null) {
+            val ok = try {
+                context.contentResolver.openInputStream(uri)?.use { store.importJson(it.readBytes().decodeToString()) } == true
+            } catch (e: Exception) { false }
+            Toast.makeText(context, if (ok) "تم استرجاع تقدمك" else "هذا الملف ليس نسخة احتياطية صالحة", Toast.LENGTH_SHORT).show()
+        }
+    }
     val extra = LocalExtra.current
     val attempts = state.attempts.asReversed()
     val passed = course.all.count { state.lessons[it.n]?.passed == true }
@@ -83,6 +113,28 @@ fun RecordsScreen(course: Course, state: ProgressState, onBack: () -> Unit) {
                 Text("دقتك حسب المهارة", style = MaterialTheme.typography.titleLarge)
                 Spacer(Modifier.height(10.dp))
                 SkillBars(sum { it.questions }, sum { it.writing }, sum { it.speaking })
+            }
+            item {
+                Spacer(Modifier.height(8.dp))
+                Text("الإعدادات", style = MaterialTheme.typography.titleLarge)
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Column(Modifier.weight(1f)) {
+                        Text("التذكير اليومي", style = MaterialTheme.typography.titleMedium)
+                        Text("3 إشعارات: 8 صباحاً، 4 عصراً، 9 مساءً", style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                    Switch(checked = reminders, onCheckedChange = { reminders = it; Reminders.setEnabled(context, it) })
+                }
+                Spacer(Modifier.height(8.dp))
+                Text("النسخة الاحتياطية", style = MaterialTheme.typography.titleMedium)
+                Text("احفظ تقدمك في ملف لتسترجعه إذا غيّرت الجوال أو حذفت التطبيق. الاسترجاع يستبدل التقدم الحالي.",
+                    style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.padding(top = 6.dp)) {
+                    OutlinedButton(onClick = { export.launch("english-backup.json") }, modifier = Modifier.weight(1f)) { Text("حفظ نسخة") }
+                    OutlinedButton(onClick = { import.launch(arrayOf("application/json", "text/*", "application/octet-stream")) }, modifier = Modifier.weight(1f)) { Text("استرجاع نسخة") }
+                }
+            }
+            item {
                 Spacer(Modifier.height(8.dp))
                 Text("سجل الاختبارات", style = MaterialTheme.typography.titleLarge)
             }
@@ -96,7 +148,7 @@ fun RecordsScreen(course: Course, state: ProgressState, onBack: () -> Unit) {
                     Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
                         Column(Modifier.weight(1f)) {
                             Text(a.title, style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                            Text("الدرس ${a.lesson} · ${a.level} · ${dateFormat.format(Date(a.time))}",
+                            Text("${if (a.lesson.firstOrNull()?.isDigit() == true) "الدرس ${a.lesson} · " else ""}${a.level} · ${dateFormat.format(Date(a.time))}",
                                 style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                             Text("${a.correct} من ${a.total} · ${if (a.passed) "ناجح" else "لم ينجح"}",
                                 style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)

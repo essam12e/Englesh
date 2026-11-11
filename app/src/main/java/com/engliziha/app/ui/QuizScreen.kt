@@ -44,6 +44,7 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateListOf
@@ -71,7 +72,14 @@ import com.engliziha.app.data.SkillScore
 import com.engliziha.app.quiz.Question
 import com.engliziha.app.quiz.SPEECH_PASS
 import com.engliziha.app.quiz.Skill
-import com.engliziha.app.quiz.buildQuiz
+import com.engliziha.app.quiz.buildItems
+import com.engliziha.app.quiz.dailyLearnItems
+import com.engliziha.app.quiz.dailyTestItems
+import com.engliziha.app.quiz.examItems
+import com.engliziha.app.quiz.mistakeItems
+import com.engliziha.app.quiz.placementItems
+import com.engliziha.app.quiz.placementLevel
+import com.engliziha.app.quiz.slotName
 import com.engliziha.app.quiz.sameText
 import com.engliziha.app.quiz.speechScore
 import com.engliziha.app.speech.ListenResult
@@ -81,70 +89,126 @@ import com.engliziha.app.speech.Speaker
 /** What happened on one question: right, wrong, or skipped (not counted). */
 private data class Outcome(val correct: Boolean?, val feedback: String)
 
+/** The different tests that share this screen. */
+sealed interface QuizMode {
+    data class LessonQuiz(val n: String) : QuizMode
+    data object Mistakes : QuizMode
+    data object Placement : QuizMode
+    data class Exam(val code: String) : QuizMode
+    data class DailyLearn(val slot: Int) : QuizMode
+    data object DailyTest : QuizMode
+}
+
+private data class Summary(
+    val correct: Int, val total: Int,
+    val questions: SkillScore, val writing: SkillScore, val speaking: SkillScore,
+    val placed: String? = null,
+) {
+    val percent: Int get() = if (total == 0) 0 else correct * 100 / total
+    val passed: Boolean get() = percent >= PASS_PERCENT
+}
+
 @Composable
-fun QuizScreen(course: Course, n: String, store: ProgressStore, onClose: () -> Unit, onNext: (String) -> Unit) {
-    val lesson = course.lesson(n) ?: return
+fun QuizScreen(course: Course, mode: QuizMode, store: ProgressStore, onClose: () -> Unit, onNext: (String) -> Unit) {
     val context = LocalContext.current
     val speaker = remember { Speaker(context) }
     val listener = remember { Listener(context) }
     DisposableEffect(Unit) { onDispose { speaker.release(); listener.stop() } }
 
     var round by remember { mutableIntStateOf(0) }
-    val questions = remember(round) { buildQuiz(lesson) }
+    val items = remember(round) {
+        val state = store.state.value
+        when (mode) {
+            is QuizMode.LessonQuiz -> course.lesson(mode.n)?.let { buildItems(it) }.orEmpty()
+            QuizMode.Mistakes -> mistakeItems(course, state.mistakes)
+            QuizMode.Placement -> placementItems(course)
+            is QuizMode.Exam -> examItems(course, mode.code)
+            is QuizMode.DailyLearn -> dailyLearnItems(course, state, mode.slot)
+            QuizMode.DailyTest -> dailyTestItems(course, state)
+        }
+    }
     val results = remember(round) { mutableStateListOf<Boolean?>() }
     var index by remember(round) { mutableIntStateOf(0) }
     var outcome by remember(round) { mutableStateOf<Outcome?>(null) }
-    var attempt by remember(round) { mutableStateOf<Attempt?>(null) }
+    var summary by remember(round) { mutableStateOf<Summary?>(null) }
     var confirmExit by remember { mutableStateOf(false) }
 
-    BackHandler(enabled = attempt == null) { confirmExit = true }
+    BackHandler(enabled = summary == null) { confirmExit = true }
 
     fun finish() {
         fun score(skill: Skill): SkillScore {
-            val picked = questions.indices.filter { questions[it].skill == skill && results[it] != null }
+            val picked = items.indices.filter { items[it].question.skill == skill && results[it] != null }
             return SkillScore(picked.count { results[it] == true }, picked.size)
         }
-        val a = Attempt(
-            lesson = lesson.n, title = lesson.title_ar, level = lesson.level, time = System.currentTimeMillis(),
-            correct = results.count { it == true }, total = results.count { it != null },
-            questions = score(Skill.QUESTIONS), writing = score(Skill.WRITING), speaking = score(Skill.SPEAKING),
+        var s = Summary(
+            results.count { it == true }, results.count { it != null },
+            score(Skill.QUESTIONS), score(Skill.WRITING), score(Skill.SPEAKING),
         )
-        store.addAttempt(a)
-        attempt = a
+        // A wrong answer in a lesson quiz or level exam goes to "my mistakes"; a right answer anywhere clears it.
+        val wrong = items.indices.filter { results[it] == false }.mapNotNull { items[it].mistake }
+        val right = items.indices.filter { results[it] == true }.mapNotNull { items[it].mistake }
+        val track = mode is QuizMode.LessonQuiz || mode is QuizMode.Exam
+        store.updateMistakes(if (track) wrong else emptyList(), right)
+
+        fun attempt(lesson: String, title: String, level: String) = Attempt(
+            lesson = lesson, title = title, level = level, time = System.currentTimeMillis(),
+            correct = s.correct, total = s.total, questions = s.questions, writing = s.writing, speaking = s.speaking,
+        )
+        when (mode) {
+            is QuizMode.LessonQuiz -> course.lesson(mode.n)?.let { store.addAttempt(attempt(it.n, it.title_ar, it.level)) }
+            is QuizMode.Exam -> {
+                store.addAttempt(attempt("exam-${mode.code}", "الاختبار الشامل للمستوى ${mode.code}", mode.code), lessonQuiz = false)
+                store.setExam(mode.code, s.percent)
+            }
+            QuizMode.Placement -> {
+                val placed = placementLevel(course, items, results)
+                store.setPlacement(placed)
+                s = s.copy(placed = placed)
+            }
+            is QuizMode.DailyLearn -> store.dailyLearned(mode.slot)
+            QuizMode.DailyTest -> {
+                store.dailyTested()
+                store.addAttempt(attempt("daily", "اختبار جمل اليوم", items.firstOrNull()?.let { course.lesson(it.lesson)?.level } ?: ""), lessonQuiz = false)
+            }
+            QuizMode.Mistakes -> {}
+        }
+        summary = s
     }
 
-    val done = attempt
+    val done = summary
     if (done != null) {
-        ResultView(
-            done, hasNext = course.next(n) != null,
-            onNext = { course.next(n)?.let { onNext(it.n) } },
-            onRetry = { round++ }, onClose = onClose,
-        )
+        ResultView(course, mode, done, store, onNext = onNext, onRetry = { round++ }, onClose = onClose)
         return
     }
-    if (questions.isEmpty()) {
+    if (items.isEmpty()) {
         Column(Modifier.fillMaxSize()) {
-            TopBar("اختبار الدرس", onClose)
-            Text("لا توجد أسئلة لهذا الدرس بعد.", Modifier.padding(20.dp))
+            TopBar("اختبار", onClose)
+            Text("لا توجد أسئلة هنا الآن.", Modifier.padding(20.dp))
         }
         return
     }
 
-    val question = questions[index]
+    val question = items[index].question
+    fun advance(correct: Boolean?) {
+        results += correct
+        outcome = null
+        if (index == items.lastIndex) finish() else index++
+    }
     Column(Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding().imePadding()) {
         Row(Modifier.fillMaxWidth().padding(horizontal = 4.dp), verticalAlignment = Alignment.CenterVertically) {
             IconButton(onClick = { confirmExit = true }) { Icon(Icons.Filled.Close, "إغلاق الاختبار") }
-            ProgressLine(index.toFloat() / questions.size, MaterialTheme.colorScheme.primary, Modifier.weight(1f), height = 8.dp)
-            Text("${index + 1}/${questions.size}", Modifier.padding(horizontal = 14.dp), style = Numeric, fontSize = 14.sp)
+            ProgressLine(index.toFloat() / items.size, MaterialTheme.colorScheme.primary, Modifier.weight(1f), height = 8.dp)
+            Text("${index + 1}/${items.size}", Modifier.padding(horizontal = 14.dp), style = Numeric, fontSize = 14.sp)
         }
         Column(
             Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 12.dp),
         ) {
             Text(
-                when (question.skill) {
-                    Skill.QUESTIONS -> "سؤال"
-                    Skill.WRITING -> "كتابة"
-                    Skill.SPEAKING -> "نطق"
+                when {
+                    question is Question.Study -> question.label
+                    question.skill == Skill.WRITING -> "كتابة"
+                    question.skill == Skill.SPEAKING -> "نطق"
+                    else -> "سؤال"
                 },
                 style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.primary,
             )
@@ -154,6 +218,7 @@ fun QuizScreen(course: Course, n: String, store: ProgressStore, onClose: () -> U
             // key() gives every question its own fresh state.
             androidx.compose.runtime.key(round, index) {
                 when (question) {
+                    is Question.Study -> StudyBody(question, speaker) { advance(null) }
                     is Question.Choice -> ChoiceBody(question.prompt, null, question.options, question.answer, false, answered) { ok ->
                         answer(Outcome(ok, question.why))
                     }
@@ -167,7 +232,8 @@ fun QuizScreen(course: Course, n: String, store: ProgressStore, onClose: () -> U
                         answered = answered, onAnswer = answer,
                     )
                     is Question.Translate -> WriteBody(
-                        title = "اكتب هذه الكلمة بالإنجليزية", emoji = question.emoji, hint = question.arabic,
+                        title = if (' ' in question.text.trim()) "اكتب الجملة بالإنجليزية" else "اكتب هذه الكلمة بالإنجليزية",
+                        emoji = question.emoji, hint = question.arabic,
                         expected = question.text, meaning = question.arabic, speaker = speaker, autoSpeak = false,
                         answered = answered, onAnswer = answer,
                     )
@@ -175,24 +241,44 @@ fun QuizScreen(course: Course, n: String, store: ProgressStore, onClose: () -> U
                 }
             }
         }
-        outcome?.let { o ->
-            FeedbackBar(o, last = index == questions.lastIndex) {
-                results += o.correct
-                outcome = null
-                if (index == questions.lastIndex) finish() else index++
-            }
-        }
+        outcome?.let { o -> FeedbackBar(o, last = index == items.lastIndex) { advance(o.correct) } }
     }
 
     if (confirmExit) {
         AlertDialog(
             onDismissRequest = { confirmExit = false },
-            title = { Text("الخروج من الاختبار؟") },
+            title = { Text("الخروج الآن؟") },
             text = { Text("لن تُحفظ إجاباتك في السجلات إذا خرجت الآن.") },
             confirmButton = { TextButton(onClick = { confirmExit = false; onClose() }) { Text("اخرج") } },
-            dismissButton = { Button(onClick = { confirmExit = false }) { Text("أكمل الاختبار") } },
+            dismissButton = { Button(onClick = { confirmExit = false }) { Text("أكمل") } },
         )
     }
+}
+
+/** A sentence to memorise before being asked to write and say it. */
+@Composable
+private fun StudyBody(q: Question.Study, speaker: Speaker, onReady: () -> Unit) {
+    LaunchedEffect(Unit) { speaker.say(q.text) }
+    Text("احفظ هذه الجملة", style = MaterialTheme.typography.headlineSmall)
+    Spacer(Modifier.height(16.dp))
+    Surface(shape = MaterialTheme.shapes.large, color = MaterialTheme.colorScheme.primaryContainer, modifier = Modifier.fillMaxWidth()) {
+        Column(Modifier.padding(24.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+            English(q.text, style = MaterialTheme.typography.headlineMedium.copy(textAlign = TextAlign.Center),
+                color = MaterialTheme.colorScheme.onPrimaryContainer)
+            Spacer(Modifier.height(8.dp))
+            Text(q.arabic, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onPrimaryContainer, textAlign = TextAlign.Center)
+            Spacer(Modifier.height(12.dp))
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                TextButton(onClick = { speaker.say(q.text) }) { Text("🔊 استمع") }
+                TextButton(onClick = { speaker.say(q.text, 0.5f) }) { Text("🐢 ببطء") }
+            }
+        }
+    }
+    Spacer(Modifier.height(16.dp))
+    Text("اقرأها بصوت مسموع عدة مرات وانتبه لإملاء كل كلمة. بعدها ستكتبها من حفظك ثم تنطقها.",
+        style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    Spacer(Modifier.height(20.dp))
+    Button(onClick = onReady, modifier = Modifier.fillMaxWidth().height(52.dp), shape = MaterialTheme.shapes.medium) { Text("حفظتها — اختبرني") }
 }
 
 @Composable
@@ -451,36 +537,104 @@ private fun SpeakBody(q: Question.Speak, speaker: Speaker, listener: Listener, a
 }
 
 @Composable
-private fun ResultView(attempt: Attempt, hasNext: Boolean, onNext: () -> Unit, onRetry: () -> Unit, onClose: () -> Unit) {
+private fun ResultView(
+    course: Course, mode: QuizMode, s: Summary, store: ProgressStore,
+    onNext: (String) -> Unit, onRetry: () -> Unit, onClose: () -> Unit,
+) {
     val extra = LocalExtra.current
-    val color = if (attempt.passed) extra.success else MaterialTheme.colorScheme.error
+    val scored = mode !is QuizMode.DailyLearn && mode !is QuizMode.Placement
+    val good = when (mode) {
+        is QuizMode.LessonQuiz, is QuizMode.Exam -> s.passed
+        else -> true
+    }
+    val color = if (good) extra.success else MaterialTheme.colorScheme.error
+    val next = (mode as? QuizMode.LessonQuiz)?.let { course.next(it.n) }
+    val (headline, message) = when (mode) {
+        is QuizMode.LessonQuiz ->
+            if (s.passed) "أحسنت! نجحت في الدرس" to "أجبت عن ${s.correct} من ${s.total} بشكل صحيح، وفُتح لك الدرس التالي."
+            else "لم تصل إلى $PASS_PERCENT% بعد" to "أجبت عن ${s.correct} من ${s.total}. راجع ملخص الدرس ثم أعد المحاولة. أخطاؤك حُفظت في «أخطائي»."
+        is QuizMode.Exam ->
+            if (s.passed) "مبروك! أتممت المستوى ${mode.code}" to "أجبت عن ${s.correct} من ${s.total} في الاختبار الشامل."
+            else "لم تصل إلى $PASS_PERCENT% بعد" to "أجبت عن ${s.correct} من ${s.total}. راجع دروس المستوى ثم أعد الاختبار."
+        QuizMode.Mistakes -> "صحّحت ${s.correct} من ${s.total}" to "الأسئلة التي أجبتها صحيحة حُذفت من قائمة أخطائك، والباقي ينتظرك."
+        QuizMode.Placement -> "مستواك المناسب: ${s.placed}" to
+            "أجبت عن ${s.correct} من ${s.total}. فتحنا لك المستوى ${s.placed} وكل ما قبله، وتستطيع دائماً الرجوع للدروس السابقة."
+        is QuizMode.DailyLearn -> "حفظت ${slotName(mode.slot)} ✓" to "ستُختبر فيها مع بقية جمل اليوم في اختبار المساء."
+        QuizMode.DailyTest -> "أنهيت اختبار جمل اليوم" to "أجبت عن ${s.correct} من ${s.total} بشكل صحيح. جمل جديدة تنتظرك غداً."
+    }
     Column(
         Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding().verticalScroll(rememberScrollState()).padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Spacer(Modifier.height(24.dp))
-        ProgressRing(attempt.percent / 100f, color, size = 168.dp, stroke = 14.dp) {
-            Text("${attempt.percent}%", style = Numeric, fontSize = 40.sp, color = color)
+        if (scored) {
+            ProgressRing(s.percent / 100f, color, size = 168.dp, stroke = 14.dp) {
+                Text("${s.percent}%", style = Numeric, fontSize = 40.sp, color = color)
+            }
+        } else {
+            Text(if (mode is QuizMode.Placement) "🎯" else "🌟", fontSize = 84.sp)
         }
         Spacer(Modifier.height(20.dp))
-        Text(if (attempt.passed) "أحسنت! نجحت في الدرس" else "لم تصل إلى $PASS_PERCENT% بعد", style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
-        Text(
-            if (attempt.passed) "أجبت عن ${attempt.correct} من ${attempt.total} بشكل صحيح، وفُتح لك الدرس التالي."
-            else "أجبت عن ${attempt.correct} من ${attempt.total}. راجع ملخص الدرس ثم أعد المحاولة.",
-            style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center,
-        )
+        Text(headline, style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
+        Text(message, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center)
         Spacer(Modifier.height(24.dp))
-        SkillBars(attempt.questions, attempt.writing, attempt.speaking)
-        Spacer(Modifier.height(28.dp))
-        if (attempt.passed && hasNext) {
-            Button(onClick = onNext, modifier = Modifier.fillMaxWidth().height(52.dp), shape = MaterialTheme.shapes.medium) { Text("الدرس التالي") }
-            Spacer(Modifier.height(8.dp))
-            OutlinedButton(onClick = onRetry, modifier = Modifier.fillMaxWidth().height(52.dp), shape = MaterialTheme.shapes.medium) { Text("أعد الاختبار") }
-        } else {
-            Button(onClick = onRetry, modifier = Modifier.fillMaxWidth().height(52.dp), shape = MaterialTheme.shapes.medium) { Text("أعد الاختبار") }
+        if (mode is QuizMode.Exam && s.passed) {
+            Certificate(course, mode.code, s.percent, store)
+            Spacer(Modifier.height(24.dp))
+        } else if (scored && mode != QuizMode.Mistakes) {
+            SkillBars(s.questions, s.writing, s.speaking)
+            Spacer(Modifier.height(28.dp))
         }
-        Spacer(Modifier.height(8.dp))
-        TextButton(onClick = onClose) { Text("ارجع إلى الدرس") }
+        val big = Modifier.fillMaxWidth().height(52.dp)
+        when {
+            mode is QuizMode.LessonQuiz && s.passed && next != null -> {
+                Button(onClick = { onNext(next.n) }, modifier = big, shape = MaterialTheme.shapes.medium) { Text("الدرس التالي") }
+                Spacer(Modifier.height(8.dp))
+                OutlinedButton(onClick = onRetry, modifier = big, shape = MaterialTheme.shapes.medium) { Text("أعد الاختبار") }
+                Spacer(Modifier.height(8.dp))
+                TextButton(onClick = onClose) { Text("ارجع إلى الدرس") }
+            }
+            !good -> {
+                Button(onClick = onRetry, modifier = big, shape = MaterialTheme.shapes.medium) { Text("أعد الاختبار") }
+                Spacer(Modifier.height(8.dp))
+                TextButton(onClick = onClose) { Text("رجوع") }
+            }
+            else -> Button(onClick = onClose, modifier = big, shape = MaterialTheme.shapes.medium) { Text("تم") }
+        }
+    }
+}
+
+/** A simple completion certificate shown after passing a level exam. */
+@Composable
+fun Certificate(course: Course, code: String, percent: Int, store: ProgressStore) {
+    val state by store.state.collectAsState()
+    val extra = LocalExtra.current
+    var name by remember { mutableStateOf(state.name) }
+    Surface(
+        shape = MaterialTheme.shapes.large, color = MaterialTheme.colorScheme.surface,
+        border = BorderStroke(2.dp, extra.level(code)), modifier = Modifier.fillMaxWidth(),
+    ) {
+        Column(Modifier.padding(24.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+            Text("🏅", fontSize = 48.sp)
+            Text("شهادة إنجاز", style = MaterialTheme.typography.headlineSmall, color = extra.level(code))
+            Spacer(Modifier.height(8.dp))
+            Text("تشهد هذه البطاقة أن", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            if (state.name.isBlank()) {
+                OutlinedTextField(
+                    value = name, onValueChange = { name = it }, singleLine = true,
+                    placeholder = { Text("اكتب اسمك") }, modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
+                )
+                TextButton(onClick = { store.setName(name.trim()) }, enabled = name.isNotBlank()) { Text("احفظ الاسم") }
+            } else {
+                Text(state.name, style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
+            }
+            Text(
+                "أتمّ المستوى $code (${course.level(code)?.name.orEmpty()}) بنتيجة $percent%",
+                style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Center,
+            )
+            Spacer(Modifier.height(6.dp))
+            Text(java.time.LocalDate.now().toString(), style = Numeric, fontSize = 13.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
     }
 }
 

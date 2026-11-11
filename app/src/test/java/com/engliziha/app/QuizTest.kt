@@ -1,6 +1,9 @@
 package com.engliziha.app
 
 import com.engliziha.app.data.Lesson
+import com.engliziha.app.data.currentLesson
+import com.engliziha.app.data.dailySentences
+import com.engliziha.app.data.isUnlocked
 import com.engliziha.app.quiz.Question
 import com.engliziha.app.quiz.SPEECH_PASS
 import com.engliziha.app.quiz.buildQuiz
@@ -65,5 +68,64 @@ class StreakTest {
         assertEquals(3, s.streak(today = 12))
         assertEquals(3, s.streak(today = 13))
         assertEquals(0, s.streak(today = 16))
+    }
+}
+
+class FeaturesTest {
+    private val json = Json { ignoreUnknownKeys = true }
+    private val course = com.engliziha.app.data.Course(
+        listOf("A1", "A2", "B1", "B2", "C1").map { code ->
+            com.engliziha.app.data.Level(code, code, "", json.decodeFromString<List<Lesson>>(File("src/main/assets/content/$code.json").readText()))
+        }
+    )
+    private val empty = com.engliziha.app.data.ProgressState()
+
+    @Test
+    fun placementStartsAtTheFirstLevelNotMastered() {
+        val items = com.engliziha.app.quiz.placementItems(course, Random(1))
+        assertEquals(20, items.size)
+        fun place(right: Set<String>) = com.engliziha.app.quiz.placementLevel(
+            course, items, items.map { course.lesson(it.lesson)!!.level in right },
+        )
+        assertEquals("A1", place(emptySet()))
+        assertEquals("B1", place(setOf("A1", "A2")))
+        assertEquals("A2", place(setOf("A1", "B1")))
+        assertEquals("C1", place(setOf("A1", "A2", "B1", "B2")))
+    }
+
+    @Test
+    fun placementOpensEarlierLevelsAndTheFirstLessonOfTheStartLevel() {
+        with(com.engliziha.app.data.ProgressState(startLevel = "B1")) {
+            assertTrue(course.isUnlocked("30", this))
+            assertTrue(course.isUnlocked("88", this))
+            assertFalse(course.isUnlocked("89", this))
+            assertEquals("88", course.currentLesson(this)?.n)
+        }
+        assertTrue(course.isUnlocked("1", empty))
+        assertFalse(course.isUnlocked("2", empty))
+        assertFalse(course.isUnlocked("50", empty))
+    }
+
+    @Test
+    fun everyKindOfMistakeComesBackAsAQuestion() {
+        val lesson = course.lesson("23")!!
+        val mistakes = com.engliziha.app.quiz.buildItems(lesson, Random(3)).mapNotNull { it.mistake }.distinct().take(10)
+        assertEquals(mistakes.size, com.engliziha.app.quiz.mistakeItems(course, mistakes, Random(3)).size)
+    }
+
+    @Test
+    fun levelExamsHaveTwentyQuestions() {
+        for (level in course.levels) {
+            assertEquals("exam ${level.code}", 20, com.engliziha.app.quiz.examItems(course, level.code, Random(5)).size)
+        }
+    }
+
+    @Test
+    fun threeDailySentencesThatStayTheSameAllDay() {
+        val a = course.dailySentences(empty, 20000).map { it.phrase.en }
+        assertEquals(3, a.size)
+        assertEquals(3, a.toSet().size)
+        assertEquals(a, course.dailySentences(empty, 20000).map { it.phrase.en })
+        assertEquals(6, com.engliziha.app.quiz.dailyTestItems(course, empty).size)
     }
 }

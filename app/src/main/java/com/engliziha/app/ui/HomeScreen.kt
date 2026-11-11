@@ -44,6 +44,13 @@ import androidx.compose.foundation.Image
 import androidx.compose.ui.res.painterResource
 import com.engliziha.app.R
 import com.engliziha.app.data.dueWords
+import android.Manifest
+import android.content.pm.PackageManager
+import android.os.Build
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.runtime.LaunchedEffect
+import androidx.core.content.ContextCompat
 import com.engliziha.app.data.Course
 import com.engliziha.app.data.Lesson
 import com.engliziha.app.data.Level
@@ -59,7 +66,19 @@ fun HomeScreen(
     onLesson: (String) -> Unit,
     onRecords: () -> Unit,
     onReview: () -> Unit,
+    onDaily: () -> Unit,
+    onNotebook: () -> Unit,
+    onQuiz: (QuizMode) -> Unit,
+    onSkipPlacement: () -> Unit,
 ) {
+    // Ask once for permission to show the daily reminders (Android 13+).
+    val appContext = LocalContext.current
+    val askNotifications = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) {}
+    LaunchedEffect(Unit) {
+        if (Build.VERSION.SDK_INT >= 33 &&
+            ContextCompat.checkSelfPermission(appContext, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
+        ) askNotifications.launch(Manifest.permission.POST_NOTIFICATIONS)
+    }
     val extra = LocalExtra.current
     val passed = course.all.count { state.lessons[it.n]?.passed == true }
     // Resume the lesson last opened if it is still unfinished, otherwise the next one in the path.
@@ -83,10 +102,65 @@ fun HomeScreen(
                 TextButton(onClick = onRecords) { Text("السجلات") }
             }
         }
+        if (!state.placementDone && passed == 0) item {
+            Surface(shape = MaterialTheme.shapes.large, color = MaterialTheme.colorScheme.primaryContainer, modifier = Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(18.dp)) {
+                    Text("🎯 هل تعرف بعض الإنجليزية؟", style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.onPrimaryContainer)
+                    Text("اختبار قصير من 20 سؤالاً يحدد مستواك ويفتح لك الدروس المناسبة بدل البدء من الصفر.",
+                        style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onPrimaryContainer)
+                    Spacer(Modifier.height(10.dp))
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+                        androidx.compose.material3.Button(onClick = { onQuiz(QuizMode.Placement) }) { Text("حدّد مستواي") }
+                        TextButton(onClick = onSkipPlacement) { Text("أبدأ من الصفر") }
+                    }
+                }
+            }
+        }
         if (resume != null) item {
             ResumeCard(resume, state, passed, course.all.size) { onLesson(resume.n) }
             Spacer(Modifier.height(12.dp))
             DailyRow(state.streak(), course.dueWords(state).size, onReview)
+            Spacer(Modifier.height(12.dp))
+            val daily = state.dailyToday()
+            Surface(
+                onClick = onDaily, shape = MaterialTheme.shapes.medium, color = MaterialTheme.colorScheme.surface,
+                border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant), modifier = Modifier.fillMaxWidth(),
+            ) {
+                Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Text("📅", fontSize = 28.sp)
+                    Spacer(Modifier.width(12.dp))
+                    Column(Modifier.weight(1f)) {
+                        Text("جملة اليوم", style = MaterialTheme.typography.titleMedium)
+                        Text("صباحاً وعصراً و9 مساءً — احفظها كتابةً ونطقاً", style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                    Text(if (daily.tested) "✓" else "${daily.learned.size}/3", style = Numeric, fontSize = 18.sp,
+                        color = if (daily.tested) LocalExtra.current.success else MaterialTheme.colorScheme.primary)
+                }
+            }
+            Spacer(Modifier.height(12.dp))
+            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                Surface(
+                    onClick = { onQuiz(QuizMode.Mistakes) }, enabled = state.mistakes.isNotEmpty(),
+                    shape = MaterialTheme.shapes.medium, color = MaterialTheme.colorScheme.surfaceContainer, modifier = Modifier.weight(1f),
+                ) {
+                    Column(Modifier.padding(14.dp)) {
+                        Text("🛠 أخطائي", style = MaterialTheme.typography.titleMedium)
+                        Text(if (state.mistakes.isEmpty()) "لا أخطاء محفوظة" else "${state.mistakes.size} سؤالاً للتصحيح",
+                            style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                }
+                Surface(
+                    onClick = onNotebook, shape = MaterialTheme.shapes.medium,
+                    color = MaterialTheme.colorScheme.surfaceContainer, modifier = Modifier.weight(1f),
+                ) {
+                    Column(Modifier.padding(14.dp)) {
+                        Text("⭐ دفتر كلماتي", style = MaterialTheme.typography.titleMedium)
+                        Text("${state.starred.size} محفوظة", style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                }
+            }
             Spacer(Modifier.height(12.dp))
             Text("المستويات", style = MaterialTheme.typography.titleLarge)
         }
@@ -219,7 +293,7 @@ private fun LevelRow(level: Level, state: ProgressState, open: Boolean, color: a
 }
 
 @Composable
-fun LevelScreen(course: Course, code: String, state: ProgressState, onBack: () -> Unit, onLesson: (String) -> Unit) {
+fun LevelScreen(course: Course, code: String, state: ProgressState, onBack: () -> Unit, onLesson: (String) -> Unit, onExam: () -> Unit) {
     val level = course.level(code) ?: return
     val color = LocalExtra.current.level(code)
     val context = LocalContext.current
@@ -283,6 +357,35 @@ fun LevelScreen(course: Course, code: String, state: ProgressState, onBack: () -
                             color = if (p?.passed == true) LocalExtra.current.success else MaterialTheme.colorScheme.error)
                     }
                 }
+            }
+            item {
+                ExamCard(code, level.lessons.all { state.lessons[it.n]?.passed == true }, state.exams[code], color, onExam)
+            }
+        }
+    }
+}
+
+/** The level's final exam; opens when every lesson in the level is passed. */
+@Composable
+private fun ExamCard(code: String, ready: Boolean, best: Int?, color: androidx.compose.ui.graphics.Color, onExam: () -> Unit) {
+    Surface(
+        onClick = onExam, enabled = ready, shape = MaterialTheme.shapes.large,
+        color = if (ready) color.copy(alpha = 0.14f) else MaterialTheme.colorScheme.surfaceContainer,
+        modifier = Modifier.fillMaxWidth().padding(top = 16.dp),
+    ) {
+        Row(Modifier.padding(18.dp), verticalAlignment = Alignment.CenterVertically) {
+            Text(if (ready) "🏅" else "🔒", fontSize = 30.sp)
+            Spacer(Modifier.width(14.dp))
+            Column(Modifier.weight(1f)) {
+                Text("الاختبار الشامل للمستوى $code", style = MaterialTheme.typography.titleMedium)
+                Text(
+                    when {
+                        !ready -> "يُفتح بعد النجاح في كل دروس المستوى"
+                        best != null -> "أفضل نتيجة $best% — اضغط لإعادة الاختبار"
+                        else -> "20 سؤالاً من كل الدروس، وشهادة إنجاز عند النجاح"
+                    },
+                    style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
             }
         }
     }

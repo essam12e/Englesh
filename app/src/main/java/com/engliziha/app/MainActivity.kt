@@ -24,7 +24,12 @@ import com.engliziha.app.ui.AppTheme
 import com.engliziha.app.ui.HomeScreen
 import com.engliziha.app.ui.LessonScreen
 import com.engliziha.app.ui.LevelScreen
+import com.engliziha.app.ui.QuizMode
 import com.engliziha.app.ui.QuizScreen
+import com.engliziha.app.ui.DailyScreen
+import com.engliziha.app.ui.NotebookScreen
+import com.engliziha.app.ui.ShadowScreen
+import com.engliziha.app.notify.Reminders
 import com.engliziha.app.ui.RecordsScreen
 import com.engliziha.app.ui.ReviewScreen
 
@@ -34,7 +39,10 @@ sealed interface Screen {
     data object Review : Screen
     data class LevelList(val code: String) : Screen
     data class LessonView(val n: String) : Screen
-    data class Quiz(val n: String) : Screen
+    data class Quiz(val mode: QuizMode) : Screen
+    data class Shadow(val n: String) : Screen
+    data object Daily : Screen
+    data object Notebook : Screen
 }
 
 class MainActivity : ComponentActivity() {
@@ -43,6 +51,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         val course = Course.load(this)
         val store = ProgressStore(this)
+        Reminders.schedule(this)
         setContent {
             AppTheme {
                 val stack = remember { mutableStateListOf<Screen>(Screen.Home) }
@@ -63,19 +72,28 @@ class MainActivity : ComponentActivity() {
                                 onLesson = { stack += Screen.LessonView(it) },
                                 onRecords = { stack += Screen.Records },
                                 onReview = { stack += Screen.Review },
+                                onDaily = { stack += Screen.Daily },
+                                onNotebook = { stack += Screen.Notebook },
+                                onQuiz = { stack += Screen.Quiz(it) },
+                                onSkipPlacement = { store.skipPlacement() },
                             )
-                            Screen.Records -> RecordsScreen(course, state, back)
+                            Screen.Records -> RecordsScreen(course, state, store, back)
+                            Screen.Daily -> DailyScreen(course, state, back) { stack += Screen.Quiz(it) }
+                            Screen.Notebook -> NotebookScreen(course, state, store, back)
+                            is Screen.Shadow -> ShadowScreen(course, screen.n, back)
                             Screen.Review -> ReviewScreen(course, store, back)
                             is Screen.LevelList -> LevelScreen(
                                 course, screen.code, state, back,
                                 onLesson = { stack += Screen.LessonView(it) },
+                                onExam = { stack += Screen.Quiz(QuizMode.Exam(screen.code)) },
                             )
                             is Screen.LessonView -> LessonScreen(
                                 course, screen.n, state, store, back,
-                                onQuiz = { stack += Screen.Quiz(screen.n) },
+                                onQuiz = { stack += Screen.Quiz(QuizMode.LessonQuiz(screen.n)) },
+                                onShadow = { stack += Screen.Shadow(screen.n) },
                             )
                             is Screen.Quiz -> QuizScreen(
-                                course, screen.n, store,
+                                course, screen.mode, store,
                                 onClose = back,
                                 onNext = { next ->
                                     // Leave the quiz and the finished lesson, then open the next one.

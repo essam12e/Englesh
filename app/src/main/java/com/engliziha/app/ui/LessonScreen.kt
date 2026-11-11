@@ -76,6 +76,7 @@ fun LessonScreen(
     store: ProgressStore,
     onBack: () -> Unit,
     onQuiz: () -> Unit,
+    onShadow: () -> Unit,
 ) {
     val lesson = course.lesson(n) ?: return
     val context = LocalContext.current
@@ -110,6 +111,10 @@ fun LessonScreen(
                         else -> "أعد الاختبار · نتيجتك $best% (النجاح من $PASS_PERCENT%)"
                     }
                 )
+            }
+
+            OutlinedButton(onClick = onShadow, modifier = Modifier.fillMaxWidth().height(52.dp), shape = MaterialTheme.shapes.medium) {
+                Text("🎤 تمرين الاستماع والترديد")
             }
 
             if (lesson.alerts.isNotEmpty()) {
@@ -153,6 +158,7 @@ fun LessonScreen(
                                 English(v.en, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary)
                                 Spacer(Modifier.width(8.dp))
                                 Text("🔊", fontSize = 16.sp)
+                                Star("${lesson.n}|${v.en}", state, store)
                             }
                         }
                     }
@@ -166,9 +172,12 @@ fun LessonScreen(
                         shape = MaterialTheme.shapes.medium, color = MaterialTheme.colorScheme.surfaceContainer,
                         modifier = Modifier.fillMaxWidth(),
                     ) {
-                        Column(Modifier.padding(horizontal = 16.dp, vertical = 12.dp)) {
-                            English("🔊  ${p.en}", Modifier.fillMaxWidth(), style = MaterialTheme.typography.titleMedium)
-                            Text(p.ar, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Row(Modifier.padding(start = 16.dp, top = 12.dp, bottom = 12.dp), verticalAlignment = Alignment.CenterVertically) {
+                            Column(Modifier.weight(1f)) {
+                                English("🔊  ${p.en}", Modifier.fillMaxWidth(), style = MaterialTheme.typography.titleMedium)
+                                Text(p.ar, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                            }
+                            Star("${lesson.n}|${p.en}", state, store)
                         }
                     }
                 }
@@ -184,6 +193,19 @@ fun LessonScreen(
             confirmButton = { Button(onClick = { finished = false; onQuiz() }) { Text("ابدأ الاختبار") } },
             dismissButton = { TextButton(onClick = { finished = false }) { Text("راجع الملخص أولاً") } },
         )
+    }
+}
+
+/** Saves a word or sentence to the notebook. */
+@Composable
+private fun Star(key: String, state: ProgressState, store: ProgressStore) {
+    val on = key in state.starred
+    Box(
+        Modifier.size(44.dp).clip(CircleShape).clickable(onClickLabel = "احفظ في دفتر كلماتي") { store.toggleStar(key) },
+        contentAlignment = Alignment.Center,
+    ) {
+        Text(if (on) "★" else "☆", fontSize = 22.sp,
+            color = if (on) LocalExtra.current.attention else MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }
 
