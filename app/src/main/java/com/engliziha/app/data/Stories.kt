@@ -28,7 +28,8 @@ data class Story(
     val quiz: List<McqItem> = emptyList(),
 ) {
     /** Asset path of the narration for one page (pages are numbered from 01). */
-    fun audio(page: Int): String = "stories/audio/$id/%02d.mp3".format(page + 1)
+    // Locale.ROOT: on phones set to Arabic digits, the default locale would write "٠١.mp3".
+    fun audio(page: Int): String = String.format(java.util.Locale.ROOT, "stories/audio/%s/%02d.mp3", id, page + 1)
 
     val credits: String
         get() = buildString {

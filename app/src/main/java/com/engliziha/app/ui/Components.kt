@@ -101,5 +101,5 @@ fun ProgressLine(fraction: Float, color: Color, modifier: Modifier = Modifier, h
 
 fun formatTime(seconds: Float): String {
     val s = seconds.toInt().coerceAtLeast(0)
-    return "%d:%02d".format(s / 60, s % 60)
+    return String.format(java.util.Locale.ROOT, "%d:%02d", s / 60, s % 60)
 }

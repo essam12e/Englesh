@@ -192,3 +192,19 @@ class StoriesTest {
         }
     }
 }
+
+class LocaleTest {
+    @Test
+    fun audioPathsUseLatinDigitsEvenWithAnArabicLocale() {
+        val saved = java.util.Locale.getDefault()
+        try {
+            java.util.Locale.setDefault(java.util.Locale.forLanguageTag("ar-SA-u-nu-arab"))
+            val story = Json { ignoreUnknownKeys = true }
+                .decodeFromString<List<com.engliziha.app.data.Story>>(File("src/main/assets/stories/stories.json").readText()).first()
+            assertEquals("stories/audio/${story.id}/01.mp3", story.audio(0))
+            assertEquals("1:05", com.engliziha.app.ui.formatTime(65f))
+        } finally {
+            java.util.Locale.setDefault(saved)
+        }
+    }
+}
