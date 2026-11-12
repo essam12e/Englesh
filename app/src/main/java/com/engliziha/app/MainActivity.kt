@@ -31,6 +31,9 @@ import com.engliziha.app.ui.NotebookScreen
 import com.engliziha.app.ui.ShadowScreen
 import com.engliziha.app.ui.WritingScreen
 import com.engliziha.app.data.Dictionary
+import com.engliziha.app.data.Story
+import com.engliziha.app.ui.StoriesScreen
+import com.engliziha.app.ui.StoryScreen
 import com.engliziha.app.notify.Reminders
 import com.engliziha.app.ui.RecordsScreen
 import com.engliziha.app.ui.ReviewScreen
@@ -46,6 +49,8 @@ sealed interface Screen {
     data object Daily : Screen
     data object Notebook : Screen
     data object Writing : Screen
+    data object Stories : Screen
+    data class StoryView(val id: String) : Screen
 }
 
 class MainActivity : ComponentActivity() {
@@ -56,6 +61,7 @@ class MainActivity : ComponentActivity() {
         val store = ProgressStore(this)
         // Loaded on first use (about a megabyte of words), then kept.
         val dictionary by lazy { Dictionary.load(applicationContext) }
+        val stories by lazy { Story.load(applicationContext) }
         Reminders.schedule(this)
         setContent {
             AppTheme {
@@ -80,12 +86,17 @@ class MainActivity : ComponentActivity() {
                                 onDaily = { stack += Screen.Daily },
                                 onNotebook = { stack += Screen.Notebook },
                                 onWriting = { stack += Screen.Writing },
+                                onStories = { stack += Screen.Stories },
                                 onQuiz = { stack += Screen.Quiz(it) },
                                 onSkipPlacement = { store.skipPlacement() },
                             )
                             Screen.Records -> RecordsScreen(course, state, store, back)
                             Screen.Daily -> DailyScreen(course, state, back) { stack += Screen.Quiz(it) }
                             Screen.Notebook -> NotebookScreen(course, state, store, back)
+                            Screen.Stories -> StoriesScreen(stories, state, back) { stack += Screen.StoryView(it) }
+                            is Screen.StoryView -> StoryScreen(stories.first { it.id == screen.id }, state, store, back) {
+                                stack += Screen.Quiz(QuizMode.StoryQuiz(screen.id))
+                            }
                             Screen.Writing -> WritingScreen(state, store, { dictionary }, back) { stack += Screen.Quiz(QuizMode.Spelling) }
                             is Screen.Shadow -> ShadowScreen(course, screen.n, back)
                             Screen.Review -> ReviewScreen(course, store, back)
@@ -100,7 +111,7 @@ class MainActivity : ComponentActivity() {
                                 onShadow = { stack += Screen.Shadow(screen.n) },
                             )
                             is Screen.Quiz -> QuizScreen(
-                                course, screen.mode, store, { dictionary },
+                                course, screen.mode, store, { dictionary }, { stories },
                                 onClose = back,
                                 onNext = { next ->
                                     // Leave the quiz and the finished lesson, then open the next one.

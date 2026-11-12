@@ -67,6 +67,7 @@ import androidx.core.content.ContextCompat
 import com.engliziha.app.data.Attempt
 import com.engliziha.app.data.Course
 import com.engliziha.app.data.Dictionary
+import com.engliziha.app.data.Story
 import com.engliziha.app.quiz.QuizItem
 import com.engliziha.app.data.PASS_PERCENT
 import com.engliziha.app.data.ProgressStore
@@ -100,6 +101,7 @@ sealed interface QuizMode {
     data class DailyLearn(val slot: Int) : QuizMode
     data object DailyTest : QuizMode
     data object Spelling : QuizMode
+    data class StoryQuiz(val id: String) : QuizMode
 }
 
 private data class Summary(
@@ -112,7 +114,7 @@ private data class Summary(
 }
 
 @Composable
-fun QuizScreen(course: Course, mode: QuizMode, store: ProgressStore, dictionary: () -> Dictionary, onClose: () -> Unit, onNext: (String) -> Unit) {
+fun QuizScreen(course: Course, mode: QuizMode, store: ProgressStore, dictionary: () -> Dictionary, stories: () -> List<Story>, onClose: () -> Unit, onNext: (String) -> Unit) {
     val context = LocalContext.current
     val speaker = remember { Speaker(context) }
     val listener = remember { Listener(context) }
@@ -129,6 +131,14 @@ fun QuizScreen(course: Course, mode: QuizMode, store: ProgressStore, dictionary:
             is QuizMode.DailyLearn -> dailyLearnItems(course, state, mode.slot)
             QuizMode.DailyTest -> dailyTestItems(course, state)
             // Hear each word you misspelled in the writing pad and type it.
+            is QuizMode.StoryQuiz -> stories().firstOrNull { it.id == mode.id }?.let { story ->
+                story.quiz.shuffled().map { m ->
+                    val order = m.o.indices.shuffled()
+                    QuizItem(Question.Choice(m.q, order.map { m.o[it] }, order.indexOf(m.a), m.why), "")
+                } + story.vocab.shuffled().take(2).filter { w -> w.en.all { it.isLetter() || it == ' ' || it == '\'' } }.map { w ->
+                    QuizItem(Question.Translate("🎧", w.ar, w.en), "")
+                }
+            }.orEmpty()
             QuizMode.Spelling -> state.spelling.shuffled().take(10).map { w ->
                 QuizItem(Question.Dictation(w, dictionary().example(w)?.arabic.orEmpty()), "")
             }
@@ -178,6 +188,12 @@ fun QuizScreen(course: Course, mode: QuizMode, store: ProgressStore, dictionary:
                 store.addAttempt(attempt("daily", "اختبار جمل اليوم", items.firstOrNull()?.let { course.lesson(it.lesson)?.level } ?: ""), lessonQuiz = false)
             }
             QuizMode.Mistakes -> {}
+            is QuizMode.StoryQuiz -> {
+                store.storyScore(mode.id, s.percent)
+                stories().firstOrNull { it.id == mode.id }?.let {
+                    store.addAttempt(attempt("story", "قصة: ${it.title_ar}", "🎧"), lessonQuiz = false)
+                }
+            }
             QuizMode.Spelling -> store.spellingFixed(
                 items.indices.filter { results[it] == true }.mapNotNull { (items[it].question as? Question.Dictation)?.text }
             )
@@ -554,7 +570,7 @@ private fun ResultView(
     val extra = LocalExtra.current
     val scored = mode !is QuizMode.DailyLearn && mode !is QuizMode.Placement
     val good = when (mode) {
-        is QuizMode.LessonQuiz, is QuizMode.Exam -> s.passed
+        is QuizMode.LessonQuiz, is QuizMode.Exam, is QuizMode.StoryQuiz -> s.passed
         else -> true
     }
     val color = if (good) extra.success else MaterialTheme.colorScheme.error
@@ -566,6 +582,8 @@ private fun ResultView(
         is QuizMode.Exam ->
             if (s.passed) "مبروك! أتممت المستوى ${mode.code}" to "أجبت عن ${s.correct} من ${s.total} في الاختبار الشامل."
             else "لم تصل إلى $PASS_PERCENT% بعد" to "أجبت عن ${s.correct} من ${s.total}. راجع دروس المستوى ثم أعد الاختبار."
+        is QuizMode.StoryQuiz -> (if (s.passed) "أحسنت! فهمت القصة" else "حاول مرة أخرى") to
+            "أجبت عن ${s.correct} من ${s.total}. ${if (s.passed) "انتقل إلى قصة أخرى." else "استمع للقصة مرة ثانية مع الترجمة ثم أعد الاختبار."}"
         QuizMode.Spelling -> "كتبت ${s.correct} من ${s.total} صحيحة" to "الكلمات التي كتبتها صحيحة خرجت من قائمة أخطائك الإملائية."
         QuizMode.Mistakes -> "صحّحت ${s.correct} من ${s.total}" to "الأسئلة التي أجبتها صحيحة حُذفت من قائمة أخطائك، والباقي ينتظرك."
         QuizMode.Placement -> "مستواك المناسب: ${s.placed}" to
@@ -592,7 +610,7 @@ private fun ResultView(
         if (mode is QuizMode.Exam && s.passed) {
             Certificate(course, mode.code, s.percent, store)
             Spacer(Modifier.height(24.dp))
-        } else if (scored && mode != QuizMode.Mistakes && mode != QuizMode.Spelling) {
+        } else if (scored && mode != QuizMode.Mistakes && mode != QuizMode.Spelling && mode !is QuizMode.StoryQuiz) {
             SkillBars(s.questions, s.writing, s.speaking)
             Spacer(Modifier.height(28.dp))
         }

@@ -176,3 +176,19 @@ class DictionaryTest {
         assertEquals(null, d.blank("I like pineapples.", "apple"))
     }
 }
+
+class StoriesTest {
+    @Test
+    fun everyStoryPageHasItsNarration() {
+        val stories = Json { ignoreUnknownKeys = true }
+            .decodeFromString<List<com.engliziha.app.data.Story>>(File("src/main/assets/stories/stories.json").readText())
+        assertEquals(41, stories.size)
+        for (s in stories) {
+            assertEquals(s.title, s.pages.first().en)
+            s.pages.indices.forEach { assertTrue("${s.id} page $it", File("src/main/assets/" + s.audio(it)).exists()) }
+            assertFalse("${s.id} has an extra track", File("src/main/assets/" + s.audio(s.pages.size)).exists())
+            assertTrue(s.pages.all { it.en.isNotBlank() && it.ar.isNotBlank() })
+            s.quiz.forEach { assertTrue(it.a in 0..3) }
+        }
+    }
+}

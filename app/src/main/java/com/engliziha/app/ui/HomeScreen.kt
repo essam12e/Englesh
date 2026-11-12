@@ -69,6 +69,7 @@ fun HomeScreen(
     onDaily: () -> Unit,
     onNotebook: () -> Unit,
     onWriting: () -> Unit,
+    onStories: () -> Unit,
     onQuiz: (QuizMode) -> Unit,
     onSkipPlacement: () -> Unit,
 ) {
@@ -137,6 +138,22 @@ fun HomeScreen(
                     }
                     Text(if (daily.tested) "✓" else "${daily.learned.size}/3", style = Numeric, fontSize = 18.sp,
                         color = if (daily.tested) LocalExtra.current.success else MaterialTheme.colorScheme.primary)
+                }
+            }
+            Spacer(Modifier.height(12.dp))
+            Surface(
+                onClick = onStories, shape = MaterialTheme.shapes.medium, color = MaterialTheme.colorScheme.primaryContainer,
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Text("🎧", fontSize = 28.sp)
+                    Spacer(Modifier.width(12.dp))
+                    Column(Modifier.weight(1f)) {
+                        Text("القصص الصوتية", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onPrimaryContainer)
+                        Text("قصص قصيرة بصوت راوٍ حقيقي مع الترجمة — بدون إنترنت", style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onPrimaryContainer)
+                    }
+                    Text("${state.stories.size}", style = Numeric, fontSize = 18.sp, color = MaterialTheme.colorScheme.primary)
                 }
             }
             Spacer(Modifier.height(12.dp))

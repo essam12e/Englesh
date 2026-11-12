@@ -1,0 +1,20 @@
+{
+ "id": "0002_look-at-the-animals",
+ "title": "Look at the animals",
+ "level": 1,
+ "license": "CC-BY-NC",
+ "text_by": "Jenny Katz",
+ "illustration_by": "Sandy Campbell",
+ "translation_by": "",
+ "pages": [
+  "Look at the animals.",
+  "The cow says, \"Moo.\"",
+  "The goat says, \"Meh, meh.\"",
+  "The horse says, \"Neigh.\"",
+  "The pig says, \"Grunt.\"",
+  "The chicken says, \"Cluck.\"",
+  "The dog says, \"Woof.\"",
+  "The farmer says, \"Shhh!\"",
+  ""
+ ]
+}

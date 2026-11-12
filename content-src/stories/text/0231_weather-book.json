@@ -1,0 +1,20 @@
+{
+ "id": "0231_weather-book",
+ "title": "Weather book",
+ "level": 1,
+ "license": "CC-BY-NC",
+ "text_by": "Clare Verbeek, Thembani Dladla, Zanele Buthelezi",
+ "illustration_by": "Sandra McDougall, Ingrid Schechter",
+ "translation_by": "",
+ "pages": [
+  "It is dry.",
+  "The sun is hot.",
+  "It is windy.",
+  "It is cloudy.",
+  "It is cold.",
+  "It is raining.",
+  "There is thunder.",
+  "I see a rainbow.",
+  ""
+ ]
+}
