@@ -1,7 +1,13 @@
 package com.engliziha.app.ui
 
-import android.media.MediaPlayer
-import android.media.PlaybackParams
+import android.net.Uri
+import android.widget.Toast
+import androidx.media3.common.AudioAttributes
+import androidx.media3.common.C
+import androidx.media3.common.MediaItem
+import androidx.media3.common.PlaybackException
+import androidx.media3.common.Player
+import androidx.media3.exoplayer.ExoPlayer
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
@@ -115,42 +121,56 @@ fun StoryScreen(story: Story, state: ProgressState, store: ProgressStore, onBack
     var finished by remember { mutableStateOf(false) }
     var showArabic by remember { mutableStateOf(false) }
     var speed by remember { mutableIntStateOf(1) }
-    val player = remember { MediaPlayer() }
-    var prepared by remember { mutableStateOf(false) }
 
-    fun play(index: Int) {
-        if (index !in story.pages.indices) { playing = false; finished = true; return }
-        page = index
-        store.storyPage(story.id, index)
-        try {
-            player.reset()
-            context.assets.openFd(story.audio(index)).use { fd -> player.setDataSource(fd.fileDescriptor, fd.startOffset, fd.length) }
-            player.prepare()
-            player.playbackParams = PlaybackParams().setSpeed(SPEEDS[speed])
-            player.start()
-            playing = true
-            prepared = true
-        } catch (e: Exception) {
-            playing = false
-            prepared = false
+    // ExoPlayer plays the pages as one playlist, so moving to the next page is seamless and
+    // behaves the same on every phone (MediaPlayer differs between manufacturers).
+    val player = remember {
+        ExoPlayer.Builder(context).build().apply {
+            setAudioAttributes(
+                AudioAttributes.Builder().setUsage(C.USAGE_MEDIA).setContentType(C.AUDIO_CONTENT_TYPE_SPEECH).build(),
+                true,
+            )
+            setMediaItems(story.pages.indices.map { MediaItem.fromUri(Uri.parse("asset:///" + story.audio(it))) }, page, 0L)
+            prepare()
         }
     }
-
-    DisposableEffect(Unit) {
-        // When one page ends, go on to the next one.
-        player.setOnCompletionListener { play(page + 1) }
-        onDispose { player.release(); speaker.release() }
+    DisposableEffect(player) {
+        val listener = object : Player.Listener {
+            override fun onIsPlayingChanged(isPlaying: Boolean) { playing = isPlaying }
+            override fun onMediaItemTransition(mediaItem: MediaItem?, reason: Int) {
+                page = player.currentMediaItemIndex
+                store.storyPage(story.id, page)
+            }
+            override fun onPlaybackStateChanged(playbackState: Int) {
+                if (playbackState == Player.STATE_ENDED) { finished = true; playing = false }
+            }
+            override fun onPlayerError(error: PlaybackException) {
+                Toast.makeText(context, "تعذّر تشغيل الصوت: ${error.errorCodeName}", Toast.LENGTH_LONG).show()
+            }
+        }
+        player.addListener(listener)
+        onDispose { player.removeListener(listener); player.release(); speaker.release() }
     }
     LaunchedEffect(page) { listState.animateScrollToItem(page + 1) }
 
+    fun play(index: Int) {
+        val target = index.coerceIn(0, story.pages.lastIndex)
+        finished = false
+        page = target
+        store.storyPage(story.id, target)
+        if (player.playbackState == Player.STATE_IDLE) player.prepare()
+        player.seekTo(target, 0L)
+        player.play()
+    }
+
     fun toggle() {
         when {
-            playing -> { player.pause(); playing = false }
-            finished -> { finished = false; play(0) }
-            prepared -> {
-                try { player.start(); playing = true } catch (e: IllegalStateException) { play(page) }
+            player.isPlaying -> player.pause()
+            finished -> play(0)
+            else -> {
+                if (player.playbackState == Player.STATE_IDLE) player.prepare()
+                player.play()
             }
-            else -> play(page)
         }
     }
 
@@ -182,7 +202,7 @@ fun StoryScreen(story: Story, state: ProgressState, store: ProgressStore, onBack
                     if (current) MaterialTheme.colorScheme.primaryContainer else MaterialTheme.colorScheme.surface, label = "page",
                 )
                 Surface(
-                    onClick = { finished = false; play(i) }, shape = MaterialTheme.shapes.medium, color = bg,
+                    onClick = { play(i) }, shape = MaterialTheme.shapes.medium, color = bg,
                     border = BorderStroke(1.dp, if (current) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outlineVariant),
                     modifier = Modifier.fillMaxWidth(),
                 ) {
@@ -218,7 +238,7 @@ fun StoryScreen(story: Story, state: ProgressState, store: ProgressStore, onBack
             }
             item {
                 Spacer(Modifier.height(8.dp))
-                Button(onClick = { player.pause(); playing = false; onQuiz() }, modifier = Modifier.fillMaxWidth().height(52.dp),
+                Button(onClick = { player.pause(); onQuiz() }, modifier = Modifier.fillMaxWidth().height(52.dp),
                     shape = MaterialTheme.shapes.medium) {
                     Text(state.stories[story.id]?.let { "أعد اختبار الفهم · أفضل نتيجة $it%" } ?: "اختبر فهمك للقصة")
                 }
@@ -236,9 +256,9 @@ fun StoryScreen(story: Story, state: ProgressState, store: ProgressStore, onBack
                     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly, verticalAlignment = Alignment.CenterVertically) {
                         BarButton("${SPEEDS[speed]}x", "سرعة القراءة") {
                             speed = (speed + 1) % SPEEDS.size
-                            if (playing) try { player.playbackParams = PlaybackParams().setSpeed(SPEEDS[speed]) } catch (e: Exception) {}
+                            player.setPlaybackSpeed(SPEEDS[speed])
                         }
-                        BarButton("⏮", "الصفحة السابقة") { finished = false; play((page - 1).coerceAtLeast(0)) }
+                        BarButton("⏮", "الصفحة السابقة") { play(page - 1) }
                         Box(
                             Modifier.size(60.dp).clip(CircleShape).background(MaterialTheme.colorScheme.primary).clickable { toggle() },
                             contentAlignment = Alignment.Center,
@@ -249,8 +269,8 @@ fun StoryScreen(story: Story, state: ProgressState, store: ProgressStore, onBack
                                 Box(Modifier.size(width = 6.dp, height = 20.dp).background(Color.White))
                             } else Icon(Icons.Filled.PlayArrow, "تشغيل", tint = Color.White, modifier = Modifier.size(36.dp))
                         }
-                        BarButton("⏭", "الصفحة التالية") { finished = false; play((page + 1).coerceAtMost(story.pages.lastIndex)) }
-                        BarButton("↻", "أعد الصفحة") { finished = false; play(page) }
+                        BarButton("⏭", "الصفحة التالية") { play(page + 1) }
+                        BarButton("↻", "أعد الصفحة") { play(page) }
                     }
                 }
                 if (finished) Text("انتهت القصة 🎉 — اختبر فهمك من الزر في الأسفل", Modifier.fillMaxWidth().padding(top = 6.dp),
